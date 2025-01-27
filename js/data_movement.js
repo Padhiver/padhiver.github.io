@@ -103,8 +103,8 @@ data_movement = [
         title: "Improvise",
         optional: "Règle standard",
         icon: "juggler",
-        subtitle: "Any stunt not on this list",
-        description: "Perform any movement or stunt you can imagine",
+        subtitle: "Toute action non listée ici",
+        description: "Effectuez tout mouvement ou action que vous pouvez imaginer",
         bullets: [
             "When you describe a kind of movement not detailed elsewhere in the rules, the DM tells you whether it is possible and what kind of roll you need to make, if any, to determine success or failure."
         ]
@@ -115,7 +115,7 @@ data_movement = [
         icon: "stone-pile",
         subtitle: "Modif. de coût : +1,5m par 1,5m",
         reference: "PHB, pg. 182.",
-        description: "Moving in difficult terrain costs an additional 5ft per 5ft of movement",
+        description: "Se déplacer sur un terrain difficile coûte 1,5m supplémentaire par 1,5m de mouvement",
         bullets: [
         ]
     },
@@ -124,7 +124,7 @@ data_movement = [
         optional: "Règle standard",
         icon: "grab",
         subtitle: "Modif. de coût : vitesse divisée par 2",
-        description: "Drag or carry the grappled creature with you",
+        description: "Traîner ou porter la créature que vous avez empoignée",
         reference: "PHB, pg. 195.",
         bullets: [
             "If you move while grappling another creature, your speed is halved, unless the creature is two or more sizes smaller than you.",
