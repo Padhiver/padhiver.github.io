@@ -193,8 +193,8 @@ document.addEventListener("DOMContentLoaded", function () {
     darkModeToggleItem.addEventListener('click', handleToggleClick(darkModeCheckbox));
 
     // Ensure dark  and optional mode is on by default
-    darkModeCheckbox.checked = true;
-    optionalCheckbox.checked = true;
+    darkModeCheckbox.checked = false;
+    optionalCheckbox.checked = false;
     handleDarkModeToggle();
     handleRulesToggle();
 });
