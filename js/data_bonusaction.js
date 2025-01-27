@@ -1,7 +1,7 @@
 data_bonusaction = [
     {
         title: "Two-Weapon Fighting",
-        optional: "Standard rule",
+        optional: "Règle standard",
         icon: "crossed-swords",
         subtitle: "Use with the Attack action",
         description: "Attack with your off hand",
@@ -14,7 +14,7 @@ data_bonusaction = [
     },
     {
         title: "Magic",
-        optional: "Standard rule",
+        optional: "Règle standard",
         icon: "magic-swirl",
         subtitle: "Cast time of a bonus action",
         description: "Cast a spell that has a casting time of a bonus action or use a feature or magic item that requires a Magic bonus action to be activated.",
@@ -27,7 +27,7 @@ data_bonusaction = [
     },
     {
         title: "Use class feature",
-        optional: "Standard rule",
+        optional: "Règle standard",
         icon: "embrassed-energy",
         subtitle: "Several class options use bonus actions",
         description: "Use a species or class feature that uses a bonus action",

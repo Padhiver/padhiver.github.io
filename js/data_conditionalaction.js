@@ -1,7 +1,7 @@
 data_conditionalaction = [
     {
         title: "Don or Doff a Shield",
-        optional: "Standard rule",
+        optional: "Règle standard",
         icon: "round-shield",
         subtitle: "Equip or unequip a shield",
         description: "Equip or unequip a shield",
@@ -12,7 +12,7 @@ data_conditionalaction = [
     },
     {
         title: "Stabilize a creature",
-        optional: "Standard rule",
+        optional: "Règle standard",
         icon: "first-aid",
         subtitle: "(Help) Aid a dying creature",
         description: "Stop a dying creature from needing to make death saving throws",
@@ -26,7 +26,7 @@ data_conditionalaction = [
     },
     {
         title: "Escape a Grapple",
-        optional: "Standard rule",
+        optional: "Règle standard",
         icon: "manacles",
         subtitle: "Attempt to escape",
         description: "Escape a grapple",

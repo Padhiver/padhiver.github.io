@@ -1,7 +1,7 @@
 data_action = [
     {
         title: "Attack",
-        optional: "Standard rule",
+        optional: "Règle standard",
         icon: "crossed-swords",
         subtitle: "Melee or ranged attack",
         description: "Perform a melee or ranged attack with your weapon",
@@ -14,7 +14,7 @@ data_action = [
     },
     {
         title: "Unarmed Strike",
-        optional: "Standard rule",
+        optional: "Règle standard",
         icon: "punch",
         subtitle: "Attack with no weapon",
         description: "A punch, kick, head-butt, or similar forceful blow",
@@ -26,7 +26,7 @@ data_action = [
     },
     {
         title: "Grapple",
-        optional: "Standard rule",
+        optional: "Règle standard",
         icon: "grab",
         subtitle: "Unarmed Strike Option",
         description: "Attempt to grab a creature or wrestle with it",
@@ -39,7 +39,7 @@ data_action = [
     },
     {
         title: "Shove",
-        optional: "Standard rule",
+        optional: "Règle standard",
         icon: "hand",
         subtitle: "Unarmed Strike Option",
         description: "Shove a creature, either to knock it prone or push it away from you",
@@ -55,7 +55,7 @@ data_action = [
     },
     {
         title: "Magic",
-        optional: "Standard rule",
+        optional: "Règle standard",
         icon: "magic-swirl",
         subtitle: "Cast time of an action",
         description: "Cast a spell that has a casting time of an action or use a feature or magic item that requires a Magic action to be activated.",
@@ -68,7 +68,7 @@ data_action = [
     },
     {
         title: "Dash",
-        optional: "Standard rule",
+        optional: "Règle standard",
         icon: "sprint",
         subtitle: "Additional movement speed",
         description: "Gain extra movement for the current turn",
@@ -80,7 +80,7 @@ data_action = [
     },
     {
         title: "Disengage",
-        optional: "Standard rule",
+        optional: "Règle standard",
         icon: "run",
         subtitle: "Prevent opportunity attacks",
         description: "Your movement doesn't provoke Opportunity Attacks for the rest of the turn",
@@ -91,7 +91,7 @@ data_action = [
     },
     {
         title: "Dodge",
-        optional: "Standard rule",
+        optional: "Règle standard",
         icon: "dodging",
         subtitle: "Avoid incoming attacks",
         description: "Focus entirely on avoiding attacks",
@@ -103,7 +103,7 @@ data_action = [
     },
     {
         title: "Help",
-        optional: "Standard rule",
+        optional: "Règle standard",
         icon: "team-idea",
         subtitle: "Grant an ally advantage",
         description: "Grant an ally advantage on an Ability Check or Attack Roll",
@@ -116,7 +116,7 @@ data_action = [
     },
     {
         title: "Hide",
-        optional: "Standard rule",
+        optional: "Règle standard",
         icon: "hood",
         subtitle: "Attempt to hide",
         description: "Attempt to hide",
@@ -129,7 +129,7 @@ data_action = [
     },
     {
         title: "Utilize",
-        optional: "Standard rule",
+        optional: "Règle standard",
         icon: "usable",
         subtitle: "Interact with item or object",
         description: "Use a nonmagical item or interact with an object seperate from the free interaction",
@@ -142,7 +142,7 @@ data_action = [
     },
     {
         title: "Search",
-        optional: "Standard rule",
+        optional: "Règle standard",
         icon: "look-at",
         subtitle: "Try to look for something",
         description: "Spend your searching.",
@@ -154,7 +154,7 @@ data_action = [
     },
     {
         title: "Study",
-        optional: "Standard rule",
+        optional: "Règle standard",
         icon: "magnifying-glass",
         subtitle: "Attempt to learn something",
         description: "Spend your time learning information",
@@ -166,7 +166,7 @@ data_action = [
     },
     {
         title: "Influence",
-        optional: "Standard rule",
+        optional: "Règle standard",
         icon: "conversation",
         subtitle: "Attempt to convince someone",
         description: "Spend your time communicating",
@@ -179,7 +179,7 @@ data_action = [
     },
     {
         title: "Ready",
-        optional: "Standard rule",
+        optional: "Règle standard",
         icon: "stopwatch",
         subtitle: "Choose trigger and action",
         description: "Choose a trigger and a response reaction",
@@ -193,7 +193,7 @@ data_action = [
     },
     {
         title: "Use class feature",
-        optional: "Standard rule",
+        optional: "Règle standard",
         icon: "embrassed-energy",
         subtitle: "Some features use actions",
         description: "Use a racial or class feature that uses an action",
@@ -204,7 +204,7 @@ data_action = [
     },
     {
         title: "Improvise",
-        optional: "Standard rule",
+        optional: "Règle standard",
         icon: "juggler",
         subtitle: "Any action not on this list",
         description: "Perform any action you can imagine",

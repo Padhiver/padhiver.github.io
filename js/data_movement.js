@@ -1,10 +1,10 @@
 data_movement = [
     {
         title: "Move",
-        optional: "Standard rule",
+        optional: "Règle standard",
         icon: "run",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft moved",
+        subtitle: "Coût : 1,5m par 1,5m",
+        description: "Coût du mouvement : 1,5m par 1,5m de déplacement",
         reference: "PHB, pg. 190.",
         bullets: [
             "If you have more than one speed, such as your walking speed and a flying speed, you can switch back and forth between your speeds during your move. Whenever you switch, subtract the distance you've already moved from the new speed.",
@@ -16,10 +16,10 @@ data_movement = [
     },
     {
         title: "Climb",
-        optional: "Standard rule",
+        optional: "Règle standard",
         icon: "crags",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft climbed",
+        subtitle: "Coût : 3m par 1,5m",
+        description: "Coût du mouvement : 3m par 1,5m escaladé",
         reference: "PHB, pg. 182.",
         bullets: [
             "May involve a Strength (Athletics) check if the climb is difficult"
@@ -27,10 +27,10 @@ data_movement = [
     },
     {
         title: "Swim",
-        optional: "Standard rule",
+        optional: "Règle standard",
         icon: "at-sea",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft swum",
+        subtitle: "Coût : 3m par 1,5m",
+        description: "Coût du mouvement : 3m par 1,5m nagé",
         reference: "PHB, pg. 182.",
         bullets: [
             "May involve a Strength (Athletics) check if the swim is difficult"
@@ -38,10 +38,10 @@ data_movement = [
     },
     {
         title: "Drop prone",
-        optional: "Standard rule",
+        optional: "Règle standard",
         icon: "lob-arrow",
-        subtitle: "Cost: 0ft",
-        description: "Movement cost: 0ft (free)",
+        subtitle: "Coût : 0m",
+        description: "Coût du mouvement : 0m (gratuit)",
         reference: "PHB, pgs. 190-191,292.",
         bullets: [
             "You can drop prone without using any of your speed",
@@ -51,10 +51,10 @@ data_movement = [
     },
     {
         title: "Crawl",
-        optional: "Standard rule",
+        optional: "Règle standard",
         icon: "crawl",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft crawled",
+        subtitle: "Coût : 3m par 1,5m",
+        description: "Coût du mouvement : 3m par 1,5m rampé",
         reference: "PHB, pg. 182.",
         bullets: [
 
@@ -62,10 +62,10 @@ data_movement = [
     },
     {
         title: "Stand up",
-        optional: "Standard rule",
+        optional: "Règle standard",
         icon: "strong",
-        subtitle: "Cost: half movement speed",
-        description: "Movement cost: half of your speed",
+        subtitle: "Coût : vitesse divisée par 2",
+        description: "Coût du mouvement : vitesse divisée par 2",
         reference: "PHB, pg. 190-191.",
         bullets: [
             "You can't stand up if you don't have enough movement left or if your speed is 0"
@@ -73,10 +73,10 @@ data_movement = [
     },
     {
         title: "High jump",
-        optional: "Standard rule",
+        optional: "Règle standard",
         icon: "wingfoot",
-        subtitle: "Height: 3 + STR MOD",
-        description: "Height: 3 + STR MOD",
+        subtitle: "Hauteur : 3 + mod. de force",
+        description: "Hauteur : 3 + modificateur de force",
         reference: "PHB, pg. 182.",
         bullets: [
             "You leap into the air a number of feet equal to <b>3 + your Strength modifier</b> if you move at least 10 feet on foot immediately before the jump.",
@@ -87,10 +87,10 @@ data_movement = [
     },
     {
         title: "Long jump",
-        optional: "Standard rule",
+        optional: "Règle standard",
         icon: "wingfoot",
-        subtitle: "Distance: STR score",
-        description: "Cost: 5ft per 5ft",
+        subtitle: "Distance : score de force",
+        description: "Coût : 1,5m par 1,5m",
         reference: "PHB, pg. 182.",
         bullets: [
             "You cover a number of feet up to your <b>Strength score</b> if you move at least 10 feet (run-up) on foot immediately before the jump.",
@@ -101,7 +101,7 @@ data_movement = [
     },
     {
         title: "Improvise",
-        optional: "Standard rule",
+        optional: "Règle standard",
         icon: "juggler",
         subtitle: "Any stunt not on this list",
         description: "Perform any movement or stunt you can imagine",
@@ -111,9 +111,9 @@ data_movement = [
     },
     {
         title: "Difficult terrain",
-        optional: "Standard rule",
+        optional: "Règle standard",
         icon: "stone-pile",
-        subtitle: "Cost modifier: +5ft per 5ft",
+        subtitle: "Modif. de coût : +1,5m par 1,5m",
         reference: "PHB, pg. 182.",
         description: "Moving in difficult terrain costs an additional 5ft per 5ft of movement",
         bullets: [
@@ -121,9 +121,9 @@ data_movement = [
     },
     {
         title: "Grapple move",
-        optional: "Standard rule",
+        optional: "Règle standard",
         icon: "grab",
-        subtitle: "Modifier: speed halved",
+        subtitle: "Modif. de coût : vitesse divisée par 2",
         description: "Drag or carry the grappled creature with you",
         reference: "PHB, pg. 195.",
         bullets: [
