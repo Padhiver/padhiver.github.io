@@ -1,49 +1,49 @@
 data_reaction = [
     {
-        title: "Opportunity Attack",
+        title: "Attaque d'opportunité",
         optional: "Règle standard",
         icon: "sword-slice",
-        subtitle: "Enemy leaves your reach",
-        description: "You can rarely move heedlessly past your foes without putting yourself in danger",
+        subtitle: "Un ennemi quitte votre portée",
+        description: "Il est rare de pouvoir passer négligemment devant vos ennemis sans vous mettre en danger",
         reference: "PHB'24, page 371",
         bullets: [
-            "You can make an Opportunity Attack when a creature that you can see leaves your reach using its action, its Bonus Action, its Reaction, or one of its speeds. To make the Opportunity Attack, take a Reaction to make one melee attack with a weapon or an Unarmed Strike against the provoking creature. The attack occurs right before the creature leaves your reach."
+            "Vous pouvez faire une attaque d'opportunité lorsqu'une créature que vous pouvez voir quitte votre portée en utilisant son action, son action bonus, sa réaction ou l'une de ses vitesses. Pour faire l'attaque d'opportunité, utilisez une réaction pour faire une attaque au corps à corps avec une arme ou une attaque à mains nues contre la créature provoquante. L'attaque se produit juste avant que la créature ne quitte votre portée."
         ]
     },
     {
-        title: "Readied action",
+        title: "Action préparée",
         optional: "Règle standard",
         icon: "stopwatch",
-        subtitle: "Part of your Ready action",
-        description: "Execute the reaction specified by your Ready action",
+        subtitle: "Partie de votre action préparée",
+        description: "Exécutez la réaction spécifiée par votre action préparée",
         reference: "PHB'24, page 372",
         bullets: [
-            "Trigger: As specified by your <i>Ready</i> action."
+            "Déclencheur : Comme spécifié par votre action <i>Préparée</i>."
         ]
     },
     {
-        title: "Cast a spell",
+        title: "Lancer un sort",
         optional: "Règle standard",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 reaction",
-        description: "Cast a spell with a casting time of 1 reaction",
+        subtitle: "Temps d'incantation de 1 réaction",
+        description: "Lancez un sort avec un temps d'incantation de 1 réaction",
         reference: "PHB, pg. 192.",
         bullets: [
-            "Trigger: As specified by the spell.",
-            "For further details, see the <i>Cast a spell</i> action."
+            "Déclencheur : Comme spécifié par le sort.",
+            "Pour plus de détails, consultez l'action <i>Lancer un sort</i>."
         ]
     },
     {
-        title: "Identify a Spell*",
+        title: "Identifier un sort*",
         optional: "Règle optionnelle",
         icon: "crystal-eye",
-        subtitle: "Identify as a Reaction",
-        description: "Arcana check to identify",
+        subtitle: "Identifier en tant que réaction",
+        description: "Test d'Arcane pour identifier",
         reference: "XGE, page 85.",
         bullets: [
-            "Sometimes a character wants to identify a spell that someone else is casting or that was already cast. To do so, a character can use their reaction to identify a spell as it's being cast, or they can use an action on their turn to identify a spell by its effect after it is cast.",
-            "If the character perceived the casting, the spell's effect, or both, the character can make an Intelligence (Arcana) check with the reaction or action. The DC equals 15 + the spell's level. If the spell is cast as a class spell and the character is a member of that class, the check is made with advantage. For example, if the spellcaster casts a spell as a cleric, another cleric has advantage on the check to identify the spell. Some spells aren't associated with any class when they're cast, such as when a monster uses its Innate Spellcasting trait.",
-            "This Intelligence (Arcana) check represents the fact that identifying a spell requires a quick mind and familiarity with the theory and practice of casting. This is true even for a character whose spellcasting ability is Wisdom or Charisma. Being able to cast spells doesn't by itself make you adept at deducing exactly what others are doing when they cast their spells."
+            "Parfois, un personnage souhaite identifier un sort que quelqu'un d'autre est en train de lancer ou qui a déjà été lancé. Pour ce faire, un personnage peut utiliser sa réaction pour identifier un sort pendant qu'il est lancé, ou il peut utiliser une action lors de son tour pour identifier un sort par son effet après qu'il a été lancé.",
+            "Si le personnage a perçu l'incantation, l'effet du sort, ou les deux, le personnage peut faire un test d'Intelligence (Arcane) avec la réaction ou l'action. Le DD est de 15 + le niveau du sort. Si le sort est lancé en tant que sort de classe et que le personnage est membre de cette classe, le test est fait avec avantage. Par exemple, si le lanceur de sorts lance un sort en tant que clerc, un autre clerc a un avantage sur le test pour identifier le sort. Certains sorts ne sont associés à aucune classe lorsqu'ils sont lancés, comme lorsqu'un monstre utilise son trait d'Incantation innée.",
+            "Ce test d'Intelligence (Arcane) représente le fait qu'identifier un sort nécessite un esprit vif et une familiarité avec la théorie et la pratique de l'incantation. Cela est vrai même pour un personnage dont la caractéristique d'incantation est la Sagesse ou le Charisme. Pouvoir lancer des sorts ne vous rend pas automatiquement apte à déduire exactement ce que les autres font lorsqu'ils lancent leurs sorts."
         ]
     }
 ]

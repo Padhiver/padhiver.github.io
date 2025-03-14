@@ -1,66 +1,66 @@
 data_bonusaction = [
     {
-        title: "Two-Weapon Fighting",
+        title: "Combat à deux armes",
         optional: "Règle standard",
         icon: "crossed-swords",
-        subtitle: "Use with the Attack action",
-        description: "Attack with your off hand",
+        subtitle: "Utiliser avec l'action Attaquer",
+        description: "Attaquer avec votre main secondaire",
         reference: "PHB'24, page 213",
         bullets: [
-            "When you take the Attack action on your turn and attack with a Light weapon, you can make one extra attack as a Bonus Action later on the same turn.",
-            "That extra attack must be made with a different Light weapon, and you don't add your ability modifier to the extra attack's damage unless that modifier is negative.",
-            "The <b>Nick</b> weapon mastery makes this attack as part of the Attack action instead."
+            "Lorsque vous utilisez l'action Attaquer lors de votre tour et que vous attaquez avec une arme légère, vous pouvez faire une attaque supplémentaire en tant qu'action bonus plus tard lors du même tour.",
+            "Cette attaque supplémentaire doit être faite avec une autre arme légère, et vous n'ajoutez pas votre modificateur de caractéristique aux dégâts de l'attaque supplémentaire, sauf si ce modificateur est négatif.",
+            "La maîtrise d'arme <b>Nick</b> fait de cette attaque une partie de l'action Attaquer au lieu d'une action bonus."
         ]
     },
     {
-        title: "Magic",
+        title: "Magie",
         optional: "Règle standard",
         icon: "magic-swirl",
-        subtitle: "Cast time of a bonus action",
-        description: "Cast a spell that has a casting time of a bonus action or use a feature or magic item that requires a Magic bonus action to be activated.",
+        subtitle: "Temps d'incantation d'une action bonus",
+        description: "Lancez un sort qui a un temps d'incantation d'une action bonus ou utilisez une caractéristique ou un objet magique qui nécessite une action bonus de Magie pour être activé.",
         reference: "PHB'24, page 236, page 371.",
         bullets: [
-            "<b>One Spell With A Spell Slot Per Turn.</b></br> On a turn, you can expend only one spell slot to cast a spell. This rule means you can't, for example, cast a spell with a spell slot using the Magic action and another one using a Bonus Action on the same turn.",
-            "<b>A Clear Path To The Target.</b></br> To target something with a spell, a caster must have a clear path to it, so it can't be behind Total Cover.",
-            "<b>Longer Casting Times.</b></br> If you cast a spell that has a casting time of 1 minute or longer, you must take the Magic action on each turn of that casting, and you must maintain Concentration while you do so. If your Concentration is broken, the spell fails, but you don't expend a spell slot.",
+            "<b>Un sort avec un emplacement de sort par tour.</b></br> Lors d'un tour, vous ne pouvez dépenser qu'un seul emplacement de sort pour lancer un sort. Cette règle signifie que vous ne pouvez pas, par exemple, lancer un sort avec un emplacement de sort en utilisant l'action Magie et un autre en utilisant une action bonus lors du même tour.",
+            "<b>Un chemin dégagé vers la cible.</b></br> Pour cibler quelque chose avec un sort, le lanceur de sorts doit avoir un chemin dégagé vers elle, donc elle ne peut pas être derrière une couverture totale.",
+            "<b>Temps d'incantation plus longs.</b></br> Si vous lancez un sort qui a un temps d'incantation de 1 minute ou plus, vous devez utiliser l'action Magie à chaque tour de cette incantation, et vous devez maintenir votre concentration pendant ce temps. Si votre concentration est rompue, le sort échoue, mais vous ne dépensez pas d'emplacement de sort.",
         ]
     },
     {
-        title: "Use class feature",
+        title: "Utiliser une aptitude de classe",
         optional: "Règle standard",
         icon: "embrassed-energy",
-        subtitle: "Several class options use bonus actions",
-        description: "Use a species or class feature that uses a bonus action",
-        reference: "See your class page for more information.",
+        subtitle: "Plusieurs options de classe utilisent des actions bonus",
+        description: "Utilisez une aptitude d'espèce ou de classe qui utilise une action bonus",
+        reference: "Voir la page de votre classe pour plus d'informations.",
         bullets: [
 
         ]
     },
     {
-        title: "Overrun*",
+        title: "Bousculer*",
         optional: "Règle optionnelle",
         icon: "shield-bash",
-        subtitle: "Run through a hostile space",
-        description: "When a creature tries to move through a hostile creature's space, the mover can try to force its way through by overrunning the hostile creature.",
+        subtitle: "Courir à travers un espace hostile",
+        description: "Lorsqu'une créature essaie de se déplacer à travers l'espace d'une créature hostile, le déplaceur peut essayer de se frayer un chemin en bousculant la créature hostile.",
         reference: "DMG, page 272",
         bullets: [
-            "(Optional Rule):",
-            "As a bonus action, the mover makes a Strength (Athletics) check contested by the hostile creature's Strength (Athletics) check.",
-            "The creature attempting the overrun has advantage on this check if it is larger than the hostile creature, or disadvantage if it is smaller.",
-            "If the mover wins the contest, it can move through the hostile creature's space once this turn."
+            "(Règle optionnelle) :",
+            "En tant qu'action bonus, le déplaceur fait un test de Force (Athlétisme) contesté par un test de Force (Athlétisme) de la créature hostile.",
+            "La créature qui tente la bousculade a un avantage sur ce test si elle est plus grande que la créature hostile, ou un désavantage si elle est plus petite.",
+            "Si le déplaceur gagne le concours, il peut se déplacer à travers l'espace de la créature hostile une fois ce tour-ci."
         ]
     },
     {
-        title: "Tumble*",
+        title: "Culbuter*",
         optional: "Règle optionnelle",
         icon: "tumble",
-        subtitle: "Tumble through a hostile space",
-        description: "A creature can try to tumble through a hostile creature's space, ducking and weaving past the opponent.",
+        subtitle: "Culbuter à travers un espace hostile",
+        description: "Une créature peut essayer de culbuter à travers l'espace d'une créature hostile, en esquivant et en se faufilant devant l'adversaire.",
         reference: "DMG, page 272",
         bullets: [
-            "(Optional Rule):",
-            "As a bonus action, the tumbler makes a Dexterity (Acrobatics) check contested by the hostile creature's Dexterity (Acrobatics) check.",
-            "If the tumbler wins the contest, it can move through the hostile creature's space once this turn."
+            "(Règle optionnelle) :",
+            "En tant qu'action bonus, le culbuteur fait un test de Dextérité (Acrobatie) contesté par un test de Dextérité (Acrobatie) de la créature hostile.",
+            "Si le culbuteur gagne le concours, il peut se déplacer à travers l'espace de la créature hostile une fois ce tour-ci."
         ]
     }
 ]
