@@ -199,23 +199,3 @@ document.addEventListener("DOMContentLoaded", function () {
     handleDarkModeToggle();
     handleRulesToggle();
 });
-
-// Fonction pour détecter les paramètres d'URL
-function getUrlParameter(name) {
-    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
-    var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
-    var results = regex.exec(location.search);
-    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
-}
-
-// Vérifier le paramètre dark-mode
-document.addEventListener("DOMContentLoaded", function() {
-    var darkMode = getUrlParameter('dark-mode');
-    if (darkMode === 'true') {
-        var darkModeCheckbox = document.getElementById('darkmode-switch');
-        if (darkModeCheckbox) {
-            darkModeCheckbox.checked = true;
-            darkModeCheckbox.dispatchEvent(new Event('change'));
-        }
-    }
-});
