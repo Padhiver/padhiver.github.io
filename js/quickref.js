@@ -34,7 +34,8 @@ function add_quickref_item(parent, data, type) {
     item.appendChild(itemTextContainer);
 
     // Get the background color of the parent's parent's parent element
-    var style = window.getComputedStyle(parent.parentNode.parentNode);
+    var sectionContainer = parent.closest('.section-container');
+    var style = window.getComputedStyle(sectionContainer);
     var color = style.backgroundColor;
 
     // Attach a click event to the item, which triggers the show_modal function with data, color, and type parameters
@@ -109,7 +110,7 @@ function fill_section(data, parentname, type) {
 function init() {
     fill_section(data_movement, "basic-movement", "Move");
     fill_section(data_action, "basic-actions", "Action");
-    fill_section(data_conditionalaction, "basic-conditional-actions", "Conditial Action");
+    fill_section(data_conditionalaction, "basic-conditional-actions", "Conditional Action");
     fill_section(data_bonusaction, "basic-bonus-actions", "Bonus action");
     fill_section(data_reaction, "basic-reactions", "Reaction");
     fill_section(data_condition, "basic-conditions", "Condition");
@@ -193,8 +194,28 @@ document.addEventListener("DOMContentLoaded", function () {
     darkModeToggleItem.addEventListener('click', handleToggleClick(darkModeCheckbox));
 
     // Ensure dark  and optional mode is on by default
-    darkModeCheckbox.checked = false;
+    darkModeCheckbox.checked = true;
     optionalCheckbox.checked = false;
     handleDarkModeToggle();
     handleRulesToggle();
+});
+
+// Fonction pour détecter les paramètres d'URL
+function getUrlParameter(name) {
+    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+    var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+    var results = regex.exec(location.search);
+    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+}
+
+// Vérifier le paramètre dark-mode
+document.addEventListener("DOMContentLoaded", function() {
+    var darkMode = getUrlParameter('dark-mode');
+    if (darkMode === 'true') {
+        var darkModeCheckbox = document.getElementById('darkmode-switch');
+        if (darkModeCheckbox) {
+            darkModeCheckbox.checked = true;
+            darkModeCheckbox.dispatchEvent(new Event('change'));
+        }
+    }
 });

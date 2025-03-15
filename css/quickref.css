@@ -1,4 +1,20 @@
 /* ------------------------------------------------------------------------- */
+/* Masquer la barre de défilement pour tous les navigateurs */
+/* ------------------------------------------------------------------------- */
+html {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE et Edge */
+}
+
+html::-webkit-scrollbar {
+    display: none; /* Chrome, Safari et Opera */
+}
+
+body.modal-open {
+    padding-right: 0 !important; /* Empêche l'ajout d'un padding-right */
+}
+
+/* ------------------------------------------------------------------------- */
 /* Sections */
 /* ------------------------------------------------------------------------- */
 .section-container {
