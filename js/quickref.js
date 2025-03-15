@@ -54,12 +54,39 @@ function show_modal(data, color, type) {
     var bullets = data.bullets || [];
     var reference = data.reference || "";
     type = type || "";
-    color = color || "black";
+    
+    // Déterminer si le mode sombre est actif
+    var isDarkMode = document.body.classList.contains("dark-mode-active") ||
+                    document.querySelector(".dark-mode").classList.contains("dark-mode-active");
+    
+    // Identifier la section basée sur la couleur ou type
+    var sectionId = "";
+    if (color === "maroon" || type.includes("Move")) {
+        sectionId = "section-movement";
+    } else if (color === "black" || type.includes("Action")) {
+        sectionId = "section-action";
+    } else if (color === "indigo" || type.includes("Bonus action")) {
+        sectionId = "section-bonus-action";
+    } else if (color === "green" || type.includes("Reaction")) {
+        sectionId = "section-reaction";
+    } else if (color === "darkgoldenrod" || type.includes("Condition")) {
+        sectionId = "section-condition";
+    } else if (color === "teal" || type.includes("Environment")) {
+        sectionId = "section-environment";
+    }
+    
+    // Obtenir la couleur correcte en fonction du mode
+    if (isDarkMode && sectionId) {
+        var sectionElement = document.getElementById(sectionId);
+        if (sectionElement) {
+            color = window.getComputedStyle(sectionElement).backgroundColor;
+        }
+    }
 
-    // Add a class to the body to simulate $("body").addClass("modal-open");
+    // Ajouter une classe au body
     document.body.classList.add("modal-open");
 
-    // Get references to the modal and its elements using document.getElementById
+    // Obtenir les références aux éléments du modal
     var modal = document.getElementById("modal");
     var modalBackdrop = document.getElementById("modal-backdrop");
     var modalContainer = document.getElementById("modal-container");
@@ -68,7 +95,7 @@ function show_modal(data, color, type) {
     var modalReference = document.getElementById("modal-reference");
     var modalBullets = document.getElementById("modal-bullets");
 
-    // Set styles and content using standard DOM properties
+    // Définir les styles et le contenu
     modal.classList.add("modal-visible");
     modalBackdrop.style.height = window.innerHeight + "px";
     modalContainer.style.backgroundColor = color;
@@ -77,12 +104,26 @@ function show_modal(data, color, type) {
     modalSubtitle.textContent = subtitle;
     modalReference.textContent = reference;
 
-    // Create HTML for bullets using map and join
+    // Créer le HTML pour les puces
     var bulletsHTML = bullets.map(function (item) {
-        return "<p class=\"fonstsize\">" + item + "</p>";
+        let processedItem = item;
+
+        // Recherche tous les mots-clés dans le texte
+        tooltipDefinitions.forEach(function(tooltip) {
+            tooltip.reference.forEach(function(keyword) {
+                // Utilisation d'une expression régulière pour trouver le mot-clé (insensible à la casse)
+                const regex = new RegExp('\\b(' + keyword + ')\\b', 'gi');
+                processedItem = processedItem.replace(regex, function(match) {
+                    return '<span class="tooltip">' + match + 
+                           '<span class="tooltip-text">' + tooltip.description + '</span></span>';
+                });
+            });
+        });
+
+        return "<p class=\"fonstsize\">" + processedItem + "</p>";
     }).join("\n<hr>\n");
 
-    // Set the innerHTML of modalBullets
+    // Définir le innerHTML de modalBullets
     modalBullets.innerHTML = bulletsHTML;
 }
 
@@ -155,15 +196,36 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Function to handle darkmode toggle
     function handleDarkModeToggle() {
-        console.log("Dark mode switch toggled"); // Debugging statement
+        console.log("Dark mode switch toggled");
         const darkModeElements = document.querySelectorAll('.dark-mode, .page-background');
+        const isDarkMode = darkModeCheckbox.checked;
+        
         darkModeElements.forEach(element => {
-            if (darkModeCheckbox.checked) {
+            if (isDarkMode) {
                 element.classList.add('dark-mode-active');
             } else {
                 element.classList.remove('dark-mode-active');
             }
         });
+        
+        // Si un modal est ouvert, mettre à jour sa couleur
+        if (document.getElementById("modal").classList.contains("modal-visible")) {
+            var modalContainer = document.getElementById("modal-container");
+            var styleColor = window.getComputedStyle(modalContainer).backgroundColor;
+            
+            // Identifier la section basée sur la couleur actuelle
+            // et mettre à jour avec la nouvelle couleur correspondante
+            for (const sectionId of ["section-movement", "section-action", "section-bonus-action", 
+                                   "section-reaction", "section-condition", "section-environment"]) {
+                var sectionElement = document.getElementById(sectionId);
+                if (sectionElement) {
+                    var sectionColor = window.getComputedStyle(sectionElement).backgroundColor;
+                    modalContainer.style.backgroundColor = sectionColor;
+                    modalContainer.style.borderColor = sectionColor;
+                    break;
+                }
+            }
+        }
     }
 
     // Add event listeners to the checkboxes
