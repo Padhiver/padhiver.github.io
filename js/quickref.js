@@ -48,34 +48,6 @@ function add_quickref_item(parent, data, type) {
     parent.appendChild(item);
 }
 
-function applyTooltips(node) {
-    // Si le nœud est un texte, appliquer les tooltips
-    if (node.nodeType === Node.TEXT_NODE) {
-        let text = node.textContent;
-        tooltipDefinitions.forEach(function(tooltip) {
-            tooltip.reference.forEach(function(keyword) {
-                const regex = new RegExp('(^|\\s)(' + keyword + ')(?=\\s|$|[.,;!?])', 'gi');
-                text = text.replace(regex, function(match, p1, p2) {
-                    // Vérifie si le mot-clé est déjà dans une balise <span> (pour éviter les doublons)
-                    if (!/<span class="tooltip">/.test(match)) {
-                        return p1 + '<span class="tooltip">' + p2 + 
-                               '<span class="tooltip-text">' + tooltip.description + '</span></span>';
-                    }
-                    return match;
-                });
-            });
-        });
-        // Remplacer le texte du nœud avec le texte modifié
-        const wrapper = document.createElement('span');
-        wrapper.innerHTML = text;
-        node.replaceWith(wrapper);
-    }
-    // Si le nœud est un élément, parcourir ses enfants
-    else if (node.nodeType === Node.ELEMENT_NODE && node.tagName !== 'SPAN') {
-        Array.from(node.childNodes).forEach(applyTooltips);
-    }
-}
-
 function show_modal(data, color, type) {
     var title = data.title || "[no title]";
     var subtitle = data.description || data.subtitle || "";
@@ -133,12 +105,8 @@ function show_modal(data, color, type) {
     modalReference.textContent = reference;
 
     // Créer le HTML pour les puces
-    // Créer le HTML pour les puces
     var bulletsHTML = bullets.map(function (item) {
-        const wrapper = document.createElement('div');
-        wrapper.innerHTML = "<p class=\"fonstsize\">" + item + "</p>";
-        applyTooltips(wrapper);
-        return wrapper.innerHTML;
+        return "<p class=\"fonstsize\">" + item + "</p>";
     }).join("\n<hr>\n");
 
     // Définir le innerHTML de modalBullets

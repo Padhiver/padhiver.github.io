@@ -82,7 +82,7 @@ const tooltipDefinitions = [
     {
         title: "Neutralisé",
         description: "Une créature neutralisée est incapable d'agir ou de se déplacer.",
-        reference: ["neutralisé"]
+        reference: ["neutralisé", "neutralisée"]
     },
     {
         title: "Round",
