@@ -60,7 +60,7 @@ data_action = [
         reference: "PHB'24, page 377.",
         bullets: [
             "Chaque fois que vous utilisez votre attaque à mains nues, choisissez l'une des options suivantes pour son effet.",
-            "<b>Bousculer.</b></br> La cible doit réussir un jet de sauvegarde de Force ou de Dextérité (elle choisit lequel), sinon vous la repoussez de 1,5 mètre ou la faites tomber à terre (<i>À terre</i>). Le DD pour le jet de sauvegarde et toute tentative d'échappement est de 8 + votre modificateur de Force + votre bonus de maîtrise.",
+            "<b>Bousculer.</b></br> La cible doit réussir un jet de sauvegarde de Force ou de Dextérité (elle choisit lequel), sinon vous la repoussez de 1,5 mètre ou la faites tomber <i>à terre</i>. Le DD pour le jet de sauvegarde et toute tentative d'échappement est de 8 + votre modificateur de Force + votre bonus de maîtrise.",
             "Cette bousculade n'est possible que si la cible n'est pas plus d'une taille supérieure à la vôtre.",
             "<b><i>Optionnel.</i> Bousculer de côté.</b></br> La cible doit réussir un jet de sauvegarde de Force ou de Dextérité (elle choisit lequel), sinon vous la repoussez de 1,5 mètre vers un espace différent à sa portée. Le DD pour le jet de sauvegarde et toute tentative d'échappement est de 8 + votre modificateur de Force + votre bonus de maîtrise. </br> La cible a un avantage sur ce jet de sauvegarde.",
             "Cette bousculade n'est possible que si la cible n'est pas plus d'une taille supérieure à la vôtre."

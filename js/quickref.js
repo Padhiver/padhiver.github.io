@@ -47,6 +47,7 @@ function add_quickref_item(parent, data, type) {
     // Append the created item to the specified parent element
     parent.appendChild(item);
 }
+
 function applyTooltips(node) {
     // Si le nœud est un texte, appliquer les tooltips
     if (node.nodeType === Node.TEXT_NODE) {
@@ -74,6 +75,7 @@ function applyTooltips(node) {
         Array.from(node.childNodes).forEach(applyTooltips);
     }
 }
+
 function show_modal(data, color, type) {
     var title = data.title || "[no title]";
     var subtitle = data.description || data.subtitle || "";
