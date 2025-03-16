@@ -96,25 +96,51 @@ const regex = new RegExp(`(^|\\s)${term}(\\s|$|\\.|\\,|\\;|\\:)`, 'gi');
     }
     
     // Fonction pour afficher le tooltip
-    function showTooltip(event) {
-        const term = event.target;
-        const tooltipTitle = term.getAttribute('data-tooltip');
+// Fonction pour afficher le tooltip
+function showTooltip(event) {
+    const term = event.target;
+    const tooltipTitle = term.getAttribute('data-tooltip');
+    
+    // Trouver la définition correspondante
+    const tooltipData = tooltipDefinitions.find(t => t.title === tooltipTitle);
+    if (!tooltipData) return;
+    
+    // Créer le tooltip
+    const tooltip = createTooltip(tooltipTitle, tooltipData.description, tooltipData.title);
+    
+    // Positionner temporairement pour obtenir ses dimensions
+    tooltip.style.visibility = 'hidden';
+    tooltip.style.left = '0px';
+    tooltip.style.top = '0px';
+    
+    // Attendre un instant pour que le tooltip soit rendu
+    setTimeout(() => {
+        // Obtenir les dimensions du tooltip
+        const tooltipRect = tooltip.getBoundingClientRect();
+        const termRect = term.getBoundingClientRect();
+        const viewportWidth = window.innerWidth;
         
-        // Trouver la définition correspondante
-        const tooltipData = tooltipDefinitions.find(t => t.title === tooltipTitle);
-        if (!tooltipData) return;
+        // Calculer la position horizontale
+        let leftPos = termRect.left;
         
-        // Créer et positionner le tooltip
-        const tooltip = createTooltip(tooltipTitle, tooltipData.description, tooltipData.title);
+        // Si le tooltip dépasse à droite
+        if (leftPos + tooltipRect.width > viewportWidth) {
+            // Positionner le tooltip à gauche du terme
+            leftPos = Math.max(0, termRect.right - tooltipRect.width);
+        }
         
-        // Positionner le tooltip près du terme
-        const rect = term.getBoundingClientRect();
-        tooltip.style.left = `${rect.left}px`;
-        tooltip.style.top = `${rect.bottom + window.scrollY + 5}px`;
+        // Calculer la position verticale - toujours en dessous du terme
+        const topPos = termRect.bottom + window.scrollY + 5;
         
-        // Stocker une référence au tooltip sur l'élément terme
-        term.tooltip = tooltip;
-    }
+        // Appliquer les positions calculées
+        tooltip.style.left = `${leftPos}px`;
+        tooltip.style.top = `${topPos}px`;
+        tooltip.style.visibility = 'visible';
+    }, 10);
+    
+    // Stocker une référence au tooltip sur l'élément terme
+    term.tooltip = tooltip;
+}
     
     // Fonction pour masquer le tooltip
     function hideTooltip(event) {
