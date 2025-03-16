@@ -704,3 +704,45 @@ input:checked+.slider:before {
     font-size: 16px;
     cursor: pointer;
 }
+/* Tooltips */
+
+.tooltip-term {
+    text-decoration: underline dotted;
+    cursor: help;
+    position: relative;
+}
+
+.dnd-tooltip {
+    position: absolute;
+    z-index: 9999;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    max-width: 300px;
+    font-size: 14px;
+    pointer-events: none;
+}
+
+.tooltip-title {
+    font-weight: bold;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 4px;
+}
+
+.tooltip-content {
+    line-height: 1.4;
+}
+
+/* Style pour le mode sombre */
+.dark-mode-active .dnd-tooltip {
+    background-color: #333;
+    color: #fff;
+    border-color: #555;
+}
+
+.dark-mode-active .tooltip-title {
+    border-color: #444;
+}
