@@ -1,3 +1,17 @@
+// ==================================================
+// Mémo : Balises HTML disponibles pour la mise en page
+// ==================================================
+// 1. Italique : <i>texte en italique</i>
+// 2. Gras : <b>texte en gras</b> ou <strong>texte en gras</strong>
+// 3. Souligné : <u>texte souligné</u>
+// 4. Barré : <s>texte barré</s> ou <del>texte barré</del>
+// 5. Couleur : <span style='color: red;'>texte en rouge</span>
+// 6. Taille : <span style='font-size: 20px;'>texte en grande taille</span>
+// 7. Listes à puces : <ul><li>élément 1</li><li>élément 2</li></ul>
+// 8. Liens : <a href='https://example.com'>lien cliquable</a>
+// 9. Retours à la ligne : <br> (ex: "ligne 1<br>ligne 2")
+// ==================================================
+
 data_action = [
     {
         title: "Attaquer",
@@ -48,7 +62,6 @@ data_action = [
             "Chaque fois que vous utilisez votre attaque à mains nues, choisissez l'une des options suivantes pour son effet.",
             "<b>Bousculer.</b></br> La cible doit réussir un jet de sauvegarde de Force ou de Dextérité (elle choisit lequel), sinon vous la repoussez de 1,5 mètre ou la faites tomber à terre (<i>À terre</i>). Le DD pour le jet de sauvegarde et toute tentative d'échappement est de 8 + votre modificateur de Force + votre bonus de maîtrise.",
             "Cette bousculade n'est possible que si la cible n'est pas plus d'une taille supérieure à la vôtre.",
-            "</br>",
             "<b><i>Optionnel.</i> Bousculer de côté.</b></br> La cible doit réussir un jet de sauvegarde de Force ou de Dextérité (elle choisit lequel), sinon vous la repoussez de 1,5 mètre vers un espace différent à sa portée. Le DD pour le jet de sauvegarde et toute tentative d'échappement est de 8 + votre modificateur de Force + votre bonus de maîtrise. </br> La cible a un avantage sur ce jet de sauvegarde.",
             "Cette bousculade n'est possible que si la cible n'est pas plus d'une taille supérieure à la vôtre."
         ]
@@ -62,7 +75,7 @@ data_action = [
         reference: "PHB'24, page 236, page 371.",
         bullets: [
             "<b>Un sort avec un emplacement de sort par tour.</b></br> Lors d'un tour, vous ne pouvez dépenser qu'un seul emplacement de sort pour lancer un sort. Cette règle signifie que vous ne pouvez pas, par exemple, lancer un sort avec un emplacement de sort en utilisant l'action Magie et un autre en utilisant une action bonus lors du même tour.",
-            "<b>Un chemin dégagé vers la cible.</b></br> Pour cibler quelque chose avec un sort, le lanceur de sorts doit avoir un chemin dégagé vers elle, donc elle ne peut pas être derrière une couverture totale.",
+            "<b>Un chemin dégagé vers la cible.</b></br> Pour cibler quelque chose avec un sort, le lanceur de sorts doit avoir un chemin dégagé vers elle, donc elle ne peut pas être derrière un abri total.",
             "<b>Temps d'incantation plus longs.</b></br> Si vous lancez un sort qui a un temps d'incantation de 1 minute ou plus, vous devez utiliser l'action Magie à chaque tour de cette incantation, et vous devez maintenir votre concentration pendant ce temps. Si votre concentration est rompue, le sort échoue, mais vous ne dépensez pas d'emplacement de sort.",
         ]
     },
@@ -122,7 +135,7 @@ data_action = [
         description: "Tentez de vous cacher",
         reference: "PHB'24, page 368",
         bullets: [
-            "Avec l'action Se cacher, vous essayez de vous dissimuler. Pour ce faire, vous devez réussir un test de Dextérité (Discrétion) DD 15 alors que vous êtes fortement obscurci ou derrière une couverture aux trois quarts ou totale, et vous devez être hors de la ligne de vue de tout ennemi ; si vous pouvez voir une créature, vous pouvez discerner si elle peut vous voir.",
+            "Avec l'action Se cacher, vous essayez de vous dissimuler. Pour ce faire, vous devez réussir un test de Dextérité (Discrétion) DD 15 alors que vous êtes fortement obscurci ou derrière un abri important ou total, et vous devez être hors de la ligne de vue de tout ennemi ; si vous pouvez voir une créature, vous pouvez discerner si elle peut vous voir.",
             "En cas de réussite, vous avez l'état <i>Invisible</i>. Notez le total de votre test, qui est le DD pour qu'une créature vous trouve avec un test de Sagesse (Perception).",
             "L'état se termine immédiatement après l'une des choses suivantes : vous faites un bruit plus fort qu'un chuchotement, un ennemi vous trouve, vous faites un jet d'attaque, ou vous lancez un sort avec une composante verbale."
         ]

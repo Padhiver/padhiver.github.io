@@ -47,7 +47,33 @@ function add_quickref_item(parent, data, type) {
     // Append the created item to the specified parent element
     parent.appendChild(item);
 }
-
+function applyTooltips(node) {
+    // Si le nœud est un texte, appliquer les tooltips
+    if (node.nodeType === Node.TEXT_NODE) {
+        let text = node.textContent;
+        tooltipDefinitions.forEach(function(tooltip) {
+            tooltip.reference.forEach(function(keyword) {
+                const regex = new RegExp('(^|\\s)(' + keyword + ')(?=\\s|$|[.,;!?])', 'gi');
+                text = text.replace(regex, function(match, p1, p2) {
+                    // Vérifie si le mot-clé est déjà dans une balise <span> (pour éviter les doublons)
+                    if (!/<span class="tooltip">/.test(match)) {
+                        return p1 + '<span class="tooltip">' + p2 + 
+                               '<span class="tooltip-text">' + tooltip.description + '</span></span>';
+                    }
+                    return match;
+                });
+            });
+        });
+        // Remplacer le texte du nœud avec le texte modifié
+        const wrapper = document.createElement('span');
+        wrapper.innerHTML = text;
+        node.replaceWith(wrapper);
+    }
+    // Si le nœud est un élément, parcourir ses enfants
+    else if (node.nodeType === Node.ELEMENT_NODE && node.tagName !== 'SPAN') {
+        Array.from(node.childNodes).forEach(applyTooltips);
+    }
+}
 function show_modal(data, color, type) {
     var title = data.title || "[no title]";
     var subtitle = data.description || data.subtitle || "";
@@ -105,22 +131,12 @@ function show_modal(data, color, type) {
     modalReference.textContent = reference;
 
     // Créer le HTML pour les puces
+    // Créer le HTML pour les puces
     var bulletsHTML = bullets.map(function (item) {
-        let processedItem = item;
-
-        // Recherche tous les mots-clés dans le texte
-        tooltipDefinitions.forEach(function(tooltip) {
-            tooltip.reference.forEach(function(keyword) {
-                // Utilisation d'une expression régulière pour trouver le mot-clé (insensible à la casse)
-                const regex = new RegExp('\\b(' + keyword + ')\\b', 'gi');
-                processedItem = processedItem.replace(regex, function(match) {
-                    return '<span class="tooltip">' + match + 
-                           '<span class="tooltip-text">' + tooltip.description + '</span></span>';
-                });
-            });
-        });
-
-        return "<p class=\"fonstsize\">" + processedItem + "</p>";
+        const wrapper = document.createElement('div');
+        wrapper.innerHTML = "<p class=\"fonstsize\">" + item + "</p>";
+        applyTooltips(wrapper);
+        return wrapper.innerHTML;
     }).join("\n<hr>\n");
 
     // Définir le innerHTML de modalBullets

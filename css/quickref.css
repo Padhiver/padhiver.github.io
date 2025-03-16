@@ -298,7 +298,18 @@ p:first-child {
     border-top: 1px solid #e5e5e5;
 }
 
+/* Justifier le texte dans les modals */
+.modal-container .section-content,
+.modal-container .section-subtitle,
+.modal-container #modal-bullets,
+.modal-container #modal-reference {
+    text-align: justify;
+}
 
+/* Ajouter plus de marge intérieure au modal */
+.modal-container .section-content {
+    padding: 15px; /* Espace autour du contenu du modal */
+}
 /* ------------------------------------------------------------------------- */
 /* Viewport sizes */
 /* ------------------------------------------------------------------------- */

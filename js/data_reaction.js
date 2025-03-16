@@ -1,3 +1,17 @@
+// ==================================================
+// Mémo : Balises HTML disponibles pour la mise en page
+// ==================================================
+// 1. Italique : <i>texte en italique</i>
+// 2. Gras : <b>texte en gras</b> ou <strong>texte en gras</strong>
+// 3. Souligné : <u>texte souligné</u>
+// 4. Barré : <s>texte barré</s> ou <del>texte barré</del>
+// 5. Couleur : <span style='color: red;'>texte en rouge</span>
+// 6. Taille : <span style='font-size: 20px;'>texte en grande taille</span>
+// 7. Listes à puces : <ul><li>élément 1</li><li>élément 2</li></ul>
+// 8. Liens : <a href='https://example.com'>lien cliquable</a>
+// 9. Retours à la ligne : <br> (ex: "ligne 1<br>ligne 2")
+// ==================================================
+
 data_reaction = [
     {
         title: "Attaque d'opportunité",
@@ -7,7 +21,7 @@ data_reaction = [
         description: "Il est rare de pouvoir passer négligemment devant vos ennemis sans vous mettre en danger",
         reference: "PHB'24, page 371",
         bullets: [
-            "Vous pouvez faire une attaque d'opportunité lorsqu'une créature que vous pouvez voir quitte votre portée en utilisant son action, son action bonus, sa réaction ou l'une de ses vitesses. Pour faire l'attaque d'opportunité, utilisez une réaction pour faire une attaque au corps à corps avec une arme ou une attaque à mains nues contre la créature provoquante. L'attaque se produit juste avant que la créature ne quitte votre portée."
+            "Vous pouvez faire une <b>attaque d'opportunité</b> lorsqu'une créature que vous pouvez voir quitte votre portée en utilisant son action, son action bonus, sa réaction ou l'une de ses vitesses. Pour faire l'attaque d'opportunité, utilisez une réaction pour faire une attaque au corps à corps avec une arme ou une attaque à mains nues contre la créature provoquante. L'attaque se produit juste avant que la créature ne quitte votre portée."
         ]
     },
     {
