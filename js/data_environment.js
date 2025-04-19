@@ -102,14 +102,14 @@ data_environment_vision = [
         ]
     },
     {
-        title: "Vision véritable",
+        title: "Vision lucide",
         optional: "Règle standard",
         icon: "eye-shield",
         subtitle: "Voir dans l'obscurité",
-        description: "Une créature avec la vision véritable peut voir tout dans sa vraie forme, indépendamment de l'environnement",
+        description: "Une créature avec la vision lucide peut voir tout dans sa vraie forme, indépendamment de l'environnement",
         reference: "PHB, pg. 184.",
         bullets: [
-            "Si vous avez la vision véritable, vous pouvez, dans un rayon de portée spécifique, voir normalement dans les ténèbres normales et magiques, voir les créatures et les objets invisibles, détecter automatiquement les illusions visuelles et réussir les jets de sauvegarde contre celles-ci, ainsi que percevoir la forme originale d'un métamorphe ou d'une créature transformée grâce à la magie.",
+            "Si vous avez la vision lucide, vous pouvez, dans un rayon de portée spécifique, voir normalement dans les ténèbres normales et magiques, voir les créatures et les objets invisibles, détecter automatiquement les illusions visuelles et réussir les jets de sauvegarde contre celles-ci, ainsi que percevoir la forme originale d'un métamorphe ou d'une créature transformée grâce à la magie.",
             "Vous pouvez même voir dans le plan éthéré."
         ]
     }
@@ -130,15 +130,15 @@ data_environment_cover = [
         ]
     },
     {
-        title: "Abri important",
+        title: "Abri supérieur",
         optional: "Règle standard",
         icon: "cracked-shield",
         subtitle: "Herse, meurtrière",
-        description: "Une cible a un abri important si environ les trois quarts de son corps sont couverts par un obstacle",
+        description: "Une cible a un abri supérieur si environ les trois quarts de son corps sont couverts par un obstacle",
         reference: "PHB, pg. 196.",
         bullets: [
             "L'obstacle pourrait être une herse, une meurtrière ou un tronc d'arbre épais.",
-            "Si vous avez un abri important (75%), vous obtenez un <b>bonus de +5 à la CA et aux jets de sauvegarde de Dextérité.</b>",
+            "Si vous avez un abri supérieur (75%), vous obtenez un <b>bonus de +5 à la CA et aux jets de sauvegarde de Dextérité.</b>",
             "Si vous êtes derrière des sources multiples, c'est le type le plus élevé qui s'applique."
         ]
     },

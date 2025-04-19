@@ -92,7 +92,7 @@ data_action = [
         ]
     },
     {
-        title: "Désengagement",
+        title: "Se désengager",
         optional: "Règle standard",
         icon: "run",
         subtitle: "Empêcher les attaques d'opportunité",
@@ -135,7 +135,7 @@ data_action = [
         description: "Tentez de vous cacher",
         reference: "PHB'24, page 368",
         bullets: [
-            "Avec l'action Se cacher, vous essayez de vous dissimuler. Pour ce faire, vous devez réussir un test de Dextérité (Discrétion) DD 15 alors que vous êtes fortement obscurci ou derrière un abri important ou total, et vous devez être hors de la ligne de vue de tout ennemi ; si vous pouvez voir une créature, vous pouvez discerner si elle peut vous voir.",
+            "Avec l'action Se cacher, vous essayez de vous dissimuler. Pour ce faire, vous devez réussir un test de Dextérité (Discrétion) DD 15 alors que vous êtes fortement obscurci ou derrière un abri supérieur ou total, et vous devez être hors de la ligne de vue de tout ennemi ; si vous pouvez voir une créature, vous pouvez discerner si elle peut vous voir.",
             "En cas de réussite, vous avez l'état <i>Invisible</i>. Notez le total de votre test, qui est le DD pour qu'une créature vous trouve avec un test de Sagesse (Perception).",
             "L'état se termine immédiatement après l'une des choses suivantes : vous faites un bruit plus fort qu'un chuchotement, un ennemi vous trouve, vous faites un jet d'attaque, ou vous lancez un sort avec une composante verbale."
         ]
@@ -154,14 +154,14 @@ data_action = [
         ]
     },
     {
-        title: "Fouiller",
+        title: "Chercher",
         optional: "Règle standard",
         icon: "look-at",
         subtitle: "Essayer de chercher quelque chose",
         description: "Passez votre temps à chercher.",
         reference: "PHB'24, page 373",
         bullets: [
-            "Lorsque vous utilisez l'action Fouiller, vous faites un test de Sagesse pour discerner quelque chose qui n'est pas évident. Le tableau de recherche suggère quelles compétences sont applicables lorsque vous utilisez cette action, en fonction de ce que vous essayez de détecter.",
+            "Lorsque vous utilisez l'action Chercher, vous faites un test de Sagesse pour discerner quelque chose qui n'est pas évident. Le tableau de recherche suggère quelles compétences sont applicables lorsque vous utilisez cette action, en fonction de ce que vous essayez de détecter.",
             "<table><tr><th style='text-align:left'>Compétence</th><th></th><th></th><th style='text-align:left'>Chose à détecter</th></tr><tr><td><u>Perspicacité</u></td><td></td><td></td><td>État d'esprit d'une créature.</td></tr><tr><td><u>Médecine</u></td><td></td><td></td><td>Maladie ou cause de mort d'une créature.</td></tr><tr><td><u>Perception</u></td><td></td><td></td><td>Créature ou objet dissimulé.</td></tr><tr><td><u>Survie</u></td><td></td><td></td><td>Pistes ou nourriture.</td></tr></table>"
         ]
     },
