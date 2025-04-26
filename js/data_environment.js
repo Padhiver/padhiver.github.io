@@ -29,7 +29,7 @@ data_environment_obscurance = [
         optional: "Règle standard",
         icon: "lightning-tear",
         subtitle: "Effectivement aveuglé",
-        description: "Ténèbre, brouillard opaque, feuillage dense",
+        description: "Ténèbres, brouillard opaque, feuillage dense",
         reference: "PHB, pg. 183.",
         bullets: [
             "Si vous êtes dans une zone à visibilité nulle, vous souffrez de l'état <b>aveuglé</b>."
@@ -63,7 +63,7 @@ data_environment_light = [
         ]
     },
     {
-        title: "Ténèbre",
+        title: "Ténèbres",
         optional: "Règle standard",
         icon: "worried-eyes",
         subtitle: "Fortement obscurci",

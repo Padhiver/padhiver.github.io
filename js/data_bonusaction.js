@@ -23,7 +23,7 @@ data_bonusaction = [
         bullets: [
             "Lorsque vous utilisez l'action Attaquer lors de votre tour et que vous attaquez avec une arme légère, vous pouvez faire une attaque supplémentaire en tant qu'action bonus plus tard lors du même tour.",
             "Cette attaque supplémentaire doit être faite avec une autre arme légère, et vous n'ajoutez pas votre modificateur de caractéristique aux dégâts de l'attaque supplémentaire, sauf si ce modificateur est négatif.",
-            "La maîtrise d'arme <b>Nick</b> fait de cette attaque une partie de l'action Attaquer au lieu d'une action bonus."
+            "La maîtrise d'arme <b>Entailler</b> fait de cette attaque une partie de l'action Attaquer au lieu d'une action bonus."
         ]
     },
     {

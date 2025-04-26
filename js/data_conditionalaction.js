@@ -39,14 +39,14 @@ data_conditionalaction = [
         ]
     },
     {
-        title: "Échapper à un agrippement",
+        title: "S'extraire d'une lutte",
         optional: "Règle standard",
         icon: "manacles",
         subtitle: "Tenter de s'échapper",
-        description: "Échapper à un agrippement",
+        description: "S'extraire d'une lutte",
         reference: "PHB'24, page 367",
         bullets: [
-            "Une créature agrippée peut utiliser son action pour faire un test de Force (Athlétisme) ou de Dextérité (Acrobatie) contre le DD d'échappement de l'agrippement, mettant fin à l'état sur elle-même en cas de réussite.",
+            "Une créature agrippée peut utiliser son action pour faire un test de Force (Athlétisme) ou de Dextérité (Acrobatie) contre le DD d'extraction d'une lutte, mettant fin à l'état sur elle-même en cas de réussite.",
             "L'état se termine également si l'agrippeur a l'état <i>Neutralisé</i> ou si la distance entre la cible agrippée et l'agrippeur dépasse la portée de l'agrippement."
         ]
     },
