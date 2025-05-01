@@ -18,12 +18,12 @@ data_condition = [
         optional: "Règle standard",
         icon: "grab",
         subtitle: "Vous êtes agrippé",
-        description: "Vous êtes agrippé",
+        description: "Tant que vous avez l'état Agrippé, vous subissez les effets suivants.",
         reference: "PHB, pg. 290.",
         bullets: [
-            "Votre vitesse passe à 0, et vous ne pouvez bénéficier d'aucun bonus à votre vitesse.",
-            "L'état prend fin si la créature qui vous agrippe est <b>Neutralisé</b>.",
-            "L'état se termine également si un effet vous met hors de portée de la créature ou de l'effet qui vous agrippe, comme par exemple lorsque vous êtes projeté par le sort vague tonnante."
+            "<b>Vitesse 0.</b> Votre vitesse est de 0 et ne peut pas augmenter.",
+            "<b>Jets d'attaque affectés.</b> Vous avez un <b>Désavantage</b> à vos jets d'attaque contre toute cible autre que celle qui vous agrippe.",
+            "<b>Déplaçable.</b> La créature qui vous agrippe peut vous traîner ou vous porter lorsqu'elle se déplace, mais chaque mètre de mouvement lui coûte 1 mètre supplémentaire, sauf si vous êtes de taille Très Petite (Tiny) ou avez au moins deux tailles de moins qu'elle."
         ]
     },
     {
@@ -31,10 +31,10 @@ data_condition = [
         optional: "Règle standard",
         icon: "elf-ear",
         subtitle: "Vous ne pouvez pas entendre",
-        description: "Vous ne pouvez pas entendre",
+        description: "Tant que vous avez l'état Assourdi, vous subissez l'effet suivant.",
         reference: "PHB, pg. 290.",
         bullets: [
-            "Vous échouez automatiquement à tout test de caractéristique qui nécessite l'ouïe."
+            "<b>Ne peut entendre.</b> Vous ne pouvez pas entendre et échouez automatiquement à tout test de caractéristique qui nécessite l'ouïe."
         ]
     },
     {
@@ -42,12 +42,11 @@ data_condition = [
         optional: "Règle standard",
         icon: "one-eyed",
         subtitle: "Vous ne pouvez pas voir",
-        description: "Vous ne pouvez pas voir",
+        description: "Tant que vous avez l'état Aveuglé, vous subissez les effets suivants.",
         reference: "PHB, pg. 290.",
         bullets: [
-            "Vous échouez automatiquement à tout test de caractéristique qui nécessite la vue.",
-            "Les jets d'attaque contre vous ont un avantage.",
-            "Vous avez un désavantage sur les jets d'attaque."
+            "<b>Ne peut voir.</b> Vous ne pouvez pas voir et échouez automatiquement à tout test de caractéristique qui nécessite la vue.",
+            "<b>Jets d'attaque affectés.</b> Les jets d'attaque contre vous ont un <b>Avantage</b>, et vos jets d'attaque ont un <b>Désavantage</b>."
         ]
     },
     {
@@ -55,12 +54,11 @@ data_condition = [
         optional: "Règle standard",
         icon: "crawl",
         subtitle: "Vous êtes à terre",
-        description: "Vous êtes à terre",
+        description: "Tant que vous avez l'état À terre, vous subissez les effets suivants.",
         reference: "PHB, pg. 292.",
         bullets: [
-            "La seule option de mouvement possible pour vous est de ramper, à moins que vous ne vous releviez et mettiez alors un terme à cet état.",
-            "Vous avez un désavantage aux jets d'attaque.",
-            "Un jet d'attaque contre vous a un avantage si l'attaquant est à 1,50 mètre ou moins de vous. Sinon, le jet d'attaque a un désavantage."
+            "<b>Mouvement restreint.</b> Votre seule option de mouvement est de <b>Ramper</b> ou de dépenser une quantité de mouvement égale à la moitié de votre Vitesse (arrondi à l'inférieur) pour vous relever et ainsi mettre fin à cet état. Si votre Vitesse est de 0, vous ne pouvez pas vous relever.",
+            "<b>Jets d'attaque affectés.</b> Vous avez un <b>Désavantage</b> à vos jets d'attaque. Un jet d'attaque contre vous a un <b>Avantage</b> si l'attaquant est à 1,50 mètre ou moins de vous. Sinon, ce jet d'attaque a un <b>Désavantage</b>."
         ]
     },
     {
@@ -68,11 +66,11 @@ data_condition = [
         optional: "Règle standard",
         icon: "smitten",
         subtitle: "Vous êtes charmé",
-        description: "Vous êtes charmé par une autre créature",
+        description: "Tant que vous avez l'état Charmé, vous subissez les effets suivants.",
         reference: "PHB, pg. 290.",
         bullets: [
-            "Vous ne pouvez pas attaquer le charmeur ou le cibler avec des capacités ou des effets magiques nuisibles.",
-            "Le charmeur a un avantage à ses jets de caractéristique pour interagir socialement avec vous."
+            "<b>Ne peut nuire au charmeur.</b> Vous ne pouvez pas attaquer le charmeur ni le cibler avec des capacités ou des effets magiques infligeant des dégâts.",
+            "<b>Avantage social.</b> Le charmeur a un <b>Avantage</b> à tout test de caractéristique pour interagir socialement avec vous."
         ]
     },
     {
@@ -80,10 +78,10 @@ data_condition = [
         optional: "Règle standard",
         icon: "deathcab",
         subtitle: "Vous êtes empoisonné",
-        description: "Vous êtes empoisonné",
+        description: "Tant que vous avez l'état Empoisonné, vous subissez l'effet suivant.",
         reference: "PHB, pg. 292.",
         bullets: [
-            "Vous avez un désavantage sur les jets d'attaque et les tests de caractéristique."
+            "<b>Tests de caractéristique et jets d'attaque affectés.</b> Vous avez un <b>Désavantage</b> à vos jets d'attaque et tests de caractéristique."
         ]
     },
     {
@@ -91,13 +89,12 @@ data_condition = [
         optional: "Règle standard",
         icon: "imprisoned",
         subtitle: "Vous êtes entravé",
-        description: "Vous êtes entravé",
+        description: "Tant que vous avez l'état Entravé, vous subissez les effets suivants.",
         reference: "PHB, pg. 292.",
         bullets: [
-            "Votre vitesse passe à 0, et vous ne pouvez bénéficier d'aucun bonus à votre vitesse.",
-            "Les jets d'attaque contre vous ont un avantage.",
-            "Vous avez un désavantage sur les jets d'attaque.",
-            "Vous avez un désavantage à vos jets de sauvegarde de Dextérité."
+            "<b>Vitesse 0.</b> Votre vitesse est de 0 et ne peut pas augmenter.",
+            "<b>Jets d'attaque affectés.</b> Les jets d'attaque contre vous ont un <b>Avantage</b>, et vos jets d'attaque ont un <b>Désavantage</b>.",
+            "<b>Jets de sauvegarde affectés.</b> Vous avez un <b>Désavantage</b> à vos jets de sauvegarde de Dextérité."
         ]
     },
     {
@@ -105,13 +102,13 @@ data_condition = [
         optional: "Règle standard",
         icon: "crawl",
         subtitle: "Vous êtes épuisé",
-        description: "L'épuisement est mesuré en six niveaux",
+        description: "Tant que vous avez l'état Épuisement, vous subissez les effets suivants.",
         reference: "PHB, pg. 291.",
         bullets: [
-            "<table><tr><th>Niveau</th><th></th><th></th><th style='text-align:left'>Effet</th></tr><tr><td>1</td><td></td><td></td><td>Désavantage sur les tests de caractéristique</td></tr><tr><td>2</td><td></td><td></td><td>Vitesse réduite de moitié</td></tr><tr><td>3</td><td></td><td></td><td>Désavantage sur les jets d'attaque et les jets de sauvegarde</td></tr><tr><td>4</td><td></td><td></td><td>Points de vie maximum réduits de moitié</td></tr><tr><td>5</td><td></td><td></td><td>Vitesse réduite à 0</td></tr><tr><td>6</td><td></td><td></td><td>Mort</td></tr></table>",
-            "Vous subissez les effets de votre niveau actuel d'épuisement ainsi que de tous les niveaux inférieurs.",
-            "Terminer un repos long réduit votre niveau d'épuisement de 1, à condition que vous ayez également eu de la nourriture et de l'eau.",
-            "De plus, être ramené à la vie réduit votre niveau d'épuisement de 1."
+            "<b>Niveaux d'épuisement.</b> Cet état est cumulatif. Chaque fois que vous le recevez, vous gagnez 1 niveau d'Épuisement. Vous mourez si votre niveau d'Épuisement atteint 6.",
+            "<b>Tests D20 affectés.</b> Lorsque vous effectuez un <b>Test D20</b> (jet d'attaque, jet de sauvegarde ou test de caractéristique), le résultat du dé est réduit de 2 fois votre niveau d'Épuisement.",
+            "<b>Vitesse réduite.</b> Votre Vitesse est réduite de 1,50 mètre fois votre niveau d'Épuisement.", // Conversion de "5 feet"
+            "<b>Retirer les niveaux d'épuisement.</b> Terminer un <b>Repos Long</b> retire 1 de vos niveaux d'Épuisement. Lorsque votre niveau d'Épuisement atteint 0, l'état prend fin."
         ]
     },
     {
@@ -119,12 +116,12 @@ data_condition = [
         optional: "Règle standard",
         icon: "internal-injury",
         subtitle: "Vous êtes étourdi",
-        description: "Vous êtes étourdi",
+        description: "Tant que vous avez l'état Étourdi, vous subissez les effets suivants.",
         reference: "PHB, pg. 292.",
         bullets: [
-            "Vous êtes <b>Neutralisé</b>, ne pouvez plus bouger et parlez de manière hésitante.",
-            "Vous ratez automatiquement vos jets de sauvegarde de Force et de Dextérité.",
-            "Les jets d'attaque contre vous ont un avantage."
+            "<b>Neutralisé.</b> Vous avez l'état <b>Neutralisé</b>.",
+            "<b>Jets de sauvegarde affectés.</b> Vous échouez automatiquement à vos jets de sauvegarde de Force et de Dextérité.",
+            "<b>Jets d'attaque affectés.</b> Les jets d'attaque contre vous ont un <b>Avantage</b>."
         ]
     },
     {
@@ -132,11 +129,11 @@ data_condition = [
         optional: "Règle standard",
         icon: "sharp-smile",
         subtitle: "Vous êtes effrayé",
-        description: "Vous êtes effrayé",
+        description: "Tant que vous avez l'état Effrayé, vous subissez les effets suivants.",
         reference: "PHB, pg. 290.",
         bullets: [
-            "Vous avez un désavantage aux jets de caractéristique et aux jets d'attaque tant que la source de votre peur est dans votre ligne de vue.",
-            "Vous ne pouvez pas vous rapprocher volontairement de la source de votre peur."
+            "<b>Tests de caractéristique et jets d'attaque affectés.</b> Vous avez un <b>Désavantage</b> à vos tests de caractéristique et jets d'attaque tant que la source de votre peur est dans votre ligne de vue.",
+            "<b>Ne peut approcher.</b> Vous ne pouvez pas vous rapprocher volontairement de la source de votre peur."
         ]
     },
     {
@@ -144,14 +141,15 @@ data_condition = [
         optional: "Règle standard",
         icon: "coma",
         subtitle: "Vous êtes inconscient",
-        description: "Vous êtes inconscient",
+        description: "Tant que vous avez l'état Inconscient, vous subissez les effets suivants.",
         reference: "PHB, pg. 292.",
         bullets: [
-            "Vous êtes <b>Neutralisé</b>, ne pouvez plus bouger ni parler, et n'êtes plus conscient de ce qui se passe autour de vous.",
-            "Vous lâchez ce que vous teniez et tombez à terre.",
-            "Vous ratez automatiquement vos jets de sauvegarde de Force et de Dextérité.",
-            "Les jets d'attaque contre vous ont un avantage.",
-            "Toute attaque qui vous touche est un coup critique si l'attaquant est à 1,50 mètre ou moins de vous."
+            "<b>Inerte.</b> Vous avez les états <b>Neutralisé</b> et <b>À terre</b>, et vous lâchez tout ce que vous tenez. Lorsque cet état prend fin, vous restez <b>À terre</b>.",
+            "<b>Vitesse 0.</b> Votre Vitesse est de 0 et ne peut pas augmenter.",
+            "<b>Jets d'attaque affectés.</b> Les jets d'attaque contre vous ont un <b>Avantage</b>.",
+            "<b>Jets de sauvegarde affectés.</b> Vous échouez automatiquement à vos jets de sauvegarde de Force et de Dextérité.",
+            "<b>Coups critiques automatiques.</b> Tout jet d'attaque qui vous touche est un <b>Coup Critique</b> si l'attaquant est à 1,50 mètre ou moins de vous.",
+            "<b>Inconscient des environs.</b> Vous n'êtes pas conscient de votre environnement."
         ]
     },
     {
@@ -159,14 +157,12 @@ data_condition = [
         optional: "Règle standard",
         icon: "invisible",
         subtitle: "Vous ne pouvez pas être vu",
-        description: "Vous ne pouvez pas être vu sans l'aide de magie ou d'un sens particulier",
+        description: "Tant que vous avez l'état Invisible, vous subissez les effets suivants.",
         reference: "PHB, pg. 291.",
         bullets: [
-            "Vous ne pouvez être vu sans l'aide de la magie ou d'un sens particulier.",
-            "Votre emplacement peut être détecté par un bruit que vous faites ou par les traces que vous laissez.",
-            "Les jets d'attaque contre vous ont un désavantage.",
-            "Vous avez un avantage sur les jets d'attaque.",
-            "Vous ne pouvez pas être ciblé par un sort nécessitant la vue."
+            "<b>Surprise.</b> Si vous êtes Invisible lorsque vous lancez l'Initiative, vous avez un <b>Avantage</b> au jet.",
+            "<b>Dissimulé.</b> Vous n'êtes pas affecté par un effet qui requiert que sa cible soit vue, sauf si le créateur de l'effet peut vous voir d'une manière ou d'une autre. Tout équipement que vous portez ou transportez est également dissimulé.",
+            "<b>Jets d'attaque affectés.</b> Les jets d'attaque contre vous ont un <b>Désavantage</b>, et vos jets d'attaque ont un <b>Avantage</b>. Si une créature peut vous voir d'une manière ou d'une autre, vous ne bénéficiez pas de cet avantage contre cette créature."
         ]
     },
     {
@@ -193,11 +189,14 @@ data_condition = [
         title: "Neutralisé",
         optional: "Règle standard",
         icon: "internal-injury",
-        subtitle: "Vous ne pouvez pas faire d'actions ou de réactions",
-        description: "Vous ne pouvez pas faire d'actions ou de réactions",
+        subtitle: "Vous ne pouvez rien faire",
+        description: "Tant que vous avez l'état Neutralisé, vous subissez les effets suivants.",
         reference: "PHB, pg. 290.",
         bullets: [
-            "Vous ne pouvez effectuer aucune action ni aucune réaction."
+            "<b>Inactif.</b> Vous ne pouvez effectuer aucune <b>Action</b>, <b>Action Bonus</b> ou <b>Réaction</b>.",
+            "<b>Pas de Concentration.</b> Votre <b>Concentration</b> est brisée.",
+            "<b>Muet.</b> Vous ne pouvez pas parler.",
+            "<b>Surpris.</b> Si vous êtes Neutralisé lorsque vous lancez l'<b>Initiative</b>, vous avez un <b>Désavantage</b> au jet."
         ]
     },
     {
@@ -205,29 +204,30 @@ data_condition = [
         optional: "Règle standard",
         icon: "internal-injury",
         subtitle: "Vous êtes paralysé",
-        description: "Vous ne pouvez rien faire",
+        description: "Tant que vous avez l'état Paralysé, vous subissez les effets suivants.",
         bullets: [
-            "Vous êtes <b>Neutralisé</b> et ne pouvez plus bouger ni parler.",
-            "Vous ratez automatiquement vos jets de sauvegarde de Force et de Dextérité.",
-            "Les jets d'attaque contre vous ont un avantage.",
-            "Toute attaque qui vous touche est un coup critique si l'attaquant est à 1,50 mètre ou moins de vous."
+            "<b>Neutralisé.</b> Vous avez l'état <b>Neutralisé</b>.",
+            "<b>Vitesse 0.</b> Votre Vitesse est de 0 et ne peut pas augmenter.",
+            "<b>Jets de sauvegarde affectés.</b> Vous échouez automatiquement à vos jets de sauvegarde de Force et de Dextérité.",
+            "<b>Jets d'attaque affectés.</b> Les jets d'attaque contre vous ont un <b>Avantage</b>.",
+            "<b>Coups critiques automatiques.</b> Tout jet d'attaque qui vous touche est un <b>Coup Critique</b> si l'attaquant est à 1,50 mètre ou moins de vous."
         ]
     },
     {
         title: "Pétrifié",
         optional: "Règle standard",
         icon: "stone-pile",
-        subtitle: "Vous êtes transformé en pierre",
-        description: "Vous êtes transformé, ainsi que tout objet non magique que vous portez ou transportez, en une substance inanimée solide (généralement de la pierre)",
+        subtitle: "Vous êtes transformé en substance inanimée",
+        description: "Tant que vous avez l'état Pétrifié, vous subissez les effets suivants.",
         reference: "PHB, pg. 291.",
         bullets: [
-            "Vous êtes transformé, ainsi que tout objet non magique que vous portez, en une substance inanimée solide (généralement en pierre).",
-            "Votre poids est multiplié par dix et votre vieillissement cesse.",
-            "Vous êtes <b>Neutralisé</b>, ne pouvez plus bouger ni parler, et n'êtes plus conscient de ce qui se passe autour de vous.",
-            "Les jets d'attaque contre vous ont un avantage.",
-            "Vous ratez automatiquement vos jets de sauvegarde de Force et de Dextérité.",
-            "Vous obtenez la résistance contre tous les types de dégâts.",
-            "Vous êtes immunisé contre le poison et la maladie, mais un poison ou une maladie déjà dans votre organisme est seulement suspendu, pas neutralisé."
+            "<b>Transformé en substance inanimée.</b> Vous êtes transformé, ainsi que tout objet non magique que vous portez ou transportez, en une substance inanimée solide (généralement de la pierre). Votre poids est multiplié par dix et vous cessez de vieillir.",
+            "<b>Neutralisé.</b> Vous avez l'état <b>Neutralisé</b>.",
+            "<b>Vitesse 0.</b> Votre Vitesse est de 0 et ne peut pas augmenter.",
+            "<b>Jets d'attaque affectés.</b> Les jets d'attaque contre vous ont un <b>Avantage</b>.",
+            "<b>Jets de sauvegarde affectés.</b> Vous échouez automatiquement à vos jets de sauvegarde de Force et de Dextérité.",
+            "<b>Résistance aux dégâts.</b> Vous avez la <b>Résistance</b> à tous les types de dégâts.",
+            "<b>Immunité au poison.</b> Vous avez l'<b>Immunité</b> à l'état <b>Empoisonné</b>."
         ]
     }
 ];

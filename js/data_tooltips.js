@@ -16,7 +16,7 @@ const tooltipDefinitions = [
     },
     {
         title: "À terre",
-        description: "Une créature à terre est allongée et subit des désavantages.",
+        description: "Allongé au sol. Désavantage à ses attaques. Les attaques ennemies ont l'avantage si l'attaquant est proche (1,5m), sinon elles ont le désavantage.",
         reference: ["à terre"]
     },
     {
@@ -61,7 +61,7 @@ const tooltipDefinitions = [
     },
     {
         title: "Invisible",
-        description: "Une créature invisible ne peut être vue sans magie ou sens spéciaux.",
+        description: "Ne peut être vu (sauf sens spéciaux/magie). Avantage à l'initiative et aux jets d'attaque ; Désavantage aux jets d'attaque contre soi. Équipement dissimulé.",
         reference: ["invisible"]
     },
     {
@@ -81,7 +81,7 @@ const tooltipDefinitions = [
     },
     {
         title: "Neutralisé",
-        description: "Une créature neutralisée est incapable d'agir ou de se déplacer.",
+        description: "Ne peut effectuer Action, Action Bonus, ni Réaction. Perd sa Concentration. Ne peut parler. Désavantage à l'Initiative si actif au début du combat.",
         reference: ["neutralisé", "neutralisée"]
     },
     {
