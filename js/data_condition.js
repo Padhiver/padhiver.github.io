@@ -23,7 +23,7 @@ data_condition = [
         bullets: [
             "<b>Vitesse 0.</b> Votre vitesse est de 0 et ne peut pas augmenter.",
             "<b>Jets d'attaque affectés.</b> Vous avez un <b>Désavantage</b> à vos jets d'attaque contre toute cible autre que celle qui vous agrippe.",
-            "<b>Déplaçable.</b> La créature qui vous agrippe peut vous traîner ou vous porter lorsqu'elle se déplace, mais chaque mètre de mouvement lui coûte 1 mètre supplémentaire, sauf si vous êtes de taille Très Petite (Tiny) ou avez au moins deux tailles de moins qu'elle."
+            "<b>Déplaçable.</b> La créature qui vous agrippe peut vous traîner ou vous porter lorsqu'elle se déplace, mais chaque mètre de déplacement lui coûte 1 mètre supplémentaire, sauf si vous êtes de taille Très Petite (Tiny) ou avez au moins deux tailles de moins qu'elle."
         ]
     },
     {
@@ -57,7 +57,7 @@ data_condition = [
         description: "Tant que vous avez l'état À terre, vous subissez les effets suivants.",
         reference: "PHB, pg. 292.",
         bullets: [
-            "<b>Mouvement restreint.</b> Votre seule option de mouvement est de <b>Ramper</b> ou de dépenser une quantité de mouvement égale à la moitié de votre Vitesse (arrondi à l'inférieur) pour vous relever et ainsi mettre fin à cet état. Si votre Vitesse est de 0, vous ne pouvez pas vous relever.",
+            "<b>déplacement restreint.</b> Votre seule option de déplacement est la <b>Reptation</b> ou de dépenser une quantité de déplacement égale à la moitié de votre Vitesse (arrondi à l'inférieur) pour vous relever et ainsi mettre fin à cet état. Si votre Vitesse est de 0, vous ne pouvez pas vous relever.",
             "<b>Jets d'attaque affectés.</b> Vous avez un <b>Désavantage</b> à vos jets d'attaque. Un jet d'attaque contre vous a un <b>Avantage</b> si l'attaquant est à 1,50 mètre ou moins de vous. Sinon, ce jet d'attaque a un <b>Désavantage</b>."
         ]
     },

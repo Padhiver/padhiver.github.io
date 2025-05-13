@@ -91,7 +91,7 @@ const tooltipDefinitions = [
     },
     {
         title: "Terrain difficile",
-        description: "Un terrain qui coûte un mouvement supplémentaire pour le traverser.",
+        description: "Un terrain qui coûte un déplacement supplémentaire pour le traverser.",
         reference: ["terrain difficile"]
     },
     {

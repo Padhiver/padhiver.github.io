@@ -14,16 +14,16 @@
 
 data_action = [
     {
-        title: "Attaquer",
+        title: "Attaque",
         optional: "Règle standard",
         icon: "crossed-swords",
         subtitle: "Attaque de mêlée ou à distance",
         description: "Effectuez une attaque de mêlée ou à distance avec votre arme",
         reference: "PHB'24, page 361.",
         bullets: [
-            "Lorsque vous utilisez l'action Attaquer, vous pouvez faire un jet d'attaque avec une arme ou une attaque à mains nues.",
+            "Lorsque vous utilisez l'action Attaque, vous pouvez faire un jet d'attaque avec une arme ou une attaque à mains nues.",
             "<b>Équiper et déséquiper des armes.</b></br> Vous pouvez soit équiper ou déséquiper une arme lorsque vous faites une attaque dans le cadre de cette action. Vous le faites soit avant, soit après l'attaque. <br> Si vous équipez une arme avant une attaque, vous n'êtes pas obligé de l'utiliser pour cette attaque. Équiper une arme inclut la tirer d'un fourreau ou la ramasser. Déséquiper une arme inclut la ranger, la stocker ou la laisser tomber.",
-            "<b>Se déplacer entre les attaques.</b></br> Si vous vous déplacez pendant votre tour et que vous avez une caractéristique, comme Attaque supplémentaire, qui vous permet de faire plus d'une attaque dans le cadre de l'action Attaquer, vous pouvez utiliser une partie ou la totalité de ce mouvement pour vous déplacer entre ces attaques."
+            "<b>Se déplacer entre les attaques.</b></br> Si vous vous déplacez pendant votre tour et que vous avez une caractéristique, comme Attaque supplémentaire, qui vous permet de faire plus d'une attaque dans le cadre de l'action Attaquer, vous pouvez utiliser une partie ou la totalité de ce déplacement pour vous déplacer entre ces attaques."
         ]
     },
     {
@@ -39,7 +39,7 @@ data_action = [
         ]
     },
     {
-        title: "Agripper",
+        title: "Lutte",
         optional: "Règle standard",
         icon: "grab",
         subtitle: "Option d'attaque à mains nues",
@@ -47,12 +47,12 @@ data_action = [
         reference: "PHB'24, page 377.",
         bullets: [
             "Chaque fois que vous utilisez votre attaque à mains nues, choisissez l'une des options suivantes pour son effet.",
-            "<b>Agripper.</b></br> La cible doit réussir un jet de sauvegarde de Force ou de Dextérité (elle choisit lequel), sinon elle est <i>Agrippée</i>. Le DD pour le jet de sauvegarde et toute tentative d'échappement est de 8 + votre modificateur de Force + votre bonus de maîtrise.",
-            "Cet agrippement n'est possible que si la cible n'est pas plus d'une taille supérieure à la vôtre et si vous avez une main libre pour la saisir."
+            "<b>Lutte.</b></br> La cible doit réussir un jet de sauvegarde de Force ou de Dextérité (elle choisit lequel), sinon elle est <i>Agrippée</i>. Le DD pour le jet de sauvegarde et toute tentative d'échappement est de 8 + votre modificateur de Force + votre bonus de maîtrise.",
+            "Cette lutte n'est possible que si la cible n'est pas plus d'une taille supérieure à la vôtre et si vous avez une main libre pour la saisir."
         ]
     },
     {
-        title: "Bousculer",
+        title: "Bousculade",
         optional: "Règle standard",
         icon: "hand",
         subtitle: "Option d'attaque à mains nues",
@@ -80,11 +80,11 @@ data_action = [
         ]
     },
     {
-        title: "Foncer",
+        title: "Pointe",
         optional: "Règle standard",
         icon: "sprint",
-        subtitle: "Vitesse de mouvement supplémentaire",
-        description: "Gagnez un mouvement supplémentaire pour le tour actuel",
+        subtitle: "Vitesse de déplacement supplémentaire",
+        description: "Gagnez un déplacement supplémentaire pour le tour actuel",
         reference: "PHB'24, page 365",
         bullets: [
             "L'augmentation est égale à votre vitesse après application de tous les modificateurs.",
@@ -92,18 +92,18 @@ data_action = [
         ]
     },
     {
-        title: "Se désengager",
+        title: "Désengagement",
         optional: "Règle standard",
         icon: "run",
         subtitle: "Empêcher les attaques d'opportunité",
-        description: "Votre mouvement ne provoque pas d'attaques d'opportunité pour le reste du tour",
-        reference: "PHB'24, page 366",
+        description: "Votre déplacement ne provoque pas d'attaques d'Opportunité pour le reste du tour",
+        reference: "PHB'24, page 15",
         bullets: [
-            "Votre mouvement ne provoque pas d'attaques d'opportunité pour le reste du tour"
+            "Votre déplacement ne provoque pas d'attaques d'Opportunité pour le reste du tour"
         ]
     },
     {
-        title: "Esquiver",
+        title: "Esquive",
         optional: "Règle standard",
         icon: "dodging",
         subtitle: "Éviter les attaques entrantes",
@@ -115,20 +115,20 @@ data_action = [
         ]
     },
     {
-        title: "Aider",
+        title: "Soutien",
         optional: "Règle standard",
         icon: "team-idea",
         subtitle: "Accorder un avantage à un allié",
         description: "Accordez un avantage à un allié sur un test de caractéristique ou un jet d'attaque",
         reference: "PHB'24, page 368",
         bullets: [
-            "Lorsque vous utilisez l'action Aider, vous faites l'une des choses suivantes :",
-            "<b>Aider un test de caractéristique.</b></br> Choisissez l'une de vos compétences ou maîtrises d'outils et un allié qui est suffisamment proche pour que vous puissiez l'aider verbalement ou physiquement lorsqu'il fait un test de caractéristique. Cet allié a un avantage sur le prochain test de caractéristique qu'il fait avec la compétence ou l'outil choisi. Cet avantage expire si l'allié ne l'utilise pas avant le début de votre prochain tour. </br>Le MJ a le dernier mot pour déterminer si votre aide est possible.",
-            "<b>Aider un jet d'attaque.</b></br> Vous distrayez momentanément un ennemi à 1,5 mètre de vous, donnant un avantage au prochain jet d'attaque d'un de vos alliés contre cet ennemi. Cet avantage expire au début de votre prochain tour."
+            "Lorsque vous utilisez l'action Soutien, vous faites l'une des choses suivantes :",
+            "<b>Soutien à un test de caractéristique.</b></br> Choisissez l'une de vos compétences ou maîtrises d'outils et un allié qui est suffisamment proche pour que vous puissiez l'aider verbalement ou physiquement lorsqu'il fait un test de caractéristique. Cet allié a un avantage sur le prochain test de caractéristique qu'il fait avec la compétence ou l'outil choisi. Cet avantage expire si l'allié ne l'utilise pas avant le début de votre prochain tour. </br>Le MJ a le dernier mot pour déterminer si votre aide est possible.",
+            "<b>Soutien à un jet d'attaque.</b></br> Vous distrayez momentanément un ennemi à 1,5 mètre de vous, donnant un avantage au prochain jet d'attaque d'un de vos alliés contre cet ennemi. Cet avantage expire au début de votre prochain tour."
         ]
     },
     {
-        title: "Se cacher",
+        title: "Furtivité",
         optional: "Règle standard",
         icon: "hood",
         subtitle: "Tenter de se cacher",
@@ -141,7 +141,7 @@ data_action = [
         ]
     },
     {
-        title: "Utiliser",
+        title: "Utilisation",
         optional: "Règle standard",
         icon: "usable",
         subtitle: "Interagir avec un objet ou un élément",
@@ -149,7 +149,7 @@ data_action = [
         reference: "PHB'24, page 378",
         bullets: [
             "Vous interagissez normalement avec un objet tout en faisant autre chose, comme lorsque vous tirez une épée dans le cadre de l'action Attaquer. Lorsqu'un objet nécessite une action pour son utilisation, vous utilisez l'action Utiliser.",
-            "<b>Interactions avec des objets limitées dans le temps.</b></br> Lorsque le temps est limité, comme en combat, les interactions avec les objets sont limitées : une interaction gratuite par tour. Cette interaction doit se produire pendant le mouvement ou l'action d'une créature. Toute interaction supplémentaire nécessite l'action Utiliser.",
+            "<b>Interactions avec des objets limitées dans le temps.</b></br> Lorsque le temps est limité, comme en combat, les interactions avec les objets sont limitées : une interaction gratuite par tour. Cette interaction doit se produire pendant le déplacement ou l'action d'une créature. Toute interaction supplémentaire nécessite l'action Utiliser.",
             "<b>Briser des objets.</b></br> En tant qu'action, vous pouvez automatiquement briser ou autrement détruire un objet fragile et non magique, comme un récipient en verre ou une feuille de papier. Si vous essayez d'endommager quelque chose de plus résistant, le MJ pourrait utiliser les règles sur la rupture d'objets dans le glossaire des règles."
         ]
     },
@@ -166,7 +166,7 @@ data_action = [
         ]
     },
     {
-        title: "Étudier",
+        title: "Étude",
         optional: "Règle standard",
         icon: "magnifying-glass",
         subtitle: "Tenter d'apprendre quelque chose",
@@ -178,27 +178,27 @@ data_action = [
         ]
     },
     {
-        title: "Influencer",
+        title: "Influence",
         optional: "Règle standard",
         icon: "conversation",
         subtitle: "Tenter de convaincre quelqu'un",
         description: "Passez votre temps à communiquer",
         reference: "PHB'24, page 369",
         bullets: [
-            "Avec l'action Influencer, vous poussez une créature à faire quelque chose. Décrivez ou jouez la manière dont vous communiquez avec la créature. Essayez-vous de tromper, d'intimider, d'amuser ou de persuader doucement ? Le MJ détermine ensuite si la créature se sent disposée, réticente ou hésitante en raison de votre interaction ; cette détermination établit si un test de caractéristique est nécessaire, comme expliqué ci-dessous.",
+            "Avec l'action Influence, vous poussez une créature à faire quelque chose. Décrivez ou jouez la manière dont vous communiquez avec la créature. Essayez-vous de tromper, d'intimider, d'amuser ou de persuader doucement ? Le MJ détermine ensuite si la créature se sent disposée, réticente ou hésitante en raison de votre interaction ; cette détermination établit si un test de caractéristique est nécessaire, comme expliqué ci-dessous.",
             "<b>Disposée.</b> Si votre incitation correspond aux désirs de la créature, aucun test de caractéristique n'est nécessaire ; la créature accomplit votre demande de la manière qu'elle préfère. </br></br> <b>Réticente.</b> Si votre incitation est répugnante pour la créature ou contraire à son alignement, aucun test de caractéristique n'est nécessaire ; elle ne se conforme pas. </br></br> <b>Hésitante.</b> Si vous poussez la créature à faire quelque chose qu'elle hésite à faire, vous devez faire un test de caractéristique, qui est affecté par l'attitude de la créature : Indifférente, Amicale ou Hostile. </br></br> Le tableau des tests d'influence suggère quel test de caractéristique faire en fonction de la manière dont vous interagissez avec la créature. Le MJ choisit le test, qui a un DD par défaut de 15 ou le score d'Int de la créature, selon ce qui est le plus élevé. En cas de réussite, la créature fait ce que vous lui avez demandé. En cas d'échec, vous devez attendre 24 heures (ou une durée fixée par le MJ) avant de la pousser à nouveau de la même manière.",
             "<table><tr><th style='text-align:left'>Test de caractéristique</th><th></th><th></th><th style='text-align:left'>Interaction</th></tr><tr><td><u>Charisme (Tromperie)</u></td><td></td><td></td><td>	Tromper une créature qui vous comprend.</td></tr><tr><td><u>Charisme (Intimidation)</u></td><td></td><td></td><td>Intimider une créature.</td></tr><tr><td><u>Charisme (Représentation)</u></td><td></td><td></td><td>Amuser un monstre.</td></tr><tr><td><u>Charisme (Persuasion)</u></td><td></td><td></td><td>Persuader une créature qui vous comprend.</td></tr><tr><td><u>Sagesse (Dressage)</u></td><td></td><td></td><td>Encourager doucement une Bête ou une Monstruosité.</td></tr></table>"
         ]
     },
     {
-        title: "Se tenir prêt",
+        title: "Intention",
         optional: "Règle standard",
         icon: "stopwatch",
         subtitle: "Choisir un déclencheur et une action",
         description: "Choisissez un déclencheur et une réaction en réponse",
         reference: "PHB'24, page 372",
         bullets: [
-            "Parfois, vous voulez agir juste avant un ennemi ou attendre une circonstance particulière avant d'agir. Pour faire ceci, vous pouvez utiliser à votre tour l'action Se tenir prêt, qui vous permet d'agir en utilisant votre <b>réaction</b> avant le début de votre prochain tour.",
+            "Parfois, vous voulez agir juste avant un ennemi ou attendre une circonstance particulière avant d'agir. Pour faire ceci, vous pouvez utiliser à votre tour l'action Intention, qui vous permet d'agir en utilisant votre <b>réaction</b> avant le début de votre prochain tour.",
             "En premier lieu, vous devez décider quelle circonstance perceptible déclenchera votre réaction, puis choisir l'action en réponse au déclencheur ou un déplacement supplémentaire au plus égal à votre vitesse. ",
             "Exemples : <i>Si le cultiste marche sur le piège, je lève le levier qui le déclenchera</i> ou <i>si le gobelin s'approche de moi, je m'en éloigne.</i>",
             "Quand le déclencheur est activé, vous pouvez soit utiliser votre réaction <b>dès qu'il se termine</b>, soit l'ignorer.",

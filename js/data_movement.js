@@ -18,7 +18,7 @@ data_movement = [
         optional: "Règle standard",
         icon: "run",
         subtitle: "Coût : 1,5m par 1,5m",
-        description: "Coût du mouvement : 1,5m par 1,5m de déplacement",
+        description: "Coût du déplacement : 1,5m par 1,5m de déplacement",
         reference: "PHB, pg. 190.",
         bullets: [
             "Si vous avez plus d'une vitesse, comme votre vitesse de marche et une vitesse de vol, vous pouvez alterner entre vos vitesses pendant votre déplacement. Chaque fois que vous changez, soustrayez la distance que vous avez déjà parcourue de la nouvelle vitesse.",
@@ -33,7 +33,7 @@ data_movement = [
         optional: "Règle standard",
         icon: "crags",
         subtitle: "Coût : 3m par 1,5m",
-        description: "Coût du mouvement : 3m par 1,5m escaladé",
+        description: "Coût du déplacement : 3m par 1,5m escaladé",
         reference: "PHB, pg. 182.",
         bullets: [
             "Peut nécessiter un test de Force (Athlétisme) si l'escalade est difficile"
@@ -44,31 +44,31 @@ data_movement = [
         optional: "Règle standard",
         icon: "at-sea",
         subtitle: "Coût : 3m par 1,5m",
-        description: "Coût du mouvement : 3m par 1,5m nagé",
+        description: "Coût du déplacement : 3m par 1,5m nagé",
         reference: "PHB, pg. 182.",
         bullets: [
             "Peut nécessiter un test de Force (Athlétisme) si la nage est difficile"
         ]
     },
     {
-        title: "Se laisser tomber à terre",
+        title: "Plonger à terre",
         optional: "Règle standard",
         icon: "lob-arrow",
         subtitle: "Coût : 0m",
-        description: "Coût du mouvement : 0m (gratuit)",
+        description: "Coût du déplacement : 0m (gratuit)",
         reference: "PHB, pgs. 190-191,292.",
         bullets: [
             "Vous pouvez vous laisser tomber à terre sans utiliser aucune de votre vitesse",
             "Pour vous déplacer à terre, vous devez ramper ou utiliser de la magie comme la téléportation",
-            "Se laisser tomber à terre ajoute l'état <i>À terre</i> (les attaques de mêlée contre vous ont un avantage, les attaques à distance contre vous ont un désavantage, vos propres attaques ont un désavantage)"
+            "Plonger à terre ajoute l'état <i>À terre</i> (les attaques de mêlée contre vous ont un avantage, les attaques à distance contre vous ont un désavantage, vos propres attaques ont un désavantage)"
         ]
     },
     {
-        title: "Ramper",
+        title: "Reptation",
         optional: "Règle standard",
         icon: "crawl",
         subtitle: "Coût : 3m par 1,5m",
-        description: "Coût du mouvement : 3m par 1,5m rampé",
+        description: "Coût du déplacement : 3m par 1,5m rampé",
         reference: "PHB, pg. 182.",
         bullets: [
 
@@ -79,10 +79,10 @@ data_movement = [
         optional: "Règle standard",
         icon: "strong",
         subtitle: "Coût : vitesse divisée par 2",
-        description: "Coût du mouvement : vitesse divisée par 2",
+        description: "Coût du déplacement : vitesse divisée par 2",
         reference: "PHB, pg. 190-191.",
         bullets: [
-            "Vous ne pouvez pas vous relever si vous n'avez pas assez de mouvement restant ou si votre vitesse est de 0"
+            "Vous ne pouvez pas vous relever si vous n'avez pas assez de déplacement restant ou si votre vitesse est de 0"
         ]
     },
     {
@@ -118,9 +118,9 @@ data_movement = [
         optional: "Règle standard",
         icon: "juggler",
         subtitle: "Toute action non listée ici",
-        description: "Effectuez tout mouvement ou action que vous pouvez imaginer",
+        description: "Effectuez tout déplacement ou action que vous pouvez imaginer",
         bullets: [
-            "Lorsque vous décrivez un type de mouvement non détaillé ailleurs dans les règles, le MJ vous dit s'il est possible et quel type de jet vous devez faire, le cas échéant, pour déterminer le succès ou l'échec."
+            "Lorsque vous décrivez un type de déplacement non détaillé ailleurs dans les règles, le MJ vous dit s'il est possible et quel type de jet vous devez faire, le cas échéant, pour déterminer le succès ou l'échec."
         ]
     },
     {
@@ -129,12 +129,12 @@ data_movement = [
         icon: "stone-pile",
         subtitle: "Modif. de coût : +1,5m par 1,5m",
         reference: "PHB, pg. 182.",
-        description: "Se déplacer sur un terrain difficile coûte 1,5m supplémentaire par 1,5m de mouvement",
+        description: "Se déplacer sur un terrain difficile coûte 1,5m supplémentaire par 1,5m de déplacement",
         bullets: [
         ]
     },
     {
-        title: "Déplacement avec agrippement",
+        title: "Déplacement avec lutte",
         optional: "Règle standard",
         icon: "grab",
         subtitle: "Modif. de coût : vitesse divisée par 2",
