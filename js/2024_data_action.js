@@ -229,8 +229,8 @@ data_action = [
         description: "Empêcher une créature mourante d'avoir à faire des jets de sauvegarde contre la mort.",
         reference: "PHB, pg. 29.",
         bullets: [
-            "Vous pouvez entreprendre l'action <i>Soutien</i> pour tenter de stabiliser une créature à O point de vie, ce qui demande de réussir un test de Sagesse (Médecine) DD 10.",
-            "Une créature <i>Stabilisée</i> n'est pas soumise aux jets de sauvegarde contre la mort, bien qu'étant à O point de vie, mais elle garde l'état <i>Inconscient.</i>",
+            "Vous pouvez entreprendre l'action <i>Soutien</i> pour tenter de stabiliser une créature à 0 point de vie, ce qui demande de réussir un test de Sagesse (Médecine) DD 10.",
+            "Une créature <i>Stabilisée</i> n'est pas soumise aux jets de sauvegarde contre la mort, bien qu'étant à 0 point de vie, mais elle garde l'état <i>Inconscient.</i>",
             "Si elle subit le moindre dégât, elle n'est plus <i>Stabilisée</i> et se retrouve à nouveau soumise aux JS contre la mort.",
             "Une créature <i>Stabilisée</i> qui n'est pas soignée récupère 1 point de vie au bout de 1d4 heures."
         ]
