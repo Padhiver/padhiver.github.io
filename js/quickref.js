@@ -142,6 +142,27 @@ function fill_section(data, parentname, type) {
     });
 }
 
+// Updates item visibility based on optional and homebrew toggles
+function handleRulesToggle() {
+    var optionalCheckbox = document.getElementById('optional-switch');
+    var homebrewCheckbox = document.getElementById('homebrew-switch');
+    
+    var items = document.getElementsByClassName('item itemsize');
+    for (var i = 0; i < items.length; i++) {
+        var item = items[i];
+        var ruleType = item.getAttribute('title');
+        var isOptional = ruleType === 'Optional rule';
+        var isHomebrew = ruleType === 'Homebrew rule';
+        if ((isOptional && optionalCheckbox.checked) ||
+            (isHomebrew && homebrewCheckbox.checked) ||
+            (!isOptional && !isHomebrew)) {
+            item.style.display = 'block';
+        } else {
+            item.style.display = 'none';
+        }
+    }
+}
+
 // Initializes all quick reference sections and modal event
 function init() {
     fill_section(data_movement, "basic-movement", "Move");
@@ -214,24 +235,6 @@ document.addEventListener("DOMContentLoaded", function () {
         handleDarkModeToggle();
     });
     rules2024Checkbox.addEventListener('change', handle2024RulesToggle);
-
-    // Updates item visibility based on optional and homebrew toggles
-    function handleRulesToggle() {
-        var items = document.getElementsByClassName('item itemsize');
-        for (var i = 0; i < items.length; i++) {
-            var item = items[i];
-            var ruleType = item.getAttribute('title');
-            var isOptional = ruleType === 'Optional rule';
-            var isHomebrew = ruleType === 'Homebrew rule';
-            if ((isOptional && optionalCheckbox.checked) ||
-                (isHomebrew && homebrewCheckbox.checked) ||
-                (!isOptional && !isHomebrew)) {
-                item.style.display = 'block';
-            } else {
-                item.style.display = 'none';
-            }
-        }
-    }
 
     // Applies or removes dark mode classes and stores state
     function handleDarkModeToggle() {
