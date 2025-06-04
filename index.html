@@ -192,23 +192,5 @@
     </div>
     <!-- Data -->
     <script type="text/javascript" src="js/quickref.js" charset="utf-8"></script>
-    <script>
-        // Set default values if not present
-        if (localStorage.getItem('optional') === null) {
-            localStorage.setItem('optional', 'false');
-        }
-        if (localStorage.getItem('homebrew') === null) {
-            localStorage.setItem('homebrew', 'false');
-        }
-
-        // Set checkbox states from localStorage
-        optionalCheckbox.checked = localStorage.getItem('optional') === 'true';
-        homebrewCheckbox.checked = localStorage.getItem('homebrew') === 'true';
-
-        // Now call the function to update the UI
-        handleRulesToggle();
-    </script>
-
 </body>
-
 </html>
