@@ -636,16 +636,20 @@ input:checked+.slider:before {
 }
 
 .dark-mode-active .modal-backdrop {
-    background-color: rgba(0, 0, 0, 0.75); /* Dark mode backdrop color */
+    background-color: rgba(0, 0, 0, 0.75);
+    /* Dark mode backdrop color */
 }
 
 .dark-mode-active .modal-container {
-    box-shadow: 0 3px 9px rgba(255, 255, 255, 0.5); /* Dark mode modal container shadow */
+    box-shadow: 0 3px 9px rgba(255, 255, 255, 0.5);
+    /* Dark mode modal container shadow */
 }
 
 .dark-mode-active .modal-footer {
-    border-top-color: #555; /* Dark mode modal footer border color */
+    border-top-color: #555;
+    /* Dark mode modal footer border color */
 }
+
 /* Cookies Notice */
 .cookie-notice {
     font-family: 'Noto Sans', 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
@@ -676,4 +680,32 @@ input:checked+.slider:before {
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
+}
+
+
+/* Masquer la barre de défilement pour tous les navigateurs */
+html,
+body {
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* Internet Explorer et Edge */
+}
+
+/* Masquer la barre de défilement pour WebKit (Chrome, Safari, Opera) */
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Optionnel : pour les conteneurs avec défilement */
+.modal,
+.section-content {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.modal::-webkit-scrollbar,
+.section-content::-webkit-scrollbar {
+    display: none;
 }

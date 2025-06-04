@@ -191,28 +191,9 @@
             </div>
         </div>
     </div>
-    <div id="cookie-notice" class="cookie-notice">
-        <p>This website uses cookies to ensure you get the best experience on our website.</p>
-        <button id="accept-cookies">Accept</button>
-    </div>
     <!-- Data -->
     <script type="text/javascript" src="js/quickref.js" charset="utf-8"></script>
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var cookieNotice = document.getElementById('cookie-notice');
-            var acceptButton = document.getElementById('accept-cookies');
-
-            // Check if user has already accepted cookies
-            if (!localStorage.getItem('cookiesAccepted')) {
-                cookieNotice.style.display = 'block';
-            }
-
-            acceptButton.addEventListener('click', function () {
-                localStorage.setItem('cookiesAccepted', 'true');
-                cookieNotice.style.display = 'none';
-            });
-        });
-
         // Set default values if not present
         if (localStorage.getItem('optional') === null) {
             localStorage.setItem('optional', 'false');

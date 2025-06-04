@@ -1,165 +1,167 @@
 data_movement = [
     {
-        title: "Move",
+        title: "Déplacement",
         optional: "Standard rule",
         icon: "run",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft moved",
-        reference: "PHB, pg. 24-25, 374.",
+        subtitle: "Coût : 1,50 m par 1,50 m",
+        description: "Coût de déplacement : 1,50 m pour chaque 1,50 m parcouru",
+        reference: "PHB, pg. 25.",
         bullets: [
-            "If you have more than one speed, such as your walking speed and a flying speed, you can switch back and forth between your speeds during your move. Whenever you switch, subtract the distance you've already moved from the new speed.",
-            "You can move through the space of an ally, a creature that has the <i>Incapacitated</i> condition, a Tiny creature or a creature that is two sizes larger or smaller than you.",
-            "Another creature's space is difficult terrain for you unless that creature is Tiny or your ally.",
-            "You can't willingly end your move in a space occupied by another creature. If you somehow end a turn in a space with another creature, you have the <i>Prone</i> condition, unless you are Tiny or are of a larger size than the other creature."
+            "Votre déplacement peut inclure des portions d'escalade, de nage, de reptation et de saut. Ces différents modes de déplacement peuvent s'associer avec votre déplacement de base ou constituer l'intégralité de votre déplacement.<br>Quels que soient ces modes, vous déduisez la distance couverte par chacune de ces parties de votre Vitesse, jusqu'à ce qu'il ne vous en reste plus ou que vous ayez terminé votre déplacement, selon ce qui se produit en premier.",
+            "Vous pouvez traverser l'espace d'un allié, d'une créature dotée de l'état <i>Neutralisé</i>, d'une créature de taille TP ou d'une créature dont la catégorie de taille est supérieure ou inférieure à la vôtre d'au moins deux crans.",
+            "L'espace d'une autre créature est considéré pour vous comme <i>Terrain difficile</i>, sauf si elle est votre alliée ou de taille TP.",
+            "Vous ne pouvez pas terminer volontairement votre déplacement dans un espace occupé par une autre créature. Si, pour une raison quelconque, vous terminez un tour dans un espace où se trouve une autre créature, vous subissez l'état À terre sauf si vous êtes de taille TP ou d'une catégorie de taille supérieure à celle de l'autre créature."
         ]
     },
     {
-        title: "Climb",
+        title: "Escalade",
         optional: "Standard rule",
         icon: "crags",
-        subtitle: "Cost: +5ft per 5ft",
-        description: "Movement cost: each foot of movement costs 1 extra foot",
-        reference: "PHB, pg. 363.",
+        subtitle: "Coût : double du déplacement",
+        description: "Chaque mètre parcouru en escalade coûte le double, sauf si vous avez une Vitesse d'escalade",
+        reference: "PHB, pg. 366.",
         bullets: [
-            "Each foot of movement costs 1 extra foot of movement while climbing. If you have a climb speed, you ignore this extra cost.",
-            "May involve a Strength (Athletics) check if the climb is difficult."
+            "Lorsque vous escaladez, toute distance parcourue vous coûte le double de déplacement (le triple en <i>Terrain difficile</i>). Ignorez ce coût supplémentaire si vous disposez d'une Vitesse d'escalade et y recourez pour grimper.",
+            "À la discrétion du MD, gravir une surface glissante ou présentant peu de prises peut nécessiter de réussir un test de Force (Athlétisme) DD 15."
         ]
     },
     {
-        title: "Swim",
+        title: "Nage",
         optional: "Standard rule",
         icon: "at-sea",
-        subtitle: "Cost: +5ft per 5ft",
-        description: "Movement cost: each foot of movement costs 1 extra foot",
-        reference: "PHB, pg. 376.",
-        bullets: [
-            "Each foot of movement costs 1 extra foot of movement while swimming. If you have a swim speed, you ignore this extra cost.",
-            "May involve a Strength (Athletics) check if you're swimming in rough waters."
-        ]
-    },
-    {
-        title: "Flying",
-        optional: "Standard rule",
-        icon: "angel-wings",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft flown",
-        reference: "PHB, pg. 367.",
-        bullets: [
-            "While you have a fly speed, you can stay aloft until you land, fall or die.",
-            "While flying, you fall if you have the <i>Incapacitated</i> or <i>Prone</i> condition or your fly speed is reduced to 0.",
-            "You can stay aloft in those circumstances if you can hover."
-        ]
-    },
-    {
-        title: "Drop prone",
-        optional: "Standard rule",
-        icon: "falling",
-        subtitle: "Cost: 0ft",
-        description: "Movement cost: 0ft (free)",
-        reference: "PHB, pgs. 25, 372.",
-        bullets: [
-            "You can drop prone without using any of your speed.",
-            "To move while prone, you must crawl or use magic such as teleportation",
-            "Dropping prone adds the <i>Prone</i> condition."
-        ]
-    },
-    {
-        title: "Crawl",
-        optional: "Standard rule",
-        icon: "crawl",
-        subtitle: "Cost: +5ft per 5ft",
-        description: "Movement cost: each foot of movement costs 1 extra foot",
-        reference: "PHB, pg. 364.",
-        bullets: [
-            "Each foot of movement costs 1 extra foot of movement while crawling."
-        ]
-    },
-    {
-        title: "Stand up",
-        optional: "Standard rule",
-        icon: "strong",
-        subtitle: "Cost: half movement speed",
-        description: "Movement cost: half of your speed, rounded down.",
-        reference: "PHB, pg. 372.",
-        bullets: [
-            "You can't stand up if you don't have enough movement left or if your speed is 0"
-        ]
-    },
-    {
-        title: "High jump",
-        optional: "Standard rule",
-        icon: "wingfoot",
-        subtitle: "Cost: 5ft",
-        description: "Movement cost: 5ft per 5ft jumped",
-        reference: "PHB, pg. 368.",
-        bullets: [
-            "You leap into the air a number of feet equal to <b>3 + your Strength modifier</b> if you move at least 10 feet on foot immediately before the jump.",
-            "When you make a standing high jump, you can jump only half that distance.",
-            "You can extend your arms half your height above yourself during the jump. Thus, you can reach a distance equal to the height of the jump plus 1.5 times your height.",
-            "In some circumstances, your DM might allow you to make a Strength (Athletics) check to jump higher than you normally can."
-        ]
-    },
-    {
-        title: "Long jump",
-        optional: "Standard rule",
-        icon: "wingfoot",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft jumped",
+        subtitle: "Coût : double du déplacement",
+        description: "Chaque mètre parcouru en nageant coûte le double, sauf si vous avez une Vitesse de nage",
         reference: "PHB, pg. 370.",
         bullets: [
-            "You cover a number of feet up to your <b>Strength score</b> if you move at least 10 feet on foot immediately before the jump.",
-            "When you make a standing long jump, you can leap only half that distance",
-            "If you land in difficult terrain, you must succeed on a DC 10 Dexterity (Acrobatics) check or have the <i>Prone</i> condition.",
-            "May involve a DC 10 Strength (Athletics) check to clear a low obstacle (no taller than a quarter of the jump's distance). You hit the obstacle on a failed check."
+            "Lorsque vous nagez, toute distance parcourue vous coûte le double de déplacement (le triple en <i>Terrain difficile</i>). Ignorez ce coût supplémentaire si vous disposez d'une Vitesse de nage et y recourez pour nager.",
+            "Sur décision du MD, se déplacer sur une certaine distance en eau agitée peut nécessiter de réussir un test de Force (Athlétisme) DD 15."
         ]
     },
     {
-        title: "Improvise",
+        title: "Vol",
+        optional: "Standard rule",
+        icon: "angel-wings",
+        subtitle: "Coût : 1,50 m par 1,50 m",
+        description: "Coût de déplacement : 1,50 m pour chaque 1,50 m parcouru en vol",
+        reference: "PHB, pg. 377.",
+        bullets: [
+            "Tant que vous disposez d'une Vitesse de vol, vous restez en l'air jusqu'à ce que vous vous posiez, tombiez ou mouriez.",
+            "Lorsque vous volez, vous tombez si vous subissez l'état <i>Neutralisé</i> ou <i>À terre</i>, ou si votre Vitesse de vol est réduite à O.",
+            "Pour rester en l'air dans pareilles circonstances, vous devez disposer du <i>Vol stationnaire</i>."
+        ]
+    },
+    {
+        title: "Plonger à terre",
+        optional: "Standard rule",
+        icon: "falling",
+        subtitle: "Coût : 0 m",
+        description: "Coût de déplacement : 0 m (gratuit)",
+        reference: "PHB, pg. 25.",
+        bullets: [
+            "À votre tour, vous pouvez vous octroyer l'état <i>À terre</i> sans dépenser d'action ni le moindre déplacement, à condition que votre Vitesse soit supérieure à 0.",
+            "Vos seules possibilités de déplacement sont ramper ou vous relever en dépensant la moitié de votre Vitesse (arrondie à l'inférieur), ce qui met un terme à l'état. Si votre Vitesse est de 0, vous ne pouvez pas vous relever."
+        ]
+    },
+    {
+        title: "Reptation",
+        optional: "Standard rule",
+        icon: "crawl",
+        subtitle: "Coût : double du déplacement",
+        description: "Chaque mètre parcouru en reptation coûte le double",
+        reference: "PHB, pg. 373.",
+        bullets: [
+            "Lorsque vous rampez, toute distance parcourue vous coûte le double de déplacement (le triple en <i>Terrain difficile</i>)."
+        ]
+    },
+    {
+        title: "Se relever",
+        optional: "Standard rule",
+        icon: "strong",
+        subtitle: "Coût : la moitié de votre Vitesse",
+        description: "Coût de déplacement : la moitié de votre Vitesse, arrondie à l'inférieur",
+        reference: "PHB, pg. 372.",
+        bullets: [
+            "Vous relever vous coûte la moitié de votre Vitesse (arrondie à l'inférieur).",
+            "Si votre Vitesse est de 0, vous ne pouvez pas vous relever."
+        ]
+    },
+    {
+        title: "Saut en hauteur",
+        optional: "Standard rule",
+        icon: "wingfoot",
+        subtitle: "Coût : 1,50 m",
+        description: "Coût de déplacement : 1,50 m pour chaque 1,50 m de saut en hauteur",
+        reference: "PHB, pg. 374.",
+        bullets: [
+            "Lorsque vous effectuez un saut en hauteur, vous bondissez d'une distance maximale égale à <b>90 cm + votre modificateur de Force multiplié par 30 cm</b>, à condition d'avoir pris une course d'élan d'au moins 3 m.",
+            "Dans le cas d'un saut en hauteur sans élan, vous ne vous élevez que de la moitié de cette hauteur.",
+            "Vous pouvez tendre les bras à la verticale durant le saut, d'une hauteur égale à la moitié de votre taille. Dans ces conditions, vous pouvez agripper une hauteur égale à la hauteur du saut plus une fois et demie votre taille.",
+            "Quoi qu'il en soit, la distance couverte par le saut est décomptée normalement de votre déplacement."
+        ]
+    },
+    {
+        title: "Saut en longueur",
+        optional: "Standard rule",
+        icon: "wingfoot",
+        subtitle: "Coût : 1,50 m par 1,50 m",
+        description: "Coût de déplacement : 1,50 m pour chaque 1,50 m de saut en longueur",
+        reference: "PHB, pg. 374.",
+        bullets: [
+            "Vous faites un bond horizontal sur une distance maximale égale à votre <b>valeur de Force multipliée par 30 cm</b> à condition d'avoir pris une course d'élan d'au moins 3 m.",
+            "Dans le cas d'un saut en longueur sans élan, vous ne parcourez que la moitié de cette distance.",
+            "Dans les deux cas, la distance couverte par le saut est décomptée normalement de votre déplacement.",
+            "Si votre saut se termine en <i>Terrain difficile</i>, vous devez réussir un test de Dextérité (Acrobaties) DD 10 sous peine de subir l'état <i>À terre</i>.",
+            "Le MD peut vous imposer de réussir un test de Force (Athlétisme) DD 10 pour franchir un obstacle bas (pas plus du quart de la longueur du saut), comme une haie ou une murette. En cas d'échec, vous heurtez l'obstacle."
+        ]
+    },
+    {
+        title: "Improviser",
         optional: "Standard rule",
         icon: "juggler",
-        subtitle: "Any stunt not on this list",
-        description: "Perform any movement or stunt you can imagine",
+        subtitle: "Toute action ne figurant pas dans cette liste",
+        description: "Effectuez tout mouvement ou acrobatie que vous pouvez imaginer",
         bullets: [
-            "When you describe a kind of movement not detailed elsewhere in the rules, the DM tells you whether it is possible and what kind of roll you need to make, if any, to determine success or failure."
+            "Lorsque vous décrivez un type de déplacement non détaillé ailleurs dans les règles, le MJ vous indique s'il est possible et quel type de jet vous devez effectuer, le cas échéant, pour déterminer la réussite ou l’échec."
         ]
     },
     {
-        title: "Difficult terrain",
+        title: "Terrain difficile",
         optional: "Standard rule",
         icon: "stone-pile",
-        subtitle: "Cost modifier: +5ft per 5ft",
-        reference: "PHB, pg. 25, 366.",
-        description: "Moving in difficult terrain costs an additional 5ft per 5ft of movement",
+        subtitle: "Modificateur de coût : +1,50 m par 1,50 m",
+        description: "Se déplacer en terrain difficile coûte 1,50 m de déplacement supplémentaire par 1,50 m parcouru.",
+        reference: "PHB, pg. 375.",
         bullets: [
-            "Every foot of movement costs 1 extra foot.",
-            "Difficult terrain isn't cumulative; either a space is difficult terrain or it isn't."
+        "Si un espace est un <i>Terrain difficile</i>, le déplacement y est doublé. Se déplacer de 1,50 m en <i>Terrain difficile</i>, par exemple, coûte 3 m de déplacement.",
+        "Le <i>Terrain difficile</i> n'est pas cumulatif ; soit un espace est un <i>Terrain difficile</i>, soit il ne l'est pas.",
+        "Voici quelques exemples de terrains difficiles :<ul><li>Créature qui n'est ni de taille TP ni votre allié</li><li>Mobilier adapté à votre catégorie de taille ou aux créatures de taille supérieure</li><li>Neige abondante, glace, éboulis ou taillis</li><li>Élément liquide d'une profondeur intermédiaire (entre mi-mollets et le niveau de la taille)</li><li>Ouverture étroite, conçue pour une créature dont la catégorie de taille est d'un cran inférieure à la vôtre</li><li>Pente de 20 degrés ou plus</li></ul>"
         ]
     },
     {
-        title: "Grapple move",
+        title: "Aggripé",
         optional: "Standard rule",
         icon: "grab",
-        subtitle: "Cost: +5ft per 5ft",
-        description: "Drag or carry the grappled creature with you",
-        reference: "PHB, pg. 367.",
+        subtitle: "Coût : +1,50 m par 1,50 m",
+        description: "Traîner ou transporter la créature agrippée avec vous",
+        reference: "PHB, pg. 361.",
         bullets: [
-            "If you move while grappling another creature, every foot of movement costs 1 extra foot unless the grappled creature is Tiny or you are two or more sizes larger than it."
+            "L'agrippeur peut vous tirer ou vous porter lorsqu'il se déplace, mais ses coûts de déplacement sont doublés, sauf si vous êtes de taille TP ou que votre catégorie est inférieure d'au moins deux crans à la sienne."
         ]
     },
     {
-        title: "Travel Pace",
+        title: "Allure de voyage",
         optional: "Standard rule",
         icon: "run",
-        subtitle: "Traveling outside of combat",
-        description: "Travel Pace for Fast, Normal and Slow Travel outside of combat.",
+        subtitle: "Voyager en dehors des combats",
+        description: "Allure de voyage pour un déplacement rapide, normal et lent en dehors des combats.",
         reference: "PHB, pg. 20",
         bullets: [
-            "Establish a marching order while you travel.",
-            "<table><tr><th style='text-align:left'>Pace</th><th></th><th></th><th>Minute</th><th></th><th></th><th>Hour</th><th></th><th></th><th>Day</th></tr><tr><td>Fast</td><td></td><td></td><td>400 feet</td><td></td><td></td><td>4 miles</td><td></td><td></td><td>30 miles</td></tr><tr><td>Normal</td><td></td><td></td><td>300 feet</td><td></td><td></td><td>3 miles</td><td></td><td></td><td>24 miles</td></tr><tr><td>Slow</td><td></td><td></td><td>200 feet</td><td></td><td></td><td>2 miles</td><td></td><td></td><td>18 miles</td></tr></table>",
-            "<b>Fast Travel</b> imposes Disadvantage on a traveler's Wisdom (Perception or Survival) and Dexterity (Stealth) checks.",
-            "<b>Normal Travel</b> imposes Disadvantage on Dexterity (Stealth) checks.",
-            "<b>Slow Travel</b> grants Advantage on Wisdom (Perception or Survival) checks.",
-            "Travelers in wagons, carriages or other land vehicles choose a pace as normal. Characters in a waterborne vessel are limited to the speed of the vessel and don't choose a pace."
+            "Si le groupe est à dos de cheval ou d'une autre monture, il peut couvrir le double de cette distance en une heure, après quoi les montures doivent prendre un Repos court ou long pour pouvoir reprendre à une allure si soutenue.",
+            "<table><tr><th style='text-align:left'>Allure</th><th></th><th></th><th>Minute</th><th></th><th></th><th>Heure</th><th></th><th></th><th>Jour</th></tr><tr><td>Rapide</td><td></td><td></td><td>120 m</td><td></td><td></td><td>6 km</td><td></td><td></td><td>45 km</td></tr><tr><td>Normale</td><td></td><td></td><td>90 m</td><td></td><td></td><td>4,5 km</td><td></td><td></td><td>36 km</td></tr><tr><td>Lente</td><td></td><td></td><td>60 m</td><td></td><td></td><td>3 km</td><td></td><td></td><td>27 km</td></tr></table>",
+            "<b>Rapide.</b> Un voyageur qui évolue à allure rapide a le Désavantage aux tests de Sagesse (Perception ou Survie) et Dextérité (Discrétion).",
+            "<b>Normale.</b> Un voyageur qui évolue à allure normale a le Désavantage aux tests de Dextérité (Discrétion).",
+            "<b>Lente.</b> Un voyageur qui évolue à allure lente a l'Avantage aux tests de Sagesse (Perception ou Survie).",
+            "Celles et ceux qui voyagent en chariot, en calèche ou à bord d'un autre véhicule terrestre peuvent opter pour une allure normale. A bord d'un bateau, c'est l'embarcation qui détermine la Vitesse ; les passagers ne choisissent par leur allure de voyage. Si la taille du navire et celle de l'équipage le permettent, il est dans certains cas possible de voguer jusqu'à 24 heures par jour."
         ]
     }
 ]

@@ -1,6 +1,13 @@
 // Loads the appropriate rule data files based on the 2024 rules toggle
-(function() {
-    var rules2024 = localStorage.getItem('rules2024') === 'true';
+(function () {
+    var rules2024 = localStorage.getItem('rules2024');
+
+    if (rules2024 === null) {
+        rules2024 = true;
+        localStorage.setItem('rules2024', 'true');
+    } else {
+        rules2024 = (rules2024 === 'true');
+    }
     var head = document.getElementsByTagName('head')[0];
 
     function loadScript(src) {
@@ -151,7 +158,7 @@ function init() {
     modal.addEventListener("click", hide_modal);
 }
 
-window.onload = function() {
+window.onload = function () {
     init();
     // Update item visibility after items are created
     handleRulesToggle();
@@ -177,7 +184,13 @@ document.addEventListener("DOMContentLoaded", function () {
     var rules2024 = localStorage.getItem('rules2024') === 'true';
     rules2024Checkbox.checked = rules2024;
 
-    var darkmode = localStorage.getItem('darkmode') === 'true';
+    var darkmode = localStorage.getItem('darkmode');
+    if (darkmode === null) {
+        darkmode = true; 
+        localStorage.setItem('darkmode', 'true');
+    } else {
+        darkmode = (darkmode === 'true'); 
+    }
     darkModeCheckbox.checked = darkmode;
 
     var optional = localStorage.getItem('optional') === 'true';
@@ -188,15 +201,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
     handleDarkModeToggle();
 
-    optionalCheckbox.addEventListener('change', function() {
+    optionalCheckbox.addEventListener('change', function () {
         localStorage.setItem('optional', optionalCheckbox.checked ? 'true' : 'false');
         handleRulesToggle();
     });
-    homebrewCheckbox.addEventListener('change', function() {
+    homebrewCheckbox.addEventListener('change', function () {
         localStorage.setItem('homebrew', homebrewCheckbox.checked ? 'true' : 'false');
         handleRulesToggle();
     });
-    darkModeCheckbox.addEventListener('change', function() {
+    darkModeCheckbox.addEventListener('change', function () {
         localStorage.setItem('darkmode', darkModeCheckbox.checked ? 'true' : 'false');
         handleDarkModeToggle();
     });
@@ -248,7 +261,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Helper to toggle checkboxes on click
     function handleToggleClick(checkbox) {
-        return function() {
+        return function () {
             checkbox.checked = !checkbox.checked;
             checkbox.dispatchEvent(new Event('change'));
         };
