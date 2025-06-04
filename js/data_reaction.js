@@ -1,63 +1,53 @@
-// ==================================================
-// Mémo : Balises HTML disponibles pour la mise en page
-// ==================================================
-// 1. Italique : <i>texte en italique</i>
-// 2. Gras : <b>texte en gras</b> ou <strong>texte en gras</strong>
-// 3. Souligné : <u>texte souligné</u>
-// 4. Barré : <s>texte barré</s> ou <del>texte barré</del>
-// 5. Couleur : <span style='color: red;'>texte en rouge</span>
-// 6. Taille : <span style='font-size: 20px;'>texte en grande taille</span>
-// 7. Listes à puces : <ul><li>élément 1</li><li>élément 2</li></ul>
-// 8. Liens : <a href='https://example.com'>lien cliquable</a>
-// 9. Retours à la ligne : <br> (ex: "ligne 1<br>ligne 2")
-// ==================================================
-
 data_reaction = [
     {
-        title: "Attaque d'opportunité",
-        optional: "Règle standard",
-        icon: "sword-slice",
-        subtitle: "Un ennemi quitte votre portée",
-        description: "Il est rare de pouvoir passer négligemment devant vos ennemis sans vous mettre en danger",
-        reference: "PHB'24, page 371",
+        title: "Opportunity attack",
+        optional: "Standard rule",
+        icon: "crossed-swords",
+        subtitle: "Enemy leaves your reach",
+        description: "You can rarely move heedlessly past your foes without putting yourself in danger",
+        reference: "PHB, pg. 195.",
         bullets: [
-            "Vous pouvez faire une <b>attaque d'opportunité</b> lorsqu'une créature que vous pouvez voir quitte votre portée en utilisant son action, son action bonus, sa réaction ou l'une de ses vitesses. Pour faire l'attaque d'opportunité, utilisez une réaction pour faire une attaque au corps à corps avec une arme ou une attaque à mains nues contre la créature provoquante. L'attaque se produit juste avant que la créature ne quitte votre portée."
+            "Trigger: An enemy creature you can see leaves your reach.",
+            "Make one melee attack against the provoking creature.",
+            "The attack interrupts the provoking creature's movement, occurring right before the creature leaves your reach.",
+            "Creatures don't provoke an opportunity attack when they teleport or when someone or something moves them without using their movement, action, or reaction."
         ]
     },
     {
-        title: "Action préparée",
-        optional: "Règle standard",
+        title: "Readied action",
+        optional: "Standard rule",
         icon: "stopwatch",
-        subtitle: "Partie de votre action préparée",
-        description: "Exécutez la réaction spécifiée par votre action préparée",
-        reference: "PHB'24, page 372",
+        subtitle: "Part of your Ready action",
+        description: "Execute the reaction specified by your Ready action",
+        reference: "PHB, pg. 193.",
         bullets: [
-            "Déclencheur : Comme spécifié par votre action <i>Préparée</i>."
+            "Trigger: As specified by your <i>Ready</i> action."
         ]
     },
     {
-        title: "Lancer un sort",
-        optional: "Règle standard",
+        title: "Cast a spell",
+        optional: "Standard rule",
         icon: "magic-swirl",
-        subtitle: "Temps d'incantation de 1 réaction",
-        description: "Lancez un sort avec un temps d'incantation de 1 réaction",
+        subtitle: "Cast time of 1 reaction",
+        description: "Cast a spell with a casting time of 1 reaction",
         reference: "PHB, pg. 192.",
         bullets: [
-            "Déclencheur : Comme spécifié par le sort.",
-            "Pour plus de détails, consultez l'action <i>Lancer un sort</i>."
+            "Trigger: As specified by the spell.",
+            "For further details, see the <i>Cast a spell</i> action."
         ]
     },
     {
-        title: "Identifier un sort*",
-        optional: "Règle optionnelle",
-        icon: "crystal-eye",
-        subtitle: "Identifier en tant que réaction",
-        description: "Test d'Arcane pour identifier",
-        reference: "XGE, page 85.",
+        title: "Grapple **",
+        optional: "Homebrew rule",
+        icon: "grab",
+        subtitle: "Special melee attack",
+        description: "Attempt to grab a creature or wrestle with it",
+        reference: "PHB, pg. 195.",
         bullets: [
-            "Parfois, un personnage souhaite identifier un sort que quelqu'un d'autre est en train de lancer ou qui a déjà été lancé. Pour ce faire, un personnage peut utiliser sa réaction pour identifier un sort pendant qu'il est lancé, ou il peut utiliser une action lors de son tour pour identifier un sort par son effet après qu'il a été lancé.",
-            "Si le personnage a perçu l'incantation, l'effet du sort, ou les deux, le personnage peut faire un test d'Intelligence (Arcane) avec la réaction ou l'action. Le DD est de 15 + le niveau du sort. Si le sort est lancé en tant que sort de classe et que le personnage est membre de cette classe, le test est fait avec avantage. Par exemple, si le lanceur de sorts lance un sort en tant que clerc, un autre clerc a un avantage sur le test pour identifier le sort. Certains sorts ne sont associés à aucune classe lorsqu'ils sont lancés, comme lorsqu'un monstre utilise son trait d'Incantation innée.",
-            "Ce test d'Intelligence (Arcane) représente le fait qu'identifier un sort nécessite un esprit vif et une familiarité avec la théorie et la pratique de l'incantation. Cela est vrai même pour un personnage dont la caractéristique d'incantation est la Sagesse ou le Charisme. Pouvoir lancer des sorts ne vous rend pas automatiquement apte à déduire exactement ce que les autres font lorsqu'ils lancent leurs sorts."
+            "You can use the <i>Reaction</i> action to make a special opportunity attack, a grapple. If you're able to make multiple attacks with the Opportunity Attack action, this attack replaces all of them.",
+            "The target of your grapple must be no more than one size larger than you, and it must be within your reach.",
+            "Using at least one free hand, you try to seize the target by making a grapple check, a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
+            "If you succeed, you subject the target to the grappled condition (its speed is set to 0)."
         ]
-    }
+    },    
 ]

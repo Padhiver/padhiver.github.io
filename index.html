@@ -23,12 +23,12 @@
             <!-- Movement section -->
             <div id="section-movement" class="section-container">
                 <div class="section-title">
-                    Déplacement
-                    <span class="float-right">limité par la vitesse de déplacement</span>
+                    Movement
+                    <span class="float-right">limited by movement speed</span>
                 </div>
                 <div class="section-content">
                     <div class="section-row section-subtitle text fontsize">
-                        Vous pouvez vous déplacer à tout moment pendant votre tour (avant, après, ou pendant vos actions).
+                        You can move at any time during your turn (before, after, or during actions).
                     </div>
                     <div class="section-row" id="basic-movement">
                     </div>
@@ -39,32 +39,27 @@
             <div id="section-action" class="section-container">
                 <div class="section-title">
                     Action
-                    <span class="float-right">1/tour</span>
+                    <span class="float-right">1/turn</span>
                 </div>
                 <div class="section-content">
                     <div class="section-row section-subtitle text fontsize">
-                        Vous pouvez également interagir gratuitement avec un objet ou un élément de l'environnement.
+                        You can also interact with one object or feature of the
+                        environment for free.
                     </div>
                     <div class="section-row" id="basic-actions"></div>
-                    </br>
-                    <i>Actions conditionnelles</i>
-                    <br />
-                    <div class="section-content">
-                        <div class="section-row" id="basic-conditional-actions"></div>
-                    </div>
                 </div>
             </div>
 
             <!-- Bonus action section -->
             <div id="section-bonus-action" class="section-container">
                 <div class="section-title">
-                    Action bonus
-                    <span class="float-right">max. 1/tour</span>
+                    Bonus action
+                    <span class="float-right">max. 1/turn</span>
                 </div>
                 <div class="section-content">
                     <div class="section-row section-subtitle text fontsize">
-                        Vous ne pouvez effectuer une action bonus que lorsqu'une capacité spéciale, un sort ou une aptitude 
-                        indique que vous pouvez le faire.
+                        You can take a bonus action only when a special ability, spell, or feature
+                        states that you can do something as a bonus action.
                     </div>
                     <div class="section-row" id="basic-bonus-actions"></div>
                 </div>
@@ -73,12 +68,13 @@
             <!-- Reaction section -->
             <div id="section-reaction" class="section-container">
                 <div class="section-title">
-                    Réaction
+                    Reaction
                     <span class="float-right">max. 1/round</span>
                 </div>
                 <div class="section-content">
                     <div class="section-row section-subtitle text fontsize">
-                        Une réaction est une réponse instantanée à un déclencheur, qui peut se produire pendant votre tour ou celui d'un autre.
+                        A reaction is an instant response to a trigger of some kind, which
+                        can occur on your turn or on someone else's.
                     </div>
                     <div class="section-row" id="basic-reactions"></div>
                 </div>
@@ -87,11 +83,12 @@
             <!-- Condition section -->
             <div id="section-condition" class="section-container">
                 <div class="section-title">
-                    État
+                    Condition
                 </div>
                 <div class="section-content">
                     <div class="section-row section-subtitle text fontsize">
-                        Les états modifient vos capacités de diverses manières et peuvent résulter d'un sort, d'une aptitude, d'une attaque de monstre ou d'un autre effet.
+                        Conditions alter your capabilities in a variety of ways, and can arise as a result of a spell, a
+                        class feature, a monster's attack, or other effect.
                     </div>
                     <div class="section-row" id="basic-conditions"></div>
                 </div>
@@ -100,68 +97,72 @@
             <!-- Environmental section -->
             <div id="section-environment" class="section-container">
                 <div class="section-title">
-                    Effets environnementaux
+                    Environmental Effects
                 </div>
                 <div class="section-content">
                     <div class="section-row section-subtitle text fontsize">
-                        Les effets qui obscurcissent la vision peuvent constituer un obstacle important pour la plupart des tâches de l'aventure.
+                        Effects that obscure vision can prove a significant hindrance to most adventuring tasks.
                     </div>
                     <div class="section-row" id="environment-obscurance"></div>
                     <div class="section-row section-subtitle text fontsize">
-                        La présence ou l'absence de lumière dans un environnement crée trois catégories d'éclairage.
+                        The presence or absence of light in an environment creates three categories of illumination.
                     </div>
                     <div class="section-row" id="environment-light"></div>
                     <div class="section-row section-subtitle text fontsize">
-                        Certaines créatures possèdent des sens extraordinaires leur permettant de percevoir leur environnement.
+                        Some creatures have extraordinary senses that allow them to perceive their environment.
                     </div>
                     <div class="section-row" id="environment-vision"></div>
                     <div class="section-row section-subtitle text fontsize">
-                        Les obstacles peuvent offrir un abri pendant un combat, rendant une cible plus difficile à atteindre.
+                        Obstacles can provide cover during combat, making a target more difficult to harm.
                     </div>
                     <div class="section-row" id="environment-cover"></div>
                 </div>
             </div>
             <!-- Settings section -->
             <div id="section-settings" class="section-container">
-                <div class="section-title">Paramètres</div>
+                <div class="section-title">Settings</div>
                 <div class="section-content">
                     <div class="section-row section-subtitle text fontsize">
-                        Vous pouvez modifier les paramètres de cette page ci-dessous.
+                        You can change below toggle for settings on this page.
                     </div>
-                    <div class="item itemsize" title="Inclure les règles optionnelles">
-                        <div class="item-icon">
-                            <label class="switch">
+                    <div class="item itemsize" title="Include Optional Rules">
+                        <div class="item-icon"><label class="switch">
                                 <input type="checkbox" id="optional-switch">
                                 <span class="slider round"></span>
-                            </label>
-                        </div>
+                            </label></div>
                         <div class="item-text-container text" id="optional-toggle-item">
-                            <div class="item-title">Règles optionnelles (*)</div>
-                            <div class="item-desc">Règles optionnelles DMG.</div>
+                            <div class="item-title">Include Optional Rules (*)</div>
+                            <div class="item-desc">Show/hide optional rules from DMG.</div>
                         </div>
                     </div>
-                    <div class="item itemsize" title="Inclure les règles maison">
-                        <div class="item-icon">
-                            <label class="switch">
+                    <div class="item itemsize" title="Include Homebre Rules">
+                        <div class="item-icon"><label class="switch">
                                 <input type="checkbox" id="homebrew-switch">
                                 <span class="slider round"></span>
-                            </label>
-                        </div>
+                            </label></div>
                         <div class="item-text-container text" id="homebrew-toggle-item">
-                            <div class="item-title">Règles maison (**)</div>
-                            <div class="item-desc">Règles maison courantes.</div>
+                            <div class="item-title">Include Homebrew Rules (**)</div>
+                            <div class="item-desc">Show/hide most common Homebrew rules.</div>
                         </div>
                     </div>
-                    <div class="item itemsize" title="Mode sombre" hidden>
-                        <div class="item-icon">
-                            <label class="switch">
+                    <div class="item itemsize" title="Darkmode" hidden>
+                        <div class="item-icon"><label class="switch">
                                 <input type="checkbox" id="darkmode-switch">
                                 <span class="slider round"></span>
-                            </label>
-                        </div>
+                            </label></div>
                         <div class="item-text-container text" id="darkmode-toggle-item">
-                            <div class="item-title">Mode sombre</div>
-                            <div class="item-desc">Activer le mode sombre</div>
+                            <div class="item-title">Darkmode</div>
+                            <div class="item-desc">Enable Darkmode</div>
+                        </div>
+                    </div>
+                    <div class="item itemsize" title="Include 2024 Rules">
+                        <div class="item-icon"><label class="switch">
+                                <input type="checkbox" id="rules2024-switch">
+                                <span class="slider round"></span>
+                            </label></div>
+                        <div class="item-text-container text" id="2024rules-toggle-item">
+                            <div class="item-title">Switch to 2024 Rules</div>
+                            <div class="item-desc">Enable D&D 2024 Rules.</div>
                         </div>
                     </div>
                 </div>
@@ -191,38 +192,43 @@
         </div>
     </div>
     <div id="cookie-notice" class="cookie-notice">
-        <p>Ce site utilise des cookies pour vous garantir la meilleure expérience sur notre site.</p>
-        <button id="accept-cookies">Accepter</button>
+        <p>This website uses cookies to ensure you get the best experience on our website.</p>
+        <button id="accept-cookies">Accept</button>
     </div>
     <!-- Data -->
-    <script type="text/javascript" src="js/tooltips.js" charset="utf-8"></script>
-    <script type="text/javascript" src="js/data_tooltips.js" charset="utf-8"></script>
-    <script type="text/javascript" src="js/data_movement.js" charset="utf-8"></script>
-    <script type="text/javascript" src="js/data_action.js" charset="utf-8"></script>
-    <script type="text/javascript" src="js/data_conditionalaction.js" charset="utf-8"></script>
-    <script type="text/javascript" src="js/data_bonusaction.js" charset="utf-8"></script>
-    <script type="text/javascript" src="js/data_reaction.js" charset="utf-8"></script>
-    <script type="text/javascript" src="js/data_condition.js" charset="utf-8"></script>
-    <script type="text/javascript" src="js/data_environment.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/quickref.js" charset="utf-8"></script>
-    <!-- Cookies
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-        var cookieNotice = document.getElementById('cookie-notice');
-        var acceptButton = document.getElementById('accept-cookies');
+        document.addEventListener('DOMContentLoaded', function () {
+            var cookieNotice = document.getElementById('cookie-notice');
+            var acceptButton = document.getElementById('accept-cookies');
 
-        // Check if user has already accepted cookies
-        if (!localStorage.getItem('cookiesAccepted')) {
-        cookieNotice.style.display = 'block';
+            // Check if user has already accepted cookies
+            if (!localStorage.getItem('cookiesAccepted')) {
+                cookieNotice.style.display = 'block';
+            }
+
+            acceptButton.addEventListener('click', function () {
+                localStorage.setItem('cookiesAccepted', 'true');
+                cookieNotice.style.display = 'none';
+            });
+        });
+
+        // Set default values if not present
+        if (localStorage.getItem('optional') === null) {
+            localStorage.setItem('optional', 'false');
+        }
+        if (localStorage.getItem('homebrew') === null) {
+            localStorage.setItem('homebrew', 'false');
         }
 
-        acceptButton.addEventListener('click', function() {
-        localStorage.setItem('cookiesAccepted', 'true');
-        cookieNotice.style.display = 'none';
-        });
-        });
+        // Set checkbox states from localStorage
+        optionalCheckbox.checked = localStorage.getItem('optional') === 'true';
+        homebrewCheckbox.checked = localStorage.getItem('homebrew') === 'true';
+
+        // Now call the function to update the UI
+        handleRulesToggle();
     </script>
-    -->
+
 </body>
 
 </html>

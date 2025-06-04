@@ -1,80 +1,78 @@
-// ==================================================
-// Mémo : Balises HTML disponibles pour la mise en page
-// ==================================================
-// 1. Italique : <i>texte en italique</i>
-// 2. Gras : <b>texte en gras</b> ou <strong>texte en gras</strong>
-// 3. Souligné : <u>texte souligné</u>
-// 4. Barré : <s>texte barré</s> ou <del>texte barré</del>
-// 5. Couleur : <span style='color: red;'>texte en rouge</span>
-// 6. Taille : <span style='font-size: 20px;'>texte en grande taille</span>
-// 7. Listes à puces : <ul><li>élément 1</li><li>élément 2</li></ul>
-// 8. Liens : <a href='https://example.com'>lien cliquable</a>
-// 9. Retours à la ligne : <br> (ex: "ligne 1<br>ligne 2")
-// ==================================================
-
 data_bonusaction = [
     {
-        title: "Combat à deux armes",
-        optional: "Règle standard",
+        title: "Offhand Attack",
+        optional: "Standard rule",
         icon: "crossed-swords",
-        subtitle: "Utiliser avec l'action Attaquer",
-        description: "Attaquer avec votre main secondaire",
-        reference: "PHB'24, page 213",
+        subtitle: "Use with the Attack action",
+        description: "Attack with your off hand",
+        reference: "PHB, pgs. 192,194-195.",
         bullets: [
-            "Lorsque vous utilisez l'action Attaquer lors de votre tour et que vous attaquez avec une arme légère, vous pouvez faire une attaque supplémentaire en tant qu'action bonus plus tard lors du même tour.",
-            "Cette attaque supplémentaire doit être faite avec une autre arme légère, et vous n'ajoutez pas votre modificateur de caractéristique aux dégâts de l'attaque supplémentaire, sauf si ce modificateur est négatif.",
-            "La maîtrise d'arme <b>Entailler</b> fait de cette attaque une partie de l'action Attaquer au lieu d'une action bonus."
+            "Only usable if you take the <i>Attack</i> action and attack with a light melee weapon that you're holding in one hand.",
+            "Perform a single attack with a different light melee weapon that you're holding in the other hand.",
+            "You don't add your ability modifier to the damage of the bonus attack unless that modifier is negative.",
+            "If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it."
         ]
     },
     {
-        title: "Magie",
-        optional: "Règle standard",
+        title: "Cast a spell",
+        optional: "Standard rule",
         icon: "magic-swirl",
-        subtitle: "Temps d'incantation d'une action bonus",
-        description: "Lancez un sort qui a un temps d'incantation d'une action bonus ou utilisez une caractéristique ou un objet magique qui nécessite une action bonus de Magie pour être activé.",
-        reference: "PHB'24, page 236, page 371.",
+        subtitle: "Cast time of 1 bonus action",
+        description: "Cast a spell with a casting time of 1 bonus action",
+        reference: "PHB, pg. 192.",
         bullets: [
-            "<b>Un sort avec un emplacement de sort par tour.</b></br> Lors d'un tour, vous ne pouvez dépenser qu'un seul emplacement de sort pour lancer un sort. Cette règle signifie que vous ne pouvez pas, par exemple, lancer un sort avec un emplacement de sort en utilisant l'action Magie et un autre en utilisant une action bonus lors du même tour.",
-            "<b>Un chemin dégagé vers la cible.</b></br> Pour cibler quelque chose avec un sort, le lanceur de sorts doit avoir un chemin dégagé vers elle, donc elle ne peut pas être derrière une couverture totale.",
-            "<b>Temps d'incantation plus longs.</b></br> Si vous lancez un sort qui a un temps d'incantation de 1 minute ou plus, vous devez utiliser l'action Magie à chaque tour de cette incantation, et vous devez maintenir votre concentration pendant ce temps. Si votre concentration est rompue, le sort échoue, mais vous ne dépensez pas d'emplacement de sort.",
+            "You can't cast a spell with your action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
+            "For further details, see the <i>Cast a spell</i> action."
         ]
     },
     {
-        title: "Utiliser une aptitude de classe",
-        optional: "Règle standard",
+        title: "Use class feature",
+        optional: "Standard rule",
         icon: "embrassed-energy",
-        subtitle: "Plusieurs options de classe utilisent des actions bonus",
-        description: "Utilisez une aptitude d'espèce ou de classe qui utilise une action bonus",
-        reference: "Voir la page de votre classe pour plus d'informations.",
+        subtitle: "Some features use bonus actions",
+        description: "Use a racial or class feature that uses a bonus action",
+        reference: "See class page for more information.",
         bullets: [
 
         ]
     },
     {
-        title: "Bousculer*",
-        optional: "Règle optionnelle",
+        title: "Overrun*",
+        optional: "Optional rule",
         icon: "shield-bash",
-        subtitle: "Courir à travers un espace hostile",
-        description: "Lorsqu'une créature essaie de se déplacer à travers l'espace d'une créature hostile, le déplaceur peut essayer de se frayer un chemin en bousculant la créature hostile.",
+        subtitle: "Run through a hostile space",
+        description: "When a creature tries to move through a hostile creature's space, the mover can try to force its way through by overrunning the hostile creature.",
         reference: "DMG, page 272",
         bullets: [
-            "(Règle optionnelle) :",
-            "En tant qu'action bonus, le déplaceur fait un test de Force (Athlétisme) contesté par un test de Force (Athlétisme) de la créature hostile.",
-            "La créature qui tente la bousculade a un avantage sur ce test si elle est plus grande que la créature hostile, ou un désavantage si elle est plus petite.",
-            "Si le déplaceur gagne le concours, il peut se déplacer à travers l'espace de la créature hostile une fois ce tour-ci."
+            "(Optional Rule):",
+            "As a bonus action, the mover makes a Strength (Athletics) check contested by the hostile creature's Strength (Athletics) check.",
+            "The creature attempting the overrun has advantage on this check if it is larger than the hostile creature, or disadvantage if it is smaller.",
+            "If the mover wins the contest, it can move through the hostile creature's space once this turn."
         ]
     },
     {
-        title: "Culbuter*",
-        optional: "Règle optionnelle",
+        title: "Tumble*",
+        optional: "Optional rule",
         icon: "tumble",
-        subtitle: "Culbuter à travers un espace hostile",
-        description: "Une créature peut essayer de culbuter à travers l'espace d'une créature hostile, en esquivant et en se faufilant devant l'adversaire.",
+        subtitle: "Tumble through a hostile space",
+        description: "A creature can try to tumble through a hostile creature's space, ducking and weaving past the opponent.",
         reference: "DMG, page 272",
         bullets: [
-            "(Règle optionnelle) :",
-            "En tant qu'action bonus, le culbuteur fait un test de Dextérité (Acrobatie) contesté par un test de Dextérité (Acrobatie) de la créature hostile.",
-            "Si le culbuteur gagne le concours, il peut se déplacer à travers l'espace de la créature hostile une fois ce tour-ci."
+            "(Optional Rule):",
+            "As a bonus action, the tumbler makes a Dexterity (Acrobatics) check contested by the hostile creature's Dexterity (Acrobatics) check.",
+            "If the tumbler wins the contest, it can move through the hostile creature's space once this turn."
         ]
-    }
+    },
+    {
+        title: "Drink a potion **",
+        optional: "Homebrew rule",
+        icon: "potion-ball",
+        subtitle: "Roll for the effect",
+        description: "Roll the dice as per the description of the potion",
+        bullets: [
+            "(Optional Rule):",
+            "Normally Drinking potion counts as an <i>Action</i> and will heal by maximum amount.",
+            "When using it as <i>Bonus action</i>, roll the dice as per the description of the potion."
+        ],
+    },
 ]

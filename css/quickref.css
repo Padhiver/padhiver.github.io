@@ -1,20 +1,4 @@
 /* ------------------------------------------------------------------------- */
-/* Masquer la barre de défilement pour tous les navigateurs */
-/* ------------------------------------------------------------------------- */
-html {
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none; /* IE et Edge */
-}
-
-html::-webkit-scrollbar {
-    display: none; /* Chrome, Safari et Opera */
-}
-
-body.modal-open {
-    padding-right: 0 !important; /* Empêche l'ajout d'un padding-right */
-}
-
-/* ------------------------------------------------------------------------- */
 /* Sections */
 /* ------------------------------------------------------------------------- */
 .section-container {
@@ -298,18 +282,7 @@ p:first-child {
     border-top: 1px solid #e5e5e5;
 }
 
-/* Justifier le texte dans les modals */
-.modal-container .section-content,
-.modal-container .section-subtitle,
-.modal-container #modal-bullets,
-.modal-container #modal-reference {
-    text-align: justify;
-}
 
-/* Ajouter plus de marge intérieure au modal */
-.modal-container .section-content {
-    padding: 15px; /* Espace autour du contenu du modal */
-}
 /* ------------------------------------------------------------------------- */
 /* Viewport sizes */
 /* ------------------------------------------------------------------------- */
@@ -703,55 +676,4 @@ input:checked+.slider:before {
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
-}
-/* Tooltips */
-
-.tooltip-term {
-    text-decoration: none;
-    border-bottom: 2px dotted #666;
-    display: inline;
-    cursor: help;
-    position: relative;
-    font-style: italic; /* Ajoute l'italique */
-}
-
-/* Le reste du CSS reste inchangé */
-.dnd-tooltip {
-    position: absolute;
-    z-index: 9999;
-    background-color: #f9f9f9;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 8px 12px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-    max-width: 300px;
-    font-size: 14px;
-    pointer-events: none;
-}
-
-.tooltip-title {
-    font-weight: bold;
-    margin-bottom: 4px;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 4px;
-}
-
-.tooltip-content {
-    line-height: 1.4;
-    font-style: normal; /* Assure que le contenu du tooltip n'est pas en italique */
-}
-
-/* Style pour le mode sombre */
-.dark-mode-active .dnd-tooltip {
-    background-color: #333;
-    color: #fff;
-    border-color: #555;
-}
-
-.dark-mode-active .tooltip-title {
-    border-color: #444;
-}
-
-.dark-mode-active .tooltip-term {
-    border-bottom-color: #b93232;
 }
