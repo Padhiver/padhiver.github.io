@@ -1,30 +1,27 @@
-dnd5e 2014 + dnd5e 2024 QuickReference Sheet 
+Aide de jeu dnd5e 2014 + dnd5e 2024
 ==============
-original author https://github.com/crobi/dnd5e-quickref - I only built on top of his work to customize this page to my needs and likes.
-2024 Rules based on content from https://github.com/nico-713/dnd5e-quickref-2024
+**Auteur original** : [https://github.com/crobi/dnd5e-quickref](https://github.com/crobi/dnd5e-quickref)
 
-Quick reference sheet for D&amp;D 5e
+**Fork de** : https://github.com/mfriik/dnd5e-quickref
 
-Quick Reference can be viewed under
+Lien d'accès :
+* https://padhiver.github.io/
 
-[https://mfriik.github.io/dnd5e-quickref](https://mfriik.github.io/dnd5e-quickref/)
+---
 
-or
-
-[dnd.milobedzki.pl
-](https://dnd.milobedzki.pl/)
-
-Icons
+Icônes
 ==============
 
-All icons are provided by http://game-icons.net/
-Favicon comes from https://iconduck.com/icons/21871/dragon
+Toutes les icônes sont fournies par [http://game-icons.net/](http://game-icons.net/).
+Le Favicon provient de [https://iconduck.com/icons/21871/dragon](https://iconduck.com/icons/21871/dragon).
+
+---
 
 FAQ
 ===
 
-#### Q: I have found a layout issue or have an idea for improvements, what should I do? ####
-A: Open an issue at https://github.com/mfriik/dnd5e-quickref/issues. Even better: fork the project, fix the problem, and post a pull request.
+#### Q : J'ai trouvé un problème de mise en page ou j'ai une idée d'amélioration, que dois-je faire ? ####
+R : Ouvrez une issue sur https://github.com/Padhiver/padhiver.github.io/issues.
 
-#### Q: I have an idea for a minor tweak, such as adding actions specific for my character. How do I modify the content of the sheet? ####
-A: Open the subfolder called `js`, and edit one of the `data` files. Ask your local computer geek for help if you don't know how to edit those.
+#### Q : J'ai une idée de petite modification, comme ajouter des actions spécifiques à mon personnage. Comment modifier le contenu de l'aide de jeu ?
+R : Ouvrez le sous-dossier nommé `js` et éditez l'un des fichiers `data`.
