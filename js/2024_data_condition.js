@@ -67,7 +67,7 @@ data_condition = [
         description: "Vous êtes agrippé.",
         reference: "PHB, pg. 360.",
         bullets: [
-            "<b>Vitesse 0.<b> Votre <i>Vitesse</i> est de 0 et ne peut pas augmenter.",
+            "<b>Vitesse 0.</b> Votre <i>Vitesse</i> est de 0 et ne peut pas augmenter.",
             "<b>Effet sur les attaques.</b> Vous subissez le <i>Désavantage</i> aux jets d'attaque contre toute cible hormis l'agrippeur.",
             "<b>Déplaçable.</b> L'agrippeur peut vous tirer ou vous porter lorsqu'il se déplace, mais ses coûts de déplacement sont doublés, sauf si vous êtes de taille TP ou que votre catégorie est inférieure d'au moins deux crans à la sienne."
         ]
@@ -139,7 +139,7 @@ data_condition = [
         description: "Vous êtes empoisonné.",
         reference: "PHB, pg. 365.",
         bullets: [
-            "<b>Effet sur les attaques et les tests de caractéristique.<b> Vous subissez le <i>Désavantage</i> aux jets d'attaque et aux tests de caractéristique."
+            "<b>Effet sur les attaques et les tests de caractéristique.</b> Vous subissez le <i>Désavantage</i> aux jets d'attaque et aux tests de caractéristique."
         ]
     },
     {
@@ -151,7 +151,7 @@ data_condition = [
         reference: "PHB, pg. 360.",
         bullets: [
             "<b>Déplacement limité.</b> Vos seules possibilités de déplacement sont ramper ou vous relever en dépensant la moitié de votre <i>Vitesse</i> (arrondie à l'inférieur), ce qui met un terme à l'état. Si votre <i>Vitesse</i> est de O, vous ne pouvez pas vous relever.",
-            "<b>Effet sur les attaques.</b> Vous subissez le <i>Désavantage<i> aux jets d'attaque. Un jet d'attaque contre vous reçoit l'<i>Avantage</i> si l'assaillant se trouve dans un rayon de 1,50 m de vous. Sans cela, ce jet d'attaque subit le <i>Désavantage</i>."
+            "<b>Effet sur les attaques.</b> Vous subissez le <i>Désavantage</i> aux jets d'attaque. Un jet d'attaque contre vous reçoit l'<i>Avantage</i> si l'assaillant se trouve dans un rayon de 1,50 m de vous. Sans cela, ce jet d'attaque subit le <i>Désavantage</i>."
         ]
     },
     {
