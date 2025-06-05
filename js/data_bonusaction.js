@@ -1,78 +1,35 @@
 data_bonusaction = [
     {
-        title: "Offhand Attack",
-        optional: "Standard rule",
+        title: "Combat à deux armes",
         icon: "crossed-swords",
-        subtitle: "Use with the Attack action",
-        description: "Attack with your off hand",
-        reference: "PHB, pgs. 192,194-195.",
+        subtitle: "Attaquer avec une deuxième arme",
+        description: "Attaquer avec une deuxième arme",
+        reference: "PHB, pg. 195.",
         bullets: [
-            "Only usable if you take the <i>Attack</i> action and attack with a light melee weapon that you're holding in one hand.",
-            "Perform a single attack with a different light melee weapon that you're holding in the other hand.",
-            "You don't add your ability modifier to the damage of the bonus attack unless that modifier is negative.",
-            "If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it."
+            "Uniquement utilisable si vous effectuez une action <b>Attaquer</b> avec une arme de mélée légère que vous tenez à une main.",
+            "Vous pouvez faire une attaque avec une autre arme de mélée légère que vous portez dans votre autre main. N'ajoutez pas votre bonus de caractéristique aux dégâts de cette attaque, à moins qu'il soit négatif",
+            "Si l'une ou l'autre de vos armes possède la propriété <i>lancer</i>, vous pouvez lancer l'arme au lieu de faire une attaque de mélée avec."
         ]
     },
     {
-        title: "Cast a spell",
-        optional: "Standard rule",
+        title: "Lancer un sort",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 bonus action",
-        description: "Cast a spell with a casting time of 1 bonus action",
-        reference: "PHB, pg. 192.",
+        subtitle: "Durée d'incantation d'une action bonus",
+        description: "Lancer un sort avec une durée d'incantation d'une action bonus",
+        reference: "PHB, pg. 189,202.",
         bullets: [
-            "You can't cast a spell with your action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
-            "For further details, see the <i>Cast a spell</i> action."
+            "Pour lancer un sort en action bonus, il ne faut pas avoir lancé un autre sort lors de votre action, à moins que ce sort ne soit un tour de magie dont la durée est d'une action.",
+            "Pour plus de détails merci de vous référer à l'action <i>Lancer un sort</i>."
         ]
     },
     {
-        title: "Use class feature",
-        optional: "Standard rule",
+        title: "Utiliser une aptitude",
         icon: "embrassed-energy",
-        subtitle: "Some features use bonus actions",
-        description: "Use a racial or class feature that uses a bonus action",
-        reference: "See class page for more information.",
+        subtitle: "Certains talents ou pouvoirs ",
+        description: "Vous pouvez utiliser certaines aptitudes de votre classe de personnage comme actions bonus.",
+        reference: "Voir la classe de votre personnage pour plus de détails.",
         bullets: [
 
         ]
-    },
-    {
-        title: "Overrun*",
-        optional: "Optional rule",
-        icon: "shield-bash",
-        subtitle: "Run through a hostile space",
-        description: "When a creature tries to move through a hostile creature's space, the mover can try to force its way through by overrunning the hostile creature.",
-        reference: "DMG, page 272",
-        bullets: [
-            "(Optional Rule):",
-            "As a bonus action, the mover makes a Strength (Athletics) check contested by the hostile creature's Strength (Athletics) check.",
-            "The creature attempting the overrun has advantage on this check if it is larger than the hostile creature, or disadvantage if it is smaller.",
-            "If the mover wins the contest, it can move through the hostile creature's space once this turn."
-        ]
-    },
-    {
-        title: "Tumble*",
-        optional: "Optional rule",
-        icon: "tumble",
-        subtitle: "Tumble through a hostile space",
-        description: "A creature can try to tumble through a hostile creature's space, ducking and weaving past the opponent.",
-        reference: "DMG, page 272",
-        bullets: [
-            "(Optional Rule):",
-            "As a bonus action, the tumbler makes a Dexterity (Acrobatics) check contested by the hostile creature's Dexterity (Acrobatics) check.",
-            "If the tumbler wins the contest, it can move through the hostile creature's space once this turn."
-        ]
-    },
-    {
-        title: "Drink a potion **",
-        optional: "Homebrew rule",
-        icon: "potion-ball",
-        subtitle: "Roll for the effect",
-        description: "Roll the dice as per the description of the potion",
-        bullets: [
-            "(Optional Rule):",
-            "Normally Drinking potion counts as an <i>Action</i> and will heal by maximum amount.",
-            "When using it as <i>Bonus action</i>, roll the dice as per the description of the potion."
-        ],
-    },
+    }
 ]

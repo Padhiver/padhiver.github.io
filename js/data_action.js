@@ -1,303 +1,189 @@
 data_action = [
     {
-        title: "Attack",
-        optional: "Standard rule",
+        title: "Attaquer",
         icon: "crossed-swords",
-        subtitle: "Melee or ranged attack",
-        description: "Perform a melee or ranged attack with your weapon",
+        subtitle: "Corps à corps ou à distance",
+        description: "Vous pouvez effectuer une attaque au corps à corps ou à distance avec vos armes",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
-            "Certain features, such as the <i>Extra Attack</i> feature of the fighter, allow you to make more than one attack with this action. Each of these attacks is a separate roll and may target different creatures. You may move in between these attacks.",
-            "When you attack with a light melee weapon, you can use a bonus action to attack with your other hand (see the <i>Offhand attack</i> bonus action).",
-            "You may replace one of your melee attacks with a <i>Grapple</i> or a <i>Shove</i>.",
-            "Some conditions give advantage on the attack: attacks against blinded, paralyzed, petrified, restrained, stunned, or unconscious targets; melee attacks against prone targets; attacks by invisible or hidden attackers.",
-            "Some conditions give disadvantage on the attack: attacks against invisible or hidden targets; ranged attacks against prone targets; attacks by blinded, frightened, poisoned, or restrained attackers."
+            "Certaines aptitudes comme <i>l'attaque supplémentaire</i> du guerrier, permettent à un personnage de porter plus d'une attaque, qu'il faudra résoudre avec un jet d'attaque pour chacune d'elles.",
+            "Vous pouvez attaquer avec votre arme (épée courte, bâton ...) à une main et effectuer également une attaque d'arme secondaire comme action bonus (Voir l'action bonus <i>Attaque d'arme secondaire</i>).",
+            "Vous pouvez utiliser votre attaque de corps à corps pour effectuer une <i>Empoignade</i> ou <i>Bousculer une créature</i>.",
+            "Certains états peuvent vous avantager lors de votre attaque, comme un ennemi neutralisé, à terre, aveuglé, inconscient...",
+            "Votre attaque peut également être désavantagée contre des attaquants invisibles ou abrités ou bien en fonction de votre propre état."
         ]
     },
     {
-        title: "Grapple",
-        optional: "Standard rule",
+        title: "Empoigner",
         icon: "grab",
-        subtitle: "Special melee attack",
-        description: "Attempt to grab a creature or wrestle with it",
+        subtitle: "Attaque spéciale de corps à corps",
+        description: "Vous tentez d'empoigner une créature ou de lutter avec elle",
         reference: "PHB, pg. 195.",
         bullets: [
-            "You can use the <i>Attack</i> action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
-            "The target of your grapple must be no more than one size larger than you, and it must be within your reach.",
-            "Using at least one free hand, you try to seize the target by making a grapple check, a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
-            "If you succeed, you subject the target to the grappled condition (its speed is set to 0)."
+            "Vous pouvez utiliser votre <i>Action Attaquer</i> pour effectuer une attaque de corps à corps appelée, empoignade. Si vous avez plusieurs attaques avec l'action attaquer, cette attaque spéciale compte pour une d'elles.",
+            "La cible de votre empoignade ne doit pas faire plus d'une catégorie de taille de plus que vous et doit être dans votre zone d'allonge.",
+            "Vous devez effectuer un test d'empoignade à la place d'un jet d'attaque. C'est à dire un test de Force (Athlétisme) opposé à un test de Force (Athlétisme) ou de Dextérité (Acrobaties) au choix de votre cible.",
+            "Si vous réussissez votre test d'opposition, votre cible est empoignée. Ce qui correspond à des états spéciaux décrits dans la section des états."
         ]
     },
     {
-        title: "Shove",
-        optional: "Standard rule",
+        title: "Bousculer",
         icon: "hand",
-        subtitle: "Special melee attack",
-        description: "Shove a creature, either to knock it prone or push it away from you",
-        reference: "PHB, pg. 195. / DMG, page 272",
+        subtitle: "Attaque spéciale de corps à corps",
+        description: "Vous tentez de bousculer une créature ou de la faire tombe à terre",
+        reference: "PHB, pg. 195.",
         bullets: [
-            "Using the <i>Attack</i> action, you can make a special melee attack to shove a creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
-            "The target of your shove must be no more than one size larger than you, and it must be within your reach.",
-            "You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
-            "If you win the contest, you either knock the target prone or push it 5 feet away from you.",
+            "Vous pouvez utiliser votre <i>Action Attaquer</i> comme une attaque de corps à corps visant à bousculer une créature. Si vous avez plusieurs attaques avec l'action attaquer, cette attaque spéciale compte pour une d'elles.",
+            "La cible ne doit pas faire plus d'une catégorie de taille de plus que vous et doit être dans votre zone d'allonge.",
+            "Vous devez effectuer un test d'opposition à la place d'un jet d'attaque. C'est à dire un test de Force (Athlétisme) opposé à un test de Force (Athlétisme) ou de Dextérité (Acrobaties) au choix de votre cible.",
+            "Si vous remportez ce test d'opposition, vous avez le choix entre faire tomber votre cible à terre, ou bien la répousser d'une distance de 1,50 mètres de vous."
         ]
     },
     {
-        title: "Shove Aside*",
-        optional: "Optional rule",
-        icon: "hand",
-        subtitle: "Special melee attack",
-        description: "Shove a creature, either to knock it prone or push it aside from you",
-        reference: "PHB, pg. 195. / DMG, page 272",
-        bullets: [
-            "(Optional Rule):",
-            "With this option, a creature uses the special shove attack to force a target to the side.",
-            "The attacker has disadvantage on its Strength (Athletics) check when it does so.",
-            "If that check is successful, the attacker moves the target 5 feet to a different space within its reach."
-        ]
-    },
-    {
-        title: "Cast a spell",
-        optional: "Standard rule",
+        title: "Lancer un sort",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 action",
-        description: "Cast a spell with a casting time of 1 action",
-        reference: "PHB, pg. 192.",
+        subtitle: "Durée d'incantation d'une action",
+        description: "Lancer un sort avec une durée d'incantation d'une action",
+        reference: "PHB, pg. 192,202,204.",
         bullets: [
-            "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
-            "The target of a spell must be within the spell's range. To target something, you must have a clear path to it, so it can't be behind total cover.",
-            "Spells with material components do not consume the material unless explicitly stated. Unless the cost of a material is given, you can assume that the cost is negligible and the material is simply available in a component pouch.",
-            "Some spells require you to maintain concentration in order to keep their magic active. If you lose concentration, such a spell ends. You lose concentration on a spell if you cast another spell that requires concentration or when you are incapacitated. Each time you take damage, you must make a Constitution saving throw to maintain your concentration. The DC equals 10 or half the damage you take, whichever number is higher."
+            "Pour utiliser une action de lancer un sort, il ne faut pas avoir lancé un autre sort lors de votre action bonus, à moins que ce sort ne soit un tour de magie dont la durée est d'une action.",
+            "La cible d'un sort doit être à portée de ce sort. Pour viser une chose, l'incantateur doit avoir une vue dégagée entre elle est lui. La cible ne doit pas bénéficier d'un abri total.",
+            "Certains sorts nécessitent l'utilisation de composantes matérielles pour être lancés. A moins qu'elles ne soient listées explicitement, vous pouvez considérer que ces composantes se trouvent par defaut dans la sacoche du lanceur de sort.",
+            "Pour certains sorts, l'incantateur doit maintenir sa concentration au delà du temps requis pour une seule action. Si vous perdez vous concentration, le sort est perdu. La perte de concentration peut être liée à un arrêt volontaire du lanceur de sort pour en lancer un autre ou à un changement d'état, comme neutralisé (voir états).",
+			"Si l'incantateur subit des dégâts pendant sa concentration, il doit réussir un jet de sauvegarde de Constitution. Le DD est de 10 ou la moitié du total de dégâts reçus si plusieurs attaques lui sont portées. Par contre il doit effectuer un jet de sauvegarde dès qu'une attaque réussie lui fait des dégâts."
         ]
     },
     {
-        title: "Dash",
-        optional: "Standard rule",
+        title: "Se précipiter",
         icon: "sprint",
-        subtitle: "Double movement speed",
-        description: "Gain extra movement for the current turn",
-        reference: "PHB, pg. 192.",
+        subtitle: "Double la vitesse de mouvement",
+        description: "Vous doublez votre vitesse de mouvement lors de ce tour",
+        reference: "PHB, pg. 192,193.",
         bullets: [
-            "The increase equals your speed, after applying any modifiers."
+            "Ce bonus de déplacement est égal à votre vitesse, après avoir appliqué tous vos modificateurs éventuels. Tout effet qui augmente ou réduit votre vitesse modifie du même montant votre bonus de déplacement.",
+			"Ainsi, si votre vitesse de 9 mètres est réduite à 4,50 mètres, votre action se précipiter vous permettra d'effectuer un déplacement de 9 mètres à votre tour."
         ]
     },
     {
-        title: "Disengage",
-        optional: "Standard rule",
+        title: "Se désengager",
         icon: "journey",
-        subtitle: "Prevent opportunity attacks",
-        description: "Your movement doesn't provoke opportunity attacks for the rest of the turn",
+        subtitle: "Eviter les attaques d'opportunité",
+        description: "Vous pouvez vous déplacer sans provoquer d'attaques d'opportunité jusqu'à la fin de votre tour.",
         reference: "PHB, pg. 192.",
         bullets: [
         ]
     },
     {
-        title: "Dodge",
-        optional: "Standard rule",
+        title: "Esquiver",
         icon: "aura",
-        subtitle: "Increase defenses",
-        description: "Focus entirely on avoiding attacks",
+        subtitle: "Eviter les attaques",
+        description: "Votre objectif est d'esquiver toutes les attaques portées contre vous",
         reference: "PHB, pg. 192.",
         bullets: [
-            "Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage.",
-            "You lose this benefit if you are <i>incapacitated</i> or if your speed drops to 0."
+            "Jusqu'au début de votre prochain tour, les jets d'attaque dont vous êtes la cible sont désavantagés si vous pouvez voir l'assaillant. Vous êtes également avantagé pour les jets de sauvegarde de Dextérité.",
+            "Vous perdez l'avantage conféré à cette action si vous êtes dans l'état <i>neutralisé (voir états) </i> ou si votre vitesse est à 0."
         ]
     },
     {
-        title: "Escape",
-        optional: "Standard rule",
+        title: "Se désengager",
         icon: "manacles",
-        subtitle: "Escape a grapple",
-        description: "Escape a grapple",
-        reference: "PHB, pg. 195.",
+        subtitle: "Se libérer d'une empoignade",
+        description: "Se libérer d'une empoignade",
+        reference: "PHB, pg. 192,195.",
         bullets: [
-            "To escape a grapple, you must succeed on a Strength (Athletics) or Dexterity (Acrobatics) check contested by the grappler's Strength (Athletics) check.",
-            "Escaping other conditions that restrain you (such as manacles) may require a Dexterity or Strength check, as specified by the condition."
+            "Si vous effectuer l'action se désengager, vous pouvez vous déplacer sans provoquer d'attaques d'opportunité jusqu'à la fin du tour.",
+            "Une créature empoignée peut utiliser une action pour se libérer Vous devez réussir un test de Force (Athlétisme) ou de Dextérité (Acrobaties) opposé à un test de Force (Athlétisme)."
         ]
     },
     {
-        title: "Help",
-        optional: "Standard rule",
+        title: "Aider",
         icon: "telepathy",
-        subtitle: "Grant an ally advantage",
-        description: "Grant an ally advantage on an ability check or attack",
+        subtitle: "Attribuer un avantage à un allié",
+        description: "Vous aidez et donnez à un allié un avantage",
         reference: "PHB, pg. 192.",
         bullets: [
-            "The target gains advantage on the next ability check it makes to perform the task you are helping with.",
-            "Alternatively, the target gains advantage on the next attack roll against against a creature within 5 feet of you.",
-            "The advantage lasts until the start of your next turn."
+            "Vous aidez et donnez à un allié un avantage lors de son prochain test de caractéristique.",
+            "Vous pouvez aussi aider un allié à attaquer une autre créature située à 1,50 mètre ou moins de vous. Si votre allié attaque cette cible avant le début de votre prochain tour, il est avantagé.",
+            "Cet avantage se terminera dès le commencement de votre prochain tour."
         ]
     },
     {
-        title: "Use Object",
-        optional: "Standard rule",
+        title: "Utiliser un objet",
         icon: "snatch",
-        subtitle: "Interact, use special abilities",
-        description: "Interact with a second object or use special object abilities",
+        subtitle: "Intéragir avec un objet",
+        description: "Intéragir avec un objet",
         reference: "PHB, pg. 193.",
         bullets: [
-            "You can interact with one object for free during your turn (such as drawing a weapon or opening a door). If you want to interact with a second object, use this action.",
-            "When an object requires your action for its use, you also take this action."
+            "Vous pouvez intéragir avec un objet librement avec votre action pendant votre tour comme par exemple dégainer votre épée. Par contre l'intéraction avec pus d'un objet nécessite obligatoirement l'action utiliser un objet.",
+            "Quand un objet nécessite à lui seul une action particulière ou dédiée, vous devez effectuer l'action utiliser un objet comme action à votre tour."
         ]
     },
     {
-        title: "Use shield",
-        optional: "Standard rule",
+        title: "Utiliser un bouclier",
         icon: "round-shield",
-        subtitle: "Equip or unequip a shield",
-        description: "Equip or unequip a shield",
+        subtitle: "S'équiper ou enlever un bouclier",
+        description: "S'équiper ou enlever un bouclier",
         reference: "PHB, pgs. 144-146.",
         bullets: [
-            "A shield always takes an action to equip or unequip.",
-            "Armor takes several minutes to equip or unequip."
+            "Il vous faudra l'utilisation d'une action, soit pour vous équiper d'un bouclier, ou soit pour l'enlever.",
+            "Pour contre il vous faudra une à plusieurs minutes pour enfiler ou ôter une armure."
         ]
     },
     {
-        title: "Hide",
-        optional: "Standard rule",
+        title: "Se cacher",
         icon: "hood",
-        subtitle: "Attempt to hide",
-        description: "Attempt to hide",
+        subtitle: "Tentative pour se cacher",
+        description: "Tentative pour se cacher",
+        reference: "PHB, pg. 174,177,192.",
+        bullets: [
+            "Vous ne pouvez pas vous cacher d'une créature qui peut déjà vous voir et votre cachette est révélée si vous faites du bruit, comme par exemple, crier un avertissement ou en renversant un vase.",
+            "Pendant un combat, la plupart des créatures restent attentives aux signes de danger et il est fort probable qu'elles vous remarquent au moindre de vos mouvements ou si vous vous approchez d'elles.",
+            "Quand vous tentez de vous cacher, faites un test de Dextérité (Discrétion) jusqu'à ce que vous soyez découvert ou que vous sortiez de votre cachette. Le résultat de ce test doit être opposé à celui du test de Sagesse (Perception) de toute créature qui cherche activement des signes de votre présence.",
+            "Il y a cenpendant toujours un risque d'être découvert, même si une créature ne vous cherche pas. Pour cela, votre MD comparera votre test de Dextérité (Discrétion) à la valeur passive de Sagesse (Perception) de cette créature. Soit un DD de 10 + le modificateur de Sagesse, sans oublier les bonus ou malus de la créature et +5 ou -5 si celle-ci est avantagée ou désavantagée.",
+            "Vous pouvez également utiliser l'action se cacher hors combat, pour vous faufiler ou déjouer la vigilance de gardes. Dans ce cas, un test de Dextérité (Discrétion) sera alors nécessaire."
+        ]
+    },
+    {
+        title: "Chercher",
+        icon: "magnifying-glass",
+        subtitle: "Chercher quelque chose",
+        description: "Focaliser votre attention pour chercher quelque chose",
         reference: "PHB, pg. 192.",
         bullets: [
-            "You can't hide from a creature that can see you. You must have total cover, be in a heavily obscured area, be invisible, or otherwise block the enemy's vision.",
-            "If you make noise (such as shouting a warning or knocking over a vase), you give away your position.",
-            "When you try to hide, make a Dexterity (Stealth) check and note the result. Until you are discovered or you stop hiding, that check's total is contested by the Wisdom (Perception) check of any creature that actively searches for signs of your presence.",
-            "A creature notices you even if it isn't searching unless your Stealth check is higher than its Passive Perception.",
-            "Out of combat, you may also use a Dexterity (Stealth) check for acts like concealing yourself from enemies, slinking past guards, slipping away without being noticed, or sneaking up on someone without being seen or heard."
+            "En fonction de la nature de ce que vous cherchez, votre MD peut vous demander un test de Sagesse (Perception) ou d'Intelligence (Investigation)."
         ]
     },
     {
-        title: "Search",
-        optional: "Standard rule",
-        icon: "magnifying-glass",
-        subtitle: "Attempt to find something",
-        description: "Devote your attention to finding something",
-        reference: "PHB, pg. 193.",
-        bullets: [
-            "Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check."
-        ]
-    },
-    {
-        title: "Ready",
-        optional: "Standard rule",
+        title: "Se tenir prêt",
         icon: "stopwatch",
-        subtitle: "Choose trigger and action",
-        description: "Choose a trigger and a response reaction",
+        subtitle: "Réagir sous condition à votre tour",
+        description: "Se tenir prêt à réagir dès que certaines conditions sont réunies ou déclenchées",
         reference: "PHB, pg. 193.",
         bullets: [
-            "First, you decide what perceivable circumstance will trigger your reaction.",
-            "Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it.",
-            "When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger.",
-            "When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell's magic requires concentration"
+            "Vous devez d'abord choisir la situation qui va déclencher votre réaction.",
+            "Puis, l'action que vous allez effectuer en réponse à ce déclencheur. ",
+            "En réponse à l'action prévue, vous pouvez décider de vous déplacer à la place d'une distance inférieure ou égale à votre vitesse.",
+            "Quand vous préparer un sort dans le cadre de cette action, vous le lancez normalement mais vous contenez son énergie jusqu'au moment du déclencheur de cette action. Sauf si, votre concentration est interrompue, entrainant la dissipation des effets attendus du sort."
         ]
     },
     {
-        title: "Use class feature",
-        optional: "Standard rule",
+        title: "Utiliser une aptitude",
         icon: "embrassed-energy",
-        subtitle: "Some features use actions",
-        description: "Use a racial or class feature that uses an action",
-        reference: "See class page for more information.",
+        subtitle: "Certains talents ou pouvoirs",
+        description: "Vous pouvez utiliser un talent racial ou une aptitude de classe comme une action",
+        reference: "Voir la classe de votre personnage pour plus de détails.",
         bullets: [
 
         ]
     },
     {
-        title: "Stabilize a creature",
-        optional: "Standard rule",
-        icon: "first-aid",
-        subtitle: "Aid a dying creature",
-        description: "Stop a dying creature from needing to make death saving throws",
-        reference: "PHB, pg. 197.",
-        bullets: [
-            "Make a Wisdom (Medicine) check with DC 10",
-            "On a success, the creature is stable and no longer needs to make death saving throws",
-            "A stable creature regains 1 hit point after 1d4 hours"
-        ]
-    },
-    {
-        title: "Improvise",
-        optional: "Standard rule",
+        title: "Improviser une action",
         icon: "juggler",
-        subtitle: "Any action not on this list",
-        description: "Perform any action you can imagine",
+        subtitle: "Autre action non listée ici",
+        description: "Effectuer une action originale non listée ici",
         reference: "PHB, pg. 193.",
         bullets: [
-            "When you describe an action not detailed elsewhere in the rules, the DM tells you whether that action is possible and what kind of roll you need to make, if any, to determine success or failure."
-        ]
-    },
-    {
-        title: "Disarm*",
-        optional: "Optional rule",
-        icon: "sword-break",
-        subtitle: "Knock item out of enemy's grasp",
-        description: "A creature can use a weapon attack to knock a weapon or another item from a target's grasp.",
-        reference: "DMG, page 271",
-        bullets: [
-            "(Optional Rule):",
-            "The attacker makes an attack roll contested by the target's Strength (Athletics) check or Dexterity (Acrobatics) check.",
-            "If the attacker wins the contest, the attack causes no damage or other ill effect, but the defender drops the item.",
-            "The attacker has disadvantage on its attack roll if the target is holding the item with two or more hands.",
-            "The target has advantage on its ability check if it is larger than the attacking creature, or disadvantage if it is smaller."
-
-        ]
-    },
-    {
-        title: "Overrun*",
-        optional: "Optional rule",
-        icon: "shield-bash",
-        subtitle: "Run through a hostile space",
-        description: "When a creature tries to move through a hostile creature's space, the mover can try to force its way through by overrunning the hostile creature.",
-        reference: "DMG, page 272",
-        bullets: [
-            "(Optional Rule):",
-            "As an action, the mover makes a Strength (Athletics) check contested by the hostile creature's Strength (Athletics) check.",
-            "The creature attempting the overrun has advantage on this check if it is larger than the hostile creature, or disadvantage if it is smaller.",
-            "If the mover wins the contest, it can move through the hostile creature's space once this turn."
-        ]
-    },
-    {
-        title: "Tumble*",
-        optional: "Optional rule",
-        icon: "tumble",
-        subtitle: "Tumble through a hostile space",
-        description: "A creature can try to tumble through a hostile creature's space, ducking and weaving past the opponent.",
-        reference: "DMG, page 272",
-        bullets: [
-            "(Optional Rule):",
-            "As an action, the tumbler makes a Dexterity (Acrobatics) check contested by the hostile creature's Dexterity (Acrobatics) check.",
-            "If the tumbler wins the contest, it can move through the hostile creature's space once this turn."
-        ]
-    },
-    {
-        title: "Mark*",
-        optional: "Optional rule",
-        icon: "cross-mark",
-        subtitle: "Give Advantage on Opportunity Attacks",
-        description: "This option makes it easier for melee combatants to harry each other with opportunity attacks.",
-        reference: "DMG, page 271",
-        bullets: [
-            "(Optional Rule):",
-            "When a creature makes a melee attack, it can also mark its target.",
-            "Until the end of the attacker's next turn, any opportunity attack it makes against the marked target has advantage.",
-            "The opportunity attack doesn't expend the attacker's reaction",
-            "The attacker can't make the attack if anything, such as the incapacitated condition or the shocking grasp spell, is preventing it from taking reactions.",
-            "The attacker is limited to one opportunity attack per turn.",
-        ]
-    },
-    {
-        title: "Climb onto a bigger creature*",
-        optional: "Optional rule",
-        icon: "mountain-climbing",
-        subtitle: "Climb a bigger creature",
-        description: "If one creature wants to jump onto another creature, it can do so by grappling. A suitably large opponent can be treated as terrain for the purpose of jumping onto its back or clinging to a limb.",
-        reference: "DMG, page 271",
-        bullets: [
-            "(Optional Rule):",
-            "After making any ability checks necessary to get into position and onto the larger creature, the smaller creature uses its action to make a Strength (Athletics) or Dexterity (Acrobatics) check contested by the target's Dexterity (Acrobatics) check.",
-            "If it wins the contest, the smaller creature successfully moves into the target creature's space.",
-            "The smaller creature moves with the target and has advantage on attack rolls against it.",
+            "Si vous souhaitez réaliser une action qui n'est pas décrite dans les règles, parlez en à votre MD pour savoir si cette action est recevable, et si un jet de caractéristique est nécessaire pour en déterminer le succès ou l'échec."
         ]
     }
 ]
