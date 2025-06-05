@@ -200,7 +200,7 @@ data_condition = [
         reference: "PHB, pg. 368.",
         bullets: [
             "<b>Inerte.</b> Vous subissez les états <i>À terre</i> et <i>Neutralisé</i>, et laissez choir tout ce que vous teniez. Lorsque cet état prend fin, vous êtes toujours <i>À terre</i>.",
-            "<b>Vitesse O.</b> Votre <i>Vitesse</i> est de 0 et ne peut pas augmenter.",
+            "<b>Vitesse 0.</b> Votre <i>Vitesse</i> est de 0 et ne peut pas augmenter.",
             "<b>Effet sur les attaques.</b> Les jets d'attaque contre vous ont l'<i>Avantage</i>.",
             "<b>Effet sur les jets de sauvegarde.</b> Vous ratez automatiquement vos jets de sauvegarde de Force et de Dextérité.",
             "<b>Coups critiques automatiques.</b> Tout jet d'attaque qui vous touche est un <i>Coup critique</i> si l'assaillant qui la porte se trouve dans un rayon de 1,50 m.",

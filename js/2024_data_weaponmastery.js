@@ -7,7 +7,7 @@ data_weaponmastery = [
         description: "Dague, Marteau léger, Serpe, Cimeterre",
         reference: "PHB, pg. 214",
         bullets: [
-            "Lorsque vous effectuez l'attaque supplémentaire de la propriété Légère de l'arme, vous pouvez l'effectuer dans le cadre de l'action Attaque au lieu de devoir y consacrer votre action Bonus.",
+            "Lorsque vous effectuez l'attaque supplémentaire de la propriété <i>Légère</i> de l'arme, vous pouvez l'effectuer dans le cadre de l'action <i>Attaque</i> au lieu de devoir y consacrer votre <i>action Bonus</i>.",
             "Vous ne pouvez effectuer cette attaque supplémentaire qu'une seule fois par tour."
         ],
     },
@@ -44,7 +44,7 @@ data_weaponmastery = [
         description: "Hachette, Fléchette, Arc court, Rapière, Épée courte, Sarbacane, Arbalète de poing, Pistolet",
         reference: "PHB, pg. 214.",
         bullets: [
-            "Si vous touchez une créature avec cette arme et lui infligez des dégâts, vous avez l'Avantage à votre prochain jet d'attaque contre cette créature avant la fin de votre tour suivant."
+            "Si vous touchez une créature avec cette arme et lui infligez des dégâts, vous avez l'<i>Avantage</i> à votre prochain jet d'attaque contre cette créature avant la fin de votre tour suivant."
         ],
     },
     {
@@ -67,7 +67,7 @@ data_weaponmastery = [
         reference: "PHB, pg. 214.",
         bullets: [
             "Si vous touchez une créature avec cette arme et lui infligez des dégâts, vous pouvez réduire sa Vitesse de 3 m jusqu'au début de votre tour suivant.",
-            "Si la créature est touchée plus d'une fois par des armes dotées de cette propriété, la réduction de sa Vitesse n'excède pas 3 m."
+            "Si la créature est touchée plus d'une fois par des armes dotées de cette propriété, la réduction de sa <i>Vitesse</i> n'excède pas 3 m."
         ],
     },
     {
@@ -79,7 +79,7 @@ data_weaponmastery = [
         reference: "PHB, pg. 214.",
         bullets: [
             "Si vous touchez une créature avec cette arme, vous pouvez la contraindre à effectuer un jet de sauvegarde de Constitution (DD égal à 8 + le modificateur de caractéristique utilisé pour le jet d'attaque + votre bonus de maîtrise).",
-            "En cas d'échec, la créature subit l'état À terre."
+            "En cas d'échec, la créature subit l'état <i>À terre</i>."
         ],
     },
     {
@@ -90,7 +90,7 @@ data_weaponmastery = [
         description: "Masse, Lance, Fléau d'armes, Épée longue, Morgenstern, Pic de guerre",
         reference: "PHB, pg. 214.",
         bullets: [
-            "Si vous touchez une créature avec cette arme, cette créature subit le Désavantage à son prochain jet d'attaque avant le début de votre tour suivant."
+            "Si vous touchez une créature avec cette arme, cette créature subit le <i>Désavantage</i> à son prochain jet d'attaque avant le début de votre tour suivant."
         ],
     }
 ];

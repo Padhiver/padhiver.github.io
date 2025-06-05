@@ -46,7 +46,7 @@ data_movement = [
         reference: "PHB, pg. 377.",
         bullets: [
             "Tant que vous disposez d'une Vitesse de vol, vous restez en l'air jusqu'à ce que vous vous posiez, tombiez ou mouriez.",
-            "Lorsque vous volez, vous tombez si vous subissez l'état <i>Neutralisé</i> ou <i>À terre</i>, ou si votre Vitesse de vol est réduite à O.",
+            "Lorsque vous volez, vous tombez si vous subissez l'état <i>Neutralisé</i> ou <i>À terre</i>, ou si votre Vitesse de vol est réduite à 0.",
             "Pour rester en l'air dans pareilles circonstances, vous devez disposer du <i>Vol stationnaire</i>."
         ]
     },
