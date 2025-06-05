@@ -159,6 +159,16 @@
     color: green;
 }
 
+#section-weapon-mastery,
+#section-weapon-mastery .item-icon {
+    background-color: blue;
+    border-color: blue;
+}
+
+#section-weapon-mastery .text {
+    color: blue;
+}
+
 #section-condition,
 #section-condition .item-icon {
     background-color: darkgoldenrod;
@@ -595,6 +605,16 @@ input:checked+.slider:before {
 .dark-mode-active #section-reaction .item-icon {
     background-color: DarkOliveGreen;
     border-color: DarkOliveGreen;
+}
+
+.dark-mode-active #section-weapon-mastery .text {
+    color: #fff;
+}
+
+.dark-mode-active #section-weapon-mastery,
+.dark-mode-active #section-weapon-mastery .item-icon {
+    background-color: SteelBlue;
+    border-color: SteelBlue;
 }
 
 .dark-mode-active #section-condition .text {

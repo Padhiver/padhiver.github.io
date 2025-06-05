@@ -30,6 +30,7 @@
         'data_action',
         'data_bonusaction',
         'data_reaction',
+        'data_weaponmastery',
         'data_condition',
         'data_environment',
     ];
@@ -165,15 +166,16 @@ function handleRulesToggle() {
 
 // Initializes all quick reference sections and modal event
 function init() {
-    fill_section(data_movement, "basic-movement", "Move");
+    fill_section(data_movement, "basic-movement", "Déplacement");
     fill_section(data_action, "basic-actions", "Action");
-    fill_section(data_bonusaction, "basic-bonus-actions", "Bonus action");
-    fill_section(data_reaction, "basic-reactions", "Reaction");
-    fill_section(data_condition, "basic-conditions", "Condition");
-    fill_section(data_environment_obscurance, "environment-obscurance", "Environment");
-    fill_section(data_environment_light, "environment-light", "Environment");
-    fill_section(data_environment_vision, "environment-vision", "Environment");
-    fill_section(data_environment_cover, "environment-cover", "Environment");
+    fill_section(data_bonusaction, "basic-bonus-actions", "action Bonus");
+    fill_section(data_reaction, "basic-reactions", "Réaction");
+    fill_section(data_weaponmastery, "basic-weapon-mastery", "Botte d'arme");
+    fill_section(data_condition, "basic-conditions", "État");
+    fill_section(data_environment_obscurance, "environment-obscurance", "Effet environnemental");
+    fill_section(data_environment_light, "environment-light", "Luminosité");
+    fill_section(data_environment_vision, "environment-vision", "Vision");
+    fill_section(data_environment_cover, "environment-cover", "Abri");
 
     var modal = document.getElementById("modal");
     modal.addEventListener("click", hide_modal);
