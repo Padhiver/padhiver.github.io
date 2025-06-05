@@ -7,6 +7,13 @@ Aide de jeu dnd5e 2014 + dnd5e 2024
 Lien d'accès :
 * https://padhiver.github.io/
 
+
+Amélioration
+==============
+* Thème sombre par defaut
+* Langues française sur les règles 2014 et 2024
+* Possibilité de collapse les catégories
+
 ---
 
 Icônes
