@@ -5,9 +5,11 @@
 const SUPABASE_URL = "https://dfdhwulxpxqeutkxchkf.supabase.co";
 const SUPABASE_KEY = "sb_publishable_2OXwiX_8yF51cdXtphmyrg_w22Re4JG";
 
-const _sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+const _sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY, {
+  realtime: { params: { eventsPerSecond: 10 } }
+});
 
-// ── Identifiant anonyme (stocké dans ce navigateur) ─────────
+// ── Identifiant anonyme ──────────────────────────────────────
 
 function getVoterId() {
   let id = localStorage.getItem("ember_voter_id");
@@ -18,29 +20,51 @@ function getVoterId() {
   return id;
 }
 
-// ── Realtime — écoute les changements sur la table votes ────
+// ── Realtime ─────────────────────────────────────────────────
 //
-//  À appeler une seule fois depuis app.js au démarrage.
-//  onChangeCallback sera appelé à chaque INSERT / UPDATE / DELETE
-//  venant d'un autre client (ou du même).
+//  Supabase Realtime nécessite que les tables aient
+//  la réplication activée :
+//  Dashboard → Database → Replication → cocher "votes" et "custom_proposals"
+//
+//  Un debounce de 300 ms évite les rafales de re-renders.
 
 function subscribeToVotes(onChangeCallback) {
-  _sb
-    .channel("votes-realtime")
-    .on(
-      "postgres_changes",
+  let debounceTimer = null;
+
+  function debounced() {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(onChangeCallback, 300);
+  }
+
+  const channel = _sb.channel("ember-realtime", {
+    config: { broadcast: { self: false } }
+  });
+
+  channel
+    .on("postgres_changes",
       { event: "*", schema: "public", table: "votes" },
-      () => onChangeCallback()
+      debounced
     )
-    .on(
-      "postgres_changes",
+    .on("postgres_changes",
       { event: "*", schema: "public", table: "custom_proposals" },
-      () => onChangeCallback()
+      debounced
     )
-    .subscribe();
+    .subscribe(status => {
+      const dot = document.getElementById("realtime-dot");
+      if (!dot) return;
+      if (status === "SUBSCRIBED") {
+        dot.title = "Temps réel actif";
+        dot.classList.add("connected");
+      } else {
+        dot.title = "Connexion temps réel…";
+        dot.classList.remove("connected");
+      }
+    });
+
+  return channel;
 }
 
-// ── Chargement groupé depuis Supabase ───────────────────────
+// ── Chargement groupé depuis Supabase ────────────────────────
 
 async function loadAllData() {
   const voterId = getVoterId();
@@ -51,7 +75,10 @@ async function loadAllData() {
     _sb.from("votes").select("term_id, proposal_text").eq("voter_id", voterId)
   ]);
 
-  // Comptage des votes par (term_id, proposal_text)
+  if (votesRes.error)   throw votesRes.error;
+  if (customRes.error)  throw customRes.error;
+  if (myVotesRes.error) throw myVotesRes.error;
+
   const voteCounts = {};
   (votesRes.data || []).forEach(row => {
     if (!voteCounts[row.term_id]) voteCounts[row.term_id] = {};
@@ -59,14 +86,12 @@ async function loadAllData() {
     voteCounts[row.term_id][key] = (voteCounts[row.term_id][key] || 0) + 1;
   });
 
-  // Propositions personnalisées par term_id
   const custom = {};
   (customRes.data || []).forEach(row => {
     if (!custom[row.term_id]) custom[row.term_id] = [];
     custom[row.term_id].push(row.text);
   });
 
-  // Votes de ce visiteur : term_id → proposal_text
   const myVotes = {};
   (myVotesRes.data || []).forEach(row => {
     myVotes[row.term_id] = row.proposal_text;
@@ -75,7 +100,7 @@ async function loadAllData() {
   return { voteCounts, custom, myVotes };
 }
 
-// ── Construction des termes enrichis ────────────────────────
+// ── Construction des termes enrichis ─────────────────────────
 
 function buildTermsWithData({ voteCounts, custom, myVotes }) {
   return EMBER_TERMS.map(term => {
@@ -95,7 +120,7 @@ function buildTermsWithData({ voteCounts, custom, myVotes }) {
   });
 }
 
-// ── Vote ─────────────────────────────────────────────────────
+// ── Vote ──────────────────────────────────────────────────────
 
 async function castVote(termId, proposalText) {
   const voterId = getVoterId();
@@ -119,7 +144,7 @@ async function castVote(termId, proposalText) {
   }
 }
 
-// ── Ajout d'une proposition personnalisée ───────────────────
+// ── Ajout d'une proposition personnalisée ────────────────────
 
 async function addCustomProposal(termId, text) {
   text = text.trim();
@@ -135,7 +160,7 @@ async function addCustomProposal(termId, text) {
   return { ok: true };
 }
 
-// ── Stats ────────────────────────────────────────────────────
+// ── Stats ─────────────────────────────────────────────────────
 
 function getStats(terms, myVotes) {
   const totalVotes  = terms.reduce(

@@ -5,12 +5,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Ember — Traductions</title>
 
-  <!-- Fonts (mêmes que le site principal) -->
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Lora:700" rel="stylesheet" />
 
-  <!-- Style -->
   <link rel="stylesheet" href="css/ember.css" />
+
+  <style>
+    /* ── Indicateur realtime ── */
+    #realtime-dot {
+      display: inline-block;
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      background: #888;
+      margin-left: 8px;
+      vertical-align: middle;
+      transition: background .3s;
+      cursor: default;
+    }
+    #realtime-dot.connected { background: #4caf50; }
+
+    /* ── Bouton filtre "À voter" ── */
+    .filter-toggle {
+      padding: 6px 14px;
+      border: 1px solid var(--border, #ccc);
+      border-radius: 6px;
+      background: transparent;
+      cursor: pointer;
+      font-size: .85rem;
+      color: inherit;
+      white-space: nowrap;
+      transition: background .15s, color .15s;
+    }
+    .filter-toggle.active {
+      background: var(--accent, #e07b39);
+      color: #fff;
+      border-color: var(--accent, #e07b39);
+    }
+    /* Toolbar avec flex pour aligner search + toggle */
+    .toolbar {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+    .toolbar .search-input { flex: 1; }
+  </style>
 </head>
 <body>
 
@@ -18,9 +57,12 @@
 
   <!-- En-tête -->
   <header class="page-header">
-    <h1>Ember - Traductions</h1>
+    <h1>
+      Ember — Traductions
+      <span id="realtime-dot" title="Connexion temps réel…"></span>
+    </h1>
     <p class="subtitle">
-      Votez pour les meilleures traductions des termes spécifiques à la campagne Ember.<br>
+      Votez pour les meilleures traductions des termes spécifiques à la campagne Ember.
     </p>
   </header>
 
@@ -44,10 +86,11 @@
     </div>
   </div>
 
-  <!-- Barre d'outils -->
-  <div class="toolbar">
+  <!-- Barre d'outils : recherche + filtre "À voter" -->
+  <div class="toolbar" id="toolbar">
     <input class="search-input" id="search-input" type="text"
            placeholder="Rechercher un terme ou une traduction…" />
+    <!-- Le bouton "À voter" est injecté ici par app.js -->
   </div>
 
   <!-- Filtres catégorie -->

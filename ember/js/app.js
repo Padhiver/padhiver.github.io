@@ -3,20 +3,22 @@
 // ============================================================
 
 (function () {
-  let activeCategory = "Toutes";
-  let searchQuery    = "";
-  let isVoting       = false; // évite un re-render pendant qu'on vote soi-même
+  let activeCategory  = "Toutes";
+  let searchQuery     = "";
+  let showUnvotedOnly = false;
+  let isVoting        = false;
 
   // ── Init ──────────────────────────────────────────────────
 
   async function init() {
     buildCategoryFilters();
+    buildUnvotedToggle();
     bindSearch();
     await render();
 
-    // Écoute les changements en temps réel.
-    // On ignore le refresh si c'est notre propre action (isVoting)
-    // pour éviter un double-render saccadé.
+    // Realtime : écoute les changements des autres utilisateurs.
+    // On ne re-render PAS si c'est notre propre action (isVoting)
+    // pour éviter un double rendu saccadé — on gère déjà render() après castVote.
     subscribeToVotes(() => {
       if (!isVoting) render();
     });
@@ -46,6 +48,26 @@
     });
   }
 
+  // ── Filtre "non votés" ────────────────────────────────────
+
+  function buildUnvotedToggle() {
+    const toolbar = document.getElementById("toolbar");
+    const btn = document.createElement("button");
+    btn.id        = "unvoted-toggle";
+    btn.className = "filter-toggle";
+    btn.textContent = "☐  À voter";
+    btn.title     = "N'afficher que les termes sur lesquels je n'ai pas encore voté";
+
+    btn.addEventListener("click", async () => {
+      showUnvotedOnly = !showUnvotedOnly;
+      btn.textContent = showUnvotedOnly ? "☑  À voter" : "☐  À voter";
+      btn.classList.toggle("active", showUnvotedOnly);
+      await render();
+    });
+
+    toolbar.appendChild(btn);
+  }
+
   // ── Recherche ─────────────────────────────────────────────
 
   function bindSearch() {
@@ -68,7 +90,7 @@
     } catch (err) {
       console.error("Erreur Supabase :", err);
       document.getElementById("terms-list").innerHTML =
-        `<p class="no-results">⚠️ Impossible de charger les données. Vérifie ta connexion.</p>`;
+        `<p class="no-results">⚠️ Impossible de charger les données. Vérifie ta connexion.<br><small>${err.message || ""}</small></p>`;
     } finally {
       setLoading(false);
     }
@@ -76,13 +98,8 @@
 
   function setLoading(on) {
     const list = document.getElementById("terms-list");
-    if (on) {
-      list.style.opacity       = "0.5";
-      list.style.pointerEvents = "none";
-    } else {
-      list.style.opacity       = "1";
-      list.style.pointerEvents = "";
-    }
+    list.style.opacity       = on ? "0.5" : "1";
+    list.style.pointerEvents = on ? "none" : "";
   }
 
   // ── Stats ─────────────────────────────────────────────────
@@ -99,18 +116,21 @@
 
   function renderTerms(terms) {
     const filtered = terms.filter(t => {
-      const catOk    = activeCategory === "Toutes" || t.cat === activeCategory;
-      const searchOk = !searchQuery ||
+      const catOk      = activeCategory === "Toutes" || t.cat === activeCategory;
+      const searchOk   = !searchQuery ||
         t.en.toLowerCase().includes(searchQuery) ||
         t.desc.toLowerCase().includes(searchQuery) ||
         t.proposals.some(p => p.text.toLowerCase().includes(searchQuery));
-      return catOk && searchOk;
+      const unvotedOk  = !showUnvotedOnly || !t.proposals.some(p => p.voted);
+      return catOk && searchOk && unvotedOk;
     });
 
     const container = document.getElementById("terms-list");
 
     if (!filtered.length) {
-      container.innerHTML = `<p class="no-results">Aucun terme trouvé.</p>`;
+      container.innerHTML = showUnvotedOnly
+        ? `<p class="no-results">🎉 Tu as voté sur tous les termes visibles !</p>`
+        : `<p class="no-results">Aucun terme trouvé.</p>`;
       return;
     }
 
@@ -127,7 +147,8 @@
 
     container.innerHTML = html;
 
-    // Événements après injection HTML
+    // ── Événements ────────────────────────────────────────
+
     container.querySelectorAll(".vote-btn").forEach(btn => {
       btn.addEventListener("click", async () => {
         btn.disabled = true;
