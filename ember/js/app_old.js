@@ -5,7 +5,6 @@
 (function () {
   let activeCategory = "Toutes";
   let searchQuery    = "";
-  let isVoting       = false; // évite un re-render pendant qu'on vote soi-même
 
   // ── Init ──────────────────────────────────────────────────
 
@@ -13,13 +12,6 @@
     buildCategoryFilters();
     bindSearch();
     await render();
-
-    // Écoute les changements en temps réel.
-    // On ignore le refresh si c'est notre propre action (isVoting)
-    // pour éviter un double-render saccadé.
-    subscribeToVotes(() => {
-      if (!isVoting) render();
-    });
   }
 
   // ── Filtres de catégorie ──────────────────────────────────
@@ -77,10 +69,10 @@
   function setLoading(on) {
     const list = document.getElementById("terms-list");
     if (on) {
-      list.style.opacity       = "0.5";
+      list.style.opacity  = "0.5";
       list.style.pointerEvents = "none";
     } else {
-      list.style.opacity       = "1";
+      list.style.opacity  = "1";
       list.style.pointerEvents = "";
     }
   }
@@ -89,10 +81,10 @@
 
   function renderStats(terms, myVotes) {
     const s = getStats(terms, myVotes);
-    document.getElementById("stat-total").textContent   = s.total;
-    document.getElementById("stat-votes").textContent   = s.totalVotes;
-    document.getElementById("stat-myvotes").textContent = s.myVoteCount;
-    document.getElementById("stat-decided").textContent = s.decided;
+    document.getElementById("stat-total").textContent    = s.total;
+    document.getElementById("stat-votes").textContent    = s.totalVotes;
+    document.getElementById("stat-myvotes").textContent  = s.myVoteCount;
+    document.getElementById("stat-decided").textContent  = s.decided;
   }
 
   // ── Liste des termes ──────────────────────────────────────
@@ -131,9 +123,7 @@
     container.querySelectorAll(".vote-btn").forEach(btn => {
       btn.addEventListener("click", async () => {
         btn.disabled = true;
-        isVoting = true;
         await castVote(btn.dataset.term, btn.dataset.proposal);
-        isVoting = false;
         await render();
       });
     });
@@ -142,9 +132,7 @@
       btn.addEventListener("click", async () => {
         const input = document.getElementById(`input-${btn.dataset.term}`);
         btn.disabled = true;
-        isVoting = true;
         const result = await addCustomProposal(btn.dataset.term, input.value);
-        isVoting = false;
         if (result.ok) {
           input.value = "";
           await render();

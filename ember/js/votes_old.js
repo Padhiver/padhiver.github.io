@@ -1,5 +1,8 @@
 // ============================================================
 //  EMBER — Gestion des votes (Supabase — données partagées)
+//
+//  Remplacez VOTRE_URL et VOTRE_CLE_ANON par les valeurs
+//  trouvées dans : Supabase > Project Settings > API
 // ============================================================
 
 const SUPABASE_URL = "https://dfdhwulxpxqeutkxchkf.supabase.co";
@@ -16,28 +19,6 @@ function getVoterId() {
     localStorage.setItem("ember_voter_id", id);
   }
   return id;
-}
-
-// ── Realtime — écoute les changements sur la table votes ────
-//
-//  À appeler une seule fois depuis app.js au démarrage.
-//  onChangeCallback sera appelé à chaque INSERT / UPDATE / DELETE
-//  venant d'un autre client (ou du même).
-
-function subscribeToVotes(onChangeCallback) {
-  _sb
-    .channel("votes-realtime")
-    .on(
-      "postgres_changes",
-      { event: "*", schema: "public", table: "votes" },
-      () => onChangeCallback()
-    )
-    .on(
-      "postgres_changes",
-      { event: "*", schema: "public", table: "custom_proposals" },
-      () => onChangeCallback()
-    )
-    .subscribe();
 }
 
 // ── Chargement groupé depuis Supabase ───────────────────────
@@ -100,6 +81,7 @@ function buildTermsWithData({ voteCounts, custom, myVotes }) {
 async function castVote(termId, proposalText) {
   const voterId = getVoterId();
 
+  // Vérifier si ce visiteur a déjà un vote sur ce terme
   const { data: existing } = await _sb.from("votes")
     .select("proposal_text")
     .eq("term_id", termId)
@@ -107,11 +89,13 @@ async function castVote(termId, proposalText) {
     .maybeSingle();
 
   if (existing?.proposal_text === proposalText) {
+    // Même proposition → on retire le vote (toggle)
     await _sb.from("votes")
       .delete()
       .eq("term_id", termId)
       .eq("voter_id", voterId);
   } else {
+    // Nouvelle proposition ou changement de vote → upsert
     await _sb.from("votes").upsert(
       { term_id: termId, proposal_text: proposalText, voter_id: voterId },
       { onConflict: "term_id,voter_id" }
@@ -131,6 +115,7 @@ async function addCustomProposal(termId, text) {
   const { error } = await _sb.from("custom_proposals")
     .insert({ term_id: termId, text });
 
+  // L'erreur UNIQUE viole → doublon
   if (error) return { ok: false, reason: "duplicate" };
   return { ok: true };
 }
