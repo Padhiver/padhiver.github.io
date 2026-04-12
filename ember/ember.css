@@ -1,0 +1,388 @@
+/* ============================================================
+   EMBER — Feuille de style
+   Inspiré du style de padhiver.github.io
+   ============================================================ */
+
+/* ── Variables & Reset ──────────────────────────────────────── */
+:root {
+  --bg:          #1a1a2e;
+  --bg-card:     #16213e;
+  --bg-input:    #0f3460;
+  --accent:      #7c6af7;
+  --accent-light:#a89cf8;
+  --accent-dim:  #2e2660;
+  --gold:        #f4c542;
+  --text:        #e0e0f0;
+  --text-muted:  #8888aa;
+  --border:      rgba(124, 106, 247, 0.25);
+  --border-hover:rgba(124, 106, 247, 0.55);
+  --success:     #4caf7d;
+  --danger:      #e05c6e;
+  --radius-sm:   6px;
+  --radius-md:   10px;
+  --radius-lg:   14px;
+  --transition:  0.15s ease;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color:      var(--text);
+  font-family: 'Noto Sans', sans-serif;
+  font-size:  15px;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+a { color: var(--accent-light); }
+
+/* ── Layout ────────────────────────────────────────────────── */
+
+.page-wrap {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 2rem 1rem 4rem;
+}
+
+/* ── Header ─────────────────────────────────────────────────── */
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header h1 {
+  font-family: 'Lora', serif;
+  font-size: 2rem;
+  color: var(--accent-light);
+  letter-spacing: 0.04em;
+  margin-bottom: 0.4rem;
+}
+
+.page-header .subtitle {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.page-header .back-link {
+  display: inline-block;
+  margin-top: 0.6rem;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  text-decoration: none;
+}
+.page-header .back-link:hover { color: var(--accent-light); }
+
+/* ── Stats ──────────────────────────────────────────────────── */
+
+.stats-bar {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-bottom: 1.6rem;
+}
+
+@media (max-width: 500px) {
+  .stats-bar { grid-template-columns: repeat(2, 1fr); }
+}
+
+.stat-card {
+  background:    var(--bg-card);
+  border:        1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding:       0.75rem;
+  text-align:    center;
+}
+
+.stat-card .num {
+  font-size:   1.5rem;
+  font-weight: 700;
+  color:       var(--accent-light);
+  line-height: 1.1;
+}
+
+.stat-card .lbl {
+  font-size: 0.75rem;
+  color:     var(--text-muted);
+  margin-top: 2px;
+}
+
+/* ── Toolbar ────────────────────────────────────────────────── */
+
+.toolbar {
+  display:       flex;
+  flex-wrap:     wrap;
+  gap:           10px;
+  align-items:   center;
+  margin-bottom: 1rem;
+}
+
+.search-input {
+  flex:          1;
+  min-width:     180px;
+  background:    var(--bg-card);
+  border:        1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color:         var(--text);
+  font-family:   inherit;
+  font-size:     0.9rem;
+  padding:       7px 12px;
+  outline:       none;
+  transition:    border-color var(--transition);
+}
+.search-input:focus { border-color: var(--accent); }
+.search-input::placeholder { color: var(--text-muted); }
+
+.btn-tool {
+  background:    transparent;
+  border:        1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color:         var(--text-muted);
+  cursor:        pointer;
+  font-family:   inherit;
+  font-size:     0.82rem;
+  padding:       6px 14px;
+  transition:    all var(--transition);
+}
+.btn-tool:hover {
+  border-color: var(--accent);
+  color:        var(--accent-light);
+}
+
+/* ── Filtres catégorie ──────────────────────────────────────── */
+
+.category-filters {
+  display:       flex;
+  flex-wrap:     wrap;
+  gap:           7px;
+  margin-bottom: 1.6rem;
+}
+
+.filter-btn {
+  background:    transparent;
+  border:        1px solid var(--border);
+  border-radius: 20px;
+  color:         var(--text-muted);
+  cursor:        pointer;
+  font-family:   inherit;
+  font-size:     0.82rem;
+  padding:       4px 14px;
+  transition:    all var(--transition);
+}
+.filter-btn:hover {
+  border-color: var(--accent);
+  color:        var(--text);
+}
+.filter-btn.active {
+  background:   var(--accent-dim);
+  border-color: var(--accent);
+  color:        var(--accent-light);
+}
+
+/* ── Label de section ───────────────────────────────────────── */
+
+.section-label {
+  font-size:     0.72rem;
+  font-weight:   700;
+  letter-spacing:.1em;
+  text-transform: uppercase;
+  color:         var(--accent);
+  margin:        1.8rem 0 0.7rem;
+  padding-bottom:.4rem;
+  border-bottom: 1px solid var(--border);
+}
+
+/* ── Carte de terme ─────────────────────────────────────────── */
+
+.term-card {
+  background:    var(--bg-card);
+  border:        1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding:       1rem 1.2rem;
+  margin-bottom: 10px;
+  transition:    border-color var(--transition);
+}
+.term-card:hover { border-color: var(--border-hover); }
+
+.term-header {
+  display:         flex;
+  justify-content: space-between;
+  align-items:     flex-start;
+  gap:             12px;
+  margin-bottom:   6px;
+}
+
+.term-en {
+  font-weight: 700;
+  font-size:   1rem;
+  color:       var(--text);
+}
+
+.term-cat {
+  background:    rgba(124, 106, 247, 0.12);
+  border:        1px solid rgba(124, 106, 247, 0.3);
+  border-radius: 20px;
+  color:         var(--accent-light);
+  font-size:     0.72rem;
+  padding:       2px 10px;
+  white-space:   nowrap;
+  flex-shrink:   0;
+}
+
+.term-desc {
+  color:         var(--text-muted);
+  font-size:     0.83rem;
+  margin-bottom: 0.8rem;
+  line-height:   1.5;
+}
+
+/* ── Propositions ───────────────────────────────────────────── */
+
+.proposals {
+  display:        flex;
+  flex-direction: column;
+  gap:            6px;
+  margin-bottom:  10px;
+}
+
+.proposal {
+  align-items:   center;
+  background:    rgba(255,255,255,0.03);
+  border:        1px solid rgba(255,255,255,0.07);
+  border-radius: var(--radius-sm);
+  display:       flex;
+  gap:           10px;
+  padding:       6px 10px;
+  transition:    all var(--transition);
+}
+
+.proposal--top {
+  background:    rgba(124, 106, 247, 0.12);
+  border-color:  rgba(124, 106, 247, 0.4);
+}
+
+.vote-btn {
+  align-items:   center;
+  background:    rgba(255,255,255,0.05);
+  border:        1px solid var(--border);
+  border-radius: 50%;
+  color:         var(--text-muted);
+  cursor:        pointer;
+  display:       flex;
+  flex-shrink:   0;
+  font-size:     12px;
+  height:        28px;
+  justify-content: center;
+  transition:    all var(--transition);
+  width:         28px;
+}
+.vote-btn:hover {
+  background:  var(--accent-dim);
+  border-color: var(--accent);
+  color:        var(--accent-light);
+}
+.vote-btn.voted {
+  background:  var(--accent);
+  border-color: var(--accent);
+  color:        #fff;
+}
+
+.vote-count {
+  color:       var(--text-muted);
+  font-size:   0.82rem;
+  font-weight: 700;
+  min-width:   22px;
+  text-align:  center;
+}
+.proposal--top .vote-count { color: var(--accent-light); }
+
+.proposal-text {
+  color:   var(--text);
+  flex:    1;
+  font-size: 0.92rem;
+}
+.proposal--top .proposal-text { color: var(--accent-light); font-weight: 600; }
+
+.crown {
+  color:      var(--gold);
+  font-size:  0.85rem;
+  margin-left: 5px;
+}
+
+.badge-custom {
+  background:    rgba(76,175,125,0.15);
+  border:        1px solid rgba(76,175,125,0.3);
+  border-radius: 20px;
+  color:         var(--success);
+  font-size:     0.68rem;
+  margin-left:   6px;
+  padding:       1px 7px;
+}
+
+/* ── Ajout de proposition ───────────────────────────────────── */
+
+.add-proposal {
+  display: flex;
+  gap:     8px;
+}
+
+.add-input {
+  background:    var(--bg-input);
+  border:        1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color:         var(--text);
+  flex:          1;
+  font-family:   inherit;
+  font-size:     0.83rem;
+  outline:       none;
+  padding:       5px 10px;
+  transition:    border-color var(--transition);
+}
+.add-input:focus { border-color: var(--accent); }
+.add-input.error { border-color: var(--danger); animation: shake 0.3s; }
+.add-input::placeholder { color: var(--text-muted); }
+
+@keyframes shake {
+  0%,100% { transform: translateX(0); }
+  25%      { transform: translateX(-4px); }
+  75%      { transform: translateX(4px); }
+}
+
+.add-btn {
+  background:    transparent;
+  border:        1px solid rgba(124,106,247,0.4);
+  border-radius: var(--radius-sm);
+  color:         var(--accent-light);
+  cursor:        pointer;
+  font-family:   inherit;
+  font-size:     0.8rem;
+  padding:       5px 14px;
+  transition:    all var(--transition);
+  white-space:   nowrap;
+}
+.add-btn:hover {
+  background:   var(--accent-dim);
+  border-color: var(--accent);
+}
+
+/* ── No results ─────────────────────────────────────────────── */
+
+.no-results {
+  color:      var(--text-muted);
+  padding:    2rem;
+  text-align: center;
+}
+
+/* ── Footer ──────────────────────────────────────────────────── */
+
+.page-footer {
+  border-top:  1px solid var(--border);
+  color:       var(--text-muted);
+  font-size:   0.78rem;
+  margin-top:  3rem;
+  padding-top: 1rem;
+  text-align:  center;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ember — Traductions</title>
+
+  <!-- Fonts (mêmes que le site principal) -->
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Lora:700" rel="stylesheet" />
+
+  <!-- Style -->
+  <link rel="stylesheet" href="css/ember.css" />
+</head>
+<body>
+
+<div class="page-wrap">
+
+  <!-- En-tête -->
+  <header class="page-header">
+    <h1>Ember — Traductions</h1>
+    <p class="subtitle">
+      Votez pour les meilleures traductions des termes spécifiques à la campagne Ember (FoundryVTT).<br>
+      Vos votes sont sauvegardés localement dans votre navigateur.
+    </p>
+    <a class="back-link" href="../">← Retour à l'aide de jeu D&amp;D</a>
+  </header>
+
+  <!-- Stats -->
+  <div class="stats-bar">
+    <div class="stat-card">
+      <div class="num" id="stat-total">—</div>
+      <div class="lbl">Termes</div>
+    </div>
+    <div class="stat-card">
+      <div class="num" id="stat-decided">—</div>
+      <div class="lbl">Décidés</div>
+    </div>
+    <div class="stat-card">
+      <div class="num" id="stat-votes">—</div>
+      <div class="lbl">Votes au total</div>
+    </div>
+    <div class="stat-card">
+      <div class="num" id="stat-myvotes">—</div>
+      <div class="lbl">Mes votes</div>
+    </div>
+  </div>
+
+  <!-- Barre d'outils -->
+  <div class="toolbar">
+    <input class="search-input" id="search-input" type="text"
+           placeholder="Rechercher un terme ou une traduction…" />
+    <button class="btn-tool" id="btn-export" title="Exporter les votes en JSON">
+      ↓ Exporter
+    </button>
+    <button class="btn-tool" id="btn-import" title="Importer des votes depuis un JSON">
+      ↑ Importer
+    </button>
+    <input type="file" id="import-file" accept=".json" style="display:none" />
+  </div>
+
+  <!-- Filtres catégorie -->
+  <div class="category-filters" id="category-filters"></div>
+
+  <!-- Liste des termes -->
+  <div id="terms-list"></div>
+
+  <!-- Pied de page -->
+  <footer class="page-footer">
+    Projet Ember · Les votes sont stockés dans votre navigateur (localStorage). 
+    Utilisez "Exporter" pour partager vos votes et "Importer" pour fusionner ceux des autres.
+  </footer>
+
+</div>
+
+<!-- Données -->
+<script src="js/data.js"></script>
+<!-- Logique de vote -->
+<script src="js/votes.js"></script>
+<!-- Rendu -->
+<script src="js/app.js"></script>
+
+</body>
+</html>
