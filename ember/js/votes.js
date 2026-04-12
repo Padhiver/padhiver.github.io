@@ -1,166 +1,135 @@
 // ============================================================
-//  EMBER — Gestion des votes
-//  Stockage dans localStorage (clé "ember_votes")
-//  Format : { termId: { proposalIndex: voteCount, ... }, ... }
-//  Votes perso : "ember_my_votes" { "termId_propIdx": true }
+//  EMBER — Gestion des votes (Supabase — données partagées)
+//
+//  Remplacez VOTRE_URL et VOTRE_CLE_ANON par les valeurs
+//  trouvées dans : Supabase > Project Settings > API
 // ============================================================
 
-const STORAGE_VOTES_KEY   = "ember_votes";
-const STORAGE_MYVOTES_KEY = "ember_my_votes";
-const STORAGE_CUSTOM_KEY  = "ember_custom";
+const SUPABASE_URL = "https://dfdhwulxpxqeutkxchkf.supabase.co";
+const SUPABASE_KEY = "sb_publishable_2OXwiX_8yF51cdXtphmyrg_w22Re4JG";
 
-// ── Lecture / écriture ──────────────────────────────────────
+const _sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
-function loadVotes() {
-  try {
-    return JSON.parse(localStorage.getItem(STORAGE_VOTES_KEY)) || {};
-  } catch(e) { return {}; }
+// ── Identifiant anonyme (stocké dans ce navigateur) ─────────
+
+function getVoterId() {
+  let id = localStorage.getItem("ember_voter_id");
+  if (!id) {
+    id = crypto.randomUUID();
+    localStorage.setItem("ember_voter_id", id);
+  }
+  return id;
 }
 
-function saveVotes(votes) {
-  localStorage.setItem(STORAGE_VOTES_KEY, JSON.stringify(votes));
+// ── Chargement groupé depuis Supabase ───────────────────────
+
+async function loadAllData() {
+  const voterId = getVoterId();
+
+  const [votesRes, customRes, myVotesRes] = await Promise.all([
+    _sb.from("votes").select("term_id, proposal_text"),
+    _sb.from("custom_proposals").select("term_id, text").order("created_at"),
+    _sb.from("votes").select("term_id, proposal_text").eq("voter_id", voterId)
+  ]);
+
+  // Comptage des votes par (term_id, proposal_text)
+  const voteCounts = {};
+  (votesRes.data || []).forEach(row => {
+    if (!voteCounts[row.term_id]) voteCounts[row.term_id] = {};
+    const key = row.proposal_text;
+    voteCounts[row.term_id][key] = (voteCounts[row.term_id][key] || 0) + 1;
+  });
+
+  // Propositions personnalisées par term_id
+  const custom = {};
+  (customRes.data || []).forEach(row => {
+    if (!custom[row.term_id]) custom[row.term_id] = [];
+    custom[row.term_id].push(row.text);
+  });
+
+  // Votes de ce visiteur : term_id → proposal_text
+  const myVotes = {};
+  (myVotesRes.data || []).forEach(row => {
+    myVotes[row.term_id] = row.proposal_text;
+  });
+
+  return { voteCounts, custom, myVotes };
 }
 
-function loadMyVotes() {
-  try {
-    return JSON.parse(localStorage.getItem(STORAGE_MYVOTES_KEY)) || {};
-  } catch(e) { return {}; }
-}
+// ── Construction des termes enrichis ────────────────────────
 
-function saveMyVotes(myVotes) {
-  localStorage.setItem(STORAGE_MYVOTES_KEY, JSON.stringify(myVotes));
-}
-
-// Propositions personnalisées ajoutées par les visiteurs
-function loadCustomProposals() {
-  try {
-    return JSON.parse(localStorage.getItem(STORAGE_CUSTOM_KEY)) || {};
-  } catch(e) { return {}; }
-}
-
-function saveCustomProposals(custom) {
-  localStorage.setItem(STORAGE_CUSTOM_KEY, JSON.stringify(custom));
-}
-
-// ── Fusion données + votes ──────────────────────────────────
-
-function buildTermsWithVotes() {
-  const votes   = loadVotes();
-  const custom  = loadCustomProposals();
-
+function buildTermsWithData({ voteCounts, custom, myVotes }) {
   return EMBER_TERMS.map(term => {
-    const termVotes  = votes[term.id]   || {};
-    const termCustom = custom[term.id]  || [];
+    const termVotes  = voteCounts[term.id] || {};
+    const termCustom = custom[term.id]     || [];
+    const myVote     = myVotes[term.id];
 
     const allProposals = [...term.proposals, ...termCustom];
-
     const proposals = allProposals.map((text, idx) => ({
       text,
-      votes:    termVotes[idx] || 0,
-      isCustom: idx >= term.proposals.length
+      votes:    termVotes[text] || 0,
+      isCustom: idx >= term.proposals.length,
+      voted:    myVote === text
     }));
 
     return { ...term, proposals };
   });
 }
 
-// ── Actions utilisateur ─────────────────────────────────────
+// ── Vote ─────────────────────────────────────────────────────
 
-function castVote(termId, propIdx) {
-  const votes   = loadVotes();
-  const myVotes = loadMyVotes();
+async function castVote(termId, proposalText) {
+  const voterId = getVoterId();
 
-  if (!votes[termId])   votes[termId]   = {};
+  // Vérifier si ce visiteur a déjà un vote sur ce terme
+  const { data: existing } = await _sb.from("votes")
+    .select("proposal_text")
+    .eq("term_id", termId)
+    .eq("voter_id", voterId)
+    .maybeSingle();
 
-  const key = `${termId}_${propIdx}`;
-
-  // Trouver le vote précédent sur ce terme
-  const previousKey = Object.keys(myVotes).find(k => k.startsWith(termId + "_") && myVotes[k]);
-
-  if (previousKey && previousKey !== key) {
-    // Retirer l'ancien vote
-    const prevIdx = parseInt(previousKey.split("_").slice(-1)[0]);
-    if (votes[termId][prevIdx] > 0) votes[termId][prevIdx]--;
-    delete myVotes[previousKey];
-  }
-
-  if (myVotes[key]) {
-    // Déjà voté → on retire
-    if (votes[termId][propIdx] > 0) votes[termId][propIdx]--;
-    delete myVotes[key];
+  if (existing?.proposal_text === proposalText) {
+    // Même proposition → on retire le vote (toggle)
+    await _sb.from("votes")
+      .delete()
+      .eq("term_id", termId)
+      .eq("voter_id", voterId);
   } else {
-    // Nouveau vote
-    votes[termId][propIdx] = (votes[termId][propIdx] || 0) + 1;
-    myVotes[key] = true;
+    // Nouvelle proposition ou changement de vote → upsert
+    await _sb.from("votes").upsert(
+      { term_id: termId, proposal_text: proposalText, voter_id: voterId },
+      { onConflict: "term_id,voter_id" }
+    );
   }
-
-  saveVotes(votes);
-  saveMyVotes(myVotes);
 }
 
-function addCustomProposal(termId, text) {
+// ── Ajout d'une proposition personnalisée ───────────────────
+
+async function addCustomProposal(termId, text) {
   text = text.trim();
-  if (!text) return false;
+  if (!text) return { ok: false, reason: "empty" };
 
-  const custom   = loadCustomProposals();
-  const votes    = loadVotes();
-  const existing = EMBER_TERMS.find(t => t.id === termId);
-  if (!existing) return false;
+  const term = EMBER_TERMS.find(t => t.id === termId);
+  if (!term) return { ok: false, reason: "unknown" };
 
-  const allProposals = [...existing.proposals, ...(custom[termId] || [])];
-  if (allProposals.some(p => p.toLowerCase() === text.toLowerCase())) return false;
+  const { error } = await _sb.from("custom_proposals")
+    .insert({ term_id: termId, text });
 
-  if (!custom[termId]) custom[termId] = [];
-  custom[termId].push(text);
-  saveCustomProposals(custom);
-  return true;
+  // L'erreur UNIQUE viole → doublon
+  if (error) return { ok: false, reason: "duplicate" };
+  return { ok: true };
 }
 
-function hasVoted(termId, propIdx) {
-  const myVotes = loadMyVotes();
-  return !!myVotes[`${termId}_${propIdx}`];
-}
+// ── Stats ────────────────────────────────────────────────────
 
-// ── Export / Import ─────────────────────────────────────────
-
-function exportData() {
-  const data = {
-    votes:   loadVotes(),
-    custom:  loadCustomProposals(),
-    exportedAt: new Date().toISOString()
-  };
-  const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
-  const url  = URL.createObjectURL(blob);
-  const a    = document.createElement("a");
-  a.href     = url;
-  a.download = "ember-votes.json";
-  a.click();
-  URL.revokeObjectURL(url);
-}
-
-function importData(jsonText) {
-  try {
-    const data = JSON.parse(jsonText);
-    if (data.votes)  saveVotes(data.votes);
-    if (data.custom) saveCustomProposals(data.custom);
-    return true;
-  } catch(e) {
-    alert("Fichier invalide.");
-    return false;
-  }
-}
-
-// ── Stats rapides ───────────────────────────────────────────
-
-function getStats() {
-  const terms   = buildTermsWithVotes();
-  const myVotes = loadMyVotes();
-
-  const totalVotes   = terms.reduce((sum, t) => sum + t.proposals.reduce((s, p) => s + p.votes, 0), 0);
-  const myVoteCount  = Object.values(myVotes).filter(Boolean).length;
-  const decided      = terms.filter(t => {
+function getStats(terms, myVotes) {
+  const totalVotes  = terms.reduce(
+    (sum, t) => sum + t.proposals.reduce((s, p) => s + p.votes, 0), 0
+  );
+  const myVoteCount = Object.keys(myVotes).length;
+  const decided     = terms.filter(t => {
     const sorted = [...t.proposals].sort((a, b) => b.votes - a.votes);
-    return sorted[0]?.votes > 0 && sorted[0].votes !== sorted[1]?.votes;
+    return sorted[0]?.votes > 0 && sorted[0].votes !== (sorted[1]?.votes || 0);
   }).length;
 
   return { total: terms.length, totalVotes, myVoteCount, decided };

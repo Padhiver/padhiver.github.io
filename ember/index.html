@@ -21,7 +21,7 @@
     <h1>Ember — Traductions</h1>
     <p class="subtitle">
       Votez pour les meilleures traductions des termes spécifiques à la campagne Ember (FoundryVTT).<br>
-      Vos votes sont sauvegardés localement dans votre navigateur.
+      Les votes et propositions sont partagés avec tout le monde en temps réel.
     </p>
     <a class="back-link" href="../">← Retour à l'aide de jeu D&amp;D</a>
   </header>
@@ -50,32 +50,30 @@
   <div class="toolbar">
     <input class="search-input" id="search-input" type="text"
            placeholder="Rechercher un terme ou une traduction…" />
-    <button class="btn-tool" id="btn-export" title="Exporter les votes en JSON">
-      ↓ Exporter
-    </button>
-    <button class="btn-tool" id="btn-import" title="Importer des votes depuis un JSON">
-      ↑ Importer
-    </button>
-    <input type="file" id="import-file" accept=".json" style="display:none" />
   </div>
 
   <!-- Filtres catégorie -->
   <div class="category-filters" id="category-filters"></div>
 
   <!-- Liste des termes -->
-  <div id="terms-list"></div>
+  <div id="terms-list">
+    <p class="no-results">Chargement…</p>
+  </div>
 
   <!-- Pied de page -->
   <footer class="page-footer">
-    Projet Ember · Les votes sont stockés dans votre navigateur (localStorage). 
-    Utilisez "Exporter" pour partager vos votes et "Importer" pour fusionner ceux des autres.
+    Projet Ember · Votes et propositions partagés via Supabase.
+    Chaque navigateur a un identifiant anonyme — un seul vote par terme.
   </footer>
 
 </div>
 
+<!-- Supabase (doit être chargé AVANT votes.js) -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+
 <!-- Données -->
 <script src="js/data.js"></script>
-<!-- Logique de vote -->
+<!-- Logique de vote (Supabase) -->
 <script src="js/votes.js"></script>
 <!-- Rendu -->
 <script src="js/app.js"></script>
