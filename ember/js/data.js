@@ -1572,91 +1572,91 @@ const EMBER_TERMS = [
     id: "beast_type_aberration",
     en: "Aberration",
     cat: "Bestiaire",
-    desc: "Type de créature : entités étrangères à la réalité normale d'Ember.",
+    desc: "Entités étrangères à la réalité normale d'Ember, souvent d'origine abyssale.",
     proposals: ["Aberration", "Anomalie"]
   },
   {
     id: "beast_type_artificiel",
     en: "Artificiel",
     cat: "Bestiaire",
-    desc: "Type de créature : constructs et entités artificielles.",
+    desc: "Constructs et entités mécaniques créés par l'ingéniosité mortelle ou arcanique.",
     proposals: ["Artificiel", "Construit", "Automate"]
   },
   {
     id: "beast_type_leviathan",
     en: "Leviathan",
     cat: "Bestiaire",
-    desc: "Type de créature : créatures colossales de l'Âge des Bêtes.",
+    desc: "Créatures colossales de l'Âge des Bêtes, ancêtres des formes de vie actuelles.",
     proposals: ["Léviathan", "Titan", "Colosse Primordial"]
   },
   {
     id: "beast_type_spirit_beast",
     en: "Spirit Beast",
     cat: "Bestiaire",
-    desc: "Type de créature : bêtes d'essence spirituelle.",
+    desc: "Bêtes d'essence spirituelle, liées aux Wild Gods et aux forces naturelles.",
     proposals: ["Bête Spirituelle", "Bête-Esprit", "Esprit Animal"]
   },
   {
     id: "beast_type_abyssal_horror",
     en: "Abyssal Horror",
     cat: "Bestiaire",
-    desc: "Type de créature : horreurs venues de l'Abysse.",
+    desc: "Horreurs d'une malveillance pure venues des profondeurs de l'Abysse.",
     proposals: ["Horreur Abyssale", "Terreur de l'Abîme", "Cauchemar Abyssal"]
   },
   {
     id: "beast_type_carnal_dragon",
     en: "Carnal Dragon",
     cat: "Bestiaire",
-    desc: "Sous-type de dragon.",
+    desc: "Sous-type de dragon à la nature instinctuelle et violente.",
     proposals: ["Dragon Charnel", "Dragon Carnal (inchangé)", "Dragon de Chair"]
   },
   {
     id: "beast_type_cruel_dragon",
     en: "Cruel Dragon",
     cat: "Bestiaire",
-    desc: "Sous-type de dragon.",
+    desc: "Sous-type de dragon particulièrement impitoyable et sadique.",
     proposals: ["Dragon Cruel", "Dragon de Cruauté"]
   },
   {
     id: "beast_type_vile_dragon",
     en: "Vile Dragon",
     cat: "Bestiaire",
-    desc: "Sous-type de dragon.",
+    desc: "Sous-type de dragon abject, corrompu dans son essence même.",
     proposals: ["Dragon Vil", "Dragon Abject", "Dragon Infâme"]
   },
   {
     id: "beast_type_delver",
     en: "Delver",
     cat: "Bestiaire",
-    desc: "Petites créatures vivant dans les Pathways.",
+    desc: "Petites créatures fouisseuses vivant dans les profondeurs des Pathways.",
     proposals: ["Fouisseur", "Terrassier", "Tunnelier", "Creuseur"]
   },
   {
     id: "beast_type_skum",
     en: "Skum",
     cat: "Bestiaire",
-    desc: "Monstre mêlant humanoïde et poisson, créé par l'Abysse.",
+    desc: "Hybrides humanoïdes-poissons engendrés par la corruption abyssale.",
     proposals: ["Skum (inchangé)", "Poisson-Homme", "Impur", "Misérable"]
   },
   {
     id: "beast_type_wyrm",
     en: "Wyrm",
     cat: "Bestiaire",
-    desc: "Gigantesque serpent, ancêtre des Dragons.",
+    desc: "Gigantesques serpents primordiaux, ancêtres des dragons modernes.",
     proposals: ["Wyrm (inchangé)", "Guivre", "Serpent Primordial", "Dragon Serpent"]
   },
   {
     id: "beast_type_vampyre",
     en: "Vampyre",
     cat: "Bestiaire",
-    desc: "Mort-vivant suceur de sang.",
+    desc: "Morts-vivants suceurs de sang aux pouvoirs surnaturels.",
     proposals: ["Vampyre (inchangé)", "Vampire", "Vampyr"]
   },
   {
     id: "beast_type_wight",
     en: "Wight",
     cat: "Bestiaire",
-    desc: "Guerrier mort-vivant.",
+    desc: "Guerriers morts-vivants conservant leur volonté combative au-delà de la mort.",
     proposals: ["Wight (inchangé)", "Spectre-Guerrier", "Mort-Marchant", "Soldats Morts"]
   },
 
@@ -1665,140 +1665,140 @@ const EMBER_TERMS = [
     id: "beast_abyssal_echo",
     en: "Abyssal Echo",
     cat: "Bestiaire",
-    desc: "Écho ou reflet d'une entité abyssale.",
+    desc: "Apparition de fumée noire et malveillance, entité maléfique venue d'au-delà du monde.",
     proposals: ["Écho Abyssal", "Résonance Abyssale", "Reflet de l'Abîme"]
   },
   {
     id: "beast_abyssal_eel",
     en: "Abyssal Eel",
     cat: "Bestiaire",
-    desc: "Anguille venue des profondeurs abyssales.",
+    desc: "Serpent abyssal aux dents acérées qui glisse dans l'air sans membres.",
     proposals: ["Anguille Abyssale", "Anguille de l'Abîme", "Murène Abyssale"]
   },
   {
     id: "beast_abyssal_eye",
     en: "Abyssal Eye",
     cat: "Bestiaire",
-    desc: "Œil flottant d'origine abyssale.",
+    desc: "Immense œil rouge flottant enveloppé de ténèbres, émanant haine et malice.",
     proposals: ["Œil Abyssal", "Œil de l'Abîme", "Regard Abyssal"]
   },
   {
     id: "beast_abyss_warped",
     en: "Abyss-Warped Undaunted",
     cat: "Bestiaire",
-    desc: "Intrépide/Brave corrompu et déformé par l'Abysse.",
+    desc: "Guerrier humanoïde atrocement mutilé par l'Abysse, aux membres remplacés par des tentacules.",
     proposals: ["Intrépide Tordu par l'Abîme", "Courageux Corrompu par l'Abysse", "Audacieux Abyssalisé"]
   },
   {
     id: "beast_grim_assembly",
     en: "Grim Assembly",
     cat: "Bestiaire",
-    desc: "Sombre assemblée de créatures.",
+    desc: "Amalgame répugnant de chair humanoïde fusionnée en une masse quadrupède.",
     proposals: ["La Sombre Assemblée", "L'Assemblée Sinistre", "Le Conclave Morbide"]
   },
   {
     id: "beast_writhing_whisperer",
     en: "Writhing Whisperer",
     cat: "Bestiaire",
-    desc: "Chuchoteur agité ou frémissant.",
+    desc: "Entité changeante aux membres constamment remodelés, parsemée d'étoiles sous sa peau.",
     proposals: ["Le Chuchoteur Frémissant", "Le Murmureur Agité", "L'Agité Murmurant"]
   },
   {
     id: "beast_fire_sprite",
     en: "Fire Sprite",
     cat: "Bestiaire",
-    desc: "Petit esprit élémentaire du feu.",
+    desc: "Orbe de flamme tourbillonnant dans l'air, laissant une traînée d'étincelles.",
     proposals: ["Esprit du Feu", "Lutin de Feu", "Feu-Follet Élémentaire"]
   },
   {
     id: "beast_water_sprite",
     en: "Water Sprite",
     cat: "Bestiaire",
-    desc: "Petit esprit élémentaire de l'eau.",
+    desc: "Petit élémentaire d'eau agile, sphère cohérente avec des larmes d'eau en orbite.",
     proposals: ["Esprit de l'Eau", "Lutin des Eaux", "Ondine"]
   },
   {
     id: "beast_chiaroscuran",
     en: "Chiaroscuran Beast",
     cat: "Bestiaire",
-    desc: "Créature jouant sur les contrastes lumière/ombre.",
+    desc: "Prédateur élémentaire aux contrastes lumière-ombre extrêmes, félin et canin à la fois.",
     proposals: ["Bête du Clair-Obscur", "Bête Chiaroscuro", "Créature des Ombres et Lumières"]
   },
   {
     id: "beast_pallid_drake",
     en: "Pallid Drake",
     cat: "Bestiaire",
-    desc: "Drake d'une pâleur maladive.",
+    desc: "Grand drake au corps sinueux recouvert d'écailles olive luisantes et frilles teal.",
     proposals: ["Drake Blafard", "Drake Pâle", "Drake Livide"]
   },
   {
     id: "beast_pallid_drakeling",
     en: "Pallid Drakeling",
     cat: "Bestiaire",
-    desc: "Jeune drake pâle.",
+    desc: "Jeune drake pâle au corps serpentin orné de frilles teal vibrants.",
     proposals: ["Dragonnet Blafard", "Petit Drake Pâle", "Jeune Drake Livide"]
   },
   {
     id: "beast_radiant_ultra_drake",
     en: "Radiant Ultra Drake",
     cat: "Bestiaire",
-    desc: "Drake géant et rayonnant.",
+    desc: "Drake argenté aux fissures lumineuses bleues, roses et violettes pulsant de l'intérieur.",
     proposals: ["Ultra Drake Rayonnant", "Grand Drake Radieux", "Drake Solaire Géant"]
   },
   {
     id: "beast_animated_rune_tome",
     en: "Animated Rune Tome",
     cat: "Bestiaire",
-    desc: "Grimoire de runes animé et autonome.",
+    desc: "Grimoire de cuir aux runes brillantes s'animant et virevoltant dans les airs.",
     proposals: ["Tome de Runes Animé", "Grimoire de Runes Vivant", "Livre-Rune Animé"]
   },
   {
     id: "beast_woven_construct",
     en: "Woven Construct",
     cat: "Bestiaire",
-    desc: "Construct tissé à partir de la Weave ou de magie.",
+    desc: "Humanoïde articulé en bouts de bois liés de vignes, capable de parler.",
     proposals: ["Construit Tissé", "Entité Tissée", "Construct de la Trame"]
   },
   {
     id: "beast_surge_walker",
     en: "Surge Walker",
     cat: "Bestiaire",
-    desc: "Entité se déplaçant à travers les courants d'énergie.",
+    desc: "Colosse de corail vivant sur armature de bronze, mélange de créature et de mécanique.",
     proposals: ["Marcheur des Courants", "Marcheur des Décharges", "Itinérant d'Énergie"]
   },
   {
     id: "beast_harrower",
     en: "Harrower",
     cat: "Bestiaire",
-    desc: "Mort-vivant harceleur et dévastateur.",
+    desc: "Guerrier mort-vivant en cotte de bronze, visage bandé au regard funèbre.",
     proposals: ["Le Ravageur", "Le Déchireur", "Le Tourmenteur"]
   },
   {
     id: "beast_sodden_corpse",
     en: "Sodden Corpse",
     cat: "Bestiaire",
-    desc: "Cadavre mort-vivant détrempé.",
+    desc: "Cadavre putréfié et détrempé aux membres gonflés, traînant une puanteur écœurante.",
     proposals: ["Cadavre Détrempé", "Corps Putréfié", "Dépouille Gorgée d'Eau"]
   },
   {
     id: "beast_sporix_host",
     en: "Sporix Host",
     cat: "Bestiaire",
-    desc: "Organisme hôte de spores parasitaires.",
+    desc: "Thornling parasité par des spores, corps couvert de champignons brillants.",
     proposals: ["Hôte Sporix", "Porteur de Spores", "Corps-Spores"]
   },
   {
     id: "beast_temple_invader",
     en: "Temple Invader",
     cat: "Bestiaire",
-    desc: "Créature ou entité ayant envahi un temple.",
+    desc: "Élémentaire imposant boosté par l'énergie d'une ancienne machine de pierre.",
     proposals: ["Envahisseur du Temple", "Profanateur de Temple", "Intrus du Sanctuaire"]
   },
   {
     id: "beast_cave_wasps",
     en: "Swarm of Cave Wasps",
     cat: "Bestiaire",
-    desc: "Nuée de guêpes caverneuses.",
+    desc: "Nuée de guêpes caverneuses s'abattant silencieusement sur toute source de lumière.",
     proposals: ["Nuée de Guêpes des Cavernes", "Essaim de Guêpes Caverneuses", "Colonie de Guêpes Souterraines"]
   },
 
@@ -1810,7 +1810,7 @@ const EMBER_TERMS = [
     en: "Adelyne Goss",
     cat: "PNJ",
     group: "Anachraenum",
-    desc: "A dour elderly woman sits before you, clad in a mixture of pale blue and green clothing accented by rich brown leather. She appraises you with a deep frown on her face, as if you have already been…",
+    desc: "Loremistress sarcastique et acérée de l'Anachraenum, survivante d'un combat de dragon.",
     proposals: ["Adelyne Goss"]
   },
   {
@@ -1818,7 +1818,7 @@ const EMBER_TERMS = [
     en: "Arcos Sarinland",
     cat: "PNJ",
     group: "Anachraenum",
-    desc: "The small figure before you has a rugged and weathered appearance that reflects his years of experience. His once luxurious Keth hair has long since disappeared, leaving a bald head covered in thin…",
+    desc: "Nouveau Guildmaster de l'Anachraenum, vétéran sage et tourmenté par ses traumatismes.",
     proposals: ["Arcos Sarinland"]
   },
   {
@@ -1826,7 +1826,7 @@ const EMBER_TERMS = [
     en: "Fernis Ossa",
     cat: "PNJ",
     group: "Anachraenum",
-    desc: "A thin Ashka with scales that range in hue from hunter green to a shade of tea green stands before you. Her expression is a mix of curiosity and open friendliness that gives her a warm, likable…",
+    desc: "Aventurière Ashka célébrée de l'Anachraenum, envoyée et ancienne leader des Skywarders.",
     proposals: ["Fernis Ossa"]
   },
   {
@@ -1834,7 +1834,7 @@ const EMBER_TERMS = [
     en: "Ix'erax",
     cat: "PNJ",
     group: "Ancients",
-    desc: "At first, the green glow floating in the air before you resembles many of the candles scattered around the room, however, these lights grow larger, and emerging from the darkness is a creature of…",
+    desc: "Araignée colossale ancienne, descendante de la déesse Watcher, observatrice d'Ordain.",
     proposals: ["Ix'erax"]
   },
   {
@@ -1842,7 +1842,7 @@ const EMBER_TERMS = [
     en: "Kern",
     cat: "PNJ",
     group: "Ancients",
-    desc: "This ancient, wizened Thornling leans upon a small, stout branch of fossiled wood, with a crooked grin barely visible beneath a bushy, exuberant beard of leaves. Thorny gnarled limbs and spindly legs…",
+    desc: "Vieux druide thornling errant dans les Pathways, d'une sagesse et puissance cachées.",
     proposals: ["Kern"]
   },
   {
@@ -1850,7 +1850,7 @@ const EMBER_TERMS = [
     en: "Mioroth",
     cat: "PNJ",
     group: "Ancients",
-    desc: "Appearing as if from legends, a ghostly, semi-transparent, colossal figure looms over you even as he sits with his legs crossed. He is serene, calm, and intangible, as if made of pure energy and…",
+    desc: "Projection spectrale d'un géant Shent antérieur au Shattering, sage et artificer.",
     proposals: ["Mioroth"]
   },
   {
@@ -1858,7 +1858,7 @@ const EMBER_TERMS = [
     en: "Zodi Trask",
     cat: "PNJ",
     group: "Arcturel",
-    desc: "You regard a burly Kiska male whose corded muscles suggest a life of strenuous labor, a detail readily confirmed by the timeworn pickaxe at his side and the simplicity of his loose-hanging garb.…",
+    desc: "Contremaître kiska fier et tenace des carrières d'Arcturel, au service de la Maison Cevher.",
     proposals: ["Zodi Trask"]
   },
   {
@@ -1866,7 +1866,7 @@ const EMBER_TERMS = [
     en: "Edivel Sprout",
     cat: "PNJ",
     group: "Brevin",
-    desc: "The young thornling's body is reminiscent of the trunk of a sturdy sapling, but they are full of motion, darting from place to place with a smile on their face and a wand in their hand. Their frayed…",
+    desc: "Jeune thornling audacieux et maladroit, obsédé par la magie agricole.",
     proposals: ["Edivel Sprout"]
   },
   {
@@ -1874,7 +1874,7 @@ const EMBER_TERMS = [
     en: "Triss Carpel",
     cat: "PNJ",
     group: "Brevin",
-    desc: "The thornling before you doesn't seem to ever stop moving, whether she's crouching down to look at the height of the grass, scanning the landscape around them, or walking softly but determinedly to…",
+    desc: "Intendante de Brevin, village pionnier fait de graines, toujours en mouvement.",
     proposals: ["Triss Carpel"]
   },
   {
@@ -1882,7 +1882,7 @@ const EMBER_TERMS = [
     en: "Steros Kraver",
     cat: "PNJ",
     group: "Burnished Hand",
-    desc: "This remarkably spruce warrior is clad in an impressive suit of aged bronze armor. The etching of a symmetrical crimson hand with roots like an ancient oak is emblazoned on the breast piece, and a…",
+    desc: "Commandant en chef de la Burnished Hand, guerrier charismatique protecteur des Sages.",
     proposals: ["Steros Kraver"]
   },
   {
@@ -1890,7 +1890,7 @@ const EMBER_TERMS = [
     en: "Evesso",
     cat: "PNJ",
     group: "Cindaric Sages",
-    desc: "This tall Ashka scholar is draped in the burgundy robes of a Cindaric Sage. His viridian-scaled form is lean and austere, and his countenance betrays an erudite contrition. Surely, this scholar is an…",
+    desc: "Sage Cindaric austère et sarcastique, chercheur avisé au Sanctuaire de Corpin.",
     proposals: ["Evesso"]
   },
   {
@@ -1898,7 +1898,7 @@ const EMBER_TERMS = [
     en: "Jon Vastil",
     cat: "PNJ",
     group: "Cindaric Sages",
-    desc: "The Holy Speaker of the Cindaric Sages appears fragile and haggard, burdened by the weight of countless years. His skin has a parchment-like texture, stretched tight over protruding bones. Deep lines…",
+    desc: "Holy Speaker des Cindaric Sages, vieillard centenaire malade et de plus en plus critiqué.",
     proposals: ["Jon Vastil"]
   },
   {
@@ -1906,7 +1906,7 @@ const EMBER_TERMS = [
     en: "Jonico Daridane",
     cat: "PNJ",
     group: "Cindaric Sages",
-    desc: "A lean, man in the red and gold robes of a Cindaric, though styled far more plainly than most. Crow's feet, laugh lines and silver-streaked hair betray the years he's lived. Despite his age he moves…",
+    desc: "Chef de la maison de soins de la Tour Spellbreaker, grand guérisseur à la bedside froide.",
     proposals: ["Jonico Daridane"]
   },
   {
@@ -1914,7 +1914,7 @@ const EMBER_TERMS = [
     en: "Lilla Arien",
     cat: "PNJ",
     group: "Cindaric Sages",
-    desc: "A signborn woman with a round, friendly face that belies the stress she carries. Her gray skin contrasts with her bright blue eyes, rosy cheese, and messy head of white hair. Short, pale blue horns…",
+    desc: "Keeper of Sages des Cindarics, signborn dévouée au bien-être de ses congénères.",
     proposals: ["Lilla Arien"]
   },
   {
@@ -1922,7 +1922,7 @@ const EMBER_TERMS = [
     en: "Mira Wavehorn",
     cat: "PNJ",
     group: "Cindaric Sages",
-    desc: "The aloof countenance of this Kiska femme is belied by her jocular smile, a disarming grin on the edge of inquisitiveness. Clad in the red robes of a Cindaric Sage and a light Cascilian breastplate,…",
+    desc: "Leader de l'enclave de Corpin, ancienne capitaine kiska et guérisseuse accomplie.",
     proposals: ["Mira Wavehorn"]
   },
   {
@@ -1930,7 +1930,7 @@ const EMBER_TERMS = [
     en: "Vinarith",
     cat: "PNJ",
     group: "Cindaric Sages",
-    desc: "A tall, middle-aged male human with gray-bronzed skin and a strong, muscular figure reveals a distant Kivahr ancestry. His once-rich brown hair is greying at the roots, and he has a variety of…",
+    desc: "Intendant du Holy Speaker, gérant les affaires de l'ordre depuis la maladie de son supérieur.",
     proposals: ["Vinarith"]
   },
   {
@@ -1938,7 +1938,7 @@ const EMBER_TERMS = [
     en: "Aythorn",
     cat: "PNJ",
     group: "Deities",
-    desc: "The shard god Aythorn is seen more often than most other Ember deities, but they never arrive quite the same way twice. A tree becomes a god becomes a drift of petals on the wind. A trail of blossoms…",
+    desc: "Dieu-éclat thornling facétieux, jeune divinité de la joie et des farces bienfaisantes.",
     proposals: ["Aythorn"]
   },
   {
@@ -1946,7 +1946,7 @@ const EMBER_TERMS = [
     en: "Sigil",
     cat: "PNJ",
     group: "Deities",
-    desc: "The old man is small, dwarfed by his large cloak, a long winding beard that gains a deep gleam of magic where it curls around his waist, and the sheer number of papers around him. And yet he is…",
+    desc: "Dieu des Livres, shard god absorbé dans une quête éternelle de connaissance écrite.",
     proposals: ["Sigil"]
   },
   {
@@ -1954,7 +1954,7 @@ const EMBER_TERMS = [
     en: "Sionia",
     cat: "PNJ",
     group: "Deities",
-    desc: "Clad in shining silver armor and exquisite argentine garments, this alluring woman is shrouded in an otherworldly gown of pale and ghostly light. Her breathtaking beauty is weighted by a troubled…",
+    desc: "La Déesse Solitaire, nécromancienne shard god révérée par les morts-vivants sentients.",
     proposals: ["Sionia"]
   },
   {
@@ -1962,7 +1962,7 @@ const EMBER_TERMS = [
     en: "Meri",
     cat: "PNJ",
     group: "Fey",
-    desc: "A small, flower-like creature with large petals for wings floats before you. Her body seems to be made of rich, black velvet, creating a stunning contrast with the vibrant, glowing red and pink…",
+    desc: "Petite fée de Primordis en velours noir, ancienne conseillère de l'archimage Agaseros.",
     proposals: ["Meri"]
   },
   {
@@ -1970,7 +1970,7 @@ const EMBER_TERMS = [
     en: "Kazra Steelshift",
     cat: "PNJ",
     group: "Fulgurite Blades",
-    desc: "Hooded and wrapped in a vibrant, shimmering shawl, this young Kivahr woman is initially slightly imposing, but her bookish demeanor and obvious curiosity about your presence reveal a true scholar at…",
+    desc: "Scribe et prêtresse des Fulgurite Blades, acolyte de la déesse Spectra.",
     proposals: ["Kazra Steelshift"]
   },
   {
@@ -1978,7 +1978,7 @@ const EMBER_TERMS = [
     en: "Leeph",
     cat: "PNJ",
     group: "Fulgurite Blades",
-    desc: "A fidgety little radish-looking Thornling with eyes of shimmering pearlescence looks up at you with an unreadable expression. Their overly large leaves like fronds of hair, sweep back from their…",
+    desc: "Scout impulsif et malicieux des Fulgurite Blades, thornling à l'impulsion incontrôlable.",
     proposals: ["Leeph"]
   },
   {
@@ -1986,7 +1986,7 @@ const EMBER_TERMS = [
     en: "Rorhim Iron-Cask",
     cat: "PNJ",
     group: "Fulgurite Blades",
-    desc: "A burly figure, tall even for Cor'ak, with a thick hornplate above his head and skin in varying shades of tan and brown. His bright blue eyes take in his surroundings with a noticeable lack of…",
+    desc: "Combattant puissant des Fulgurite Blades, second informel du groupe.",
     proposals: ["Rorhim Iron-Cask"]
   },
   {
@@ -1994,7 +1994,7 @@ const EMBER_TERMS = [
     en: "Sajor Velex",
     cat: "PNJ",
     group: "Fulgurite Blades",
-    desc: "A bright-eyed woman stands before you with a curious expression, yet the corners of her mouth are turned downwards, as if she is slightly displeased with your presence. She has short black hair with…",
+    desc: "Leader des Fulgurite Blades, mage accomplie passionnée des ruines Aedir.",
     proposals: ["Sajor Velex"]
   },
   {
@@ -2002,7 +2002,7 @@ const EMBER_TERMS = [
     en: "Sadri Zhalimorne",
     cat: "PNJ",
     group: "Helkas",
-    desc: "You regard a steel-skinned woman with luminous golden eyes and side-parted bob of short-cropped silver hair. Adorned in a brown sleeveless tunic with leather shorts and boots, her countenance is…",
+    desc: "Magistrate ambitieuse d'Helkas, juriste voyagée au sourire sardonique.",
     proposals: ["Sadri Zhalimorne"]
   },
   {
@@ -2010,7 +2010,7 @@ const EMBER_TERMS = [
     en: "Katerin Bastilla",
     cat: "PNJ",
     group: "House Bastilla",
-    desc: "A mountain of a woman, this towering Kivahr is covered in an array of scars and tattoos that speak of deeds, battles and glory only she truly knows. Her garb is fine and sturdy, accented with a great…",
+    desc: "Chef de la Maison Bastilla, commandant une armada de marchands et corsaires.",
     proposals: ["Katerin Bastilla"]
   },
   {
@@ -2018,7 +2018,7 @@ const EMBER_TERMS = [
     en: "Hephiss Wandren",
     cat: "PNJ",
     group: "House Wandren",
-    desc: "The fej woman in front of you is dressed in sumptuous apparel and moves with a steady grace, but her eyes are steely and appraising, looking anyone she encounters up and down as if trying to gauge…",
+    desc: "Dirigeante de la Maison Wandren, stratège impitoyable dont les opposants disparaissent.",
     proposals: ["Hephiss Wandren"]
   },
   {
@@ -2026,7 +2026,7 @@ const EMBER_TERMS = [
     en: "Juro Wandren",
     cat: "PNJ",
     group: "House Wandren",
-    desc: "Though he maintains a pleasant smile, with an expression that appears calculated to seem warm, the tall lanky wirrun is unmistakeably sizing up everyone and everything nearby, letting his gaze brush…",
+    desc: "Contrebandier charmeur de la Maison Wandren, chef d'un réseau de trafic florissant.",
     proposals: ["Juro Wandren"]
   },
   {
@@ -2034,7 +2034,7 @@ const EMBER_TERMS = [
     en: "Vitt Wandren",
     cat: "PNJ",
     group: "House Wandren",
-    desc: "Though they have an easy smile and immediately extend a hand in greeting, there is a glint in the eyes of the Ordani in front of you, as if they know exactly what you're worth and will take it from…",
+    desc: "Criminel opportuniste lié à la Maison Wandren, chef de la Brigade des Balises.",
     proposals: ["Vitt Wandren"]
   },
   {
@@ -2042,7 +2042,7 @@ const EMBER_TERMS = [
     en: "Ifton Shepp",
     cat: "PNJ",
     group: "Humanoids",
-    desc: "Wearing a dark apron over grease stained tunic and pants, this technician looks ready to tackle any technical issues put in front of him. Not outwardly armed or armored, he has a pack of tools…",
+    desc: "Bricoleur et ingénieur de Rock Bottom, ancien membre de la compagnie Silver Beam.",
     proposals: ["Ifton Shepp"]
   },
   {
@@ -2050,7 +2050,7 @@ const EMBER_TERMS = [
     en: "Undaunted Trainee",
     cat: "PNJ",
     group: "Humanoids",
-    desc: "Dressed in the short-sleeved robes of a martial artist, this scrappy young athlete looks like they're ready to take on the whole world. A silver-stitched crimson sash is tied around their waist, and…",
+    desc: "Jeune membre des Undaunted, athlète martial et champion des jeux d'arène d'Ordain.",
     proposals: ["Undaunted Trainee"]
   },
   {
@@ -2058,7 +2058,7 @@ const EMBER_TERMS = [
     en: "Vartholomew Chess",
     cat: "PNJ",
     group: "Humanoids",
-    desc: "This bright-eyed Hulg'run is hewn from golden-brown marble, and wears the trademark work apron and mechanical accoutrements of an inventor. All manner of esoteric tools dangle from his belt, and a…",
+    desc: "Inventeur visionnaire d'Arcturel, créateur des construits Chessman de style Aedir.",
     proposals: ["Vartholomew Chess"]
   },
   {
@@ -2066,7 +2066,7 @@ const EMBER_TERMS = [
     en: "Issa Sunsword",
     cat: "PNJ",
     group: "Kessian",
-    desc: "At first glance, the gleam of golden armor is almost the only thing visible, catching even the faintest nearby rays and seemingly multiplying them. The woman beneath the armor is less ostentatious,…",
+    desc: "Paladin de Lantyr venue de Kessia, solitaire et déterminée à éradiquer la corruption.",
     proposals: ["Issa Sunsword"]
   },
   {
@@ -2074,7 +2074,7 @@ const EMBER_TERMS = [
     en: "Luna Karrowrath",
     cat: "PNJ",
     group: "Lumek",
-    desc: "Clad in battle scarred Lunaran steel armor covered in the symbols of the Flameguard and the goddess Lumé, this Fej warrior has been through countless battles, and her intense, haunted gaze only…",
+    desc: "Championne de Lumé, légende des Lumek ayant tué le Baron du Sang lors du dernier siège.",
     proposals: ["Luna Karrowrath"]
   },
   {
@@ -2082,7 +2082,7 @@ const EMBER_TERMS = [
     en: "Kaftor Brenk",
     cat: "PNJ",
     group: "Mutagists",
-    desc: "This Fej man's bare, muscular arms are inscribed with elaborate, glowing green tattoos and fissures that glow with green light. The markings extend up their neck to across their face and bald head…",
+    desc: "Ritualiste impitoyable du laboratoire Mutagiste souterrain, maître de la bio-magie expérimentale.",
     proposals: ["Kaftor Brenk"]
   },
   {
@@ -2090,7 +2090,7 @@ const EMBER_TERMS = [
     en: "Amalthea Stonecraft",
     cat: "PNJ",
     group: "Nain",
-    desc: "A wizened woman dressed in loose-fitting Arcturian garb stands before you, her elderly hands perched upon a knotted walking stick. You spy a pair of feathered wings on her stooped back, as brilliant…",
+    desc: "Bardue aster de 85 ans aux ailes violettes, l'une des plus grandes conteuses du plateau.",
     proposals: ["Amalthea Stonecraft"]
   },
   {
@@ -2098,7 +2098,7 @@ const EMBER_TERMS = [
     en: "Svala Bronwen",
     cat: "PNJ",
     group: "Nain",
-    desc: "The vrjnhar woman is broad shouldered and intensely muscled, carrying herself with a fearless confidence. She sports pale white fur that pours off her chin and turns into a lengthy beard which is…",
+    desc: "Guerrière vrjnhar implacable et millénaire, parcourant le monde pour rendre justice.",
     proposals: ["Svala Bronwen"]
   },
   {
@@ -2106,7 +2106,7 @@ const EMBER_TERMS = [
     en: "Brackus von Tet",
     cat: "PNJ",
     group: "Ordain",
-    desc: "This ruggedly handsome Altyra wears the trademark tools of a blacksmith upon his belt, and is clad in stylish-but-practical Ordani garb, with the slightest nod to western methods in the way he ties…",
+    desc: "Forgeron d'Ordain, ancien gladiateur reconverti en artisan estimé du Smokerie.",
     proposals: ["Brackus von Tet"]
   },
   {
@@ -2114,7 +2114,7 @@ const EMBER_TERMS = [
     en: "Cherish Ellerie",
     cat: "PNJ",
     group: "Ordain",
-    desc: "Covered head to toe in detailed ink, this tattooed Ordani woman is a walking art piece, a living mural of red, black and blue designs crawling across her skin in intricate, interlocking patterns.…",
+    desc: "Membre ambitieuse de la Maison Salva, couverte de tatouages et soif de pouvoir.",
     proposals: ["Cherish Ellerie"]
   },
   {
@@ -2122,7 +2122,7 @@ const EMBER_TERMS = [
     en: "Conaris Haid",
     cat: "PNJ",
     group: "Ordain",
-    desc: "If his tattered robes are any indication, the short, bald man before you is a priest of high station — an occupation at odds with the somewhat deranged look on his wizened face. This wild-eyed…",
+    desc: "Grand Prêtre excentrique et imprévisible de Sockets, personnalité adorée d'Ordain.",
     proposals: ["Conaris Haid"]
   },
   {
@@ -2130,7 +2130,7 @@ const EMBER_TERMS = [
     en: "Falar",
     cat: "PNJ",
     group: "Ordain",
-    desc: "Clad in well-tailored vintage clothing marked with intermittent paint stains, this gray-haired Ordani merchant has a world-weary look about him, accented by the wry look on his handsomely wrinkled…",
+    desc: "Vieux marchand de peintures dans Flotsam, amer et critique envers la ville d'Ordain.",
     proposals: ["Falar"]
   },
   {
@@ -2138,7 +2138,7 @@ const EMBER_TERMS = [
     en: "Helice Korsos",
     cat: "PNJ",
     group: "Ordain",
-    desc: "Shrouded in occult mystique and the sweet aroma of fresh lavender, this alluring woman of mixed ancestry is a breathtaking display of self-confidence on legs. With skin the color of ashen mauve and a…",
+    desc: "Sorcière à louer dans l'Orchard Lanes, charmante et liée à un puissant Casia.",
     proposals: ["Helice Korsos"]
   },
   {
@@ -2146,7 +2146,7 @@ const EMBER_TERMS = [
     en: "Janix Mance",
     cat: "PNJ",
     group: "Ordain",
-    desc: "The kivahr has metal and heated fluid on one side of their body, and flesh and blood on the other, but both move as one, with a fluidity and precision that give the sense that each move they make is…",
+    desc: "Forgeron-artificier aux prothèses métalliques, inventeur intrépide et pédagogue bienveillant.",
     proposals: ["Janix Mance"]
   },
   {
@@ -2154,7 +2154,7 @@ const EMBER_TERMS = [
     en: "Jorey Swift",
     cat: "PNJ",
     group: "Ordain",
-    desc: "You regard an agile Ordani teenager, no more than the age of sixteen, with a western-worn topknot of auburn hair. Dressed in the short-sleeved robes of a martial artist, the scrappy young athlete…",
+    desc: "Jeune membre prometteur des Undaunted, adolescent au regard de voyageur.",
     proposals: ["Jorey Swift"]
   },
   {
@@ -2162,7 +2162,7 @@ const EMBER_TERMS = [
     en: "Mistress Caberi",
     cat: "PNJ",
     group: "Ordain",
-    desc: "This gorgeous human woman wears an impossible gown made from arches of vibrant fabric that defy gravity, layers of shimmering cloth seemingly made from woven metal, and layers of lace that seem to…",
+    desc: "Dirigeante glamour de la Maison Salva, icône de la mode et figure publique de longue date.",
     proposals: ["Mistress Caberi"]
   },
   {
@@ -2170,7 +2170,7 @@ const EMBER_TERMS = [
     en: "Zira Hestidero",
     cat: "PNJ",
     group: "Ordain",
-    desc: "The lean and muscular woman that stands before you is a paragon of physical acuity and raw charisma. Captivating from buzzed head to sandaled toe, this chiseled bruiser could easily handle herself in…",
+    desc: "Leader charismatique des Undaunted, warlock célébrée des Jeux Solaires d'Ordain.",
     proposals: ["Zira Hestidero"]
   },
   {
@@ -2178,7 +2178,7 @@ const EMBER_TERMS = [
     en: "Salara, Queen of Scales",
     cat: "PNJ",
     group: "Otherhood Of Fortune",
-    desc: "A tall, imperious Ashka woman, Salara is of middle age with gray-blue scales and icy eyes that can cut like daggers if properly directed. She dresses in fine clothing, with little accents of gold and…",
+    desc: "Reine des marchés du Seawall, dirigeante ashka au regard tranchant et aux règles strictes.",
     proposals: ["Salara, Queen of Scales"]
   },
   {
@@ -2186,7 +2186,7 @@ const EMBER_TERMS = [
     en: "Sticks",
     cat: "PNJ",
     group: "Otherhood Of Fortune",
-    desc: "You hear the retired pirate before you see him. As he talks, he throws his shoulders back, voice roaring and white fur gleaming underneath a uniform that is both casually rumpled and meticulously…",
+    desc: "Ancien pirate retraité de Seawall, leader populaire défendant les gens ordinaires du plateau.",
     proposals: ["Sticks"]
   },
   {
@@ -2194,7 +2194,7 @@ const EMBER_TERMS = [
     en: "Eamon Mariflor",
     cat: "PNJ",
     group: "Redrak",
-    desc: "Before you stands a short figure with dusky, gray hair shimmering with tiny magical stars and crescent moons. Glowing orange lines coil up his arms and over his face, making his skin look like a bed…",
+    desc: "Chef du Consortium Agrimage de Redrak, reconnu pour son intelligence et son accessibilité.",
     proposals: ["Eamon Mariflor"]
   },
   {
@@ -2202,7 +2202,7 @@ const EMBER_TERMS = [
     en: "Avwynn Taol",
     cat: "PNJ",
     group: "Sanguinaries",
-    desc: "Tall, regal, and confident, this human woman carries herself with certainty and exudes a powerful confidence back with a steely, unwavering calm. Her icy blue eyes glimmer sharply against black…",
+    desc: "Agent mystérieux aux motivations secrètes, sagesse d'ancienne et charme de diplomate.",
     proposals: ["Avwynn Taol"]
   },
   {
@@ -2210,7 +2210,7 @@ const EMBER_TERMS = [
     en: "Corvana Vortest",
     cat: "PNJ",
     group: "Signarans",
-    desc: "You regard a lithe woman with pale blue skin clad in the esoteric robes of a scholar. Her bald head is crowned with a pair of tall, curving horns that betray her Signborn heritage, as do the two…",
+    desc: "Mage solitaire signaran à la réputation imprévisible, gardant un passé soigneusement caché.",
     proposals: ["Corvana Vortest"]
   },
   {
@@ -2218,7 +2218,7 @@ const EMBER_TERMS = [
     en: "Larissa Toth",
     cat: "PNJ",
     group: "Silver Beam",
-    desc: "You regard a tall Altyra woman dressed in Railen fineries, her porcelain-colored skin marked with silver hexagonal lattices. Her long silver hair is worn in a braided low bun, and her attentive eyes…",
+    desc: "Directrice executive du Consortium Silver Beam, aristocrate altyra froide et avisée.",
     proposals: ["Larissa Toth"]
   },
   {
@@ -2226,7 +2226,7 @@ const EMBER_TERMS = [
     en: "Liestra Grann",
     cat: "PNJ",
     group: "Skybrush",
-    desc: "A muscular Kivahr femme clad in in loose layers of cloth and leather leans upon the wall with casual composure. A side-parted bob of tawny hair hangs just below her chin as she scrutinizes some…",
+    desc: "Prêteuse sur gages kivahr sarcastique de Skybrush, grande et redoutable commerçante.",
     proposals: ["Liestra Grann"]
   },
   {
@@ -2234,7 +2234,7 @@ const EMBER_TERMS = [
     en: "Mica Valaston",
     cat: "PNJ",
     group: "Skybrush",
-    desc: "You behold the skeptical countenance of a thirty-something Hulg'run warrior clad in studded leather armor, a ring of keys around their belt. Their hand hovers just above the hilt of a sheathed…",
+    desc: "Constable taciturne de Skybrush, hulg'run au caractère brusque toujours prêt à intervenir.",
     proposals: ["Mica Valaston"]
   },
   {
@@ -2242,7 +2242,7 @@ const EMBER_TERMS = [
     en: "Eveis Brightstone",
     cat: "PNJ",
     group: "Star Mages",
-    desc: "You take a moment to absorb the sight before you, your mind struggling to accept what you see. Hovering just above the ground is a mythical being, one of the fabled Carrow from the depths of Ember's…",
+    desc: "Mage stellaire gardienne d'Ordain, Carrow de l'océan profond parmi les plus puissants du plateau.",
     proposals: ["Eveis Brightstone"]
   },
   {
@@ -2250,7 +2250,7 @@ const EMBER_TERMS = [
     en: "Kali Andrella",
     cat: "PNJ",
     group: "Steed'S Point",
-    desc: "While she is no longer a young woman, the Arcturian in front of you is a study in motion, moving gracefully from one task to the next as if dancing from one side of the room to the other. As she…",
+    desc: "Agrimane renommée au bras enroulé de vignes, spécialiste des problèmes insolubles.",
     proposals: ["Kali Andrella"]
   },
   {
@@ -2258,7 +2258,7 @@ const EMBER_TERMS = [
     en: "Moriah Foxhaven",
     cat: "PNJ",
     group: "Steed'S Point",
-    desc: "A young Arcturian woman sits atop a magnificent four-legged yarnac, which she drives across the grassy plain with calm and ease. Her sun-kissed light brown skin is freckled from relentless exposure…",
+    desc: "Jeune agrimane nomade chevauchant les plaines, sorcière autodidacte au cœur ouvert.",
     proposals: ["Moriah Foxhaven"]
   },
   {
@@ -2266,7 +2266,7 @@ const EMBER_TERMS = [
     en: "Rattletrap, the Rickety Man",
     cat: "PNJ",
     group: "Steed'S Point",
-    desc: "This humanoid figure is crafted from various scraps of wood, its ramshackle limbs held together with a skeleton made of timber and ligatures woven from vine. The masterful carving that comprises its…",
+    desc: "Construit en bois des ruines de Steed's Point, capable de parler, serviteur éternel.",
     proposals: ["Rattletrap, the Rickety Man"]
   },
   {
@@ -2274,7 +2274,7 @@ const EMBER_TERMS = [
     en: "Kendral Lowd",
     cat: "PNJ",
     group: "Storsa'S Strani",
-    desc: "For a Kivahr, descended from the giants of old, the scarred fisher before you seems small, somehow, dwarfed by the fishing pole he carries across his back. He hunches his shoulders, as if trying to…",
+    desc: "Pêcheur kivahr rongé par la culpabilité, ancien aventurier ayant perdu sa famille.",
     proposals: ["Kendral Lowd"]
   },
   {
@@ -2282,7 +2282,7 @@ const EMBER_TERMS = [
     en: "Agraband Swift",
     cat: "PNJ",
     group: "Strayhearth Caravan",
-    desc: "A six-stringed kithara is slung across the back of this aged human clad in an odd-yet-practical assortment of clothing and jewelry. The seasoned bard wears the salt-and-pepper locks of his long hair…",
+    desc: "Vieux barde raconteur capitainant la célèbre Caravane Strayhearth.",
     proposals: ["Agraband Swift"]
   },
   {
@@ -2290,7 +2290,7 @@ const EMBER_TERMS = [
     en: "Ankarist",
     cat: "PNJ",
     group: "Strayhearth Caravan",
-    desc: "You observe a stern Drakon warrior with a determined expression and piercing golden eyes. Clad in leather armor reinforced with steel, his martial prowess is immediately apparent in the way he…",
+    desc: "Enquêteur Drakon de la Veiled Chain, guerrier graveleux à l'héritage tayan.",
     proposals: ["Ankarist"]
   },
   {
@@ -2298,7 +2298,7 @@ const EMBER_TERMS = [
     en: "Clipper",
     cat: "PNJ",
     group: "Strayhearth Caravan",
-    desc: "You hear the sound of jingling bells as a purple-skinned Signborn with a slight build draws your attention. Crowned in a feathered mop of hair streaked with cerulean and lavender, this young…",
+    desc: "Jeune marchand signborn exubérant et coloré des routes commerciales de l'Arctus.",
     proposals: ["Clipper"]
   },
   {
@@ -2306,7 +2306,7 @@ const EMBER_TERMS = [
     en: "Lyla Cevher",
     cat: "PNJ",
     group: "Strayhearth Caravan",
-    desc: "Sharply dressed in a beautiful and richly decorated coat that proudly displays her wealthy background, this young Human is a picture of understated wealth. It's clear from an initial glance at her…",
+    desc: "Héritière non préparée de la Maison Cevher, jeune noble dévastée par la mort de son père.",
     proposals: ["Lyla Cevher"]
   },
   {
@@ -2314,7 +2314,7 @@ const EMBER_TERMS = [
     en: "Sin Marmot",
     cat: "PNJ",
     group: "Strayhearth Caravan",
-    desc: "A Keth with a friendly demeanor and wide blue eyes and a strange half-mask that covers her mouth. She seems to view everything around her with an air of wondrous innocence but her keen glances also…",
+    desc: "Druidesse keth voyageuse des Striders, portant un demi-masque et cherchant la connexion à Ember.",
     proposals: ["Sin Marmot"]
   },
   {
@@ -2322,7 +2322,7 @@ const EMBER_TERMS = [
     en: "Loris Tezran",
     cat: "PNJ",
     group: "Tayan Empire",
-    desc: "Tall and immaculately composed, this man carries himself with the cool poise of a man too assured to ever feel threatened. His dark hair is trimmed close and swept neatly back between horns which…",
+    desc: "Ambassadeur tayan à Ordain, homme de charme, d'intelligence et de menace feutrée.",
     proposals: ["Loris Tezran"]
   },
   {
@@ -2330,7 +2330,7 @@ const EMBER_TERMS = [
     en: "Toron",
     cat: "PNJ",
     group: "Tayan Empire",
-    desc: "A quiet, well-groomed man wearing prison garb. His sharp, calculating eyes size up everyone in view, betraying a sharp mind behind a calm, almost friendly mask. His neat black hair shows hints of…",
+    desc: "Espion vétéran de l'Empire Tayan, mage redoutable au masque de calme.",
     proposals: ["Toron"]
   },
   {
@@ -2338,7 +2338,7 @@ const EMBER_TERMS = [
     en: "Raster Thorn",
     cat: "PNJ",
     group: "Toothbreakers",
-    desc: "This hulking man grins with a sinister smirk that suggests confidence and a capacity for sudden and brutal violence. He is a human who stands 6 and a half feet tall. He wears tightly fitted scaled…",
+    desc: "Chef brutal des Toothbreakers, colosse en armure d'écailles dominant le district Concourse.",
     proposals: ["Raster Thorn"]
   },
   {
@@ -2346,7 +2346,7 @@ const EMBER_TERMS = [
     en: "Tethra Shùl",
     cat: "PNJ",
     group: "Undead",
-    desc: "You see the umbral apparition of a long-dead giant clad in the ancient, esoteric robes of a soothsayer. Her rotten form is draped in ever-flowing shadow, and from the depths of her grim countenance…",
+    desc: "Spectre sadique d'une sorcière Varùn antique, entité de gloom et de malice.",
     proposals: ["Tethra Shùl"]
   },
   {
@@ -2354,7 +2354,7 @@ const EMBER_TERMS = [
     en: "Del Kalais",
     cat: "PNJ",
     group: "Veiled Chain",
-    desc: "You see a tired-looking Signborn man with dusky purple-gray skin and curved violet horns, dark stubble covers his jaw, threatening to become a beard any day, and his eyes are sharp despite the clear…",
+    desc: "Enquêteur signborn de la Veiled Chain, bavard et perspicace, bras spectraux.",
     proposals: ["Del Kalais"]
   },
   {
@@ -2362,7 +2362,7 @@ const EMBER_TERMS = [
     en: "Desham \"Shaar\" Phos",
     cat: "PNJ",
     group: "Veiled Chain",
-    desc: "An air of authority and stillness surrounds Shaar, their gray skin and charcoal hair clashing with the colorful Ordani clothing they wear. Their burning blue eyes fix with an intense, calculating…",
+    desc: "Chef actuel de la Veiled Chain, ancien agent d'élite aux yeux brûlants.",
     proposals: ["Desham \"Shaar\" Phos"]
   },
   {
@@ -2370,7 +2370,7 @@ const EMBER_TERMS = [
     en: "Serethus",
     cat: "PNJ",
     group: "Veiled Chain",
-    desc: "Tall and imposing, with a strong, bulky frame typical of the Cor'ak, this man's brown and tan are accented by splashes of vibrant purple. Long, purple horns that frame his head in a regal yet…",
+    desc: "Mage-enquêteur celebré et grégaire de la Veiled Chain, académicien au macabre chaleureux.",
     proposals: ["Serethus"]
   },
   {
@@ -2378,7 +2378,7 @@ const EMBER_TERMS = [
     en: "Yeela Drevvin",
     cat: "PNJ",
     group: "Veiled Chain",
-    desc: "This human woman is stylishly dressed in layers of bright green and orange cloth trimmed with golden thread. Her garments drape over an athletic frame and though she's in her forties she looks more…",
+    desc: "Agent senior vétéran de la Veiled Chain, maîtresse de la discrétion en milieu urbain.",
     proposals: ["Yeela Drevvin"]
   },
   {
@@ -2386,7 +2386,7 @@ const EMBER_TERMS = [
     en: "Gastern Faviyos",
     cat: "PNJ",
     group: "Wind Raiders",
-    desc: "This Zeph's form is made of swirling, blue-glowing wind wrapped in dark leathers. Over his face sits a horned mask of smooth gray stone with glowing eyes that burn in a bright blue. When he moves,…",
+    desc: "Capitaine pirate zeph de brume et vent, chef imprévisible des Wind Raiders.",
     proposals: ["Gastern Faviyos"]
   },
   {
@@ -2394,7 +2394,7 @@ const EMBER_TERMS = [
     en: "Jasper",
     cat: "PNJ",
     group: "Yakoshta",
-    desc: "The Hulg'run man steps carefully, as if he is assessing everything around him with sharp eyes and careful determination. He wears a slight scowl on his face, as if he is above whatever is around him,…",
+    desc: "Responsable hulg'run du traitement du minerai à Yakoshta, ambitieux et endetté.",
     proposals: ["Jasper"]
   },
   {
@@ -2402,7 +2402,7 @@ const EMBER_TERMS = [
     en: "Sellen",
     cat: "PNJ",
     group: "Yakoshta",
-    desc: "Between the light from the candles perched on her shoulders, the large pickaxe in one hand, and the clipboard in another, the woman before you seems nothing if not prepared for whatever faces her.…",
+    desc: "Fondatrice de la mine de Yakoshta, hulg'run bienveillante et travailleuse dans la Forêt de Pierre.",
     proposals: ["Sellen"]
   },
   {
@@ -2410,7 +2410,641 @@ const EMBER_TERMS = [
     en: "Tauric",
     cat: "PNJ",
     group: "Yakoshta",
-    desc: "The young man's gray body appears to be carved from rock, with lines of blue agate running through the stone like veins. His color is matched by the gelatinous body of the small blueish-green ooze…",
+    desc: "Jeune hulg'run fan d'oozes à Yakoshta, préférant son limon Squish au travail minier.",
     proposals: ["Tauric"]
+  },
+
+
+  // ── Créatures supplémentaires ─────────────────────────────
+  {
+    id: "beast_corrupted_kezus_jelly",
+    en: "Corrupted Kezus Jelly",
+    cat: "Bestiaire",
+    desc: "Méduse bioluminescente corrompue par l'Abysse, dont l'éclat masque une nature dangereuse.",
+    proposals: ["Corrupted Kezus Jelly"]
+  },
+  {
+    id: "beast_giant_corrupted_kezus_jelly",
+    en: "Giant Corrupted Kezus Jelly",
+    cat: "Bestiaire",
+    desc: "Version géante de la méduse corrompue, plus grande et encore plus menaçante.",
+    proposals: ["Giant Corrupted Kezus Jelly"]
+  },
+  {
+    id: "beast_jurtak_champion",
+    en: "Jurtak Champion",
+    cat: "Bestiaire",
+    desc: "Lézard saurien à six yeux, champion de guerre armé d'une lame d'os venimeuse.",
+    proposals: ["Jurtak Champion"]
+  },
+  {
+    id: "beast_jurtak_geomancer",
+    en: "Jurtak Geomancer",
+    cat: "Bestiaire",
+    desc: "Saurien à six yeux maîtrisant la géomancie, couvert de pierre cristallisée.",
+    proposals: ["Jurtak Geomancer"]
+  },
+  {
+    id: "beast_jurtak_hunter",
+    en: "Jurtak Hunter",
+    cat: "Bestiaire",
+    desc: "Saurien agile à six yeux, chasseur furtif armé d'un arc en bois et os.",
+    proposals: ["Jurtak Hunter"]
+  },
+  {
+    id: "beast_jurtak_sporebearer",
+    en: "Jurtak Sporebearer",
+    cat: "Bestiaire",
+    desc: "Saurien porteur de spores parasitaires, variante du chasseur Jurtak.",
+    proposals: ["Jurtak Sporebearer"]
+  },
+  {
+    id: "beast_jurtak_warrior",
+    en: "Jurtak Warrior",
+    cat: "Bestiaire",
+    desc: "Saurien combattant à six yeux, guerrier de base des tribus Jurtak.",
+    proposals: ["Jurtak Warrior"]
+  },
+  {
+    id: "beast_vhismara_s_claw",
+    en: "Vhismara's Claw",
+    cat: "Bestiaire",
+    desc: "Main colossale à six doigts rampant dans l'obscurité avec des griffes hideuses.",
+    proposals: ["Vhismara's Claw"]
+  },
+  {
+    id: "beast_anachraenum_aetherial",
+    en: "Anachraenum Aetherial",
+    cat: "Bestiaire",
+    desc: "Petit construit rocheux flottant aux formes géométriques qui pulsent doucement.",
+    proposals: ["Anachraenum Aetherial"]
+  },
+  {
+    id: "beast_broken_aedir_sentinel",
+    en: "Broken Aedir Sentinel",
+    cat: "Bestiaire",
+    desc: "Ancienne sentinelle Aedir métallique partiellement détruite, encore combative.",
+    proposals: ["Broken Aedir Sentinel"]
+  },
+  {
+    id: "beast_silver_beam_sentinel",
+    en: "Silver Beam Sentinel",
+    cat: "Bestiaire",
+    desc: "Humanoïde blindé en acier argenté, construit par le Consortium Silver Beam.",
+    proposals: ["Silver Beam Sentinel"]
+  },
+  {
+    id: "beast_silver_beam_servitor",
+    en: "Silver Beam Servitor",
+    cat: "Bestiaire",
+    desc: "Construit humanoïde en acier brossé du Consortium Silver Beam, aux mouvements précis.",
+    proposals: ["Silver Beam Servitor"]
+  },
+  {
+    id: "beast_the_cube",
+    en: "The Cube",
+    cat: "Bestiaire",
+    desc: "Cube flottant en pierre gravée de runes étranges, recouvert d'une épaisse rouille.",
+    proposals: ["The Cube"]
+  },
+  {
+    id: "beast_ancara",
+    en: "Ancara",
+    cat: "Bestiaire",
+    desc: "Prédateur massif aux griffes et bec dentelé, doté d'un regard d'une intelligence redoutable.",
+    proposals: ["Ancara"]
+  },
+  {
+    id: "beast_anydrath",
+    en: "Anydrath",
+    cat: "Bestiaire",
+    desc: "Bête aquatique fuselée aux mâchoires acérées, aussi à l'aise sur terre que dans l'eau.",
+    proposals: ["Anydrath"]
+  },
+  {
+    id: "beast_baradom",
+    en: "Baradom",
+    cat: "Bestiaire",
+    desc: "Créature écailleuse colossale au regard indifférent et à la gueule démesurée.",
+    proposals: ["Baradom"]
+  },
+  {
+    id: "beast_crevvet",
+    en: "Crevvet",
+    cat: "Bestiaire",
+    desc: "Minuscule rongeur à six pattes et quatre yeux émeraude, aux griffes disproportionnées.",
+    proposals: ["Crevvet"]
+  },
+  {
+    id: "beast_giant_kezus_jelly",
+    en: "Giant Kezus Jelly",
+    cat: "Bestiaire",
+    desc: "Grande méduse bioluminescente aux reflets translucides, créature de beauté et de danger.",
+    proposals: ["Giant Kezus Jelly"]
+  },
+  {
+    id: "beast_grey_hydroxol",
+    en: "Grey Hydroxol",
+    cat: "Bestiaire",
+    desc: "Grande créature carnassière à l'affût, langue oscillante pour flairer ses proies.",
+    proposals: ["Grey Hydroxol"]
+  },
+  {
+    id: "beast_gumtoad",
+    en: "Gumtoad",
+    cat: "Bestiaire",
+    desc: "Amphibiens colorés en forme de grenouille aux pattes collantes, discrets dans les canyons.",
+    proposals: ["Gumtoad"]
+  },
+  {
+    id: "beast_hydroxol",
+    en: "Hydroxol",
+    cat: "Bestiaire",
+    desc: "Créature carnassière vigilante, gueule ouverte et langue active pour traquer ses proies.",
+    proposals: ["Hydroxol"]
+  },
+  {
+    id: "beast_jobri",
+    en: "Jobri",
+    cat: "Bestiaire",
+    desc: "Grand reptile aux yeux expressifs et six pattes, utilisé comme monture.",
+    proposals: ["Jobri"]
+  },
+  {
+    id: "beast_kezus_jelly",
+    en: "Kezus Jelly",
+    cat: "Bestiaire",
+    desc: "Petite méduse bioluminescente aux reflets translucides fascinants.",
+    proposals: ["Kezus Jelly"]
+  },
+  {
+    id: "beast_rask",
+    en: "Rask",
+    cat: "Bestiaire",
+    desc: "Grand félin-canin aux yeux phosphorescents et touffes de fourrure, prédateur élégant.",
+    proposals: ["Rask"]
+  },
+  {
+    id: "beast_rask_juvenile",
+    en: "Rask Juvenile",
+    cat: "Bestiaire",
+    desc: "Jeune Rask aux yeux lumineux, version juvénile du prédateur félin-canin.",
+    proposals: ["Rask Juvenile"]
+  },
+  {
+    id: "beast_scalemaw",
+    en: "Scalemaw",
+    cat: "Bestiaire",
+    desc: "Reptile massif de plus de quatre mètres aux quatre yeux luisants, ventre rasant le sol.",
+    proposals: ["Scalemaw"]
+  },
+  {
+    id: "beast_sitherian",
+    en: "Sitherian",
+    cat: "Bestiaire",
+    desc: "Araignée géante à dix yeux et crochets venimeux à la venom verte visqueuse.",
+    proposals: ["Sitherian"]
+  },
+  {
+    id: "beast_yarnac",
+    en: "Yarnac",
+    cat: "Bestiaire",
+    desc: "Grand quadrupède poilu à la crête impressionnante, lent mais puissant.",
+    proposals: ["Yarnac"]
+  },
+  {
+    id: "beast_yarnac_juvenile",
+    en: "Yarnac Juvenile",
+    cat: "Bestiaire",
+    desc: "Jeune Yarnac, version plus petite du grand quadrupède poilu.",
+    proposals: ["Yarnac Juvenile"]
+  },
+  {
+    id: "beast_aburyx",
+    en: "Aburyx",
+    cat: "Bestiaire",
+    desc: "Être céleste à tête de flamme dorée, armé d'une épée de lumière concentrée.",
+    proposals: ["Aburyx"]
+  },
+  {
+    id: "beast_kynryth",
+    en: "Kynryth",
+    cat: "Bestiaire",
+    desc: "Masse métallique de bras et tentacules portant une flamme pulsante en son cœur.",
+    proposals: ["Kynryth"]
+  },
+  {
+    id: "beast_skither",
+    en: "Skither",
+    cat: "Bestiaire",
+    desc: "Petit être céleste rapide à l'œil unique et aux ailes grossières en forme d'insecte.",
+    proposals: ["Skither"]
+  },
+  {
+    id: "beast_vorg",
+    en: "Vorg",
+    cat: "Bestiaire",
+    desc: "Mille-pattes métallique aux segments infinis, doté de pinces remarquablement habiles.",
+    proposals: ["Vorg"]
+  },
+  {
+    id: "beast_afflicted_pallid_drake",
+    en: "Afflicted Pallid Drake",
+    cat: "Bestiaire",
+    desc: "Grand drake serpentin aux écailles blanc-vert, affecté d'une corruption visible.",
+    proposals: ["Afflicted Pallid Drake"]
+  },
+  {
+    id: "beast_afflicted_pallid_drakeling",
+    en: "Afflicted Pallid Drakeling",
+    cat: "Bestiaire",
+    desc: "Jeune drake pâle au corps mince et frilles tachetées, portant une affliction.",
+    proposals: ["Afflicted Pallid Drakeling"]
+  },
+  {
+    id: "beast_pallid_ultra_drake",
+    en: "Pallid Ultra Drake",
+    cat: "Bestiaire",
+    desc: "Version ultra d'un drake pâle, grand et imposant aux frilles immaculées.",
+    proposals: ["Pallid Ultra Drake"]
+  },
+  {
+    id: "beast_ketral",
+    en: "Ketral",
+    cat: "Bestiaire",
+    desc: "Petite créature à peau rocheuse sombre, presque invisible parmi les rochers.",
+    proposals: ["Ketral"]
+  },
+  {
+    id: "beast_paint_globlin",
+    en: "Paint Globlin",
+    cat: "Bestiaire",
+    desc: "Créature trapue dont le corps est fait de peintures tourbillonnantes qui refusent de se mélanger.",
+    proposals: ["Paint Globlin"]
+  },
+  {
+    id: "beast_shade_of_agaseros",
+    en: "Shade of Agaseros",
+    cat: "Bestiaire",
+    desc: "Être arcanique à quatre bras et corps de laiton, scintillant d'existence incertaine.",
+    proposals: ["Shade of Agaseros"]
+  },
+  {
+    id: "beast_water_mote",
+    en: "Water Mote",
+    cat: "Bestiaire",
+    desc: "Minuscule élémentaire d'eau amorphe et luminescent, à peine plus gros qu'un animal.",
+    proposals: ["Water Mote"]
+  },
+  {
+    id: "beast_water_visitor",
+    en: "Water Visitor",
+    cat: "Bestiaire",
+    desc: "Élémentaire aquatique presque humanoïde, aux membres changeants terminés par des éclats.",
+    proposals: ["Water Visitor"]
+  },
+  {
+    id: "beast_water_wanderer",
+    en: "Water Wanderer",
+    cat: "Bestiaire",
+    desc: "Grand élémentaire d'eau imposant aux mouvements fluides et délibérés, très intelligent.",
+    proposals: ["Water Wanderer"]
+  },
+  {
+    id: "beast_vanexis",
+    en: "Vanexis",
+    cat: "Bestiaire",
+    desc: "Créature lumineuse féerique à grands yeux brillants, se déplaçant avec une grâce prédatrice.",
+    proposals: ["Vanexis"]
+  },
+  {
+    id: "beast_jahud",
+    en: "Jahud",
+    cat: "Bestiaire",
+    desc: "Assassin fielon à quatre bras et peau bleue, armé de dagues et lames d'os.",
+    proposals: ["Jahud"]
+  },
+  {
+    id: "beast_agrimage",
+    en: "Agrimage",
+    cat: "Bestiaire",
+    desc: "Praticien de l'agrimagie portant graines, eau et outils végétaux pour aider les communautés.",
+    proposals: ["Agrimage"]
+  },
+  {
+    id: "beast_anachraenum_adventurer",
+    en: "Anachraenum Adventurer",
+    cat: "Bestiaire",
+    desc: "Explorateur vétéran de la guilde des Lore Hunters, capuche et expérience taillées au combat.",
+    proposals: ["Anachraenum Adventurer"]
+  },
+  {
+    id: "beast_arcturian_miner",
+    en: "Arcturian Miner",
+    cat: "Bestiaire",
+    desc: "Mineur couvert de poussière, équipé d'outils lourds pour extraire les ressources d'Ember.",
+    proposals: ["Arcturian Miner"]
+  },
+  {
+    id: "beast_burnished_hand_protector",
+    en: "Burnished Hand Protector",
+    cat: "Bestiaire",
+    desc: "Guerrier en armure de bronze lustré, protecteur des Cindaric Sages.",
+    proposals: ["Burnished Hand Protector"]
+  },
+  {
+    id: "beast_cascillian_marine",
+    en: "Cascillian Marine",
+    cat: "Bestiaire",
+    desc: "Soldat en uniforme teal clair, armé d'un trident et d'une arbalète.",
+    proposals: ["Cascillian Marine"]
+  },
+  {
+    id: "beast_cascillian_marine_officer",
+    en: "Cascillian Marine Officer",
+    cat: "Bestiaire",
+    desc: "Officier marin cascillien portant l'écharpe de commandement sur son uniforme teal.",
+    proposals: ["Cascillian Marine Officer"]
+  },
+  {
+    id: "beast_cindaric_adherent",
+    en: "Cindaric Adherent",
+    cat: "Bestiaire",
+    desc: "Adepte des Cindaric Sages en robe dorée et cramoisi, guérisseur lettré.",
+    proposals: ["Cindaric Adherent"]
+  },
+  {
+    id: "beast_cindaric_sage",
+    en: "Cindaric Sage",
+    cat: "Bestiaire",
+    desc: "Sage Cindaric en robe d'or et cramoisi, maître des arts cindariques.",
+    proposals: ["Cindaric Sage"]
+  },
+  {
+    id: "beast_flameguard_crusader",
+    en: "Flameguard Crusader",
+    cat: "Bestiaire",
+    desc: "Guerrier fej des Lumek en armure et épée embrasée de feu divin.",
+    proposals: ["Flameguard Crusader"]
+  },
+  {
+    id: "beast_flameguard_firebrand",
+    en: "Flameguard Firebrand",
+    cat: "Bestiaire",
+    desc: "Guerrier fej avec une torche enflammée dans le dos, fervent soldat des Lumek.",
+    proposals: ["Flameguard Firebrand"]
+  },
+  {
+    id: "beast_mutagist_bombardier",
+    en: "Mutagist Bombardier",
+    cat: "Bestiaire",
+    desc: "Agent Mutagiste équipé de bandoulières de fioles chimiques explosives.",
+    proposals: ["Mutagist Bombardier"]
+  },
+  {
+    id: "beast_mutagist_excisor",
+    en: "Mutagist Excisor",
+    cat: "Bestiaire",
+    desc: "Chirurgien Mutagiste aux tatouages verts lumineux, scalpel à la main.",
+    proposals: ["Mutagist Excisor"]
+  },
+  {
+    id: "beast_mutagist_grenadier",
+    en: "Mutagist Grenadier",
+    cat: "Bestiaire",
+    desc: "Combattant Mutagiste en cotte de mailles, chargé de produits chimiques volatils.",
+    proposals: ["Mutagist Grenadier"]
+  },
+  {
+    id: "beast_mutagist_scout",
+    en: "Mutagist Scout",
+    cat: "Bestiaire",
+    desc: "Éclaireur Mutagiste en manteau en patchwork, expérimenté et discret.",
+    proposals: ["Mutagist Scout"]
+  },
+  {
+    id: "beast_mutagist_vivisector",
+    en: "Mutagist Vivisector",
+    cat: "Bestiaire",
+    desc: "Praticien Mutagiste masqué et ganté, au regard froid derrière ses lunettes.",
+    proposals: ["Mutagist Vivisector"]
+  },
+  {
+    id: "beast_otherhood_brigand",
+    en: "Otherhood Brigand",
+    cat: "Bestiaire",
+    desc: "Brigand de l'Otherhood en robes dorées et armure d'écailles, combattant discipliné.",
+    proposals: ["Otherhood Brigand"]
+  },
+  {
+    id: "beast_otherhood_raider",
+    en: "Otherhood Raider",
+    cat: "Bestiaire",
+    desc: "Raider léger de l'Otherhood en cuir brun et robes dorées, agressif.",
+    proposals: ["Otherhood Raider"]
+  },
+  {
+    id: "beast_silver_beam_engineer",
+    en: "Silver Beam Engineer",
+    cat: "Bestiaire",
+    desc: "Technicien du Consortium Silver Beam, spécialiste des réparations de machines.",
+    proposals: ["Silver Beam Engineer"]
+  },
+  {
+    id: "beast_silver_beam_guard",
+    en: "Silver Beam Guard",
+    cat: "Bestiaire",
+    desc: "Garde du Consortium Silver Beam en uniforme gris et bleu, posté à la sécurité.",
+    proposals: ["Silver Beam Guard"]
+  },
+  {
+    id: "beast_thayloc_courser",
+    en: "Thayloc Courser",
+    cat: "Bestiaire",
+    desc: "Rôdeur-clerc en manteau argenté armé d'un arc long aux gravures sacrées.",
+    proposals: ["Thayloc Courser"]
+  },
+  {
+    id: "beast_undaunted_adept",
+    en: "Undaunted Adept",
+    cat: "Bestiaire",
+    desc: "Combattant de rue des Undaunted en robes de moine cramoisi, couvert de cicatrices.",
+    proposals: ["Undaunted Adept"]
+  },
+  {
+    id: "beast_veiled_chain_agent",
+    en: "Veiled Chain Agent",
+    cat: "Bestiaire",
+    desc: "Agent de la Veiled Chain en tenue colorée élaborée, discret et observateur.",
+    proposals: ["Veiled Chain Agent"]
+  },
+  {
+    id: "beast_wandren_patroller",
+    en: "Wandren Patroller",
+    cat: "Bestiaire",
+    desc: "Patrouilleur de la Maison Wandren surveillant les rues, prêt à dégainer ses lames.",
+    proposals: ["Wandren Patroller"]
+  },
+  {
+    id: "beast_wandren_tracer",
+    en: "Wandren Tracer",
+    cat: "Bestiaire",
+    desc: "Agent masqué des Wandren en cuir sombre et violet, accentué d'or.",
+    proposals: ["Wandren Tracer"]
+  },
+  {
+    id: "beast_wandren_watcher",
+    en: "Wandren Watcher",
+    cat: "Bestiaire",
+    desc: "Sentinelle des Wandren postée sur les toits, scrutant les rues en contrebas.",
+    proposals: ["Wandren Watcher"]
+  },
+  {
+    id: "beast_wind_raider_boarder",
+    en: "Wind Raider Boarder",
+    cat: "Bestiaire",
+    desc: "Marin pirate tanné par les tempêtes, combattant habile des Wind Raiders.",
+    proposals: ["Wind Raider Boarder"]
+  },
+  {
+    id: "beast_mootap",
+    en: "Mootap",
+    cat: "Bestiaire",
+    desc: "Anguille aveugle aux dizaines de tentacules lumineux en couronne, surgissant de nulle part.",
+    proposals: ["Mootap"]
+  },
+  {
+    id: "beast_suarrok",
+    en: "Suarrok",
+    cat: "Bestiaire",
+    desc: "Super-prédateur avien géant aux ailes membraneuses et regard terrifiant.",
+    proposals: ["Suarrok"]
+  },
+  {
+    id: "beast_suarrok_juvenile",
+    en: "Suarrok Juvenile",
+    cat: "Bestiaire",
+    desc: "Jeune Suarrok mêlant traits d'oiseau et de lézard, cou sinueux comme un serpent.",
+    proposals: ["Suarrok Juvenile"]
+  },
+  {
+    id: "beast_vespian_hydral",
+    en: "Vespian Hydral",
+    cat: "Bestiaire",
+    desc: "Créature reptilienne à crête dorsale en voile, mi-serpent mi-lézard aquatique.",
+    proposals: ["Vespian Hydral"]
+  },
+  {
+    id: "beast_young_cheliceraeth",
+    en: "Young Cheliceraeth",
+    cat: "Bestiaire",
+    desc: "Jeune créature cristalline à dix yeux et huit pattes, comme des cristaux vivants.",
+    proposals: ["Young Cheliceraeth"]
+  },
+  {
+    id: "beast_corpuleth",
+    en: "Corpuleth",
+    cat: "Bestiaire",
+    desc: "Brute mort-vivante en armure hérissée de piques d'os et métal rouillé.",
+    proposals: ["Corpuleth"]
+  },
+  {
+    id: "beast_corrupted_cadrithor",
+    en: "Corrupted Cadrithor",
+    cat: "Bestiaire",
+    desc: "Quadrupède d'ombre pure, squelette canin grotesque enveloppé de fumée noire.",
+    proposals: ["Corrupted Cadrithor"]
+  },
+  {
+    id: "beast_crumbling_skallith",
+    en: "Crumbling Skallith",
+    cat: "Bestiaire",
+    desc: "Squelette réanimé en état de délabrement avancé, traînant une lame rouillée.",
+    proposals: ["Crumbling Skallith"]
+  },
+  {
+    id: "beast_horrendor",
+    en: "Horrendor",
+    cat: "Bestiaire",
+    desc: "Cadavre ambulant souriant d'un rictus sanglant, pestilentiel et sardonique.",
+    proposals: ["Horrendor"]
+  },
+  {
+    id: "beast_regus_halamattrix",
+    en: "Regus Halamattrix",
+    cat: "Bestiaire",
+    desc: "Spectre translucide d'un guerrier ordanais en armure vieille de deux siècles.",
+    proposals: ["Regus Halamattrix"]
+  },
+  {
+    id: "beast_skallith",
+    en: "Skallith",
+    cat: "Bestiaire",
+    desc: "Squelette humanoïde réanimé aux os décharnés et armement rouillé.",
+    proposals: ["Skallith"]
+  },
+  {
+    id: "beast_skallith_warrior",
+    en: "Skallith Warrior",
+    cat: "Bestiaire",
+    desc: "Version guerrière du Skallith, en armure corrodée et lame en main.",
+    proposals: ["Skallith Warrior"]
+  },
+  {
+    id: "beast_sarracenias",
+    en: "Sarracenias",
+    cat: "Bestiaire",
+    desc: "Plante carnivore camouflée en débris végétaux, bondissant sur ses proies.",
+    proposals: ["Sarracenias"]
+  },
+  {
+    id: "beast_giant_luminous_ooze",
+    en: "Giant Luminous Ooze",
+    cat: "Bestiaire",
+    desc: "Immense blob d'ooze doré aux tentacules hérissés d'éclats métalliques et cristallins.",
+    proposals: ["Giant Luminous Ooze"]
+  },
+  {
+    id: "beast_luminous_copper_ooze",
+    en: "Luminous Copper Ooze",
+    cat: "Bestiaire",
+    desc: "Slime cuivré traînant des fragments de métal et cristaux dans sa gelée.",
+    proposals: ["Luminous Copper Ooze"]
+  },
+  {
+    id: "beast_luminous_gold_ooze",
+    en: "Luminous Gold Ooze",
+    cat: "Bestiaire",
+    desc: "Ooze d'or liquide s'étirant en bras visqueux pour se propulser.",
+    proposals: ["Luminous Gold Ooze"]
+  },
+  {
+    id: "beast_luminous_iron_ooze",
+    en: "Luminous Iron Ooze",
+    cat: "Bestiaire",
+    desc: "Ooze gris argenté aux fragments métalliques intégrés, se déformant constamment.",
+    proposals: ["Luminous Iron Ooze"]
+  },
+  {
+    id: "beast_luminous_silver_ooze",
+    en: "Luminous Silver Ooze",
+    cat: "Bestiaire",
+    desc: "Ooze argenté scintillant comme un tas de pièces, pulsant de poussières lumineuses.",
+    proposals: ["Luminous Silver Ooze"]
+  },
+  {
+    id: "beast_oozeling",
+    en: "Oozeling",
+    cat: "Bestiaire",
+    desc: "Minuscule ooze translucide curieux, explorant son environnement avec une timide prudence.",
+    proposals: ["Oozeling"]
+  },
+  {
+    id: "pnj_veiled_chain_desham_shaar_phos",
+    en: "Desham \"Shaar\" Phos",
+    cat: "PNJ",
+    group: "Veiled Chain",
+    desc: "Chef actuel de la Veiled Chain, ancien agent d'élite aux yeux brûlants.",
+    proposals: ["Desham \"Shaar\" Phos"]
   }
 ];
