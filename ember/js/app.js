@@ -55,12 +55,12 @@
     const btn = document.createElement("button");
     btn.id        = "unvoted-toggle";
     btn.className = "filter-toggle";
-    btn.textContent = "☐  À voter";
+    btn.textContent = "☐  Cacher mes votes";
     btn.title     = "N'afficher que les termes sur lesquels je n'ai pas encore voté";
 
     btn.addEventListener("click", async () => {
       showUnvotedOnly = !showUnvotedOnly;
-      btn.textContent = showUnvotedOnly ? "☑  À voter" : "☐  À voter";
+      btn.textContent = showUnvotedOnly ? "☑  Cacher mes votes" : "☐  Cacher mes votes";
       btn.classList.toggle("active", showUnvotedOnly);
       await render();
     });
