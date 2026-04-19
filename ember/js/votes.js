@@ -69,11 +69,11 @@ function subscribeToVotes(onChangeCallback) {
 async function loadAllData() {
   const voterId = getVoterId();
 
-  const [votesRes, customRes, myVotesRes] = await Promise.all([
-    _sb.from("votes").select("term_id, proposal_text"),
-    _sb.from("custom_proposals").select("term_id, text").order("created_at"),
-    _sb.from("votes").select("term_id, proposal_text").eq("voter_id", voterId)
-  ]);
+const [votesRes, customRes, myVotesRes] = await Promise.all([
+  _sb.from("votes").select("term_id, proposal_text").range(0, 9999),
+  _sb.from("custom_proposals").select("term_id, text").order("created_at"),
+  _sb.from("votes").select("term_id, proposal_text").eq("voter_id", voterId)
+]);
 
   if (votesRes.error)   throw votesRes.error;
   if (customRes.error)  throw customRes.error;
