@@ -3,7 +3,7 @@
 // ============================================================
 
 const SUPABASE_URL = "https://dfdhwulxpxqeutkxchkf.supabase.co";
-const SUPABASE_KEY = "sb_publishable_2OXwiX_8yF51cdXtphmyrg_w22Re4JG";
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRmZGh3dWx4cHhxZXV0a3hjaGtmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzU5ODg0MjIsImV4cCI6MjA5MTU2NDQyMn0._hMu6WH86-EDEBz9Rr9Nn0OeGXVJSRibix44CnoqfPE";
 
 const _sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY, {
   realtime: { params: { eventsPerSecond: 10 } }
