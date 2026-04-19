@@ -3,6 +3,8 @@
 // ============================================================
 
 const SUPABASE_URL = "https://dfdhwulxpxqeutkxchkf.supabase.co";
+// ⚠️ Remplace cette valeur par ta clé anon LEGACY (onglet "Legacy anon, service_role API keys")
+// Format : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
 const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRmZGh3dWx4cHhxZXV0a3hjaGtmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzU5ODg0MjIsImV4cCI6MjA5MTU2NDQyMn0._hMu6WH86-EDEBz9Rr9Nn0OeGXVJSRibix44CnoqfPE";
 
 const _sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY, {
@@ -21,12 +23,6 @@ function getVoterId() {
 }
 
 // ── Realtime ─────────────────────────────────────────────────
-//
-//  Supabase Realtime nécessite que les tables aient
-//  la réplication activée :
-//  Dashboard → Database → Replication → cocher "votes" et "custom_proposals"
-//
-//  Un debounce de 300 ms évite les rafales de re-renders.
 
 function subscribeToVotes(onChangeCallback) {
   let debounceTimer = null;
@@ -64,23 +60,44 @@ function subscribeToVotes(onChangeCallback) {
   return channel;
 }
 
+// ── Chargement de TOUTES les lignes (contourne la limite 1000) ──
+
+async function fetchAllRows(query) {
+  const PAGE = 1000;
+  let from = 0;
+  let allRows = [];
+
+  while (true) {
+    const { data, error } = await query(from, from + PAGE - 1);
+    if (error) throw error;
+    allRows = allRows.concat(data || []);
+    if (!data || data.length < PAGE) break;
+    from += PAGE;
+  }
+
+  return allRows;
+}
+
 // ── Chargement groupé depuis Supabase ────────────────────────
 
 async function loadAllData() {
   const voterId = getVoterId();
 
-const [votesRes, customRes, myVotesRes] = await Promise.all([
-  _sb.from("votes").select("term_id, proposal_text").range(0, 9999),
-  _sb.from("custom_proposals").select("term_id, text").order("created_at"),
-  _sb.from("votes").select("term_id, proposal_text").eq("voter_id", voterId)
-]);
+  // Charge TOUS les votes sans limite (pagination automatique)
+  const allVotes = await fetchAllRows((from, to) =>
+    _sb.from("votes").select("term_id, proposal_text").range(from, to)
+  );
 
-  if (votesRes.error)   throw votesRes.error;
+  const [customRes, myVotesRes] = await Promise.all([
+    _sb.from("custom_proposals").select("term_id, text").order("created_at"),
+    _sb.from("votes").select("term_id, proposal_text").eq("voter_id", voterId)
+  ]);
+
   if (customRes.error)  throw customRes.error;
   if (myVotesRes.error) throw myVotesRes.error;
 
   const voteCounts = {};
-  (votesRes.data || []).forEach(row => {
+  allVotes.forEach(row => {
     if (!voteCounts[row.term_id]) voteCounts[row.term_id] = {};
     const key = row.proposal_text;
     voteCounts[row.term_id][key] = (voteCounts[row.term_id][key] || 0) + 1;
@@ -132,15 +149,21 @@ async function castVote(termId, proposalText) {
     .maybeSingle();
 
   if (existing?.proposal_text === proposalText) {
+    // Retirer le vote
     await _sb.from("votes")
       .delete()
       .eq("term_id", termId)
       .eq("voter_id", voterId);
+  } else if (existing) {
+    // Changer de vote → UPDATE explicite (plus fiable que upsert)
+    await _sb.from("votes")
+      .update({ proposal_text: proposalText })
+      .eq("term_id", termId)
+      .eq("voter_id", voterId);
   } else {
-    await _sb.from("votes").upsert(
-      { term_id: termId, proposal_text: proposalText, voter_id: voterId },
-      { onConflict: "term_id,voter_id" }
-    );
+    // Nouveau vote → INSERT
+    await _sb.from("votes")
+      .insert({ term_id: termId, proposal_text: proposalText, voter_id: voterId });
   }
 }
 
