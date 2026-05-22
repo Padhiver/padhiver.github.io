@@ -2,17 +2,30 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crucible Quick Reference</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="quickref.css">
     <style>
-        body { background-color: #0d0b0a; margin:0; display:flex; justify-content:center; align-items:center; min-height:100vh; overflow:hidden; }
-        .web-container { width: 825px; height: 580px; box-shadow: 0 10px 30px rgba(0,0,0,0.8); border: 1px solid #3f3128; background: #1c1a1a; position: relative; }
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #0d0b0a;
+            overflow: hidden;
+        }
+        /* L'application prend désormais tout l'écran sur le site web */
+        #app-viewport {
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
     </style>
 </head>
 <body>
 
-    <div class="web-container" id="app-viewport"></div>
+    <div id="app-viewport"></div>
 
     <script type="module">
         import { QuickRefCore } from './quickref-core.js';
@@ -20,7 +33,7 @@
         async function start() {
             const app = new QuickRefCore({
                 container: document.getElementById('app-viewport'),
-                basePath: './data' // Dossier local sur GitHub
+                basePath: './data'
             });
             await app.loadData();
             app.render();

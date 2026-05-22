@@ -1,6 +1,6 @@
 /**
  * Crucible Quick Reference — quickref-core.js
- * Cœur logique et graphique unique (Partagé à 100% entre Foundry et le Site Web)
+ * Cœur logique et graphique unique (Version 2.0 - Optimisée et Complète)
  */
 
 function _t(key, fallback = "") {
@@ -9,8 +9,8 @@ function _t(key, fallback = "") {
 
 export class QuickRefCore {
   constructor(options = {}) {
-    this.container = options.container; // Élément HTML où s'injecter
-    this.onLinkClickCallback = options.onLinkClick; // Pour l'API de Foundry si besoin
+    this.container = options.container; 
+    this.onLinkClickCallback = options.onLinkClick;
     this.basePath = options.basePath || "./data";
 
     this.categories = [];
@@ -18,9 +18,10 @@ export class QuickRefCore {
     this.activeRuleId = null;
     this.activeCatId = "all";
     this.searchQuery = "";
+    this._zoomLevel = 1;
+    this.isInitialRender = true;
   }
 
-  /** Chargement des données universel */
   async loadData() {
     const index = await fetch(`${this.basePath}/index.json`).then(r => r.json());
     this.categories = [];
@@ -46,7 +47,6 @@ export class QuickRefCore {
     }
   }
 
-  /** Filtrage des règles */
   getFilteredRules() {
     const q = this.searchQuery.toLowerCase().trim();
     let rules = [...this.ruleMap.values()];
@@ -64,54 +64,78 @@ export class QuickRefCore {
     return rules;
   }
 
-  /** Génération des moteurs de rendu HTML */
+  /** Rendu principal de l'application */
   render() {
     if (!this.container) return;
-    const rules = this.getFilteredRules();
-    const activeRule = this.activeRuleId ? this.ruleMap.get(this.activeRuleId) : null;
-    const activeCat = this.categories.find(c => c.id === this.activeCatId);
-    const catColor = activeCat?.color ?? "#e94560";
 
-    // Build sub-elements
-    const tabsHTML = this._buildTabsHTML();
-    const listHTML = this._buildListHTML(rules);
-    const detailHTML = this._buildDetailHTML(activeRule);
-
-    // Injection principale
-    this.container.innerHTML = `
-      <div id="crucible-quickref-app" style="--cqr-cat-color:${catColor}">
-        <div class="cqr-header">
-          <h1 class="cqr-header-title">
-            <i class="fa-solid fa-scroll" style="color:var(--cqr-gold);margin-right:6px"></i>
-            ${_t("QUICKREF.Title", "Crucible QuickRef")}
-          </h1>
-          <div class="cqr-search-wrap">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <input class="cqr-search" type="text" placeholder="${_t("QUICKREF.Search", "Rechercher...")}" value="${this.searchQuery}" autocomplete="off">
+    // Si c'est le tout premier affichage, on injecte la structure globale
+    if (this.isInitialRender) {
+      this.container.innerHTML = `
+        <div id="crucible-quickref-app">
+          <div class="cqr-header">
+            <h1 class="cqr-header-title">
+              <i class="fa-solid fa-scroll" style="color:var(--cqr-gold);margin-right:6px"></i>
+              ${_t("QUICKREF.Title", "Crucible QuickRef")}
+            </h1>
+            <div class="cqr-search-wrap">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input class="cqr-search" type="text" placeholder="${_t("QUICKREF.Search", "Rechercher...")}" value="${this.searchQuery}" autocomplete="off">
+            </div>
+            <div class="cqr-zoom-controls">
+              <button class="cqr-zoom-btn" data-zoom="dec" title="Réduire le zoom">−</button>
+              <span class="cqr-zoom-level">${this._zoomLevel}</span>
+              <button class="cqr-zoom-btn" data-zoom="inc" title="Augmenter le zoom">+</button>
+            </div>
           </div>
-        </div>
-        <div class="cqr-tabs">${tabsHTML}</div>
-        <div class="cqr-body">
-          <div class="cqr-list"><div class="cqr-list-inner">${listHTML}</div></div>
-          <div class="cqr-detail">${detailHTML}</div>
-        </div>
-      </div>`;
+          <div class="cqr-tabs"></div>
+          <div class="cqr-body">
+            <div class="cqr-list"><div class="cqr-list-inner"></div></div>
+            <div class="cqr-detail"></div>
+          </div>
+        </div>`;
+      
+      this.isInitialRender = false;
+      this._bindGlobalEvents(); // Événements lourds (Recherche, Onglets, Zoom) branchés UNE seule fois
+    }
 
-    this._bindEvents();
+    // Mise à jour de la couleur de catégorie sur l'application globale
+    const activeCat = this.categories.find(c => c.id === this.activeCatId);
+    const appEl = this.container.querySelector("#crucible-quickref-app");
+    if (appEl) appEl.style.setProperty("--cqr-cat-color", activeCat?.color ?? "#e94560");
+
+    // Rendu dynamique partiel (évite de réinitialiser la barre d'onglets et son scroll !)
+    this._renderTabs();
+    this._renderList();
+    this._renderDetail();
+    this._applyZoom();
   }
 
-  _buildTabsHTML() {
+  _renderTabs() {
+    const tabsContainer = this.container.querySelector(".cqr-tabs");
+    if (!tabsContainer) return;
+
     const allActive = this.activeCatId === "all" ? "active" : "";
     let html = `<button class="cqr-tab ${allActive}" data-cat-id="all"><i class="fa-solid fa-list"></i>${_t("QUICKREF.AllCategories", "Toutes les catégories")}</button>`;
+    
     html += this.categories.map(cat => `
       <button class="cqr-tab ${this.activeCatId === cat.id ? "active" : ""}" data-cat-id="${cat.id}" style="--cqr-cat-color:${cat.color}">
         <i class="${cat.icon}"></i>${cat.label}
       </button>`).join("");
-    return html;
+
+    tabsContainer.innerHTML = html;
+    this._updateTabFades();
   }
 
-  _buildListHTML(rules) {
-    if (!rules.length) return `<div class="cqr-no-results">${_t("QUICKREF.NoResults", "Aucun résultat")}</div>`;
+  _renderList() {
+    const innerList = this.container.querySelector(".cqr-list-inner");
+    if (!innerList) return;
+
+    const rules = this.getFilteredRules();
+    if (!rules.length) {
+      innerList.innerHTML = `<div class="cqr-no-results">${_t("QUICKREF.NoResults", "Aucun résultat")}</div>`;
+      return;
+    }
+
     const grouped = new Map();
     for (const r of rules) {
       if (!grouped.has(r._categoryId)) grouped.set(r._categoryId, []);
@@ -140,11 +164,21 @@ export class QuickRefCore {
           </div>`;
       }
     }
-    return html;
+
+    innerList.innerHTML = html;
+    this._bindSelectionEvents();
   }
 
-  _buildDetailHTML(rule) {
-    if (!rule) return `<div class="cqr-detail-empty"><i class="fa-solid fa-book-open"></i><span>Sélectionnez une règle</span></div>`;
+  _renderDetail() {
+    const detailEl = this.container.querySelector(".cqr-detail");
+    if (!detailEl) return;
+
+    const rule = this.activeRuleId ? this.ruleMap.get(this.activeRuleId) : null;
+    if (!rule) {
+      detailEl.innerHTML = `<div class="cqr-detail-empty"><i class="fa-solid fa-book-open"></i><span>Sélectionnez une règle</span></div>`;
+      return;
+    }
+
     const seeAlso = rule.links?.map(id => this.ruleMap.get(id)).filter(Boolean) ?? [];
     const bulletsHTML = (rule.bullets ?? []).map(b => this._buildBlockHTML(b)).join("");
 
@@ -156,7 +190,7 @@ export class QuickRefCore {
         </div>
       </div>` : "";
 
-    return `
+    detailEl.innerHTML = `
       <div class="cqr-detail-content">
         <div class="cqr-detail-hero" style="--cqr-cat-color:${rule._categoryColor}">
           <div class="cqr-detail-hero-icon"><i class="${rule.icon}"></i></div>
@@ -171,6 +205,9 @@ export class QuickRefCore {
         ${seeAlsoHTML}
         <div class="cqr-reference"><i class="fa-solid fa-book"></i>${_t("QUICKREF.Reference", "Référence")} : ${rule.reference ?? "—"}</div>
       </div>`;
+
+    detailEl.scrollTop = 0;
+    this._bindSelectionEvents();
   }
 
   _buildBlockHTML(block) {
@@ -198,76 +235,106 @@ export class QuickRefCore {
     });
   }
 
-/** Gestion unifiée des événements */
-  _bindEvents() {
-    // 1. Gestion de la recherche
+  /** Événements structuraux (Branchés une seule fois au premier init) */
+  _bindGlobalEvents() {
     const search = this.container.querySelector(".cqr-search");
     if (search) {
       search.addEventListener("input", e => {
         this.searchQuery = e.target.value;
-        const innerList = this.container.querySelector(".cqr-list-inner");
-        if (innerList) innerList.innerHTML = this._buildListHTML(this.getFilteredRules());
-        this._bindSelectionEvents();
+        this._renderList();
       });
     }
 
-    // 2. Gestion du scroll horizontal et des fondus (Fades) sur les onglets
+    // Clic sur les onglets via délégation d'événement (plus robuste)
+    this.container.querySelector(".cqr-tabs")?.addEventListener("click", e => {
+      const btn = e.target.closest(".cqr-tab");
+      if (!btn) return;
+      this.activeCatId = btn.dataset.catId;
+      this.activeRuleId = null;
+      this.render();
+    });
+
+    // Gestion de la molette sur les onglets
     const tabsContainer = this.container.querySelector(".cqr-tabs");
     if (tabsContainer) {
-      const updateFadeEdges = () => {
-        const scrollLeft = tabsContainer.scrollLeft;
-        const maxScroll = tabsContainer.scrollWidth - tabsContainer.clientWidth;
-        const showLeftFade = scrollLeft > 5;
-        const showRightFade = scrollLeft < maxScroll - 5;
-        tabsContainer.style.setProperty("--cqr-fade-left", showLeftFade ? "20%" : "0%");
-        tabsContainer.style.setProperty("--cqr-fade-right", showRightFade ? "20%" : "0%");
-      };
-
-      // Scroll horizontal avec la molette de la souris
       tabsContainer.addEventListener("wheel", (e) => {
         if (e.deltaY !== 0) {
           e.preventDefault();
           tabsContainer.scrollLeft += e.deltaY;
-          updateFadeEdges();
+          this._updateTabFades();
         }
       }, { passive: false });
-
-      tabsContainer.addEventListener("scroll", updateFadeEdges);
-      
-      // Petit hack temporel pour appliquer le fondu dès l'affichage initial
-      updateFadeEdges();
-      setTimeout(updateFadeEdges, 50);
+      tabsContainer.addEventListener("scroll", () => this._updateTabFades());
     }
 
-    // 3. Changement de catégorie au clic sur un onglet
-    this.container.querySelectorAll(".cqr-tab").forEach(btn => {
+    // Boutons de Zoom
+    this.container.querySelectorAll(".cqr-zoom-btn").forEach(btn => {
       btn.addEventListener("click", () => {
-        this.activeCatId = btn.dataset.catId;
-        this.activeRuleId = null;
-        this.render();
+        if (btn.dataset.zoom === "inc" && this._zoomLevel < 5) this._zoomLevel++;
+        else if (btn.dataset.zoom === "dec" && this._zoomLevel > 1) this._zoomLevel--;
+        this._applyZoom();
       });
     });
-
-    this._bindSelectionEvents();
   }
 
+  /** Événements de sélection (Réattachés quand les listes changent) */
   _bindSelectionEvents() {
     this.container.querySelectorAll(".cqr-rule-item").forEach(item => {
-      item.addEventListener("click", () => {
+      item.onclick = () => {
         this.activeRuleId = item.dataset.ruleId;
-        this.render();
-      });
+        this._renderList();
+        this._renderDetail();
+      };
     });
 
     this.container.querySelectorAll(".cqr-see-also-link, .rule-link").forEach(link => {
-      link.addEventListener("click", e => {
+      link.onclick = (e) => {
+        e.preventDefault();
         const id = link.dataset.ruleId;
         if (id) this.openRule(id);
-      });
+      };
     });
   }
 
-  /** Navigation API publique externe */
+  _updateTabFades() {
+    const tabsContainer = this.container.querySelector(".cqr-tabs");
+    if (!tabsContainer) return;
+    const scrollLeft = tabsContainer.scrollLeft;
+    const maxScroll = tabsContainer.scrollWidth - tabsContainer.clientWidth;
+    tabsContainer.style.setProperty("--cqr-fade-left", scrollLeft > 5 ? "20%" : "0%");
+    tabsContainer.style.setProperty("--cqr-fade-right", scrollLeft < maxScroll - 5 ? "20%" : "0%");
+  }
+
+  _applyZoom() {
+    const scale = 1 + (this._zoomLevel - 1) * 0.1;
+    
+    // Si on est dans Foundry, on redimensionne la fenêtre ApplicationV2 parente via son ID unique
+    if (typeof game !== "undefined") {
+      const appWindow = document.getElementById("crucible-quickref-window");
+      if (appWindow) {
+        appWindow.style.transform = scale === 1 ? "" : `scale(${scale})`;
+        appWindow.style.transformOrigin = "top left";
+      }
+    } else {
+      // Sur le site web, on applique le zoom directement sur l'application globale
+      const appEl = this.container.querySelector("#crucible-quickref-app");
+      if (appEl) {
+        appEl.style.transform = scale === 1 ? "" : `scale(${scale})`;
+        appEl.style.transformOrigin = "top left";
+        appEl.style.width = scale === 1 ? "100%" : `${(100 / scale).toFixed(4)}%`;
+        appEl.style.height = scale === 1 ? "100%" : `${(100 / scale).toFixed(4)}%`;
+      }
+    }
+
+    const levelEl = this.container.querySelector(".cqr-zoom-level");
+    if (levelEl) levelEl.textContent = this._zoomLevel;
+    
+    this.container.querySelectorAll(".cqr-zoom-btn").forEach(btn => {
+      if (btn.dataset.zoom === "dec") btn.disabled = this._zoomLevel <= 1;
+      if (btn.dataset.zoom === "inc") btn.disabled = this._zoomLevel >= 5;
+    });
+  }
+
   openRule(ruleId) {
     const rule = this.ruleMap.get(ruleId);
     if (!rule) return;
