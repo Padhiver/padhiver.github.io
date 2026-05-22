@@ -1045,3 +1045,8 @@ a.rule-link:hover {
   cursor: default;
   user-select: none;
 }
+
+/* Si le site est ouvert dans l'iframe de Foundry, on masque le titre redondant */
+body fieldset, html #crucible-quickref-app .cqr-header-title {
+  display: none !important;
+}
