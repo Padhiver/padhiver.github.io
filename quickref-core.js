@@ -198,19 +198,48 @@ export class QuickRefCore {
     });
   }
 
-  /** Gestion unifiée des événements */
+/** Gestion unifiée des événements */
   _bindEvents() {
+    // 1. Gestion de la recherche
     const search = this.container.querySelector(".cqr-search");
     if (search) {
       search.addEventListener("input", e => {
         this.searchQuery = e.target.value;
-        // Rerender partiel rapide pour la liste
         const innerList = this.container.querySelector(".cqr-list-inner");
         if (innerList) innerList.innerHTML = this._buildListHTML(this.getFilteredRules());
         this._bindSelectionEvents();
       });
     }
 
+    // 2. Gestion du scroll horizontal et des fondus (Fades) sur les onglets
+    const tabsContainer = this.container.querySelector(".cqr-tabs");
+    if (tabsContainer) {
+      const updateFadeEdges = () => {
+        const scrollLeft = tabsContainer.scrollLeft;
+        const maxScroll = tabsContainer.scrollWidth - tabsContainer.clientWidth;
+        const showLeftFade = scrollLeft > 5;
+        const showRightFade = scrollLeft < maxScroll - 5;
+        tabsContainer.style.setProperty("--cqr-fade-left", showLeftFade ? "20%" : "0%");
+        tabsContainer.style.setProperty("--cqr-fade-right", showRightFade ? "20%" : "0%");
+      };
+
+      // Scroll horizontal avec la molette de la souris
+      tabsContainer.addEventListener("wheel", (e) => {
+        if (e.deltaY !== 0) {
+          e.preventDefault();
+          tabsContainer.scrollLeft += e.deltaY;
+          updateFadeEdges();
+        }
+      }, { passive: false });
+
+      tabsContainer.addEventListener("scroll", updateFadeEdges);
+      
+      // Petit hack temporel pour appliquer le fondu dès l'affichage initial
+      updateFadeEdges();
+      setTimeout(updateFadeEdges, 50);
+    }
+
+    // 3. Changement de catégorie au clic sur un onglet
     this.container.querySelectorAll(".cqr-tab").forEach(btn => {
       btn.addEventListener("click", () => {
         this.activeCatId = btn.dataset.catId;
