@@ -1,0 +1,26 @@
+{
+  "id": "plaine-de-la-glorieuse",
+  "title": "La plaine de La Glorieuse",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 55,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "pages": [
+    {
+      "text": "Une zone-clef dans la défense sangbréquoise, située au sud du centre du pays.\n\nCette plaine se trouve juste au sud d'Oriflamme et joue tout naturellement un rôle essentiel dans la défense de la capitale. La glorieuse évoquée dans son nom est bien sûr la Déesse Gwéligore elle-même. En outre, la route qui la traverse, reliant Fort-Norvent et Francastel, étant souvent empruntée par des marchands comme des militaires, celle-ci fut nommée _charrière des cohortes_, une charrière étant une voie sur laquelle passent des attelages.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "La plaine de La Glorieuse"
+    }
+  ],
+  "related": [
+    "oriflamme",
+    "fort-norvent",
+    "francastel",
+    "saint-empire-de-sangbreque"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

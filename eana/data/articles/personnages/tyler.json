@@ -1,0 +1,35 @@
+{
+  "id": "tyler",
+  "title": "Tyler",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 91,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "pages": [
+    {
+      "text": "Un chevalier de Rosalia.\n\nIl est désigné pour accompagner Clive lors de sa mission à Fangebrune. Né dans une famille de chevaliers rosaliens, le loyal et flegmatique combattant a suivi les traces de son père et intégré les Gardiens flamboyants. Il est devenu le bras droit de Rodney Murdoch au sein de l'escadron.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Un chevalier de Rosalia.\n\nIl est désigné pour accompagner Clive lors de sa mission à Fangebrune. Né dans une famille de chevaliers rosaliens, le loyal et flegmatique combattant a suivi les traces de son père et intégré les Gardiens flamboyants. Il est ainsi devenu le bras droit de Rodney Murdoch au sein de l'escadron. Lors de l'incident du fort Phénix, il aide Elwin Rosfield et Joshua à s'enfuir, avant d'être englouti par les flammes de Phénix.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "L'attaque du fort Phénix"
+    }
+  ],
+  "related": [
+    "rodney-murdoch",
+    "wade",
+    "armee-rosalienne",
+    "fangebrune",
+    "elwin-rosfield",
+    "joshua-rosfield",
+    "attaque-du-fort-phenix",
+    "phenix"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

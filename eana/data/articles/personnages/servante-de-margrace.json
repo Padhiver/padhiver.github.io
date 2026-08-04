@@ -1,0 +1,49 @@
+{
+  "id": "servante-de-margrace",
+  "title": "La servante de Margrace",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 48,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "pages": [
+    {
+      "text": "Une servante qui accompagne l'homme appelé Margrace, dont certains disent qu'il serait un Émissaire de feu.\n\nPersonne ne sait d'où ils viennent ni où ils se rendent.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Une jeune femme aux allures de servante qui accompagne Joshua Rosfield dans ses voyages.\n\nElle est dévouée corps et âme à l'Émissaire de Phénix, dont elle assure la protection avec sa fine lame. Elle veille aussi sur sa santé fragile en lui préparant des remèdes et en l'encourageant à se ménager.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Compagne de voyage de Joshua"
+    },
+    {
+      "text": "Une membre des Ailes ardentes au service de Joshua Rosfield.\n\nAprès la tragédie du fort Phénix, les Ailes ardentes ont sauvé le jeune Joshua, qui était entre la vie et la mort. Jote l'a soigné jusqu'à ce qu'il se rétablisse, avant de devenir son bras droit et de l'accompagner dans le voyage qu'il entreprit afin de découvrir la vérité sur Ultima. « Jote » est un pseudonyme. Personne ne connaît son vrai nom.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "L'Ordre des Ailes ardentes"
+    },
+    {
+      "text": "Une membre des Ailes ardentes au service de Joshua Rosfield.\n\nEn plus de son sens du devoir envers la famille Rosfield, elle ressent une profonde affection pour Joshua. Depuis son installation au Repaire, elle continue de veiller sur son maître tout en découvrant un autre mode de vie.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Sentiments pour Joshua"
+    }
+  ],
+  "related": [
+    "emissaire-de-feu",
+    "entraves-de-cristal",
+    "benedikta-harman",
+    "fort-norvent",
+    "joshua-rosfield",
+    "fort-phenix",
+    "terres-du-nord",
+    "route-du-cristal",
+    "ordre-des-ailes-ardentes",
+    "tabor",
+    "cyril",
+    "repaire-de-clive"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

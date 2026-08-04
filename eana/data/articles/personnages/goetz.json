@@ -1,0 +1,58 @@
+{
+  "id": "goetz",
+  "title": "Goetz",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 25,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "pages": [
+    {
+      "text": "Un partisan de Cid.\n\nUn homme grand comme une montagne, d'une gentillesse incomparable.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Un partisan de Cid, et l'apprenti de Kharonne.\n\nC'est sa patronne qui gère son emploi du temps, si bien qu'il faut lui demander la permission avant d'emmener Goetz où que ce soit. En dehors de cela, c'est une personne très douce, qui reste tout de même capable de faire savoir aux autres si quelque chose lui déplaît.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Sa patronne et lui"
+    },
+    {
+      "text": "L'apprenti de Kharonne.\n\nSa patronne et lui sont tous deux des alliées de Clive, le successeur de Cid le Renégat. Goetz se passionne pour le travail de forgeron, qu'il étudie à son rythme et à sa façon, en observant de loin ce que fait Blackthorne.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Vocations"
+    },
+    {
+      "text": "L'apprenti de Kharonne.\n\nIl s'occupe de différentes courses pour sa patronne, étant muni d'une carte de marchand qui lui sert de pièce d'identité dans les territoires étrangers qu'il est parfois amené à visiter. Sur ordre de la vieille dame, il se rend au marché de Poklad pour accompagner Clive et Jill et les aider à s'infiltrer au Dominion du Cristal.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Carte de marchand"
+    },
+    {
+      "text": "L'apprenti de Kharonne.\n\nIl accompagne parfois Clive dans ses aventures et l'aide même à monter dans une caravane partie du marché de Poklad en direction du Dominion du Cristal. Une fois à destination, il fait naturellement les achats que Kharonne lui avait demandés, mais il se procure également les outils de forgeron dont il avait toujours rêvé. Il échappe de peu à la mort lorsqu'il se retrouve en plein cœur de la chute du Dominion, et il ne doit son salut qu'à la transformation de Joshua en Phénix.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Chute du Dominion"
+    },
+    {
+      "text": "Un apprenti de Kharonne.\n\nGoetz était victime de mauvais traitements dans le foyer qui l'a vu naître. Kharonne l'a acheté à sa famille dans le but de le soustraire à son triste sort, et elle en a fait son bras droit. Il la soutient et sait mieux que quiconque que derrière son langage très peu châtié, Kharonne cache en fait un cœur en or.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Goetz et Kharonne"
+    }
+  ],
+  "related": [
+    "cid",
+    "talgor",
+    "defile-de-nysa",
+    "repaire-de-cid",
+    "kharonne",
+    "blackthorne",
+    "otto",
+    "massacre-du-repaire",
+    "repaire-de-clive",
+    "marche-de-poklad",
+    "dominion-du-cristal"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

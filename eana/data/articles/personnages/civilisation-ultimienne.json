@@ -1,0 +1,26 @@
+{
+  "id": "civilisation-ultimienne",
+  "title": "La civilisation ultimienne",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 43,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "pages": [
+    {
+      "text": "Une civilisation portée par Ultima, la première forme de vie intelligente.\n\nElle a prospéré en créant la magie, mais a vu en contrepartie son monde se faire lentement dévorer par le Fléau noir. Devant cette implacable menace, les Ultimiens ont préféré s'enfuir. Ce n'est qu'après un interminable voyage qu'ils découvrirent l'existence de Valisthéa, et vinrent s'y établir. Les vestiges sous le fort Phénix, la Tour des songes et d'autres édifices ont été construits à leur époque et sont antérieurs aux Célestes, mais ils restent fonctionnels.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "La civilisation ultimienne"
+    }
+  ],
+  "related": [
+    "tour-des-songes-droemmeri",
+    "fort-phenix",
+    "remanences-celestes",
+    "ultima"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

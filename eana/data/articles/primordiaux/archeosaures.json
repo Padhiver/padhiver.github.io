@@ -1,0 +1,27 @@
+{
+  "id": "archeosaures",
+  "title": "Les archéosaures",
+  "category": "primordiaux",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 14,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "pages": [
+    {
+      "text": "Des dragons adaptés à la vie terrestre et recouverts d'épaisses écailles.\n\nLes archéosaures sont plus pacifiques qu'ils n'en ont l'air et n'attaquent que lorsqu'ils sont faméliques ou se sentent menacés. Le nord de Valisthéa en était autrefois abondamment peuplé, mais leur nombre ne fait que diminuer.",
+      "contextImage": "images/placeholders/emblem-primordiaux.svg",
+      "caption": "Les archéosaures"
+    }
+  ],
+  "related": [
+    "betes-fabuleuses",
+    "grande-sylve",
+    "ile-drustanus",
+    "hreidmarr",
+    "terres-du-nord"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

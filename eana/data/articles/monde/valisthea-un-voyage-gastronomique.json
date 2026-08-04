@@ -1,0 +1,26 @@
+{
+  "id": "valisthea-un-voyage-gastronomique",
+  "title": "Valisthéa, un voyage gastronomique",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 141,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "pages": [
+    {
+      "text": "Un livre comprenant plusieurs recettes de cuisine à base de créatures monstrueuses. Des noms archaïques sont utilisés pour désigner certains ingrédients.\n\nIl comporte une recette de ragoût de monstre dont la puanteur est extrême, mais dont la viande fond en bouche et diffuse au passage de riches parfums. Un plat dont on ne peut plus se passer lorsqu'on y a goûté. Les beignets de foie de wyverne, préparés avec du foie de draco et de la canne de saint, présentent quant à eux une certaine densité en bouche tout en étant rafraîchissants grâce aux herbes médicinales qui les aromatisent. Ces deux plats peu engageants ont cependant trouvé leur public parmi les habitants du Repaire.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "Valisthéa, un voyage gastronomique"
+    }
+  ],
+  "related": [
+    "monstres",
+    "yvan",
+    "molly",
+    "harpocrate-hyperboreoi-ii"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

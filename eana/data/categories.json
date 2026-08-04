@@ -1,0 +1,26 @@
+[
+  {
+    "id": "personnages",
+    "label": "Personnages",
+    "description": "Les figures qui façonnent le destin d'Eana.",
+    "icon": "personnages"
+  },
+  {
+    "id": "geographie",
+    "label": "Géographie et politique",
+    "description": "Nations, cités et territoires du monde.",
+    "icon": "geographie"
+  },
+  {
+    "id": "monde",
+    "label": "Monde et phénomènes",
+    "description": "Forces, mystères et événements qui traversent Eana.",
+    "icon": "monde"
+  },
+  {
+    "id": "primordiaux",
+    "label": "Primordiaux et monstres",
+    "description": "Créatures et puissances qui hantent ce monde.",
+    "icon": "primordiaux"
+  }
+]

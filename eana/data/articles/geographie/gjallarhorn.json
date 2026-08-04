@@ -1,0 +1,33 @@
+{
+  "id": "gjallarhorn",
+  "title": "Gjallarhorn",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 11,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "pages": [
+    {
+      "text": "Une forteresse située dans l'ouest du royaume de Valœd.\n\nSa construction remonte aux temps anciens mais en raison de sa proximité de la frontière avec le Dominion du Cristal, elle est actuellement sous le contrôle de l'armée valœdoise.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Une forteresse située dans l'ouest du royaume de Valœd.\n\nLe sous-sol est aménagé un peu comme celui du fort Phénix, et il existe une salle avec une fresque d'Ultima. Il y est dépeint sous sa forme d'origine.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Le sous-sol de la forteresse"
+    }
+  ],
+  "related": [
+    "ecrits-de-mors-lancien",
+    "joshua-rosfield",
+    "armee-royale-de-valoed",
+    "royaume-de-valoed",
+    "ancienne-fresque",
+    "fort-phenix"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

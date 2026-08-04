@@ -1,0 +1,75 @@
+{
+  "id": "dion-lesage",
+  "title": "Dion Lesage",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 15,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "pages": [
+    {
+      "text": "Un chevalier dragon de l'armée sangbréquoise et l'Émissaire de Bahamut.\n\nIl mène toujours ses hommes en première ligne lors des batailles les plus importantes.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Un chevalier dragon de l'armée sangbréquoise et l'Émissaire de Bahamut.\n\nLors de la Campagne de Belenus qui oppose Sangbrèque et Valœd, Dion se change en Bahamut pour affronter Odin. Il est d'un caractère loyal, en particulier envers son père, l'empereur Sylvestre, pour qui il a beaucoup de respect.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "La campagne de Belenus"
+    },
+    {
+      "text": "L'Émissaire de Bahamut et le fils aîné de l'empereur Sylvestre de Sangbrèque, pour qui il a beaucoup de respect.\n\nIl est très peiné par le changement de caractère de son père, qui est soudain devenu cruel et autoritaire, et multiplie les mauvaises décisions. Après le sacre d'Octavien comme nouvel empereur, Dion finit par comprendre que sa belle-mère Annabella manipule Sylvestre.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Sacre d'Octavien"
+    },
+    {
+      "text": "L'Émissaire de Bahamut et le fils aîné de l'empereur Sylvestre de Sangbrèque.\n\nIl fomente une rébellion contre sa belle-mère Annabella et son demi-frère Octavien, les tenant pour responsables du changement de caractère de son père et des déboires de Sangbrèque. Mais en interpellant Annabella et Octavien, il tue involontairement Sylvestre avant de perdre le contrôle de son Primordial. Transformé en Bahamut, il dévaste Port-Gémeau, la capitale du Dominion du Cristal.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Insurrection de Dion"
+    },
+    {
+      "text": "L'Émissaire de Bahamut.\n\nAprès avoir perdu le contrôle de son Primordial et dévasté Port-Gémeau, il est recueilli par Clive qui le conduit au Repaire afin que Tarja le soigne. Remis sur pied mais encore blessé, Dion retourne au Dominion du Cristal pour constater la tragédie qu'il a causée. Il perd connaissance et une petite vendeuse de médicaments, Kielle, lui sauve la vie.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Rencontre avec Kielle"
+    },
+    {
+      "text": "L'Émissaire de Bahamut.\n\nIl s'en veut terriblement d'avoir tué son père, perdu le contrôle de son Primordial et dévasté Port-Gémeau. Pour se racheter, il jure d'aider Joshua Rosfield dans son combat contre Ultima. Sa première action dans ce sens est d'aider Byron Rosfield et Eugen Havel à défendre Randělá contre les éthériques valœdois en y affectant les chevaliers dragon, qui lui sont fidèles.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Rôle à Randělá"
+    },
+    {
+      "text": "L'Émissaire de Bahamut.\n\nIl a juré d'aider les frères Rosfield dans leur combat contre Ultima, qui a contribué à la ruine de Sangbrèque. Dion embarque donc sur l'Entreprise et se rend à Steinnhyrr pour prêter main-forte à Clive et Joshua.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Rencontre avec Clive"
+    },
+    {
+      "text": "L'Émissaire de Bahamut.\n\nAvant d'intégrer l'Ordre des Saint Dragons, Dion a reçu une solide éducation afin de pouvoir épauler son père dans son rôle d'empereur. À sa grande surprise, il retrouve son ancien précepteur Harpocrate au Repaire. Cette rencontre renforce encore sa volonté de vaincre Ultima.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Retrouvailles avec Harpocrate"
+    }
+  ],
+  "related": [
+    "emissaires",
+    "bahamut",
+    "chevaliers-dragon",
+    "saint-empire-de-sangbreque",
+    "sylvestre-lesage",
+    "bras-droit-de-dion-lesage",
+    "talus-de-belenus",
+    "annabella-rosfield",
+    "revolte-des-saints-dragons",
+    "bourgeon-cristallin",
+    "petite-marchande-de-remedes",
+    "dominion-du-cristal",
+    "stratege-dalmeque",
+    "ordre-des-saints-dragons",
+    "randela",
+    "steinnhyrr",
+    "harpocrate-hyperboreoi-ii",
+    "herbe-aux-dragons"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rowan",
+  "title": "Rowan",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 135,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "pages": [
+    {
+      "text": "Un marchand ambulant qui travaille principalement près du hameau de l'Auberge de Martha.\n\nIl a été secouru par « Vaillante », le chocobo justicier qui n'était autre qu'Ambroisie. En remerciement, il a offert à Clive un harnachement et une œillère pour son intelligente monture.\n\nPlus tard, alors que Clive cherchait à traverser la mer avec son chocobo, Rowan lui a fourni un légume de Mimett, connu pour calmer les bêtes. Clive espérait ainsi arriver à faire la traversée sans encombre.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "Rowan"
+    }
+  ],
+  "related": [
+    "auberge-de-martha",
+    "ambroisie",
+    "chocobos",
+    "bandits"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

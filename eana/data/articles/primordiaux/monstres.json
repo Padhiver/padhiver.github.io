@@ -1,0 +1,26 @@
+{
+  "id": "monstres",
+  "title": "Les monstres",
+  "category": "primordiaux",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 38,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "pages": [
+    {
+      "text": "Des êtres vivants qui ont évolué de diverses façons au fil d'une très longue histoire en fonction de leur exposition à l'éther.\n\nCertains spécimens en sont ainsi arrivés à manipuler la magie, mais tout comme les êtres humains, ils sont susceptibles de se changer en éthériques s'ils baignent trop longtemps dans une poche d'éther dense. Quoi qu'il en soit, les États valisthéens ont réalisé que les monstres pouvaient leur être utiles sur les champs de bataille et ont pris le parti d'en domestiquer.",
+      "contextImage": "images/placeholders/emblem-primordiaux.svg",
+      "caption": "Les monstres"
+    }
+  ],
+  "related": [
+    "ether",
+    "betes-fabuleuses",
+    "etheriques",
+    "cibles-delite"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "ambroisie",
+  "title": "Ambroisie",
+  "category": "primordiaux",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 1,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "pages": [
+    {
+      "text": "La monture de Clive.\n\nCe chocobo est né dans les écuries du château de Rosalia, et a été élevé avec amour par Clive. Ambroisie est très loyale et dévouée envers son jeune maître, et elle n'hésite pas à montrer sa méfiance et son mécontentement lorsqu'elle se trouve face à un individu qu'elle connaît mal.",
+      "contextImage": "images/placeholders/emblem-primordiaux.svg",
+      "caption": "Généralités"
+    },
+    {
+      "text": "La monture de Clive.\n\nAmbroisie a disparu lors de l'assaut lancé sur le fort Phénix.",
+      "contextImage": "images/placeholders/emblem-primordiaux.svg",
+      "caption": "L'attaque du fort Phénix"
+    },
+    {
+      "text": "La monture de Clive.\n\nDisparue lors de l'assaut lancé sur le fort Phénix, Ambroisie était en fait retournée vivre dans la nature, prenant la tête d'un troupeau de chocobos à Rosalia. Elle était appréciée des marchands et des voyageurs, car elle les protégeait des monstres et des bandits en chemin, ce qui lui valut même le surnom de « Vaillante ». Elle rejoint Clive dans ses aventures dès que leurs routes se croisent de nouveau.",
+      "contextImage": "images/placeholders/emblem-primordiaux.svg",
+      "caption": "Vaillante"
+    }
+  ],
+  "related": [
+    "clive",
+    "chocobos",
+    "chateau-de-rosalith",
+    "rosalith",
+    "attaque-du-fort-phenix",
+    "archiduche-de-rosalia",
+    "rowan",
+    "repaire-de-clive"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

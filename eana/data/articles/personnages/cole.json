@@ -1,0 +1,26 @@
+{
+  "id": "cole",
+  "title": "Cole",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 11,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "pages": [
+    {
+      "text": "Le capitaine adjoint des Lames de pierre.\n\nC'est un Pourvoyeur qui se battait autrefois dans les rangs de l'armée dalmèque. Il participe aux activités de protection des Pourvoyeurs depuis que Cid l'a secouru et accueilli dans l'ancien Repaire. Il effectue de nombreuses missions aux côtés de sa capitaine, Dorys.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Cole"
+    }
+  ],
+  "related": [
+    "protection-des-pourvoyeurs",
+    "lames-de-pierre",
+    "dorys",
+    "repaire-de-clive"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

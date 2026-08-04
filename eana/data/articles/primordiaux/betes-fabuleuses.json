@@ -1,0 +1,26 @@
+{
+  "id": "betes-fabuleuses",
+  "title": "Les bêtes fabuleuses",
+  "category": "primordiaux",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 16,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "pages": [
+    {
+      "text": "Un terme qui désigne un certain type de monstres de taille colossale.\n\nL'apparition des bêtes fabuleuses remonte à la naissance même de ce monde, mais nombre d'entre elles se sont toujours tenues à distance des êtres humains. Ce n'est que récemment qu'elles ont commencé à s'approcher des villes et des hameaux, du fait de la croissance du Fléau noir. Elles ont beau être de constitution solide, elles ne sont pas immunisées contre les effets de l'éther et peuvent donc se transformer en éthériques.",
+      "contextImage": "images/placeholders/emblem-primordiaux.svg",
+      "caption": "Les bêtes fabuleuses"
+    }
+  ],
+  "related": [
+    "monstres",
+    "terres-mortes",
+    "resistance-a-lether",
+    "behemoths"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "peuple-de-leau",
+  "title": "Le peuple de l'Eau",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 82,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "pages": [
+    {
+      "text": "Le peuple dans lequel naît traditionnellement l'Émissaire du Primordial Léviathan.\n\nIls sont reconnaissables à leur peau cuivrée, leurs yeux bleus et leurs cheveux blancs. Ce peuple n'ayant plus fait parler de lui pendant longtemps, on le croyait éteint.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Le peuple dans lequel naît traditionnellement l'Émissaire du Primordial Léviathan.\n\nSes membres habitaient autrefois dans le sud du Gris-Levant, mais après la disparition du Cristal-mère de Cornedrac, ils perdirent leur terre natale et furent contraints à l'exil. On crut à ce moment qu'ils s'étaient éteints. Les derniers d'entre eux vivaient en réalité cachés dans la région de Mysidia, où ils mènent une existence indépendante dans un petit hameau réaménagé. Cette isolation leur a permis de préserver leurs coutumes dont la discrimination est notamment absente.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "À Mysidia"
+    },
+    {
+      "text": "Un peuple qui vivait autrefois dans le sud du Gris-Levant.\n\nAprès la disparition du Cristal-mère de Cornedrac, ils perdirent leur terre natale et commencèrent une existence nomade. Ils voulurent s'établir dans l'est du Vert-Ponant, mais furent taxés d'hérétiques et persécutés par l'église de Sainte Gwéligore. Nombre d'entre eux moururent à ce moment. Ils finirent par s'installer à Mysidia pour y mener une vie discrète. Après leur arrivée dans la région, ils découvrirent une ancienne technique céleste pour créer un Cristal-mère, et décidèrent de sacrifier Waleas pour l'utiliser.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "Une histoire difficile"
+    },
+    {
+      "text": "Un peuple qui vit à Mysidia.\n\nLa tribu de l'Eau a autrefois tenté de créer un Cristal-mère artificiel, sans toutefois y parvenir. Après cet échec, il a élu de vivre caché, en dissimulant l'ensemble de la région de Mysidia grâce à un sort d'illusion de grande échelle, le Mirage. Par la suite, ses membres veillaient depuis sur Waleas et la Déferlante de Nepto. Mais Šuhra, leur chef, sut faire preuve d'initiative en faisant appel à Clive et ses compagnons pour sauver le bébé. L'Enfant désormais libéré, la tribu entame un nouveau chapitre de son histoire et se prépare à s'ouvrir de nouveau au monde extérieur.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "Un nouveau chapitre de leur histoire"
+    }
+  ],
+  "related": [
+    "leviathan",
+    "suhra",
+    "emissaire-de-leau",
+    "emissaires",
+    "cornedrac",
+    "gris-levant",
+    "village-de-la-tribu-de-leau",
+    "mysidia",
+    "pantheisme-de-sainte-gweligore",
+    "chasse-aux-heretiques",
+    "cristal-mere-synthetique",
+    "civilisation-celeste",
+    "mirage",
+    "deferlante-de-nepto"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

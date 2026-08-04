@@ -1,0 +1,40 @@
+{
+  "id": "sylvestre-lesage",
+  "title": "Sylvestre Lesage",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 86,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "pages": [
+    {
+      "text": "Le souverain du Saint-Empire de Sangbrèque.\n\nSylvestre est le souverain de Sangbrèque et règne en tant que saint empereur. Il s'est élevé à ce poste notamment grâce au soutien et à la protection de son fils Dion, l'Émissaire de Bahamut, dont les pouvoirs surpassent l'entendement.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Généralités"
+    },
+    {
+      "text": "L'ancien empereur de Sangbrèque, à présent retiré.\n\nQuelques années après l'attaque du fort Phénix, il épouse Annabella Rosfield et fait d'elle l'impératrice de Sangbrèque. Le couple engendre un enfant, le prince Octavien. Par la suite, Sylvestre investit Annabella et Octavien de plus en plus de pouvoirs, jusqu'à céder le titre d'empereur à son fils pour se retirer. Il se voit désormais comme un représentant direct de la déesse Gwéligore, un dieu vivant ayant pour rôle sacré de guider l'empereur actuel.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Sacre d'Octavien"
+    },
+    {
+      "text": "L'ancien empereur de Sangbrèque, à présent retiré.\n\nAlors qu'il n'est encore qu'un simple noble, il entre en contact avec Annabella Rosfield lors d'une cérémonie et complote avec elle dans le but de faire main basse sur l'archiduché de Rosalia et de l'annexer. Une fois qu'il accède au trône, il l'épouse et engendre avec elle un garçon, sans jamais se douter qu'elle l'a manipulé pour obtenir le pouvoir. Sylvestre décède au Dominion, transpercé par la lance de son fils Dion en protégeant son cadet Octavien.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Épilogue"
+    }
+  ],
+  "related": [
+    "dion-lesage",
+    "conseil-des-patriarches",
+    "astromancie",
+    "saint-empire-de-sangbreque",
+    "annabella-rosfield",
+    "octavien-lesage",
+    "sacre-doctavien",
+    "revolte-des-saints-dragons"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

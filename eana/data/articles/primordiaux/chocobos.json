@@ -1,0 +1,26 @@
+{
+  "id": "chocobos",
+  "title": "Les chocobos",
+  "category": "primordiaux",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 19,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "pages": [
+    {
+      "text": "Des volatiles apprivoisés par l'homme il y a fort longtemps, et qui coexistent aujourd'hui avec lui.\n\nLes légumes de Gysahl sont leur mets préféré. Bêtes de somme comme bêtes de trait, ces oiseaux remplissent différentes fonctions auprès des Valisthéens. Les chocobos peuvent ainsi servir de montures, mais ils tractent également des chariots touristiques, marchands ou agricoles. Ils jouent aussi un rôle en cuisine, leur viande pouvant être consommée. Ce sont des créatures intelligentes, mais elles choisissent à qui elles s'attachent. À l'état sauvage, elles peuvent d'ailleurs se montrer agressives.",
+      "contextImage": "images/placeholders/emblem-primordiaux.svg",
+      "caption": "Les chocobos"
+    }
+  ],
+  "related": [
+    "monstres",
+    "ambroisie",
+    "legumes-de-gysahl",
+    "resistance-a-lether"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

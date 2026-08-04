@@ -1,0 +1,26 @@
+{
+  "id": "typhos",
+  "title": "Typhos",
+  "category": "primordiaux",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 60,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "pages": [
+    {
+      "text": "Un géant n'ayant plus que la moitié supérieure de son corps apparu d'une fissure spatio-temporelle au moment de la destruction du noyau du Cristal-mère de Chefdrac.\n\nHabité par l'esprit d'Ultima, il aspire Clive dans un monde astral et l'attaque sans relâche afin de tester le potentiel du héros.",
+      "contextImage": "images/placeholders/emblem-primordiaux.svg",
+      "caption": "Typhos"
+    }
+  ],
+  "related": [
+    "ultima",
+    "mythos",
+    "receptacle",
+    "chefdrac"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

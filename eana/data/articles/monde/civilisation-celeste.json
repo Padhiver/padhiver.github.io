@@ -1,0 +1,48 @@
+{
+  "id": "civilisation-celeste",
+  "title": "La civilisation céleste",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 32,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "pages": [
+    {
+      "text": "Une civilisation avancée qui était florissante dans un passé lointain.\n\nSes présumés vestiges se trouvent éparpillés aux quatre coins de Valisthéa. Ces structures ont été construites avec des matériaux d'une dureté inégalée qu'il est impossible de reproduire avec les techniques actuelles. Il arrive donc qu'elles servent de base pour la construction d'habitations au vu de leurs particularités.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Une civilisation avancée qui était florissante dans un passé lointain.\n\nSes présumés vestiges se trouvent éparpillés aux quatre coins de Valisthéa et seraient des restes d'aéronefs qui volaient autrefois dans le ciel. Ces structures ont été construites avec des matériaux d'une dureté inégalée qu'il est impossible de reproduire avec les techniques actuelles. Elles sont cependant victimes du temps et leur vieillissement pourrait être la cause d'effondrements. C'est pour cette raison que des travaux de rénovation sont régulièrement effectués dans les habitations pour lesquelles elles servent de base.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "Le vieillissement des ruines"
+    },
+    {
+      "text": "Une civilisation avancée qui était florissante il y a plusieurs millénaires.\n\nLes savants l'appellent la « civilisation magitech » car son peuple avait développé une technologie utilisant la magie comme force motrice. Grâce à leur ingénierie, ils étaient même parvenus à construire des aéronefs et des cités flottant dans le ciel, faisant fortement penser aux vestiges du peuple d'Ultima. Les humains désirant toujours plus de pouvoir, une guerre dévastatrice aboutissant sur la « tragédie de Dzemekys » a éclaté et causé la perte de cette civilisation.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "Révélation"
+    },
+    {
+      "text": "Une civilisation avancée qui s'est épanouie grâce à l'ingéniosité humaine il y a plusieurs millénaires.\n\nLes humains de l'époque ont cherché à reproduire la technologie d'Ultima et ont ainsi donné naissance à leur propre technologie dite « magitech ». Elle leur a non seulement permis de construire des cités volantes, mais aussi des imitations de Cristaux-mères et de Primordiaux. C'est toutefois ce désir de se rapprocher du divin qui a fini par entraîner leur déclin.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "Défi au créateur"
+    }
+  ],
+  "related": [
+    "repaire-de-cid",
+    "la-nef-dechue",
+    "valisthea",
+    "aeronefs",
+    "repaire-de-clive",
+    "technologie-magitech",
+    "tragedie-de-dzemekys",
+    "civilisation-ultimienne",
+    "cristal-mere-synthetique",
+    "bio-primordial",
+    "armes-magitech"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

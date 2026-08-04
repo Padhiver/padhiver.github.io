@@ -1,0 +1,33 @@
+{
+  "id": "tragedie-de-dzemekys",
+  "title": "La tragédie de Dzemekys",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 57,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "pages": [
+    {
+      "text": "Un événement qui est devenu une véritable légende contée à travers tout Valisthéa.\n\nEn des temps reculés, certaines personnes toujours plus avides et cupides auraient défié les dieux en combat. Confrontés à la colère divine, les humains auraient subi de lourdes pertes. L'événement aurait eu lieu près de Dzemekys, dans la république de Dalméquie, dont les alentours sont riches en mythes relatifs à cette histoire.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Un événement historique de l'époque céleste.\n\nÀ l'époque des Célestes, des personnes disposant de la technologie magitech s'introduisirent dans le territoire divin de Dzemekys, en quête de puissance. Ultima détruisit alors toute la zone, y compris son Cristal-mère, ce qui ne laissa plus qu'un gigantesque cratère et une légende, qui devint celle de la tragédie de Dzemekys.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "Révélation"
+    }
+  ],
+  "related": [
+    "cratere-de-dzemekys",
+    "dzemekys",
+    "combe-de-lastny",
+    "marche-de-poklad",
+    "technologie-magitech",
+    "guerre-de-la-magie"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

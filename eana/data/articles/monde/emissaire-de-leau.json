@@ -1,0 +1,59 @@
+{
+  "id": "emissaire-de-leau",
+  "title": "L'Émissaire de l'Eau",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 16,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "pages": [
+    {
+      "text": "L'Émissaire de Léviathan.\n\nLa chef du village de la tribu de l'Eau, Šuhra, tente de le sauver. Il s'est transformé en Léviathan il y a quatre-vingts ans et a généré une immense déferlante sur les côtes septentrionales. Cette vague, appelée Déferlante de Nepto, a été figée dans le temps et Waleas dort encore aujourd'hui en son sein.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "Un Émissaire endormi"
+    },
+    {
+      "text": "L'Émissaire de Léviathan.\n\nFils de l'ancien chef de la tribu de l'Eau, il est né au village il y a environ quatre-vingts ans. Peu après sa naissance, ses pouvoirs d'Émissaire se sont révélés. Alors que les dirigeants du village tentaient d'utiliser son pouvoir au cours d'un rite, il s'est changé en Léviathan et s'est déchaîné. Il a commencé à lancer une immense déferlante, mais celle-ci a pu être arrêtée grâce à un sort. Le temps s'étant arrêté autour de lui et de la vague, il est resté endormi à l'état de bébé.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "Généralités"
+    },
+    {
+      "text": "L'Émissaire de Léviathan.\n\nLes dirigeants de son village ont autrefois tenté d'extraire son éther afin de créer le noyau d'un Cristal-mère artificiel. Mais cette intervention a effrayé l'enfant, qui s'est alors changé en Léviathan, menaçant de lancer une immense vague sur les environs. Le temps a été arrêté autour de lui et il dort depuis au cœur de la Déferlante de Nepto, endormi à l'état de bébé.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "Révélation"
+    },
+    {
+      "text": "L'Émissaire de Léviathan.\n\nIl avait été figé par le sort Gel il y a quatre-vingts ans, mais a été libéré par Jill et Šuhra. Juste après cela, Ultima a fait son apparition pour l'influencer et il s'est déchaîné de nouveau, déclenchant une immense tempête mettant en péril la région entière.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "La colère de Léviathan"
+    },
+    {
+      "text": "L'Émissaire de Léviathan.\n\nAlors qu'il avait enfin été libéré du sort d'arrêt du temps, Ultima est intervenu pour déclencher sa transformation, le considérant comme un être impur. Ultima a chargé Clive de le débarrasser de l'immense dragon marin, et Clive a fini par le vaincre après un combat acharné, sauvant ainsi le petit bébé.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "La libération de Waleas"
+    },
+    {
+      "text": "L'Émissaire de Léviathan.\n\nIl dormait depuis des décennies au sein de la Déferlante de Nepto, quand Šuhra, aidée du groupe de Clive a enfin réussi à le libérer du sort Gel. De retour dans son village après quatre-vingts ans, il a été mis à l'honneur et célébré comme nouveau membre de la communauté au cours de la cérémonie du voyage de l'Eau en présence de tous les habitants.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "En tant que membre de la tribu de l'Eau"
+    }
+  ],
+  "related": [
+    "emissaires",
+    "leviathan",
+    "suhra",
+    "deferlante-de-nepto",
+    "mysidia",
+    "peuple-de-leau",
+    "gel-le-sort-darret-du-temps",
+    "ether",
+    "noyau-des-cristaux-meres",
+    "ultima",
+    "ceremonie-du-voyage-de-leau",
+    "village-de-la-tribu-de-leau"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

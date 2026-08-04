@@ -1,0 +1,26 @@
+{
+  "id": "resistance-a-lether",
+  "title": "La résistance à l'éther",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 49,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "pages": [
+    {
+      "text": "L'immunité naturelle de certains êtres face aux dégâts causés par l'éther.\n\nElle est plus élevée chez les Émissaires et les Pourvoyeurs, et c'est elle qui permet aux êtres vivants de ne pas se changer immédiatement en éthériques lorsqu'ils se trouvent dans un lieu où la concentration de l'éther est dense. De manière plus anecdotique, les chocobos sont également réputés pour leur résistance à l'éther.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "La résistance à l'éther"
+    }
+  ],
+  "related": [
+    "ether",
+    "ether-stagnant",
+    "etheriques",
+    "emissaires"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

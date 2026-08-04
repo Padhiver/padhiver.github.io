@@ -1,0 +1,31 @@
+{
+  "id": "cyril",
+  "title": "Cyril",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 12,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "pages": [
+    {
+      "text": "Un membre de l'Ordre des Ailes ardentes basé à Tábor, en Dalméquie.\n\nIl conduit des activités d'espionnage et de rassemblement d'informations au sujet d'Ultima. C'est par obéissance à Joshua, son suzerain, qu'il accepte d'aider Clive.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Un membre des Ailes ardentes basé à Tábor, en Dalméquie.\n\nComme tous les membres de son ordre, il a juré de consacrer sa vie à sa mission et à son suzerain, l'Émissaire de Phénix, pour qui il serait prêt à mourir. Clive le pousse à voir ses camarades comme des êtres humains à part entière et à réfléchir aux pratiques des Ailes ardentes, ce pour quoi il lui est reconnaissant.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "L'Ordre des Ailes ardentes"
+    }
+  ],
+  "related": [
+    "tabor",
+    "ordre-des-ailes-ardentes",
+    "partisans-du-repaire",
+    "joshua-rosfield"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

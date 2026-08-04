@@ -1,0 +1,33 @@
+{
+  "id": "eistla",
+  "title": "Eistla",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 7,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "pages": [
+    {
+      "text": "Un hameau dans une zone minière, située en plein cœur du royaume de Valœd.\n\nLes mines en font partie intégrante, si bien que le hameau est peuplé des mineurs et de leurs familles.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Un hameau dans une zone minière, située en plein cœur du royaume de Valœd.\n\nLes mines en font partie intégrante, si bien que le hameau était autrefois peuplé des mineurs et de leurs familles. La plupart des habitants ont cependant déserté les lieux quand le Ciel de l'Arkhè s'est étendu au-dessus de leurs têtes. Le hameau a désormais tout d'une ville fantôme.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Ciel de l'Arkhè"
+    }
+  ],
+  "related": [
+    "gris-levant",
+    "cote-de-jais-svartstroendin",
+    "tour-des-songes-droemmeri",
+    "royaume-de-valoed",
+    "ciel-de-larkhe",
+    "edda"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

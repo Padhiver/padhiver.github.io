@@ -1,0 +1,26 @@
+{
+  "id": "molly",
+  "title": "Molly",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 71,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "pages": [
+    {
+      "text": "Une cuisinière qui officie au Repaire.\n\nC'est elle qui a repris le flambeau de Kenneth, l'ancien cuisinier du Repaire de Cid et qui décide du menu quotidien en servant de bons repas aux habitants. Elle est particulièrement douée pour la confection de délicieux gâteaux. Yvan, son assistant et esthète des saveurs, la met un jour au défi de recréer une recette aussi mystérieuse que monstrueuse.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Molly"
+    }
+  ],
+  "related": [
+    "valisthea-un-voyage-gastronomique",
+    "yvan",
+    "kenneth",
+    "repaire-de-clive"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

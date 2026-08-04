@@ -1,0 +1,26 @@
+{
+  "id": "sigma",
+  "title": "Sigma",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 136,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "pages": [
+    {
+      "text": "Une arme magitech imposante conçue dans la Tour des Sages et dont le corps sombre luit d'une inquiétante lumière rouge.\n\nElle se bat en utilisant arts martiaux et magie, une combinaison dévastatrice que la voix de la tour lui a ordonné de mettre à profit contre Clive et ses compagnons. Aucun renseignement à son sujet n'a pu être trouvé sur place, mais des fibres biologiques semblent être entrées dans sa fabrication.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "Généralités"
+    }
+  ],
+  "related": [
+    "armes-magitech",
+    "fibres-biologiques",
+    "voix-de-la-tour-des-sages",
+    "omicron"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

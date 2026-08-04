@@ -1,0 +1,32 @@
+{
+  "id": "corps-despionnage-valoedois",
+  "title": "Le corps d'espionnage valœdois",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 73,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "pages": [
+    {
+      "text": "Un groupe de l'armée valœdoise spécialisé dans les missions d'infiltration, sous contrôle direct du roi lui-même.\n\nBenedikta Harman dirige cette troupe qui opère dans différents pays étrangers afin de mener à bien des objectifs allant du simple espionnage à l'assassinat.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Un groupe de l'armée valœdoise spécialisé dans les missions d'infiltration, sous contrôle direct du roi lui-même.\n\nIl est parvenu à infiltrer Sangbrèque et à prendre Fort-Norvent malgré son effectif modeste, mais a été ensuite défait par Clive et Cid.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Chute de Fort-Norvent"
+    }
+  ],
+  "related": [
+    "benedikta-harman",
+    "officier-du-corps-despionnage-valoedois",
+    "armee-royale-de-valoed",
+    "royaume-de-valoed",
+    "fort-norvent"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

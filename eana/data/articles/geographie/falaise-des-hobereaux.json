@@ -1,0 +1,26 @@
+{
+  "id": "falaise-des-hobereaux",
+  "title": "La falaise des hobereaux",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 41,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "pages": [
+    {
+      "text": "Une falaise qui s'étend au sud de la province de Rosalia, survolée par des rapaces.\n\nCe littoral comporte de nombreuses roches aux formes inhabituelles et des falaises abruptes. Il semble avoir été formé il y a très longtemps par de violents mouvements de plaques tectoniques. Au-delà du ruisseau se trouve le hameau d'Ambrune.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "La falaise des hobereaux"
+    }
+  ],
+  "related": [
+    "viaduc-de-bewit",
+    "ambrune",
+    "rosalith",
+    "archiduche-de-rosalia"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

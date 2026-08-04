@@ -1,0 +1,26 @@
+{
+  "id": "executeurs",
+  "title": "Les Exécuteurs",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 62,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "pages": [
+    {
+      "text": "Une coterie qui s'est arrogé le droit de sceller ou détruire tout livre qu'ils jugent trop dangereux pour l'humanité.\n\nIls s'imaginent ainsi protéger le peuple en effaçant toute version de l'Histoire déviant de celle qui domine. Ils étaient dernièrement à Garnakur dans le Gris-Levant afin de récupérer un exemplaire du _Tiers Regard_, un ouvrage révélant la vérité sur les Pourvoyeurs.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Les Exécuteurs"
+    }
+  ],
+  "related": [
+    "tiers-regard",
+    "viviane",
+    "hameau-de-garnakur",
+    "deluge-de-sang"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "talus-de-belenus",
+  "title": "Le talus de Belenus",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 106,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "pages": [
+    {
+      "text": "Une région vallonnée dans la partie est du Saint-Empire de Sangbrèque.\n\nEn l'an 873 du calendrier ponantin, le royaume de Valœd s'est introduit en territoire sangbréquois, et c'est au talus de Belenus que les deux armées se sont affrontées.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Le talus de Belenus"
+    }
+  ],
+  "related": [
+    "conflit-frontalier-de-873",
+    "bahamut",
+    "odin",
+    "saint-empire-de-sangbreque"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

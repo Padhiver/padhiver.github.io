@@ -1,0 +1,42 @@
+{
+  "id": "cristaux-meres",
+  "title": "Les Cristaux-mères",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 102,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "pages": [
+    {
+      "text": "Cinq cristaux colossaux répartis à travers tout Valisthéa.\n\nIls sont connus sous l'appellation de « Cristaux-mères » car c'est d'eux que sont extraits les précieux cristaux utilisés pour pratiquer la magie. Le flux d'éther étant plus concentré dans les zones avoisinantes, la magie y est plus abondante et facile d'accès, faisant de ces régions des sources de conflits entre les nations.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Cinq cristaux colossaux répartis à travers tout Valisthéa.\n\nIls étaient vénérés pour avoir apporté le miracle de la magie dans la vie des hommes, mais Cid est arrivé à la conclusion qu'ils drainent également l'éther et sont la source du Fléau noir qui ravage Valisthéa.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "L'origine du Fléau noir"
+    },
+    {
+      "text": "Les cristaux colossaux répartis à travers tout Valisthéa.\n\nIls étaient vénérés pour avoir apporté le miracle de la magie dans la vie des hommes, mais se sont révélés être également des pompes à éther et être à l'origine du Fléau noir qui ravage Valisthéa. Clive et ses compagnons les ont tous détruits, mais en vain, car c'est Ultima qui les avait placés pour rassembler assez d'éther et procéder à l'Expurgation.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "Leur finalité"
+    }
+  ],
+  "related": [
+    "cristaux",
+    "ether",
+    "valisthea",
+    "souffledrac",
+    "sanctuaire-cristallin",
+    "noyau-des-cristaux-meres",
+    "terres-mortes",
+    "creation-dun-nouveau-monde",
+    "magie",
+    "dragon-premier"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

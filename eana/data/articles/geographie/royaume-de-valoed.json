@@ -1,0 +1,74 @@
+{
+  "id": "royaume-de-valoed",
+  "title": "Le royaume de Valœd",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 100,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "pages": [
+    {
+      "text": "Le seul état présent sur le continent du Gris-Levant.\n\nCe royaume a pour capitale Steinnhyrr et possède un Cristal-mère, Échinedrac. Doté d'une puissante armée, Valœd a formé une alliance avec la république de Dalméquie.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Le seul état présent sur le continent du Gris-Levant.\n\nCe royaume a pour capitale Steinnhyrr et possède un Cristal-mère, Échinedrac. Bien que doté d'une puissante armée, Valœd est menacé d'une part par les belliqueux hommes-bêtes vivant sur son territoire, d'autre part par l'avancée du Fléau noir.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Situation interne"
+    },
+    {
+      "text": "Le seul état présent sur le continent du Gris-Levant.\n\nCe royaume a pour capitale Steinnhyrr et possède un Cristal-mère, Échinedrac. Son roi, Barnabas Tharmr, est aussi l'Émissaire d'Odin. Après la Guerre des deux continents qui l'a opposé à Sangbrèque en 865, Valœd a dû céder des territoires à son adversaire. Les deux nations se sont à nouveau affrontées lors de la Campagne de Belenus en 873.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "La campagne de Belenus"
+    },
+    {
+      "text": "Le seul état présent sur le continent du Gris-Levant.\n\nCe royaume a pour capitale Steinnhyrr et possède un Cristal-mère, Échinedrac. Son roi, Barnabas Tharmr, est aussi l'Émissaire d'Odin. Valœd a longtemps été en guerre contre le Saint-Empire de Sangbrèque, mais depuis l'invasion du Dominion du Cristal par l'Empire, le Royaume se contente d'observer les manœuvres de son rival sans intervenir.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Invasion sangbréquoise"
+    },
+    {
+      "text": "Le seul état présent sur le continent du Gris-Levant.\n\nCe royaume a pour capitale Steinnhyrr et possède un Cristal-mère, Échinedrac. Son roi, Barnabas Tharmr, est aussi l'Émissaire d'Odin. Après avoir soumis les Orcs vivant sur son territoire, il les a intégrés dans l'armée valœdoise et en a envoyé certains en mission à Crocdrac, en Dalméquie.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "À Crocdrac"
+    },
+    {
+      "text": "Le seul état présent sur le continent du Gris-Levant.\n\nCe royaume a pour capitale Steinnhyrr et possède un Cristal-mère, Échinedrac. Son roi, Barnabas Tharmr, est aussi l'Émissaire d'Odin. Après avoir soumis les Orcs vivant sur son territoire, il les a intégrés dans l'armée valœdoise. Il communique également avec Ultima en secret, même si la nature de leur relation reste inconnue.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Les secrets de Barnabas"
+    },
+    {
+      "text": "Le seul état présent sur le continent du Gris-Levant.\n\nCe royaume a pour capitale Steinnhyrr et possède un Cristal-mère, Échinedrac. Son roi, Barnabas Tharmr, est aussi l'Émissaire d'Odin. Les liens du souverain avec Ultima sont désormais manifestes : après qu'Ultima a lancé son sort d'Expurgation, Barnabas a envoyé son armée d'Orcs et de soldats devenus éthériques aux quatre coins de Valisthéa pour lui prêter main-forte.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Alliance avec les Orcs"
+    },
+    {
+      "text": "Le seul état présent sur le continent du Gris-Levant.\n\nSon roi, Barnabas Tharmr, Émissaire d'Odin, obéissait aux ordres d'Ultima. Après la mort du souverain, le Cristal-mère de Valœd, Échinedrac, a été détruit en même temps que Steinnhyrr, la capitale du royaume.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Destruction d'Échinedrac"
+    }
+  ],
+  "related": [
+    "roi-de-valoed",
+    "benedikta-harman",
+    "haut-grade-valoedois",
+    "pourparlers-de-zirnitra",
+    "armee-royale-de-valoed",
+    "hommes-betes",
+    "odin",
+    "conflit-frontalier-de-873",
+    "talus-de-belenus",
+    "siege-du-dominion-du-cristal",
+    "echinedrac",
+    "orcs",
+    "destruction-de-crocdrac",
+    "gris-levant",
+    "steinnhyrr",
+    "royaume-de-weldermark",
+    "destruction-dechinedrac"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

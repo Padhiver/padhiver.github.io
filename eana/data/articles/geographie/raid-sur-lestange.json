@@ -1,0 +1,26 @@
+{
+  "id": "raid-sur-lestange",
+  "title": "Le raid sur Lestange",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 95,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "pages": [
+    {
+      "text": "Une attaque menée en 873 sur Lestange, un village situé au nord-est de la province impériale de Rosalia.\n\nUne troupe de soldats sangbréquois se sont vus ordonner par l'impératrice Annabella Lesage d'y effectuer une véritable purge des Pourvoyeurs et de ceux qui les protégeaient. Le village a complètement été ravagé.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Le raid sur Lestange"
+    }
+  ],
+  "related": [
+    "lestange",
+    "annabella-rosfield",
+    "hanna-murdoch",
+    "gouvernement-general-provincial"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

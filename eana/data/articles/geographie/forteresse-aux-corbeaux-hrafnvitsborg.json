@@ -1,0 +1,26 @@
+{
+  "id": "forteresse-aux-corbeaux-hrafnvitsborg",
+  "title": "La Forteresse aux corbeaux, Hrafnvitsborg",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 42,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "pages": [
+    {
+      "text": "Un ouvrage défensif situé dans la partie nord du royaume de Valœd, sur l'unique route menant à la capitale.\n\nSes hautes murailles se dressent en travers d'une étroite vallée, en faisant un passage obligé pour quiconque se rend à Steinnhyrr. Les soldats qui y étaient stationnés sont presque tous devenus éthériques. Les Orcs loyaux à Barnabas Tharmr ont rapidement pris leur place, accompagnés de monstres divers.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "La Forteresse aux corbeaux, Hrafnvitsborg"
+    }
+  ],
+  "related": [
+    "armee-royale-de-valoed",
+    "orcs",
+    "geoles-de-balmung",
+    "royaume-de-valoed"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

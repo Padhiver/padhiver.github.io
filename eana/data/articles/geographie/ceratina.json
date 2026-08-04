@@ -1,0 +1,26 @@
+{
+  "id": "ceratina",
+  "title": "Čeratina",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 3,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "pages": [
+    {
+      "text": "Un ancien hameau situé tout au nord du désert de Velkýroj, qui se trouve lui-même dans la partie ouest de la Dalméquie.\n\nDes groupes de brigands menaçant le relais de Dalimil y avaient élu domicile, mais un épanchement d'éther les a tous changés en éthériques.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Čeratina"
+    }
+  ],
+  "related": [
+    "desert-de-velkyroj",
+    "bandits",
+    "ether-stagnant",
+    "etheriques"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

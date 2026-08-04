@@ -1,0 +1,26 @@
+{
+  "id": "vautours",
+  "title": "Les vautours",
+  "category": "primordiaux",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 49,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "pages": [
+    {
+      "text": "Des monstres présents dans tout Valisthéa, qui s'élèvent sombrement dans les cieux.\n\nDotés d'un bec effilé, ces oiseaux se déplacent en groupe en se laissant porter par les vents jusqu'à trouver une carcasse ou de la viande en décomposition dont ils pourront se repaître. Ils font vibrer la poche qu'ils ont sous la gorge pour pousser un cri inquiétant et synonyme de mauvais présage dans de nombreuses contrées.",
+      "contextImage": "images/placeholders/emblem-primordiaux.svg",
+      "caption": "Les vautours"
+    }
+  ],
+  "related": [
+    "monstres",
+    "chocobos",
+    "raptors",
+    "griffons"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

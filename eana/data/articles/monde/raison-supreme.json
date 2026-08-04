@@ -1,0 +1,26 @@
+{
+  "id": "raison-supreme",
+  "title": "La raison suprême",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 48,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "pages": [
+    {
+      "text": "Une loi immuable de ce monde.\n\nPour Ultima, qui estime être le dieu créateur de ce monde, il s'agit d'une façon de parler de lui-même.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "La raison suprême"
+    }
+  ],
+  "related": [
+    "creation-dun-nouveau-monde",
+    "monde-veritable",
+    "ancienne-fresque",
+    "ultima"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

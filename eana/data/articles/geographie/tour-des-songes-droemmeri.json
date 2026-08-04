@@ -1,0 +1,34 @@
+{
+  "id": "tour-des-songes-droemmeri",
+  "title": "La Tour des songes, Drœmmeri",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 61,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "pages": [
+    {
+      "text": "Une tour qui s'élève dans une région entre le centre et l'est du Gris-Levant.\n\nSelon les rares préceptes maliusianistes demeurant aujourd'hui, il s'agirait d'une tour du jugement bâtie par Dieu. Son caractère sacré était craint des hommes, qui évitaient tant que possible de s'en approcher.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Une tour qui s'élève dans une région entre le centre et l'est du Gris-Levant.\n\nLes hommes l'ont toujours crainte et considérée comme un lieu sacré. Elle aurait en fait été érigée par Ultima, à son arrivée à Valisthéa. Elle avait pour fonction de l'aider à surveiller le flux de l'éther dans le monde, et de lui indiquer où installer des Cristaux-mères.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Révélation"
+    }
+  ],
+  "related": [
+    "cercle-de-malius",
+    "roi-de-valoed",
+    "eistla",
+    "royaume-de-valoed",
+    "ether",
+    "cristaux-meres",
+    "civilisation-ultimienne"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

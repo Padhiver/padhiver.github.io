@@ -1,0 +1,26 @@
+{
+  "id": "obelos",
+  "title": "Obelós",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 75,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "pages": [
+    {
+      "text": "Le batelier du Repaire.\n\nIl connaît Otto depuis très longtemps. C'est à l'occasion de la reconstruction du Repaire qu'il devient un compagnon de Clive et des siens.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Obelós"
+    }
+  ],
+  "related": [
+    "lac-benou",
+    "otto",
+    "clive",
+    "repaire-de-clive"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "mythos",
+  "title": "Mythos",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 129,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "pages": [
+    {
+      "text": "Le nom par lequel Ultima désigne Clive.\n\nIl le considère comme un réceptacle destiné à les accueillir, lui et son incommensurable puissance. Les actes d'Ultima, cherchant à s'assurer de la force de Clive et à la faire grandir, restent cependant aussi mystérieux que l'existence de Mythos.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Le nom par lequel Ultima désigne Clive.\n\nIl le considère comme un réceptacle destiné à les accueillir, lui et son incommensurable puissance. Ultima semble trouver Clive digne d'être Mythos, car celui-ci est capable d'aspirer la force des autres Primordiaux en plus d'être lui-même l'Émissaire d'Ifrit. Il aurait très longtemps attendu la naissance d'un être aussi exceptionnel.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "La force de Clive"
+    },
+    {
+      "text": "Le nom par lequel Ultima désigne Clive.\n\nUltima semble trouver Clive digne d'être Mythos, car celui-ci est capable d'aspirer la force des autres Primordiaux en plus d'être lui-même l'Émissaire d'Ifrit. Il aurait très longtemps attendu la naissance d'un être aussi exceptionnel. La puissance de Mythos a pour particularité de grandir en dévorant l'énergie des autres Primordiaux. C'est donc pour parfaire son réceptacle qu'Ultima a fait en sorte que Clive affronte d'autres Émissaires.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "Perfectionnement du réceptacle"
+    },
+    {
+      "text": "Le nom par lequel Ultima désigne Clive.\n\nIl peut absorber la puissance des autres Primordiaux tout en incarnant lui-même Ifrit. Ultima aurait créé la race humaine dans le simple but de voir naître parmi eux ce « Mythos » dont il avait besoin. Après de longues années à laisser les hommes se reproduire, il a vu apparaître Clive, qui était capable de résister au sort de magie parfait de la Résurrection. Il n'avait plus qu'à renforcer et parfaire son « Mythos » en le poussant à se nourrir des pouvoirs des autres Primordiaux.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "Révélation"
+    }
+  ],
+  "related": [
+    "ultima",
+    "clive",
+    "receptacle",
+    "chefdrac",
+    "primordiaux",
+    "logos",
+    "ifrit-paracheve"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

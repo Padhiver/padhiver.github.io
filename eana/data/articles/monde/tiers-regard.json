@@ -1,0 +1,26 @@
+{
+  "id": "tiers-regard",
+  "title": "Le Tiers Regard",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 88,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "pages": [
+    {
+      "text": "Un ouvrage qui dépeint la « vérité » sur les Pourvoyeurs.\n\nIl raconte comment ils furent érigés en saints, puis opprimés par les sphères dirigeantes jusqu'à devenir des esclaves. Cette vérité dérangeante a valu à la personne qui l'a écrit d'être condamnée pour hérésie aux quatre coins du monde. Aujourd'hui, les Exécuteurs tentent de faire disparaître tous les exemplaires de cet ouvrage contant cette époque peu glorieuse.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "Le Tiers Regard"
+    }
+  ],
+  "related": [
+    "viviane",
+    "executeurs",
+    "pourvoyeurs",
+    "hameau-de-garnakur"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

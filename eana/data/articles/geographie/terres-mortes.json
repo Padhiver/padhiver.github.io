@@ -1,0 +1,33 @@
+{
+  "id": "terres-mortes",
+  "title": "Les Terres mortes",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 129,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "pages": [
+    {
+      "text": "Le nom donné aux régions décaties atteintes par le Fléau noir et où la vie n'est plus en mesure de s'épanouir.\n\nCes terres se sont assombries pour ne laisser que des paysages désolés ; une transformation si profonde que même la magie n'y opère plus. Incapables d'y survivre, des peuples entiers les abandonnent à la recherche d'endroits plus fertiles, tandis que de dangereux monstres y élisent domicile. Ces dernières années, l'accélération du phénomène a accentué cet exode et provoque maintenant d'inquiétants troubles géopolitiques.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Le nom donné aux régions décaties où aucune magie n'est possible et où la vie n'est plus en mesure de s'épanouir.\n\nUltima avait fui un mal similaire avant de se réfugier à Valisthéa et de créer les Cristaux-mères afin de donner naissance à son nouveau monde. Malheureusement, l'humanité a appauvri l'éther en faisant usage de la magie à tout va et a de nouveau amorcé le processus.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Révélation"
+    }
+  ],
+  "related": [
+    "magie",
+    "ether",
+    "valisthea",
+    "monstres",
+    "cristaux-meres",
+    "creation-dun-nouveau-monde"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

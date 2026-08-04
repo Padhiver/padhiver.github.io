@@ -1,0 +1,26 @@
+{
+  "id": "flans",
+  "title": "Les flans",
+  "category": "primordiaux",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 27,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "pages": [
+    {
+      "text": "Des créatures magiques visqueuses semblables à de la boue.\n\nÉtant extrêmement élastiques, elles multiplient les attaques en changeant librement la forme de leur corps. De plus, les entailles faites à l'épée disparaissent de leur corps instantanément. On peut en trouver dans toutes les régions de Valisthéa mais leur couleur peut différer selon le milieu.",
+      "contextImage": "images/placeholders/emblem-primordiaux.svg",
+      "caption": "Les flans"
+    }
+  ],
+  "related": [
+    "entites-magiques",
+    "bombos",
+    "flamme-liquide",
+    "ile-drustanus"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

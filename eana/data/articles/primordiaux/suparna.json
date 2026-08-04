@@ -1,0 +1,26 @@
+{
+  "id": "suparna",
+  "title": "Suparna",
+  "category": "primordiaux",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 57,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "pages": [
+    {
+      "text": "Une créature magique créée par Benedikta Harman, l'Émissaire de Garuda.\n\nSuparna ressemble beaucoup à Chirada, qui est née de la même façon, et avec qui elle coordonne si bien ses gestes au combat qu'elles donnent l'impression que toutes deux ne font qu'une. Clive et Cid ont eu l'occasion de les rencontrer lorsqu'ils se sont introduits à Fort-Norvent et qu'elles leur ont montré de quoi elles étaient capables.",
+      "contextImage": "images/placeholders/emblem-primordiaux.svg",
+      "caption": "Suparna"
+    }
+  ],
+  "related": [
+    "entites-magiques",
+    "benedikta-harman",
+    "garuda",
+    "chirada"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

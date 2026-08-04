@@ -1,0 +1,26 @@
+{
+  "id": "cid-le-renegat",
+  "title": "Cid le Renégat",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 9,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "pages": [
+    {
+      "text": "Le meneur du groupe qui a détruit le Cristal-mère de Chefdrac en 873.\n\nCet homme, que l'on présume avoir mené le groupe ayant attaqué Chefdrac, est considéré comme un criminel par la majorité des habitants de Valisthéa. À leurs yeux, faire disparaître une source de magie aussi précieuse est un acte d'une malfaisance inouïe. Cette atrocité, une première dans l'histoire, l'a rendu immédiatement célèbre à travers le monde.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Cid le Renégat"
+    }
+  ],
+  "related": [
+    "clive",
+    "cid",
+    "cristaux-meres",
+    "destruction-de-chefdrac"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

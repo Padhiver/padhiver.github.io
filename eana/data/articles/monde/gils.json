@@ -1,0 +1,26 @@
+{
+  "id": "gils",
+  "title": "Les gils",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 108,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "pages": [
+    {
+      "text": "La monnaie utilisée à Valisthéa.\n\nElle a été introduite il y a huit cents ans, lorsque les États valisthéens ont ratifié le Traité intercontinental visant à instaurer une monnaie unique. Elle doit son nom à Gilbert, un érudit considéré comme le saint patron des gens qui vivent du commerce. La guilde des marchands des villes libres de Kanvěr ayant participé à ce projet est ensuite devenue ce que l'on appelle aujourd'hui la congrégation du crédo de saint Gilbert.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "Les gils"
+    }
+  ],
+  "related": [
+    "corporation-de-saint-gilbert-patron-des-marchands",
+    "traite-intercontinental",
+    "villes-libres-de-kanver",
+    "valisthea"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

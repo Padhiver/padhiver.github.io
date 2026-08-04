@@ -1,0 +1,26 @@
+{
+  "id": "fort-norvent",
+  "title": "Fort-Norvent",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 9,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "pages": [
+    {
+      "text": "Un fort érigé dans le centre sud du Saint-Empire de Sangbrèque, dans un endroit stratégique tout juste au sud d'Oriflamme, la capitale impériale.\n\nL'édifice compte parmi les plus prééminents de l'Empire. Il comprend de petits quartiers résidentiels, une chapelle, des oubliettes, des réserves alimentaires et certaines particularités qui lui permettraient de résister à un siège.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Fort-Norvent"
+    }
+  ],
+  "related": [
+    "plaine-de-la-glorieuse",
+    "val-norvent",
+    "corps-despionnage-valoedois",
+    "saint-empire-de-sangbreque"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

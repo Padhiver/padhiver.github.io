@@ -1,0 +1,34 @@
+{
+  "id": "viviane",
+  "title": "Viviane",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 94,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "pages": [
+    {
+      "text": "Une spécialiste en stratégie militaire habitant au Repaire.\n\nViviane est originaire du Dominion du Cristal et passe la plupart de son temps à s'informer sur la situation géopolitique et à l'analyser. Ainsi, elle est toujours en mesure de conseiller Clive, dont elle apprécie la culture princière. Ses confrères savants la connaissent sous son nom complet, mais elle préfère le nom d'emprunt de « Viviane Neuf-contes ».",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Une spécialiste en stratégie militaire habitant au Repaire.\n\nElle passe la plupart de son temps à s'informer sur la situation géopolitique et à l'analyser afin d'aider Clive. Elle enseignait autrefois à l'université de Kanvěr, mais a dû la quitter après s'être attiré les foudres de ses collègues en dénonçant leurs activités frauduleuses. Son séjour au Repaire lui permet d'évoluer dans un environnement différent et d'adopter un autre point de vue sur la société.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Sa place au Repaire"
+    }
+  ],
+  "related": [
+    "otto",
+    "harpocrate-hyperboreoi-ii",
+    "clive",
+    "repaire-de-clive",
+    "midadole-telamon",
+    "tiers-regard",
+    "villes-libres-de-kanver"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

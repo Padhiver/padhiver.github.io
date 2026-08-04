@@ -1,0 +1,26 @@
+{
+  "id": "lames-de-la-rose",
+  "title": "Les Lames de la rose",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 124,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "pages": [
+    {
+      "text": "Une forge située au relais de Dalimil.\n\nC'est l'échoppe la plus populaire du village qui attire de nombreux artisans venus perfectionner leur technique. Son propriétaire, Lubor, ancien allié de Cid et forgeron talentueux, est aussi appelé Růžena Dalimil, l'Oreille du désert.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Les Lames de la rose"
+    }
+  ],
+  "related": [
+    "relais-de-dalimil",
+    "oreille-du-desert",
+    "ferda",
+    "cid"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

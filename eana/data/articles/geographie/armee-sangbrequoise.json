@@ -1,0 +1,26 @@
+{
+  "id": "armee-sangbrequoise",
+  "title": "L'armée sangbréquoise",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 21,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "pages": [
+    {
+      "text": "L'armée régulière du Saint-Empire de Sangbrèque.\n\nElle est officiellement placée sous le contrôle du Conseil des Patriarches, mais elle obéit en réalité à l'empereur Sylvestre Lesage. Sa force de frappe est incarnée sur les champs de bataille par des combattants d'élite manipulant des lances, appelés les chevaliers dragon. Ces derniers se sont illustrés à maintes reprises en profitant de leur grande mobilité et des bonds qu'ils sont capables de faire pour attaquer par surprise et vaincre les forteresses les mieux gardées.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "L'armée sangbréquoise"
+    }
+  ],
+  "related": [
+    "conseil-des-patriarches",
+    "sylvestre-lesage",
+    "chevaliers-dragon",
+    "saint-empire-de-sangbreque"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "kanver",
+  "title": "Kanvěr",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 12,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "pages": [
+    {
+      "text": "La capitale des villes libres de Kanvěr, située au sud-est de la république de Dalméquie.\n\nFourmillant centre commercial, ses rues sont remplies d'échoppes proposant des produits de toutes sortes.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Kanvěr"
+    }
+  ],
+  "related": [
+    "villes-libres-de-kanver",
+    "republique-de-dalmequie",
+    "corporation-de-saint-gilbert-patron-des-marchands",
+    "garde-de-kanver"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "haches-rouges",
+  "title": "Les Haches rouges",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 119,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "pages": [
+    {
+      "text": "Un groupe de mercenaires actifs au hameau de l'Auberge de Martha.\n\nIls disposent de quartiers dans le village, et leur mission consiste à chasser les bandits et à assurer la sécurité des habitants. Les Haches rouges protègent la zone et se substituent aux soldats de l'occupant sangbréquois, qui ne se soucie guère de la vie dans les hameaux rosaliens.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Les Haches rouges"
+    }
+  ],
+  "related": [
+    "auberge-de-martha",
+    "martha",
+    "gouvernement-general-provincial",
+    "archiduche-de-rosalia"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

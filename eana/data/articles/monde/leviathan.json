@@ -1,0 +1,46 @@
+{
+  "id": "leviathan",
+  "title": "Léviathan",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 124,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "pages": [
+    {
+      "text": "Le Primordial de l'eau.\n\nOn le considère comme un Primordial mythique, tant son apparition semble avoir été rare au cours de l'Histoire. Il est représenté sur la tapisserie des Primordiaux du Cercle de Malius.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "Un Primordial mythique"
+    },
+    {
+      "text": "Le Primordial de l'eau.\n\nOn le considère comme un Primordial mythique, tant son apparition semble avoir été rare au cours de l'Histoire, nul ne semble l'avoir jamais vu. Il est représenté sous la forme d'un immense dragon marin sur la tapisserie des Primordiaux du Cercle de Malius. D'après certaines sources, il pouvait déclencher des vagues déferlantes capables d'engloutir des nations toute entières.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Le Primordial de l'eau qui a pour Émissaire Waleas.\n\nOn dit qu'il apparaît chez les descendants du peuple de l'Eau, qui vivait autrefois au sud du Gris-Levant. À Mysidia, un incident eut lieu il y a environ quatre-vingts ans. On tenta de s'approprier le pouvoir de Waleas au cours d'un rite. Celui-ci se mit en colère et se changea en Léviathan, provoquant un immense raz-de-marée. Le sort d'arrêt du temps parvint à le figer et il est depuis prisonnier de la Déferlante de Nepto.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "Révélation"
+    },
+    {
+      "text": "Le Primordial de l'eau qui a pour Émissaire Waleas.\n\nIl y a environ quatre-vingts ans, il se mit en colère alors qu'on tentait de s'approprier son pouvoir. Il était depuis figé à l'intérieur de la Déferlante de Nepto, mais Šuhra, Clive et Jill parviennent à le libérer. Depuis que les hommes ont tenté de l'exploiter, Ultima le considère comme impur et semble s'en désintéresser.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "L'Impur"
+    }
+  ],
+  "related": [
+    "emissaires",
+    "cercle-de-malius",
+    "ancienne-fresque",
+    "primordiaux",
+    "emissaire-de-leau",
+    "peuple-de-leau",
+    "deferlante-de-nepto",
+    "gel-le-sort-darret-du-temps",
+    "ultima"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

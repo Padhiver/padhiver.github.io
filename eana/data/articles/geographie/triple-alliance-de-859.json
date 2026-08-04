@@ -1,0 +1,26 @@
+{
+  "id": "triple-alliance-de-859",
+  "title": "La Triple-Alliance de 859",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 62,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "pages": [
+    {
+      "text": "Une alliance tripartite conclue en 859 entre l'archiduché de Rosalia, la république de Dalméquie et le Saint-Empire de Sangbrèque.\n\nIl existait auparavant une alliance entre l'Archiduché et la République, que le Saint-Empire rejoignit à l'occasion de l'indépendance de Kanvěr. En effet, les trois états s'inquiétaient des conséquences de la radicalisation du mouvement d'indépendance des cités aux abords de Kanvěr. Ils avaient donc des intérêts communs. La Triple-Alliance de 859 fut rompue à la suite de l'attaque-surprise de Sangbrèque sur Rosalia lors de l'incident du fort Phénix.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "La Triple-Alliance de 859"
+    }
+  ],
+  "related": [
+    "triple-alliance-de-878",
+    "alliance-rosalia-dalmequie",
+    "mouvement-independantiste-de-kanver",
+    "attaque-du-fort-phenix"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

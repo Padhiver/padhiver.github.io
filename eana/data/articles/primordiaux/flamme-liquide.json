@@ -1,0 +1,26 @@
+{
+  "id": "flamme-liquide",
+  "title": "La Flamme liquide",
+  "category": "primordiaux",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 8,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "pages": [
+    {
+      "text": "Une créature magique de flammes apparue dans le sanctuaire du cristal de Souffledrac.\n\nEntité de lave, elle a été créée par le mécanisme de défense du noyau du Cristal-mère, quand celui-ci a ressenti le danger. Elle peut manipuler la lave environnante à volonté et attaquer en prenant la forme de différentes bêtes.",
+      "contextImage": "images/placeholders/emblem-primordiaux.svg",
+      "caption": "La Flamme liquide"
+    }
+  ],
+  "related": [
+    "entites-magiques",
+    "noyau-des-cristaux-meres",
+    "souffledrac",
+    "ile-drustanus"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

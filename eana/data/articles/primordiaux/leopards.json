@@ -1,0 +1,26 @@
+{
+  "id": "leopards",
+  "title": "Les léopards",
+  "category": "primordiaux",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 35,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "pages": [
+    {
+      "text": "Des fauves agiles au pelage tacheté.\n\nCes énormes bêtes protègent activement leur territoire et préfèrent agir seules plutôt que de se déplacer en meute. Ce sont des prédateurs vicieux qui harcèlent leurs proies sans relâche jusqu'à pouvoir leur porter le coup fatal, ce qui fait d'eux une arme redoutable pour l'armée. On en trouve principalement sur le territoire dalmèque.",
+      "contextImage": "images/placeholders/emblem-primordiaux.svg",
+      "caption": "Les léopards"
+    }
+  ],
+  "related": [
+    "betes-fabuleuses",
+    "armee-dalmeque",
+    "coeurls",
+    "quartier-des-refugies-de-kostnice"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "orphelinat-de-badbach",
+  "title": "L'orphelinat de Badbach",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 31,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "pages": [
+    {
+      "text": "Une institution pour pupilles de la nation située au nord de Valœd.\n\nElle se cache dans un bosquet sur une colline de la plaine de Vidugrœs et n'a d'orphelinat que le nom. En effet, elle recueillait les enfants Pourvoyeurs afin d'en faire des soldats. Ils y étaient soumis à un « entraînement » cruel auxquels beaucoup ne survivaient pas. Les enfants comme leurs tortionnaires ont disparu et on n'y trouve plus que des éthériques.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "L'orphelinat de Badbach"
+    }
+  ],
+  "related": [
+    "pourvoyeurs",
+    "soldats-pourvoyeurs",
+    "etheriques",
+    "royaume-de-valoed"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

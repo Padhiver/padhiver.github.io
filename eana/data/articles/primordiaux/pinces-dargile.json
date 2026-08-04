@@ -1,0 +1,26 @@
+{
+  "id": "pinces-dargile",
+  "title": "Les pinces d'argile",
+  "category": "primordiaux",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 42,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "pages": [
+    {
+      "text": "Des monstres dotés d'une carapace, qui vivent principalement dans les zones humides.\n\nCes créatures se servent des grosses pinces tranchantes rattachées à leur abdomen et au bout de leur queue pour piéger leurs proies et les tuer. Elles fabriquent également un mucus visqueux et collant en absorbant les liquides qu'elles trouvent dans le sol, et s'en servent comme d'une arme. Les pinces d'argile vivent près des étendues d'eau dans les régions où le climat est doux, et de nombreux témoignages font état de leur présence à Sangbrèque et dans la région de Rosalia.",
+      "contextImage": "images/placeholders/emblem-primordiaux.svg",
+      "caption": "Les pinces d'argile"
+    }
+  ],
+  "related": [
+    "monstres",
+    "megalocrabes",
+    "saint-empire-de-sangbreque",
+    "archiduche-de-rosalia"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

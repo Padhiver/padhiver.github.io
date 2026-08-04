@@ -1,0 +1,26 @@
+{
+  "id": "guerre-de-la-magie",
+  "title": "La Guerre de la magie",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 43,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "pages": [
+    {
+      "text": "La guerre qui a marqué la fin de l'ère des Célestes.\n\nLors de celle-ci, une multitude d'armes dites « magitech » furent utilisées pour prendre le contrôle des Cristaux-mères. L'affrontement eut pour tragique résultat d'épuiser l'éther de Valisthéa et de donner naissance au Fléau noir. Par la suite, la technologie magitech commença à péricliter, et la civilisation des Célestes ne s'en releva jamais.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "La Guerre de la magie"
+    }
+  ],
+  "related": [
+    "civilisation-celeste",
+    "technologie-magitech",
+    "tragedie-de-dzemekys",
+    "terres-mortes"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ministere-de-la-justice",
+  "title": "Le ministère de la Justice",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 88,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "pages": [
+    {
+      "text": "Le ministère traitant les affaires judiciaires du Saint-Empire de Sangbrèque.\n\nQuentin, qui y travaillait jadis, obéissait aux ordres du Ministre de la Justice d'alors, un homme dont il admirait la vertu et l'humanité. Il a pourtant découvert que son supérieur se livrait à des chasses aux marqués, et l'a dénoncé en public. Le ministre a réagi en faisant sournoisement assassiner la famille de Quentin, ce qui a poussé ce dernier à jurer vengeance.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Le ministère de la Justice"
+    }
+  ],
+  "related": [
+    "quentin",
+    "oriflamme",
+    "chevaliers-noirs",
+    "saint-empire-de-sangbreque"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

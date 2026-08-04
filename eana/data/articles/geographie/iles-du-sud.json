@@ -1,0 +1,26 @@
+{
+  "id": "iles-du-sud",
+  "title": "Les Îles du Sud",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 122,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "pages": [
+    {
+      "text": "Une nation insulaire autrefois située dans un archipel au sud de Valisthéa.\n\nAvant que le Fléau noir ne ravage son territoire et ne détruise sa civilisation, elle entretenait des liens commerciaux avec la république de Dalméquie et Kanvěr. Elle était en outre connue pour sa pharmacopée aux préparations composées de plantes indigènes.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Les Îles du Sud"
+    }
+  ],
+  "related": [
+    "tarja",
+    "terres-mortes",
+    "republique-de-dalmequie",
+    "villes-libres-de-kanver"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

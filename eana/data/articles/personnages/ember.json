@@ -1,0 +1,26 @@
+{
+  "id": "ember",
+  "title": "Ember",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 21,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "pages": [
+    {
+      "text": "Une recrue récente des Lames de pierre.\n\nIl désire devenir éclaireur à l'instar de Gab qu'il admire. Son test d'aptitude n'est pas concluant, mais il est néanmoins accepté comme apprenti grâce à un potentiel indéniable.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Première apparition"
+    }
+  ],
+  "related": [
+    "gab",
+    "lames-de-pierre",
+    "pourvoyeurs",
+    "repaire-de-clive"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

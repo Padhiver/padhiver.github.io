@@ -1,0 +1,26 @@
+{
+  "id": "ordre-des-chevaliers-aux-ailes-de-jais",
+  "title": "L'Ordre des Chevaliers aux ailes de jais",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 29,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "pages": [
+    {
+      "text": "Une unité spéciale sous les ordres du gouvernement d'occupation, dont la mission est d'exterminer les Pourvoyeurs et ceux qui les protègent dans la province impériale de Rosalia.\n\nÀ l'opposé des Saints Dragons, ces chevaliers sont vêtus d'une impressionnante armure d'un noir de jais. Le nom officiel de cette troupe de l'ombre n'a jamais été révélé au public par le Saint-Empire. Ainsi, les habitants de Rosalia, terrorisés par les massacres de Pourvoyeurs, ont fini par les surnommer « Chevaliers noirs », nom sous lequel ils se sont fait connaître.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "L'Ordre des Chevaliers aux ailes de jais"
+    }
+  ],
+  "related": [
+    "chevaliers-noirs",
+    "ordre-des-saints-dragons",
+    "gouvernement-general-provincial",
+    "purges"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

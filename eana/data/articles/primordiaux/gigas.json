@@ -1,0 +1,26 @@
+{
+  "id": "gigas",
+  "title": "Les Gigas",
+  "category": "primordiaux",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 30,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "pages": [
+    {
+      "text": "Des hommes-bêtes au corps musculeux qui portent souvent au cou un collier confectionné avec les os de leurs victimes.\n\nOn les aperçoit souvent en compagnie de Gobelins avec lesquels ils vivent en symbiose et attaquent ensemble les habitations humaines. À Rosalia, ils ont même été aperçus en train de saccager les ruines d'un ancien village.",
+      "contextImage": "images/placeholders/emblem-primordiaux.svg",
+      "caption": "Les Gigas"
+    }
+  ],
+  "related": [
+    "hommes-betes",
+    "gobelins",
+    "taurus",
+    "fangebrune"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "vin-de-bacchus",
+  "title": "Le vin de Bacchus",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 93,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "pages": [
+    {
+      "text": "Une sorte de vin prisé dans les différentes régions de Valisthéa.\n\nL'origine de ce vin, présenté comme une production des continents extérieurs, est plus que douteuse, tant il est facile à trouver. Il est tristement célèbre pour rendre saoul dès la première gorgée, ce qui ne l'empêche pas d'avoir de nombreux amateurs.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "Généralités"
+    }
+  ],
+  "related": [
+    "continents-exterieurs",
+    "valisthea",
+    "vert-ponant",
+    "mirage"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

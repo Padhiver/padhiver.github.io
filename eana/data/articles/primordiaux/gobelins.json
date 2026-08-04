@@ -1,0 +1,33 @@
+{
+  "id": "gobelins",
+  "title": "Les Gobelins",
+  "category": "primordiaux",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 31,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "pages": [
+    {
+      "text": "Des hommes-bêtes de petite taille qui, contrairement à ce que l'on pourrait croire, ne sont pas dénués d'intelligence.\n\nEn effet, ils disposent de leur propre langage et fabriquent même des outils qu'ils manient avec agilité. On les trouve principalement dans le Vert-Ponant, où ils se cantonnaient autrefois à leurs propres territoires. Malheureusement, l'avancée du Fléau noir les pousse dernièrement à empiéter avec perte et fracas sur l'habitat des humains.",
+      "contextImage": "images/placeholders/emblem-primordiaux.svg",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Des hommes-bêtes de petite taille qui, contrairement à ce que l'on pourrait croire, ne sont pas dénués d'intelligence.\n\nEn effet, ils disposent de leur propre langage et fabriquent même des outils qu'ils manient avec agilité. On les trouve principalement dans le Vert-Ponant, où ils se cantonnaient autrefois à leurs propres territoires. Malheureusement, l'avancée du Fléau noir les pousse dernièrement à empiéter avec perte et fracas sur l'habitat des humains. Malgré cette agressivité, il arrive parfois que certains troquent avec les humains.",
+      "contextImage": "images/placeholders/emblem-primordiaux.svg",
+      "caption": "Relation avec les humains"
+    }
+  ],
+  "related": [
+    "hommes-betes",
+    "gigas",
+    "terres-mortes",
+    "fangebrune",
+    "gobelins-inhabituels",
+    "marche-de-poklad"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "dragonnets",
+  "title": "Les dragonnets",
+  "category": "primordiaux",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 23,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "pages": [
+    {
+      "text": "Des dragons de petite taille, mais qui conservent la même facilité à voler que leurs grands frères.\n\nLa sous-espèce des wyrms étant commune à Sangbrèque et relativement domptable, elle est bien souvent incorporée dans les bataillons de l'armée impériale.",
+      "contextImage": "images/placeholders/emblem-primordiaux.svg",
+      "caption": "Les dragonnets"
+    }
+  ],
+  "related": [
+    "betes-fabuleuses",
+    "armee-sangbrequoise",
+    "dragons",
+    "eibis-especes"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

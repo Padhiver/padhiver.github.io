@@ -1,0 +1,38 @@
+{
+  "id": "eloise-vesta",
+  "title": "Éloïse Vesta",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 19,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "pages": [
+    {
+      "text": "Une partisane de Clive qui est propriétaire de la Caravane écarlate, une compagnie de transport du marché de Poklad.\n\nElle n'a pas hérité de son commerce, qui est donc relativement récent, mais il est déjà le plus florissant de son secteur.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Une partisane de Clive qui est propriétaire de la Caravane écarlate, une compagnie de transport du marché de Poklad.\n\nSon don pour les affaires est sans pareil. Elle a fui le domicile familial avec son frère pourvoyeur alors qu'ils étaient encore jeunes, et ils vivent aujourd'hui en se serrant les coudes au quotidien, sans demander l'aide de qui que ce soit.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Éloïse et son frère"
+    },
+    {
+      "text": "Une partisane de Clive qui est propriétaire de la Caravane écarlate, une compagnie de transport du marché de Poklad.\n\nElle est née dans une famille de marchands aisés de Kanvěr et a grandi dans un environnement stimulant sa fibre des affaires. Elle a cependant décidé de quitter le domicile familial en cachette, avec son petit frère, pour le protéger de leurs parents. En effet, celui-ci était menacé d'être livré aux autorités depuis que le don des Pourvoyeurs s'était éveillé en lui. Malgré la tristesse qui est sienne depuis le décès de Théodore, sa mémoire vit en elle, et elle s'est juré de poursuivre sa mission.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Fratrie séparée"
+    }
+  ],
+  "related": [
+    "marche-de-poklad",
+    "caravane-ecarlate",
+    "goetz",
+    "cid",
+    "partisans-du-repaire",
+    "theodore-vesta"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

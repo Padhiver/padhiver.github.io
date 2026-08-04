@@ -1,0 +1,26 @@
+{
+  "id": "fay-de-la-dragonniere",
+  "title": "Le faÿ de la Dragonnière",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 81,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "pages": [
+    {
+      "text": "Une clairière bordée d'arbres à l'est de Sangbrèque.\n\n_Faÿ_ désigne un lieu où poussent les hêtres. La route qui traverse ce lieu-dit relativement proche de Francastel est moins fréquentée et ainsi moins bien entretenue que celle qui mène à Fort-Norvent. Des monstres sont présents dans la zone, et on raconte depuis les temps anciens que des dragons y nichent, d'où le nom de _dragonnière_.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Le faÿ de la Dragonnière"
+    }
+  ],
+  "related": [
+    "oeil-de-la-tempete",
+    "francastel",
+    "fort-norvent",
+    "region-agricole-de-sangbreque"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

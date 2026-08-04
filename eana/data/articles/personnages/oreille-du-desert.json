@@ -1,0 +1,45 @@
+{
+  "id": "oreille-du-desert",
+  "title": "L'Oreille du désert",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 42,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "pages": [
+    {
+      "text": "Un partisan de Cid premier du nom qui entretenait avec lui une relation très personnelle.\n\nIl incarne parfois son alter ego, « Růžena Dalimil », une personne censée vivre dans le relais éponyme, mais qui a cessé toute communication depuis la mort de Cid.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Un partisan de Cid, propriétaire d'une forge à Dalimil nommée les Lames de la rose.\n\nL'appellation « Růžena Dalimil, l'oreille du désert » n'est qu'un faux nom qu'il utilisait pour ses activités en tant que partisan. Au grand jour, tout le monde le connaît en tant que Lubor, un jeune forgeron de talent.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Les Lames de la rose"
+    },
+    {
+      "text": "Un partisan de Cid, propriétaire d'une forge à Dalimil appelée les Lames de la rose.\n\nEn tant que « Růžena Dalimil, l'oreille du désert », il reconnaît que Clive est suffisamment digne de confiance pour être Cid le second. Grâce à ses efforts pour le relais de Dalimil, il était pressenti pour en devenir le chef mais un incident a révélé qu'il était un Pourvoyeur. Il est depuis rejeté par les siens.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Nature de Pourvoyeur révélée"
+    },
+    {
+      "text": "Un partisan de Cid, propriétaire d'une forge à Dalimil appelée les Lames de la rose.\n\nSongeant à s'exiler depuis que sa condition de Pourvoyeur a été révélée publiquement, il ne peut pas se résoudre à abandonner les habitants face à la menace éthérique. C'est grâce aux efforts combinés de la milice et de la brigade de soutien qu'il parvient à mener Dalimil à la victoire et se voit désigné chef du village en reconnaissance de son dévouement.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Chef de Dalimil"
+    }
+  ],
+  "related": [
+    "relais-de-dalimil",
+    "cid",
+    "partisans-du-repaire",
+    "ferda",
+    "lames-de-la-rose",
+    "pourvoyeurs-caches",
+    "milice-dautodefense",
+    "brigade-de-soutien"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

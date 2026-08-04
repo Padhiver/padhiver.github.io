@@ -1,0 +1,32 @@
+{
+  "id": "noyau-des-cristaux-meres",
+  "title": "Le noyau des Cristaux-mères",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 80,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "pages": [
+    {
+      "text": "La partie d'un Cristal-mère abritant son essence la plus pure.\n\nS'il venait à être détruit, le cristal se briserait avec lui et disparaîtrait à jamais. Voilà pourquoi des sanctuaires ancestraux ont été bâtis autour de ces points faibles pour les protéger et permettre leur culte.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "Généralités"
+    },
+    {
+      "text": "La partie d'un Cristal-mère abritant son essence la plus pure.\n\nS'il venait à être détruit, le cristal se briserait avec lui et disparaîtrait à jamais. Voilà pourquoi des sanctuaires ancestraux ont été bâtis autour de ces points faibles pour les protéger et permettre leur culte. Chacun d'eux possède son propre système de défense magique afin d'éliminer les intrus.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "Système de défense"
+    }
+  ],
+  "related": [
+    "cristaux-meres",
+    "sanctuaire-cristallin",
+    "cristaux",
+    "cid-le-renegat",
+    "dragon-premier"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "randela",
+  "title": "Randělá",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 136,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "pages": [
+    {
+      "text": "La capitale de la république de Dalméquie, au sud du Vert-Ponant.\n\nC'est avant tout un centre commercial de grande importance qui attire les marchands venus des quatre coins de Valisthéa. C'est une ville prospère réputée pour sa vie nocturne où les gens peuvent passer un moment agréable dans les rues illuminées. C'est aussi le siège du Conseil républicain chargé de gouverner la Dalméquie.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Généralités"
+    },
+    {
+      "text": "La capitale de la république de Dalméquie, au sud du Vert-Ponant.\n\nC'est à la fois un centre commercial de grande importance qui attire les marchands et le siège du Conseil républicain chargé de gouverner la Dalméquie. En 878 du calendrier ponantin, lorsqu'Ultima provoque l'Expurgation, la ville est détruite par une attaque de l'armée valœdoise composée d'Orcs et de soldats éthériques.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Attaque éthérique"
+    }
+  ],
+  "related": [
+    "republique-de-dalmequie",
+    "conseil-republicain",
+    "hugo-kupka",
+    "president-du-conseil",
+    "etheriques",
+    "armee-royale-de-valoed"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

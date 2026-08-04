@@ -1,0 +1,26 @@
+{
+  "id": "coteau-de-loree-belle",
+  "title": "Le coteau de l'Orée-belle",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 74,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "pages": [
+    {
+      "text": "Une région vallonnée qui s'étend dans le sud du Saint-Empire de Sangbrèque.\n\nLes habitants de La Nef déchue ont utilisé une de ses collines pour y installer leurs vignobles, tout juste au nord de la Grande Sylve.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Le coteau de l'Orée-belle"
+    }
+  ],
+  "related": [
+    "grande-sylve",
+    "la-nef-dechue",
+    "civilisation-celeste",
+    "saint-empire-de-sangbreque"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

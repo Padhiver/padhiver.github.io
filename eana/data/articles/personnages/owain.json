@@ -1,0 +1,26 @@
+{
+  "id": "owain",
+  "title": "Owain",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 79,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "pages": [
+    {
+      "text": "Un des ingénieurs assistant Mid dans ses recherches.\n\nSon rôle en tant que disciple consiste principalement à fabriquer ou améliorer les inventions de la jeune fille dont le cerveau ruisselle en permanence d'inventions miraculeuses.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Owain"
+    }
+  ],
+  "related": [
+    "midadole-telamon",
+    "ingenierie",
+    "pourvoyeurs",
+    "repaire-de-clive"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

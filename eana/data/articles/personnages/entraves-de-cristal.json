@@ -1,0 +1,26 @@
+{
+  "id": "entraves-de-cristal",
+  "title": "Les entraves de cristal",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 61,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "pages": [
+    {
+      "text": "Un outil de contrainte contenant des fragments de cristal utilisé sur les Pourvoyeurs ou les Émissaires.\n\nÉtant enveloppées d'un sort réagissant aux légères fluctuations d'éther dans le corps, ces entraves frappent de violentes douleurs toute personne qui tenterait de générer de la magie. Les perturbations dans l'éther qu'elles produisent provoquent une grande fatigue chez le détenu, ce qui empêche toute transformation en Primordial. Leur confection requière des techniques très spéciales, elles ne peuvent donc pas être produites en grande quantité.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Les entraves de cristal"
+    }
+  ],
+  "related": [
+    "cristaux",
+    "ether",
+    "magie",
+    "incarnation"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

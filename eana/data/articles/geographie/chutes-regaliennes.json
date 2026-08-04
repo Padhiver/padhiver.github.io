@@ -1,0 +1,26 @@
+{
+  "id": "chutes-regaliennes",
+  "title": "Les chutes régaliennes",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 112,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "pages": [
+    {
+      "text": "Des chutes immenses dans l'ouest de Sangbrèque.\n\nToutes les sources et les cours d'eau de la région, à commencer par ceux de la Grande Sylve au sud, confluent et viennent former les chutes régaliennes avant de poursuivre leur route vers le bord de mer rosalien. Les hommes bénéficiaient autrefois des riches ressources que ces eaux leur apportaient, mais le nombre croissant de monstres dans la zone l'a rendue difficile d'accès.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Les chutes régaliennes"
+    }
+  ],
+  "related": [
+    "gab",
+    "grande-sylve",
+    "archiduche-de-rosalia",
+    "saint-empire-de-sangbreque"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

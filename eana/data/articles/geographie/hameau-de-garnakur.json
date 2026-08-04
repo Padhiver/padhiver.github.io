@@ -1,0 +1,26 @@
+{
+  "id": "hameau-de-garnakur",
+  "title": "Le hameau de Garnakur",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 85,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "pages": [
+    {
+      "text": "Un petit village situé dans le nord du Gris-Levant, près de Steinnhyrr, la capitale valœdoise.\n\nIl est aujourd'hui à l'abandon, et n'a de notable que la demeure d'un ancien ami de Harpocrate qui habitait tout au fond.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Le hameau de Garnakur"
+    }
+  ],
+  "related": [
+    "executeurs",
+    "tiers-regard",
+    "viviane",
+    "steinnhyrr"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

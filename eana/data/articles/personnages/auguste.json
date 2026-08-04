@@ -1,0 +1,26 @@
+{
+  "id": "auguste",
+  "title": "Auguste",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 2,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "pages": [
+    {
+      "text": "Un membre des Lames de pierre.\n\nGrâce à sa grande expérience en combat, il lui arrive souvent de diriger les opérations en tant que commandant. Il est également responsable de l'affectation des nouvelles recrues et de l'envoi de renforts sur le terrain, aux côtés de Cole, le capitaine adjoint. Bon ami de Blackthorne depuis l'époque de l'ancien Repaire, on les voit souvent prendre un verre ensemble.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Auguste"
+    }
+  ],
+  "related": [
+    "blackthorne",
+    "cole",
+    "lames-de-pierre",
+    "repaire-de-clive"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

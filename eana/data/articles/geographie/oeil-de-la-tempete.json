@@ -1,0 +1,31 @@
+{
+  "id": "oeil-de-la-tempete",
+  "title": "L'Œil de la tempête",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 27,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "pages": [
+    {
+      "text": "Un cyclone colossal né de la colère de Garuda.\n\nIl arrache du sol les villages et les maisons alentour, et défigure les reliefs sans difficulté. Lorsque la force d'un Primordial devient incontrôlable, c'est que la fin approche pour son Émissaire.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Un cyclone colossal qui était né de la colère de Garuda.\n\nIl a arraché du sol les villages et les maisons alentour, et défiguré les reliefs sans difficulté. Ses vents se sont apaisés lorsque Benedikta, l'Émissaire de Garuda, a rendu son dernier souffle à l'issue de son ultime combat contre Ifrit.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "La fin de Garuda"
+    }
+  ],
+  "related": [
+    "garuda",
+    "incarnation",
+    "emissaires",
+    "fay-de-la-dragonniere"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

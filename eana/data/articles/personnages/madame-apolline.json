@@ -1,0 +1,45 @@
+{
+  "id": "madame-apolline",
+  "title": "Madame Apolline",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 65,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "pages": [
+    {
+      "text": "Une partisane de Cid habitant à Francastel.\n\nElle apporte notamment son soutien en envoyant des rapports sur les mouvements de troupes sangbréquois qu'elle surveille de près. Quiconque voudrait franchir les postes de contrôle de la cité fortifiée pourrait grandement profiter de son aide.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Généralités"
+    },
+    {
+      "text": "La propriétaire de la Nuit galante, la maison close de Francastel, et une partisane de Cid.\n\nConnue également sous le nom de « Reine de la nuit », éduquée et gracieuse, elle travaillait elle-même en tant que prostituée de luxe. Elle est très appréciée par tous les habitants de la ville qui l'appellent tous « Madame Apolline » avec respect et admiration.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "La Nuit galante"
+    },
+    {
+      "text": "La propriétaire de la Nuit galante, la maison close de Francastel, et une partisane de Cid.\n\nLorsqu'elle travaillait en tant que prostituée de luxe au Dominion du Cristal sous le nom de Carla, elle s'était éprise d'un jeune Pourvoyeur. Une fois leur union découverte, ils se sont enfuis à Francastel. Après la mort de son amant, c'est la bonté des citoyens qui la sauve. Elle aspire à leur rendre un jour la pareille en se dévouant au bien de la cité.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "L'union sacrée pour Francastel"
+    },
+    {
+      "text": "La propriétaire de la Nuit galante, la maison close de Francastel, et une partisane de Cid.\n\nElle connaît depuis longtemps Šuhra, la chef de la tribu de l'Eau. Lorsque cette dernière a appris l'existence de Cid le Renégat, elle a souhaité prendre contact avec lui par le biais d'une lettre remise par l'entremise d'Apolline.\n\nLa bienveillante patronne a aussi établi une relation de confiance avec le hameau en lui envoyant du ravitaillement, et en proposant d'accueillir certains de ses membres cherchant un travail discret à l'extérieur.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Liens avec la tribu de l'Eau"
+    }
+  ],
+  "related": [
+    "francastel",
+    "saint-empire-de-sangbreque",
+    "partisans-du-repaire",
+    "otto",
+    "nuit-galante",
+    "cid",
+    "philippe",
+    "suhra"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

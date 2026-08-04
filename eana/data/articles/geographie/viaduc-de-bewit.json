@@ -1,0 +1,26 @@
+{
+  "id": "viaduc-de-bewit",
+  "title": "Le viaduc de Bewit",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 108,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "pages": [
+    {
+      "text": "Une structure reliant Rosalith et l'est de Rosalia en enjambant la mer de la Serre.\n\nIl devait s'agir d'un aqueduc comme les autres, construit dans le but d'approvisionner en eau potable les régions du nord affectées par le Fléau noir. Toutefois, le décès prématuré de l'archiduc Elwin signa l'arrêt des travaux, et il n'a jamais acheminé une seule goutte.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Le viaduc de Bewit"
+    }
+  ],
+  "related": [
+    "rosalith",
+    "elwin-rosfield",
+    "chevaliers-noirs",
+    "archiduche-de-rosalia"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

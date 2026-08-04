@@ -1,0 +1,26 @@
+{
+  "id": "receptacle",
+  "title": "Le réceptacle",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 83,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "pages": [
+    {
+      "text": "Le nom que donne Ultima à Clive en plus de Mythos.\n\nIl ne cesse de répéter à ce dernier qu'il est son réceptacle.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "Le réceptacle"
+    }
+  ],
+  "related": [
+    "clive",
+    "mythos",
+    "ultima",
+    "ifrit-paracheve"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

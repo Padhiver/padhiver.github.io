@@ -1,0 +1,38 @@
+name: Eana — Régénérer le manifest
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "eana/**"
+
+jobs:
+  build-manifest:
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Régénérer eana/data/manifest.json
+        run: node scripts/build-manifest.js
+        working-directory: eana
+
+      - name: Commit si changé
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- eana/data/manifest.json; then
+            git add eana/data/manifest.json
+            git commit -m "chore(eana): régénère manifest.json [skip ci]"
+            git push
+          else
+            echo "Manifest déjà à jour, rien à committer."
+          fi

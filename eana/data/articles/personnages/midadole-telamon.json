@@ -1,0 +1,45 @@
+{
+  "id": "midadole-telamon",
+  "title": "Mid'adole Télamon",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 70,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "pages": [
+    {
+      "text": "Une jeune fille qui étudie l'ingénierie à l'université de Kanvěr.\n\nEn parallèle de son apprentissage, elle développe diverses inventions pour venir en aide aux gens du Repaire.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Généralités"
+    },
+    {
+      "text": "La fille de Cid, qui suit des études à l'université de Kanvěr.\n\nCid lui a enseigné les rudiments de l'ingénierie depuis son plus jeune âge, et elle a très vite montré un talent exceptionnel dans ce domaine. Elle étudie actuellement à l'université tout en développant diverses inventions pour venir en aide aux gens du Repaire.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "La fille de Cid"
+    },
+    {
+      "text": "La fille de Cid, qui s'est installée pour quelque temps au Repaire.\n\nElle grandit au Repaire, mais Cid ayant détecté chez elle des capacités de génie en science, il décide de l'envoyer étudier à l'université de Kanvěr. Elle a continué ensuite à développer ses connaissances tout en aidant les gens du Repaire. Ayant décidé d'achever le rêve de son père de construire un navire fonctionnant avec un moteur à mithril, elle finit par mettre au point l'Entreprise. Le bateau permet à Clive de traverser la mer avec Mid aux commandes.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Baptême de l'Entreprise"
+    },
+    {
+      "text": "Le capitaine de l'Entreprise.\n\nAdoptée par Cidolfus alors qu'elle était enfant, elle pense que la technologie du moteur à mithril est une source de rêve et d'espoir, même si elle craint aussi de voir cette invention utilisée à des fins guerrières. Actuellement, elle essaie de mettre au point un aéronef fonctionnant sur le même principe pour un jour naviguer dans les airs.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Sa passion pour les aéronefs"
+    }
+  ],
+  "related": [
+    "clive",
+    "otto",
+    "viviane",
+    "repaire-de-clive",
+    "cid",
+    "entreprise",
+    "ingenierie",
+    "aeronefs"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

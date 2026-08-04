@@ -1,0 +1,26 @@
+{
+  "id": "geste-de-crandall",
+  "title": "La Geste de Crandall",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 42,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "pages": [
+    {
+      "text": "Une célèbre histoire valisthéenne, souvent racontée sous la forme d'une pièce de théâtre.\n\nElle suit les aventures de Sire Crandall de Camelot, un chevalier au service de sainte Sibylle la Bienveillante. L'antagoniste principal est le sorcier Madou. C'était un des livres préférés de Clive lorsqu'il était enfant. Il aimait en jouer des passages avec son oncle Byron, dans les rôles respectifs de Crandall et Madou.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "La Geste de Crandall"
+    }
+  ],
+  "related": [
+    "clive",
+    "byron-rosfield",
+    "chateau-de-rosalith",
+    "port-yseut"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

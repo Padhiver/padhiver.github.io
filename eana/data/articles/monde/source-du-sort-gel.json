@@ -1,0 +1,32 @@
+{
+  "id": "source-du-sort-gel",
+  "title": "La source du sort Gel",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 52,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "pages": [
+    {
+      "text": "Un dispositif servant à projeter le sort d'arrêt du temps, Gel.\n\nIl se trouve au cœur de ruines anciennes sur un plateau dans les hauteurs de Mysidia. Il est donc nécessaire de se rendre dans ces ruines, appelées Cité suspendue, pour manipuler le sort.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Un dispositif servant à projeter le sort d'arrêt du temps, Gel.\n\nIl se trouve au cœur de la Cité suspendue, dans les hauteurs de Mysidia. Le dispositif ressemble à une tour enchâssée de cristal. Pendant quatre-vingts ans, il a figé dans le temps Waleas et la Déferlante de Nepto, ainsi que la Cité suspendue elle-même.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "Révélation"
+    }
+  ],
+  "related": [
+    "cite-suspendue",
+    "gel-le-sort-darret-du-temps",
+    "sorciere-du-nord",
+    "deferlante-de-nepto",
+    "gardien-du-temps"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ferda",
+  "title": "Ferda",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 22,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "pages": [
+    {
+      "text": "Un subalterne de Lubor, qui vit au relais de Dalimil.\n\nFerda dirige lui-même un groupe d'hommes qui effectuent différentes missions de renseignement. C'était à l'origine un bandit, mais il s'est repenti lorsque celle qui a été le mentor du jeune forgeron lui a proposé du travail. Il n'a jamais oublié sa dette envers Růžena Dalimil, si bien que même après son décès, il a décidé de se mettre au service de son disciple.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Ferda"
+    }
+  ],
+  "related": [
+    "relais-de-dalimil",
+    "oreille-du-desert",
+    "bandits",
+    "lames-de-la-rose"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

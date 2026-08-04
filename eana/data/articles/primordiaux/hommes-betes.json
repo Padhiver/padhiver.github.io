@@ -1,0 +1,26 @@
+{
+  "id": "hommes-betes",
+  "title": "Les hommes-bêtes",
+  "category": "primordiaux",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 33,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "pages": [
+    {
+      "text": "Les espèces intelligentes dont la langue ou la culture diffèrent de celles des humains.\n\nContrairement à la plupart des monstres et des animaux, les hommes-bêtes savent utiliser des outils et démontrent un comportement allant au-delà de l'instinct grégaire pour se rapprocher d'un ordre sociétal. Ils affrontent l'homme depuis la nuit des temps pour protéger et étendre leur territoire.",
+      "contextImage": "images/placeholders/emblem-primordiaux.svg",
+      "caption": "Les hommes-bêtes"
+    }
+  ],
+  "related": [
+    "monstres",
+    "gobelins",
+    "orcs",
+    "taurus"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

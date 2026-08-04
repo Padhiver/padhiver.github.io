@@ -1,0 +1,26 @@
+{
+  "id": "veuves-noires",
+  "title": "Les veuves noires",
+  "category": "primordiaux",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 50,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "pages": [
+    {
+      "text": "Des arthropodes qui s'approchent doucement de leurs proies.\n\nLes veuves noires attaquent en projetant sur leurs victimes un liquide collant ou en utilisant leurs pattes pourvues de crochets. Elles peuvent ramper sur n'importe quelle surface, des rochers d'une falaise au plafond d'un bâtiment, si bien que de nombreuses personnes affirment en avoir vu apparaître devant elles comme si l'animal était tombé du ciel. Leur présence a été signalée à de nombreuses reprises dans différentes contrées de Valisthéa, mais elles se font plus rares dans les déserts et les régions tropicales.",
+      "contextImage": "images/placeholders/emblem-primordiaux.svg",
+      "caption": "Les veuves noires"
+    }
+  ],
+  "related": [
+    "monstres",
+    "scorpions",
+    "frelons",
+    "val-norvent"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

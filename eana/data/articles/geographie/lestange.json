@@ -1,0 +1,43 @@
+{
+  "id": "lestange",
+  "title": "Lestange",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 131,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "pages": [
+    {
+      "text": "Un petit village situé à l'est de la province impériale de Rosalia.\n\nFondée au bord d'un étang et connue pour ses moulins pittoresques, cette petite bourgade était entourée de nombreux champs cultivés, mais une partie de ses habitants ont déserté l'endroit lorsque le Fléau noir est arrivé par le nord avec son lot de ravages. Lestange a ainsi inexorablement décliné.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Un petit village situé à l'est de la province impériale de Rosalia.\n\nCe village connu pour ses moulins était entouré de nombreux champs cultivés mais a décliné quand le Fléau noir en provenance du nord a commencé à faire des ravages. Les habitants y abritaient des réfugiés et Pourvoyeurs qui avaient fui pendant l'attaque du Royaume de Fer en 860. La nouvelle impératrice Annabella, administratrice de la province impériale, a eu vent de ce fait et a fait ordonner le massacre de tous ses résidents à titre d'exemple.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "La purge"
+    },
+    {
+      "text": "Un petit village situé à l'est de la province impériale de Rosalia.\n\nDes bandits avaient pris possession de ses ruines après la purge ordonnée par l'impératrice Annabella. Clive s'est allié aux Gardiens de l'Étincelle pour le leur reprendre. Ils ont ainsi permis aux Pourvoyeurs qui avaient trouvé refuge à l'Auberge de Martha de s'y installer.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Reconquête de Lestange"
+    }
+  ],
+  "related": [
+    "hanna-murdoch",
+    "terres-mortes",
+    "pourvoyeurs",
+    "invasion-ferregienne",
+    "ducalistes",
+    "annabella-rosfield",
+    "raid-sur-lestange",
+    "gardiens-de-letincelle",
+    "wade",
+    "auberge-de-martha",
+    "oscar"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

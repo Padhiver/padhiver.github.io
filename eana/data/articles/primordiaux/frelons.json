@@ -1,0 +1,26 @@
+{
+  "id": "frelons",
+  "title": "Les frelons",
+  "category": "primordiaux",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 28,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "pages": [
+    {
+      "text": "Des insectes pourvus d'ailes.\n\nIls passent à l'attaque en plantant leur dard empoisonné situé dans le bas de leur abdomen dès qu'ils sentent le moindre danger. Leur venin est si douloureux qu'il peut faire agoniser un adulte d'une seule piqûre. On en trouve dans la région de Rosalia.",
+      "contextImage": "images/placeholders/emblem-primordiaux.svg",
+      "caption": "Les frelons"
+    }
+  ],
+  "related": [
+    "monstres",
+    "veuves-noires",
+    "scorpions",
+    "archiduche-de-rosalia"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

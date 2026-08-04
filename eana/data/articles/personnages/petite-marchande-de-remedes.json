@@ -1,0 +1,33 @@
+{
+  "id": "petite-marchande-de-remedes",
+  "title": "La petite marchande de remèdes",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 46,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "pages": [
+    {
+      "text": "Une jeune réfugiée.\n\nElle fabrique des remèdes à partir d'ingrédients issus de différentes régions et vend sa marchandise dans les endroits passants.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Une petite fille qui vend des médicaments.\n\nKielle est une réfugiée originaire de Dalméquie. Présente au Dominion du Cristal lorsque Dion Lesage dévaste Port-Gémeau en perdant le contrôle de Bahamut, elle tente de soigner les blessés. Elle trouve alors le prince de Sangbrèque, inconscient, et le soigne jusqu'à ce qu'il reprenne ses esprits.",
+      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "caption": "Rencontre avec Dion"
+    }
+  ],
+  "related": [
+    "quartier-des-refugies-de-kostnice",
+    "route-du-cristal",
+    "iles-de-la-croisee",
+    "republique-de-dalmequie",
+    "dominion-du-cristal",
+    "dion-lesage"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

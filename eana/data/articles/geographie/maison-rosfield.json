@@ -1,0 +1,26 @@
+{
+  "id": "maison-rosfield",
+  "title": "La maison Rosfield",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 49,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "pages": [
+    {
+      "text": "La lignée des souverains rosaliens.\n\nL'Émissaire de Phénix ne naît que dans cette famille, et devient à sa majorité premier héritier du trône, selon la coutume.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "La maison Rosfield"
+    }
+  ],
+  "related": [
+    "elwin-rosfield",
+    "joshua-rosfield",
+    "ducalistes",
+    "sept-dynasties-rosaliennes"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

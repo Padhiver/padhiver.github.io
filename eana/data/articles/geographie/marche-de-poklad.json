@@ -1,0 +1,33 @@
+{
+  "id": "marche-de-poklad",
+  "title": "Le marché de Poklad",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 87,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "pages": [
+    {
+      "text": "Un hameau formé autour d'un marché en plein air, situé au nord-est de la Dalméquie.\n\nDans la langue locale, « Poklad » signifie « trésor ». Étant un point de passage de la route du Cristal, son marché s'est développé grâce au commerce de toutes sortes de produits venus de différents pays. On y trouve une caravane qui fait le lien avec l'île du Dominion.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Un hameau formé autour d'un marché en plein air, situé au nord-est de la Dalméquie et qui borde les chutes de Dzemekys.\n\nDans la langue locale, « Poklad » signifie « trésor ». Étant un point de passage de la route du Cristal, son marché s'est développé grâce au commerce de toutes sortes de produits venus de différents pays. La fin de la route marquant la limite du territoire dalmèque, il est désormais interdit de traverser son poste-frontière temporaire sans autorisation.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Poste de frontière temporaire"
+    }
+  ],
+  "related": [
+    "route-du-cristal",
+    "combe-de-lastny",
+    "iles-de-la-croisee",
+    "republique-de-dalmequie",
+    "cratere-de-dzemekys",
+    "caravane-ecarlate"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

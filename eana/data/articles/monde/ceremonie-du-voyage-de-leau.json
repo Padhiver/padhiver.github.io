@@ -1,0 +1,26 @@
+{
+  "id": "ceremonie-du-voyage-de-leau",
+  "title": "La cérémonie du voyage de l'Eau",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 29,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "pages": [
+    {
+      "text": "Une cérémonie traditionnelle visant à accueillir un nouveau-né dans la tribu de l'Eau.\n\nPeu après sa naissance, on présente l'enfant aux membres de la communauté qui l'accueillent officiellement ainsi. En temps normal, trois personnes y président : les deux parents et un témoin extérieur à la famille, qui est habituellement le chef de la tribu. Une personne ayant des liens profonds avec l'enfant peut éventuellement tenir l'un des rôles à titre de remplaçante.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "Généralités"
+    }
+  ],
+  "related": [
+    "peuple-de-leau",
+    "emissaire-de-leau",
+    "suhra",
+    "village-de-la-tribu-de-leau"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

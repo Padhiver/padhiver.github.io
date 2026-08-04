@@ -1,0 +1,46 @@
+{
+  "id": "remanences-celestes",
+  "title": "Les rémanences célestes",
+  "category": "primordiaux",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 44,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "pages": [
+    {
+      "text": "Des créatures hostiles enveloppées d'une sorte d'armure qui apparaissent dans les vestiges de la civilisation des Célestes.\n\nOn ne saurait dire si ce sont des monstres ou des êtres vivants. Elles semblent attaquer pour protéger les ruines à la moindre intrusion. Le matériau de leur armure ressemble fortement à celui utilisé pour ces anciennes constructions, il est donc impossible de les détruire avec de simples attaques.",
+      "contextImage": "images/placeholders/emblem-primordiaux.svg",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Des créatures hostiles enveloppées d'une carapace qui apparaissent dans les vestiges de la civilisation des Célestes ou à leurs alentours.\n\nOn ne saurait dire si ce sont des monstres ou des êtres vivants. Alors que quasiment aucun d'entre eux n'avait été aperçu bouger auparavant en dehors des ruines, on constate une recrudescence d'activité de ces vestiges animés venus des anciennes ruines détruites depuis la chute du Dominion.",
+      "contextImage": "images/placeholders/emblem-primordiaux.svg",
+      "caption": "Prolifération de vestiges animés"
+    },
+    {
+      "text": "Des créatures hostiles enveloppées d'une carapace qui apparaissent dans les vestiges de la civilisation des Célestes ou à leurs alentours.\n\nElles seraient animées par la volonté d'Ultima qui aurait infusé la vie à ces vestiges inertes en y insufflant son énergie.",
+      "contextImage": "images/placeholders/emblem-primordiaux.svg",
+      "caption": "Révélation"
+    },
+    {
+      "text": "Des créatures hostiles enveloppées d'une carapace qui apparaissent dans les vestiges de la civilisation des Célestes ou à leurs alentours.\n\nIssues à l'origine de la civilisation d'Ultima, les Célestes les ont ensuite répliquées afin de créer leurs propres armes magitech en tout genre. La Tour des Sages en abrite en grand nombre afin de protéger le secret de ses prototypes d'armes et autres expériences ; un système de sécurité commandé par une voix incorporelle, et contre lequel Clive s'est heurté lors de son exploration de l'édifice.",
+      "contextImage": "images/placeholders/emblem-primordiaux.svg",
+      "caption": "Le legs des Célestes"
+    }
+  ],
+  "related": [
+    "civilisation-celeste",
+    "creatures-bleues",
+    "geants-de-fer",
+    "fort-phenix",
+    "expurgation",
+    "civilisation-ultimienne",
+    "ultima",
+    "armes-magitech",
+    "tour-des-sages"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

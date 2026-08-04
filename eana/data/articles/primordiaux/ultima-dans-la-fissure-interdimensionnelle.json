@@ -1,0 +1,26 @@
+{
+  "id": "ultima-dans-la-fissure-interdimensionnelle",
+  "title": "Ultima dans la fissure interdimensionnelle",
+  "category": "primordiaux",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 61,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "pages": [
+    {
+      "text": "La forme que prend Ultima en réintégrant son corps déchu, celui d'Ifrit le Primordial ténébreux.\n\nDans la fissure interdimensionnelle, il s'attaque à Clive sous cette forme pour le faire plier en tant que Mythos.",
+      "contextImage": "images/placeholders/emblem-primordiaux.svg",
+      "caption": "Ultima dans la fissure interdimensionnelle"
+    }
+  ],
+  "related": [
+    "ultima",
+    "ifrit-le-primordial-tenebreux",
+    "mythos",
+    "fissure-interdimensionnelle"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

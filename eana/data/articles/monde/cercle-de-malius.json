@@ -1,0 +1,33 @@
+{
+  "id": "cercle-de-malius",
+  "title": "Le Cercle de Malius",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 62,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "pages": [
+    {
+      "text": "La plus ancienne religion mentionnée dans les sources historiques de Valisthéa.\n\nElle s'étendait autrefois du Vert-Ponant au Gris-Levant et serait à l'origine de la religion cristodoxe du Royaume de Fer. Ses fidèles vénéraient les Cristaux-mères et considéraient Ultima comme leur dieu.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "Généralités"
+    },
+    {
+      "text": "La plus ancienne religion mentionnée dans les sources historiques de Valisthéa.\n\nSes fidèles vénéraient les Cristaux-mères et considéraient Ultima comme leur dieu. Elle serait à l'origine de la religion cristodoxe du Royaume de Fer et d'un culte messianique encore présent au Gris-Levant. Ses croyances virent le jour à Dzemekys, comme le prouvent d'anciennes fresques retrouvées dans cette région. Autrefois pratiquée dans tout Valisthéa, elle finit par disparaître.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "Révélation"
+    }
+  ],
+  "related": [
+    "ancienne-fresque",
+    "cristodoxes",
+    "ultima",
+    "cristaux-meres",
+    "prophetie-du-salut",
+    "peuple-de-dzemekys"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

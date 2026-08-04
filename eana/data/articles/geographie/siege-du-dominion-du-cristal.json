@@ -1,0 +1,33 @@
+{
+  "id": "siege-du-dominion-du-cristal",
+  "title": "Le siège du Dominion du Cristal",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 105,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "pages": [
+    {
+      "text": "Un conflit entre le Saint-Empire de Sangbrèque et la république de Dalméquie pour le contrôle du Dominion du Cristal, en 878.\n\nPour comprendre l'origine de cet affrontement, il faut revenir en 873, lorsque le Saint-Empire déplace d'autorité sa capitale au Dominion et en prend le contrôle au mépris du pacte de non-agression signé par toutes les nations de Valisthéa. La république de Dalméquie exprime alors son vif désaccord. La tension ne cesse ensuite de s'accroître, culminant par le siège du Dominion par les forces dalmèques.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Un conflit entre le Saint-Empire de Sangbrèque et la république de Dalméquie pour le contrôle du Dominion du Cristal, en 878.\n\nLes forces du Saint-Empire utilisent la position défensive supérieure du Dominion à leur avantage, mettant à mal l'armée républicaine, qui finit par demander un armistice avantageux pour l'Empire. D'après les autorités sangbréquoises, c'est au jeune prince Octavien Lesage, fils cadet de l'empereur Sylvestre, que l'on doit la négociation de l'armistice, ce qui lui vaut d'accéder immédiatement au trône.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Armistice"
+    }
+  ],
+  "related": [
+    "dominion-du-cristal",
+    "saint-empire-de-sangbreque",
+    "pacte-de-non-agression",
+    "republique-de-dalmequie",
+    "octavien-lesage",
+    "destruction-de-crocdrac"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ether",
+  "title": "L'éther",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 18,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "pages": [
+    {
+      "text": "La force vitale qui émane de la planète et qui est consommée lorsque de la magie est utilisée.\n\nLa quantité qui se consume varie en fonction du sort, mais les sorts puissants et ceux affectant une zone étendue demandent évidemment plus d'éther. Ainsi, un petit cristal de poche suffira à allumer un feu destiné à cuire des aliments, mais il faudra en utiliser un plus grand pour nourrir le feu d'une forge.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "L'éther"
+    }
+  ],
+  "related": [
+    "magie",
+    "ether-stagnant",
+    "resistance-a-lether",
+    "monolithes"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

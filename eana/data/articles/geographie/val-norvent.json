@@ -1,0 +1,26 @@
+{
+  "id": "val-norvent",
+  "title": "Val-Norvent",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 141,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "pages": [
+    {
+      "text": "Une vallée dans le centre sud du Saint-Empire de Sangbrèque et à l'ouest de Fort-Norvent.\n\nAu-delà de la vallée se trouve une route forestière escarpée qui mène à La Nef déchue.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "Val-Norvent"
+    }
+  ],
+  "related": [
+    "fort-norvent",
+    "la-nef-dechue",
+    "plaine-de-la-glorieuse",
+    "saint-empire-de-sangbreque"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

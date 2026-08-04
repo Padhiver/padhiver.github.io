@@ -1,0 +1,26 @@
+{
+  "id": "bombos",
+  "title": "Les bombos",
+  "category": "primordiaux",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 17,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "pages": [
+    {
+      "text": "Des créatures qui prennent la forme de boules incandescentes.\n\nLes bombos se contentent la plupart du temps de dévaler les pentes comme de simples rochers, mais il arrive qu'ils s'enflamment et crachent du feu lorsqu'ils se sentent menacés. Poussés dans leurs derniers retranchements, ils n'hésitent pas à attiser le brasier qui les anime pour exploser et emporter leur cible avec eux. On pense qu'il s'agit d'entités magiques créées il y a bien longtemps. Bien qu'ils soient rares, on en croise dans tout Valisthéa.",
+      "contextImage": "images/placeholders/emblem-primordiaux.svg",
+      "caption": "Les bombos"
+    }
+  ],
+  "related": [
+    "entites-magiques",
+    "flans",
+    "flamme-liquide",
+    "ile-drustanus"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

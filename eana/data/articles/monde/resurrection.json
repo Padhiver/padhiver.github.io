@@ -1,0 +1,26 @@
+{
+  "id": "resurrection",
+  "title": "La Résurrection",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 50,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "pages": [
+    {
+      "text": "Un sort puissant qu'Ultima souhaite utiliser pour faire revenir à la vie ses frères et sœurs disparus.\n\nLancer ce sort nécessite cependant d'investir le corps de Mythos, car seul ce réceptacle résisterait à l'utilisation d'un sort aussi dangereux. Cela consommera également les réserves d'éther absorbé depuis des temps immémoriaux par les Cristaux-mères disposés aux quatre coins du monde.",
+      "contextImage": "images/placeholders/emblem-monde.svg",
+      "caption": "La Résurrection"
+    }
+  ],
+  "related": [
+    "ultima",
+    "creation-dun-nouveau-monde",
+    "cristaux-meres",
+    "mythos"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}

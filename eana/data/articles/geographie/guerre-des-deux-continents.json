@@ -1,0 +1,26 @@
+{
+  "id": "guerre-des-deux-continents",
+  "title": "La guerre des Deux Continents",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-04",
+  "order": 45,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "pages": [
+    {
+      "text": "Une guerre qui éclate en 865 avec une bataille autour du détroit d'Aurtha opposant le Saint-Empire de Sangbrèque au royaume de Valœd.\n\nAlors que l'Empire gagne en puissance au Vert-Ponant, la république de Dalméquie, elle-même en guerre contre le Royaume de Fer, forme une alliance avec Valœd pour assurer ses arrières, déclenchant ce conflit qui divise Valisthéa.",
+      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "caption": "La guerre des Deux Continents"
+    }
+  ],
+  "related": [
+    "saint-empire-de-sangbreque",
+    "royaume-de-valoed",
+    "detroit-daurtha",
+    "conflit-frontalier-de-873"
+  ],
+  "banner": {
+    "id": null,
+    "on": "OFF"
+  }
+}
