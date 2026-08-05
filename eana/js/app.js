@@ -12,6 +12,7 @@
   let homeQuery = "";
   const categoryState = {}; // { [categoryId]: { page, query } }
   let overlayPageIndex = 0;
+  let pendingCardOrigin = null;
 
   function parseHash() {
     const h = window.location.hash || "#/";
@@ -83,6 +84,7 @@
     if (!category) { navigate("#/"); return; }
 
     const state = getCatState(categoryId);
+    state.page = 0;
     const articles = EanaData.searchArticles(categoryId, state.query);
 
     app.innerHTML = EanaRender.renderCategory({
@@ -127,22 +129,74 @@
 
   // ---------- Transition accueil -> catégorie (animation demandée) ----------
 
-  async function goHomeToCategory(categoryId) {
-    app.classList.remove("view-entering");
-    app.classList.add("view-leaving");
-    await waitAnimationEnd(app, 340);
-    app.classList.remove("view-leaving");
+  function waitTransitionEnd(el, fallbackMs) {
+    return new Promise((resolve) => {
+      let done = false;
+      const finish = () => {
+        if (done) return;
+        done = true;
+        el.removeEventListener("transitionend", finish);
+        resolve();
+      };
+      el.addEventListener("transitionend", finish, { once: true });
+      setTimeout(finish, fallbackMs);
+    });
+  }
 
+  async function goHomeToCategory(categoryId) {
+    const origin = pendingCardOrigin;
+    pendingCardOrigin = null;
+
+    if (!origin || window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      app.classList.remove("view-entering");
+      app.classList.add("view-leaving");
+      await waitAnimationEnd(app, 340);
+      app.classList.remove("view-leaving");
+
+      renderCategoryView(categoryId);
+
+      app.classList.add("view-entering");
+      await waitAnimationEnd(app, 420);
+      app.classList.remove("view-entering");
+      return;
+    }
+
+    // La carte cliquée "devient" le panneau catégorie : on calcule le
+    // déplacement/échelle nécessaires pour que le nouveau contenu démarre
+    // exactement où était la carte, puis on relâche vers sa taille normale.
     renderCategoryView(categoryId);
 
-    app.classList.add("view-entering");
-    await waitAnimationEnd(app, 420);
-    app.classList.remove("view-entering");
+    const finalRect = app.getBoundingClientRect();
+    const scaleX = origin.width / finalRect.width;
+    const scaleY = origin.height / finalRect.height;
+    const dx = (origin.left + origin.width / 2) - (finalRect.left + finalRect.width / 2);
+    const dy = (origin.top + origin.height / 2) - (finalRect.top + finalRect.height / 2);
+
+    app.style.transition = "none";
+    app.style.transformOrigin = "center center";
+    app.style.transform = `translate(${dx}px, ${dy}px) scale(${scaleX}, ${scaleY})`;
+    app.style.opacity = "0.5";
+    app.getBoundingClientRect(); // force le recalcul de mise en page avant l'animation
+
+    requestAnimationFrame(() => {
+      app.style.transition = "transform 0.5s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.3s ease";
+      app.style.transform = "translate(0, 0) scale(1, 1)";
+      app.style.opacity = "1";
+    });
+
+    await waitTransitionEnd(app, 550);
+
+    app.style.transition = "";
+    app.style.transform = "";
+    app.style.transformOrigin = "";
+    app.style.opacity = "";
   }
 
   function switchCategory(categoryId) {
     const category = EanaData.getCategory(categoryId);
     if (!category) { navigate("#/"); return; }
+
+    getCatState(categoryId).page = 0;
 
     // Onglets et cadre déjà en place : on ne touche que ce qui change réellement,
     // pas de re-render complet (sinon tout "pop" d'un coup).
@@ -263,8 +317,10 @@
     const openCategory = e.target.closest("[data-open-category]");
     if (openCategory) {
       const id = openCategory.getAttribute("data-open-category");
-      if (lastMainRoute.type === "home") navigate(`#/categorie/${id}`);
-      else { navigate(`#/categorie/${id}`); }
+      if (lastMainRoute.type === "home" && openCategory.classList.contains("category-card")) {
+        pendingCardOrigin = openCategory.getBoundingClientRect();
+      }
+      navigate(`#/categorie/${id}`);
       return;
     }
 
