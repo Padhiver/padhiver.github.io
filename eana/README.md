@@ -74,12 +74,15 @@ Liste libre, sans nombre fixe — ajoute/retire des entrées selon ton lore :
 - `label` : texte alternatif / infobulle.
 - `image` : idéalement un PNG à fond transparent (la forme du ruban vient de l'image elle-même, l'interface ne la découpe pas). Suggestion : la ranger dans `images/banners/`.
 
-**`data/manifest.json` se régénère tout seul**, pas besoin de lancer `build-manifest.js` à la main :
+**`data/manifest.json` se régénère automatiquement en local**, pas besoin de lancer `build-manifest.js` à la main pendant que tu travailles : `scripts/dev-server.js` le régénère à chaque requête sur `data/manifest.json` — crée/modifie une fiche, rafraîchis la page, c'est à jour.
 
-- **En local**, `scripts/dev-server.js` le régénère à chaque requête sur `data/manifest.json` — crée/modifie une fiche, rafraîchis la page, c'est à jour.
-- **En ligne**, le workflow `.github/workflows/eana-build-manifest.yml` (à la racine du dépôt `padhiver.github.io`, pas dans ce dossier) le régénère automatiquement à chaque `push` sur `main` qui touche `eana/**` (y compris pour une modification faite directement dans l'éditeur GitHub) et committe le résultat si besoin.
+Il n'y a **pas** de régénération côté GitHub (plus de workflow qui committe après coup — ça causait des divergences entre le dépôt local et distant). À la place, la régénération se fait avant l'envoi, via `publier.bat` (voir ci-dessous).
 
-Le script (`node scripts/build-manifest.js`) reste utilisable à la main si besoin — il valide aussi que chaque fiche a bien `title`, `category`, un `public` correct (`ON`/`OFF`), et que son dossier correspond à sa `category` ; il s'arrête avec un message clair si une fiche est mal formée (et la Action GitHub échouera pareillement si tu pousses une fiche invalide).
+Le script (`node scripts/build-manifest.js`) valide aussi que chaque fiche a bien `title`, `category`, un `public` correct (`ON`/`OFF`), et que son dossier correspond à sa `category` ; il s'arrête avec un message clair si une fiche est mal formée.
+
+## Publier les modifications
+
+Une fois tes modifications faites (fiches, images, CSS...), double-clique sur `publier.bat` à la racine de ce dossier. Il régénère le manifest, puis committe et pousse tout vers GitHub, en une seule fois. Rien d'autre à faire — pas de commande à taper, pas de `git add`/`commit`/`push` manuel.
 
 ## Prévisualiser en local
 
@@ -113,9 +116,8 @@ Copier le résultat dans `js/data.js`, constante `MASTER_HASH`. La passphrase el
 
 Ce dossier fait partie du dépôt `padhiver.github.io` (dépôt utilisateur GitHub Pages existant, remote déjà configuré, branche `main`) — pas besoin de créer un dépôt séparé ni de `git remote add`.
 
-1. Depuis la racine du dépôt `padhiver.github.io` (pas depuis `eana/`) : `git add eana .github .nojekyll`, commit, `git push`.
-2. Une fois (si pas déjà fait) : `Settings → Actions → General → Workflow permissions` → cocher **Read and write permissions**. (Sans ça, le job de régénération du manifest échoue au moment du `git push`.)
-3. Une fois (si pas déjà fait) : `Settings → Pages → Source → Deploy from a branch`, choisir la branche `main` et le dossier `/ (root)`.
-4. Le site est disponible à `https://padhiver.github.io/eana` (le reste du dépôt peut héberger d'autres sites dans d'autres sous-dossiers, ex. `padhiver.github.io/autre-site`, sans interférer avec celui-ci).
+1. Première fois : `Settings → Pages → Source → Deploy from a branch`, choisir la branche `main` et le dossier `/ (root)` (si pas déjà fait).
+2. À chaque mise à jour : lancer `publier.bat` (voir "Publier les modifications" plus haut).
+3. Le site est disponible à `https://padhiver.github.io/eana` (le reste du dépôt peut héberger d'autres sites dans d'autres sous-dossiers, ex. `padhiver.github.io/autre-site`, sans interférer avec celui-ci).
 
-Pour toute mise à jour ultérieure : commit + `git push` (ou édition directe d'une fiche dans l'éditeur GitHub), le workflow régénère `eana/data/manifest.json` si besoin et GitHub Pages republie automatiquement.
+GitHub Pages republie automatiquement à chaque `push`, quelques minutes après.
