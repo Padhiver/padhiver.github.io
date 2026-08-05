@@ -196,7 +196,7 @@ a { color: inherit; }
 
 .card {
   position: relative;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 1.84;
   overflow: hidden;
   border: 1px solid rgba(201, 169, 97, 0.22);
   border-radius: 12px;
@@ -266,7 +266,7 @@ a { color: inherit; }
   gap: 18px;
 }
 .category-card {
-  aspect-ratio: 16 / 11;
+  aspect-ratio: 1.6;
 }
 .category-card .card-body {
   position: absolute;
@@ -373,7 +373,6 @@ a { color: inherit; }
   grid-template-columns: repeat(5, 1fr);
   gap: 16px;
 }
-.article-grid .card { aspect-ratio: 16 / 9; }
 .article-grid .card .card-title { font-size: 0.8rem; }
 .article-grid .card-placeholder {
   visibility: hidden;
@@ -508,11 +507,14 @@ a { color: inherit; }
   border: 1px solid var(--panel-border);
   display: grid;
   grid-template-columns: 1.05fr 0.95fr;
-  height: clamp(440px, 62vh, 620px);
+  grid-template-rows: minmax(0, 1fr);
+  aspect-ratio: 2.06;
+  max-height: 78vh;
+  min-height: 0;
   box-shadow: 0 40px 90px rgba(0, 0, 0, 0.55);
 }
 @media (max-width: 760px) {
-  .article-panel { grid-template-columns: 1fr; height: auto; min-height: 420px; }
+  .article-panel { grid-template-columns: 1fr; aspect-ratio: auto; height: auto; min-height: 420px; }
 }
 
 .article-panel .text-col {
@@ -520,6 +522,7 @@ a { color: inherit; }
   display: flex;
   flex-direction: column;
   height: 100%;
+  min-height: 0;
   overflow-y: auto;
   overflow-x: hidden;
   scroll-behavior: smooth;

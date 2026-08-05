@@ -46,7 +46,7 @@ const EanaRender = (() => {
     const badgeOff = article.public === "OFF"
       ? `<span class="badge-off">Privé</span>`
       : "";
-    return `<div class="card ${big ? "" : ""} card-in" style="animation-delay:${index * 45}ms" data-open-article="${article.id}">
+    return `<div class="card ${big ? "card-big" : ""} card-in" style="animation-delay:${index * 45}ms" data-open-article="${article.id}">
       <img src="${escapeHtml(article.cardImage || "")}" alt="">
       <div class="card-shade"></div>
       ${badgeOff}
