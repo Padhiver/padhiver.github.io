@@ -11,11 +11,5 @@ if errorlevel 1 (
 )
 
 echo.
-echo Envoi vers GitHub...
-git add eana .github .nojekyll
-git commit -m "Mise a jour du site - %date% %time%"
-git push
-
-echo.
-echo Termine.
+echo Termine. Manifest regenere (rien envoye sur GitHub, a faire via GitHub Desktop).
 pause
