@@ -1,0 +1,39 @@
+{
+  "id": "primordiaux",
+  "title": "Les Primordiaux",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 83,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Des créatures proches du divin et aux pouvoirs mystiques qui dépassent l'imagination.\n\nLes Primordiaux se manifestent par l'intermédiaire d'êtres humains surnommés « Émissaires », et chacun d'eux possède sa propre affinité élémentaire. Un lecteur assidu prêt à consulter les archives du monde entier pourra en dénombrer huit, mais impossible d'en apprendre guère plus sur eux, car nul ne les a déjà tous rencontrés.",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Des créatures proches du divin et aux pouvoirs mystiques qui dépassent l'imagination.\n\nLes Primordiaux se manifestent par l'intermédiaire d'êtres humains surnommés « Émissaires », et chacun d'eux possède sa propre affinité élémentaire ; le feu, l'eau, le vent, la terre, la glace, la foudre, la lumière et les ténèbres. Ce total de huit a toutefois été remis en question avec l'apparition d'un second Primordial de feu lors de l'assaut de Sangbrèque sur le fort Phénix.",
+      "caption": "Les différents éléments"
+    },
+    {
+      "text": "Des créatures proches du divin et aux pouvoirs mystiques qui dépassent l'imagination.\n\nLes huit Primordiaux se manifestent par l'intermédiaire d'êtres humains surnommés « Émissaires », et chacun d'eux possède sa propre affinité élémentaire. Ifrit, qu'on pensait être un second Primordial de feu, s'est en fait révélé n'être qu'un réceptacle charnel pour Ultima, dit « Mythos ». Les autres Primordiaux n'étaient quant à eux que des offrandes destinées à nourrir Mythos et ont accompli leur rôle en lui faisant absorber leurs pouvoirs.",
+      "caption": "Révélation"
+    },
+    {
+      "text": "Des créatures proches du divin et aux pouvoirs mystiques qui dépassent l'imagination.\n\nElles sont la forme tangible du pouvoir d'Ultima divisé en huit éléments. À l'origine, Ultima prévoyait de faire dévorer les Primordiaux à « Mythos », l'être qui devait lui servir de nouvelle enveloppe charnelle. Alors que Clive avait déjà assimilé suffisamment de pouvoir, il absorba de son propre chef celui du dernier Primordial, Léviathan, qu'Ultima avait rejeté en tant qu'impur. Mythos possède ainsi les pouvoirs de tous les éléments.",
+      "caption": "Le dernier élément primordial"
+    }
+  ],
+  "related": [
+    "emissaires",
+    "incarnation",
+    "incarnation-partielle",
+    "magie",
+    "primordial-mysterieux",
+    "mythos",
+    "ancienne-fresque",
+    "ultima",
+    "leviathan"
+  ]
+}

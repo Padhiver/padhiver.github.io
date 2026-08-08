@@ -1,0 +1,40 @@
+{
+  "id": "suhra",
+  "title": "Šuhra",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 85,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "rising-tide",
+  "pages": [
+    {
+      "text": "La chef de la tribu de l'Eau.\n\nElle a envoyé une lettre à Cid le Renégat pour lui demander de l'aide afin de sauver Léviathan. Elle semble avoir des liens avec Apolline, patronne de la Nuit galante. Celle-ci a servi d'intermédiaire à la remise de la lettre.\n\nPréférant éviter les regards curieux, elle a établi son camp à l'écart de Francastel pour y rencontrer Clive.",
+      "caption": "Généralités"
+    },
+    {
+      "text": "La chef de la tribu de l'Eau.\n\nElle a contacté Clive pour lui demander de l'aide afin de sauver Waleas, l'Émissaire de Léviathan. Elle l'a ensuite invité dans son village, dans la région de Mysidia. Elle veut expier les crimes de ses ancêtres, qui ont scellé Waleas.\n\nElle manie une grande hache et possède des pouvoirs magiques.",
+      "caption": "En tant que chef de la tribu de l'Eau"
+    },
+    {
+      "text": "La chef de la tribu de l'Eau.\n\nAprès avoir guidé Clive et son groupe vers la Cité suspendue, ils ont réussi à libérer Waleas de l'emprise du sort Gel. Elle compte à présent élever l'enfant en lui apportant toute l'attention qu'il mérite. Elle mène également une réflexion sur l'avenir de son village, qui devra sans doute s'ouvrir petit à petit au monde.",
+      "caption": "La libération de Waleas"
+    },
+    {
+      "text": "La chef de la tribu de l'Eau et la sœur aînée de Fahmil.\n\nElle a enfin pu réaliser son long souhait de libérer Waleas et s'occupera désormais de l'élever. Le village a célébré la naissance de l'enfant en organisant la cérémonie du voyage de l'Eau. Elle a joué le rôle de la mère du bébé au cours de celle-ci.\n\nElle est sévère avec son frère Fahmil, mais elle sait qu'il a un bon fond malgré ses maladresses.",
+      "caption": "En tant que membre de la tribu de l'Eau"
+    }
+  ],
+  "related": [
+    "emissaire-de-leau",
+    "peuple-de-leau",
+    "madame-apolline",
+    "baie-de-lollpheist",
+    "darina",
+    "mysidia",
+    "village-de-la-tribu-de-leau",
+    "cite-suspendue",
+    "homme-a-lair-louche",
+    "ceremonie-du-voyage-de-leau"
+  ]
+}

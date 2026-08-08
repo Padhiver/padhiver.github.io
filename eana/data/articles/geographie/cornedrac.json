@@ -1,0 +1,27 @@
+{
+  "id": "cornedrac",
+  "title": "Cornedrac",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 6,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Un Cristal-mère qui se dressait autrefois au sud du Gris-Levant, une région désormais ravagée par le Fléau noir.\n\nLorsque Cornedrac fut détruit, Échinedrac devint le dernier Cristal-mère restant au Gris-Levant, ce qui engendra une intensification des conflits dans la zone. Le royaume de Weldermark vit ensuite le jour et fédéra les différentes nations tribales de la région.",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Un Cristal-mère qui se dressait autrefois au sud du Gris-Levant, une région désormais ravagée par le Fléau noir.\n\nLorsque Cornedrac fut détruit vers l'an 300 du calendrier ponantin, Échinedrac devint le dernier Cristal-mère restant au Gris-Levant, ce qui engendra une intensification des conflits dans la zone. Souffrant également de l'avancée du Fléau, la tribu de l'Eau, qui vivait à proximité de Cornedrac, fut contrainte de quitter sa terre ancestrale suite à ces événements et devint un peuple nomade.",
+      "caption": "Liens avec la tribu de l'Eau"
+    }
+  ],
+  "related": [
+    "gris-levant",
+    "cristaux-morts",
+    "echinedrac",
+    "royaume-de-weldermark",
+    "peuple-de-leau"
+  ]
+}

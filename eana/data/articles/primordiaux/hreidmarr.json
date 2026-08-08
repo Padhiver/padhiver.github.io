@@ -1,0 +1,22 @@
+{
+  "id": "hreidmarr",
+  "title": "Hreidmarr",
+  "category": "primordiaux",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 5,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "source": "rising-tide",
+  "pages": [
+    {
+      "text": "Un monstre de la famille des archéosaures qui vit à Mysidia.\n\nIl se distingue par le poison violent qu'il sécrète sur son dos. Les archéosaures vivaient autrefois nombreux dans les territoires du Nord, mais déclinèrent brusquement avec l'avancée du Fléau noir. Les plus puissants d'entre eux portaient parfois un surnom, comme le « Dragon du Nord » qui avait migré à la limite du territoire rosalien. On peut supposer que le puissant poison dont dispose Hreidmarr lui a permis de vivre très vieux en s'imposant sur le territoire restreint de Mysidia.",
+      "caption": "Généralités"
+    }
+  ],
+  "related": [
+    "betes-fabuleuses",
+    "archeosaures",
+    "cite-suspendue",
+    "terres-du-nord"
+  ]
+}

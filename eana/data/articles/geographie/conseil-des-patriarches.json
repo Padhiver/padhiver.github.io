@@ -1,0 +1,22 @@
+{
+  "id": "conseil-des-patriarches",
+  "title": "Le Conseil des Patriarches",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 84,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Une assemblée qui soutient et conseille l'empereur du Saint-Empire de Sangbrèque dans le cadre de sa gestion du pays.\n\nElle est composée de cinq sages appelés des hiérophantes, l'un d'entre eux présidant en tant que doyen. Sur le papier, les Patriarches sont responsables des affaires politiques et militaires, mais dans les faits, l'empereur Sylvestre Lesage règne en monarque absolu.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "hierophantes",
+    "sylvestre-lesage",
+    "astromancie",
+    "hierophante-doyen"
+  ]
+}

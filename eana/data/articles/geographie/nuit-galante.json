@@ -1,0 +1,28 @@
+{
+  "id": "nuit-galante",
+  "title": "La Nuit galante",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 57,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Une maison close de luxe située à Francastel.\n\nBien que cet établissement soit principalement fréquenté par des soldats, la propriétaire, Madame Apolline, traite tous ses clients sur un pied d'égalité. Véritable oasis, la Nuit galante est appréciée par tous, soldats ou civils.",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Une maison close de luxe située à Francastel.\n\nPar principe, la propriétaire, Madame Apolline, ne refuse jamais de venir en aide aux personnes dans le besoin en les employant. Après l'assombrissement du ciel, elle a hébergé des réfugiés d'Oriflamme. Elle aide discrètement la tribu de l'Eau de Mysidia depuis longtemps, fournissant vivres et travail à ses membres.",
+      "caption": "Liens avec la tribu de l'Eau"
+    }
+  ],
+  "related": [
+    "francastel",
+    "madame-apolline",
+    "protection-des-pourvoyeurs",
+    "saint-empire-de-sangbreque",
+    "jarmila",
+    "peuple-de-leau"
+  ]
+}

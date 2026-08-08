@@ -1,0 +1,22 @@
+{
+  "id": "lien-spirituel",
+  "title": "Le lien spirituel",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 35,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Le terme employé par Ultima pour parler des liens qui unissent les hommes par leur volonté et leur libre arbitre.\n\nSelon Ultima, chaque être humain serait influencé par les souhaits et les émotions des autres, et cet apport consoliderait le libre arbitre de chacun. C'est pour briser ce lien qu'il veut pratiquer une Expurgation qui changera tous les humains en éthériques et les privera de leur libre arbitre.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "ultima",
+    "libre-arbitre",
+    "expurgation",
+    "logos"
+  ]
+}

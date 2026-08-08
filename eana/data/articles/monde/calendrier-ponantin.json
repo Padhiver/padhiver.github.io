@@ -1,0 +1,22 @@
+{
+  "id": "calendrier-ponantin",
+  "title": "Le calendrier ponantin",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 28,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Un calendrier utilisé dans plusieurs régions de Valisthéa depuis plus de huit cents ans.\n\nC'est à l'occasion de la signature du Traité intercontinental entre les différentes nations valisthéennes que celles-ci adoptèrent le calendrier ponantin, qui fut créé sur le continent du Vert-Ponant. Il s'agissait alors de symboliser le passage à une nouvelle ère de paix. Les nations grandirent puis s'éteignirent au gré des victoires et des défaites militaires, ce qui fit perdre toute crédibilité à ce traité, mais le calendrier resta quant à lui en usage dans les textes administratifs et la vie de tous les jours.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "valisthea",
+    "traite-intercontinental",
+    "guerre-des-deux-continents",
+    "gils"
+  ]
+}

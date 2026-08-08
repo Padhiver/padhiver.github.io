@@ -1,0 +1,22 @@
+{
+  "id": "leos",
+  "title": "Leoš",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 51,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Un jeune orphelin de guerre vivant à Dalimil.\n\nIl a un tempérament enjoué et un caractère entier. Il passe le plus clair de son temps en compagnie de Dáša, avec laquelle il n'a aucun lien de parenté, et voit en Lubor un grand frère depuis qu'il l'a secouru au bord de l'inanition. Leoš a pour habitude d'observer le travail des adultes de Dalimil, lesquels lui confient parfois quelques menues tâches.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "relais-de-dalimil",
+    "dasa",
+    "oreille-du-desert",
+    "lames-de-la-rose"
+  ]
+}

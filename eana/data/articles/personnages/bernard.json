@@ -1,0 +1,27 @@
+{
+  "id": "bernard",
+  "title": "Bernard",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 5,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Un charpentier de talent qui travaille pour Martha.\n\nBernard est considéré comme le plus doué des professionnels dans la région, en plus d'être rapide et efficace. Il était responsable de l'entretien et des réparations du pont sur le chemin de Lestange.",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Un charpentier de talent qui travaille pour Martha.\n\nBernard est considéré comme le plus doué des professionnels dans la région, en plus d'être rapide et efficace. Il est originaire de Cressida, un village aujourd'hui abandonné, et il vient tout juste de se marier.",
+      "caption": "Autres informations"
+    }
+  ],
+  "related": [
+    "auberge-de-martha",
+    "lestange",
+    "martha",
+    "archiduche-de-rosalia",
+    "cressida"
+  ]
+}

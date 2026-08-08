@@ -1,0 +1,28 @@
+{
+  "id": "armes-magitech",
+  "title": "Les armes magitech",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 51,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "echoes-of-the-fallen",
+  "pages": [
+    {
+      "text": "Les armes que les Célestes ont développées grâce à leur technologie magitech.\n\nLeur puissance est incommensurable, et les mécanismes sophistiqués qui les composent les rendent impossibles à recréer de nos jours. Les Célestes les ont produites et utilisées en masse pour livrer bataille.",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Les armes que les Célestes ont développées grâce à leur technologie magitech.\n\nLeur apparence varie beaucoup, car leurs fonctions étaient définies selon les besoins au moment de leur création. Celles fabriquées dans la Tour des Sages intègrent des fibres biologiques découvertes lors du processus de construction du Cristal-mère artificiel. Le Bio-Primordial Oméga, la plus puissante d'entre elles, a été conçue dans le but d'atteindre une puissance divine capable de rivaliser les dieux eux-mêmes et de les détruire.",
+      "caption": "Les armes de la Tour des Sages"
+    }
+  ],
+  "related": [
+    "technologie-magitech",
+    "guerre-de-la-magie",
+    "civilisation-celeste",
+    "tour-des-sages",
+    "fibres-biologiques",
+    "bio-primordial"
+  ]
+}

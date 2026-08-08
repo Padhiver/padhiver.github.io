@@ -1,0 +1,22 @@
+{
+  "id": "gris-levant",
+  "title": "Le Gris-Levant",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 99,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Le continent oriental de Valisthéa, sur lequel se trouve uniquement le royaume de Valœd.\n\nPlus petit que le Vert-Ponant, il est tapissé de montagnes et cerclé de côtes escarpées. À cette géographie inhospitalière viennent s'ajouter les Terres mortes qui engloutissent chaque jour un peu plus les rares étendues boisées, faisant du Gris-Levant une région hostile à la vie.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "valisthea",
+    "royaume-de-valoed",
+    "terres-mortes",
+    "vert-ponant"
+  ]
+}

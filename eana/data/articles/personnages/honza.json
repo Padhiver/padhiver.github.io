@@ -1,0 +1,22 @@
+{
+  "id": "honza",
+  "title": "Honza",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 31,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Un jeune orphelin qui a commis des vols pour le compte des Lapidaires.\n\nLui et les autres enfants autrefois livrés à eux-mêmes se trouvent aujourd'hui sous la protection d'Éloïse, qui leur offre un travail honnête et un salaire. Honza a promis à Goetz d'être son premier client lorsque celui-ci ouvrirait son échoppe.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "marche-de-poklad",
+    "eloise-vesta",
+    "goetz",
+    "lapidaires"
+  ]
+}

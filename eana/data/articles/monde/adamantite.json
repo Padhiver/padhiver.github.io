@@ -1,0 +1,22 @@
+{
+  "id": "adamantite",
+  "title": "L'adamantite",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 9,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Un minerai rare caractérisé par sa dureté inégalée dans tout Valisthéa.\n\nIl n'est possible d'en extraire que dans certaines mines du Gris-Levant, ce qui est à l'origine de nombreux conflits pour conquérir ces territoires. Peu d'artisans étant capables de le travailler, les créations à base de ce minerai s'arrachent à prix d'or chez les souverains et les nobles. Ce n'est pas le genre de produit à traîner sur les étalages.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "gris-levant",
+    "thalan",
+    "royaume-de-valoed",
+    "valisthea"
+  ]
+}

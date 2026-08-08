@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T13:11:36.336Z",
+  "generatedAt": "2026-08-08T13:13:32.955Z",
   "articles": [
     {
       "id": "ambrune",
@@ -218,29 +218,11 @@
       "cardImage": "images/placeholders/emblem-geographie.svg"
     },
     {
-      "id": "einherjar",
-      "title": "L'Einherjar",
-      "category": "geographie",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 24,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
-    },
-    {
       "id": "ceremonie-dadoubement",
       "title": "La cérémonie d'adoubement",
       "category": "geographie",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 25,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
-    },
-    {
-      "id": "herbe-aux-dragons",
-      "title": "L'herbe aux dragons",
-      "category": "geographie",
-      "public": "ON",
-      "date": "2026-08-04",
       "order": 25,
       "cardImage": "images/placeholders/emblem-geographie.svg"
     },
@@ -524,15 +506,6 @@
       "cardImage": "images/placeholders/emblem-geographie.svg"
     },
     {
-      "id": "recherche-botanique",
-      "title": "La recherche botanique",
-      "category": "geographie",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 56,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
-    },
-    {
       "id": "nuit-galante",
       "title": "La Nuit galante",
       "category": "geographie",
@@ -601,15 +574,6 @@
       "category": "geographie",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 64,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
-    },
-    {
-      "id": "bourgeon-cristallin",
-      "title": "Le bourgeon cristallin",
-      "category": "geographie",
-      "public": "ON",
-      "date": "2026-08-04",
       "order": 64,
       "cardImage": "images/placeholders/emblem-geographie.svg"
     },
@@ -866,15 +830,6 @@
       "cardImage": "images/placeholders/emblem-geographie.svg"
     },
     {
-      "id": "peuple-du-feu",
-      "title": "Le peuple du Feu",
-      "category": "geographie",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 92,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
-    },
-    {
       "id": "detroit-daurtha",
       "title": "Le détroit d'Aurtha",
       "category": "geographie",
@@ -1024,15 +979,6 @@
       "category": "geographie",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 109,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
-    },
-    {
-      "id": "aeronefs",
-      "title": "Les aéronefs",
-      "category": "geographie",
-      "public": "ON",
-      "date": "2026-08-04",
       "order": 109,
       "cardImage": "images/placeholders/emblem-geographie.svg"
     },
@@ -1213,15 +1159,6 @@
       "category": "geographie",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 129,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
-    },
-    {
-      "id": "terres-mortes",
-      "title": "Les Terres mortes",
-      "category": "geographie",
-      "public": "ON",
-      "date": "2026-08-04",
       "order": 129,
       "cardImage": "images/placeholders/emblem-geographie.svg"
     },
@@ -1658,29 +1595,11 @@
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
     {
-      "id": "angra-mainyu",
-      "title": "Angra Mainyu",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 1,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
       "id": "gel-le-sort-darret-du-temps",
       "title": "Gel, le sort d'arrêt du temps",
       "category": "monde",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 2,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
-      "id": "caudrac",
-      "title": "Caudrac",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
       "order": 2,
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
@@ -1694,29 +1613,11 @@
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
     {
-      "id": "chefdrac",
-      "title": "Chefdrac",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 3,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
       "id": "ceremonie-du-voyage-de-leau",
       "title": "La cérémonie du voyage de l'Eau",
       "category": "monde",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 4,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
-      "id": "cornedrac",
-      "title": "Cornedrac",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
       "order": 4,
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
@@ -1730,29 +1631,11 @@
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
     {
-      "id": "crocdrac",
-      "title": "Crocdrac",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 5,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
       "id": "civilisation-celeste",
       "title": "La civilisation céleste",
       "category": "monde",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 6,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
-      "id": "darina",
-      "title": "Darina",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
       "order": 6,
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
@@ -1766,15 +1649,6 @@
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
     {
-      "id": "dzemekys",
-      "title": "Dzemekys",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 7,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
       "id": "creation-dun-nouveau-monde",
       "title": "La création d'un nouveau monde",
       "category": "monde",
@@ -1784,29 +1658,11 @@
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
     {
-      "id": "echinedrac",
-      "title": "Échinedrac",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 8,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
       "id": "adamantite",
       "title": "L'adamantite",
       "category": "monde",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 9,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
-      "id": "fanette",
-      "title": "Fanette",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
       "order": 9,
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
@@ -1829,29 +1685,11 @@
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
     {
-      "id": "harek",
-      "title": "Harek",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 11,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
       "id": "marque",
       "title": "La marque",
       "category": "monde",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 12,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
-      "id": "jarmila",
-      "title": "Jarmila",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
       "order": 12,
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
@@ -1874,15 +1712,6 @@
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
     {
-      "id": "alliance-rosalia-dalmequie",
-      "title": "L'alliance Rosalia-Dalméquie",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 14,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
       "id": "prophetie-du-salut",
       "title": "La prophétie du salut",
       "category": "monde",
@@ -1897,15 +1726,6 @@
       "category": "monde",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 16,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
-      "id": "emissaire-de-leau",
-      "title": "L'Émissaire de l'Eau",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
       "order": 16,
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
@@ -1955,15 +1775,6 @@
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
     {
-      "id": "homme-a-lair-louche",
-      "title": "L'homme à l'air louche",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 21,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
       "id": "stele-dexcellence",
       "title": "La Stèle d'excellence",
       "category": "monde",
@@ -1991,15 +1802,6 @@
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
     {
-      "id": "invasion-ferregienne",
-      "title": "L'invasion ferrégienne",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 24,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
       "id": "technologie-magitech",
       "title": "La technologie magitech",
       "category": "monde",
@@ -2018,15 +1820,6 @@
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
     {
-      "id": "baie-de-lollpheist",
-      "title": "La baie de l'ollphéist",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 26,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
       "id": "bourgeon-cristallin",
       "title": "Le bourgeon cristallin",
       "category": "monde",
@@ -2041,15 +1834,6 @@
       "category": "monde",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 28,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
-      "id": "ceremonie-dadoubement",
-      "title": "La cérémonie d'adoubement",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
       "order": 28,
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
@@ -2081,15 +1865,6 @@
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
     {
-      "id": "cite-suspendue",
-      "title": "La Cité suspendue",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 31,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
       "id": "dragon-premier",
       "title": "Le Dragon premier",
       "category": "monde",
@@ -2104,15 +1879,6 @@
       "category": "monde",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 33,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
-      "id": "cote-du-vent-portant",
-      "title": "La côte du vent portant",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
       "order": 33,
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
@@ -2135,29 +1901,11 @@
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
     {
-      "id": "deferlante-de-nepto",
-      "title": "La Déferlante de Nepto",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 35,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
       "id": "loup-des-glaces",
       "title": "Le loup des glaces",
       "category": "monde",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 36,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
-      "id": "destruction-dechinedrac",
-      "title": "La destruction d'Échinedrac",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
       "order": 36,
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
@@ -2171,29 +1919,11 @@
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
     {
-      "id": "destruction-de-chefdrac",
-      "title": "La destruction de Chefdrac",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 37,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
       "id": "monde-veritable",
       "title": "Le monde véritable",
       "category": "monde",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 38,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
-      "id": "destruction-de-crocdrac",
-      "title": "La destruction de Crocdrac",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
       "order": 38,
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
@@ -2207,15 +1937,6 @@
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
     {
-      "id": "destruction-de-souffledrac",
-      "title": "La destruction de Souffledrac",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 39,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
       "id": "mur-de-gladsheim",
       "title": "Le Mur de Gladsheim ",
       "category": "monde",
@@ -2225,29 +1946,11 @@
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
     {
-      "id": "foret-de-morion",
-      "title": "La forêt de morion",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 40,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
       "id": "mythe-fondateur-de-rosalia",
       "title": "Le mythe fondateur de Rosalia",
       "category": "monde",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 41,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
-      "id": "futaie-des-aieux",
-      "title": "La futaie des aïeux",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
       "order": 41,
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
@@ -2266,15 +1969,6 @@
       "category": "monde",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 43,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
-      "id": "guerre-de-la-magie",
-      "title": "La Guerre de la magie",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
       "order": 43,
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
@@ -2351,15 +2045,6 @@
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
     {
-      "id": "sorciere-du-nord",
-      "title": "La sorcière du nord",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 51,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
       "id": "bardes",
       "title": "Les bardes",
       "category": "monde",
@@ -2405,29 +2090,11 @@
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
     {
-      "id": "tour-des-sages",
-      "title": "La Tour des Sages",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 56,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
       "id": "cibles-delite",
       "title": "Les cibles d'élite",
       "category": "monde",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 57,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
-      "id": "tragedie-de-dzemekys",
-      "title": "La tragédie de Dzemekys",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
       "order": 57,
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
@@ -2441,29 +2108,11 @@
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
     {
-      "id": "triple-alliance-de-878",
-      "title": "La Triple-Alliance de 878",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 58,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
       "id": "cristaux",
       "title": "Les cristaux",
       "category": "monde",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 59,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
-      "id": "voix-de-la-tour-des-sages",
-      "title": "La voix de la Tour des Sages",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
       "order": 59,
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
@@ -2495,15 +2144,6 @@
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
     {
-      "id": "cercle-de-malius",
-      "title": "Le Cercle de Malius",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 62,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
       "id": "cristaux-voiles",
       "title": "Les cristaux voilés",
       "category": "monde",
@@ -2531,15 +2171,6 @@
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
     {
-      "id": "culte-messianique-levantin",
-      "title": "Le culte messianique levantin",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 65,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
       "id": "entites-magiques",
       "title": "Les entités magiques",
       "category": "monde",
@@ -2558,15 +2189,6 @@
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
     {
-      "id": "domaine-des-prieuses",
-      "title": "Le domaine des Prieuses",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 67,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
       "id": "etheriques",
       "title": "Les éthériques",
       "category": "monde",
@@ -2581,15 +2203,6 @@
       "category": "monde",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 69,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
-      "id": "gardien-du-temps",
-      "title": "Le gardien du temps",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
       "order": 69,
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
@@ -2621,29 +2234,11 @@
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
     {
-      "id": "maitre-de-ceremonie",
-      "title": "Le Maître de cérémonie",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 72,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
       "id": "legumes-de-gysahl",
       "title": "Les légumes de Gysahl",
       "category": "monde",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 73,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
-      "id": "massacre-du-repaire",
-      "title": "Le massacre du Repaire",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
       "order": 73,
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
@@ -2684,15 +2279,6 @@
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
     {
-      "id": "mouvement-independantiste-de-kanver",
-      "title": "Le mouvement indépendantiste de Kanvěr",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 77,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
       "id": "monstres",
       "title": "Les monstres",
       "category": "monde",
@@ -2725,15 +2311,6 @@
       "category": "monde",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 81,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
-      "id": "pacte-de-non-agression",
-      "title": "Le pacte de non-agression",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
       "order": 81,
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
@@ -2774,15 +2351,6 @@
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
     {
-      "id": "saut-de-leploree",
-      "title": "Le Saut de l'Éplorée",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 85,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
       "id": "soldats-pourvoyeurs",
       "title": "Les soldats pourvoyeurs",
       "category": "monde",
@@ -2792,29 +2360,11 @@
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
     {
-      "id": "sentier-de-la-mante",
-      "title": "Le sentier de la mante",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 86,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
       "id": "sources-du-mirage",
       "title": "Les sources du mirage",
       "category": "monde",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 87,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
-      "id": "siege-de-rosalith",
-      "title": "Le siège de Rosalith",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
       "order": 87,
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
@@ -2855,29 +2405,11 @@
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
     {
-      "id": "val-de-la-confluence",
-      "title": "Le val de la confluence",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 91,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
       "id": "tiers-regard",
       "title": "Le Tiers Regard",
       "category": "monde",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 92,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
-      "id": "village-de-la-tribu-de-leau",
-      "title": "Le village de la tribu de l'Eau",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
       "order": 92,
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
@@ -2999,177 +2531,6 @@
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
     {
-      "id": "falaises-de-loubli",
-      "title": "Les falaises de l'oubli",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 106,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
-      "id": "gobelins-inhabituels",
-      "title": "Les Gobelins inhabituels",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 109,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
-      "id": "pourparlers-de-zirnitra",
-      "title": "Les pourparlers de Zirnitra",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 114,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
-      "id": "taurus-anciens",
-      "title": "Les Taurus anciens",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 122,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
-      "id": "tomberrys",
-      "title": "Les Tomberrys",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 123,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
-      "id": "leviathan",
-      "title": "Léviathan",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 124,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
-      "id": "marnek",
-      "title": "Marnek",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 126,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
-      "id": "mysidia",
-      "title": "Mysidia, ancien Territoire du Nord",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 128,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
-      "id": "oeildrac",
-      "title": "Œildrac",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 130,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
-      "id": "omega",
-      "title": "Oméga",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 131,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
-      "id": "omicron",
-      "title": "Omicron",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 132,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
-      "id": "pavaat",
-      "title": "Pavaat",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 133,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
-      "id": "perykos",
-      "title": "Pérykos",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 134,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
-      "id": "rowan",
-      "title": "Rowan",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 135,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
-      "id": "sigma",
-      "title": "Sigma",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 136,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
-      "id": "souffledrac",
-      "title": "Souffledrac",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 137,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
-      "id": "suhra",
-      "title": "Šuhra",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 138,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
-      "id": "talol",
-      "title": "Talol",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 139,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
-      "id": "thalaos",
-      "title": "Thalaos",
-      "category": "monde",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 140,
-      "cardImage": "images/placeholders/emblem-monde.svg"
-    },
-    {
       "id": "ambroisie",
       "title": "Ambroisie",
       "category": "personnages",
@@ -3247,15 +2608,6 @@
       "category": "personnages",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 9,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
-    },
-    {
-      "id": "cid-le-renegat",
-      "title": "Cid le Renégat",
-      "category": "personnages",
-      "public": "ON",
-      "date": "2026-08-04",
       "order": 9,
       "cardImage": "images/placeholders/emblem-personnages.svg"
     },
@@ -3512,15 +2864,6 @@
       "cardImage": "images/placeholders/emblem-personnages.svg"
     },
     {
-      "id": "astromancie",
-      "title": "L'astromancie",
-      "category": "personnages",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 37,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
-    },
-    {
       "id": "kharonne",
       "title": "Kharonne",
       "category": "personnages",
@@ -3544,15 +2887,6 @@
       "category": "personnages",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 40,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
-    },
-    {
-      "id": "incarnation-partielle",
-      "title": "L'incarnation partielle",
-      "category": "personnages",
-      "public": "ON",
-      "date": "2026-08-04",
       "order": 40,
       "cardImage": "images/placeholders/emblem-personnages.svg"
     },
@@ -3584,29 +2918,11 @@
       "cardImage": "images/placeholders/emblem-personnages.svg"
     },
     {
-      "id": "civilisation-ultimienne",
-      "title": "La civilisation ultimienne",
-      "category": "personnages",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 43,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
-    },
-    {
       "id": "sorciere-du-nord",
       "title": "La sorcière du nord",
       "category": "personnages",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 44,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
-    },
-    {
-      "id": "fissure-interdimensionnelle",
-      "title": "La fissure interdimensionnelle",
-      "category": "personnages",
-      "public": "ON",
-      "date": "2026-08-04",
       "order": 44,
       "cardImage": "images/placeholders/emblem-personnages.svg"
     },
@@ -3634,15 +2950,6 @@
       "category": "personnages",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 47,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
-    },
-    {
-      "id": "prophetie-du-salut",
-      "title": "La prophétie du salut",
-      "category": "personnages",
-      "public": "ON",
-      "date": "2026-08-04",
       "order": 47,
       "cardImage": "images/placeholders/emblem-personnages.svg"
     },
@@ -3688,15 +2995,6 @@
       "category": "personnages",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 52,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
-    },
-    {
-      "id": "peuple-de-dzemekys",
-      "title": "Le peuple de Dzemekys",
-      "category": "personnages",
-      "public": "ON",
-      "date": "2026-08-04",
       "order": 52,
       "cardImage": "images/placeholders/emblem-personnages.svg"
     },
@@ -3755,29 +3053,11 @@
       "cardImage": "images/placeholders/emblem-personnages.svg"
     },
     {
-      "id": "bandits",
-      "title": "Les bandits",
-      "category": "personnages",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 58,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
-    },
-    {
       "id": "oreille-du-desert",
       "title": "L'Oreille du désert",
       "category": "personnages",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 59,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
-    },
-    {
-      "id": "bardes",
-      "title": "Les bardes",
-      "category": "personnages",
-      "public": "ON",
-      "date": "2026-08-04",
       "order": 59,
       "cardImage": "images/placeholders/emblem-personnages.svg"
     },
@@ -3791,29 +3071,11 @@
       "cardImage": "images/placeholders/emblem-personnages.svg"
     },
     {
-      "id": "broches",
-      "title": "Les broches",
-      "category": "personnages",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 60,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
-    },
-    {
       "id": "maeve",
       "title": "Maëve",
       "category": "personnages",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 61,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
-    },
-    {
-      "id": "entraves-de-cristal",
-      "title": "Les entraves de cristal",
-      "category": "personnages",
-      "public": "ON",
-      "date": "2026-08-04",
       "order": 61,
       "cardImage": "images/placeholders/emblem-personnages.svg"
     },
@@ -3827,15 +3089,6 @@
       "cardImage": "images/placeholders/emblem-personnages.svg"
     },
     {
-      "id": "executeurs",
-      "title": "Les Exécuteurs",
-      "category": "personnages",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 62,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
-    },
-    {
       "id": "marleigh",
       "title": "Marleigh",
       "category": "personnages",
@@ -3845,29 +3098,11 @@
       "cardImage": "images/placeholders/emblem-personnages.svg"
     },
     {
-      "id": "marchands-desclaves",
-      "title": "Les marchands d'esclaves",
-      "category": "personnages",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 63,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
-    },
-    {
       "id": "marnek",
       "title": "Marnek",
       "category": "personnages",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 64,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
-    },
-    {
-      "id": "partisans-du-repaire",
-      "title": "Les partisans du Repaire",
-      "category": "personnages",
-      "public": "ON",
-      "date": "2026-08-04",
       "order": 64,
       "cardImage": "images/placeholders/emblem-personnages.svg"
     },
@@ -4196,15 +3431,6 @@
       "cardImage": "images/placeholders/emblem-primordiaux.svg"
     },
     {
-      "id": "ambroisie",
-      "title": "Ambroisie",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 1,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
       "id": "bahamut",
       "title": "Bahamut",
       "category": "primordiaux",
@@ -4277,15 +3503,6 @@
       "cardImage": "images/placeholders/emblem-primordiaux.svg"
     },
     {
-      "id": "loup-des-glaces",
-      "title": "Le loup des glaces",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 9,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
       "id": "maitre-de-ceremonie",
       "title": "Le Maître de cérémonie",
       "category": "primordiaux",
@@ -4349,15 +3566,6 @@
       "cardImage": "images/placeholders/emblem-primordiaux.svg"
     },
     {
-      "id": "betes-fabuleuses",
-      "title": "Les bêtes fabuleuses",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 16,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
       "id": "bombos",
       "title": "Les bombos",
       "category": "primordiaux",
@@ -4394,15 +3602,6 @@
       "cardImage": "images/placeholders/emblem-primordiaux.svg"
     },
     {
-      "id": "cibles-delite",
-      "title": "Les cibles d'élite",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 20,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
       "id": "dragonnets",
       "title": "Les dragonnets",
       "category": "primordiaux",
@@ -4417,15 +3616,6 @@
       "category": "primordiaux",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 22,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "creatures-bleues",
-      "title": "Les créatures bleues",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-04",
       "order": 22,
       "cardImage": "images/placeholders/emblem-primordiaux.svg"
     },
@@ -4462,15 +3652,6 @@
       "category": "primordiaux",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 26,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "entites-magiques",
-      "title": "Les entités magiques",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-04",
       "order": 26,
       "cardImage": "images/placeholders/emblem-primordiaux.svg"
     },
@@ -4538,29 +3719,11 @@
       "cardImage": "images/placeholders/emblem-primordiaux.svg"
     },
     {
-      "id": "hommes-betes",
-      "title": "Les hommes-bêtes",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 33,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
       "id": "morbols",
       "title": "Les morbols",
       "category": "primordiaux",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 34,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "legumes-de-gysahl",
-      "title": "Les légumes de Gysahl",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-04",
       "order": 34,
       "cardImage": "images/placeholders/emblem-primordiaux.svg"
     },
@@ -4597,15 +3760,6 @@
       "category": "primordiaux",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 38,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "monstres",
-      "title": "Les monstres",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-04",
       "order": 38,
       "cardImage": "images/placeholders/emblem-primordiaux.svg"
     },
@@ -4660,15 +3814,6 @@
       "category": "primordiaux",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 44,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "remanences-celestes",
-      "title": "Les rémanences célestes",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-04",
       "order": 44,
       "cardImage": "images/placeholders/emblem-primordiaux.svg"
     },
@@ -4736,15 +3881,6 @@
       "cardImage": "images/placeholders/emblem-primordiaux.svg"
     },
     {
-      "id": "nektar",
-      "title": "Nektar",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-04",
-      "order": 51,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
       "id": "phenix",
       "title": "Phénix",
       "category": "primordiaux",
@@ -4804,15 +3940,6 @@
       "category": "primordiaux",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 58,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "talgor",
-      "title": "Talgor",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-04",
       "order": 58,
       "cardImage": "images/placeholders/emblem-primordiaux.svg"
     },

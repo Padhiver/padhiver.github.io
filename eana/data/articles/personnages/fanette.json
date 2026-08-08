@@ -1,0 +1,22 @@
+{
+  "id": "fanette",
+  "title": "Fanette",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 23,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "rising-tide",
+  "pages": [
+    {
+      "text": "La soigneuse de la tribu de l'Eau.\n\nElle veille sur la santé et le bien-être des habitants du village en se servant de sa connaissance des soins, des plantes médicinales et de l'anatomie. Dévouée à sa mission, lorsque Talol est atteint d'un mal inconnu, elle soupçonne un lien avec la malédictions des Tomberrys, et se renseigne sur le sujet dans l'espoir de guérir le vieil homme.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "talol",
+    "tomberrys",
+    "maitre-de-ceremonie",
+    "village-de-la-tribu-de-leau"
+  ]
+}

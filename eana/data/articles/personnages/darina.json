@@ -1,0 +1,28 @@
+{
+  "id": "darina",
+  "title": "Darina",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 13,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "rising-tide",
+  "pages": [
+    {
+      "text": "L'assistante du chef du peuple de l'Eau.\n\nFemme douce et responsable, elle s'occupe des affaires courantes de la tribu et épaule Šuhra, qui doit souvent s'absenter du village. Lorsque Clive et ses compagnons arrivent au village, elle appelle les habitants à coopérer amicalement avec eux et essaie de faciliter leur séjour sur place, à la demande de Šuhra.",
+      "caption": "Généralités"
+    },
+    {
+      "text": "L'assistante du chef du peuple de l'Eau.\n\nVoir Šuhra accepter de s'occuper du petit Waleas comme mère adoptive a renforcé sa volonté de l'épauler davantage au quotidien. C'est son arrière-grand-mère qui a autrefois soigné Ysay, et depuis, sa famille veille de génération en génération sur la tombe de celle qui mit au point le sort Gel. Darina connaît donc bien cette histoire ainsi que toute l'histoire des anciens habitants du Nord.",
+      "caption": "Gardienne de la tombe de la sorcière"
+    }
+  ],
+  "related": [
+    "suhra",
+    "peuple-de-leau",
+    "village-de-la-tribu-de-leau",
+    "mysidia",
+    "sorciere-du-nord",
+    "gel-le-sort-darret-du-temps"
+  ]
+}

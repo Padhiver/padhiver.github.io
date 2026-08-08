@@ -1,0 +1,22 @@
+{
+  "id": "chasse-aux-heretiques",
+  "title": "La chasse aux hérétiques",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 5,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "rising-tide",
+  "pages": [
+    {
+      "text": "Un mouvement de purge des hérétiques et des impies, initié il y a environ cent soixante-dix ans par l'Église gwéligorienne.\n\nCe mouvement s'est développé sur le territoire de l'actuelle Sangbrèque, région sous influence du culte de Gwéligore, et s'en est pris non seulement aux communautés observant une foi autre, comme le peuple de l'Eau, mais aussi aux factions de sensibilité différente au sein du panthéisme de sainte Gwéligore. Ces événements ont conduit à la proclamation du Saint-Empire de Sangbrèque en plaçant à la tête de cette nouvelle entité un souverain de droit divin avec un statut de religieux en la personne du Saint Empereur.",
+      "caption": "Généralités"
+    }
+  ],
+  "related": [
+    "pantheisme-de-sainte-gweligore",
+    "saint-empire-de-sangbreque",
+    "peuple-de-leau",
+    "talol"
+  ]
+}

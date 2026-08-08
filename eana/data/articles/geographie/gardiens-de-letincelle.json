@@ -1,0 +1,28 @@
+{
+  "id": "gardiens-de-letincelle",
+  "title": "Les Gardiens de l'Étincelle",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 133,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Un groupe de rebelles qui s'opposent au gouvernement d'occupation mené par Annabella dans la province impériale de Rosalia.\n\nIl s'est formé autour des chevaliers de Rosalia ayant survécu à l'attaque du fort Phénix survenu en l'an 860 du calendrier ponantin. Depuis leur base située au Bourg du saint secours à proximité de Port-Yseut, ils volent sans relâche au secours des Pourvoyeurs persécutés dans toute la région.",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Un groupe de rebelles qui s'opposent au gouvernement d'occupation mené par Annabella dans la province impériale de Rosalia.\n\nIl s'est formé autour des chevaliers de Rosalia ayant survécu à l'attaque du fort Phénix survenue en l'an 860 du calendrier ponantin. Après avoir perdu leur base du Bourg du saint secours à cause de l'éther stagnant, ils sont entrés en étroite collaboration avec Martha. Avec l'aide de cette dernière, ils se sont installés à Lestange, où ils continuent de porter assistance aux Pourvoyeurs.",
+      "caption": "L'alliance avec Martha"
+    }
+  ],
+  "related": [
+    "wade",
+    "attaque-du-fort-phenix",
+    "bourg-du-saint-secours",
+    "archiduche-de-rosalia",
+    "martha",
+    "lestange"
+  ]
+}

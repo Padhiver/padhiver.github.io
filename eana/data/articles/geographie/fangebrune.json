@@ -1,0 +1,22 @@
+{
+  "id": "fangebrune",
+  "title": "Fangebrune",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 14,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Une zone marécageuse au nord-est de Rosalith, où dorment les ruines d'un ancien hameau.\n\nElle était autrefois peuplée, et même si la population n'avait rien à voir avec celle des villes étapes qu'on trouve sur les grands axes d'échanges, la vie y battait son plein. Aujourd'hui, les monstres déplacés par l'avancée du Fléau noir y ont malheureusement élu domicile, et Fangebrune est désormais à l'abandon.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "chateau-de-rosalith",
+    "terres-mortes",
+    "gobelins",
+    "morbols"
+  ]
+}

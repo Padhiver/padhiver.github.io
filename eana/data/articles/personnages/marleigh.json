@@ -1,0 +1,22 @@
+{
+  "id": "marleigh",
+  "title": "Marleigh",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 63,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Une servante résidant sur l'île Drustanus, au Royaume de Fer.\n\nOriginaire de Rosalia, elle fut capturée lors d'un raid ferrégien. Cela fait dix-huit ans qu'elle est réduite en esclavage. Lorsque la jeune Jill est elle aussi devenue prisonnière au Royaume de Fer, Marleigh l'a prise sous son aile et l'a réconfortée jusqu'à devenir une seconde mère pour elle.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "invasion-ferregienne",
+    "ile-drustanus",
+    "jill-warrick",
+    "cristodoxes"
+  ]
+}

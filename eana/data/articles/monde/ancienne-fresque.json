@@ -1,0 +1,41 @@
+{
+  "id": "ancienne-fresque",
+  "title": "L'ancienne fresque",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 13,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Une peinture murale dessinée il y a bien longtemps.\n\nL'auteur, la date et la raison de sa création sont encore inconnus à ce jour, mais une silhouette divine se dresse en son centre et il s'en dégage une austérité liturgique. Cette fresque se trouve dans le Sacrarium du fort Phénix.",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Une peinture murale liturgique dessinée il y a bien longtemps.\n\nLa silhouette en son centre serait vraisemblablement Ultima, figuré comme une entité divine. Ce sujet serait représenté dans différentes contrées, à commencer par le Sacrarium du fort Phénix, mais également dans le temple souterrain de Souffledrac ou à Tábor.",
+      "caption": "Fresque liturgique"
+    },
+    {
+      "text": "Une œuvre liturgique relative au maliusianisme, la plus ancienne des religions connues, qui vouait un culte à Ultima.\n\nLa silhouette centrale entourée des différents Primordiaux serait celle d'un Ultima représenté comme une figure divine. Sur la peinture d'origine, qui peut être observée dans une forteresse abandonnée du Gris-Levant, le Primordial de feu Phénix n'est pas représenté.",
+      "caption": "Peinture d'origine"
+    },
+    {
+      "text": "Une œuvre liturgique relative au maliusianisme, la plus ancienne des religions connues, qui vouait un culte à Ultima.\n\nLa silhouette centrale entourée des différents Primordiaux serait celle d'un Ultima représenté comme une figure divine. Sur la peinture d'origine, qui peut être observée dans une forteresse abandonnée du Gris-Levant, tout laisse à penser que l'entité centrale résulte d'une fusion entre Ifrit et Phénix.",
+      "caption": "Révélation"
+    }
+  ],
+  "related": [
+    "sacrarium",
+    "civilisation-celeste",
+    "fort-phenix",
+    "attaque-du-fort-phenix",
+    "ultima",
+    "tabor",
+    "souffledrac",
+    "primordiaux",
+    "cercle-de-malius",
+    "gjallarhorn",
+    "ifrit-paracheve"
+  ]
+}

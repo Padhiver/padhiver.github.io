@@ -1,0 +1,22 @@
+{
+  "id": "bourgeon-cristallin",
+  "title": "Le bourgeon cristallin",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 27,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Un changement d'apparence de Caudrac survenu lors de l'insurrection menée par Dion au Dominion.\n\nLorsque Bahamut a lancé Mégafission sur Caudrac, un mécanisme d'autodéfense s'est mis en marche au cœur du cristal, s'immisçant dans l'esprit de Dion. Le noyau a pris l'apparence d'un bourgeon en puisant directement dans les souvenirs du prince, dans lesquels se trouvait l'image de la fleur de l'herbe aux dragons. Cette forme d'élégant bourgeon est donc inspirée de sa mémoire.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "noyau-des-cristaux-meres",
+    "dion-lesage",
+    "bahamut",
+    "herbe-aux-dragons"
+  ]
+}

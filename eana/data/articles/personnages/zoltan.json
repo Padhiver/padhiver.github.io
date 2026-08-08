@@ -1,0 +1,27 @@
+{
+  "id": "zoltan",
+  "title": "Zoltán",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 99,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Le chef de Dravost, un village de forgerons.\n\nIl est le meilleur artisan de son fief et a toutes les qualités d'un meneur. Il a appris son art auprès du même maître que Blackthorne avec lequel il a coupé les ponts il y a plusieurs années après une violente dispute.",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Le chef du village de forgerons de Dravost et partisan de Cid.\n\nIl doit faire face aux attaques de monstres éthériques ainsi qu'à la diminution de l'efficacité de sa forge causée par la magie qui s'étiole, mais surmonte ces épreuves grâce à l'intervention de Clive et de Blackthorne. En tant que forgeron, il surpasse ce dernier en ce qui concerne les techniques de ciselure, mais les deux amis bénéficient d'une reconnaissance mutuelle de leurs capacités d'artisan.",
+      "caption": "Le chef de Dravost"
+    }
+  ],
+  "related": [
+    "dravost",
+    "blackthorne",
+    "auguste",
+    "republique-de-dalmequie",
+    "partisans-du-repaire"
+  ]
+}

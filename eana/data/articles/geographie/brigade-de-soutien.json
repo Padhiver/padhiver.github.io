@@ -1,0 +1,22 @@
+{
+  "id": "brigade-de-soutien",
+  "title": "La brigade de soutien",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 23,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Une organisation basée à Dalimil, dirigée par Natálie.\n\nElle est constituée de marchands et tenanciers d'échoppes de la rue principale, capables de fournir des vivres. Assez fatalistes face aux premières attaques des bandits, ses membres ont trouvé une nouvelle motivation dans la coopération avec la milice pour défendre Dalimil en assurant la logistique.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "relais-de-dalimil",
+    "natalie",
+    "milice-dautodefense",
+    "guilde-des-marchands-de-letoile-du-matin"
+  ]
+}

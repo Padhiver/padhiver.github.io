@@ -1,0 +1,22 @@
+{
+  "id": "kretov",
+  "title": "Křetov",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 20,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Un village abandonné au sud de la république de Dalméquie.\n\nJadis construit à partir de ruines de la civilisation des Célestes, il se trouve sur la route qui relie Dalimil à Kanvěr. Les chemins de crevasse qui mènent à lui étant peu sûrs, il n'a jamais connu un grand succès comme relais. Pour couronner le tout, les maladies contagieuses qui circulaient dans la région ont fait fuir ses derniers habitants.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "tabor",
+    "civilisation-celeste",
+    "ordre-des-ailes-ardentes",
+    "relais-de-dalimil"
+  ]
+}

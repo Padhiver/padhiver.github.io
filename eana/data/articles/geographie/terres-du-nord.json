@@ -1,0 +1,41 @@
+{
+  "id": "terres-du-nord",
+  "title": "Les Terres du Nord",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 148,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Une région septentrionale du Vert-Ponant au climat froid.\n\nUne multitude de petits pays appelés Territoires du Nord y prospéraient autrefois grâce à la bénédiction du Cristal-mère d'Œildrac, une expansion qui menaçait même Rosalia, leur voisin au sud. Lorsque le Fléau noir les frappa de plein fouet et que le Cristal-mère s'évapora, cet équilibre précaire fut rompu, et ils convoitèrent alors les terres du sud. L'union du Nord dut toutefois renoncer car trop affaiblie par ses propres guerres intestines. En l'an 854 du calendrier ponantin, Elwin, l'archiduc de Rosalia, élimina définitivement cette menace en annexant ce territoire.",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Une région septentrionale du Vert-Ponant au climat froid.\n\nUne multitude de petits pays appelés Territoires du Nord y prospéraient autrefois grâce à la bénédiction du Cristal-mère d'Œildrac, une expansion qui menaçait même Rosalia, leur voisin au sud. Lorsque le Fléau noir les frappa de plein fouet et que le Cristal-mère s'évapora, cet équilibre précaire fut rompu, et ils convoitèrent alors les terres du sud. L'union du Nord dut toutefois renoncer car trop affaiblie par ses propres guerres intestines. En l'an 854 du calendrier ponantin, Elwin, l'archiduc de Rosalia, élimina définitivement cette menace en annexant ce territoire. Que ce soit depuis la fin de ces combats, ou depuis l'invasion de Rosalia par Sangbrèque, le Fléau noir, lui, progresse inexorablement.",
+      "caption": "Après l'annexion de Rosalia par Sangbrèque"
+    },
+    {
+      "text": "Une région septentrionale du Vert-Ponant au climat froid.\n\nAprès l'effondrement du Cristal-mère d'Œildrac et suite à de nombreux conflits intestins, la région s'est considérablement affaiblie. Aujourd'hui, elle a été presque entièrement engloutie par le Fléau noir.\n\nAprès le départ des peuples du Nord, on supposait que la région de Mysidia qui s'y trouve avait été engloutie elle aussi, mais il se trouve que le sort d'illusion du Mirage dissimulait une zone de verdure encore épargnée.",
+      "caption": "Une région arrachée par le Fléau noir"
+    },
+    {
+      "text": "Une région septentrionale du Vert-Ponant au climat froid qui a été presque entièrement engloutie par le Fléau noir.\n\nIl y a environ quatre-vingts ans, les dirigeants des Territoires du Nord ordonnèrent à l'Émissaire de Shiva de trouver un moyen de sauver le Cristal-mère d'Œildrac, alors menacé de disparition. L'Émissaire se lança ainsi dans des recherches sur le sort Gel, un puissant sort d'arrêt du temps. Mais après l'échec de ce plan, Œildrac s'effondra et la région de Mysidia fut abandonnée. La conséquence de ces événements fut que les tensions avec l'archiduché de Rosalia à l'ouest continuèrent de s'aggraver avec la crise de ressources du Nord.",
+      "caption": "La destruction d'Œildrac"
+    }
+  ],
+  "related": [
+    "jill-warrick",
+    "elwin-rosfield",
+    "terres-mortes",
+    "archeosaures",
+    "renard-gris",
+    "annexion-de-rosalia",
+    "oeildrac",
+    "mirage",
+    "mysidia",
+    "sorciere-du-nord",
+    "gel-le-sort-darret-du-temps"
+  ]
+}

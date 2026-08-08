@@ -1,0 +1,22 @@
+{
+  "id": "loups-warg",
+  "title": "Les loups warg",
+  "category": "primordiaux",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 32,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Des monstres qui s'apparentent à des loups.\n\nIls vivent en meute et sont très doués pour la chasse à plusieurs. Certains spécimens peuvent être apprivoisés par l'homme, si bien que des nations en ont un usage militaire. Ils étaient autrefois présents partout à Valisthéa, mais ils semblent avoir disparu après différentes campagnes d'extermination.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "betes-fabuleuses",
+    "armee-sangbrequoise",
+    "loup-des-glaces",
+    "grande-sylve"
+  ]
+}

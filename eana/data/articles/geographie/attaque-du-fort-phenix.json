@@ -1,0 +1,22 @@
+{
+  "id": "attaque-du-fort-phenix",
+  "title": "L'attaque du fort Phénix",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 74,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Lors de cet incident qui eut lieu en 860, des troupes de l'Empire de Sangbrèque attaquèrent par surprise son allié rosalien, lançant l'assaut sur une délégation en séjour au fort Phénix et assassinant l'archiduc Elwin.\n\nSes deux fils se trouvaient sur les lieux lors de l'assaut et furent déclarés morts eux aussi. Si la version officielle établit que la tragédie était due à un accès de rage destructrice du Primordial Phénix, la vérité est toute autre : Annabella, l'épouse de l'archiduc Elwin Rosfield, complotait contre les siens en divulguant à Sangbrèque des informations capitales sur Rosalia. Nul doute que celles-ci ont grandement facilité les exactions commises lors de ce que l'on nomma plus tard la Nuit des flammes.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "fort-phenix",
+    "elwin-rosfield",
+    "saint-empire-de-sangbreque",
+    "annabella-rosfield"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "methia",
+  "title": "Méthia",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 103,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Une petite étoile qui brille de mille feux dans les cieux, à proximité de la lune.\n\nLa légende veut que Méthia exauce les souhaits, et nombreux sont les Valisthéens qui prient pour que cet astre leur accorde bonheur et bien-être, à eux-mêmes ou à ceux qui leur sont chers.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "jill-warrick",
+    "clive",
+    "astromancie",
+    "valisthea"
+  ]
+}

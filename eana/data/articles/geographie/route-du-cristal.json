@@ -1,0 +1,22 @@
+{
+  "id": "route-du-cristal",
+  "title": "La Route du Cristal",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 68,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Une route commerciale vers le Dominion du Cristal, qui traverse d'est en ouest la zone centrale du Vert-Ponant.\n\nIl s'agit d'une zone tampon, appelée la « Ceinture cristalline », englobant la route elle-même et les frontières de trois états. Il est formellement interdit de s'y battre, et l'on n'y trouve ni forteresse ni octroi. Depuis quelques années, des réfugiés privés de domicile par le Fléau noir sont très nombreux à emprunter cette route à pied, ce qui pose certains problèmes.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "caudrac",
+    "petite-marchande-de-remedes",
+    "iles-de-la-croisee",
+    "dominion-du-cristal"
+  ]
+}

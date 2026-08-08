@@ -1,0 +1,26 @@
+{
+  "id": "steinnhyrr",
+  "title": "Steinnhyrr",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 172,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "La capitale du royaume de Valœd, située dans le nord du Gris-Levant.\n\nLe Cristal-mère d'Échinedrac s'y dresse, et il est relié au château du roi ainsi qu'à certains lieux de la ville par une passerelle appelée le pont de l'empyrée.",
+      "caption": "Généralités"
+    },
+    {
+      "text": "La capitale du royaume de Valœd, située dans le nord du Gris-Levant.\n\nLa ville a commencé à péricliter après la destruction du Cristal-mère d'Échinedrac par Cid et ses sympathisants. Depuis l'Expurgation, la ville n'est plus qu'un amas de ruines où errent des soldats et des monstres transformés en éthériques.",
+      "caption": "Destruction d'Échinedrac"
+    }
+  ],
+  "related": [
+    "royaume-de-valoed",
+    "gris-levant",
+    "echinedrac",
+    "armee-royale-de-valoed"
+  ]
+}

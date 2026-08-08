@@ -1,0 +1,22 @@
+{
+  "id": "barrieres-magiques",
+  "title": "Les barrières magiques",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 53,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Des enceintes infranchissables créées par un sort magique.\n\nSelon leur taille et leur puissance, il peut être difficile pour leurs créateurs de les maintenir pendant de longues périodes.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "magie",
+    "emissaires",
+    "joshua-rosfield",
+    "mur-de-gladsheim"
+  ]
+}

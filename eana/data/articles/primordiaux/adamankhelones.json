@@ -1,0 +1,22 @@
+{
+  "id": "adamankhelones",
+  "title": "Les adamankhélones",
+  "category": "primordiaux",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 12,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "De grandes bêtes de l'ordre des testudines, possédant une carapace.\n\nCes colossales créatures sont recouvertes d'une lourde carapace sur laquelle croît une végétation hétéroclite. Au moindre signe de danger, elles rentrent les parties exposées de leur corps dans cette épaisse enveloppe et se préparent au combat en se mettant à tourner sur elles-mêmes. On les trouve surtout aux abords des cours d'eau et près des étangs.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "betes-fabuleuses",
+    "morbols",
+    "joncheres",
+    "archiduche-de-rosalia"
+  ]
+}

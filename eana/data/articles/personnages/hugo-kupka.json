@@ -1,0 +1,44 @@
+{
+  "id": "hugo-kupka",
+  "title": "Hugo Kupka",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 32,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "L'Émissaire de Titan.\n\nCet homme puissant et rusé a utilisé son emprise sur la terre pour gravir les échelons sociaux dalmèques et amasser une immense fortune. Il ne se soucie guère des autres ou du pays qui l'a vu naître, et seul son amour pour la haute gradée valœdoise Benedikta triomphe sur son indifférence.",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Le conseiller économique de la république de Dalméquie et l'Émissaire de Titan.\n\nCet homme puissant et rusé a utilisé son emprise sur la terre afin de gravir les échelons sociaux et amasser une immense fortune. Son cœur appartenait à Benedikta, mais il ne bat plus qu'au rythme de la vengeance depuis qu'on lui a livré la tête de sa bien-aimée et le nom de celui qui lui aurait tranchée, Cid.",
+      "caption": "La mort de Benedikta"
+    },
+    {
+      "text": "Le conseiller économique de la république de Dalméquie et l'Émissaire de Titan.\n\nCet homme puissant et rusé utilise sa fortune et ses privilèges pour commander sa propre milice. Son cœur appartenait à Benedikta, mais il ne bat plus qu'au rythme de la vengeance depuis sa mort. Il s'est rendu au Repaire de Cid sous les traits de Titan pour y exercer des représailles sanglantes en détruisant le refuge et en éliminant presque tous ceux qui s'y trouvaient. Il est prêt à tout pour appliquer la loi du talion à Cid et déploie l'ensemble de ses ressources pour le retrouver.",
+      "caption": "La vengeance de Kupka"
+    },
+    {
+      "text": "L'Émissaire de Titan.\n\nIl a persécuté des Pourvoyeurs afin de débusquer Clive, celui qu'il sait maintenant être le véritable responsable de la mort de sa bien-aimée Benedikta. Il sort toutefois perdant de leur affrontement à Rosalith. Les deux mains tranchées, il est proche de rendre l'âme lorsqu'un homme mystérieux accompagné de soldats intervient et l'emmène discrètement avec lui.",
+      "caption": "À Rosalith"
+    },
+    {
+      "text": "L'Émissaire de Titan.\n\nIl a perdu les deux mains au cours d'un combat avec Clive au château de Rosalith, mais a survécu et a rallié la Dalméquie. L'affrontement entre les Émissaires du feu et de la terre trouve par la suite son issue à Crocdrac. De retour au château de Dažbog, Titan perd tout contrôle au contact du noyau de Crocdrac, mais les coups ardents d'Ifrit ont néanmoins raison de lui et du Cristal-mère.",
+      "caption": "Épilogue"
+    }
+  ],
+  "related": [
+    "emissaires",
+    "titan",
+    "benedikta-harman",
+    "republique-de-dalmequie",
+    "cid",
+    "colosses-de-pierre",
+    "massacre-du-repaire",
+    "siege-de-rosalith",
+    "destruction-de-crocdrac",
+    "chateau-de-dazbbog"
+  ]
+}

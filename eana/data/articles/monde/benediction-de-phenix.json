@@ -1,0 +1,22 @@
+{
+  "id": "benediction-de-phenix",
+  "title": "La bénédiction de Phénix",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 3,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Un pouvoir magique que Clive a reçu de son frère Joshua, le futur archiduc de Rosalia.\n\nL'Émissaire de Phénix peut transmettre une partie de ses pouvoirs à une personne de son choix, lui attribuant ainsi le pouvoir du <i>feu éternel</i>, qui permet d'utiliser la magie d'élément feu sans faire usage d'un cristal. La coutume rosalienne veut que l'Émissaire confie ce pouvoir, appelé alors « bénédiction de Phénix », à son Gardien personnel au cours d'une cérémonie solennelle d'adoubement.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "titre-de-gardien-de-phenix",
+    "clive",
+    "phenix",
+    "archiduche-de-rosalia"
+  ]
+}

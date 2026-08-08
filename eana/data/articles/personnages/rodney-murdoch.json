@@ -1,0 +1,41 @@
+{
+  "id": "rodney-murdoch",
+  "title": "Rodney Murdoch",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 80,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Un général de l'armée rosalienne qui est aussi le bras droit de l'archiduc Elwin.\n\nEn plus d'assurer la protection de Clive et Joshua, il est également garant de leur éducation militaire et leur enseigne le maniement de l'épée. Passionné et responsable, il est attentif à ceux qui l'entourent et très apprécié et respecté par ses subordonnés.",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Un général de l'armée rosalienne.\n\nL'archiduc consulte souvent Murdoch sur divers sujets militaires et ils sont également des amis proches. Rodney Murdoch considère en effet Elwin comme bien plus qu'un simple souverain et supérieur hiérarchique.",
+      "caption": "Âge d'or de Rosalith"
+    },
+    {
+      "text": "Un général de l'armée rosalienne.\n\nHomme de confiance de l'archiduc, chargé d'enseigner le maniement de l'épée à ses fils, Clive et Joshua. Alors qu'il escorte la délégation du rite de l'Augure martial, il disparaît sans laisser de traces dans les flammes du mystérieux Primordial lors de l'attaque du fort Phénix.",
+      "caption": "L'attaque du fort Phénix"
+    },
+    {
+      "text": "Un général de l'armée rosalienne.\n\nHomme de confiance et ami de l'archiduc, chargé d'enseigner le maniement de l'épée à Clive. Alors qu'il escorte la délégation du rite de l'Augure martial, il meurt dans les flammes déchaînées par Clive métamorphosé en Ifrit lors de l'attaque du fort Phénix.",
+      "caption": "La visite à Lestange"
+    }
+  ],
+  "related": [
+    "elwin-rosfield",
+    "clive",
+    "joshua-rosfield",
+    "armee-rosalienne",
+    "wade",
+    "tyler",
+    "chateau-de-rosalith",
+    "attaque-du-fort-phenix",
+    "primordial-mysterieux",
+    "hanna-murdoch",
+    "lestange"
+  ]
+}

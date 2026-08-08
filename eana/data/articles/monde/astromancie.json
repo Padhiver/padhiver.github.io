@@ -1,0 +1,22 @@
+{
+  "id": "astromancie",
+  "title": "L'astromancie",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 23,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "L'étude et interprétation divinatoire des mouvements stellaires.\n\nL'astromancie est l'apanage de savants chargés de conseiller l'empereur de Sangbrèque sur les questions de gouvernance. Au sein de cette nation où pouvoir et piété sont étroitement liés, ces sages respectueux du dogme panthéiste de sainte Gwéligore ont une influence certaine sur la politique de Sylvestre Lesage. Ce dernier accorde en effet une grande importance à leurs oracles.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "pantheisme-de-sainte-gweligore",
+    "methia",
+    "conseil-des-patriarches",
+    "sylvestre-lesage"
+  ]
+}

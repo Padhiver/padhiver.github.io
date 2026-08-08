@@ -1,0 +1,29 @@
+{
+  "id": "orchestrion",
+  "title": "L'orchestrion",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 102,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Une machine qui joue de la musique.\n\nElle se trouve dans un petit coin du Repaire.",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Une machine qui joue de la musique.\n\nElle se trouve dans un petit coin du Repaire. C'est la première création de Mid quand elle était encore très jeune, ce qui a stupéfié son père Cid. Celui-ci y avait caché la dernière pièce de l'Entreprise en laissant un indice pour la trouver dans une lettre.",
+      "caption": "L'invention de Mid"
+    }
+  ],
+  "related": [
+    "bardes",
+    "maeve",
+    "repaire-de-cid",
+    "repaire-de-clive",
+    "ingenierie",
+    "midadole-telamon",
+    "cid"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "ciel-de-larkhe",
+  "title": "Le Ciel de l'Arkhè",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 29,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Une expression usitée uniquement au royaume de Valœd qui désigne l'assombrissement du ciel, ce qui annonce la fin du monde.\n\nC'est ainsi que les Valœdois décrivent le ciel de Valisthéa transformé par l'Expurgation déclenchée par Ultima.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "expurgation",
+    "edda",
+    "eistla",
+    "royaume-de-valoed"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "homme-louche",
+  "title": "L'homme louche",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 57,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Un membre d'une grande famille dalmèque qui a aperçu Clive à Lestange.\n\nIl cherche l'emplacement du Repaire de Cid afin de s'insinuer dans les bonnes grâces de Hugo Kupka, l'amant de la défunte Benedikta en quête de vengeance. C'est donc lui qui révèle cette information à Kupka.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "massacre-du-repaire",
+    "hugo-kupka",
+    "raid-sur-lestange",
+    "republique-de-dalmequie"
+  ]
+}

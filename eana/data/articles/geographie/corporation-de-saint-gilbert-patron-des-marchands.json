@@ -1,0 +1,22 @@
+{
+  "id": "corporation-de-saint-gilbert-patron-des-marchands",
+  "title": "La corporation de saint Gilbert, patron des marchands",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 29,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Une religion populaire répandue parmi les marchands, notamment autour de la ville de Kanvěr.\n\nCe culte vénère saint Gilbert, un érudit qui aurait jadis instauré le système monétaire dans le continent du Vert-Ponant. La coopérative qui existait alors, ancêtre de la corporation actuelle, décida de nommer cette monnaie « gil » en l'honneur de ce grand homme. Les marchands croyants voient en la monnaie elle-même un objet de culte et prient pour la prospérité de leur commerce et une bonne fortune financière.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "villes-libres-de-kanver",
+    "kanver",
+    "gils",
+    "mouvement-independantiste-de-kanver"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "stratege-dalmeque",
+  "title": "Le stratège dalmèque",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 55,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Un haut gradé dalmèque.\n\nD'une bravoure peu commune, il commandait ses troupes en prenant lui-même part aux combats. Cependant, lorsque Hugo Kupka a pris l'ascendant sur le Conseil républicain, on a prétexté un affaiblissement physique dû à l'âge pour reléguer le vieux combattant à un rôle de simple stratège.",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Un maréchal dalmèque qui siège au Conseil républicain.\n\nD'une bravoure peu commune, Eugen Havel commandait ses troupes en prenant lui-même part aux combats. Cependant, lorsque Hugo Kupka a pris l'ascendant sur le Conseil républicain, on a prétexté un affaiblissement physique dû à l'âge pour reléguer le vieux combattant à un rôle de simple stratège. Après l'assassinat de la plupart des membres du Conseil républicain et la chute de la République, il reste dans la capitale, Randělá, pour la défendre des éthériques.",
+      "caption": "Rôle à Randělá"
+    },
+    {
+      "text": "Un maréchal dalmèque qui siégeait au Conseil républicain.\n\nIl a autrefois combattu aux côtés de Byron Rosfield, qu'il connaît depuis plusieurs décennies. À la demande de son vieil ami, il devient l'un des signataires de la Triple-Alliance conclue entre Rosalia, la Dalméquie et Sangbrèque alors que le chaos menace d'engloutir Valisthéa. Il met à profit son expérience en se chargeant de ramener de l'ordre dans les armées à disposition.",
+      "caption": "La Triple-Alliance"
+    }
+  ],
+  "related": [
+    "pourparlers-de-zirnitra",
+    "armee-dalmeque",
+    "hugo-kupka",
+    "president-du-conseil",
+    "byron-rosfield",
+    "randela",
+    "republique-de-dalmequie",
+    "triple-alliance-de-878"
+  ]
+}

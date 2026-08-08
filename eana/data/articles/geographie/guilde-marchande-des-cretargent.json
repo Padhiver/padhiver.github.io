@@ -1,0 +1,22 @@
+{
+  "id": "guilde-marchande-des-cretargent",
+  "title": "La guilde marchande des Crêtargent",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 48,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Une puissante guilde marchande, d'une taille considérable, qui opère à travers toute la république de Dalméquie.\n\nTout comme la Caravane écarlate, elle était très intéressée par le rachat des Pourvoyeurs vendus par l'armée dalmèque. La guilde avait remarqué le talent indéniable d'Éloïse pour les affaires et lui avait même proposé de rejoindre ses rangs. Elle regardait donc de loin les négociations entre la roulière et les militaires. Quand les Crêtargents ont réalisé qu'Éloïse ne comptait pas se joindre à eux, ils l'ont privé de ce contrat pour lequel elle se donnait tant de mal en doublant ce qu'elle proposait.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "republique-de-dalmequie",
+    "marche-de-poklad",
+    "eloise-vesta",
+    "theodore-vesta"
+  ]
+}

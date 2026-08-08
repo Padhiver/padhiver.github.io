@@ -1,0 +1,22 @@
+{
+  "id": "invasion-ferregienne",
+  "title": "L'invasion ferrégienne",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 156,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Une incursion ferrégienne sur le territoire rosalien ayant eu lieu en 860.\n\nAprès l'attaque du fort Phénix par les troupes sangbréquoises, qui vit la mort du souverain de Rosalia, l'Archiduché sombra dans le chaos. Le Royaume de Fer en profita pour y envoyer son armée, laquelle pilla le pays affaibli et massacra de nombreux hommes rosaliens. En outre, des femmes et des enfants furent capturés pour être amenés en terre ferrégienne. Jill Warrick fut elle aussi faite prisonnière et se retrouva exilée loin de sa terre d'adoption.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "archiduche-de-rosalia",
+    "armee-ferregienne",
+    "jill-warrick",
+    "attaque-du-fort-phenix"
+  ]
+}

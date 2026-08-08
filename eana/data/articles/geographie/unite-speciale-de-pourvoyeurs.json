@@ -1,0 +1,28 @@
+{
+  "id": "unite-speciale-de-pourvoyeurs",
+  "title": "L'unité spéciale de Pourvoyeurs",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 162,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Une petite troupe de soldats d'élite envoyée au défilé de Nýsa, dans la république de Dalméquie.\n\nSa mission est d'assassiner l'Émissaire qui doit prendre part à cette bataille.",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Une troupe de soldats sangbréquois envoyée assassiner l'Émissaire de Shiva au Royaume de Fer au cours d'une mission secrète.\n\nTous les membres de ce groupe, à commencer par leur capitaine Tiamat, portent la marque des Pourvoyeurs et sont donc des soldats-esclaves.",
+      "caption": "Bataille du défilé de Nýsa"
+    }
+  ],
+  "related": [
+    "tiamat",
+    "biast",
+    "eibis",
+    "bataille-du-defile-de-nysa",
+    "soldats-pourvoyeurs",
+    "saint-empire-de-sangbreque"
+  ]
+}

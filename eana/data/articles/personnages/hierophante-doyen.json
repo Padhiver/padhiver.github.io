@@ -1,0 +1,34 @@
+{
+  "id": "hierophante-doyen",
+  "title": "Le Hiérophante doyen",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 48,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Le chef du Conseil des Patriarches du Saint-Empire de Sangbrèque.\n\nIl est à la tête des cinq Hiérophantes qui régissent la politique sangbréquoise et appuient l'Empereur dans ses décisions. Il est responsable de la gouvernance d'Oriflamme et son autorité y est par conséquent absolue.",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Le chef du Conseil des Patriarches du Saint-Empire de Sangbrèque.\n\nÀ la tête des cinq Hiérophantes régissant la politique sangbréquoise, il était connu par ses sujets sous le nom du duc d'Oriflamme avant le transfert de la capitale. Après la chute du Dominion, il se retire à Francastel avec sa famille et développe le projet de faire de ce bourg la nouvelle capitale de l'Empire sangbréquois, ce qui nécessite la participation des civils et des militaires.",
+      "caption": "Chute du Dominion"
+    },
+    {
+      "text": "Le chef du Conseil des Patriarches du Saint-Empire de Sangbrèque.\n\nIl envisageait d'établir de manière autoritaire une nouvelle capitale pour l'Empire au hameau de Francastel contre l'avis du peuple, en se servant de Fort-Norvent comme d'une base fortifiée, mais après avoir vu les habitants s'unir pour combattre les créatures qui menaçaient le village, il revoit finalement sa façon de voir les choses. Il décide d'aider Francastel à prospérer et d'œuvrer pour le bien de la bourgade en coopérant avec les villageois.",
+      "caption": "L'union sacrée pour Francastel"
+    }
+  ],
+  "related": [
+    "hierophantes",
+    "sylvestre-lesage",
+    "conseil-des-patriarches",
+    "saint-empire-de-sangbreque",
+    "francastel",
+    "oriflamme",
+    "sabine",
+    "fort-norvent"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "voix-de-la-tour-des-sages",
+  "title": "La voix de la Tour des Sages",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 45,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "echoes-of-the-fallen",
+  "pages": [
+    {
+      "text": "Une voix mystérieuse qui résonne dans la Tour des Sages.\n\nElle semble diriger la tour elle-même et fait tout son possible pour éradiquer les intrus. Son ton monocorde laisse penser qu'il ne s'agit pas d'un être humain, mais d'une invention magitech mise au point par les Célestes.",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Une voix mystérieuse qui résonnait dans la Tour des Sages.\n\nLes Célestes l'avaient sûrement mise au point grâce à leur technologie magitech pour contrôler et défendre la tour. Ainsi, elle a utilisé l'arsenal à sa disposition pour tenter d'éliminer Clive et ses compagnons, avant de s'éteindre à jamais après la destruction du Cristal-mère artificiel.",
+      "caption": "Révélation"
+    }
+  ],
+  "related": [
+    "tour-des-sages",
+    "civilisation-celeste",
+    "technologie-magitech",
+    "angra-mainyu",
+    "remanences-celestes"
+  ]
+}

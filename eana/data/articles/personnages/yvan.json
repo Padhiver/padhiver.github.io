@@ -1,0 +1,22 @@
+{
+  "id": "yvan",
+  "title": "Yvan",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 98,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Un commis de cuisine au Repaire.\n\nIl était très grièvement blessé lorsqu'il a été amené au Repaire, mais en cinq ans, ses blessures ont guéri et il a repris du poil de la bête. Il manifeste aujourd'hui une curiosité certaine pour les petits plats cuisinés à base de monstres, si bien qu'il cherche à déchiffrer les mystérieuses recettes de l'ouvrage intitulé « Valisthéa, un voyage gastronomique ».",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "valisthea-un-voyage-gastronomique",
+    "molly",
+    "protection-des-pourvoyeurs",
+    "repaire-de-clive"
+  ]
+}

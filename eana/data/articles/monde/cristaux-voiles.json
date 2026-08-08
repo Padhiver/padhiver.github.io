@@ -1,0 +1,34 @@
+{
+  "id": "cristaux-voiles",
+  "title": "Les cristaux voilés",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 63,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "echoes-of-the-fallen",
+  "pages": [
+    {
+      "text": "D'étranges cristaux bien plus opaques que les autres.\n\nIls fonctionnent comme les cristaux ordinaires, à ceci près qu'ils se brisent bien souvent dès la première utilisation. Ils sont apparus sur le marché noir peu de temps après l'assombrissement du ciel. Ces articles inhabituels ont intrigué Kharonne qui n'a pas réfléchi à deux fois avant de s'en procurer un échantillon.",
+      "caption": "Généralités"
+    },
+    {
+      "text": "D'étranges cristaux bien plus opaques que les autres et qu'on trouve en abondance dans la Tour des Sages.\n\nFahmil et ses acolytes les minaient sur place et les rapportaient à leur village pour l'utilisation quotidienne des habitants. Mais la demande en cristal ayant considérablement augmenté après l'assombrissement du ciel, ils ont commencé à vendre leur surplus sur le marché noir pour profiter de cette manne. Ces cristaux semblent être liés au Cristal-mère artificiel de la Tour des Sages.",
+      "caption": "Le lien avec la Tour des Sages"
+    },
+    {
+      "text": "D'étranges cristaux imparfaits provenant de la Tour des Sages.\n\nIls semblent être des sous-produits issus d'expériences visant à créer un Cristal-mère. Leur production s'est accélérée avec l'assombrissement du ciel, mais ils se sont tous évaporés après la destruction du Cristal-mère artificiel qu'abritait la tour.",
+      "caption": "La fin des cristaux voilés"
+    }
+  ],
+  "related": [
+    "petits-cristaux",
+    "cristaux",
+    "magie",
+    "kharonne",
+    "tour-des-sages",
+    "cristal-mere-synthetique",
+    "homme-a-lair-louche",
+    "cristaux-meres"
+  ]
+}

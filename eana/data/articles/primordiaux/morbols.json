@@ -1,0 +1,22 @@
+{
+  "id": "morbols",
+  "title": "Les morbols",
+  "category": "primordiaux",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 34,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "De colossaux monstres végétaux, au nombre incalculable de tentacules.\n\nLes sécrétions qu'ils produisent donnent à leur haleine putride une puanteur propre aux morbols. Ces créatures aiment les climats humides et tempérés, et vivent principalement dans des marécages. Leur présence a été signalée à Rosalia, mais également sur une île de l'ouest ponantin.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "monstres",
+    "orties-vampires",
+    "fangebrune",
+    "ile-drustanus"
+  ]
+}

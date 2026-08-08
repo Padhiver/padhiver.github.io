@@ -1,0 +1,22 @@
+{
+  "id": "sacrarium",
+  "title": "Le sacrarium",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 119,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "La partie centrale des ruines souterraines qui se trouvent au cœur du fort Phénix, au nord-ouest de Rosalia.\n\nUne immense peinture murale surplombe son autel. La tradition rosalienne veut que l'Émissaire de Phénix y effectue un rite et reçoive l'augure martial avant de partir en guerre.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "fort-phenix",
+    "ancienne-fresque",
+    "joshua-rosfield",
+    "ordre-des-ailes-ardentes"
+  ]
+}

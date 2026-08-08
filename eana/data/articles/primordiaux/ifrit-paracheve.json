@@ -1,0 +1,28 @@
+{
+  "id": "ifrit-paracheve",
+  "title": "Ifrit parachevé",
+  "category": "primordiaux",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 7,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "La forme combinée d'Ifrit et de Phénix.\n\nCette nouvelle puissance s'est manifestée sous la volonté unie de Clive et Joshua, en mauvaise posture lors de leur combat contre Bahamut au Dominion du Cristal. Cette entité ressemble à Ifrit portant les ailes de Phénix, et possède une grande puissance de combat.",
+      "caption": "Après la fusion"
+    },
+    {
+      "text": "La forme combinée d'Ifrit et de Phénix, qui représente le réceptacle tel qu'Ultima le convoite.\n\nCette apparence est la forme finale d'Ifrit, tel qu'il était représenté sur la tapisserie sacrée maliusianiste. Il s'agit là de leur dieu en personne, et il possède un pouvoir sans pareil.",
+      "caption": "Révélation"
+    }
+  ],
+  "related": [
+    "primordial-mysterieux",
+    "phenix",
+    "bahamut",
+    "dominion-du-cristal",
+    "ancienne-fresque",
+    "creation-dun-nouveau-monde"
+  ]
+}

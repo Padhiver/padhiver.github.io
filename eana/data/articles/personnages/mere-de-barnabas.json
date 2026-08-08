@@ -1,0 +1,29 @@
+{
+  "id": "mere-de-barnabas",
+  "title": "La mère de Barnabas",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 41,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "La défunte mère du roi de Valœd.\n\nUltima, qui peut prendre diverses formes, a déjà utilisé son apparence pour se montrer devant Barnabas.",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Une descendante du peuple de Dzemekys née dans les continents extérieurs.\n\nElle s'est installée à Valisthéa avec son fils avant de perdre la vie lors de combats entre clans ennemis au Gris-Levant. C'est elle qui a inculqué les dogmes du Cercle de Malius à Barnabas. Plus qu'une mère adorée, elle était aussi un maître à penser pour l'Émissaire d'Odin.",
+      "caption": "Révélation"
+    }
+  ],
+  "related": [
+    "roi-de-valoed",
+    "ultima",
+    "magie",
+    "ether",
+    "cercle-de-malius",
+    "peuple-de-dzemekys",
+    "continents-exterieurs"
+  ]
+}

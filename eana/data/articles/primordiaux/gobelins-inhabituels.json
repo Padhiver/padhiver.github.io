@@ -1,0 +1,28 @@
+{
+  "id": "gobelins-inhabituels",
+  "title": "Les Gobelins inhabituels",
+  "category": "primordiaux",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 29,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "source": "echoes-of-the-fallen",
+  "pages": [
+    {
+      "text": "Des hommes-bêtes vivant dans la forêt de morion qui ressemblent à s'y méprendre à des Gobelins.\n\nIls s'écartent notamment de leurs cousins par leur crête rouge, et par le fait qu'ils utilisent des artefacts célestes comme armes. Ils ont attaqué Clive et son groupe par surprise, au beau milieu d'une région de terres mortes dans laquelle aucun monstre ou homme-bête ne vit ordinairement.",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Des Gobelins tels qu'on en trouvait à Valisthéa dans les temps anciens et de constitution plus robuste que leurs descendants actuels.\n\nLes Célestes les ont capturés et enfermés dans la Tour des Sages afin de mener des expériences sur eux. Ceux que Clive a rencontrés dans la forêt de morion semblent avoir été relâchés par la tour pour une raison inconnue.",
+      "caption": "Révélation"
+    }
+  ],
+  "related": [
+    "hommes-betes",
+    "gobelins",
+    "civilisation-celeste",
+    "foret-de-morion",
+    "specimens-de-la-tour-des-sages",
+    "taurus-anciens"
+  ]
+}

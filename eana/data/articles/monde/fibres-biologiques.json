@@ -1,0 +1,28 @@
+{
+  "id": "fibres-biologiques",
+  "title": "Les fibres biologiques",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 70,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "echoes-of-the-fallen",
+  "pages": [
+    {
+      "text": "Une étrange matière organique de couleur noire rencontrée dans la Tour des Sages.\n\nOn observe à sa surface des pulsations pareilles à celles d'une chair d'être vivant, et elle émet par endroits une lueur rouge. La peau des monstres de la Tour des Sages partage ces caractéristiques, ce qui laisse penser que cette matière a servi à les créer.",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Une étrange matière organique de couleur noire rencontrée dans la Tour des Sages.\n\nSous-produit de la fabrication du Cristal-mère artificiel, elle a été créée à partir des monstres et des hommes-bêtes ayant servi de sujets expérimentaux. Les Célestes avaient mis à profit sa grande résilience pour engendrer des armes magitech biologiques. Plusieurs millénaires plus tard, les perturbations de l'éther environnant ont entraîné sa multiplication rapide. Tant et si bien que les fibres biologiques se sont échappées de leur cuve de culture et tapissent maintenant l'édifice.",
+      "caption": "Révélation"
+    }
+  ],
+  "related": [
+    "armes-magitech",
+    "sigma",
+    "omicron",
+    "tour-des-sages",
+    "specimens-de-la-tour-des-sages",
+    "cristal-mere-synthetique"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "republique-de-dalmequie",
+  "title": "La république de Dalméquie",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 61,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Une république constituée de cinq provinces, située au sud du Vert-Ponant.\n\nRandělá en est la capitale. Son territoire est marqué par la présence de Crocdrac et l'absence de toute religion d'État, puisque l'on y observe la liberté de culte. Le noyau dur de son gouvernement est composé d'un président du conseil dalmèque, représentant la république, entouré des membres du conseil républicain, représentant quant à eux chacune des provinces.",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Une république constituée de cinq provinces, située au sud du Vert-Ponant.\n\nRandělá en est la capitale. Son territoire est marqué par la présence du Cristal-mère de Crocdrac, au pied duquel se dresse le château de Dažbog. Hugo Kupka, l'Émissaire de Titan, s'y est installé.",
+      "caption": "Place forte de Hugo Kupka"
+    },
+    {
+      "text": "Une république constituée de cinq provinces, située au sud du Vert-Ponant.\n\nRandělá en est la capitale. Hugo Kupka, qui s'est installé au pied du Cristal-mère de Crocdrac, a fait de la garde nationale son armée privée. Il est bien décidé à terrasser Cid, son ennemi juré.",
+      "caption": "Objectif de Kupka"
+    },
+    {
+      "text": "Une république constituée de cinq provinces, située au sud du Vert-Ponant.\n\nRandělá en est la capitale. Le pays et son gouvernement ont sombré dans le chaos après avoir perdu leurs deux piliers : le Cristal-mère de Crocdrac et Hugo Kupka, l'Émissaire de Titan. Ce revirement de situation les a contraints à cesser le conflit avec le Saint-Empire de Sangbrèque concernant le Dominion du Cristal.",
+      "caption": "Destruction de Crocdrac"
+    },
+    {
+      "text": "Une république constituée de cinq provinces, située au sud du Vert-Ponant.\n\nRandělá en est la capitale. Après la destruction du Cristal-mère de Crocdrac, le chaos s'est répandu, permettant aux soldats valœdois changés en éthériques et aux Orcs d'envahir la capitale. C'est Dion Lesage, à la tête des Saints Dragons, qui est parvenu à renverser la situation.",
+      "caption": "Chute de la Dalméquie"
+    }
+  ],
+  "related": [
+    "hugo-kupka",
+    "titan",
+    "conseil-republicain",
+    "armee-dalmeque",
+    "chateau-de-dazbbog",
+    "colosses-de-pierre",
+    "crocdrac",
+    "siege-du-dominion-du-cristal",
+    "randela",
+    "destruction-de-crocdrac",
+    "stratege-dalmeque",
+    "ordre-des-saints-dragons",
+    "armee-royale-de-valoed"
+  ]
+}

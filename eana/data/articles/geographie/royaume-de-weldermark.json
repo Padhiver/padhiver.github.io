@@ -1,0 +1,22 @@
+{
+  "id": "royaume-de-weldermark",
+  "title": "Le royaume de Weldermark",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 118,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Le puissant royaume qui s'étendait autrefois sur le Gris-Levant.\n\nBarnabas Tharmr le mit à genoux en l'espace d'une seule nuit et règne désormais en maître sur tout le continent.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "roi-de-valoed",
+    "odin",
+    "royaume-de-valoed",
+    "gris-levant"
+  ]
+}

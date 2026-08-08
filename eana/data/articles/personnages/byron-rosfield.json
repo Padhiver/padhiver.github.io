@@ -1,0 +1,41 @@
+{
+  "id": "byron-rosfield",
+  "title": "Byron Rosfield",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 8,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Le seigneur de la cité côtière de Port-Yseut.\n\nFrère cadet de feu l'archiduc Elwin, il est donc l'oncle de Clive et Joshua. Son statut de membre proéminent des Sept dynasties rosaliennes lui a octroyé une fortune et une influence qu'il a continué de développer grâce à son sens des affaires et à sa personnalité sympathique. Byron Rosfield est désormais un magnat du commerce connu à travers Valisthéa.",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Le seigneur de la cité côtière de Port-Yseut.\n\nOncle paternel de Clive et Joshua, il reste loyal aux idéaux de son frère aîné adoré, le défunt archiduc Elwin. Depuis l'annexion de Rosalia à Sangbrèque, l'influence politique de Byron est réduite à néant, mais sa sécurité et son train de vie sont assurés en échange des impôts importants qu'il paie au gouvernement d'occupation. Il utilise ses activités commerciales comme couverture pour apporter une aide financière aux Gardiens de l'Étincelle, un groupe de rebelles composé d'anciens Gardiens de Rosalia.",
+      "caption": "À Port-Yseut"
+    },
+    {
+      "text": "Le seigneur de la cité côtière de Port-Yseut.\n\nOncle paternel de Clive et Joshua, il soutient ses neveux dans leurs combats. Après l'annexion de Rosalia à Sangbrèque, il a longtemps accepté de vivre selon les desiderata d'Annabella, sans véritable liberté ni influence politique. Cependant, ses retrouvailles avec Clive lui ont fait comprendre qu'une autre vie était possible, et il se considère désormais comme un renégat à part entière. Dans sa jeunesse, il s'est battu aux côtés d'Eugen Havel, qui est devenu maréchal dans l'armée dalmèque. Les deux hommes ont encore un rapport de confiance.",
+      "caption": "Soutien à Clive"
+    },
+    {
+      "text": "Le seigneur de la cité côtière de Port-Yseut.\n\nOncle paternel de Clive et Joshua, il soutient ses neveux dans leur combat contre Ultima. En particulier, il a juré de veiller à la sécurité et au bien-être du peuple malgré le chaos qui menace le monde. C'est dans ce but qu'il signe le traité de la Triple-Alliance avec le maréchal Eugen Havel, originaire de Dalméquie, et Quentin, originaire de Sangbrèque. ",
+      "caption": "La Triple-Alliance"
+    }
+  ],
+  "related": [
+    "port-yseut",
+    "sept-dynasties-rosaliennes",
+    "elwin-rosfield",
+    "clive",
+    "sebastian-rutherford",
+    "gardiens-de-letincelle",
+    "geste-de-crandall",
+    "annabella-rosfield",
+    "stratege-dalmeque",
+    "triple-alliance-de-878",
+    "archiduche-de-rosalia"
+  ]
+}

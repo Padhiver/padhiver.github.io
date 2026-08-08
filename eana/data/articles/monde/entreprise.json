@@ -1,0 +1,31 @@
+{
+  "id": "entreprise",
+  "title": "L'Entreprise",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 43,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Un croiseur à grande vitesse propulsé par un moteur à mithril.\n\nCid et sa fille Mid l'ont conçu ensemble, et le bâtiment est en cours de construction sur les instructions de Mid dans un chantier naval dont l'emplacement est tenu secret près de Kanvěr.",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Un croiseur à grande vitesse propulsé par un moteur à mithril.\n\nCid et sa fille Mid l'ont conçu ensemble afin qu'il incarne un dernier espoir de découvrir de nouvelles terres habitables par-delà les mers, si un jour les Terres mortes rendaient Valisthéa complètement invivable. Le navire a été construit dans un chantier discret près de Kanvěr, sur les instructions de Mid et grâce à l'aide financière de Byron Rosfield.",
+      "caption": "Le chantier naval des Forges"
+    },
+    {
+      "text": "Un croiseur à grande vitesse propulsé par un moteur à mithril.\n\nCid et sa fille Mid l'ont conçu ensemble afin qu'il incarne un dernier espoir de découvrir de nouvelles terres habitables par-delà les mers, si un jour les Terres mortes rendaient Valisthéa complètement invivable. Le navire a été construit dans un chantier discret près de Kanvěr, sur les instructions de Mid et grâce à l'aide financière de Byron Rosfield. Il est capable de filer sur les flots à une vitesse bien plus rapide qu'un navire à propulsion vélique, plusieurs dizaines de fois plus rapidement même.",
+      "caption": "Après son baptême"
+    }
+  ],
+  "related": [
+    "villes-libres-de-kanver",
+    "moteur-a-mithril",
+    "midadole-telamon",
+    "cid",
+    "chantier-naval-des-forges"
+  ]
+}

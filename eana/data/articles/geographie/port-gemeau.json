@@ -1,0 +1,22 @@
+{
+  "id": "port-gemeau",
+  "title": "Port-Gémeau",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 167,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "L'ancienne capitale du Dominion du Cristal.\n\nDepuis son invasion par le Saint-Empire de Sangbrèque en 873, elle en héberge le gouvernement.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "saint-empire-de-sangbreque",
+    "dominion-du-cristal",
+    "siege-du-dominion-du-cristal",
+    "caudrac"
+  ]
+}

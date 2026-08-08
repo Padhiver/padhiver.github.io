@@ -1,0 +1,22 @@
+{
+  "id": "desert-de-krozit",
+  "title": "Le désert de Krozít",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 91,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Une zone désertique qui occupe tout le centre de la république de Dalméquie.\n\nLa partie nord est une vaste plaine désolée, et comme il n'y a ni route ni habitations, cette région voit très peu de passage. Au sud, une route mène à un hameau isolé du nom de Tábor, et à la cité-État marchande de Kanvěr.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "remanences-celestes",
+    "tabor",
+    "villes-libres-de-kanver",
+    "republique-de-dalmequie"
+  ]
+}

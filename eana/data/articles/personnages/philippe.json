@@ -1,0 +1,27 @@
+{
+  "id": "philippe",
+  "title": "Philippe",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 78,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Un soldat sangbréquois posté à Francastel.\n\nIl est épris de la Reine de la nuit, Apolline, et est toujours le premier au front pour protéger la ville en remotivant tous ses frères d'armes.",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Un mercenaire qui protège Francastel.\n\nIl fait partie de la garnison sangbréquoise quand le projet d'aménagement de Fort-Norvent et de militarisation de Francastel par le duc d'Oriflamme lui fait craindre le pire pour sa ville de cœur. Il choisit alors de démissionner pour la défendre par ses propres moyens. Avec l'aide de Clive, il se bat jusqu'au bout pour Francastel et sa bien-aimée Apolline.",
+      "caption": "L'union sacrée pour Francastel"
+    }
+  ],
+  "related": [
+    "francastel",
+    "armee-sangbrequoise",
+    "madame-apolline",
+    "saint-empire-de-sangbreque",
+    "hierophante-doyen"
+  ]
+}

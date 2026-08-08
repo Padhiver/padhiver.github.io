@@ -1,0 +1,22 @@
+{
+  "id": "broches",
+  "title": "Les broches",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 56,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Des accessoires donnés par des personnes à certains de leurs sympathisants pour indiquer qu'ils sont dignes de confiance.\n\nCe sont en général des individus influents dans des villes ou des hameaux, qui se servent de ces broches en guise de signe de reconnaissance. Leur porteur peut parfois se voir confier des tâches difficiles, ou tout simplement se déplacer librement et sans maître s'il s'agit d'un Pourvoyeur.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "partisans-du-repaire",
+    "pourvoyeurs",
+    "activites-des-pourvoyeurs",
+    "protection-des-pourvoyeurs"
+  ]
+}

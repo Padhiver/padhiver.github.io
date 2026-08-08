@@ -1,0 +1,42 @@
+{
+  "id": "benedikta-harman",
+  "title": "Benedikta Harman",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 4,
+  "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "L'officier à la tête du corps d'espionnage valœdois.\n\nBénéficiant des faveurs du roi de Valœd, elle a participé aux pourparlers avec la république de Dalméquie qui ont eu lieu à la citadelle de Zirnitra. Elle manifeste un attachement fougueux pour Hugo Kupka, l'Émissaire dalmèque.",
+      "caption": "Généralités"
+    },
+    {
+      "text": "L'officier à la tête du corps d'espionnage valœdois.\n\nElle excelle dans le maniement de l'épée et possède un véritable don pour mener des troupes. Elle use aussi de ses charmes pour manipuler Hugo Kupka, l'Émissaire dalmèque. Qui plus est, elle et Cid semblent s'être fréquentés par le passé. À la fin des pourparlers à la citadelle de Zirnitra, elle a fait route avec sa troupe pour Sangbrèque.",
+      "caption": "Mission secrète à Sangbrèque"
+    },
+    {
+      "text": "L'officier à la tête du corps d'espionnage valœdois et l'Émissaire de Garuda.\n\nSon don pour mener des troupes lui a permis de prendre Fort-Norvent en très peu de temps. Quand elle ne dirige pas, elle use de ses charmes pour manipuler Hugo Kupka sur ordre du roi Barnabas. Sa relation avec Cid semble en revanche plus complexe, à mi-chemin entre l'amour et la haine.",
+      "caption": "Chute de Fort-Norvent"
+    },
+    {
+      "text": "L'officier qui était à la tête du corps d'espionnage valœdois et l'Émissaire de Garuda.\n\nClive la vainc à Fort-Norvent et lui prend ses pouvoirs d'Émissaire. Sans défense et livrée à elle-même, elle perd le contrôle des pouvoirs qui lui restent quand des brigands tentent de s'en prendre à elle. Elle redevient Garuda pendant un temps et une tornade se forme autour d'elle. Clive se change en Ifrit et lui inflige le coup de grâce en bravant ses vents destructeurs.",
+      "caption": "Épilogue"
+    }
+  ],
+  "related": [
+    "pourparlers-de-zirnitra",
+    "hugo-kupka",
+    "roi-de-valoed",
+    "royaume-de-valoed",
+    "cid",
+    "saint-empire-de-sangbreque",
+    "corps-despionnage-valoedois",
+    "garuda",
+    "fort-norvent",
+    "emissaires",
+    "officier-du-corps-despionnage-valoedois",
+    "oeil-de-la-tempete"
+  ]
+}

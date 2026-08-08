@@ -1,0 +1,22 @@
+{
+  "id": "marques",
+  "title": "Les marqués",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 76,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Un surnom péjoratif dont sont affublés les Pourvoyeurs.\n\nLes Pourvoyeurs identifiés par les gouvernements sont tatoués à la joue, si bien que les individus ordinaires savent à quelle catégorie de personnes ils s'adressent lorsqu'ils les croisent. Ce sobriquet s'est installé avec le temps.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "marque",
+    "pourvoyeurs",
+    "purges",
+    "marchands-desclaves"
+  ]
+}

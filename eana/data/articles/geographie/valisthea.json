@@ -1,0 +1,37 @@
+{
+  "id": "valisthea",
+  "title": "Valisthéa",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 175,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Une vaste région divisée en deux continents : le Vert-Ponant et le Gris-Levant.\n\nDes Cristaux-mères se dressent çà et là, et autour d'eux se sont construit des villes et des états bénéficiant de la magie pour se développer. Malheureusement, le temps de l'abondance semble désormais révolu avec la progression du Fléau noir, un mystérieux phénomène qui rend les terres invivables et menace les hameaux humains.",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Une vaste région divisée en deux continents : le Vert-Ponant et le Gris-Levant.\n\nDes Cristaux-mères se dressent çà et là, et autour d'eux se sont construit des villes et des états bénéficiant de la magie pour se développer. Le chaos se répand cependant depuis la destruction du Cristal-mère de Chefdrac par Cid et son groupe de rebelles.",
+      "caption": "Destruction de Chefdrac"
+    },
+    {
+      "text": "Une vaste région divisée en deux continents : le Vert-Ponant et le Gris-Levant.\n\nLe chaos s'y répandait déjà du fait de la chute successive des différents Cristaux-mères, mais c'est désormais le ciel qui met Valisthéa en émoi. En effet, celui-ci a pris une teinte étrange à cause de l'Expurgation, et le déséquilibre qui affecte le flux d'éther provoque de nombreux phénomènes étranges.",
+      "caption": "L'Expurgation"
+    },
+    {
+      "text": "Une vaste région divisée en deux continents : le Vert-Ponant et le Gris-Levant.\n\nIl y a bien longtemps de cela, Ultima a fui son monde menacé par le Fléau noir et découvert Valisthéa, dont les terres ne connaissaient pas cette menace. Il entreprit la création d'un monde régi par de nouvelles lois et disposa ainsi des Cristaux-mères çà et là, afin que ceux-ci absorbent la quantité d'éther nécessaire à la création de son monde idéal.",
+      "caption": "Révélation quant aux Cristaux-mères"
+    }
+  ],
+  "related": [
+    "terres-mortes",
+    "cristaux-meres",
+    "vert-ponant",
+    "gris-levant",
+    "destruction-de-chefdrac",
+    "expurgation",
+    "creation-dun-nouveau-monde"
+  ]
+}

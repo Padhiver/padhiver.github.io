@@ -1,0 +1,22 @@
+{
+  "id": "revolte-des-saints-dragons",
+  "title": "La révolte des Saints Dragons",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 62,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Une révolte menée par l'Ordre des Saints Dragons, une partie de l'armée sangbréquoise, au Dominion du Cristal en 878.\n\nL'élément déclencheur en est l'abdication de l'empereur Sylvestre en faveur d'Octavien, le fils qu'il avait eu avec Annabella. Dion Lesage, fils aîné de l'empereur, Émissaire de Bahamut et commandant des Saints Dragons, espérait utiliser ses troupes pour retirer son influence à Annabella, mais il perdit le contrôle de son Primordial et dévasta Port-Gémeau.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "sacre-doctavien",
+    "dion-lesage",
+    "ordre-des-saints-dragons",
+    "dominion-du-cristal"
+  ]
+}

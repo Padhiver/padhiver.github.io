@@ -1,0 +1,22 @@
+{
+  "id": "repaire-de-clive",
+  "title": "Le Repaire de Clive",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 115,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Un endroit situé au centre du Vert-Ponant, qui est le nouveau Repaire de Clive et de ses compagnons.\n\nAprès l'attaque de Hugo Kupka qui détruisit l'ancien Repaire, Clive, qui hérita du nom de Cid, décida de reconstruire un nouveau Repaire et fit de cet endroit un lieu de vie pour lui et les siens. Comme le premier Repaire, celui-ci a été bâti en aménageant des ruines de la civilisation des Célestes et permet à ses habitants de vivre discrètement au milieu des Terres mortes. De plus, l'endroit se situe au centre du lac Bénou, ce qui permet de repérer de loin toute tentative d'incursion ennemie.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "terres-mortes",
+    "clive",
+    "aeronefs",
+    "lac-benou"
+  ]
+}

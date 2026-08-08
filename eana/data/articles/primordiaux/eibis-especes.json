@@ -1,0 +1,22 @@
+{
+  "id": "eibis-especes",
+  "title": "Les eibis",
+  "category": "primordiaux",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 23,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Des dragons de taille moyenne qui se distinguent de leurs cousins plus imposants par leurs membranes brachiales.\n\nBien qu'elles ne leur permettent pas de voler, elles sont terminées par des griffes acérées qui, combinées à leur agilité et leur agressivité, suffisent amplement à déchiqueter leur proie. On les aperçoit le plus souvent au côté de leurs dresseurs au sein de bataillons du Saint-Empire de Sangbrèque, mais certaines sous-espèces sont adaptées aux climats arides et il n'est pas rare d'en croiser des sauvages dans le désert.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "betes-fabuleuses",
+    "armee-sangbrequoise",
+    "dragons",
+    "dragonnets"
+  ]
+}

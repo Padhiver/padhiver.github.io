@@ -1,0 +1,33 @@
+{
+  "id": "ecrits-de-mors-lancien",
+  "title": "Les Écrits de Mors l'ancien",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 64,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Un ouvrage rédigé par Mors l'ancien, un historien valisthéen.\n\nSi cette œuvre majeure démontre l'érudition de son auteur concernant le passé de Valisthéa, sa créativité et son lyrisme furent cependant les cibles de vives critiques de la part de ses pairs. Les diverses polémiques poussèrent l'historien à disparaître en emportant avec lui son œuvre. Aujourd'hui encore, personne ne sait où l'homme se trouve exactement.",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Un ouvrage rédigé par Mors l'ancien, un historien valisthéen.\n\nIl évoque et décrit le Cercle de Malius, une très ancienne religion valisthéenne, mais parle également d'Ultima. Tout le monde pensait l'œuvre perdue, disparue il y a bien longtemps avec son auteur, mais celle-ci fut retrouvée par des membres des Ailes ardentes et se trouve aujourd'hui entre les mains de Joshua.",
+      "caption": "Un exemplaire chez Joshua"
+    },
+    {
+      "text": "Un ouvrage rédigé par Mors l'ancien, un historien valisthéen.\n\nQuittant le jeune Harpocrate qu'il avait rencontré sur les continents extérieurs, Mors revint à Valisthéa. Il y passa les dernières années de sa vie, explorant les antiques ruines de chaque contrée dans le but de percer les mystères du Cercle de Malius et d'Ultima, prenant note de toutes les informations qu'il avait pu glaner à leur sujet.",
+      "caption": "Lien avec Harpocrate"
+    }
+  ],
+  "related": [
+    "mors-lancien",
+    "valisthea",
+    "cristaux-meres",
+    "calendrier-ponantin",
+    "cercle-de-malius",
+    "ultima",
+    "harpocrate-hyperboreoi-ii"
+  ]
+}

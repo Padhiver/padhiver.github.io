@@ -1,0 +1,30 @@
+{
+  "id": "monolithes",
+  "title": "Les monolithes",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 77,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Des monuments dispersés dans tout Valisthéa depuis des temps immémoriaux.\n\nLeur esthétique pourrait laisser penser qu'il s'agit de ruines célestes. Cependant, l'observateur attentif remarquera que ces monolithes se dressent fièrement, à l'inverse des reliques célestes qui jonchent leur point de chute. Ils émettent une étrange lumière bleue lorsque Clive s'en approche, témoignant d'un mécanisme à la fonction inconnue. Facilement reconnaissables de jour comme de nuit, ils servent de repères aux voyageurs.",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Des monuments dispersés dans tout Valisthéa depuis des temps immémoriaux.\n\nUltima les a placés là afin d'altérer l'écoulement de l'éther, et ainsi améliorer son absorption par les Cristaux-mères. Ces derniers ne sont plus, mais les monolithes étant indépendants, ils n'en ont pas pour autant perdu leur fonction. Depuis l'Expurgation, l'éther tumultueux qui en jaillit à profusion se manifeste par une fontaine de lumière.",
+      "caption": "Révélation"
+    }
+  ],
+  "related": [
+    "civilisation-celeste",
+    "stele-dexcellence",
+    "valisthea",
+    "clive",
+    "civilisation-ultimienne",
+    "cristaux-meres",
+    "expurgation",
+    "ether"
+  ]
+}

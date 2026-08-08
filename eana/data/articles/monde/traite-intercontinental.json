@@ -1,0 +1,22 @@
+{
+  "id": "traite-intercontinental",
+  "title": "Le Traité intercontinental",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 94,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Un accord international conclu il y a plusieurs centaines d'années.\n\nIl détermine notamment le traitement réservé aux Pourvoyeurs à travers Valisthéa et établit une monnaie unique. On lui doit le statut de propriété des Pourvoyeurs et l'obligation de leur marquage, deux éléments fondateurs de la société valisthéenne. Sa signature fut également marquée par l'adoption d'un calendrier commun, le calendrier ponantin, indiquant la volonté des nations participantes de créer un monde nouveau.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "calendrier-ponantin",
+    "gils",
+    "pourvoyeurs",
+    "marque"
+  ]
+}

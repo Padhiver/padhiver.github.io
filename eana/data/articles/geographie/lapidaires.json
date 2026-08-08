@@ -1,0 +1,22 @@
+{
+  "id": "lapidaires",
+  "title": "Les Lapidaires",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 144,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Un groupe de bandits qui s'est établi à la combe de Lastny, en Dalméquie.\n\nLes Lapidaires exploitaient la misère des réfugiés du marché de Poklad pour les pousser à commettre des méfaits. C'est comme cela qu'ils revendaient au marché noir des biens volés par des enfants des rues et des orphelins.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "marche-de-poklad",
+    "honza",
+    "theodore-vesta",
+    "combe-de-lastny"
+  ]
+}
