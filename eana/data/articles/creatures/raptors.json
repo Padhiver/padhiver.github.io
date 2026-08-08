@@ -1,0 +1,22 @@
+{
+  "id": "raptors",
+  "title": "Les raptors",
+  "category": "creatures",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 38,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Des créatures apparentées aux oiseaux mais incapables de voler.\n\nIls ont longtemps été assimilés aux dragons, car ils crachent du feu et leur corps est dépourvu de plumes. Il n'est pas rare d'en apercevoir dans les plaines sangbréquoises.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "monstres",
+    "vautours",
+    "dragonnets",
+    "saint-empire-de-sangbreque"
+  ]
+}

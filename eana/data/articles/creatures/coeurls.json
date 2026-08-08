@@ -1,0 +1,22 @@
+{
+  "id": "coeurls",
+  "title": "Les coeurls",
+  "category": "creatures",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 20,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Des bêtes rappelant les félins et qui se caractérisent par un profil effilé et de longues vibrisses.\n\nIls ont tout des fauves, et même un peu plus grâce aux puissantes décharges d'électricité qu'ils sont capables d'émettre par le biais de leurs longues vibrisses. Ils fulgurent ainsi leurs proies pour les achever à distance, quand ils ne leur bondissent pas dessus à la vitesse de l'éclair. On peut apercevoir ces redoutables félins dans les plaines de Dalméquie.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "betes-fabuleuses",
+    "colosses-de-pierre",
+    "rosalith",
+    "republique-de-dalmequie"
+  ]
+}

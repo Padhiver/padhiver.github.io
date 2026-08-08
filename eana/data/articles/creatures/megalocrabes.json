@@ -1,0 +1,22 @@
+{
+  "id": "megalocrabes",
+  "title": "Les mégalocrabes",
+  "category": "creatures",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 33,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Des créatures à carapace qui vivent dans les marais ou près des côtes.\n\nElles passent la plupart de leur temps cachées sous terre et passent à l'attaque dès qu'un ennemi s'approche. Leur chair est appréciée à Rosalia depuis les temps anciens pour ses qualités gustatives, et on les commercialise sous le nom de « crabe Phénix ». Ce nom vient du fait qu'en faisant cuire le crabe, des motifs rappelant le Phénix apparaissent sur la carapace et que le parfum qui en émane pourrait raviver les morts.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "monstres",
+    "phenix",
+    "pinces-dargile",
+    "archiduche-de-rosalia"
+  ]
+}

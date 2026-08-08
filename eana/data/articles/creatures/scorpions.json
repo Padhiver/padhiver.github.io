@@ -1,0 +1,22 @@
+{
+  "id": "scorpions",
+  "title": "Les scorpions",
+  "category": "creatures",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 40,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Des arachnides dotés d'un aiguillon et d'une paire de pédipalpes préhensiles.\n\nIls immobilisent leur proie avec leurs énormes pinces, puis enfoncent leur dard afin d'injecter un puissant venin. Ce dernier n'a étonnamment que peu d'effet sur les humains, malgré la terrifiante posture d'attaque qui précède son injection. Ils préfèrent les régions chaudes, un trait que les marchands gardent à l'esprit lorsqu'ils traversent les déserts dalmèques ou passent près de volcans.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "monstres",
+    "veuves-noires",
+    "desert-de-velkyroj",
+    "republique-de-dalmequie"
+  ]
+}

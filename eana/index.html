@@ -3,39 +3,39 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Encyclopédie — Eana</title>
+<title>Codex d'Eana</title>
 <meta name="description" content="Encyclopédie de l'univers d'Eana.">
 <link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+<script>
+  // Appliqué avant le premier rendu : sans ça, une page sombre s'afficherait
+  // en clair une fraction de seconde au chargement.
+  try {
+    if (localStorage.getItem("eana_theme") === "dark") {
+      document.documentElement.setAttribute("data-theme", "dark");
+    }
+  } catch (e) { /* stockage indisponible : on reste en clair */ }
+</script>
 </head>
 <body>
 
-<div class="frame-arc left" aria-hidden="true"></div>
-<div class="frame-arc right" aria-hidden="true"></div>
-
 <div class="app-shell">
   <header class="site-header">
-    <div class="header-row">
-      <a class="diamond-btn brand-mark" href="#/" aria-label="Retour à l'accueil" title="Accueil">
-        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M10 10h6v28h-6z"/>
-          <path d="M19 10h6v28h-6z"/>
-          <path d="M28 11l7-1.5 4 27-7 1.5z"/>
-        </svg>
-      </a>
-      <div class="title-block">
-        <h1 class="site-title">Encyclopédie</h1>
-        <p class="site-subtitle">Consulter différents articles sur l'univers d'Eana.</p>
-      </div>
-    </div>
-    <div class="header-rule">
-      <span class="header-rule-line"></span>
-      <span class="header-rule-diamond" aria-hidden="true">◆</span>
-      <span class="header-rule-line"></span>
-    </div>
+    <svg class="compass" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="1" aria-hidden="true">
+      <circle cx="50" cy="50" r="46"/>
+      <circle cx="50" cy="50" r="36"/>
+      <circle cx="50" cy="50" r="8"/>
+      <path d="M50 4v92M4 50h92" stroke-width=".6"/>
+      <path class="needle" d="M50 8l7 34 34 8-34 8-7 34-7-34-34-8 34-8z" stroke-width="1.2"/>
+      <path d="M22 22l17 39 39 17-17-39z" stroke-width=".5"/>
+    </svg>
+    <p class="site-eyebrow">Compilé par la Guilde des Archivistes</p>
+    <a class="site-title" href="#/">Codex d'Eana</a>
+    <p class="site-subtitle">Consulter différents articles sur l'univers d'Eana.</p>
+    <div class="header-rule"></div>
   </header>
 
   <main id="app"></main>
@@ -43,9 +43,20 @@
 
 <div id="overlay-root"></div>
 <div id="master-root"></div>
+<div id="gate-root"></div>
+
+<button id="theme-toggle" class="theme-toggle" type="button" aria-label="Basculer entre mode clair et sombre" title="Mode sombre">
+  <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z"/>
+  </svg>
+  <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true">
+    <circle cx="12" cy="12" r="4.2"/>
+    <path d="M12 2.5v2.6M12 18.9v2.6M4.2 4.2l1.9 1.9M17.9 17.9l1.9 1.9M2.5 12h2.6M18.9 12h2.6M4.2 19.8l1.9-1.9M17.9 6.1l1.9-1.9"/>
+  </svg>
+</button>
+
 <div class="key-hints" aria-hidden="true">
-  <span class="key-hint"><kbd>↵</kbd>Choisir</span>
-  <span class="key-hint"><kbd>Échap</kbd>Retour / Fermer</span>
+  <span class="key-hint"><kbd>Échap</kbd>Fermer</span>
 </div>
 
 <script src="js/data.js"></script>

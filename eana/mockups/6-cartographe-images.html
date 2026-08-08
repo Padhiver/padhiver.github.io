@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eana — Maquette 6 · Cartographe illustré</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#ece3d0; --paper-2:#f3ecdc; --paper-3:#e2d7c0;
+  --ink:#2b3a3f; --ink-2:#5c6a6c; --ink-3:#8d9791;
+  --sea:#2f5259; --cinabre:#a03a2b; --cinabre-2:#c25a45;
+  --line:rgba(47,82,89,.26); --line-soft:rgba(47,82,89,.13);
+  --d:"Cinzel",serif; --b:"Cormorant Garamond",Georgia,serif;
+
+  /* ---- ratios repris du codex en jeu ---- */
+  --r-card:16/9;      /* carte d'article (récents + grille) */
+  --r-portrait:9/10;  /* visuel de fiche */
+  --r-banner:3/5;     /* pennon de bannière */
+}
+*{box-sizing:border-box}
+body{margin:0;color:var(--ink);font-family:var(--b);font-size:18px;line-height:1.62;background:var(--paper)}
+body::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;
+  background-image:linear-gradient(rgba(47,82,89,.055) 1px,transparent 1px),
+                   linear-gradient(90deg,rgba(47,82,89,.055) 1px,transparent 1px);
+  background-size:52px 52px}
+body::after{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;
+  background:radial-gradient(80% 65% at 50% 35%, transparent 40%, rgba(120,95,55,.16) 100%)}
+.wrap{position:relative;z-index:1;max-width:1240px;margin:0 auto;padding:0 34px 120px}
+
+/* =========== placeholders d'image (à remplacer par les vraies illustrations) =========== */
+.ph{background-size:cover;background-position:center;background-color:var(--paper-3)}
+.ph-personnages{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 90'%3E%3Crect width='160' height='90' fill='%23e3d8c0'/%3E%3Cg stroke='%232f5259' stroke-width='.4' opacity='.13'%3E%3Cpath d='M0 10h160M0 22h160M0 34h160M0 46h160M0 58h160M0 70h160M0 82h160'/%3E%3C/g%3E%3Cg fill='none' stroke='%232f5259' stroke-width='1.1' opacity='.3'%3E%3Ccircle cx='80' cy='38' r='15'/%3E%3Cpath d='M53 84c0-15 12-25 27-25s27 10 27 25'/%3E%3C/g%3E%3C/svg%3E")}
+.ph-geographie{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 90'%3E%3Crect width='160' height='90' fill='%23e6dbc3'/%3E%3Cg stroke='%232f5259' stroke-width='.4' opacity='.13'%3E%3Cpath d='M0 10h160M0 22h160M0 34h160M0 46h160M0 58h160M0 70h160M0 82h160'/%3E%3C/g%3E%3Cg fill='none' stroke='%232f5259' stroke-width='1' opacity='.32'%3E%3Cpath d='M4 62c18-11 26 5 44-1s28-17 46-13 28 15 50 9'/%3E%3Cpath d='M0 74c22-9 34 6 54 0s30-15 50-11 36 13 56 7'/%3E%3Cpath d='M28 44l12-14 12 14zM96 40l14-17 14 17z'/%3E%3C/g%3E%3C/svg%3E")}
+.ph-monde{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 90'%3E%3Crect width='160' height='90' fill='%23e1d7c2'/%3E%3Cg stroke='%232f5259' stroke-width='.4' opacity='.13'%3E%3Cpath d='M0 10h160M0 22h160M0 34h160M0 46h160M0 58h160M0 70h160M0 82h160'/%3E%3C/g%3E%3Cg fill='none' stroke='%232f5259' stroke-width='1' opacity='.32'%3E%3Ccircle cx='80' cy='45' r='22'/%3E%3Ccircle cx='80' cy='45' r='31'/%3E%3Cpath d='M80 18l5 22 22 5-22 5-5 22-5-22-22-5 22-5z'/%3E%3C/g%3E%3C/svg%3E")}
+.ph-primordiaux{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 90'%3E%3Crect width='160' height='90' fill='%23e4d6bd'/%3E%3Cg stroke='%232f5259' stroke-width='.4' opacity='.13'%3E%3Cpath d='M0 10h160M0 22h160M0 34h160M0 46h160M0 58h160M0 70h160M0 82h160'/%3E%3C/g%3E%3Cg fill='none' stroke='%23a03a2b' stroke-width='1.1' opacity='.34' stroke-linecap='round'%3E%3Cpath d='M80 24c-13 9-35 13-41 9 4 17 17 28 30 30'/%3E%3Cpath d='M80 24c13 9 35 13 41 9-4 17-17 28-30 30'/%3E%3Cpath d='M80 24v48'/%3E%3C/g%3E%3C/svg%3E")}
+.ph-portrait{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 90 100'%3E%3Crect width='90' height='100' fill='%23e3d8c0'/%3E%3Cg stroke='%232f5259' stroke-width='.35' opacity='.13'%3E%3Cpath d='M0 8h90M0 20h90M0 32h90M0 44h90M0 56h90M0 68h90M0 80h90M0 92h90'/%3E%3C/g%3E%3Cg fill='none' stroke='%232f5259' stroke-width='1.1' opacity='.3'%3E%3Ccircle cx='45' cy='36' r='17'/%3E%3Cpath d='M13 100c0-19 14-32 32-32s32 13 32 32'/%3E%3C/g%3E%3C/svg%3E")}
+
+/* =========== en-tête =========== */
+.head{position:relative;text-align:center;padding:60px 0 34px}
+.compass{position:absolute;right:0;top:30px;width:112px;height:112px;color:var(--sea);opacity:.2}
+/* seule l'étoile tourne, le cadre du compas reste fixe */
+.compass .needle{transform-box:view-box;transform-origin:50px 50px;animation:rose-spin 72s linear infinite}
+@keyframes rose-spin{to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){.compass .needle{animation:none}}
+.eyebrow{font-family:var(--d);font-size:.66rem;letter-spacing:.38em;text-transform:uppercase;color:var(--cinabre);margin:0 0 18px}
+h1{font-family:var(--d);font-weight:600;font-size:clamp(2rem,4.6vw,3rem);letter-spacing:.14em;margin:0;color:var(--sea);text-transform:uppercase}
+.head p{color:var(--ink-2);font-style:italic;font-size:1.16rem;margin:.7em 0 0}
+.dbl-rule{margin:30px auto 0;max-width:700px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);height:5px}
+
+/* =========== outils =========== */
+.tools{display:flex;gap:12px;align-items:center;justify-content:center;margin:32px 0 0;flex-wrap:wrap}
+.sfield{position:relative;width:min(100%,470px)}
+.sfield svg{position:absolute;left:16px;top:50%;transform:translateY(-50%);width:18px;height:18px;color:var(--ink-3)}
+.sfield input{width:100%;padding:13px 16px 13px 46px;background:var(--paper-2);border:1px solid var(--line);
+  font-family:var(--b);font-size:1.05rem;color:var(--ink);outline:none;transition:.2s}
+.sfield input::placeholder{color:var(--ink-3);font-style:italic}
+.sfield input:focus{border-color:var(--sea);background:#f8f3e7}
+.chip{font-family:var(--d);font-size:.66rem;letter-spacing:.18em;text-transform:uppercase;padding:11px 16px;border:1px solid var(--line);color:var(--ink-2);cursor:pointer;transition:.2s;background:var(--paper-2)}
+.chip:hover{border-color:var(--sea);color:var(--sea)}
+.chip.on{background:var(--sea);border-color:var(--sea);color:var(--paper-2)}
+.chip[data-mode="master"].on{background:var(--cinabre);border-color:var(--cinabre)}
+.chip .key{width:13px;height:13px;margin-right:7px;vertical-align:-2px}
+
+/* fiches privées : masquées hors mode maître (le nombre de vignettes ne change pas) */
+.acard.private{display:none}
+body.master .acard.private{display:block}
+body.master .acard.public-only{display:none}
+
+/* demande de passphrase */
+.gate{position:fixed;inset:0;z-index:60;display:grid;place-items:center}
+.gate[hidden]{display:none}
+.gate-back{position:absolute;inset:0;background:rgba(30,42,44,.55);backdrop-filter:blur(2px)}
+.gate-box{position:relative;width:min(92vw,400px);background:var(--paper-2);border:1px solid var(--line);
+  padding:30px 32px 26px;box-shadow:0 30px 70px -30px rgba(20,33,36,.8);animation:gate-in .25s ease both}
+.gate-box::before{content:"";position:absolute;inset:7px;border:1px solid var(--line-soft);pointer-events:none}
+@keyframes gate-in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.gate-box h5{font-family:var(--d);font-weight:600;font-size:.66rem;letter-spacing:.26em;text-transform:uppercase;
+  color:var(--cinabre);margin:0 0 12px;text-align:center}
+.gate-box p{margin:0 0 18px;font-size:1rem;color:var(--ink-2);text-align:center;line-height:1.5}
+.gate-box input{width:100%;padding:11px 14px;background:var(--paper-3);border:1px solid var(--line);
+  font-family:var(--b);font-size:1.05rem;color:var(--ink);outline:none;transition:.2s}
+.gate-box input:focus{border-color:var(--sea);background:#f8f3e7}
+.gate-err{color:var(--cinabre)!important;font-style:italic;margin:12px 0 0!important}
+.gate-err[hidden]{display:none}
+.gate-actions{display:flex;gap:8px;margin-top:20px}
+.gate-actions button{flex:1;padding:10px;font-family:var(--d);font-size:.66rem;letter-spacing:.18em;
+  text-transform:uppercase;border:1px solid var(--line);background:var(--paper-3);color:var(--ink-2);cursor:pointer;transition:.2s}
+.gate-actions button:hover{border-color:var(--sea);color:var(--sea)}
+.gate-actions .gate-ok{background:var(--sea);border-color:var(--sea);color:var(--paper-2)}
+.gate-actions .gate-ok:hover{background:var(--cinabre);border-color:var(--cinabre);color:var(--paper-2)}
+
+/* =========== titre de section =========== */
+.sect{display:flex;align-items:center;gap:18px;margin:58px 0 24px}
+.sect h2{font-family:var(--d);font-weight:600;font-size:.78rem;letter-spacing:.3em;text-transform:uppercase;color:var(--cinabre);margin:0;white-space:nowrap}
+.sect i{flex:1;border-top:1px solid var(--line);border-bottom:1px solid var(--line);height:4px}
+.sect b{font-family:var(--d);font-weight:400;font-size:.68rem;letter-spacing:.2em;color:var(--ink-3);white-space:nowrap}
+
+/* =========== coins de cartouche (réutilisable) =========== */
+.corner{position:absolute;width:11px;height:11px;border:1px solid var(--sea);opacity:.55;pointer-events:none;z-index:3}
+.c1{top:3px;left:3px;border-right:0;border-bottom:0}
+.c2{top:3px;right:3px;border-left:0;border-bottom:0}
+.c3{bottom:3px;left:3px;border-right:0;border-top:0}
+.c4{bottom:3px;right:3px;border-left:0;border-top:0}
+
+/* =========== carte d'article illustrée — 16:9 =========== */
+.row-cards{display:grid;gap:16px}
+.row-cards.five{grid-template-columns:repeat(5,1fr)}   /* accueil : 5 récents sur une ligne */
+.row-cards.four{grid-template-columns:repeat(4,1fr)}   /* catégorie : 4 × 3 */
+.acard{position:relative;aspect-ratio:var(--r-card);overflow:hidden;cursor:pointer;
+  border:1px solid var(--line);background:var(--paper-3);
+  transition:transform .25s, box-shadow .25s, border-color .25s}
+.acard .img{position:absolute;inset:0;transition:transform .5s cubic-bezier(.2,.8,.2,1)}
+.acard::after{content:"";position:absolute;inset:0;z-index:1;
+  background:linear-gradient(180deg,rgba(28,44,48,0) 38%,rgba(24,38,42,.42) 66%,rgba(20,33,36,.82) 100%)}
+.acard:hover{transform:translateY(-4px);border-color:var(--sea);box-shadow:0 16px 30px -20px rgba(47,82,89,.75)}
+.acard:hover .img{transform:scale(1.06)}
+.acard .lbl{position:absolute;left:0;right:0;bottom:0;z-index:2;padding:11px 13px;color:#f6efdf;
+  font-family:var(--d);font-weight:400;font-size:.84rem;letter-spacing:.05em;line-height:1.3;
+  text-shadow:0 1px 4px rgba(0,0,0,.6)}
+.acard .kind{position:absolute;top:0;left:0;z-index:2;padding:8px 11px;font-family:var(--d);font-size:.58rem;
+  letter-spacing:.2em;text-transform:uppercase;color:#f2e9d6;text-shadow:0 1px 4px rgba(0,0,0,.7);opacity:.85}
+.acard .priv{position:absolute;top:9px;right:9px;z-index:2;background:var(--cinabre);color:#f7efe0;
+  font-family:var(--d);font-size:.55rem;letter-spacing:.16em;text-transform:uppercase;padding:3px 8px}
+
+/* =========== cartouche de catégorie (sans image) =========== */
+.cats{display:grid;grid-template-columns:repeat(auto-fit,minmax(255px,1fr));gap:20px}
+.cat{position:relative;background:var(--paper-2);border:1px solid var(--line);padding:32px 24px 26px;
+  text-align:center;cursor:pointer;transition:transform .25s,box-shadow .25s,background .25s}
+.cat::before{content:"";position:absolute;inset:7px;border:1px solid var(--line-soft);pointer-events:none}
+.cat:hover{transform:translateY(-4px);background:#f8f3e7;box-shadow:0 14px 30px -18px rgba(47,82,89,.5)}
+.cat > svg{width:38px;height:38px;color:var(--sea);opacity:.8;margin-bottom:14px}
+.cat h3{font-family:var(--d);font-weight:600;font-size:.92rem;letter-spacing:.14em;text-transform:uppercase;margin:0 0 10px;color:var(--sea)}
+.cat p{margin:0;color:var(--ink-2);font-size:1rem;line-height:1.5}
+.cat .n{display:inline-block;margin-top:16px;font-family:var(--d);font-size:.66rem;letter-spacing:.2em;
+  color:var(--cinabre);border-top:1px solid var(--line-soft);padding-top:12px}
+
+/* =========== registre alphabétique =========== */
+.reg{columns:3;column-gap:44px}
+@media(max-width:900px){.reg{columns:1}}
+.reg .grp{break-inside:avoid;margin-bottom:26px}
+.reg .let{font-family:var(--d);font-weight:600;font-size:1.5rem;color:var(--cinabre);opacity:.55;border-bottom:1px solid var(--line-soft);padding-bottom:4px;margin-bottom:8px}
+.reg a{display:flex;align-items:baseline;gap:8px;text-decoration:none;color:var(--ink);padding:4px 0;transition:color .18s}
+.reg a .dots{flex:1;border-bottom:1px dotted var(--line);transform:translateY(-4px)}
+.reg a .pg{font-family:var(--d);font-size:.72rem;color:var(--ink-3);letter-spacing:.1em}
+.reg a:hover{color:var(--cinabre)}
+
+/* =========== pagination =========== */
+.pager{display:flex;justify-content:center;align-items:center;gap:18px;margin-top:42px;font-family:var(--d);font-size:.74rem;letter-spacing:.18em;color:var(--ink-2)}
+.pager button{background:var(--paper-2);border:1px solid var(--line);width:36px;height:36px;color:var(--sea);cursor:pointer;display:grid;place-items:center;transition:.2s}
+.pager button:hover{background:var(--sea);color:var(--paper-2)}
+.pager svg{width:15px;height:15px}
+
+/* =========== FICHE =========== */
+.art{position:relative;background:var(--paper-2);border:1px solid var(--line);padding:32px 40px 30px}
+.art::before{content:"";position:absolute;inset:8px;border:1px solid var(--line-soft);pointer-events:none}
+.crumb{font-family:var(--d);font-size:.66rem;letter-spacing:.26em;text-transform:uppercase;color:var(--cinabre);margin-bottom:11px}
+.art h2{font-family:var(--d);font-weight:600;font-size:clamp(1.7rem,3.6vw,2.3rem);letter-spacing:.08em;margin:0;color:var(--sea);text-transform:uppercase}
+.art .kicker{font-style:italic;font-size:1.16rem;color:var(--ink-2);margin:.4em 0 0}
+
+/* pennon de bannière — 3:5, accroché au haut du cadre, optionnel */
+.pennon{position:absolute;top:0;right:12px;z-index:4;width:44px;aspect-ratio:var(--r-banner);
+  clip-path:polygon(0 0,100% 0,100% 100%,50% 84%,0 100%);
+  filter:drop-shadow(0 2px 6px rgba(20,33,36,.55))}
+.pennon img{width:100%;height:100%;object-fit:cover;display:block}
+
+.art .sep{border-top:1px solid var(--line);border-bottom:1px solid var(--line);height:4px;margin:20px 0 24px}
+
+/* corps : texte en deux colonnes + colonne visuelle */
+.art-body{display:grid;grid-template-columns:1fr 300px;gap:44px;align-items:start}
+.prose{columns:2;column-gap:36px;column-rule:1px solid var(--line-soft)}
+.prose p{margin:0 0 1.05em;font-size:1.09rem;line-height:1.72;text-align:justify;hyphens:auto}
+.prose p:first-of-type::first-letter{font-family:var(--d);font-weight:600;font-size:3em;line-height:.85;float:left;margin:.07em .12em 0 0;color:var(--cinabre)}
+/* visuel de fiche — 9:10 */
+.figure{position:relative}
+.portrait{position:relative;aspect-ratio:var(--r-portrait);overflow:hidden;border:1px solid var(--line);background:var(--paper-3)}
+.portrait .img{position:absolute;inset:0}
+.portrait::after{content:"";position:absolute;inset:0;
+  background:linear-gradient(200deg,rgba(236,227,208,0) 55%,rgba(243,236,220,.9) 100%)}
+.figcap{margin-top:9px;font-style:italic;font-size:.95rem;color:var(--ink-2);text-align:center;line-height:1.4}
+
+/* chapitres, dans le cadre sous le visuel */
+.legend{margin-top:18px;border:1px solid var(--line);background:var(--paper-3);padding:15px 18px 16px}
+.legend h5{font-family:var(--d);font-weight:600;font-size:.62rem;letter-spacing:.24em;text-transform:uppercase;color:var(--cinabre);margin:0 0 10px}
+.legend .chaps a{display:block;padding:5px 0 5px 14px;border-left:2px solid var(--line-soft);
+  color:var(--ink-2);text-decoration:none;font-size:1rem;transition:.2s}
+.legend .chaps a:hover{color:var(--ink);border-color:var(--line)}
+.legend .chaps a.on{color:var(--cinabre);border-color:var(--cinabre)}
+
+/* articles liés, dans le cartouche */
+.linked{margin-top:26px;padding-top:22px;border-top:1px solid var(--line-soft)}
+.linked h5{font-family:var(--d);font-weight:600;font-size:.62rem;letter-spacing:.24em;text-transform:uppercase;
+  color:var(--cinabre);margin:0 0 12px}
+.pills{display:flex;flex-wrap:wrap;gap:8px}
+.pill{display:flex;align-items:center;gap:8px;padding:7px 14px;border:1px solid var(--line-soft);background:var(--paper-2);font-size:1rem;color:var(--ink-2);cursor:pointer;transition:.2s}
+.pill svg{width:15px;height:15px;color:var(--sea);opacity:.7}
+.pill:hover{border-color:var(--sea);color:var(--sea)}
+
+/* barre maquette */
+.mk{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);z-index:50;display:flex;align-items:center;gap:6px;
+  background:var(--sea);color:var(--paper-2);padding:6px;font-family:var(--d);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;box-shadow:0 10px 30px rgba(47,82,89,.35)}
+.mk .lbl{padding:0 12px 0 14px;opacity:.6}
+.mk button{background:none;border:0;color:inherit;font:inherit;padding:8px 15px;cursor:pointer;opacity:.65;transition:.2s}
+.mk button:hover{opacity:1}
+.mk button.on{background:var(--cinabre);opacity:1}
+[data-view]{display:none}
+[data-view].on{display:block;animation:fade .35s ease both}
+@keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+
+@media(max-width:1080px){
+  .row-cards.five{grid-template-columns:repeat(3,1fr)}
+  .row-cards.four{grid-template-columns:repeat(3,1fr)}
+}
+@media(max-width:980px){
+  .art-body{grid-template-columns:1fr;gap:30px}
+  .prose{columns:1;column-rule:0}
+  .art-body aside{max-width:340px;margin:0 auto}
+}
+@media(max-width:720px){
+  .row-cards.five,.row-cards.four{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:680px){
+  .wrap{padding:0 18px 110px}
+  .head{padding:40px 0 26px}
+  .compass{display:none}
+  .art{padding:26px 20px}
+  .mk{font-size:.6rem}
+  .mk .lbl{display:none}
+  .mk button{padding:8px 12px}
+}
+</style>
+</head>
+<body>
+
+<svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <symbol id="i-personnages" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><circle cx="24" cy="15" r="7"/><path d="M9 39c0-9.4 6.7-15 15-15s15 5.6 15 15" stroke-linecap="round"/></symbol>
+  <symbol id="i-geographie" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M24 5c7.2 0 13 5.6 13 12.8C37 27 24 43 24 43S11 27 11 17.8C11 10.6 16.8 5 24 5z" stroke-linecap="round"/><circle cx="24" cy="17.5" r="5.2"/></symbol>
+  <symbol id="i-monde" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><circle cx="24" cy="24" r="17"/><path d="M24 7l4 15 15 2-15 2-4 15-4-15-15-2 15-2z"/></symbol>
+  <symbol id="i-primordiaux" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"><path d="M24 10c-6 4-16 6-19 4 2 8 8 13 14 14"/><path d="M24 10c6 4 16 6 19 4-2 8-8 13-14 14"/><path d="M24 10v22"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="10" cy="10" r="6.5"/><path d="M15 15l5 5" stroke-linecap="round"/></symbol>
+  <symbol id="i-key" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="15" r="3.2"/><path d="M10.3 12.7L19 4M15 8l2.5 2.5M18 5l2.5 2.5"/></symbol>
+  <symbol id="i-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></symbol>
+  <symbol id="i-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></symbol>
+</svg>
+
+<div class="wrap">
+
+  <header class="head">
+    <svg class="compass" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="1">
+      <circle cx="50" cy="50" r="46"/><circle cx="50" cy="50" r="36"/><circle cx="50" cy="50" r="8"/>
+      <path d="M50 4v92M4 50h92" stroke-width=".6"/>
+      <path class="needle" d="M50 8l7 34 34 8-34 8-7 34-7-34-34-8 34-8z" stroke-width="1.2"/>
+      <path d="M22 22l17 39 39 17-17-39z" stroke-width=".5"/>
+    </svg>
+    <p class="eyebrow">Compilé par la Guilde des Archivistes</p>
+    <h1>Codex d'Eana</h1>
+    <p>Relevés, chroniques et témoignages sur les terres connues.</p>
+    <div class="dbl-rule"></div>
+  </header>
+
+  <!-- ================= ACCUEIL ================= -->
+  <div data-view="home" class="on">
+    <div class="tools">
+      <div class="sfield"><svg><use href="#i-search"/></svg><input type="text" placeholder="Nom d'un lieu, d'une personne, d'un phénomène…"></div>
+      <span class="chip on" data-mode="public">Public</span>
+      <span class="chip" data-mode="master"><svg class="key"><use href="#i-key"/></svg>Maître</span>
+    </div>
+
+    <div class="sect"><h2>Articles récents</h2><i></i><b>8 août 2026</b></div>
+    <div class="row-cards five">
+      <div class="acard"><div class="img ph ph-personnages"></div><i class="corner c1"></i><i class="corner c4"></i>
+        <span class="kind">Personnages</span><span class="lbl">Byron Rosfield</span></div>
+      <div class="acard"><div class="img ph ph-monde"></div><i class="corner c1"></i><i class="corner c4"></i>
+        <span class="kind">Monde</span><span class="lbl">Sept dynasties rosaliennes</span></div>
+      <div class="acard"><div class="img ph ph-geographie"></div><i class="corner c1"></i><i class="corner c4"></i>
+        <span class="kind">Géographie</span><span class="lbl">Les Gardiens de l'Étincelle</span></div>
+      <div class="acard private"><div class="img ph ph-personnages"></div><i class="corner c1"></i><i class="corner c4"></i>
+        <span class="kind">Personnages</span><span class="priv">Privé</span><span class="lbl">Wade</span></div>
+      <div class="acard"><div class="img ph ph-monde"></div><i class="corner c1"></i><i class="corner c4"></i>
+        <span class="kind">Monde</span><span class="lbl">Les Cristaux-mères</span></div>
+      <div class="acard public-only"><div class="img ph ph-geographie"></div><i class="corner c1"></i><i class="corner c4"></i>
+        <span class="kind">Géographie</span><span class="lbl">Le Royaume de Fer, Eilean</span></div>
+    </div>
+
+    <div class="sect"><h2>Les quatre registres</h2><i></i><b>442 entrées</b></div>
+    <div class="cats">
+      <div class="cat"><i class="corner c1"></i><i class="corner c2"></i><i class="corner c3"></i><i class="corner c4"></i>
+        <svg><use href="#i-personnages"/></svg><h3>Personnages</h3>
+        <p>Les figures qui façonnent le destin d'Eana.</p><span class="n">XCIX · 99</span></div>
+      <div class="cat"><i class="corner c1"></i><i class="corner c2"></i><i class="corner c3"></i><i class="corner c4"></i>
+        <svg><use href="#i-geographie"/></svg><h3>Géographie</h3>
+        <p>Nations, cités et territoires du monde.</p><span class="n">CLXXVI · 176</span></div>
+      <div class="cat"><i class="corner c1"></i><i class="corner c2"></i><i class="corner c3"></i><i class="corner c4"></i>
+        <svg><use href="#i-monde"/></svg><h3>Monde</h3>
+        <p>Forces, mystères et événements qui traversent Eana.</p><span class="n">CV · 105</span></div>
+      <div class="cat"><i class="corner c1"></i><i class="corner c2"></i><i class="corner c3"></i><i class="corner c4"></i>
+        <svg><use href="#i-primordiaux"/></svg><h3>Primordiaux</h3>
+        <p>Créatures et puissances qui hantent ce monde.</p><span class="n">LXII · 62</span></div>
+    </div>
+
+    <div class="sect"><h2>Registre général</h2><i></i><b>A — C</b></div>
+    <div class="reg">
+      <div class="grp"><div class="let">A</div>
+        <a href="#"><span>Ambroisie</span><i class="dots"></i><span class="pg">Pers.</span></a>
+        <a href="#"><span>Ambrune</span><i class="dots"></i><span class="pg">Géo.</span></a>
+        <a href="#"><span>Angra Mainyu</span><i class="dots"></i><span class="pg">Prim.</span></a>
+        <a href="#"><span>Annabella Rosfield</span><i class="dots"></i><span class="pg">Pers.</span></a>
+        <a href="#"><span>Au Court pendu</span><i class="dots"></i><span class="pg">Géo.</span></a>
+        <a href="#"><span>Auguste</span><i class="dots"></i><span class="pg">Pers.</span></a>
+      </div>
+      <div class="grp"><div class="let">B</div>
+        <a href="#"><span>Bahamut</span><i class="dots"></i><span class="pg">Prim.</span></a>
+        <a href="#"><span>Benedikta Harman</span><i class="dots"></i><span class="pg">Pers.</span></a>
+        <a href="#"><span>Bernard</span><i class="dots"></i><span class="pg">Pers.</span></a>
+        <a href="#"><span>Biast</span><i class="dots"></i><span class="pg">Pers.</span></a>
+        <a href="#"><span>Blackthorne</span><i class="dots"></i><span class="pg">Pers.</span></a>
+        <a href="#"><span>Byron Rosfield</span><i class="dots"></i><span class="pg">Pers.</span></a>
+      </div>
+      <div class="grp"><div class="let">C</div>
+        <a href="#"><span>Caudrac</span><i class="dots"></i><span class="pg">Géo.</span></a>
+        <a href="#"><span>Čeratina</span><i class="dots"></i><span class="pg">Géo.</span></a>
+        <a href="#"><span>Chefdrac</span><i class="dots"></i><span class="pg">Géo.</span></a>
+        <a href="#"><span>Chirada</span><i class="dots"></i><span class="pg">Prim.</span></a>
+        <a href="#"><span>Cid le Renégat</span><i class="dots"></i><span class="pg">Monde</span></a>
+        <a href="#"><span>Creag Loisgte</span><i class="dots"></i><span class="pg">Géo.</span></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= CATÉGORIE ================= -->
+  <div data-view="cat">
+    <div class="tools">
+      <span class="chip on">Personnages</span><span class="chip">Géographie</span><span class="chip">Monde</span><span class="chip">Primordiaux</span>
+      <div class="sfield" style="width:300px"><svg><use href="#i-search"/></svg><input type="text" placeholder="Chercher un personnage…"></div>
+    </div>
+
+    <div class="sect"><h2>Personnages</h2><i></i><b>99 entrées</b></div>
+    <div class="row-cards four">
+      <div class="acard"><div class="img ph ph-personnages"></div><i class="corner c1"></i><i class="corner c4"></i><span class="lbl">Clive Rosfield</span></div>
+      <div class="acard"><div class="img ph ph-personnages"></div><i class="corner c1"></i><i class="corner c4"></i><span class="lbl">Joshua Rosfield</span></div>
+      <div class="acard"><div class="img ph ph-personnages"></div><i class="corner c1"></i><i class="corner c4"></i><span class="lbl">Jill Warrick</span></div>
+      <div class="acard"><div class="img ph ph-primordiaux"></div><i class="corner c1"></i><i class="corner c4"></i><span class="lbl">Talgor</span></div>
+      <div class="acard"><div class="img ph ph-primordiaux"></div><i class="corner c1"></i><i class="corner c4"></i><span class="lbl">Ambroisie</span></div>
+      <div class="acard"><div class="img ph ph-personnages"></div><i class="corner c1"></i><i class="corner c4"></i><span class="lbl">Nektar</span></div>
+      <div class="acard"><div class="img ph ph-personnages"></div><i class="corner c1"></i><i class="corner c4"></i><span class="lbl">Cid</span></div>
+      <div class="acard"><div class="img ph ph-personnages"></div><i class="corner c1"></i><i class="corner c4"></i><span class="lbl">Benedikta Harman</span></div>
+      <div class="acard"><div class="img ph ph-personnages"></div><i class="corner c1"></i><i class="corner c4"></i><span class="lbl">Hugo Kupka</span></div>
+      <div class="acard"><div class="img ph ph-personnages"></div><i class="corner c1"></i><i class="corner c4"></i><span class="lbl">Dion Lesage</span></div>
+      <div class="acard private"><div class="img ph ph-personnages"></div><i class="corner c1"></i><i class="corner c4"></i><span class="priv">Privé</span><span class="lbl">Le haut gradé valœdois</span></div>
+      <div class="acard"><div class="img ph ph-personnages"></div><i class="corner c1"></i><i class="corner c4"></i><span class="lbl">Barnabas Tharmr</span></div>
+      <div class="acard public-only"><div class="img ph ph-personnages"></div><i class="corner c1"></i><i class="corner c4"></i><span class="lbl">Otto</span></div>
+    </div>
+    <div class="pager">
+      <button><svg><use href="#i-left"/></svg></button><span>Feuillet I / IX</span><button><svg><use href="#i-right"/></svg></button>
+    </div>
+  </div>
+
+  <!-- ================= FICHE ================= -->
+  <div data-view="art">
+    <article class="art">
+      <div class="crumb">Registre des personnages · Rosalia</div>
+      <h2>Annabella Rosfield</h2>
+      <p class="kicker">L'archiduchesse de Rosalia, devenue impératrice de Sangbrèque.</p>
+
+      <div class="sep"></div>
+
+      <div class="art-body">
+        <div class="prose">
+          <p>Cette noble femme est l'épouse d'Elwin Rosfield, archiduc de Rosalia, mais également sa cousine germaine. À ce titre, elle descend de la même lignée qui a engendré nombre d'Émissaires de Phénix, et elle ne l'a jamais oublié.</p>
+          <p>Elle a deux enfants issus de son union avec Elwin : Clive et Joshua. Fière et sûre d'elle, elle accorde une grande importance au rang et au statut social. Si elle fait montre d'un amour sans borne à l'égard de Joshua, son cadet, qui s'est déjà éveillé aux pouvoirs du Primordial, elle n'a que du mépris pour Clive, l'aîné, qui n'est pas devenu l'hôte de Phénix. En outre, elle apprécie fort peu Jill, une pupille de la famille archiducale venue des Territoires du Nord.</p>
+          <p>Ayant donné naissance à l'Émissaire de Phénix, elle a acquis la certitude qu'elle portait en elle le sang de la lignée des Émissaires, et a commencé à nourrir secrètement des ambitions dépassant les frontières de Rosalia. C'est dans ce but qu'elle a initié des contacts secrets avec le Saint-Empire de Sangbrèque, alors allié avec Rosalia, préparant avec eux le complot de l'attaque du fort Phénix, dont elle est l'instigatrice.</p>
+          <p>Elle a donc ourdi le complot qui a mené à la traîtrise de Sangbrèque et à l'assassinat de l'ancien archiduc ; elle a trahi son pays natal. Devenue impératrice de Sangbrèque et promue vice-reine de la province ainsi annexée, elle règne à présent d'une main de fer sur Rosalia, avec une cruauté surprenante de la part d'une ancienne archiduchesse.</p>
+          <p>Elle fut quelque temps l'otage complaisante du Saint-Empire après l'annexion. Il ne s'agissait toutefois que d'un stratagème visant à brouiller les pistes au sujet de la trahison dont elle s'était rendue coupable. Ayant épousé l'empereur, elle a donné naissance au prince Octavien, et complote dans l'ombre pour le faire monter sur le trône.</p>
+          <p>Octavien ayant grandement contribué à la négociation de l'arrêt des hostilités avec la Dalméquie, il est nommé Empereur et Sylvestre se retire. Annabella devient donc une épouse d'empereur retiré, au sommet de ce qu'elle avait entrepris de conquérir.</p>
+          <p>Son destin bascule lors des événements qui prennent place au Dominion du Cristal. Elle y retrouve ses deux premiers enfants, Clive et Joshua, qu'elle croyait morts, avant d'assister à la disparition du corps d'Octavien, tué par son propre demi-frère Dion. En proie au chagrin et à une instabilité grandissante, elle met fin à ses jours sous les yeux de Clive et Joshua.</p>
+        </div>
+
+        <aside>
+          <figure class="figure" style="margin:0">
+            <div class="portrait"><div class="img ph ph-portrait"></div>
+              <i class="corner c1"></i><i class="corner c2"></i><i class="corner c3"></i><i class="corner c4"></i>
+              <!-- bannière optionnelle : présente seulement si l'article en déclare une -->
+              <span class="pennon"><img src="../images/banners/012400_2k_uitx.png" alt="Bannière de l'archiduché de Rosalia" title="Bannière de l'archiduché de Rosalia"></span>
+            </div>
+            <figcaption class="figcap">Relevé d'après le portrait officiel de la cour de Rosalith.</figcaption>
+          </figure>
+
+          <div class="legend">
+            <h5>Chapitres</h5>
+            <div class="chaps">
+              <a href="#" class="on">Généralités</a>
+              <a href="#">Âge d'or de Rosalith</a>
+              <a href="#">L'attaque du fort Phénix</a>
+              <a href="#">Après l'annexion</a>
+              <a href="#">Naissance d'Octavien</a>
+              <a href="#">Sacre d'Octavien</a>
+              <a href="#">Épilogue</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <div class="linked">
+        <h5>Articles liés</h5>
+        <div class="pills">
+          <span class="pill"><svg><use href="#i-personnages"/></svg>Elwin Rosfield</span>
+          <span class="pill"><svg><use href="#i-personnages"/></svg>Clive</span>
+          <span class="pill"><svg><use href="#i-personnages"/></svg>Joshua Rosfield</span>
+          <span class="pill"><svg><use href="#i-geographie"/></svg>Archiduché de Rosalia</span>
+          <span class="pill"><svg><use href="#i-monde"/></svg>Attaque du fort Phénix</span>
+          <span class="pill"><svg><use href="#i-monde"/></svg>Les Émissaires</span>
+          <span class="pill"><svg><use href="#i-geographie"/></svg>Saint-Empire de Sangbrèque</span>
+          <span class="pill"><svg><use href="#i-monde"/></svg>Annexion de Rosalia</span>
+          <span class="pill"><svg><use href="#i-monde"/></svg>Raid sur l'Estange</span>
+          <span class="pill"><svg><use href="#i-personnages"/></svg>Octavien Lesage</span>
+          <span class="pill"><svg><use href="#i-personnages"/></svg>Sylvestre Lesage</span>
+          <span class="pill"><svg><use href="#i-geographie"/></svg>Gouvernement général provincial</span>
+          <span class="pill"><svg><use href="#i-monde"/></svg>Sacre d'Octavien</span>
+          <span class="pill"><svg><use href="#i-monde"/></svg>Révolte des Saints-Dragons</span>
+          <span class="pill"><svg><use href="#i-primordiaux"/></svg>Phénix</span>
+          <span class="pill"><svg><use href="#i-primordiaux"/></svg>Bahamut</span>
+          <span class="pill"><svg><use href="#i-personnages"/></svg>Jill Warrick</span>
+          <span class="pill"><svg><use href="#i-personnages"/></svg>Dion Lesage</span>
+          <span class="pill"><svg><use href="#i-personnages"/></svg>Byron Rosfield</span>
+          <span class="pill"><svg><use href="#i-geographie"/></svg>Rosalith</span>
+        </div>
+      </div>
+    </article>
+  </div>
+
+</div>
+
+<div class="gate" id="gate" hidden>
+  <div class="gate-back" data-gate-close></div>
+  <div class="gate-box">
+    <h5>Mode maître</h5>
+    <p>Saisis la passphrase pour afficher aussi les fiches privées.</p>
+    <input type="password" id="gate-pass" placeholder="Passphrase" autocomplete="off">
+    <p class="gate-err" id="gate-err" hidden>Passphrase incorrecte.</p>
+    <div class="gate-actions">
+      <button data-gate-close>Annuler</button>
+      <button class="gate-ok" id="gate-ok">Ouvrir</button>
+    </div>
+  </div>
+</div>
+
+<nav class="mk">
+  <span class="lbl">6 · Cartographe illustré</span>
+  <button class="on" data-go="home">Accueil</button>
+  <button data-go="cat">Catégorie</button>
+  <button data-go="art">Fiche</button>
+</nav>
+
+<script>
+document.querySelectorAll('.mk button').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('.mk button').forEach(x=>x.classList.toggle('on',x===b));
+  document.querySelectorAll('[data-view]').forEach(v=>v.classList.toggle('on',v.dataset.view===b.dataset.go));
+  scrollTo({top:0,behavior:'smooth'});
+});
+document.querySelectorAll('[data-view] .chip:not([data-mode])').forEach(c=>c.onclick=()=>{
+  c.parentElement.querySelectorAll('.chip:not([data-mode])').forEach(x=>x.classList.remove('on'));c.classList.add('on')});
+
+/* ---- Public / Maître (démo : passphrase « eana ») ---- */
+const gate=document.getElementById('gate'), gateErr=document.getElementById('gate-err'), gatePass=document.getElementById('gate-pass');
+function setMode(master){
+  document.body.classList.toggle('master',master);
+  document.querySelectorAll('.chip[data-mode]').forEach(c=>c.classList.toggle('on',(c.dataset.mode==='master')===master));
+}
+function openGate(){gateErr.hidden=true;gatePass.value='';gate.hidden=false;gatePass.focus()}
+function closeGate(){gate.hidden=true}
+document.querySelectorAll('.chip[data-mode="public"]').forEach(c=>c.onclick=()=>setMode(false));
+document.querySelectorAll('.chip[data-mode="master"]').forEach(c=>c.onclick=()=>{
+  if(document.body.classList.contains('master'))return; openGate()});
+document.querySelectorAll('[data-gate-close]').forEach(b=>b.onclick=closeGate);
+document.getElementById('gate-ok').onclick=()=>{
+  if(gatePass.value==='eana'){setMode(true);closeGate()} else {gateErr.hidden=false;gatePass.select()}};
+gatePass.onkeydown=e=>{if(e.key==='Enter')document.getElementById('gate-ok').click();if(e.key==='Escape')closeGate()};
+document.querySelectorAll('.legend .chaps a').forEach(a=>a.onclick=e=>{e.preventDefault();
+  document.querySelectorAll('.legend .chaps a').forEach(x=>x.classList.remove('on'));a.classList.add('on')});
+</script>
+</body>
+</html>

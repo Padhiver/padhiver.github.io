@@ -1,0 +1,11 @@
+<!-- Fond volontairement transparent : le cadre fournit sa couleur, donc ce
+     gabarit suit automatiquement le thème clair ou sombre. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 100">
+  <g stroke="#5f8f97" stroke-width=".45" opacity=".2">
+    <path d="M0 8h90M0 20h90M0 32h90M0 44h90M0 56h90M0 68h90M0 80h90M0 92h90"/>
+  </g>
+  <g fill="none" stroke="#5f8f97" stroke-width="1.2" opacity=".45">
+    <circle cx="45" cy="36" r="17"/>
+    <path d="M13 100c0-19 14-32 32-32s32 13 32 32"/>
+  </g>
+</svg>

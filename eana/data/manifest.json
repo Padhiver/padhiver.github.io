@@ -1,6 +1,564 @@
 {
-  "generatedAt": "2026-08-08T13:13:32.955Z",
+  "generatedAt": "2026-08-08T20:07:59.641Z",
   "articles": [
+    {
+      "id": "angra-mainyu",
+      "title": "Angra Mainyu",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 1,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "bahamut",
+      "title": "Bahamut",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 2,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "chirada",
+      "title": "Chirada",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 3,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "garuda",
+      "title": "Garuda",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 4,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "hreidmarr",
+      "title": "Hreidmarr",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 5,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "ifrit-le-primordial-tenebreux",
+      "title": "Ifrit le Primordial ténébreux",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 6,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "ifrit-paracheve",
+      "title": "Ifrit parachevé",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 7,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "flamme-liquide",
+      "title": "La Flamme liquide",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 8,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "gardien-du-temps",
+      "title": "Le gardien du temps",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 9,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "maitre-de-ceremonie",
+      "title": "Le Maître de cérémonie",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 10,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "primordial-mysterieux",
+      "title": "Le Primordial mystérieux",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 11,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "adamankhelones",
+      "title": "Les adamankhélones",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 12,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "ahrimans",
+      "title": "Les ahrimans",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 13,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "antilopes",
+      "title": "Les antilopes",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 14,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "archeosaures",
+      "title": "Les archéosaures",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 15,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "behemoths",
+      "title": "Les béhémoths",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 16,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "bombos",
+      "title": "Les bombos",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 17,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "chimeres",
+      "title": "Les chimères",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 18,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "chocobos",
+      "title": "Les chocobos",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 19,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "coeurls",
+      "title": "Les coeurls",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 20,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "dragonnets",
+      "title": "Les dragonnets",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 21,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "dragons",
+      "title": "Les dragons",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 22,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "eibis-especes",
+      "title": "Les eibis",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 23,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "flans",
+      "title": "Les flans",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 24,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "frelons",
+      "title": "Les frelons",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 25,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "geants-de-fer",
+      "title": "Les géants de fer",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 26,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "gigas",
+      "title": "Les Gigas",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 27,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "gobelins",
+      "title": "Les Gobelins",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 28,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "gobelins-inhabituels",
+      "title": "Les Gobelins inhabituels",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 29,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "griffons",
+      "title": "Les griffons",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 30,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "leopards",
+      "title": "Les léopards",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 31,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "loups-warg",
+      "title": "Les loups warg",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 32,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "megalocrabes",
+      "title": "Les mégalocrabes",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 33,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "morbols",
+      "title": "Les morbols",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 34,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "orcs",
+      "title": "Les Orcs",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 35,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "orties-vampires",
+      "title": "Les orties vampires",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 36,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "pinces-dargile",
+      "title": "Les pinces d'argile",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 37,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "raptors",
+      "title": "Les raptors",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 38,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "rhinofuros",
+      "title": "Les rhinofuros",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 39,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "scorpions",
+      "title": "Les scorpions",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 40,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "stolas",
+      "title": "Les stolas",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 41,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "taurus",
+      "title": "Les taurus",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 42,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "taurus-anciens",
+      "title": "Les Taurus anciens",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 43,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "tomberrys",
+      "title": "Les Tomberrys",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 44,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "vautours",
+      "title": "Les vautours",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 45,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "veuves-noires",
+      "title": "Les veuves noires",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 46,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "leviathan",
+      "title": "Léviathan",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 47,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "odin",
+      "title": "Odin",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 48,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "omega",
+      "title": "Oméga",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 49,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "omicron",
+      "title": "Omicron",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 50,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "perykos",
+      "title": "Pérykos",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 51,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "phenix",
+      "title": "Phénix",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 52,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "primo-ultima",
+      "title": "Primo-Ultima",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 53,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "ramuh",
+      "title": "Ramuh",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 54,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "shiva",
+      "title": "Shiva",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 55,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "sigma",
+      "title": "Sigma",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 56,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "suparna",
+      "title": "Suparna",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 57,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "thalaos",
+      "title": "Thalaos",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 58,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "titan",
+      "title": "Titan",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 59,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "typhos",
+      "title": "Typhos",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 60,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "ultima-dans-la-fissure-interdimensionnelle",
+      "title": "Ultima dans la fissure interdimensionnelle",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 61,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
+    {
+      "id": "ultimalius",
+      "title": "Ultimalius",
+      "category": "creatures",
+      "public": "ON",
+      "date": "2026-08-08",
+      "order": 62,
+      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+    },
     {
       "id": "ambrune",
       "title": "Ambrune",
@@ -2534,7 +3092,7 @@
       "id": "ambroisie",
       "title": "Ambroisie",
       "category": "personnages",
-      "public": "ON",
+      "public": "OFF",
       "date": "2026-08-08",
       "order": 1,
       "cardImage": "images/placeholders/emblem-personnages.svg"
@@ -3420,564 +3978,6 @@
       "date": "2026-08-08",
       "order": 99,
       "cardImage": "images/placeholders/emblem-personnages.svg"
-    },
-    {
-      "id": "angra-mainyu",
-      "title": "Angra Mainyu",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 1,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "bahamut",
-      "title": "Bahamut",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 2,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "chirada",
-      "title": "Chirada",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 3,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "garuda",
-      "title": "Garuda",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 4,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "hreidmarr",
-      "title": "Hreidmarr",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 5,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "ifrit-le-primordial-tenebreux",
-      "title": "Ifrit le Primordial ténébreux",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 6,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "ifrit-paracheve",
-      "title": "Ifrit parachevé",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 7,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "flamme-liquide",
-      "title": "La Flamme liquide",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 8,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "gardien-du-temps",
-      "title": "Le gardien du temps",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 9,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "maitre-de-ceremonie",
-      "title": "Le Maître de cérémonie",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 10,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "primordial-mysterieux",
-      "title": "Le Primordial mystérieux",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 11,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "adamankhelones",
-      "title": "Les adamankhélones",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 12,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "ahrimans",
-      "title": "Les ahrimans",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 13,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "antilopes",
-      "title": "Les antilopes",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 14,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "archeosaures",
-      "title": "Les archéosaures",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 15,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "behemoths",
-      "title": "Les béhémoths",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 16,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "bombos",
-      "title": "Les bombos",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 17,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "chimeres",
-      "title": "Les chimères",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 18,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "chocobos",
-      "title": "Les chocobos",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 19,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "coeurls",
-      "title": "Les coeurls",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 20,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "dragonnets",
-      "title": "Les dragonnets",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 21,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "dragons",
-      "title": "Les dragons",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 22,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "eibis-especes",
-      "title": "Les eibis",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 23,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "flans",
-      "title": "Les flans",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 24,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "frelons",
-      "title": "Les frelons",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 25,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "geants-de-fer",
-      "title": "Les géants de fer",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 26,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "gigas",
-      "title": "Les Gigas",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 27,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "gobelins",
-      "title": "Les Gobelins",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 28,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "gobelins-inhabituels",
-      "title": "Les Gobelins inhabituels",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 29,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "griffons",
-      "title": "Les griffons",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 30,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "leopards",
-      "title": "Les léopards",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 31,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "loups-warg",
-      "title": "Les loups warg",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 32,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "megalocrabes",
-      "title": "Les mégalocrabes",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 33,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "morbols",
-      "title": "Les morbols",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 34,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "orcs",
-      "title": "Les Orcs",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 35,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "orties-vampires",
-      "title": "Les orties vampires",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 36,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "pinces-dargile",
-      "title": "Les pinces d'argile",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 37,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "raptors",
-      "title": "Les raptors",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 38,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "rhinofuros",
-      "title": "Les rhinofuros",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 39,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "scorpions",
-      "title": "Les scorpions",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 40,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "stolas",
-      "title": "Les stolas",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 41,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "taurus",
-      "title": "Les taurus",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 42,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "taurus-anciens",
-      "title": "Les Taurus anciens",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 43,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "tomberrys",
-      "title": "Les Tomberrys",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 44,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "vautours",
-      "title": "Les vautours",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 45,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "veuves-noires",
-      "title": "Les veuves noires",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 46,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "leviathan",
-      "title": "Léviathan",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 47,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "odin",
-      "title": "Odin",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 48,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "omega",
-      "title": "Oméga",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 49,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "omicron",
-      "title": "Omicron",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 50,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "perykos",
-      "title": "Pérykos",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 51,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "phenix",
-      "title": "Phénix",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 52,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "primo-ultima",
-      "title": "Primo-Ultima",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 53,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "ramuh",
-      "title": "Ramuh",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 54,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "shiva",
-      "title": "Shiva",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 55,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "sigma",
-      "title": "Sigma",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 56,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "suparna",
-      "title": "Suparna",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 57,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "thalaos",
-      "title": "Thalaos",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 58,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "titan",
-      "title": "Titan",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 59,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "typhos",
-      "title": "Typhos",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 60,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "ultima-dans-la-fissure-interdimensionnelle",
-      "title": "Ultima dans la fissure interdimensionnelle",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 61,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
-    },
-    {
-      "id": "ultimalius",
-      "title": "Ultimalius",
-      "category": "primordiaux",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 62,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
     }
   ]
 }

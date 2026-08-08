@@ -1,0 +1,22 @@
+{
+  "id": "ifrit-le-primordial-tenebreux",
+  "title": "Ifrit le Primordial ténébreux",
+  "category": "creatures",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 6,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Un corps inerte dont s'est séparé Ultima il y a fort longtemps.\n\nIl ressemble fortement à la transformation en Ifrit de Mythos, autrement dit Clive. À la différence de la fusion entre ce dernier et Phénix, cette version a perdu une aile.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "ultima-dans-la-fissure-interdimensionnelle",
+    "primo-ultima",
+    "ifrit-paracheve",
+    "fissure-interdimensionnelle"
+  ]
+}

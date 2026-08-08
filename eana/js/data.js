@@ -7,10 +7,11 @@
 const EanaData = (() => {
   const LS_KEY = "eana_master";
 
-  // Hash SHA-256 de la passphrase du mode maître.
-  // Valeur par défaut = hash de "changeme" — À REMPLACER.
-  // Voir README.md > "Mode maître" pour régénérer ce hash avec ta propre passphrase.
-  const MASTER_HASH = "057ba03d6c44104863dc7361fe4578965d1887360f90a0895882e58a6248fc86";
+  // Hash SHA-256 de la passphrase du mode maître (la passphrase elle-même
+  // n'est stockée nulle part). Attention : la comparaison est sensible à la
+  // casse et aux accents.
+  // Voir README.md > "Mode maître" pour régénérer ce hash.
+  const MASTER_HASH = "ffeb6b95c04554c4cdf2f62313c17af33395bf55447eb82521de24b3a8d272b0";
 
   let categories = [];
   let manifestArticles = [];
@@ -94,6 +95,18 @@ const EanaData = (() => {
     return getVisibleArticles().filter((a) => a.category === categoryId);
   }
 
+  // Grille de catégorie : les fiches OFF y figurent aussi, mais rendues
+  // verrouillées (un "?" sans nom ni lien) pour montrer ce qui est en
+  // préparation. Ne jamais utiliser pour la recherche ni le registre : le
+  // titre d'une fiche OFF ne doit apparaître nulle part.
+  function getAllByCategory(categoryId) {
+    return manifestArticles.filter((a) => a.category === categoryId);
+  }
+
+  function countAllByCategory(categoryId) {
+    return getAllByCategory(categoryId).length;
+  }
+
   function getRecentArticles(limit = 6) {
     return [...getVisibleArticles()]
       .sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0))
@@ -126,6 +139,8 @@ const EanaData = (() => {
     getCategory,
     getBanner,
     getArticlesByCategory,
+    getAllByCategory,
+    countAllByCategory,
     getRecentArticles,
     searchArticles,
     getManifestEntry,

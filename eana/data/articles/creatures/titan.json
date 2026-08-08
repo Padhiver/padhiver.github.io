@@ -1,0 +1,27 @@
+{
+  "id": "titan",
+  "title": "Titan",
+  "category": "creatures",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 59,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Le Primordial de la terre qui a pour Émissaire le guerrier dalmèque Hugo Kupka.\n\nSous cette apparence gigantesque, la dureté de sa peau transcende celle de l'acier, et il devient une véritable forteresse mouvante. L'héritier de ce pouvoir transmis à travers les âges au sein de l'ethnie dalmèque est immanquablement recruté dans l'armée républicaine.",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Le Primordial de la terre qui a pour Émissaire le guerrier dalmèque Hugo Kupka.\n\nSes pouvoirs trouveraient leur origine dans le sang du peuple ancestral de la Terre, une ethnie qui parcourait les alentours de Crocdrac dans des temps immémoriaux. Ce Primordial à la résilience sans pareil a toujours été la pierre angulaire de la république de Dalméquie.",
+      "caption": "Révélation"
+    }
+  ],
+  "related": [
+    "hugo-kupka",
+    "republique-de-dalmequie",
+    "incarnation",
+    "primordiaux",
+    "crocdrac"
+  ]
+}

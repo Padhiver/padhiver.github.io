@@ -1,0 +1,33 @@
+{
+  "id": "phenix",
+  "title": "Phénix",
+  "category": "creatures",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 52,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Le Primordial du feu qui a pour Émissaire Joshua Rosfield.\n\nL'Oiseau de feu est révéré dans tout Rosalia, car la légende voudrait que cette entité magique se manifeste pour protéger le pays lorsqu'il est menacé.",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Le Primordial du feu qui a pour Émissaire Joshua Rosfield.\n\nCette créature magique ne s'incarnerait qu'au sein du peuple du Feu, une ethnie ancestrale dont les Rosfield sont les descendants. En l'an 860, Phénix a brûlé de mille feux lors de l'attaque du fort qui porte son nom, mais personne ne l'a aperçu depuis.",
+      "caption": "Révélation"
+    },
+    {
+      "text": "Le Primordial du feu qui a pour Émissaire Joshua Rosfield.\n\nPhénix a brûlé de mille feux lors de l'attaque du fort qui porte son nom, et personne ne l'avait aperçu depuis. Ce n'est qu'après dix-huit ans qu'il a réapparu au moment des événements qui ont bouleversé le Dominion du Cristal. Il peut soigner les blessures et régénérer la chair grâce à de puissants sorts de guérison comme « Feu résurrecteur ».",
+      "caption": "Addendum"
+    }
+  ],
+  "related": [
+    "joshua-rosfield",
+    "archiduche-de-rosalia",
+    "incarnation",
+    "primordiaux",
+    "peuple-du-feu",
+    "attaque-du-fort-phenix",
+    "ifrit-paracheve"
+  ]
+}

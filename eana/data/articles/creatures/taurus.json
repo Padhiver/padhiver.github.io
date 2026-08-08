@@ -1,0 +1,23 @@
+{
+  "id": "taurus",
+  "title": "Les taurus",
+  "category": "creatures",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 42,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Des hommes-bêtes de Rosalia à la taille imposante.\n\nLes taurus se distinguent par leur tête qui s'apparente à celle d'un bovin. Ils manient avec agilité une massue gigantesque comme eux et sont aussi violents qu'ils en ont l'air.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "hommes-betes",
+    "gobelins",
+    "taurus-anciens",
+    "archiduche-de-rosalia",
+    "chutes-regaliennes"
+  ]
+}

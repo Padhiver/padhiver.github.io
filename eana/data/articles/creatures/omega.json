@@ -1,0 +1,22 @@
+{
+  "id": "omega",
+  "title": "Oméga",
+  "category": "creatures",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 49,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "source": "echoes-of-the-fallen",
+  "pages": [
+    {
+      "text": "Une arme magitech conçue dans la Tour des Sages et identifiée sous le nom de « Bio-Primordial Oméga ».\n\nLes Célestes ont créé cette arme magitech d'un genre particulier à partir de fibres biologiques et dans le but de rivaliser avec les dieux eus-mêmes. La voix de la tour l'a activé et lâché sur Clive en désespoir de cause. Cet ultime effort s'est toutefois révélé vain, puisque la Tour des Sages s'est éteinte après la défaite d'Oméga.",
+      "caption": "Généralités"
+    }
+  ],
+  "related": [
+    "armes-magitech",
+    "bio-primordial",
+    "fibres-biologiques",
+    "tour-des-sages"
+  ]
+}

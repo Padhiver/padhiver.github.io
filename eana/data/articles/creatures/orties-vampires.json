@@ -1,0 +1,22 @@
+{
+  "id": "orties-vampires",
+  "title": "Les orties vampires",
+  "category": "creatures",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 36,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Des monstres qui ressemblent à des plantes.\n\nLes orties vampires se camouflent en prenant la couleur de la végétation alentour, pour mieux attaquer les êtres vivants qui auraient le malheur de les approcher. En plus de cracher mucus et pollen empoisonnés sur leurs victimes, elles les malmènent en les frappant de leurs tentacules. Il n'est pas rare de les voir se tapir dans les bois et les prés, ou à proximité de Fort-Norvent.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "monstres",
+    "val-norvent",
+    "grande-sylve",
+    "saint-empire-de-sangbreque"
+  ]
+}

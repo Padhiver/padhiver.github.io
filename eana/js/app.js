@@ -3,13 +3,22 @@
    ========================================================= */
 
 (() => {
-  const PAGE_SIZE = 15; // 5 colonnes x 3 lignes
+  const PAGE_SIZE = 12;   // 4 colonnes x 3 lignes
+  const RECENT_COUNT = 5; // une seule ligne sur l'accueil
+
   const app = document.getElementById("app");
   const overlayRoot = document.getElementById("overlay-root");
   const masterRoot = document.getElementById("master-root");
+  const gateRoot = document.getElementById("gate-root");
 
   let lastMainRoute = { type: "home" };
+  // lastMainRoute vaut "home" dès le départ alors que #app est encore vide :
+  // ce drapeau distingue "la vue de fond est rendue" de "on suppose qu'elle
+  // l'est", sans quoi arriver directement sur #/article/xxx puis fermer la
+  // fiche laisse la page blanche.
+  let mainViewRendered = false;
   let homeQuery = "";
+  let registerLetter = null;
   const categoryState = {}; // { [categoryId]: { page, query } }
   let overlayPageIndex = 0;
   let pendingCardOrigin = null;
@@ -52,32 +61,123 @@
     return categoryState[id];
   }
 
+  // ---------- Registre alphabétique ----------
+
+  // Les ligatures et lettres barrées n'ont pas de décomposition Unicode
+  // (Œ n'est ni canoniquement ni "compatiblement" décomposable en OE), donc
+  // ni NFD ni NFKD ne les réduisent : il faut les traduire à la main pour
+  // que « Œildrac » soit rangé dans les O.
+  const LETTER_ALIASES = {
+    "Œ": "OE", "œ": "OE", "Æ": "AE", "æ": "AE",
+    "Ø": "O", "ø": "O", "Ł": "L", "ł": "L",
+    "Đ": "D", "đ": "D", "Ð": "D", "ð": "D",
+    "Þ": "TH", "þ": "TH", "ß": "SS",
+  };
+
+  // Les titres français commencent massivement par un article ("Le royaume
+  // de Valœd", "L'adamantite") : sans le retirer, la lettre L absorbait 301
+  // des 442 fiches. On classe donc sur le premier mot significatif, comme un
+  // catalogue de bibliothèque, tout en affichant le titre entier.
+  // L'apostrophe doit être exigée pour "l'", et l'espace pour "le/la/les",
+  // sinon "Lestange" ou "Ladrone" seraient tronqués.
+  const LEADING_ARTICLE = /^(?:l['’]\s*|(?:le|la|les|un|une|des)\s+)/i;
+
+  function filingTitle(title) {
+    const raw = String(title || "").trim();
+    const stripped = raw.replace(LEADING_ARTICLE, "").trim();
+    return stripped || raw;
+  }
+
+  function initialOf(title) {
+    const normalized = filingTitle(title)
+      .replace(/[ŒœÆæØøŁłĐđÐðÞþß]/g, (c) => LETTER_ALIASES[c] || c)
+      .normalize("NFD")
+      .replace(/[̀-ͯ]/g, "");
+    const first = normalized.charAt(0).toUpperCase();
+    return /[A-Z]/.test(first) ? first : "#";
+  }
+
+  function buildRegister() {
+    const all = EanaData.searchArticles(null, "");
+    const grouped = {};
+    all.forEach((a) => {
+      const l = initialOf(a.title);
+      (grouped[l] = grouped[l] || []).push(a);
+    });
+    Object.values(grouped).forEach((list) => {
+      list.sort((a, b) => filingTitle(a.title).localeCompare(filingTitle(b.title), "fr"));
+    });
+
+    const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+    if (grouped["#"]) alphabet.push("#");
+    const letters = alphabet.map((l) => ({ letter: l, count: (grouped[l] || []).length }));
+
+    if (!registerLetter || !(grouped[registerLetter] || []).length) {
+      const firstFilled = letters.find((l) => l.count > 0);
+      registerLetter = firstFilled ? firstFilled.letter : "A";
+    }
+    return { letters, items: grouped[registerLetter] || [] };
+  }
+
   // ---------- Rendu : Accueil ----------
 
   function renderHomeView() {
     const cats = EanaData.getCategories();
-    const recent = EanaData.getRecentArticles(6);
-    const results = homeQuery ? EanaData.searchArticles(null, homeQuery).slice(0, 8) : [];
+    const recent = EanaData.getRecentArticles(RECENT_COUNT);
+    const results = homeQuery ? EanaData.searchArticles(null, homeQuery).slice(0, 10) : [];
+    // Les compteurs incluent les fiches à venir, pour coller à ce que la
+    // grille de catégorie affiche réellement (publiées + verrouillées).
+    const counts = {};
+    cats.forEach((c) => { counts[c.id] = EanaData.countAllByCategory(c.id); });
+    const { letters, items } = buildRegister();
 
     app.innerHTML = EanaRender.renderHome({
       recentArticles: recent,
       categories: cats,
+      counts,
       query: homeQuery,
       searchResults: results,
+      letters,
+      activeLetter: registerLetter,
+      letterArticles: items,
+      total: cats.reduce((sum, c) => sum + counts[c.id], 0),
+      masterActive: EanaData.isMasterActive(),
     });
+
+    mainViewRendered = true;
 
     const input = document.getElementById("search-input");
     if (input) {
       input.addEventListener("input", () => {
         homeQuery = input.value;
-        const r = homeQuery ? EanaData.searchArticles(null, homeQuery).slice(0, 8) : [];
+        const r = homeQuery ? EanaData.searchArticles(null, homeQuery).slice(0, 10) : [];
         const resultsEl = document.getElementById("search-results");
-        if (resultsEl) resultsEl.outerHTML = EanaRender.renderSearchResults ? EanaRender.renderSearchResults(r) : "";
+        if (resultsEl) resultsEl.innerHTML = EanaRender.renderSearchResults(r);
       });
     }
   }
 
+  function updateRegister() {
+    const { letters, items } = buildRegister();
+    const list = document.getElementById("register");
+    if (list) list.innerHTML = EanaRender.renderRegister(items);
+    document.querySelectorAll(".letter[data-letter]").forEach((b) => {
+      b.classList.toggle("active", b.getAttribute("data-letter") === registerLetter);
+    });
+    return letters;
+  }
+
   // ---------- Rendu : Catégorie ----------
+
+  // Sans recherche, la grille liste toute la catégorie : les fiches OFF y
+  // apparaissent verrouillées. Dès qu'une recherche est saisie, on repasse par
+  // le filtre normal — une fiche non publiée ne doit pas pouvoir être trouvée
+  // par son nom.
+  function gridArticles(categoryId, query) {
+    return query.trim()
+      ? EanaData.searchArticles(categoryId, query)
+      : EanaData.getAllByCategory(categoryId);
+  }
 
   function renderCategoryView(categoryId) {
     const category = EanaData.getCategory(categoryId);
@@ -85,7 +185,7 @@
 
     const state = getCatState(categoryId);
     state.page = 0;
-    const articles = EanaData.searchArticles(categoryId, state.query);
+    const articles = gridArticles(categoryId, state.query);
 
     app.innerHTML = EanaRender.renderCategory({
       categories: EanaData.getCategories(),
@@ -94,18 +194,21 @@
       page: state.page,
       pageSize: PAGE_SIZE,
       query: state.query,
+      masterActive: EanaData.isMasterActive(),
     });
 
+    mainViewRendered = true;
     wireCategoryEvents();
   }
 
   function updateCategoryGrid(categoryId) {
     const state = getCatState(categoryId);
-    const articles = EanaData.searchArticles(categoryId, state.query);
+    const articles = gridArticles(categoryId, state.query);
     const wrap = document.getElementById("grid-wrap");
     if (!wrap) return;
     wrap.innerHTML = EanaRender.renderCategoryResults({
       articles, page: state.page, pageSize: PAGE_SIZE, query: state.query,
+      masterActive: EanaData.isMasterActive(),
     });
   }
 
@@ -127,18 +230,24 @@
     }
   }
 
-  // ---------- Transition accueil -> catégorie (animation demandée) ----------
+  // ---------- Transition accueil -> catégorie ----------
 
-  function waitTransitionEnd(el, fallbackMs) {
+  // N'attend que la transition de "propertyName" : #app anime à la fois
+  // "transform" (500ms) et "opacity" (300ms), et "opacity" finit avant —
+  // sans ce filtre, le premier transitionend (opacity) déclenchait le
+  // nettoyage des styles inline et coupait "transform" en plein vol, d'où
+  // le petit saut visible juste avant la fin de l'animation.
+  function waitTransitionEnd(el, propertyName, fallbackMs) {
     return new Promise((resolve) => {
       let done = false;
-      const finish = () => {
+      const finish = (e) => {
         if (done) return;
+        if (e && propertyName && e.propertyName !== propertyName) return;
         done = true;
         el.removeEventListener("transitionend", finish);
         resolve();
       };
-      el.addEventListener("transitionend", finish, { once: true });
+      el.addEventListener("transitionend", finish);
       setTimeout(finish, fallbackMs);
     });
   }
@@ -161,7 +270,7 @@
       return;
     }
 
-    // La carte cliquée "devient" le panneau catégorie : on calcule le
+    // Le cartouche cliqué "devient" la vue catégorie : on calcule le
     // déplacement/échelle nécessaires pour que le nouveau contenu démarre
     // exactement où était la carte, puis on relâche vers sa taille normale.
     renderCategoryView(categoryId);
@@ -184,7 +293,7 @@
       app.style.opacity = "1";
     });
 
-    await waitTransitionEnd(app, 550);
+    await waitTransitionEnd(app, "transform", 550);
 
     app.style.transition = "";
     app.style.transform = "";
@@ -206,9 +315,95 @@
 
     updateCategoryGrid(categoryId);
 
+    const heading = document.querySelector(".section-title h2");
+    if (heading) heading.textContent = category.label;
+    const meta = document.querySelector(".section-title .meta");
+    if (meta) {
+      const n = gridArticles(categoryId, getCatState(categoryId).query).length;
+      meta.textContent = `${n} entrée${n > 1 ? "s" : ""}`;
+    }
+
     const input = document.getElementById("search-input");
     if (input) input.placeholder = `Chercher dans ${category.label.toLowerCase()}`;
   }
+
+  // ---------- Mise en page du texte de fiche ----------
+
+  // CSS colonnes équilibre le texte entre les deux colonnes par défaut
+  // (moitié-moitié). Pour remplir la première avant de déborder dans la
+  // seconde, "column-fill: auto" a besoin d'une hauteur explicite. On mesure
+  // d'abord, dans une copie hors écran à la largeur d'UNE colonne (pas celle
+  // du conteneur entier, sinon le texte ne s'enroule pas pareil), la hauteur
+  // que prendrait tout le texte empilé ; puis on compare à la hauteur
+  // disponible, donnée par la colonne visuelle d'à côté (visuel + chapitres).
+  function fillColumnsSequentially(container) {
+    if (!container) return;
+    container.style.height = "";
+    container.classList.remove("body-text--single");
+
+    const twoColumns = window.matchMedia("(min-width: 981px)").matches;
+    if (!twoColumns) return;
+
+    const rect = container.getBoundingClientRect();
+    if (!rect.width) return;
+    const gap = parseFloat(getComputedStyle(container).columnGap) || 0;
+    const columnWidth = (rect.width - gap) / 2;
+
+    // Mesure la hauteur du texte empilé pour une largeur donnée, dans une
+    // copie hors écran (la largeur change l'enroulement, donc la hauteur).
+    function measureAt(width) {
+      const probe = document.createElement("div");
+      probe.className = container.className;
+      probe.style.cssText = "position:fixed; visibility:hidden; pointer-events:none; left:-99999px; top:0;";
+      probe.style.width = `${width}px`;
+      probe.style.columnCount = "1";
+      probe.style.height = "auto";
+      probe.innerHTML = container.innerHTML;
+      document.body.appendChild(probe);
+      const h = probe.scrollHeight;
+      probe.remove();
+      return h;
+    }
+
+    const aside = container.parentElement ? container.parentElement.querySelector("aside") : null;
+    const available = aside ? Math.round(aside.getBoundingClientRect().height) : 0;
+
+    // Si le texte tient en une seule colonne sur toute la largeur disponible,
+    // on ne le coupe pas en deux : il occupe le bloc entier, sans laisser un
+    // grand vide entre une colonne étroite et le visuel.
+    const fullWidthHeight = measureAt(rect.width);
+    if (available && fullWidthHeight <= available) {
+      container.classList.add("body-text--single");
+      return;
+    }
+
+    // Sinon deux colonnes : la première se remplit sur toute la hauteur
+    // disponible, le reste passe en seconde. Au-delà de deux colonnes pleines,
+    // on retombe sur la moitié pour ne pas ouvrir une 3e colonne.
+    const naturalHeight = measureAt(columnWidth);
+    if (!naturalHeight) return;
+    let height = Math.max(available, Math.ceil(naturalHeight / 2));
+
+    container.style.height = `${height}px`;
+
+    // Un arrondi du point de coupure peut encore ouvrir une colonne implicite
+    // hors cadre : on le détecte via scrollWidth et on ajoute quelques pixels.
+    let guard = 0;
+    while (container.scrollWidth > container.clientWidth + 2 && guard < 40) {
+      height += 8;
+      container.style.height = `${height}px`;
+      guard += 1;
+    }
+  }
+
+  let columnResizeRaf = null;
+  window.addEventListener("resize", () => {
+    if (columnResizeRaf) return;
+    columnResizeRaf = requestAnimationFrame(() => {
+      columnResizeRaf = null;
+      fillColumnsSequentially(document.querySelector("#article-overlay .body-text"));
+    });
+  });
 
   // ---------- Rendu : Fiche article (overlay) ----------
 
@@ -241,11 +436,18 @@
     const overlayClass = isFreshOpen ? "article-overlay overlay-entering" : "article-overlay";
 
     overlayRoot.innerHTML = `<div class="${overlayClass}" id="article-overlay">${EanaRender.renderArticleOverlay({
-      article, manifestEntry: entry, category, page: overlayPageIndex, related, banner, pageSwap: !isFreshOpen,
+      article, category, page: overlayPageIndex, related, banner, pageSwap: !isFreshOpen,
     })}</div>`;
 
-    wireOverlayEvents(id, article);
+    wireOverlayEvents(id);
     document.body.style.overflow = "hidden";
+
+    const bodyTextEl = overlayRoot.querySelector(".body-text");
+    fillColumnsSequentially(bodyTextEl);
+    if (document.fonts && document.fonts.ready) {
+      // Recorrige une fois les polices chargées (première ouverture avant cache).
+      document.fonts.ready.then(() => fillColumnsSequentially(overlayRoot.querySelector(".body-text")));
+    }
   }
 
   async function closeArticleOverlay() {
@@ -261,7 +463,7 @@
     document.body.style.overflow = "";
   }
 
-  function wireOverlayEvents(id, article) {
+  function wireOverlayEvents(id) {
     const overlay = document.getElementById("article-overlay");
     if (!overlay) return;
 
@@ -271,24 +473,52 @@
       });
     });
 
-    overlay.querySelectorAll("[data-open-article]").forEach((elm) => {
-      elm.addEventListener("click", () => navigate(`#/article/${elm.getAttribute("data-open-article")}`));
-    });
-
-    const total = (article.pages || []).length;
     overlay.querySelectorAll("[data-article-page]").forEach((elm) => {
       elm.addEventListener("click", () => {
         overlayPageIndex = Number(elm.getAttribute("data-article-page"));
         openArticleOverlay(id, { resetPage: false });
       });
     });
-    const prevBtn = overlay.querySelector("[data-article-prev]");
-    if (prevBtn) prevBtn.addEventListener("click", () => {
-      if (overlayPageIndex > 0) { overlayPageIndex -= 1; openArticleOverlay(id, { resetPage: false }); }
+  }
+
+  // ---------- Thème clair / sombre ----------
+
+  // Le thème est déjà posé sur <html> par le script en tête de page ; ici on
+  // ne gère que la bascule et la mémorisation.
+  const THEME_KEY = "eana_theme";
+
+  function currentTheme() {
+    return document.documentElement.getAttribute("data-theme") === "dark" ? "dark" : "light";
+  }
+
+  function applyTheme(theme) {
+    const dark = theme === "dark";
+    const root = document.documentElement;
+
+    // Coupe les transitions le temps du basculement (voir la note dans le CSS),
+    // puis les rétablit une fois les nouvelles couleurs peintes.
+    root.classList.add("theme-switching");
+    if (dark) root.setAttribute("data-theme", "dark");
+    else root.removeAttribute("data-theme");
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => root.classList.remove("theme-switching"));
     });
-    const nextBtn = overlay.querySelector("[data-article-next]");
-    if (nextBtn) nextBtn.addEventListener("click", () => {
-      if (overlayPageIndex < total - 1) { overlayPageIndex += 1; openArticleOverlay(id, { resetPage: false }); }
+
+    const btn = document.getElementById("theme-toggle");
+    if (btn) btn.title = dark ? "Mode clair" : "Mode sombre";
+
+    try {
+      if (dark) localStorage.setItem(THEME_KEY, "dark");
+      else localStorage.removeItem(THEME_KEY);
+    } catch (e) { /* stockage indisponible : la bascule reste valable pour la session */ }
+  }
+
+  function wireThemeToggle() {
+    const btn = document.getElementById("theme-toggle");
+    if (!btn) return;
+    applyTheme(currentTheme()); // aligne l'infobulle sur l'état initial
+    btn.addEventListener("click", () => {
+      applyTheme(currentTheme() === "dark" ? "light" : "dark");
     });
   }
 
@@ -299,18 +529,74 @@
     const indicator = document.getElementById("master-indicator");
     if (indicator) {
       indicator.addEventListener("click", () => {
-        if (confirm("Désactiver le mode maître ?")) {
-          EanaData.deactivateMaster();
-          renderMasterIndicator();
-          handleRoute();
-        }
+        EanaData.deactivateMaster();
+        afterMasterChange();
       });
     }
   }
 
-  // ---------- Délégation globale des clics (cartes, catégories, pagination grille) ----------
+  function afterMasterChange() {
+    renderMasterIndicator();
+    // Le filtre change la liste des fiches visibles : on refait la vue courante.
+    if (lastMainRoute.type === "category") {
+      renderCategoryView(lastMainRoute.id);
+    } else {
+      renderHomeView();
+    }
+  }
+
+  function closeGate() {
+    gateRoot.innerHTML = "";
+  }
+
+  function openGate() {
+    gateRoot.innerHTML = EanaRender.gate();
+    const pass = document.getElementById("gate-pass");
+    const error = document.getElementById("gate-error");
+    const ok = document.getElementById("gate-ok");
+
+    gateRoot.querySelectorAll("[data-gate-close]").forEach((b) => b.addEventListener("click", closeGate));
+
+    async function submit() {
+      const granted = await EanaData.tryActivateMaster(pass.value);
+      if (granted) {
+        closeGate();
+        afterMasterChange();
+      } else {
+        error.hidden = false;
+        pass.select();
+      }
+    }
+
+    ok.addEventListener("click", submit);
+    pass.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") submit();
+      if (e.key === "Escape") closeGate();
+    });
+    pass.focus();
+  }
+
+  // ---------- Délégation globale des clics ----------
 
   document.addEventListener("click", (e) => {
+    const mode = e.target.closest("[data-mode]");
+    if (mode) {
+      const wanted = mode.getAttribute("data-mode");
+      if (wanted === "public") {
+        if (EanaData.isMasterActive()) { EanaData.deactivateMaster(); afterMasterChange(); }
+      } else if (!EanaData.isMasterActive()) {
+        openGate();
+      }
+      return;
+    }
+
+    const letter = e.target.closest(".letter[data-letter]");
+    if (letter && !letter.disabled) {
+      registerLetter = letter.getAttribute("data-letter");
+      updateRegister();
+      return;
+    }
+
     const openArticle = e.target.closest("[data-open-article]");
     if (openArticle) { navigate(`#/article/${openArticle.getAttribute("data-open-article")}`); return; }
 
@@ -324,23 +610,10 @@
       return;
     }
 
-    const tabPrev = e.target.closest("[data-tab-prev]");
-    const tabNext = e.target.closest("[data-tab-next]");
-    if (tabPrev || tabNext) {
-      const cats = EanaData.getCategories();
-      const currentId = lastMainRoute.type === "category" ? lastMainRoute.id : cats[0].id;
-      const idx = cats.findIndex((c) => c.id === currentId);
-      const nextIdx = tabPrev ? (idx - 1 + cats.length) % cats.length : (idx + 1) % cats.length;
-      navigate(`#/categorie/${cats[nextIdx].id}`);
-      return;
-    }
-
     const gridPrev = e.target.closest("[data-grid-prev]");
     const gridNext = e.target.closest("[data-grid-next]");
-    const gridDot = e.target.closest("[data-grid-page]");
-    if ((gridPrev || gridNext || gridDot) && lastMainRoute.type === "category") {
+    if ((gridPrev || gridNext) && lastMainRoute.type === "category") {
       const state = getCatState(lastMainRoute.id);
-      if (gridDot) state.page = Number(gridDot.getAttribute("data-grid-page"));
       if (gridPrev) state.page = Math.max(0, state.page - 1);
       if (gridNext) state.page = state.page + 1;
       updateCategoryGrid(lastMainRoute.id);
@@ -348,7 +621,9 @@
   });
 
   window.addEventListener("keydown", (e) => {
-    if (e.key === "Escape" && document.getElementById("article-overlay")) {
+    if (e.key !== "Escape") return;
+    if (document.getElementById("gate")) { closeGate(); return; }
+    if (document.getElementById("article-overlay")) {
       navigate(lastMainRoute.type === "category" ? `#/categorie/${lastMainRoute.id}` : "#/");
     }
   });
@@ -360,15 +635,21 @@
     const wasArticleOpen = !!document.getElementById("article-overlay");
 
     if (route.type === "article") {
+      // Lien direct / rechargement sur une fiche : on monte d'abord la vue de
+      // fond, sinon elle reste vide derrière l'overlay et à sa fermeture.
+      if (!mainViewRendered) {
+        renderHomeView();
+        lastMainRoute = { type: "home" };
+      }
       await openArticleOverlay(route.id);
       return;
     }
 
-    if (wasArticleOpen) {
+    if (wasArticleOpen && mainViewRendered) {
       const backToSameHome = route.type === "home" && lastMainRoute.type === "home";
       const backToSameCategory = route.type === "category" && lastMainRoute.type === "category" && lastMainRoute.id === route.id;
       if (backToSameHome || backToSameCategory) {
-        // On ferme juste l'overlay : la vue en dessous est déjà la bonne, pas besoin de la re-rendre.
+        // On ferme juste l'overlay : la vue en dessous est déjà la bonne.
         await closeArticleOverlay();
         return;
       }
@@ -377,11 +658,7 @@
     await closeArticleOverlay();
 
     if (route.type === "home") {
-      if (lastMainRoute.type === "category") {
-        renderHomeView();
-      } else {
-        renderHomeView();
-      }
+      renderHomeView();
       lastMainRoute = { type: "home" };
     } else if (route.type === "category") {
       const cameFromHome = lastMainRoute.type === "home";
@@ -399,7 +676,7 @@
   // ---------- Démarrage ----------
 
   async function loadIcons() {
-    const ids = ["personnages", "geographie", "monde", "primordiaux"];
+    const ids = ["personnages", "geographie", "monde", "creatures"];
     const entries = await Promise.all(ids.map(async (id) => {
       const res = await fetch(`images/ui/icon-${id}.svg`);
       const text = await res.text();
@@ -411,6 +688,7 @@
   async function start() {
     await EanaData.consumeUrlMasterParam();
     await Promise.all([EanaData.init(), loadIcons()]);
+    wireThemeToggle();
     renderMasterIndicator();
     await handleRoute();
   }
