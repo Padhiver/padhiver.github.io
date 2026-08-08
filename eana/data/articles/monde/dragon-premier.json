@@ -3,14 +3,14 @@
   "title": "Le Dragon premier",
   "category": "monde",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 68,
+  "date": "2026-08-08",
+  "order": 32,
   "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Le dragon premier, ou « drac », est un dragon évoqué dans une légende qui est à l'origine des noms qui ont été donnés aux Cristaux-mères.\n\nLes Cristaux-mères et leur noyau sont la forme que les semblables d'Ultima ont prise en arrivant à Valisthéa. Ultima, devenant le seul de son espèce restant, a lui-même nommé les Cristaux-mères en s'inspirant des parties du corps d'un dragon pour faire le lien avec celui du mythe ancien. Il s'est ensuite enfoncé dans un profond sommeil.",
-      "contextImage": "images/placeholders/emblem-monde.svg",
-      "caption": "Le Dragon premier"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "noyau-des-cristaux-meres",
     "ultima",
     "creation-dun-nouveau-monde"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

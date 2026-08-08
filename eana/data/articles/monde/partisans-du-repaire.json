@@ -1,0 +1,22 @@
+{
+  "id": "partisans-du-repaire",
+  "title": "Les partisans du Repaire",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 79,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Les gens qui coopèrent avec Cid en apportant leur soutien au Repaire.\n\nComme Cid, beaucoup remettent en question la façon dont sont traités les Pourvoyeurs dans ce monde. Ils fournissent leur aide par conviction ou pour des intérêts communs. Ils communiquent leurs informations par stolas de tout Valisthéa et contribuent à secourir des Pourvoyeurs en détresse ou bien apportent une aide financière.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "protection-des-pourvoyeurs",
+    "cid",
+    "broches",
+    "stolas"
+  ]
+}

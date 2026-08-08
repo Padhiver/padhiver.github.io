@@ -3,14 +3,14 @@
   "title": "Les rhinofuros",
   "category": "primordiaux",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 45,
+  "date": "2026-08-08",
+  "order": 39,
   "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Des créatures herbivores qui possèdent de longues cornes sur le côté.\n\nElles protègent activement leur territoire et chargent n'importe quel intrus à vue. Leur peau résistante et leurs cornes sont convoitées pour la confection de nombreux objets utiles pour la vie de tous les jours. On en trouve sur le territoire dalmèque et dans la région de Rosalia.",
-      "contextImage": "images/placeholders/emblem-primordiaux.svg",
-      "caption": "Les rhinofuros"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "antilopes",
     "republique-de-dalmequie",
     "archiduche-de-rosalia"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

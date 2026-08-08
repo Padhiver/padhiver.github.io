@@ -3,13 +3,13 @@
   "title": "Le titre de Gardien de Phénix",
   "category": "monde",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 89,
+  "date": "2026-08-08",
+  "order": 93,
   "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Un titre est décerné à un Gardien flamboyant particulièrement valeureux choisi par Phénix.\n\nChargé de la protection de l'Émissaire, il se voit béni par le Primordial de feu et reçoit une partie de ses pouvoirs exceptionnels.",
-      "contextImage": "images/placeholders/emblem-monde.svg",
       "caption": "La bénédiction de Phénix"
     }
   ],
@@ -18,9 +18,5 @@
     "benediction-de-phenix",
     "clive",
     "ceremonie-dadoubement"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

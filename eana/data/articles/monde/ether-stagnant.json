@@ -3,14 +3,14 @@
   "title": "L'éther stagnant",
   "category": "monde",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 19,
+  "date": "2026-08-08",
+  "order": 91,
   "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Un phénomène de concentration anormale d'éther.\n\nQuand l'équilibre de l'éther ambiant est perturbé et que sa densité augmente brusquement, des poches se forment. L'éther, qui est d'ordinaire invisible à l'œil nu, brille alors d'une lueur bleutée. Lorsqu'il atteint un tel état, il devient toxique pour les êtres vivants, qui peuvent ainsi être victimes d'empoisonnement s'ils y sont trop longtemps exposés. Il arrive également que ceux-ci se transforment en éthériques, des créatures ayant perdu la raison.",
-      "contextImage": "images/placeholders/emblem-monde.svg",
-      "caption": "L'éther stagnant"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "ether",
     "resistance-a-lether",
     "expurgation"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

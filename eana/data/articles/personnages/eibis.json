@@ -3,14 +3,14 @@
   "title": "Eibis",
   "category": "personnages",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 18,
+  "date": "2026-08-08",
+  "order": 19,
   "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Un soldat pourvoyeur de l'armée sangbréquoise.\n\nComme Wyverne, il fait partie de l'unité chargée d'assassiner l'Émissaire de Shiva. Il est tué au cours de la mission par un soldat ferrégien. Le nom d'Eibis était un nom de code utilisé lors des opérations, et son vrai nom reste inconnu.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
-      "caption": "Eibis"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "armee-ferregienne",
     "biast",
     "unite-speciale-de-pourvoyeurs"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

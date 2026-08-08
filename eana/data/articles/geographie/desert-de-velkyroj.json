@@ -3,14 +3,14 @@
   "title": "Le désert de Velkýroj",
   "category": "geographie",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 78,
+  "date": "2026-08-08",
+  "order": 92,
   "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Une région désertique immense qui s'étend sur le côté ouest de la Dalméquie.\n\nLe côté ouest de ce territoire a été englouti par l'avancée du désert, et les ruines de plusieurs villages s'y trouvent encore. Dans la langue locale, « Velkýroj » signifie « grand essaim », faisant sans doute référence aux vents qui balaient le désert. Au sud, des tufières formant des plateaux de calcaire sur un site surnommé localement « château de coton » ont donné naissance à une culture de sources chaudes et d'eaux thermales, exploitées notamment au relais de Dalimil. Une route passant par le relais traverse le désert du nord au sud, et est régulièrement empruntée par marchands et voyageurs.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
-      "caption": "Le désert de Velkýroj"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "crocdrac",
     "ceratina",
     "republique-de-dalmequie"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

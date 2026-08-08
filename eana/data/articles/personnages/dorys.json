@@ -3,23 +3,21 @@
   "title": "Dorys",
   "category": "personnages",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 16,
+  "date": "2026-08-08",
+  "order": 17,
   "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "base",
   "pages": [
     {
       "text": "La capitaine des Lames de pierre.\n\nCette Pourvoyeuse née à Rosalia dirige aujourd'hui des troupes dont l'objectif principal est de secourir des Pourvoyeurs. C'est une personne déterminée, qui déteste les violences et les sanctions extrêmes, et qui est capable d'une abnégation quasi totale. Elle a une confiance presque aveugle en Cole, son adjoint qui l'accompagne dans bon nombre de leurs missions.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Généralités"
     },
     {
       "text": "La capitaine des Lames de pierre.\n\nElle a autrefois appartenu à une marchande d'esclaves de Rosalia, qui lui a appris les arts des lettres et de la guerre. Dorys est aujourd'hui une Pourvoyeuse libre, et la relation qui la lie à son ancienne propriétaire est mystérieuse, mais les connaissances qu'elle a acquises à l'époque lui sont d'une aide sans conteste dans le rôle qu'elle joue au sein des Lames de pierre.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Son ancienne maîtresse"
     },
     {
       "text": "La capitaine des Lames de pierre.\n\nElle dirige ses hommes afin de secourir et de protéger au mieux les Pourvoyeurs. Elle retrouve la trace d'un ancien compagnon dans les geôles de Balmung, Chadwick, un autre Pourvoyeur qui appartenait à la même marchande d'esclaves qu'elle. Il y était incarcéré et s'y est apparemment battu jusqu'à son dernier souffle pour que d'autres aient une chance de survivre. Tout ceci conforte Dorys dans l'idée qu'elle doit impérativement mener à bien la mission des Lames de pierre.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Aux geôles de Balmung"
     }
   ],
@@ -30,9 +28,5 @@
     "repaire-de-clive",
     "marchands-desclaves",
     "geoles-de-balmung"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

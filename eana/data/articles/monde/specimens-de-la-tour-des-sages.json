@@ -3,23 +3,21 @@
   "title": "Les spécimens de la Tour des Sages",
   "category": "monde",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 121,
+  "date": "2026-08-08",
+  "order": 88,
   "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "echoes-of-the-fallen",
   "pages": [
     {
-      "text": "Des bêtes sauvages et des hommes-bêtes utilisés comme cobayes dans la Tour des Sages.\n\nLa variété des sujets d'expérience semble indiquer qu'ils ont été capturés aux quatre coins de Valisthéa. Aussi vieux que la tour, ces sujets d'expérience ont conservé leur ancienne anatomie, ce qui les rend différents des espèces actuelles. La voix qui contrôle la tour est capable de les libérer de leur stase pour les lâcher contre Clive et ses compagnons.",
-      "contextImage": "images/placeholders/emblem-monde.svg",
+      "text": "Des bêtes sauvages et des hommes-bêtes utilisés comme cobayes dans la Tour des Sages.\n\nLa variété des sujets d'expérience semble indiquer qu'ils ont été capturés aux quatre coins de Valisthéa. Aussi vieux que la tour, ces sujets d'expérience ont conservé leur ancienne anatomie, ce qui les rend différents des espèces actuelles. La voix qui contrôle la tour est capable de les libérer de leur stase pour les lâcher contre Clive et ses compagnons. ",
       "caption": "Généralités"
     },
     {
       "text": "Des bêtes sauvages et des hommes-bêtes utilisés comme cobayes dans la Tour des Sages.\n\nLes Célestes menaient des expériences sur eux dans le cadre de leurs recherches visant à créer un Cristal-mère artificiel, mais la voix qui contrôle la tour s'en sert maintenant pour empêcher Clive et ses compagnons de gravir l'édifice. Certains d'entre eux dans l'étage central ont même des cristaux incrustés dans le corps, preuve qu'ils ont été le sujet de nombreux tests.",
-      "contextImage": "images/placeholders/emblem-monde.svg",
       "caption": "Recherche intensive"
     },
     {
       "text": "Des bêtes sauvages et des hommes-bêtes utilisés comme cobayes dans la Tour des Sages.\n\nLes expérimentations effectuées sur eux dans le cadre de leurs recherches visant à créer un Cristal-mère artificiel ont mené à la découverte de fibres biologiques ultrarésistantes. Ces dernières ont ensuite servi à développer les armes magitech.",
-      "contextImage": "images/placeholders/emblem-monde.svg",
       "caption": "Fibres biologiques"
     }
   ],
@@ -32,9 +30,5 @@
     "fibres-biologiques",
     "armes-magitech",
     "cristal-mere-synthetique"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

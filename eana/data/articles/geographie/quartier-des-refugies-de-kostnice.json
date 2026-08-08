@@ -3,14 +3,14 @@
   "title": "Le quartier des réfugiés de Kostnice",
   "category": "geographie",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 94,
+  "date": "2026-08-08",
+  "order": 111,
   "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Un quartier dans le nord-ouest de la république de Dalméquie.\n\nIl a autrefois prospéré grâce au commerce, mais ne compte presque plus d'habitants aujourd'hui. Ceux-ci ont préféré partir devant l'avancée du Fléau noir. Il ne reste guère plus que des réfugiés sans nulle part où aller et des magouilleurs et autres marchands aux commerces douteux. Un nombre très faible de soldats assurent la sécurité des lieux, mais la corruption est monnaie courante. Dans les faits, c'est un endroit où l'ordre et la loi ne règnent plus.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
-      "caption": "Le quartier des réfugiés de Kostnice"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "viktor",
     "petite-marchande-de-remedes",
     "republique-de-dalmequie"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

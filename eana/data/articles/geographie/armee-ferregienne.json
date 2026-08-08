@@ -3,14 +3,14 @@
   "title": "L'armée ferrégienne",
   "category": "geographie",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 18,
+  "date": "2026-08-08",
+  "order": 64,
   "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
   "pages": [
     {
       "text": "L'armée régulière du Royaume de Fer.\n\nLe roi est le commandant suprême des armées et donne ses ordres à chacun des chefs des différentes unités. Tout en haut de la chaîne de commandement, il commande toutes les troupes sur les champs de bataille. Ses soldats sont armés de haches et de massues, un arsenal qui met ainsi l'accent sur les armes contondantes plutôt que sur les armes d'estoc. Ils se reposent donc plus sur la force brute des coups que sur les techniques à l'épée. Cette nature violente leur a donné la réputation d'un peuple barbare craint dans tout Valisthéa.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
-      "caption": "L'armée ferrégienne"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "bataille-du-defile-de-nysa",
     "invasion-ferregienne",
     "royaume-de-fer-eileanan-iarainn"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

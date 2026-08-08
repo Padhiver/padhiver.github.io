@@ -1,0 +1,28 @@
+{
+  "id": "caudrac",
+  "title": "Caudrac",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 3,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Un Cristal-mère qui appartient au Dominion du Cristal.\n\nC'est le plus imposant des Cristaux-mères présents à Valisthéa. Il surplombe Port-Gémeau dans l'archipel des Îles de la Croisée et semble baigner dans une lumière divine.",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Un Cristal-mère qui appartenait autrefois au Dominion du Cristal.\n\nIl fut pendant un temps le dernier Cristal-mère du Vert-Ponant et le plus imposant des Cristaux-mères à Valisthéa, mais il fut détruit lors de la rébellion des Saints Dragons, qui entraîna de lourds dégâts dans les Îles de la Croisée. En disparaissant, le noyau de Caudrac, qui avait la forme d'un bourgeon, a semblé fleurir une première et une dernière fois, illuminant le ciel de Port-Gémeau.",
+      "caption": "Destruction de Caudrac"
+    }
+  ],
+  "related": [
+    "dominion-du-cristal",
+    "cristaux-meres",
+    "siege-du-dominion-du-cristal",
+    "iles-de-la-croisee",
+    "bourgeon-cristallin",
+    "destruction-de-caudrac"
+  ]
+}

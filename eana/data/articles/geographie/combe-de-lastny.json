@@ -3,14 +3,14 @@
   "title": "La combe de Lastny",
   "category": "geographie",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 37,
+  "date": "2026-08-08",
+  "order": 28,
   "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Une série de ravins dans le nord-est de la république de Dalméquie.\n\nOn peut admirer à l'une de ses extrémités les chutes de Dzemekys, non loin desquelles se trouve le marché de Poklad, grand centre de commerce de la région.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
-      "caption": "La combe de Lastny"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "marche-de-poklad",
     "lapidaires",
     "republique-de-dalmequie"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

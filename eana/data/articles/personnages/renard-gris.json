@@ -3,14 +3,14 @@
   "title": "Le Renard gris",
   "category": "personnages",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 54,
+  "date": "2026-08-08",
+  "order": 53,
   "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Le surnom du chef des Territoires du Nord, Geir Warrick.\n\nSa fille Jill a été confiée à la cour de Rosalia en gage de paix entre les deux pays lorsque son camp a perdu la guerre contre l'Archiduché.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
-      "caption": "Le Renard gris"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "elwin-rosfield",
     "terres-du-nord",
     "archiduche-de-rosalia"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

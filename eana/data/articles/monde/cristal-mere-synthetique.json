@@ -3,23 +3,21 @@
   "title": "Le Cristal-mère synthétique",
   "category": "monde",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 64,
+  "date": "2026-08-08",
+  "order": 30,
   "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "echoes-of-the-fallen",
   "pages": [
     {
       "text": "Un Cristal-mère créé par la main de l'Homme.\n\nIl se trouve à l'intérieur de la Tour des Sages et est conservé dans une cuve issue de la technologie magitech.",
-      "contextImage": "images/placeholders/emblem-monde.svg",
       "caption": "Généralités"
     },
     {
       "text": "Un Cristal-mère créé par la main de l'Homme.\n\nIl se trouve à l'intérieur de la Tour des Sages et était conservé dans une cuve issue de la technologie magitech jusqu'à l'arrivée de Clive et ses amis. La tour, détectant des individus hostiles, a retiré le Cristal-mère de sa cuve pour le placer en sécurité.",
-      "contextImage": "images/placeholders/emblem-monde.svg",
       "caption": "Isolation"
     },
     {
       "text": "Un Cristal-mère créé par la main de l'Homme, et qui, comme ses équivalents traditionnels, absorbait l'éther environnant.\n\nFace à la menace que constituaient Clive et ses amis, la tour l'a confié au Bio-Primordial Oméga qui l'a absorbé. Clive est toutefois parvenu à vaincre Oméga et a pu ensuite détruire le Cristal-mère artificiel.",
-      "contextImage": "images/placeholders/emblem-monde.svg",
       "caption": "Révélation"
     }
   ],
@@ -31,9 +29,5 @@
     "voix-de-la-tour-des-sages",
     "cristaux-voiles",
     "omega"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

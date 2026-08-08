@@ -1,0 +1,22 @@
+{
+  "id": "prophetie-du-salut",
+  "title": "La prophétie du salut",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 15,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Une prophétie laissée par Ultima avant de s'endormir.\n\nÀ l'heure actuelle, seuls les membres du Cercle de Malius en connaissent le contenu. D'après celle-ci, le jour tant attendu, ce monde renaîtra de la main de Mythos, habité par le Divin. Les créatures au service de Dieu s'incarneront pour annoncer ce grand événement. Et si les Protecteurs attendent patiemment la naissance du réceptacle aux côtés des Messagers, seuls les fidèles accéderont à un bonheur aussi rare qu'inestimable.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "culte-messianique-levantin",
+    "mythos",
+    "ultimalius",
+    "resurrection"
+  ]
+}

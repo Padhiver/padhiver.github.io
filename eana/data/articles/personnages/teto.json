@@ -3,14 +3,14 @@
   "title": "Teto",
   "category": "personnages",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 88,
+  "date": "2026-08-08",
+  "order": 90,
   "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Un jeune garçon, habitant au Repaire.\n\nIl assiste Harpocrate dans son travail. On le trouve habituellement en compagnie de Kuro, sa sœur jumelle, en train de lire dans la bibliothèque du vieux chercheur. Contrairement à ses parents et à Kuro, il n'a pas hérité de pouvoirs magiques. Les jumeaux ont perdu leurs parents lors de la destruction du Repaire de Cid par Hugo Kupka.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
-      "caption": "Teto"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "kuro",
     "massacre-du-repaire",
     "repaire-de-clive"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

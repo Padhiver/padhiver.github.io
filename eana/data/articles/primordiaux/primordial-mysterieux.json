@@ -3,18 +3,17 @@
   "title": "Le Primordial mystérieux",
   "category": "primordiaux",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 10,
+  "date": "2026-08-08",
+  "order": 11,
   "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Le deuxième Primordial de feu.\n\nIl a soudainement fait son apparition le soir de l'attaque du fort Phénix par Sangbrèque en 860. Il se distingue par une silhouette noire et les terribles flammes dont il s'entoure. La nuit du drame, il a vaincu sans mal Phénix, Primordial du même élément. Son identité et sa nature restent un mystère.",
-      "contextImage": "images/placeholders/emblem-primordiaux.svg",
       "caption": "Un Primordial énigmatique"
     },
     {
       "text": "Le deuxième Primordial de feu.\n\nIl a soudainement fait son apparition la nuit de l'attaque du fort Phénix par Sangbrèque en l'an 860 et a mis le feu à toute la zone lors de son terrible combat contre Phénix. Clive a appris que c'est lui-même qui avait en réalité pris la forme de ce Primordial.",
-      "contextImage": "images/placeholders/emblem-primordiaux.svg",
       "caption": "Généralités"
     }
   ],
@@ -25,9 +24,5 @@
     "primordiaux",
     "clive",
     "ifrit-paracheve"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

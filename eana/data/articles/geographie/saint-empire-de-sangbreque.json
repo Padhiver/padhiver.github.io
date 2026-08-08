@@ -3,43 +3,37 @@
   "title": "Le Saint-Empire de Sangbrèque",
   "category": "geographie",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 104,
+  "date": "2026-08-08",
+  "order": 121,
   "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Un empire situé au nord-est du Vert-Ponant et dont la capitale est Oriflamme.\n\nCette théocratie, qui est d'ailleurs la plus grande de tout Valisthéa, détient le Cristal-mère de Chefdrac. Le pays est dirigé par un empereur entouré de hiérophantes, et ses habitants vouent un culte à Gwéligore, leur déesse unique. Le Saint-Empire vit dans l'opulence grâce à l'éther diffusé par Chefdrac.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
       "caption": "Généralités"
     },
     {
       "text": "Un empire situé au nord-est du Vert-Ponant et dont la capitale est Oriflamme.\n\nCette théocratie, qui est d'ailleurs la plus grande de tout Valisthéa, détient le Cristal-mère de Chefdrac. Le Saint-Empire s'est opposé une première fois au royaume de Valœd, son ennemi de l'autre côté du détroit d'Aurtha, au cours de la guerre des Deux Continents de l'an 865, mais les deux armées se sont de nouveau affrontées en 873 au talus de Belenus.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
       "caption": "La campagne de Belenus"
     },
     {
       "text": "Un empire situé au nord-est du Vert-Ponant et dont la capitale est Oriflamme.\n\nCette théocratie, qui est d'ailleurs la plus grande de tout Valisthéa, détient le Cristal-mère de Chefdrac. Les hiérophantes du Conseil des Patriarches gouvernent en théorie le pays, mais l'empereur règne en fait en monarque absolu. C'est en l'an 860 du calendrier ponantin que Sangbrèque a comploté pour attaquer l'archiduché de Rosalia avant de l'annexer quelque temps plus tard.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
       "caption": "Annexion de Rosalia"
     },
     {
       "text": "Un empire situé au nord-est du Vert-Ponant et dont la capitale est Oriflamme.\n\nCette théocratie, qui est d'ailleurs la plus grande de tout Valisthéa, détient le Cristal-mère de Chefdrac. Le pays est dirigé par un empereur entouré de hiérophantes, et ses habitants vouent un culte à Gwéligore, leur déesse unique. Selon les légendes, cette divinité était accompagnée de dragons vus comme des animaux sacrés. C'est d'ailleurs leur image qui a inspiré la création de l'élite de l'armée impériale : les chevaliers dragon.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
       "caption": "Le culte de Gwéligore"
     },
     {
       "text": "Un empire situé au nord-est du Vert-Ponant.\n\nIl fut un temps où le Saint-Empire abritait le Cristal-mère de Chefdrac, mais ce dernier fut réduit à néant en l'an 873 du calendrier ponantin par Cid et ses complices. Les Sangbréquois ont ainsi décidé de mettre à exécution un projet sur lequel ils travaillaient depuis quelque temps et d'envahir le Dominion du Cristal afin d'y transférer leur capitale. Ce coup de force fut fort mal accueilli par les différentes nations de Valisthéa, en particulier par la république de Dalméquie. Les relations entre les Dalmèques et le Saint-Empire n'avaient pas toujours été les meilleures, mais par cet acte elles se détériorèrent irréversiblement.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
       "caption": "Destruction de Chefdrac"
     },
     {
       "text": "Un empire situé au nord-est du Vert-Ponant.\n\nLes Sangbréquois ont décidé d'envahir le Dominion du Cristal en l'an 873 du calendrier ponantin et l'ont proclamé territoire divin de Sangbrèque avant de s'y installer. Ce coup de force a évidemment été fort mal accueilli par les différentes nations de Valisthéa, et les relations entre le Saint-Empire et ses voisins se sont encore détériorées lorsque l'empereur Sylvestre a abdiqué en faveur de son fils Octavien, encore enfant.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
       "caption": "Sacre d'Octavien"
     },
     {
-      "text": "Un empire situé au nord-est du Vert-Ponant.\n\nLes Sangbréquois avaient décidé d'envahir le Dominion du Cristal et s'étaient établis sur l'île en y installant un nouveau gouvernement. La révolte de Dion Lesage à la tête des Saints Dragons en 878 dévasta cependant les lieux, les privant par la même occasion de toutes institutions gouvernementales ou militaires. Le chaos n'a donc aucun mal à s'y répandre, maintenant qu'Ultima a provoqué l'Expurgation.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
+      "text": "Un empire situé au nord-est du Vert-Ponant.\n\nLes Sangbréquois avaient décidé d'envahir le Dominion du Cristal et s'étaient établis sur l'île en y installant un nouveau gouvernement. La révolte de Dion Lesage à la tête des Saints Dragons en 878 dévasta cependant les lieux, les privant par la même occasion de toutes institutions gouvernementales ou militaires. Le chaos n'a donc aucun mal à s'y répandre, maintenant qu'Ultima a provoqué l'Expurgation. ",
       "caption": "Insurrection de Dion"
     }
   ],
@@ -63,9 +57,5 @@
     "octavien-lesage",
     "dion-lesage",
     "revolte-des-saints-dragons"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

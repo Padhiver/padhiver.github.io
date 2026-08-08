@@ -3,14 +3,14 @@
   "title": "Thalan",
   "category": "geographie",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 140,
+  "date": "2026-08-08",
+  "order": 174,
   "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Une ville minière située dans la partie sud du\n\nGris-Levant. On y trouve des filons d'adamantite, un minerai à la dureté élevée, et des ressources en abondance, qui ont souvent fait l'objet de conflits avec les Orcs. Les mines ont cependant fermé du fait de l'avancée du Fléau noir ces dernières années.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
-      "caption": "Thalan"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "orcs",
     "terres-mortes",
     "gris-levant"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

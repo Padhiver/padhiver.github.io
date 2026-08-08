@@ -3,14 +3,14 @@
   "title": "Primo-Ultima",
   "category": "primordiaux",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 54,
+  "date": "2026-08-08",
+  "order": 53,
   "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "source": "base",
   "pages": [
     {
       "text": "L'une des formes d'Ultima, plus exactement celle sous laquelle il attendait Clive dans le Provenance.\n\nTel l'Ifrit noir, il s'agit d'une forme antérieure et abandonnée par Ultima, mais elle a gardé son apparence d'origine, car il l'a préservée en vue de la création de son monde idéal. Sous ces traits, il en a fait voir de toutes les couleurs à Clive, Joshua et Dion alors qu'ils s'étaient transformés en Primordiaux.",
-      "contextImage": "images/placeholders/emblem-primordiaux.svg",
-      "caption": "Primo-Ultima"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "ifrit-le-primordial-tenebreux",
     "ifrit-paracheve",
     "provenance"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

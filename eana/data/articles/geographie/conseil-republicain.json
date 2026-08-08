@@ -3,18 +3,17 @@
   "title": "Le Conseil républicain",
   "category": "geographie",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 72,
+  "date": "2026-08-08",
+  "order": 85,
   "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
   "pages": [
     {
       "text": "La plus haute autorité législative et exécutive de la république de Dalméquie.\n\nComposé de sept membres, le Conseil décide des grandes orientations politiques et vote les lois importantes. Hugo Kupka, l'Émissaire de Titan, y siège en tant que conseiller à l'Économie et dispose d'une influence disproportionnée qu'il cherche à étendre.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
       "caption": "Généralités"
     },
     {
       "text": "La plus haute autorité législative et exécutive de la république de Dalméquie.\n\nComposé de sept membres, le Conseil décide des grandes orientations politiques et vote les lois importantes. Hugo Kupka y siégeait en tant que conseiller à l'Économie et disposait d'une influence disproportionnée jusqu'à sa mort à Crocdrac. Le Conseil a désormais la tâche ardue de diriger un pays en désarroi, privé de son Émissaire et de son Cristal-mère.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
       "caption": "Chute de la Dalméquie"
     }
   ],
@@ -25,9 +24,5 @@
     "stratege-dalmeque",
     "randela",
     "destruction-de-crocdrac"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

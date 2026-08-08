@@ -3,14 +3,14 @@
   "title": "Les ahrimans",
   "category": "primordiaux",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 12,
+  "date": "2026-08-08",
+  "order": 13,
   "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Des entités magiques qui flottent dans les airs et sont dotées d'un unique œil gigantesque qui compose la majeure partie de leur anatomie.\n\nLeurs battements d'ailes leur donnent une apparence frêle, mais ils dissimulent en réalité une grande habileté pour la magie qui les rend redoutables. Ils sont en effet capables de manipuler l'espace et de se téléporter instantanément, et pour qui sonne le « Glas », il est bien souvent trop tard.",
-      "contextImage": "images/placeholders/emblem-primordiaux.svg",
-      "caption": "Les ahrimans"
+      "caption": ""
     }
   ],
   "related": [
@@ -19,9 +19,5 @@
     "bombos",
     "angra-mainyu",
     "archiduche-de-rosalia"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

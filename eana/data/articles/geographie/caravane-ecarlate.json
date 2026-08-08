@@ -3,14 +3,14 @@
   "title": "La Caravane écarlate",
   "category": "geographie",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 35,
+  "date": "2026-08-08",
+  "order": 24,
   "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Des rouliers principalement actifs sur le marché de Poklad, en république de Dalméquie.\n\nC'est Éloïse qui s'occupe des transactions, tandis que Théodore escorte les convois. Comme ils aiment à le dire, ils transportent n'importe quelles marchandises moyennant paiement. Parallèlement à ses activités officielles, la Caravane écarlate joue également un rôle de passeuse et aide les Pourvoyeurs à fuir leurs malheurs.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
-      "caption": "La Caravane écarlate"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "eloise-vesta",
     "theodore-vesta",
     "guilde-marchande-des-cretargent"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

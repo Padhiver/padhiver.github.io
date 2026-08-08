@@ -3,14 +3,14 @@
   "title": "Les lettres",
   "category": "monde",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 110,
+  "date": "2026-08-08",
+  "order": 74,
   "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Un des principaux moyens de communication à Valisthéa.\n\nContrairement aux courriers envoyés par stolas, les lettres peuvent être envoyées à de parfaits inconnus. Ceci dit, elles sont principalement échangées entre des personnes raffinées ayant reçu une certaine éducation, étant donné que les gens du peuple ne savent en général ni lire ni écrire. Certains Pourvoyeurs soustraits à leur quotidien d'esclaves se passionnent pour la correspondance grâce aux cours dispensés au Repaire.",
-      "contextImage": "images/placeholders/emblem-monde.svg",
-      "caption": "Les lettres"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "partisans-du-repaire",
     "desiree",
     "repaire-de-clive"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

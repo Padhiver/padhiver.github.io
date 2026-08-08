@@ -3,18 +3,17 @@
   "title": "Les Villes libres de Kanvěr",
   "category": "geographie",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 130,
+  "date": "2026-08-08",
+  "order": 149,
   "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Une cité-État située dans le sud-est du Vert-Ponant.\n\nC'était à l'origine une zone marchande qui prospérait grâce aux échanges avec les autres pays. Les Villes libres profitèrent des insurrections qui touchèrent la république de Dalméquie pour prendre leur indépendance en l'an 857 du calendrier ponantin. Elles sont régies par un système parlementaire géré par les marchands. Les Villes libres sont neutres, et ne disposent donc pas d'une armée. Elles n'abritent pas non plus de Cristaux-mères.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
       "caption": "Généralités"
     },
     {
       "text": "Une cité-État située dans le sud-est du Vert-Ponant, qui prit son indépendance de la république de Dalméquie en l'an 857 du calendrier ponantin.\n\nElle ne disposait pas d'une armée régulière, du fait de sa neutralité, mais des milices privées stationnées dans la ville étaient tenues de faire régner l'ordre. Elles étaient constituées de mercenaires rassemblés au Dominion par les marchands. Suite à l'Expurgation, les Villes libres ont cependant été prises d'assaut par les soldats de l'armée valœdoise transformés en éthériques, ce qui a anéanti la cité-État et ses milices. Il y eut de nombreuses victimes parmi les citoyens et les membres du parlement, si bien que la région a sombré dans la désorganisation la plus totale.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
       "caption": "Invasion valœdoise"
     }
   ],
@@ -26,9 +25,5 @@
     "chantier-naval-des-forges",
     "garde-de-kanver",
     "armee-royale-de-valoed"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

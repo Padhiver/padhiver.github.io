@@ -3,14 +3,14 @@
   "title": "La mer de Naldia",
   "category": "geographie",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 50,
+  "date": "2026-08-08",
+  "order": 52,
   "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Une vaste zone maritime qui s'étend au sud du détroit d'Aurtha, lequel partage en deux le Vert-Ponant et le Gris-Levant.\n\nDe nombreux navires marchands en font quotidiennement la traversée, principalement à destination du port de Kanvěr. De forts courants marins la traversent, mais son climat tempéré est propice à de nombreuses espèces de poissons dont se nourrissent les habitants des terres environnantes.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
-      "caption": "La mer de Naldia"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "einherjar",
     "villes-libres-de-kanver",
     "detroit-daurtha"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

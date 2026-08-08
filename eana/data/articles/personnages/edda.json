@@ -3,18 +3,17 @@
   "title": "Edda",
   "category": "personnages",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 17,
+  "date": "2026-08-08",
+  "order": 18,
   "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Une jeune femme originaire du village d'Eistla, à Valœd, qui attend un bébé.\n\nAlors que la population entière du village a disparu dans des circonstances étranges, Edda s'y retrouve seule, étant l'unique survivante.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Généralités"
     },
     {
       "text": "Une jeune femme originaire du village d'Eistla, à Valœd, qui attend un bébé.\n\nElle est la seule à ne pas avoir perdu la raison, tandis que les autres habitants se sont sentis irrémédiablement attirés vers la Tour des songes, et y ont disparu. Une chance incroyable qui semble s'expliquer par la nature de l'enfant qu'elle porte en son ventre, un Pourvoyeur. Clive la secourt et lui offre une place au sein du Repaire.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Autres informations"
     }
   ],
@@ -25,9 +24,5 @@
     "royaume-de-valoed",
     "resistance-a-lether",
     "repaire-de-clive"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

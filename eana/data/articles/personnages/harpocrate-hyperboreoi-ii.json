@@ -3,23 +3,21 @@
   "title": "Harpocrate Hyperbóreoi II",
   "category": "personnages",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 27,
+  "date": "2026-08-08",
+  "order": 30,
   "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Un chercheur en histoire et folklore qui s'est installé au Repaire.\n\nSon nom complet est Harpocrate Hyperbóreoi II mais tout le monde l'appelle « le Prof ». Après avoir quitté les continents extérieurs qui l'ont vu naître, il effectue dans sa jeunesse une longue exploration de Valisthéa. Charmé par tous ses mythes, il étudie les climats, traditions et croyances de toutes ses régions.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Généralités"
     },
     {
       "text": "Un chercheur en histoire et folklore qui s'est installé au Repaire.\n\nIl est l'un des survivants de l'attaque de Hugo Kupka. Désormais, il s'occupe des jumeaux Teto et Kuro dans la bibliothèque du nouveau Repaire tout en dispensant son savoir sur Valisthéa.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Le maître des livres"
     },
     {
       "text": "Un chercheur en histoire et folklore qui s'est installé au Repaire.\n\nIl a été jadis le précepteur du jeune prince Dion, à la cour du Saint-Empire de Sangbrèque. Retrouvant ce dernier au Repaire, il lui offre une magnifique fleur d'herbe aux dragons dans le but de le réconforter après la tragédie qu'il a connue, en espérant le voir revenir fier et victorieux de la bataille qu'il s'apprête à mener.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Sa relation avec Dion"
     }
   ],
@@ -35,9 +33,5 @@
     "mors-lancien",
     "dion-lesage",
     "herbe-aux-dragons"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

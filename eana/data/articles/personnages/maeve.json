@@ -3,14 +3,14 @@
   "title": "Maëve",
   "category": "personnages",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 66,
+  "date": "2026-08-08",
+  "order": 61,
   "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "base",
   "pages": [
     {
       "text": "La pétulante serveuse de la « Couronne immergée », la taverne du Repaire.\n\nPourvoyeuse originaire de Rosalith, elle a pu profiter d'une liberté relative jusqu'à ce que l'archiduché passe sous la férule d'Annabella. Un jour, son maître a failli la tuer à cause d'une récolte de blé déplorable. Heureusement, des Lames de pierre de passage sont parvenues à la sauver en abattant le misérable. L'incident l'a poussée à s'enfuir et à s'installer au Repaire.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
-      "caption": "Maëve"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "annexion-de-rosalia",
     "pourvoyeurs",
     "repaire-de-clive"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

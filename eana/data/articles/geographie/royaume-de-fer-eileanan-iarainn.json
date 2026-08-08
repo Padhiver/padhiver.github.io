@@ -3,28 +3,25 @@
   "title": "Le Royaume de Fer, Eileanan Iarainn",
   "category": "geographie",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 99,
+  "date": "2026-08-08",
+  "order": 116,
   "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Un royaume insulaire se trouvant à l'ouest du Vert-Ponant.\n\nSa capitale se nomme Creag Loisgte. Occupant le Cristal-mère de Souffledrac, il est en conflit avec son proche voisin, l'archiduché de Rosalia. Le royaume s'est forgé sa propre culture, refusant toute relation diplomatique avec l'étranger. Les Ferrégiens, adeptes de raids et de pillage, souvent vus comme rustres, sont surnommés péjorativement « Sang-de-rouille » par leurs ennemis.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
       "caption": "Généralités"
     },
     {
       "text": "Un royaume insulaire se trouvant à l'ouest du Vert-Ponant.\n\nSa capitale se nomme Creag Loisgte. Occupant le Cristal-mère de Souffledrac, il est en conflit avec son proche voisin, l'archiduché de Rosalia. La doctrine cristodoxe, qui vénère les Cristaux-mères tout en diabolisant la magie, est la religion d'État. Étant des utilisateurs de magie, les Pourvoyeurs et les Émissaires sont de ce fait victimes de violentes discriminations.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
       "caption": "La doctrine cristodoxe"
     },
     {
       "text": "Un royaume insulaire se trouvant à l'ouest du Vert-Ponant.\n\nSa capitale se nomme Creag Loisgte. Le grand prêtre, qui se tient au sommet de la doctrine cristodoxe, y détient les pleins pouvoirs. Le sanctuaire principal de cette religion a été construit sur le mont Leodlàdh qui abrite le Cristal-mère de Souffledrac. C'est là que sont séquestrés des esclaves de tous bords pour les besoins de leurs rituels.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
       "caption": "Le grand prêtre"
     },
     {
       "text": "Un royaume insulaire se trouvant à l'ouest du Vert-Ponant.\n\nSa capitale se nomme Creag Loisgte. Le Cristal-mère de Souffledrac qu'il occupait depuis de longues années a été détruit par Cid et les siens. Perdant à la fois l'objet de son culte et son grand prêtre, le pays entre dans une période de chaos, sans repères.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
       "caption": "Destruction de Souffledrac"
     }
   ],
@@ -38,9 +35,5 @@
     "imreann",
     "marleigh",
     "destruction-de-souffledrac"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

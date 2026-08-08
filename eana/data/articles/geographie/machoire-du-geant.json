@@ -3,14 +3,14 @@
   "title": "La Mâchoire du Géant",
   "category": "geographie",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 48,
+  "date": "2026-08-08",
+  "order": 50,
   "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Une région montagneuse dans le sud-ouest de la république de Dalméquie.\n\nElle offre une vue dégagée du Cristal-mère de Crocdrac avec son grand espace désertique.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
-      "caption": "La Mâchoire du Géant"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "desert-de-velkyroj",
     "relais-de-dalimil",
     "republique-de-dalmequie"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

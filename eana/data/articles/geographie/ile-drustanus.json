@@ -3,14 +3,14 @@
   "title": "L'île Drustanus",
   "category": "geographie",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 26,
+  "date": "2026-08-08",
+  "order": 155,
   "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Une île isolée surplombant les vagues déferlantes de la mer Frémissante.\n\nLe Cristal-mère de Souffledrac, objet de culte du Royaume de Fer, se dresse sur cette terre volcanique, sur le mont Leodlàdh. Faisant également office de porte d'entrée au continent, elle était autrefois une terre sainte pour les Rosaliens avant que le Royaume de Fer ne l'annexe.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
-      "caption": "L'île Drustanus"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "royaume-de-fer-eileanan-iarainn",
     "souffledrac",
     "archiduche-de-rosalia"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

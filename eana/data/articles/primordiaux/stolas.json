@@ -3,14 +3,14 @@
   "title": "Les stolas",
   "category": "primordiaux",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 47,
+  "date": "2026-08-08",
+  "order": 41,
   "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Des oiseaux mystiques qui ont la capacité de transmettre les pensées d'une personne à une autre.\n\nPour cela, il faut d'abord concentrer ces idées dans de l'éther qui sera temporairement conservé dans la pierre sur le front de l'animal. Cet éther sera transmis à la personne recevant le message. Les stolas sont principalement utilisés par les souverains et les organismes d'état. Ils sont idéaux pour communiquer des informations urgentes en toute discrétion.",
-      "contextImage": "images/placeholders/emblem-primordiaux.svg",
-      "caption": "Les stolas"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "partisans-du-repaire",
     "lettres",
     "chocobos"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

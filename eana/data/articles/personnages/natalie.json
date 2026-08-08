@@ -3,14 +3,14 @@
   "title": "Natálie",
   "category": "personnages",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 73,
+  "date": "2026-08-08",
+  "order": 69,
   "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Une membre du conseil de la guilde des marchands de Dalimil.\n\nElle est populaire auprès des habitants aisés du relais, tels que les riches marchands ou les gérants des thermes. Elle pense d'abord résoudre le problème des bandits en leur fournissant ce qu'ils veulent, mais elle opte finalement pour la création d'une brigade de soutien chargée d'aider à défendre le relais en accumulant des vivres et de l'équipement pour veiller à la subsistance de ses habitants.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
-      "caption": "Natálie"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "brigade-de-soutien",
     "konrad",
     "bandits"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

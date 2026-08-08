@@ -3,23 +3,21 @@
   "title": "Les éthériques",
   "category": "monde",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 105,
+  "date": "2026-08-08",
+  "order": 68,
   "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "base",
   "pages": [
     {
       "text": "La forme altérée de tout être vivant trop longtemps exposé à une certaine concentration d'éther.\n\nIls perdent alors leur libre arbitre, et leur survie comme leur agressivité ne dépendent plus que de leur instinct. Il faut noter que jamais ces créatures ne retrouvent leur état normal. Toutes deviennent plus agressives, et l'on voit des effets jusque sur les végétaux, qui grandissent considérablement et prennent une apparence inquiétante. Les Pourvoyeurs et les Émissaires sont moins susceptibles de se changer en éthériques grâce à leur immunité naturelle à l'éther.",
-      "contextImage": "images/placeholders/emblem-monde.svg",
       "caption": "Généralités"
     },
     {
       "text": "La forme altérée de tout être vivant trop longtemps exposé à une certaine concentration d'éther.\n\nIls perdent alors leur libre arbitre, ne répondent plus qu'à leur instinct, et deviennent particulièrement agressifs. Il faut noter que jamais ces créatures ne retrouvent leur état normal, et que les Pourvoyeurs et les Émissaires sont moins susceptibles de se changer en éthériques grâce à leur immunité naturelle à l'éther. Ces créatures ayant perdu la faculté de raisonner par elles-mêmes sont considérées comme de loyaux serviteurs de Dieu, purs et divins, par Sleipnir.",
-      "contextImage": "images/placeholders/emblem-monde.svg",
       "caption": "Soldats divins"
     },
     {
       "text": "La forme altérée de tout être vivant trop longtemps exposé à une certaine concentration d'éther.\n\nIls perdent alors leur libre arbitre, ne répondent plus qu'à leur instinct, et deviennent particulièrement agressifs. Le but de l'Expurgation d'Ultima est de transformer tous les êtres humains en éthériques, afin qu'ils ne vivent plus que pour le servir et qu'ils retrouvent ce qu'il estime être leur forme véritable.",
-      "contextImage": "images/placeholders/emblem-monde.svg",
       "caption": "Révélation"
     }
   ],
@@ -31,9 +29,5 @@
     "expurgation",
     "lien-spirituel",
     "libre-arbitre"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

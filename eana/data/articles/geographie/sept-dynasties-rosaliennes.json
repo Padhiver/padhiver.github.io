@@ -3,14 +3,14 @@
   "title": "Les Sept dynasties rosaliennes",
   "category": "geographie",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 127,
+  "date": "2026-08-08",
+  "order": 146,
   "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Sept nobles familles qui ont joué un rôle important dans l'histoire de l'Archiduché.\n\nElles trouvent chacune leur origine dans une des petites nations rivales qui coexistaient avant l'unification de Rosalia, et ont encore beaucoup d'influence. La famille Rosfield est l'une d'entre elles. Après la mort de l'Archiduc Elwin et la disparition de ses deux fils, Byron Rosfield en devint le représentant à Rosalia. Le pouvoir politique des Sept dynasties, autrefois très important, est quasiment anéanti depuis l'annexion de Rosalia à Sangbrèque.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
-      "caption": "Les Sept dynasties rosaliennes"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "port-yseut",
     "byron-rosfield",
     "maison-rosfield"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

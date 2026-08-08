@@ -3,23 +3,21 @@
   "title": "Mors l'ancien",
   "category": "personnages",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 72,
+  "date": "2026-08-08",
+  "order": 68,
   "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Un historien célèbre ayant étudié l'ancienne Valisthéa.\n\nIl a couché par écrit un nombre particulièrement important d'informations et connaissances sur les mythes et légendes valisthéens. Il s'est effacé du devant de la scène à un âge avancé, alors qu'il était visé par les critiques de ses pairs.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Généralités"
     },
     {
-      "text": "Un historien célèbre que Harpocrate considère comme son maître.\n\nIl a mené des recherches au sujet d'Ultima et du Cercle de Malius, mais ses pairs estimaient que ses théories étaient absurdes. Parmi ses importantes découvertes et observations, tout ce qui n'a pas été consigné dans ses _Écrits_ est malheureusement tombé dans l'oubli.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "text": "Un historien célèbre que Harpocrate considère comme son maître.\n\nIl a mené des recherches au sujet d'Ultima et du Cercle de Malius, mais ses pairs estimaient que ses théories étaient absurdes. Parmi ses importantes découvertes et observations, tout ce qui n'a pas été consigné dans ses <i>Écrits</i> est malheureusement tombé dans l'oubli.",
       "caption": "Écrits de Mors"
     },
     {
       "text": "Un historien célèbre.\n\nIl s'est installé dans un petit village des continents extérieurs alors qu'il avait déjà un certain âge, et il y a rencontré le jeune Harpocrate. Tous deux nouèrent une relation de maître et disciple, voire de grand-père et petit-fils. Puis un jour, il laissa un message enjoignant le jeune homme à approfondir sans cesse ses connaissances et disparut avec ses écrits.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Lien avec Harpocrate"
     }
   ],
@@ -32,9 +30,5 @@
     "cercle-de-malius",
     "ultima",
     "continents-exterieurs"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

@@ -3,33 +3,29 @@
   "title": "Cid",
   "category": "personnages",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 8,
+  "date": "2026-08-08",
+  "order": 9,
   "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Un homme mystérieux rencontré dans le défilé de Nýsa.\n\nIl manie de puissants sorts de foudre. Il a secouru Clive et Jill alors qu'ils étaient en mauvaise posture face aux Ferrégiens.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Généralités"
     },
     {
       "text": "L'Émissaire de Ramuh et le Chef du Repaire, un lieu servant de refuge aux Pourvoyeurs.\n\nDétenteur de pouvoirs exceptionnels, Cid a vécu une existence nonchalante sans s'attacher de façon permanente à un pays. Il a ainsi préféré suivre ses convictions et mène actuellement des actions pour protéger et défendre les Pourvoyeurs et les Émissaires.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Ramuh"
     },
     {
       "text": "L'Émissaire de Ramuh et le Chef du Repaire, un lieu servant de refuge aux Pourvoyeurs.\n\nDe son vrai nom Cidolfus Télamon, il a fait vœu de créer un lieu où chacun pourrait mourir en homme libre, et œuvre depuis à la défense et à la protection des Pourvoyeurs par le biais de diverses actions et opérations. Ancien commandant de la garde valœdoise, il semble connaître Benedikta Harman de longue date.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Lien avec Benedikta"
     },
     {
       "text": "L'Émissaire de Ramuh et le Chef du Repaire, un refuge pour les Pourvoyeurs.\n\nCet homme à l'esprit indépendant a fait vœu de créer un lieu où chacun pourrait mourir en homme libre, et œuvre depuis à la défense et à la protection des Pourvoyeurs par le biais de diverses actions et opérations. Ayant compris que la cause du Fléau noir est la présence des Cristaux-mères bénéfiques, il décide de monter un plan visant à les détruire.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Destruction des Cristaux-mères"
     },
     {
       "text": "L'Émissaire de Ramuh et le Chef du Repaire, un refuge pour les Pourvoyeurs.\n\nAprès avoir détruit le Cristal-mère de Chefdrac dans le but de mettre fin à l'avancée du Fléau noir, il fut gravement blessé par une étrange entité apparue dans le sanctuaire du cristal. Sentant sa fin proche, il confia ses pouvoirs de Ramuh à Clive avant d'expirer. Ses actions le firent connaître sous le surnom de « Cid le Renégat » à travers Valisthéa.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Cid le Renégat"
     }
   ],
@@ -46,9 +42,5 @@
     "cristaux-meres",
     "destruction-de-chefdrac",
     "cid-le-renegat"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

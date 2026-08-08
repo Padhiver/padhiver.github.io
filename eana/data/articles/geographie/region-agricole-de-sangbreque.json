@@ -3,14 +3,14 @@
   "title": "La région agricole de Sangbrèque",
   "category": "geographie",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 57,
+  "date": "2026-08-08",
+  "order": 60,
   "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Une région située dans l'est du Saint-Empire de Sangbrèque, qui borde le détroit d'Aurtha.\n\nJadis terre fertile où s'étendaient à perte de vue des champs cultivés, elle était considérée comme le grenier de l'Empire. Mais depuis quelques années, la progression du Fléau noir sur le territoire sangbréquois a fortement réduit sa surface arable et poussé un grand nombre de ses habitants sur les chemins de l'exil. Cette situation locale a contribué à l'instabilité qui a touché la capitale impériale.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
-      "caption": "La région agricole de Sangbrèque"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "detroit-daurtha",
     "oriflamme",
     "saint-empire-de-sangbreque"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

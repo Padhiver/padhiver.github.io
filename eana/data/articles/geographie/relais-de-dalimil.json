@@ -3,18 +3,17 @@
   "title": "Le relais de Dalimil",
   "category": "geographie",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 96,
+  "date": "2026-08-08",
+  "order": 113,
   "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Un village situé dans l'ouest de la république de Dalméquie.\n\nVéritable oasis au cœur du désert de Velkýroj, la bourgade abrite entre autres des étals proposant des marchandises variées, des endroits où se restaurer, ou encore des maisons closes. Étant proche de Crocdrac, l'endroit est également réputé pour ses thermes.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
       "caption": "Généralités"
     },
     {
       "text": "Un village situé à l'ouest de la république de Dalméquie.\n\nLes visiteurs s'y faisaient rares après la chute de Crocdrac, à l'inverse des bandits qui pullulaient. Cependant, grâce à la coopération de Clive et Lubor, les villageois ont réussi à créer une milice d'autodéfense et une brigade de soutien afin de se débarrasser de ces brigands devenus éthériques. Maintenant chef du village, Lubor espère bien que la population se dirige vers un avenir radieux.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
       "caption": "Dalimil sous la houlette de Lubor"
     }
   ],
@@ -25,9 +24,5 @@
     "desert-de-velkyroj",
     "milice-dautodefense",
     "brigade-de-soutien"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

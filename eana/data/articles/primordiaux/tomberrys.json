@@ -1,0 +1,27 @@
+{
+  "id": "tomberrys",
+  "title": "Les Tomberrys",
+  "category": "primordiaux",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 44,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "source": "rising-tide",
+  "pages": [
+    {
+      "text": "Une tribu barbare vivant à Mysidia.\n\nIls portent toujours à la main un couperet affilé et une lanterne et surveillent leur territoire en groupes. Ils sont parmi les hommes-bêtes les plus intelligents et n'oublient jamais le tort qu'on leur cause. Toute personne ayant tué un des leurs subira la rancœur des Tomberrys jusqu'au jour de sa mort.",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Une tribu barbare vivant à Mysidia.\n\nCes hommes-bêtes passent leur temps à errer en groupe au sein de leur territoire, un couperet affilé dans une main et une étrange lanterne dans l'autre. Les Tomberrys sont entourés de mystère. On sait par exemple qu'il suffit de leur présenter en offrande un objet imprégné de rancœur pour qu'ils se nourrissent de ce ressentiment et jettent une malédiction sur la personne visée. Il est à noter toutefois que si la cible a d'ores et déjà quitté le monde des vivants, le sort se retourne alors contre son instigateur.",
+      "caption": "Rancune et malédiction"
+    }
+  ],
+  "related": [
+    "hommes-betes",
+    "cite-suspendue",
+    "futaie-des-aieux",
+    "mysidia",
+    "maitre-de-ceremonie"
+  ]
+}

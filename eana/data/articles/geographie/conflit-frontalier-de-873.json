@@ -3,14 +3,14 @@
   "title": "Le conflit frontalier de 873",
   "category": "geographie",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 70,
+  "date": "2026-08-08",
+  "order": 83,
   "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Un litige frontalier opposant le royaume de Valœd au Saint-Empire de Sangbrèque en 873.\n\nIl faut savoir que lors de la guerre des Deux Continents, l'Empire avait retiré le contrôle du détroit d'Aurtha à Valœd. Cette fois-ci, les troupes du Royaume reprennent et franchissent le détroit avant de faire face aux forces impériales au talus de Belenus. Après un affrontement direct entre Bahamut et Odin, Primordiaux respectifs de Sangbrèque et de Valœd, le Royaume finit en position dominante et l'Empire subit de lourdes pertes.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
-      "caption": "Le conflit frontalier de 873"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "royaume-de-valoed",
     "guerre-des-deux-continents",
     "talus-de-belenus"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

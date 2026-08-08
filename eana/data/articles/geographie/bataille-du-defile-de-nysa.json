@@ -3,14 +3,14 @@
   "title": "La bataille du défilé de Nýsa",
   "category": "geographie",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 33,
+  "date": "2026-08-08",
+  "order": 22,
   "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Une bataille ayant eu lieu en 873 du calendrier ponantin, qui opposa la république de Dalméquie au Royaume de Fer.\n\nAprès des années d'affrontements, la République voulait en découdre avec son ennemi ferrégien. Elle demanda à son allié, le royaume de Valœd, de l'aide, mais les négociations se soldèrent par un refus. Lors de la bataille, les Dalmèques envoyèrent finalement leur Primordial Titan contre les Ferrégiens, qui répliquèrent en lui opposant Shiva. Le duel au sommet provoqua d'énormes pertes au sein des deux armées.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
-      "caption": "La bataille du défilé de Nýsa"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "republique-de-dalmequie",
     "pourparlers-de-zirnitra",
     "defile-de-nysa"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

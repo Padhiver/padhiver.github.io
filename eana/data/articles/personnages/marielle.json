@@ -3,14 +3,14 @@
   "title": "Marielle",
   "category": "personnages",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 67,
+  "date": "2026-08-08",
+  "order": 62,
   "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Une jeune scientifique qui participait aux recherches botaniques du Repaire.\n\nElle fuit de justesse pendant l'attaque de Hugo Kupka et réussit à prendre avec elle la pousse d'arbre sur laquelle elle travaillait. Grâce aux efforts des chercheurs du Jardinet, une nouvelle variété de pomme appelée « pomme de Marielle » verra le jour quelque temps plus tard. Elle succombe malheureusement à ses blessures après l'incident.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
-      "caption": "Marielle"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "massacre-du-repaire",
     "nigel",
     "repaire-de-cid"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

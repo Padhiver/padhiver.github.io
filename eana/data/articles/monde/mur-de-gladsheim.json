@@ -1,20 +1,19 @@
 {
   "id": "mur-de-gladsheim",
-  "title": "Le Mur de Gladsheim",
+  "title": "Le Mur de Gladsheim ",
   "category": "monde",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 78,
+  "date": "2026-08-08",
+  "order": 40,
   "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Une vaste barrière magique créée par Odin.\n\nElle ne se contente pas de repousser les attaques extérieures, mais peut également désintégrer tout ce qui la touche. Elle bloque l'accès à la capitale Steinnhyrr.",
-      "contextImage": "images/placeholders/emblem-monde.svg",
       "caption": "Généralités"
     },
     {
       "text": "Une vaste barrière magique créée par Odin.\n\nElle ne se contentait pas de repousser les attaques extérieures, mais pouvait également désintégrer tout ce qui la touche. Elle bloquait jadis l'accès à la capitale Steinnhyrr, mais a disparu avec la mort de Barnabas.",
-      "contextImage": "images/placeholders/emblem-monde.svg",
       "caption": "Disparition"
     }
   ],
@@ -23,9 +22,5 @@
     "roi-de-valoed",
     "odin",
     "steinnhyrr"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

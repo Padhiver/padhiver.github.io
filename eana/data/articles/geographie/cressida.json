@@ -3,14 +3,14 @@
   "title": "Cressida",
   "category": "geographie",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 5,
+  "date": "2026-08-08",
+  "order": 8,
   "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Un village abandonné proche de l'Auberge de Martha, au centre de la province impériale de Rosalia.\n\nSuite à l'annexion de Rosalia et l'avancée du Fléau noir, les résidents ont dû le quitter pour fuir la pauvreté, et certains se sont installés près du hameau de l'auberge. Les ruines du village sont désormais occupées par des monstres et des brigands.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
-      "caption": "Cressida"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "bernard",
     "monstres",
     "archiduche-de-rosalia"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

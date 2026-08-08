@@ -3,14 +3,14 @@
   "title": "La milice d'autodéfense",
   "category": "geographie",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 52,
+  "date": "2026-08-08",
+  "order": 54,
   "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Une organisation basée à Dalimil, dirigée par Konrád.\n\nSes membres, des gens costauds et de constitution solide, sont d'anciens mineurs qui travaillaient à Crocdrac. Cette milice a entre autres pour rôle d'améliorer les infrastructures défensives de Dalimil.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
-      "caption": "La milice d'autodéfense"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "konrad",
     "brigade-de-soutien",
     "guilde-des-marchands-de-letoile-du-matin"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

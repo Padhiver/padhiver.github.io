@@ -1,0 +1,28 @@
+{
+  "id": "gardien-du-temps",
+  "title": "Le gardien du temps",
+  "category": "primordiaux",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 9,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "source": "rising-tide",
+  "pages": [
+    {
+      "text": "Un chevalier à la carrure imposante rencontré dans les profondeurs de la Cité suspendue.\n\nCe guerrier était vêtu d'une armure usée par le temps et combattait en maniant une multitude d'armes créées grâce à sa magie de glace. Il était capable d'arrêter le temps pendant un court instant tout en se déplaçant librement pour attaquer, un pouvoir qu'il a mis à profit contre Clive et ses compagnons lorsqu'ils se sont approchés de la source du sort Gel.",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Un chevalier à la carrure imposante rencontré dans les profondeurs de la Cité suspendue.\n\nCe guerrier maîtrisait la magie de glace à l'instar de Shiva, et était même capable d'arrêter le temps. Son corps entièrement composé d'éther était profondément imprégné de sa volonté de protéger Ysay, la sorcière du Nord, faisant de lui un véritable chevalier servant. Il a protégé jusqu'au bout la source du sort Gel, mais a été vaincu par Clive et ses compagnons qui ont dispersé son éther aux quatre vents, mettant ainsi fin à sa longue veille.",
+      "caption": "Un chevalier protecteur"
+    }
+  ],
+  "related": [
+    "gel-le-sort-darret-du-temps",
+    "source-du-sort-gel",
+    "magie",
+    "cite-suspendue",
+    "sorciere-du-nord",
+    "ether"
+  ]
+}

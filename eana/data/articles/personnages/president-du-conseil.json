@@ -3,18 +3,17 @@
   "title": "Le Président du conseil",
   "category": "personnages",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 53,
+  "date": "2026-08-08",
+  "order": 52,
   "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "base",
   "pages": [
     {
       "text": "L'homme à la tête du Conseil républicain de Dalméquie.\n\nC'est le plus âgé et le plus expérimenté de tous les membres élus du Conseil, mais il peine à exercer son autorité face à l'Émissaire de Titan, Hugo Kupka.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Généralités"
     },
     {
       "text": "L'homme à la tête du Conseil républicain de Dalméquie.\n\nParmi tous les membres élus du Conseil, c'est le président dont la parole a le plus de poids. C'est pourquoi sa position est convoitée et faisait l'objet d'intrigues incessantes au sein du Conseil. Le président actuel est porté disparu depuis la chute de la République.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Rôle à Randělá"
     }
   ],
@@ -24,9 +23,5 @@
     "stratege-dalmeque",
     "republique-de-dalmequie",
     "randela"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

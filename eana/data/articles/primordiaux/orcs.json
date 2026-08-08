@@ -3,23 +3,21 @@
   "title": "Les Orcs",
   "category": "primordiaux",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 40,
+  "date": "2026-08-08",
+  "order": 35,
   "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Des hommes-bêtes vivant au Gris-Levant.\n\nIl s'agit probablement de l'espèce la plus belliqueuse après les humains, et leur force combinée peut rivaliser avec celle d'une nation. Ils se disputent d'ailleurs depuis longtemps le Gris-Levant avec Valœd, à qui ils sont parvenus à arracher la partie orientale du continent. Leur nombre diminuant de jour en jour face à l'avancée du Fléau noir, ils se battent aujourd'hui pour leur survie.",
-      "contextImage": "images/placeholders/emblem-primordiaux.svg",
       "caption": "Généralités"
     },
     {
       "text": "Des hommes-bêtes vivant au Gris-Levant.\n\nIl s'agit probablement de l'espèce la plus belliqueuse après les humains, et leur force combinée peut rivaliser avec celle d'une nation. D'après tous les écrits, les Orcs ne disposent pas de la technologie nécessaire à la traversée des mers et n'ont jamais été aperçus au Vert-Ponant. Toutefois, tout cela a récemment été remis en question suite à leur apparition aux côtés de Valœdois à Crocrac en Dalméquie.",
-      "contextImage": "images/placeholders/emblem-primordiaux.svg",
       "caption": "À Crocdrac"
     },
     {
       "text": "Des hommes-bêtes vivant au Gris-Levant.\n\nIl s'agit probablement de l'espèce la plus belliqueuse après les humains, et leur force combinée peut rivaliser avec celle d'une nation. Barnabas, le roi de Valœd, les avait récemment asservis et leur avait ordonné d'agresser les autres pays pour semer le chaos. À sa mort, l'allégeance des Orcs s'est transmise à Ultima.",
-      "contextImage": "images/placeholders/emblem-primordiaux.svg",
       "caption": "Après la mort de Barnabas"
     }
   ],
@@ -30,9 +28,5 @@
     "royaume-de-valoed",
     "crocdrac",
     "ultima"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

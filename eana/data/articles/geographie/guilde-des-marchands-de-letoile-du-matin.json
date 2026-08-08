@@ -3,14 +3,14 @@
   "title": "La guilde des marchands de l'Étoile du matin",
   "category": "geographie",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 46,
+  "date": "2026-08-08",
+  "order": 47,
   "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Une guilde de commerçants censée se trouver à Randělá imaginée par Lubor.\n\nIl a fait passer Clive pour un certain « Baron Soucolline » afin de convaincre Natálie. De son côté, Viktor a fait jouer à Jill le rôle de « Jeanne, la chef des Javelots d'argent, la guilde de mercenaires » pour faire la même chose avec Konrád. Aujourd'hui encore, Natálie n'a pas découvert la supercherie.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
-      "caption": "La guilde des marchands de l'Étoile du matin"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "natalie",
     "konrad",
     "randela"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

@@ -3,14 +3,14 @@
   "title": "Le château de Dažbog",
   "category": "geographie",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 68,
+  "date": "2026-08-08",
+  "order": 81,
   "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Un château construit à l'intérieur du Cristal-mère de Crocdrac, au sud-ouest de la république de Dalméquie.\n\nÉgalement quartier général de Hugo Kupka, l'Émissaire de Titan, la citadelle renferme une décoration intérieure composée d'objets au luxe flamboyant.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
-      "caption": "Le château de Dažbog"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "titan",
     "republique-de-dalmequie",
     "crocdrac"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

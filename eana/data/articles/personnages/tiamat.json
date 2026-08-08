@@ -3,18 +3,17 @@
   "title": "Tiamat",
   "category": "personnages",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 90,
+  "date": "2026-08-08",
+  "order": 92,
   "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Un Pourvoyeur de l'armée impériale de Sangbrèque.\n\nIl est le capitaine de l'unité de Pourvoyeurs envoyée en secret assassiner l'Émissaire de Shiva au défilé de Nýsa, là où la république de Dalméquie affronte le Royaume de Fer. Tiamat est un nom d'emprunt utilisé lors des missions et sa véritable identité est inconnue, mais on raconte qu'il serait un enfant bâtard issu d'une famille noble.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Généralités"
     },
     {
       "text": "Un Pourvoyeur de l'armée impériale de Sangbrèque.\n\nIl était le capitaine de l'unité de Pourvoyeurs envoyée en secret assassiner l'Émissaire de Shiva au défilé de Nýsa, là où la république de Dalméquie devait affronter le Royaume de Fer. Au cours de la mission, un de ses subalternes, Wyverne, alias Clive Rosfield, se rebelle contre lui et finit par le tuer.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Épilogue"
     }
   ],
@@ -25,9 +24,5 @@
     "eibis",
     "bataille-du-defile-de-nysa",
     "shiva"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

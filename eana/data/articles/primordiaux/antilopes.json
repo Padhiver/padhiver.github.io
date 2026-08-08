@@ -3,14 +3,14 @@
   "title": "Les antilopes",
   "category": "primordiaux",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 13,
+  "date": "2026-08-08",
+  "order": 14,
   "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Des créatures herbivores qui possèdent un corps souple et de longues cornes.\n\nElles peuvent facilement bondir grâce à leurs pattes fines et attaquer avec leurs cornes ou leurs pattes arrière. Nombreux sont ceux qui se risquent à les chasser pour leur peau tendre et agréable au toucher au succès notable. On en trouve dans les différentes régions du Vert-Ponant.",
-      "contextImage": "images/placeholders/emblem-primordiaux.svg",
-      "caption": "Les antilopes"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "talgor",
     "rhinofuros",
     "vert-ponant"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

@@ -3,18 +3,17 @@
   "title": "Le Provenance",
   "category": "geographie",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 93,
+  "date": "2026-08-08",
+  "order": 110,
   "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Un vestige qui dormait dans les terres du Dominion du Cristal.\n\nUltima l'a activé lorsque l'étape finale de son plan s'est mise en marche. Le Provenance a alors déchiré la terre et s'est élevé dans les cieux. L'objet est comme recouvert d'une croûte noire, et a globalement la forme d'un Cristal-mère.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
       "caption": "Généralités"
     },
     {
       "text": "Un vestige qui dormait dans les terres du Dominion du Cristal.\n\nIl s'agit en fait de l'ancien vaisseau mère des Ultimiens, qui leur a d'ailleurs servi à voyager jusqu'à Valisthéa. Il est resté en sommeil, le temps que le plan qu'Ultima réservait au monde atteigne sa phase finale.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
       "caption": "Révélation"
     }
   ],
@@ -26,9 +25,5 @@
     "ultimalius",
     "civilisation-ultimienne",
     "creation-dun-nouveau-monde"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

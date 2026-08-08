@@ -3,18 +3,17 @@
   "title": "Gel, le sort d'arrêt du temps",
   "category": "monde",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 10,
+  "date": "2026-08-08",
+  "order": 2,
   "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "rising-tide",
   "pages": [
     {
       "text": "Un puissant sort d'arrêt du temps mis au point par la sorcière du Nord.\n\nCe sort a été élaboré dans le but d'empêcher la destruction d'Œildrac, mais il n'a finalement pas pu sauver le Cristal-mère. La femme l'a ensuite enseigné au peuple de l'Eau, qui a tenté de s'en servir plus tard pour créer un Cristal-mère artificiel. Ce plan a toutefois lui aussi échoué en déclenchant la colère de Léviathan. Le sort a finalement été utilisé in extremis pour juguler la menace en figeant dans le temps l'Émissaire du Primordial de l'eau, Waleas, ainsi que la Déferlante de Nepto qui menaçait de ravager Mysidia.",
-      "contextImage": "images/placeholders/emblem-monde.svg",
       "caption": "Généralités"
     },
     {
       "text": "Un puissant sort d'arrêt du temps mis au point par la sorcière du Nord.\n\nÉtant une ancienne Émissaire de Shiva, la sorcière avait fait appel à son pouvoir de tout geler pour élaborer ce sort. Il fut lancé à partir d'une source se trouvant au cœur de la Cité suspendue. En ajustant minutieusement l'éther, il a été possible de le défaire partiellement pour libérer le jeune Waleas. Le sort Gel est cependant resté en place sur la Déferlante de Nepto pour continuer de figer le raz-de-marée.",
-      "contextImage": "images/placeholders/emblem-monde.svg",
       "caption": "La libération de Waleas"
     }
   ],
@@ -25,9 +24,5 @@
     "oeildrac",
     "emissaire-de-leau",
     "deferlante-de-nepto"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

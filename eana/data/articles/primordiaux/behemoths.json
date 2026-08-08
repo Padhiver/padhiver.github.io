@@ -3,14 +3,14 @@
   "title": "Les béhémoths",
   "category": "primordiaux",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 15,
+  "date": "2026-08-08",
+  "order": 16,
   "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Des bêtes colossales dotées d'une incroyable force destructrice.\n\nOn dit des malheureux qui croisent leur route qu'ils sont paralysés par la peur de mourir, et de ceux qui cherchent à l'affronter qu'ils finiront dans son estomac. Les béhémoths ne vivent qu'au Gris-Levant. Il faut noter que le royaume de Valœd est parvenu à exploiter la puissance destructrice de ces terribles bêtes sur le champ de bataille.",
-      "contextImage": "images/placeholders/emblem-primordiaux.svg",
-      "caption": "Les béhémoths"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "armee-royale-de-valoed",
     "steinnhyrr",
     "gris-levant"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

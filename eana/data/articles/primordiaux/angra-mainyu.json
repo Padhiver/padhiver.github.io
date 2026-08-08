@@ -1,0 +1,22 @@
+{
+  "id": "angra-mainyu",
+  "title": "Angra Mainyu",
+  "category": "primordiaux",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 1,
+  "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "source": "echoes-of-the-fallen",
+  "pages": [
+    {
+      "text": "Un être magique ayant servi de sujet d'expérience aux Célestes dans la Tour des Sages.\n\nIl est né d'un ahriman, monstre qui possède une forte affinité pour la magie. La voix de la tour l'a envoyé se battre contre Clive et ses compagnons afin de récolter plus de données sur ces intrus. Les cristaux incrustés dans son crâne semblent indiquer que les Célestes tentaient de créer des armes également à partir d'êtres magiques.",
+      "caption": "Généralités"
+    }
+  ],
+  "related": [
+    "entites-magiques",
+    "ahrimans",
+    "specimens-de-la-tour-des-sages",
+    "armes-magitech"
+  ]
+}

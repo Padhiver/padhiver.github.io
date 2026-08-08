@@ -1,0 +1,22 @@
+{
+  "id": "pourparlers-de-zirnitra",
+  "title": "Les pourparlers de Zirnitra",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 145,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
+  "pages": [
+    {
+      "text": "Les négociations qui ont eu lieu entre la république de Dalméquie et le royaume de Valœd à la citadelle de Zirnitra en l'an 873 du calendrier ponantin.\n\nAlors que les affrontements entre le Royaume de Fer et la république de Dalméquie se poursuivaient même au-delà de la guerre des Deux Continents, les Dalmèques entreprirent de régler leurs comptes une fois pour toutes avec leur ennemi. Ils demandèrent de l'aide à leurs alliés valœdois, mais les pourparlers qui se tinrent à la citadelle n'aboutirent pas, et les Dalmèques furent contraints de s'en remettre à Hugo Kupka et à la force de Titan.",
+      "caption": ""
+    }
+  ],
+  "related": [
+    "citadelle-de-zirnitra",
+    "republique-de-dalmequie",
+    "royaume-de-valoed",
+    "bataille-du-defile-de-nysa"
+  ]
+}

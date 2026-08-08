@@ -3,14 +3,14 @@
   "title": "Kašlok",
   "category": "geographie",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 13,
+  "date": "2026-08-08",
+  "order": 19,
   "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Un village abandonné dans le nord-est de la république de Dalméquie.\n\nIl est situé en aval de la rivière qui passe au relais de Dalimil, et c'était de ce lieu que partaient autrefois des convois de cristaux et d'autres marchandises. L'activité s'est réduite à mesure que d'autres grandes routes ont été construites, jusqu'à ce qu'il soit complètement déserté. Il est à l'heure actuelle en cours de rénovation, car Éloïse et les membres de la Caravane écarlate ont pour projet d'y loger des Pourvoyeurs.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
-      "caption": "Kašlok"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "relais-de-dalimil",
     "eloise-vesta",
     "caravane-ecarlate"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

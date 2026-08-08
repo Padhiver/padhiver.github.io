@@ -3,14 +3,14 @@
   "title": "La Grande Sylve",
   "category": "geographie",
   "public": "ON",
-  "date": "2026-08-04",
+  "date": "2026-08-08",
   "order": 44,
   "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Une immense forêt qui s'étend dans le sud-ouest du Saint-Empire de Sangbrèque.\n\nElle est habitée par une faune variée qui comprend même des monstres. De plus, son équilibre zoologique a changé ces dernières années sous l'influence du Fléau noir. De grands monstres, chassés de leur habitat naturel, ont migré dans la région, empêchant les habitants de s'approcher des lieux.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
-      "caption": "La Grande Sylve"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "monstres",
     "archeosaures",
     "saint-empire-de-sangbreque"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

@@ -3,18 +3,17 @@
   "title": "L'incarnation",
   "category": "monde",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 22,
+  "date": "2026-08-08",
+  "order": 98,
   "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Le fait qu'un Émissaire prête son corps à un Primordial.\n\nL'Émissaire peut le faire de manière volontaire et garder ses moyens, mais il arrive également qu'un choc psychologique permette au Primordial de prendre le contrôle de son hôte et laisse éclater sa rage. Cette puissance colossale est également utilisée militairement et sur les champs de bataille.",
-      "contextImage": "images/placeholders/emblem-monde.svg",
       "caption": "Généralités"
     },
     {
       "text": "Le fait qu'un Émissaire prête son corps à un Primordial.\n\nL'Émissaire peut le faire de manière volontaire et garder ses moyens, mais il arrive également qu'un choc psychologique permette au Primordial de prendre le contrôle de son hôte et laisse éclater sa rage. Les incarnations sont possibles même au beau milieu des Terres mortes, car elles sont alimentées par l'éther à l'intérieur du corps de l'Émissaire. En revanche, le fait qu'elle consomme énormément de cette ressource fait partie des causes de progression de la pétrification chez les Émissaires.",
-      "contextImage": "images/placeholders/emblem-monde.svg",
       "caption": "Primordiaux et risques encourus"
     }
   ],
@@ -25,9 +24,5 @@
     "bataille-du-defile-de-nysa",
     "ether",
     "petrification"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

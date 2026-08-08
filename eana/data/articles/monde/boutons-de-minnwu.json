@@ -3,13 +3,13 @@
   "title": "Les boutons de Minnwu",
   "category": "monde",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 97,
+  "date": "2026-08-08",
+  "order": 55,
   "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "rising-tide",
   "pages": [
     {
       "text": "Des fleurs bleues poussant au village de la tribu de l'Eau.\n\nMalgré une apparence délicate et fragile, ces fleurs sont vivaces et elles prennent bien racines. La légende veut que les ancêtres du peuple de l'Eau les aient emportées avec eux lorsqu'ils quittèrent le Gris-Levant pour les planter et ainsi se remémorer leur patrie quel que soit l'endroit où ils s'établiraient ensuite. Les pétales sont infusés pour obtenir une teinture bleue que la tribu utilise dans la création de motifs traditionnels qui décorent ses vêtements et autres ornements.",
-      "contextImage": "images/placeholders/emblem-monde.svg",
       "caption": "Généralités"
     }
   ],
@@ -18,9 +18,5 @@
     "peuple-de-leau",
     "gris-levant",
     "mysidia"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

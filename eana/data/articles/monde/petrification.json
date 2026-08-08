@@ -3,14 +3,14 @@
   "title": "La pétrification",
   "category": "monde",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 46,
+  "date": "2026-08-08",
+  "order": 14,
   "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Un phénomène caractérisé par le changement en pierre du corps d'un Pourvoyeur ou d'un Émissaire ayant trop fait appel à la magie.\n\nIl est dû au fait que l'individu consume l'éther présent dans son corps. Utiliser un cristal permet donc de contourner ce problème. La pétrification, aussi appelée Mal cristallin, provoque d'intenses douleurs et peut devenir handicapante lorsque le mal s'étend, jusqu'à ce que l'individu succombe et tombe en poussière. Aucun traitement n'a encore été trouvé.",
-      "contextImage": "images/placeholders/emblem-monde.svg",
-      "caption": "La pétrification"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "emissaires",
     "soldats-pourvoyeurs",
     "magie"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

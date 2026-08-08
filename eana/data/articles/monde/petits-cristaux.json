@@ -3,14 +3,14 @@
   "title": "Les petits cristaux",
   "category": "monde",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 113,
+  "date": "2026-08-08",
+  "order": 80,
   "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "base",
   "pages": [
     {
       "text": "De petits cristaux que les habitants de Valisthéa portent à la ceinture.\n\nIls sont extraits des Cristaux-mères par minage et sont distribués par les états de manière générale aux citoyens à l'exception des Pourvoyeurs ou des criminels. Les gens ont pour habitude de les ranger dans des étuis et de garder toujours sur eux ces accessoires des plus précieux.",
-      "contextImage": "images/placeholders/emblem-monde.svg",
-      "caption": "Les petits cristaux"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "cristaux-meres",
     "ether",
     "pourvoyeurs"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

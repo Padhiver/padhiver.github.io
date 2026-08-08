@@ -3,23 +3,21 @@
   "title": "Les Colosses de pierre",
   "category": "geographie",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 113,
+  "date": "2026-08-08",
+  "order": 127,
   "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
   "pages": [
     {
       "text": "La garde rapprochée de Hugo Kupka.\n\nLorsqu'il a été informé de la mort de Benedikta, Kupka a attaqué le Repaire de Cid avec ses hommes, ne laissant que des ruines derrière eux. Ils ont par la suite poursuivi leurs actes inhumains et leurs persécutions envers les Pourvoyeurs afin de perturber les activités de Cid.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
       "caption": "Généralités"
     },
     {
       "text": "La garde rapprochée de Hugo Kupka.\n\nIl s'agissait à l'origine d'une simple garnison locale destinée à défendre le Cristal-mère, mais Kupka avait corrompu ses membres en s'emparant de l'endroit. Ils sont désormais à sa botte. Il détient une réelle autorité en tant que membre du conseil, et nombreuses sont les personnes qui éprouvent une véritable adoration pour lui, qui a su bâtir seul sa fortune.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
       "caption": "Garnison de Crocdrac"
     },
     {
       "text": "L'ancienne garde rapprochée de Hugo Kupka.\n\nIl s'agissait à l'origine d'une simple garnison locale destinée à défendre le Cristal-mère, mais Kupka avait corrompu ses membres en s'emparant de l'endroit. Ils étaient ainsi à sa botte. Suite à la mort de l'Émissaire de Titan, les membres ont rompu les rangs et ont rejoint les unités gérées par les provinces, mais nombreux sont ceux qui le vénèrent encore.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
       "caption": "Chute de la Dalméquie"
     }
   ],
@@ -32,9 +30,5 @@
     "conseil-republicain",
     "destruction-de-crocdrac",
     "republique-de-dalmequie"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

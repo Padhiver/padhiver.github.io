@@ -3,14 +3,14 @@
   "title": "Le chantier naval des Forges",
   "category": "geographie",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 66,
+  "date": "2026-08-08",
+  "order": 79,
   "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Un port caché dans le flanc d'une falaise, en périphérie de Kanvěr.\n\nAvec l'aide de ses alliés du Repaire, Mid y supervise dans le plus grand secret la construction du vaisseau le plus rapide qui ait jamais navigué, l'Entreprise.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
-      "caption": "Le chantier naval des Forges"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "entreprise",
     "mer-de-naldia",
     "villes-libres-de-kanver"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

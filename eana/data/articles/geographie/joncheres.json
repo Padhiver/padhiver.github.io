@@ -3,14 +3,14 @@
   "title": "Les Jonchères",
   "category": "geographie",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 123,
+  "date": "2026-08-08",
+  "order": 141,
   "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Une région humide dans la partie est de Rosalia et au sud du hameau de l'Auberge de Martha.\n\nCe lieu-dit doit son nom aux gracieux joncs qui poussent dans les environs. Un hameau s'y trouvait jadis, mais la région ayant été inondée de façon pérenne, les habitants ont fini par la quitter au fil des ans.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
-      "caption": "Les Jonchères"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "auberge-de-martha",
     "adamankhelones",
     "archiduche-de-rosalia"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

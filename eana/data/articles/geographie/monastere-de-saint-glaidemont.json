@@ -3,14 +3,14 @@
   "title": "Le monastère de saint Glaidemont",
   "category": "geographie",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 89,
+  "date": "2026-08-08",
+  "order": 105,
   "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Un monastère situé au centre de la province impériale de Rosalia à proximité de la Crique des tourments.\n\nIl a été construit à la suite de l'annexion de l'archiduché de Rosalia par le Saint-Empire de Sangbrèque, pour propager la doctrine liée à la déesse Gwéligore. C'est de ce fait, un des rares édifices à architecture sangbréquoise de la région.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
-      "caption": "Le monastère de saint Glaidemont"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "protection-des-pourvoyeurs",
     "petrification",
     "pantheisme-de-sainte-gweligore"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

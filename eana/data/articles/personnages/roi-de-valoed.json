@@ -3,33 +3,29 @@
   "title": "Le roi de Valœd",
   "category": "personnages",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 55,
+  "date": "2026-08-08",
+  "order": 54,
   "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Un souverain du nom de Barnabas Tharmr.\n\nSa présence digne et majestueuse impressionne ceux qui osent s'opposer à lui.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Généralités"
     },
     {
       "text": "Le roi de Valœd et l'Émissaire d'Odin.\n\nTout en étant un souverain à l'allure digne et majestueuse, il fait des ravages sur les champs de bataille sous la forme d'Odin. Il a affronté lui-même Bahamut, le Primordial de Sangbrèque, en menant ses troupes au front lors de la Campagne de Belenus.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "La campagne de Belenus"
     },
     {
       "text": "Le roi de Valœd et l'Émissaire d'Odin.\n\nIl avait pour habitude de s'impliquer dans tous les conflits de Valisthéa mais ces dernières années, il se contente d'observer les tensions depuis sa lointaine contrée.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Après la chute du Dominion du Cristal"
     },
     {
       "text": "Le roi de Valœd et l'Émissaire d'Odin.\n\nIl a unifié les différentes ethnies du Gris-Levant à la force de son Primordial Odin et réduit en cendres la grande puissance qu'était son pays ennemi, le royaume de Weldermark, en une nuit.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Odin"
     },
     {
-      "text": "Le roi de Valœd et l'Émissaire d'Odin.\n\nFervent disciple du Cercle de Malius et descendant d'un peuple venu à Valisthéa des continents extérieurs, il cherchait désespérément à éveiller les pouvoirs cachés de Clive, se pliant à la volonté d'Ultima. Suite à un violent combat face à Clive à la Tour des songes, il parvient à transmettre ses pouvoirs d'Odin à son adversaire avant de trépasser.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
+      "text": "Le roi de Valœd et l'Émissaire d'Odin.\n\nFervent disciple du Cercle de Malius et descendant d'un peuple venu à Valisthéa des continents extérieurs, il cherchait désespérément à éveiller les pouvoirs cachés de Clive, se pliant à la volonté d'Ultima. Suite à un violent combat face à Clive à la Tour des songes, il parvient à transmettre ses pouvoirs d'Odin à son adversaire avant de trépasser. ",
       "caption": "Épilogue"
     }
   ],
@@ -46,9 +42,5 @@
     "royaume-de-weldermark",
     "cercle-de-malius",
     "peuple-de-dzemekys"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

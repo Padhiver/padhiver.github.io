@@ -1,0 +1,28 @@
+{
+  "id": "falaises-de-loubli",
+  "title": "Les falaises de l'oubli",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 132,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "rising-tide",
+  "pages": [
+    {
+      "text": "Une zone de littoral escarpé située à la frontière entre Sangbrèque et les anciens Territoires du Nord.\n\nLes falaises de cette côte sont raides et présentent des affleurements de craie typiques de l'endroit. Pour la plupart des gens, il s'agit d'une terre morte arrachée par le Fléau noir, et nul ne songerait aujourd'hui à y aborder. C'est ce désintérêt qui leur a valu le surnom de falaises de l'oubli.",
+      "caption": "Généralités"
+    },
+    {
+      "text": "Une zone de littoral escarpé située à la frontière entre Sangbrèque et les anciens Territoires du Nord.\n\nLes falaises de cette côte sont raides et présentent des affleurements de craie typiques de l'endroit. Pour la plupart des gens, il s'agit d'une terre morte arrachée par le Fléau noir. Mais elle recèle en vérité une végétation luxuriante dissimulée grâce à l'artifice du Mirage.",
+      "caption": "Un ciel trompeur"
+    }
+  ],
+  "related": [
+    "terres-mortes",
+    "sentier-de-la-mante",
+    "terres-du-nord",
+    "saint-empire-de-sangbreque",
+    "mirage",
+    "mysidia"
+  ]
+}

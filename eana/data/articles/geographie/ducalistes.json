@@ -3,14 +3,14 @@
   "title": "Les Ducalistes",
   "category": "geographie",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 116,
+  "date": "2026-08-08",
+  "order": 130,
   "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Les partisans de l'archiduc Elwin Rosfield et de sa vision du monde et de l'avenir.\n\nÉgalement appelés dissidents démophiles par leurs détracteurs, cette faction a subi une sévère oppression après l'annexion, sous les ordres d'Annabella Lesage, devenue vice-reine de la province, et qui a ordonné à ses « Chevaliers noirs » d'éliminer les éléments dissidents. Ainsi, les habitants de Lestange, qui protégeaient des Pourvoyeurs, ont été jugés ducalistes et exécutés sans autre forme de procès. Historiquement, Rosalia est un archiduché formé de petites nations. Au sein de chacune d'entre elles existait depuis toujours un clivage entre les partisans d'Elwin Rosfield, qui prônait une politique plus moderne, et les conservateurs partisans du pouvoir aristocratique, surnommés Légitimistes.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
-      "caption": "Les Ducalistes"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "raid-sur-lestange",
     "gouvernement-general-provincial",
     "maison-rosfield"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

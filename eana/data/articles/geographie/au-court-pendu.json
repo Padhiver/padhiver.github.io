@@ -3,14 +3,14 @@
   "title": "Au Court pendu",
   "category": "geographie",
   "public": "ON",
-  "date": "2026-08-04",
+  "date": "2026-08-08",
   "order": 2,
   "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Une auberge située à La Nef déchue.\n\nLe propriétaire est Quentin, un mécène que tous les habitants considèrent comme leur chef. L'enseigne de l'établissement représente un homme pendu par les pieds. On y sert de l'alcool et des collations. Afin de trouver les fonds nécessaires à la bonne marche du hameau, Quentin cherche des marchands pour vendre le vin produit sur ses terres entre autres activités.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
-      "caption": "Au Court pendu"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "quentin",
     "partisans-du-repaire",
     "saint-empire-de-sangbreque"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

@@ -3,14 +3,14 @@
   "title": "Les cristaux géants",
   "category": "monde",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 99,
+  "date": "2026-08-08",
+  "order": 60,
   "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Des cristaux utilisés dans les villes et les villages de Valisthéa.\n\nIls sont fixes et génèrent une grande quantité de magie qui sert à alimenter les puits ou les fourneaux publics. Étant généralement gérés par les états, ces cristaux ne circulent pas librement et il n'est pas permis aux particuliers d'en posséder.",
-      "contextImage": "images/placeholders/emblem-monde.svg",
-      "caption": "Les cristaux géants"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "cristaux-meres",
     "ether",
     "pourvoyeurs"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

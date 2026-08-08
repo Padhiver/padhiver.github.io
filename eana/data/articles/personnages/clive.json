@@ -3,63 +3,53 @@
   "title": "Clive",
   "category": "personnages",
   "public": "ON",
-  "date": "2026-08-04",
+  "date": "2026-08-08",
   "order": 10,
   "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Le fils aîné de l'archiduc de Rosalia.\n\nSon nom complet est Clive Rosfield. Fin bretteur, il a obtenu très jeune le titre de Gardien de Rosalia. Officiellement chargé de protéger Joshua, il a reçu la bénédiction de Phénix, ce qui le rend capable d'utiliser certains pouvoirs de feu.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Généralités"
     },
     {
       "text": "Le fils aîné de l'archiduc de Rosalia.\n\nTous s'attendaient à ce qu'il se révèle être l'Émissaire de Phénix, mais le destin voulut que ce soit son frère cadet, Joshua, qui hérite de cette responsabilité et devienne ainsi le futur archiduc.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Âge d'or de Rosalith"
     },
     {
       "text": "Le fils aîné de l'archiduc de Rosalia, et le Gardien chargé de protéger Phénix.\n\nSuite à un complot ourdi par Annabella Rosfield, sa propre mère, il perdit en une nuit d'événements tragiques son père Elwin et son frère Joshua, qu'il avait juré de protéger au péril de sa vie. Annabella décida au dernier moment de l'épargner, jugeant que ses pouvoirs pourraient être utiles. Il fut capturé et emmené pour devenir esclave pourvoyeur.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "L'attaque du fort Phénix"
     },
     {
       "text": "L'identité sous laquelle vit Clive, devenu soldat pourvoyeur de l'armée sangbréquoise depuis treize ans.\n\nLes compétences qu'il doit à la bénédiction de Phénix lui ont valu d'être incorporé à une unité spéciale d'assassins. Il est envoyé dans le défilé de Nýsa, où se déroule une bataille entre les forces dalmèques et le Royaume de Fer. Sa mission consiste à assassiner l'Émissaire de Shiva. Il utilise le nom d'emprunt de Wyverne lors de l'opération.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Au défilé de Nýsa"
     },
     {
       "text": "Un ancien soldat pourvoyeur de l'armée sangbréquoise.\n\nDans le défilé de Nýsa, il devait assassiner l'Émissaire de Shiva, mais il a décidé de la protéger, quitte à se rebeller contre son commandant. Séparé de son unité, il se retrouve dans une position délicate, encerclé par de nombreux soldats ferrégiens. Cid, qui souhaitait sauver l'Émissaire, vient également au secours de Clive avant d'emmener les deux rescapés dans son Repaire.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Désertion"
     },
     {
       "text": "Un ancien soldat pourvoyeur de l'armée sangbréquoise.\n\nIl a rejoint le groupe de Cid dans le but de retrouver la trace de l'Émissaire de feu qui a tué son frère treize ans auparavant. Après avoir combattu Benedikta, l'Émissaire de Garuda, il s'éveille aux pouvoirs du mystérieux Primordial de feu, Ifrit. Comprenant qu'il est l'assassin de son frère, il sombre dans un profond désespoir.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Éveil en tant qu'Ifrit"
     },
     {
       "text": "Un ancien soldat pourvoyeur de l'armée sangbréquoise et l'Émissaire d'Ifrit.\n\nIl retourne après des années sur sa terre natale de Rosalia accompagné de son amie d'enfance Jill. En passant au village à présent désolé de Lestange, il retrouve par hasard Hanna, la veuve du général Murdoch. Celle-ci lui confie des affaires de feu l'archiduc Elwin.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "La visite à Lestange"
     },
     {
       "text": "L'Émissaire d'Ifrit.\n\nAyant fait la lumière sur son passé dans les profondeurs du fort Phénix, il a accepté le fait qu'il était Ifrit, l'assassin de son frère qu'il avait recherché pendant des années. Après l'attaque meurtrière du village de Lestange, il décide de rejoindre le groupe de Cid et d'aider ce dernier à détruire les Cristaux-mères.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Allié de Cid"
     },
     {
       "text": "L'Émissaire d'Ifrit.\n\nIl a absorbé les pouvoirs d'autres Émissaires. Après avoir détruit le Cristal-mère de Chefdrac, il décide de poursuivre le combat de Cid, qui lui a confié ses pouvoirs, et de continuer de se battre avec ses compagnons.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Après l'ellipse de cinq ans"
     },
     {
       "text": "L'Émissaire d'Ifrit.\n\nDeuxième meneur du Repaire, il a repris le nom de Cid. Dans le nouveau Repaire, il continue d'aider les Pourvoyeurs et prépare avec son groupe des opérations de destruction des Cristaux-mères restants. Son objectif est de bâtir un futur endroit où tous pourront vivre en hommes libres.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Cid"
     },
     {
       "text": "L'Émissaire d'Ifrit.\n\nIl a absorbé les pouvoirs d'autres Émissaires, qu'il a appris à maîtriser. Même s'il se rapproche de la forme de « Mythos » qu'Ultima convoite en agissant ainsi, Clive désire rester un être humain. Il continue donc de tout faire pour s'opposer à son ennemi.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Éveil en tant que Mythos"
     }
   ],
@@ -91,9 +81,5 @@
     "mythos",
     "ultima",
     "logos"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

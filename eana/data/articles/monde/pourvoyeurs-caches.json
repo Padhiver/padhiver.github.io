@@ -3,14 +3,14 @@
   "title": "Les Pourvoyeurs cachés",
   "category": "monde",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 116,
+  "date": "2026-08-08",
+  "order": 82,
   "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Des Pourvoyeurs ne portant pas de marque.\n\nIl existe des cas très rares de Pourvoyeurs ayant échappé aux contrôles effectués par les autorités de leur pays, ou dont les pouvoirs se sont manifestés plus tard au cours de leur vie. Ils sont alors élevés comme des êtres humains ordinaires, et pensent et agissent librement. La punition est cependant sévère s'ils sont démasqués à un moment ou à un autre.",
-      "contextImage": "images/placeholders/emblem-monde.svg",
-      "caption": "Les Pourvoyeurs cachés"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "marque",
     "marques",
     "oreille-du-desert"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

@@ -3,18 +3,17 @@
   "title": "Kenneth",
   "category": "personnages",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 33,
+  "date": "2026-08-08",
+  "order": 37,
   "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Le chef cuisinier du Repaire.\n\nIl apporte de bons plats toujours chauds à tous ses habitants malgré le peu d'ingrédients à sa disposition.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Généralités"
     },
     {
       "text": "Le chef cuisinier de l'ancien Repaire.\n\nIl a perdu la vie pendant l'attaque menée par Hugo Kupka. Tous ses camarades adoraient ses plats qui savaient être excellents tout en restant simples. Son esprit culinaire se perpétue encore aujourd'hui dans les cuisines du Repaire actuel.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Une cuisine qui se savoure"
     }
   ],
@@ -25,9 +24,5 @@
     "repaire-de-cid",
     "yvan",
     "massacre-du-repaire"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

@@ -3,14 +3,14 @@
   "title": "La protection des Pourvoyeurs",
   "category": "monde",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 47,
+  "date": "2026-08-08",
+  "order": 16,
   "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Les activités de certains habitants du Repaire et de leurs alliés.\n\nCeux-ci cherchent à secourir en priorité les malheureux qui sont victimes de toutes sortes de mauvais traitements, mais aussi les Pourvoyeurs qui sont épuisés ou blessés. Ils les conduisent alors au Repaire ou dans des hameaux, où ils peuvent enfin vivre librement. La transition n'est cependant pas toujours évidente pour ces personnes habituées à de longues années d'esclavage, malgré les repas chauds et le lit douillet qui leur sont offerts.",
-      "contextImage": "images/placeholders/emblem-monde.svg",
-      "caption": "La protection des Pourvoyeurs"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "repaire-de-cid",
     "lames-de-pierre",
     "partisans-du-repaire"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

@@ -3,14 +3,14 @@
   "title": "L'armée dalmèque",
   "category": "geographie",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 17,
+  "date": "2026-08-08",
+  "order": 63,
   "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
   "pages": [
     {
       "text": "L'armée régulière de la république de Dalméquie.\n\nIl s'agit certes d'une armée nationale, mais les soldats sont gérés à l'échelle des cinq provinces. Ces dernières sont libres d'utiliser leur contingent comme bon leur semble, sauf en cas d'urgence nationale. Mis à part les corps d'élite, les fantassins et les mages sont répartis dans des unités dont l'une des particularités est d'être armées de sabres et de grosses haches.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
-      "caption": "L'armée dalmèque"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "colosses-de-pierre",
     "leopards",
     "republique-de-dalmequie"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

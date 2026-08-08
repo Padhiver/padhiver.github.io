@@ -3,28 +3,25 @@
   "title": "Blackthorne",
   "category": "personnages",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 6,
+  "date": "2026-08-08",
+  "order": 7,
   "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Un partisan de Cid.\n\nIl s'occupe de la forge du Repaire. C'est un homme taciturne qui parle rarement de lui-même mais qui ne refuse jamais une bonne bouteille de rhum.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Généralités"
     },
     {
       "text": "Le forgeron du Repaire.\n\nIl est expert dans la confection d'une large variété de pièces d'équipement et en fournit à Clive qui opère dans tout Valisthéa en tant que Cid le second. Malgré son caractère taciturne, il n'est pas du genre à abandonner les gens dans le besoin. Il est aussi de bon conseil pour Goetz qui montre un certain intérêt pour la forge.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Reconstruction du Repaire"
     },
     {
       "text": "Le forgeron du Repaire.\n\nIl est originaire du village de Dravost reconnu pour ses forges et sa métallurgie. Il a dû s'en éloigner il y a de nombreuses années suite à un différend. Cette histoire de brouille est aussi source de tensions entre lui et Zoltán, un artisan qui a fait son apprentissage en même temps que lui.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Village de Dravost"
     },
     {
       "text": "Le forgeron du Repaire.\n\nAlors qu'il avait été désigné comme chef de son village, Dravost, il a préféré fuir, refusant de renoncer à son travail du métal. Zoltán, qui a été forcé de prendre sa place, lui reproche toujours ce choix, mais la crise que connaît aujourd'hui le village a poussé les deux anciens amis à se réconcilier. Leurs talents combinés sont même parvenus à donner naissance à une épée extraordinaire, Ragnarok.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "L'épée de légende"
     }
   ],
@@ -38,9 +35,5 @@
     "zoltan",
     "auguste",
     "dravost"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

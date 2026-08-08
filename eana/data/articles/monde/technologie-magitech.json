@@ -3,18 +3,17 @@
   "title": "La technologie magitech",
   "category": "monde",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 55,
+  "date": "2026-08-08",
+  "order": 25,
   "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "base",
   "pages": [
     {
       "text": "La technologie magique avancée qu'utilisaient les Célestes, notamment pour construire leurs aéronefs.\n\nElle a principalement servi à créer des armes vivantes artificielles que seuls d'exceptionnels mages surnommés les invocateurs étaient en mesure de contrôler. Ces êtres surnaturels à la puissance proche du divin partagent chacun une affinité avec un élément primaire, ce qui leur valut d'être baptisés « Primordiaux ».",
-      "contextImage": "images/placeholders/emblem-monde.svg",
       "caption": "Généralités"
     },
     {
       "text": "La technologie magique avancée qu'utilisaient les Célestes.\n\nAvec la magie comme source d'énergie, les Célestes sont parvenus à créer des machines plus incroyables les unes que les autres, comme les aéronefs ou les armes magitech. Le temps a effacé toute trace de ce savoir, sauf à l'intérieur de la Tour des Sages, où restaient préservés un Cristal-mère artificiel et un « Bio-Primordial » en état de marche.",
-      "contextImage": "images/placeholders/emblem-monde.svg",
       "caption": "La Tour des Sages"
     }
   ],
@@ -26,9 +25,5 @@
     "bio-primordial",
     "cristal-mere-synthetique",
     "armes-magitech"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

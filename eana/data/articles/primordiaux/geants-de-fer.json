@@ -3,14 +3,14 @@
   "title": "Les géants de fer",
   "category": "primordiaux",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 29,
+  "date": "2026-08-08",
+  "order": 26,
   "cardImage": "images/placeholders/emblem-primordiaux.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Des rémanences célestes ressemblant à des automates humanoïdes revêtus d'une épaisse armure.\n\nLeur corps est aussi imposant que leur épée et leur bouclier, et malgré cela, leur rapidité n'a d'égale que leur agilité. En outre, ils sont encore plus résistants qu'ils n'en ont l'air, et aucun humain ordinaire ne saurait percer leur défense.",
-      "contextImage": "images/placeholders/emblem-primordiaux.svg",
-      "caption": "Les géants de fer"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "entites-magiques",
     "creatures-bleues",
     "fort-phenix"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

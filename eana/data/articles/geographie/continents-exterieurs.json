@@ -3,18 +3,17 @@
   "title": "Les continents extérieurs",
   "category": "geographie",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 114,
+  "date": "2026-08-08",
+  "order": 128,
   "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Des terres lointaines, séparées de Valisthéa par l'océan.\n\nMalgré quelques échanges commerciaux, on connaît encore assez mal la culture et les coutumes des peuples qui y vivent.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
       "caption": "Généralités"
     },
     {
       "text": "Des terres lointaines, séparées de Valisthéa par l'océan.\n\nMalgré quelques échanges commerciaux, on connaît encore assez mal la culture et les coutumes des peuples qui y vivent. Cependant, on raconte que lorsque la civilisation céleste s'effondra, il y a plus d'un millénaire, certains survivants y trouvèrent refuge.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
       "caption": "Selon la tradition orale"
     }
   ],
@@ -24,9 +23,5 @@
     "gris-levant",
     "roi-de-valoed",
     "civilisation-celeste"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

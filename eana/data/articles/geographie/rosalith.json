@@ -3,23 +3,21 @@
   "title": "Rosalith",
   "category": "geographie",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 137,
+  "date": "2026-08-08",
+  "order": 170,
   "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
   "pages": [
     {
       "text": "La capitale de l'archiduché de Rosalia, située à l'ouest du Vert-Ponant.\n\nLe château de Rosalith, demeure de l'archiduc et de sa famille, surplombe la cité et ses marchés bouillonnant d'activité. Ces dernières années, l'avancée du Fléau noir a causé l'arrivée de nombreux réfugiés venus des terres septentrionales.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
       "caption": "Généralités"
     },
     {
       "text": "L'ancienne capitale de l'archiduché de Rosalia, située à l'ouest du Vert-Ponant.\n\nAprès l'annexion de l'Archiduché à Sangbrèque, l'ancienne archiduchesse Annabella a pris la tête du gouvernement d'occupation. Lors de la chute de l'Archiduché, une majorité de citoyens ont fui face à l'attaque opportuniste du Royaume de Fer, quand ils n'ont pas été faits prisonniers. Ne reste aujourd'hui en ville qu'une petite population qui accepte de se soumettre à l'Empire.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
       "caption": "Après l'annexion de Rosalia par Sangbrèque"
     },
     {
       "text": "L'ancienne capitale de l'archiduché de Rosalia, située à l'ouest du Vert-Ponant.\n\nAprès l'annexion de l'Archiduché à Sangbrèque, l'ancienne archiduchesse Annabella a pris la tête du gouvernement d'occupation. La population avait déjà fortement diminué sous l'Empire, et l'attaque de Hugo Kupka et de ses Colosses de pierre a mis la capitale à feu et à sang, dispersant presque les habitants restants.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
       "caption": "Attaque de Rosalith"
     }
   ],
@@ -31,9 +29,5 @@
     "gouvernement-general-provincial",
     "attaque-du-fort-phenix",
     "siege-de-rosalith"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

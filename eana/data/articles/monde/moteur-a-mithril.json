@@ -3,14 +3,14 @@
   "title": "Le moteur à mithril",
   "category": "monde",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 76,
+  "date": "2026-08-08",
+  "order": 39,
   "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Un système de propulsion révolutionnaire installé sur l'Entreprise, le navire le plus rapide qui soit.\n\nIl utilise pour carburant un mélange de minerai de mithril et d'une fine poudre noire extraite dans les Terres mortes et raffinée. Ce combustible permet de développer une puissance motrice extraordinaire, mais nécessite d'être brûlé à des températures extrêmes. Ainsi, en bon soldat du feu, le moteur dispose de sa propre panoplie ignifuge, avec une « armure », un « casque » et un « bouclier ».",
-      "contextImage": "images/placeholders/emblem-monde.svg",
-      "caption": "Le moteur à mithril"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "terres-mortes",
     "midadole-telamon",
     "cid"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

@@ -3,14 +3,14 @@
   "title": "La suppression de la marque",
   "category": "monde",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 54,
+  "date": "2026-08-08",
+  "order": 24,
   "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Une intervention chirurgicale destinée à retirer la marque des Pourvoyeurs.\n\nToute tentative d'ablation du tatouage est très risquée, car l'encre est composée d'un poison qui pourrait tuer le Pourvoyeur en cas d'échec. Heureusement, Tarja a fait appel à ses talents de médecin pour élaborer une technique qui a d'ores et déjà fait ses preuves. Il s'agit tout de même d'une opération minutieuse et extrêmement douloureuse, malgré les analgésiques. C'est la raison pour laquelle les patients doivent faire preuve d'une motivation hors normes. Ce sont en général des combattants du Repaire ayant besoin de sortir pour remplir des missions dangereuses à l'extérieur.",
-      "contextImage": "images/placeholders/emblem-monde.svg",
-      "caption": "La suppression de la marque"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "pourvoyeurs",
     "tarja",
     "repaire-de-clive"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

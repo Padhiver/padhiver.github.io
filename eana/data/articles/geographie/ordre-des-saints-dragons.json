@@ -3,18 +3,17 @@
   "title": "L'Ordre des Saints Dragons",
   "category": "geographie",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 30,
+  "date": "2026-08-08",
+  "order": 160,
   "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Un corps militaire d'élite du Saint-Empire de Sangbrèque mené par Dion Lesage.\n\nBeaucoup de ses membres sont de jeunes nobles pour qui être fait chevalier des Saints Dragons est un grand honneur. Lors du conflit frontalier de 873 entre Sangbrèque et Valœd, les Saints Dragons sont en première ligne.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
       "caption": "Généralités"
     },
     {
       "text": "Un corps militaire d'élite du Saint-Empire de Sangbrèque mené par Dion Lesage.\n\nBeaucoup de ses membres sont de jeunes nobles pour qui être fait chevalier des Saints Dragons est un grand honneur. Ils étaient également en première ligne lors du conflit frontalier de 873 entre Sangbrèque et Valœd et ont souvent sorti l'Empire d'une position difficile. Ils se rebellent ensuite contre la traîtresse Annabella au Dominion du Cristal.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
       "caption": "Insurrection de Dion"
     }
   ],
@@ -24,9 +23,5 @@
     "saint-empire-de-sangbreque",
     "conflit-frontalier-de-873",
     "revolte-des-saints-dragons"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

@@ -3,14 +3,14 @@
   "title": "Le détroit d'Aurtha",
   "category": "geographie",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 79,
+  "date": "2026-08-08",
+  "order": 93,
   "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Un détroit qui part du nord du Dominion du Cristal séparant le Vert-Ponant et le Gris-Levant.\n\nLa présence permanente de soldats sur ses rives et la tension qui y règne s'expliquent par son statut de zone tampon pour les trois nations qui le bordent : à l'ouest le Saint-Empire de Sangbrèque, à l'est le royaume de Valœd, et au sud le Dominion du Cristal.",
-      "contextImage": "images/placeholders/emblem-geographie.svg",
-      "caption": "Le détroit d'Aurtha"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "gris-levant",
     "guerre-des-deux-continents",
     "conflit-frontalier-de-873"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

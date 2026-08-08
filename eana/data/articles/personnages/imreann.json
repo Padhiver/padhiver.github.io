@@ -3,18 +3,17 @@
   "title": "Imreann",
   "category": "personnages",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 30,
+  "date": "2026-08-08",
+  "order": 33,
   "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Le grand prêtre à la tête de la religion cristodoxe.\n\nIl se charge notamment de pratiquer divers rituels dans le sanctuaire attenant au Cristal-mère de Souffledrac. Selon la foi cristodoxe, religion d'État du Royaume de Fer, les Pourvoyeurs et les Émissaires sont des êtres impurs marqués par le péché.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Généralités"
     },
     {
       "text": "Le grand prêtre à la tête de la religion cristodoxe, religion d'État du Royaume de Fer.\n\nLa doctrine cristodoxe enseigne que les Pourvoyeurs et les Émissaires sont des êtres impurs marqués par le péché. Imreann est plein de haine envers eux. Il conduit des rituels barbares sur des Pourvoyeurs impuissants, soi-disant pour « purifier leur âme », en plus d'autres abus commis sur les jeunes filles enlevées par le Royaume de Fer. Lors d'une incursion à Souffledrac, Jill, qui a longtemps subi son chantage, assassine le grand prêtre avant de détruire le Cristal-mère avec l'aide de Clive.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Épilogue"
     }
   ],
@@ -24,9 +23,5 @@
     "sanctuaire-cristallin",
     "royaume-de-fer-eileanan-iarainn",
     "jill-warrick"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

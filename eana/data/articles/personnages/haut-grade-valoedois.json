@@ -3,33 +3,29 @@
   "title": "Le haut gradé valœdois",
   "category": "personnages",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 50,
+  "date": "2026-08-08",
+  "order": 47,
   "cardImage": "images/placeholders/emblem-personnages.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Le commandant de la garde valœdoise.\n\nIl se tient auprès du roi Barnabas lors des pourparlers avec la Dalméquie à la citadelle de Zirnitra.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Généralités"
     },
     {
       "text": "Le commandant de l'ordre royal des Chevaliers valœdois.\n\nOn le surnomme « le chevalier immortel ». Malgré son apparente jeunesse, le roi Barnabas lui fait entièrement confiance et lui a confié le commandement des troupes valœdoises. Il emmène Hugo Kupka loin de Rosalith dans un but inconnu, alors que l'Émissaire de Titan vient de perdre ses deux mains en se battant contre Clive.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "À Crocdrac"
     },
     {
       "text": "Le commandant de l'ordre royal des Chevaliers valœdois.\n\nSleipnir Hárbardr a juré fidélité au roi Barnabas et s'est maintes fois battu à ses côtés. Il accepte l'ordre de massacrer les délégations de députés dalmèques et de riches marchands de Kanvěr présentes à une table ronde organisée dans la capitale des Villes libres. Clive le vainc ensuite en combat singulier.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "À Kanvěr"
     },
     {
       "text": "Le commandant de l'ordre royal des Chevaliers valœdois.\n\nSleipnir Hárbardr réapparaît au chantier naval des Forges alors qu'il a été éliminé par Clive à Kanvěr, se révélant ainsi être une création magique du roi Barnabas. Cela explique son surnom de « chevalier immortel ».",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Au chantier naval des Forges"
     },
     {
       "text": "Le commandant de l'ordre royal des Chevaliers valœdois.\n\nIl n'est en fait qu'un être magique, une projection du roi Barnabas, l'Émissaire d'Odin. La mort de ce dernier provoque sa disparition.",
-      "contextImage": "images/placeholders/emblem-personnages.svg",
       "caption": "Épilogue"
     }
   ],
@@ -45,9 +41,5 @@
     "entites-magiques",
     "chantier-naval-des-forges",
     "odin"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

@@ -3,18 +3,17 @@
   "title": "Le sanctuaire cristallin",
   "category": "monde",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 84,
+  "date": "2026-08-08",
+  "order": 50,
   "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "base",
   "pages": [
     {
       "text": "L'espace sacré entourant le noyau d'un Cristal-mère.\n\nLa construction de ces structures est extrêmement ancienne. Elles ont toujours une grande valeur spirituelle même si les hommes ont oublié leur signification originelle.",
-      "contextImage": "images/placeholders/emblem-monde.svg",
       "caption": "Généralités"
     },
     {
       "text": "L'espace sacré entourant le noyau d'un Cristal-mère.\n\nLa construction de ces structures est plus ancienne encore que la civilisation céleste et remonte aux premiers hommes. Elles ont servi de lieux de prière à travers les âges et sont traitées avec la même révérence que le noyau qu'elles abritent.",
-      "contextImage": "images/placeholders/emblem-monde.svg",
       "caption": "Révélation"
     }
   ],
@@ -24,9 +23,5 @@
     "cristodoxes",
     "cercle-de-malius",
     "civilisation-ultimienne"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }

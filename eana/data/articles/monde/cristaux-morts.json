@@ -3,14 +3,14 @@
   "title": "Les cristaux morts",
   "category": "monde",
   "public": "ON",
-  "date": "2026-08-04",
-  "order": 100,
+  "date": "2026-08-08",
+  "order": 62,
   "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "base",
   "pages": [
     {
       "text": "Des Cristaux-mères qui existaient autrefois à Valisthéa, mais qui ont été détruits.\n\nCette appellation fait référence à Œildrac dans le nord du Vert-Ponant, Cornedrac dans le sud du Gris-Levant, et à Dzemekys au centre de Valisthéa. Tous ont été anéantis et il n'en reste désormais que des vestiges.",
-      "contextImage": "images/placeholders/emblem-monde.svg",
-      "caption": "Les cristaux morts"
+      "caption": ""
     }
   ],
   "related": [
@@ -18,9 +18,5 @@
     "dzemekys",
     "oeildrac",
     "cornedrac"
-  ],
-  "banner": {
-    "id": null,
-    "on": "OFF"
-  }
+  ]
 }
