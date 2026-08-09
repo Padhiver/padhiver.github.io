@@ -1,0 +1,36 @@
+{
+  "_comment": "Un point = un repère sur la carte. x/y en pourcentage (0-100) de la largeur/hauteur de l'image (images/map/placeholder-map.svg fait 2000x1400 — mesure au même ratio sur la carte finale). \"article\" est optionnel : l'id d'une fiche du codex (n'importe quelle catégorie). Sans \"article\", le point affiche juste \"label\" dans une bulle au clic, sans ouvrir de fiche. \"label\" est optionnel si \"article\" est renseigné : le titre de la fiche sert alors de nom. Un point lié à une fiche OFF est invisible tant que le mode maître n'est pas actif — pas de '?' comme sur les grilles : sur une carte, même la position peut spoiler.",
+  "points": [
+    {
+      "id": "rosalith",
+      "article": "rosalith",
+      "x": 44.06,
+      "y": 41.63
+    },
+    {
+      "id": "fort-phenix",
+      "article": "fort-phenix",
+      "x": 40,
+      "y": 62
+    },
+    {
+      "id": "dominion-du-cristal",
+      "article": "dominion-du-cristal",
+      "x": 67.39,
+      "y": 25.23
+    },
+    {
+      "id": "creag-loisgte",
+      "article": "creag-loisgte",
+      "x": 13.25,
+      "y": 9.71
+    },
+    {
+      "id": "l-archiduche-de-rosalia",
+      "type": "cite",
+      "article": "archiduche-de-rosalia",
+      "x": 46.94,
+      "y": 32.11
+    }
+  ]
+}

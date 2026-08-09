@@ -1,0 +1,54 @@
+{
+  "_comment": "Types de repères de la carte. Chaque point de data/map-points.json peut porter un \"type\" qui vaut un \"id\" ci-dessous ; sans type, le repère retombe sur l'icône de la catégorie de sa fiche liée. \"path\" est le contenu d'un <path d=\"...\"> dessiné sur un viewBox 24x24, en trait (fill:none, stroke:currentColor) pour s'accorder aux icônes de catégories. \"accent\" est optionnel : \"cinabre\" (défaut) ou \"sea\", pour distinguer visuellement deux familles de lieux.",
+
+  "types": [
+    {
+      "id": "cite",
+      "label": "Cité",
+      "path": "M4 20V10l4-3 4 3 4-3 4 3v10M9 20v-4h2v4M15 20v-4h2v4M6 12.5h1M17 12.5h1"
+    },
+    {
+      "id": "forteresse",
+      "label": "Forteresse",
+      "path": "M4 20V8h2V5h3v3h2V5h2v3h2V5h3v3h2v12M10 20v-5h4v5"
+    },
+    {
+      "id": "ruine",
+      "label": "Ruine",
+      "path": "M4 20V11l3-2v3l3-3v4l3-3v4l3-2v8M8 20v-3M14 20v-3"
+    },
+    {
+      "id": "sanctuaire",
+      "label": "Sanctuaire",
+      "path": "M12 3v6M9 6h6M6 20v-7l6-4 6 4v7M10 20v-4h4v4"
+    },
+    {
+      "id": "relief",
+      "label": "Relief",
+      "path": "M2 19l6-10 4 6 3-4 7 8zM8 9l1.6 2.7M15 11l-1.4 1.9",
+      "accent": "sea"
+    },
+    {
+      "id": "foret",
+      "label": "Forêt",
+      "path": "M12 4l4 6h-2.5l3 5H12m0-11l-4 6h2.5l-3 5H12m0 0v5",
+      "accent": "sea"
+    },
+    {
+      "id": "port",
+      "label": "Port",
+      "path": "M12 6v13M8 10h8M5 15a7 7 0 0014 0M12 3.5a1.5 1.5 0 100 3 1.5 1.5 0 000-3z",
+      "accent": "sea"
+    },
+    {
+      "id": "bataille",
+      "label": "Bataille",
+      "path": "M5 5l10 10M15 5L5 15M4 16l4 4M20 16l-4 4M14 14l6 6M10 14l-6 6"
+    },
+    {
+      "id": "repere",
+      "label": "Repère",
+      "path": "M12 21s7-6.2 7-11a7 7 0 10-14 0c0 4.8 7 11 7 11zM12 8.5a2 2 0 100 4 2 2 0 000-4z"
+    }
+  ]
+}

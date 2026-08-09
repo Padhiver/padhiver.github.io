@@ -135,6 +135,30 @@ a { color: inherit; }
   padding: 60px 0 34px;
 }
 
+/* Lien de coin dans l'en-tête (repris tel quel par map/map.css pour le lien
+   retour de la page carte : un seul endroit à ajuster pour les deux). */
+.corner-link {
+  position: absolute;
+  left: 0;
+  top: 6px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-display);
+  font-size: 0.66rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.corner-link:hover { color: var(--cinabre); }
+@media (max-width: 680px) {
+  .corner-link { position: static; display: block; margin-bottom: 14px; }
+}
+
+.site-map-link::after { content: "→"; font-size: 0.9em; }
+
 .compass {
   position: absolute;
   right: 0;
@@ -768,6 +792,10 @@ a.site-title:hover { color: var(--cinabre); }
 
 /* Demande de passphrase */
 .gate { position: fixed; inset: 0; z-index: 60; display: grid; place-items: center; }
+/* "display: grid" ci-dessus l'emporterait sur l'attribut [hidden] du HTML
+   (un sélecteur de classe bat la feuille de style du navigateur) : sans
+   cette ligne, une fenêtre pilotée par [hidden] resterait visible. */
+.gate[hidden] { display: none; }
 .gate-backdrop { position: absolute; inset: 0; background: var(--backdrop); backdrop-filter: blur(2px); }
 .gate-box {
   position: relative;
@@ -825,6 +853,36 @@ a.site-title:hover { color: var(--cinabre); }
 .gate-actions button:hover { border-color: var(--sea); color: var(--sea); }
 .gate-actions .gate-ok { background: var(--sea); border-color: var(--sea); color: var(--paper-2); }
 .gate-actions .gate-ok:hover { background: var(--cinabre); border-color: var(--cinabre); color: var(--paper-2); }
+
+/* ---------- Page ouverte en file:// (voir EanaData.blockIfFileProtocol) ---------- */
+
+.served-warning {
+  max-width: 60ch;
+  margin: 12vh auto;
+  padding: 0 28px;
+  font-family: var(--font-body);
+  color: var(--ink);
+}
+.served-warning h1 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.2rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--cinabre);
+  margin: 0 0 20px;
+}
+.served-warning p { font-size: 1.08rem; line-height: 1.6; margin: 0 0 14px; }
+.served-warning code,
+.served-warning pre {
+  font-family: ui-monospace, "Cascadia Mono", Consolas, monospace;
+  font-size: 0.94rem;
+  background: var(--paper-3);
+  border: 1px solid var(--line-soft);
+}
+.served-warning code { padding: 1px 6px; }
+.served-warning pre { padding: 12px 16px; overflow-x: auto; margin: 0 0 14px; }
+.served-warning a { color: var(--sea); font-weight: 600; }
 
 /* ---------- Transitions de vue ---------- */
 

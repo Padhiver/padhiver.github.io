@@ -24,6 +24,32 @@ const EanaData = (() => {
     return res.json();
   }
 
+  // Ouvrir un fichier du site en double-cliquant dessus (protocole file://)
+  // empêche le navigateur de lire les JSON voisins : la page reste vide ou
+  // à moitié chargée, avec un mur d'erreurs CORS incompréhensibles. On le
+  // détecte pour afficher une consigne claire à la place.
+  function blockIfFileProtocol() {
+    if (window.location.protocol !== "file:") return false;
+
+    const inMapFolder = /\/map\/[^/]*$/.test(window.location.pathname);
+    const page = inMapFolder
+      ? window.location.pathname.split("/").pop() || "index.html"
+      : "";
+    const url = inMapFolder ? `http://localhost:8080/map/${page}` : "http://localhost:8080";
+
+    document.body.innerHTML = `
+      <div class="served-warning">
+        <h1>Ouvre le site par le serveur local</h1>
+        <p>Cette page a été ouverte directement depuis le disque
+        (<code>file://</code>). Dans ce mode, le navigateur interdit de lire
+        les fichiers de données du site : rien ne peut s'afficher.</p>
+        <p>Depuis le dossier <code>eana/</code>, lance :</p>
+        <pre>node scripts/dev-server.js 8080</pre>
+        <p>puis ouvre <a href="${url}">${url}</a></p>
+      </div>`;
+    return true;
+  }
+
   async function sha256Hex(text) {
     const enc = new TextEncoder().encode(text);
     const digest = await crypto.subtle.digest("SHA-256", enc);
@@ -107,6 +133,13 @@ const EanaData = (() => {
     return getAllByCategory(categoryId).length;
   }
 
+  // Toutes les fiches, sans filtre de visibilité. Réservé aux outils de
+  // maître hors site publié (map/editor.html) : ne jamais utiliser pour
+  // une vue destinée aux visiteurs.
+  function getAllArticles() {
+    return manifestArticles;
+  }
+
   function getRecentArticles(limit = 6) {
     return [...getVisibleArticles()]
       .sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0))
@@ -135,12 +168,14 @@ const EanaData = (() => {
 
   return {
     init,
+    blockIfFileProtocol,
     getCategories,
     getCategory,
     getBanner,
     getArticlesByCategory,
     getAllByCategory,
     countAllByCategory,
+    getAllArticles,
     getRecentArticles,
     searchArticles,
     getManifestEntry,

@@ -7,19 +7,34 @@ Toutes les commandes ci-dessous (`node scripts/...`) s'exécutent **depuis ce do
 ## Structure
 
 ```
-index.html            Page unique (accueil / catégorie / fiche article)
-css/style.css          Système visuel (papier quadrillé, cartouches, typographie…)
+index.html            Page principale (accueil / catégorie / fiche article)
+map/index.html         Carte interactive — voir "Carte interactive" plus bas
+map/map.css             Styles propres à la carte (viewport, repères, outils)
+map/map.js               Repères et routage minimal de la carte
+map/editor.html          Éditeur de repères (outil local, voir plus bas)
+map/editor.css           Styles de l'éditeur
+map/editor.js            Logique de l'éditeur
+js/mapview.js            Pan/zoom, partagé entre la carte et l'éditeur
+js/mappoints.js          Chargement des points/types et dessin d'un repère, partagés
+css/style.css          Système visuel partagé (papier quadrillé, cartouches, typographie…)
 js/data.js              Chargement des données + filtrage public/OFF + mode maître
 js/render.js             Construction du HTML des vues
-js/app.js                 Routing (#/…), interactions, animations
+js/i18n.js               Lit data/strings.json, expose EanaI18n.t()/plural()
+js/overlay.js            Panneau de fiche, partagé entre la page principale et la carte
+js/theme.js              Bascule clair/sombre, partagée
+js/master.js             Indicateur + fenêtre de passphrase du mode maître, partagés
+js/app.js                 Routing (#/…) et vues de la page principale
 data/categories.json    Les catégories (une fiche = une catégorie d'univers, pas un texte d'interface)
 data/strings.json       Tout le texte d'interface (titres, boutons, messages) — voir "Réutiliser ce site" plus bas
 data/manifest.json      Index généré des fiches (NE PAS éditer à la main)
 data/banners.json       Config des bannières disponibles (id, label, image)
+data/map-points.json    Repères de la carte interactive (édités via map/editor.html)
+data/map-point-types.json  Types de repères (cité, forteresse, port…)
+data/map-config.json    Chemin de l'image de la carte — seul endroit à changer pour la remplacer
 data/articles/<categorie>/*.json    Une fiche = un fichier JSON, rangé dans le dossier de sa catégorie
-js/i18n.js               Lit data/strings.json, expose EanaI18n.t()/plural()
 images/ui/               Icônes de catégories (SVG)
 images/placeholders/     Visuels de repli : carte-<categorie>.svg (16:9) et portrait-defaut.svg (9:10)
+images/map/              Image(s) de la carte interactive
 mockups/                 Pistes de design explorées avant la refonte (non utilisées par le site)
 scripts/build-manifest.js  Régénère data/manifest.json
 scripts/dev-server.js     Petit serveur statique pour prévisualiser en local
@@ -48,6 +63,70 @@ Un bouton en bas à gauche bascule entre parchemin clair et parchemin de nuit. L
 Toutes les couleurs viennent de variables CSS définies dans `:root`, et le mode sombre se contente de les redéfinir sous `:root[data-theme="dark"]`. Pour ajuster une teinte, il suffit donc de modifier la variable dans les deux blocs — rien à chercher ailleurs dans la feuille de style.
 
 Les gabarits de `images/placeholders/` ont un **fond transparent** : c'est la vignette qui donne sa couleur, donc ils suivent le thème sans avoir à maintenir deux jeux d'images. Si tu ajoutes tes propres gabarits, garde ce principe.
+
+## Carte interactive (`/map`)
+
+Une carte pannable/zoomable à `eana/map/`, avec des repères cliquables qui ouvrent une fiche du codex — même panneau, même animation qu'ailleurs sur le site (voir "Architecture partagée" plus bas).
+
+**Pas encore de vraie carte** : `images/map/placeholder-map.svg` est un gabarit en attendant, dans les tons parchemin fixes (comme une bannière, une carte dessinée dans l'univers ne suit pas le thème du lecteur).
+
+### Remplacer la carte
+
+1. Dépose ton image dans `images/map/` (PNG, JPG, WEBP ou SVG).
+2. Change la ligne `"image"` de **`data/map-config.json`**. C'est le seul endroit : la page publique et l'éditeur lisent tous les deux ce fichier.
+3. **Si c'est un SVG**, mets des attributs `width`/`height` explicites sur la balise `<svg>` racine (en plus du `viewBox`) — sans ça, certains navigateurs rapportent une taille naturelle instable et dépendante de la mise en page CSS du moment, ce qui fausse le calcul du zoom.
+4. Les coordonnées des repères étant en pourcentage, elles restent valables si le **ratio** de la nouvelle image est proche de l'ancien. Sinon, repositionne-les dans `map/editor.html`.
+
+### Éditeur de repères (`map/editor.html`)
+
+**Le plus simple : ne pas éditer `data/map-points.json` à la main.** Lance le serveur local et ouvre l'éditeur :
+
+```bash
+node scripts/dev-server.js 8080
+```
+
+puis `http://localhost:8080/map/editor.html`.
+
+Le fonctionnement : tu choisis un type dans la palette, tu cliques sur la carte pour poser un repère, une fenêtre te demande la fiche à lier (recherche par titre, **fiches privées comprises** — c'est un outil de maître), tu valides, puis **Enregistrer** écrit directement dans `data/map-points.json`. Il ne reste qu'à publier.
+
+- **Déplacer** un repère : le glisser sur la carte.
+- **Modifier / supprimer** : cliquer dessus, ou le choisir dans la liste de gauche.
+- La liste signale en rouge un repère dont la fiche liée n'existe plus.
+- L'identifiant du repère est dérivé du titre de la fiche (`Port-Gémeau` → `port-gemeau`), pour que le JSON reste lisible.
+
+L'écriture directe passe par `POST /api/map-points`, une route servie **uniquement par `scripts/dev-server.js`** et refusée hors machine locale.
+
+⚠️ **L'éditeur ne s'exécute que depuis `localhost`.** Il est publié avec le site (c'est un fichier statique de plus), mais s'y affiche seulement comme un message renvoyant vers le serveur local. La raison n'est pas l'écriture — qu'il ne peut de toute façon pas faire sans le serveur — mais la **lecture** : sa recherche de fiches liste aussi les fiches `OFF`, donc laissé actif en ligne il aurait révélé les titres de tes brouillons et spoilers à quiconque connaît l'URL.
+
+### Types de repères (`data/map-point-types.json`)
+
+Neuf types par défaut (cité, forteresse, ruine, sanctuaire, relief, forêt, port, bataille, repère). Chacun a un `id`, un `label`, un `path` SVG (dessiné sur un viewBox 24×24, en trait) et un `accent` optionnel — `sea` pour les lieux naturels, cinabre par défaut. Ajoute ou modifie librement : la palette de l'éditeur et la carte suivent le fichier.
+
+### Points de repère (`data/map-points.json`)
+
+```json
+{ "id": "rosalith", "type": "cite", "article": "rosalith", "x": 27, "y": 46 }
+```
+
+- `x`/`y` : pourcentage (0-100) de la largeur/hauteur de l'image de la carte. Mesure-les par rapport à l'image *finale*, pas au placeholder — ou laisse l'éditeur les poser.
+- `type` : optionnel, un `id` de `data/map-point-types.json`. Sans type, le repère retombe sur l'icône de la catégorie de sa fiche liée (comportement des points créés avant les types).
+- `article` : optionnel, l'id d'une fiche du codex (n'importe quelle catégorie — personnage, lieu, créature...).
+- `label` : optionnel. Sans `article`, affiché dans une bulle au clic (le repère n'ouvre alors aucune fiche). Avec `article`, surcharge le titre de la fiche pour l'étiquette du repère.
+- Un point lié à une fiche `OFF` est **invisible** en mode public, y compris sa position — contrairement aux grilles du codex (qui affichent un `?` verrouillé), une carte peut spoiler par le simple emplacement d'un repère. Il réapparaît normalement en mode maître.
+
+### Architecture partagée
+
+La carte réutilise le même code que la page principale plutôt que de dupliquer la fiche/le thème/le mode maître :
+
+| Fichier | Rôle |
+|---|---|
+| `js/overlay.js` | Ouverture/fermeture de la fiche, changement de chapitre, mise en colonnes. |
+| `js/theme.js` | Bascule clair/sombre. |
+| `js/master.js` | Indicateur et fenêtre de passphrase du mode maître. |
+
+`js/app.js` (page principale) et `map/map.js` (carte) ne contiennent plus que ce qui leur est propre : le routage par onglets/catégories pour l'un, le pan/zoom et les repères pour l'autre.
+
+`map/index.html` déclare `<base href="../">` : le HTML/JS partagé écrit ses chemins (`data/...`, `images/...`) comme si la page était à la racine du site, ce qui est vrai pour `index.html` mais pas pour une page à `map/`. Le `<base>` corrige ça pour toute URL relative de la page, y compris celles injectées dynamiquement (fiche, bannière) — sans lui, il aurait fallu faire porter un préfixe à travers tout le code partagé.
 
 ## Formats d'image
 
@@ -132,6 +211,8 @@ node scripts/dev-server.js 8080
 ```
 
 puis ouvrir `http://localhost:8080`.
+
+⚠️ **Toujours passer par cette adresse**, jamais en double-cliquant sur `index.html`. Ouvert directement depuis le disque (`file://`), le navigateur interdit à la page de lire ses propres fichiers de données : le site reste vide et la console se remplit d'erreurs CORS. Le cas est détecté et affiche un message explicite, mais autant l'éviter.
 
 ## Mode maître (fiches `OFF`)
 

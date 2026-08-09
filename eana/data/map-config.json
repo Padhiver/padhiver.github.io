@@ -1,0 +1,4 @@
+{
+  "_comment": "Réglages de la carte interactive. \"image\" est le chemin de l'image de fond, depuis la racine du site (eana/). C'est le SEUL endroit à modifier pour remplacer la carte : la page publique et l'éditeur lisent tous les deux ce fichier. Formats acceptés : PNG, JPG, WEBP, SVG. Pour un SVG, pense à mettre des attributs width/height explicites sur la balise <svg> racine, en plus du viewBox — sans eux certains navigateurs rapportent une taille instable et le zoom part de travers. Les coordonnées des repères étant en pourcentage, elles restent valables si tu changes de résolution à ratio identique ; sinon, il faut les repositionner (map/editor.html).",
+  "image": "images/map/Eana échelle.webp"
+}

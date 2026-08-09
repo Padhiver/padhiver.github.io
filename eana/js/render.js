@@ -20,6 +20,12 @@ const EanaRender = (() => {
     return icons[categoryId] || "";
   }
 
+  // Accès en lecture depuis l'extérieur (ex. map/map.js, qui dessine ses
+  // propres repères avec l'icône de la catégorie de l'article visé).
+  function getIcon(categoryId) {
+    return icon(categoryId);
+  }
+
   function shortLabel(categoryId) {
     return categoryLabels[categoryId] || "";
   }
@@ -273,6 +279,7 @@ const EanaRender = (() => {
 
   return {
     setIcons,
+    getIcon,
     setCategoryLabels,
     renderHome,
     renderCategory,

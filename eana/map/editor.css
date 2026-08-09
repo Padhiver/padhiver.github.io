@@ -1,0 +1,247 @@
+/* =========================================================
+   Eana — éditeur de repères de carte (outil local).
+   S'appuie sur css/style.css et map/map.css ; ne contient que
+   ce qui est propre à l'éditeur : panneau latéral, palette de
+   types, liste des repères, fenêtre d'édition.
+   ========================================================= */
+
+.editor-shell { max-width: 1800px; }
+
+.editor-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 18px 0 14px;
+  flex: none;
+  position: relative;
+}
+.editor-page .map-back { position: static; }
+
+.editor-title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--sea);
+  margin: 0;
+}
+
+.editor-status {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.save-state {
+  font-family: var(--font-display);
+  font-size: 0.64rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+.save-state.dirty { color: var(--cinabre); }
+.save-state.saved { color: var(--sea); }
+
+.editor-btn {
+  font-family: var(--font-display);
+  font-size: 0.64rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  padding: 9px 16px;
+  border: 1px solid var(--line);
+  background: var(--paper-2);
+  color: var(--ink-2);
+  cursor: pointer;
+  transition: 0.2s;
+}
+.editor-btn:hover:not(:disabled) { border-color: var(--sea); color: var(--sea); }
+.editor-btn:disabled { opacity: 0.4; cursor: default; }
+.editor-btn-primary { background: var(--sea); border-color: var(--sea); color: var(--paper-2); }
+.editor-btn-primary:hover:not(:disabled) { background: var(--cinabre); border-color: var(--cinabre); color: var(--paper-2); }
+.editor-btn-danger { color: var(--cinabre); }
+.editor-btn-danger:hover { border-color: var(--cinabre); color: var(--cinabre); }
+
+/* ---------- Corps : panneau + carte ---------- */
+
+.editor-body {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 16px;
+}
+
+.editor-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.editor-section { display: flex; flex-direction: column; gap: 8px; min-height: 0; }
+.editor-section-grow { flex: 1; }
+
+.editor-section h2 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.62rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--cinabre);
+  margin: 0;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+.editor-count { color: var(--ink-3); font-size: 0.9em; }
+.editor-hint { margin: 0; font-size: 0.92rem; color: var(--ink-2); font-style: italic; line-height: 1.4; }
+
+.editor-input {
+  width: 100%;
+  padding: 9px 12px;
+  background: var(--paper-2);
+  border: 1px solid var(--line);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: var(--ink);
+  outline: none;
+  transition: border-color 0.2s;
+}
+.editor-input:focus { border-color: var(--sea); }
+select.editor-input { cursor: pointer; }
+
+/* ---------- Palette de types ---------- */
+
+.type-palette { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.type-chip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding: 9px 4px;
+  border: 1px solid var(--line-soft);
+  background: var(--paper-2);
+  color: var(--ink-2);
+  cursor: pointer;
+  transition: 0.15s;
+}
+.type-chip svg { width: 20px; height: 20px; }
+.type-chip span {
+  font-family: var(--font-display);
+  font-size: 0.54rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.2;
+}
+.type-chip:hover { border-color: var(--sea); color: var(--sea); }
+.type-chip.active { border-color: var(--cinabre); color: var(--cinabre); background: var(--paper-hover); }
+
+/* ---------- Liste des repères ---------- */
+
+.point-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  flex: 1;
+  min-height: 0;
+  border-top: 1px solid var(--line-soft);
+}
+.point-list li {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 8px 6px;
+  border-bottom: 1px solid var(--line-soft);
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.point-list li:hover { background: var(--paper-hover); }
+.point-list li.selected { background: var(--paper-hover); box-shadow: inset 2px 0 0 var(--cinabre); }
+.point-list svg { width: 16px; height: 16px; color: var(--cinabre); flex: none; }
+.point-list .pl-name { flex: 1; font-size: 0.98rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.point-list .pl-meta {
+  font-family: var(--font-display);
+  font-size: 0.56rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+.point-list .pl-orphan { color: var(--cinabre); }
+.point-list-empty { padding: 16px 4px; font-style: italic; color: var(--ink-3); font-size: 0.94rem; }
+
+/* ---------- Carte en mode édition ---------- */
+
+.editor-map-frame { min-height: 0; }
+.editor-page .map-viewport { cursor: crosshair; }
+.editor-page .map-viewport.dragging { cursor: grabbing; }
+.editor-page .map-pin { cursor: move; }
+.editor-page .map-pin.selected .map-pin-scale {
+  background: var(--cinabre);
+  color: var(--on-accent);
+  box-shadow: 0 0 0 3px var(--paper-2), 0 0 0 5px var(--cinabre);
+}
+.editor-page .map-pin.selected .map-pin-scale svg { color: var(--on-accent); }
+
+/* ---------- Fenêtre d'édition ---------- */
+
+.editor-dialog { width: min(94vw, 460px); text-align: left; }
+.editor-dialog h5 { text-align: left; }
+.editor-label {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 0.58rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  margin: 14px 0 5px;
+}
+.editor-optional { text-transform: none; letter-spacing: 0; font-family: var(--font-body); font-size: 0.9rem; }
+
+.article-picker { position: relative; }
+.article-results {
+  position: absolute;
+  top: calc(100% + 2px);
+  left: 0;
+  right: 0;
+  z-index: 5;
+  max-height: 220px;
+  overflow-y: auto;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: var(--paper-2);
+  border: 1px solid var(--line);
+  box-shadow: 0 12px 30px -14px var(--shadow-panel);
+}
+.article-results li { padding: 8px 12px; cursor: pointer; font-size: 0.98rem; display: flex; gap: 8px; align-items: baseline; }
+.article-results li:hover, .article-results li.active { background: var(--paper-hover); }
+.article-results .ar-cat {
+  font-family: var(--font-display);
+  font-size: 0.54rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  margin-left: auto;
+}
+.article-results .ar-off { color: var(--cinabre); }
+
+.article-chosen { margin: 8px 0 0; font-size: 0.96rem; color: var(--ink-2); font-style: italic; }
+.article-chosen.has-article { color: var(--sea); font-style: normal; }
+
+.editor-coords {
+  margin: 16px 0 0;
+  font-family: var(--font-display);
+  font-size: 0.56rem;
+  letter-spacing: 0.14em;
+  color: var(--ink-3);
+}
+
+@media (max-width: 900px) {
+  .editor-body { grid-template-columns: 1fr; grid-template-rows: auto 1fr; }
+  .editor-panel { max-height: 34vh; }
+  .type-palette { grid-template-columns: repeat(5, 1fr); }
+}

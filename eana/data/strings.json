@@ -70,5 +70,22 @@
 
   "common": {
     "close": "Fermer"
+  },
+
+  "nav": {
+    "map": "Carte"
+  },
+
+  "map": {
+    "title": "Carte — Codex d'Eana",
+    "description": "Carte interactive de l'univers d'Eana.",
+    "eyebrow": "Repères du monde connu",
+    "subtitle": "Clique un repère pour ouvrir sa fiche.",
+    "backToCodex": "Retour au codex",
+    "zoomIn": "Zoom avant",
+    "zoomOut": "Zoom arrière",
+    "resetView": "Recentrer la carte",
+    "untitledPoint": "Lieu sans nom",
+    "imageError": "La carte n'a pas pu être chargée. Vérifie que le fichier image existe bien dans images/map/."
   }
 }
