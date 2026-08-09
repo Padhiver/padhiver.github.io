@@ -97,7 +97,7 @@ const EanaData = (() => {
 
   // Grille de catégorie : les fiches OFF y figurent aussi, mais rendues
   // verrouillées (un "?" sans nom ni lien) pour montrer ce qui est en
-  // préparation. Ne jamais utiliser pour la recherche ni le registre : le
+  // préparation. Ne jamais utiliser pour la recherche : le
   // titre d'une fiche OFF ne doit apparaître nulle part.
   function getAllByCategory(categoryId) {
     return manifestArticles.filter((a) => a.category === categoryId);

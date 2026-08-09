@@ -12,16 +12,34 @@ css/style.css          Système visuel (papier quadrillé, cartouches, typograph
 js/data.js              Chargement des données + filtrage public/OFF + mode maître
 js/render.js             Construction du HTML des vues
 js/app.js                 Routing (#/…), interactions, animations
-data/categories.json    Les 4 catégories fixes
+data/categories.json    Les catégories (une fiche = une catégorie d'univers, pas un texte d'interface)
+data/strings.json       Tout le texte d'interface (titres, boutons, messages) — voir "Réutiliser ce site" plus bas
 data/manifest.json      Index généré des fiches (NE PAS éditer à la main)
 data/banners.json       Config des bannières disponibles (id, label, image)
 data/articles/<categorie>/*.json    Une fiche = un fichier JSON, rangé dans le dossier de sa catégorie
+js/i18n.js               Lit data/strings.json, expose EanaI18n.t()/plural()
 images/ui/               Icônes de catégories (SVG)
 images/placeholders/     Visuels de repli : carte-<categorie>.svg (16:9) et portrait-defaut.svg (9:10)
 mockups/                 Pistes de design explorées avant la refonte (non utilisées par le site)
 scripts/build-manifest.js  Régénère data/manifest.json
 scripts/dev-server.js     Petit serveur statique pour prévisualiser en local
 ```
+
+## Réutiliser ce site pour un autre univers
+
+Le code (`js/`, `css/`, `index.html`) ne contient plus aucun texte propre à Eana — tout est dans trois fichiers de données :
+
+| Fichier | Ce qu'il contrôle |
+|---|---|
+| `data/strings.json` | Tout le texte d'interface : titre du site, boutons ("Public", "Maître"…), messages vides, libellés de pagination, textes de la fenêtre de passphrase. Sur le modèle d'un fichier de langue `fr.json`. |
+| `data/categories.json` | Les catégories elles-mêmes : `label` (nom complet, affiché en titre de page), `shortLabel` (nom court, affiché sur les onglets et vignettes — optionnel, retombe sur `label` si absent), `description`, `icon`. |
+| `data/articles/` | Le contenu — géré fiche par fiche, sans rapport avec ce point. |
+
+Pour un nouvel univers : vide `data/articles/`, réécris `data/categories.json` avec tes propres catégories (les icônes dans `images/ui/icon-<icon>.svg` et gabarits dans `images/placeholders/carte-<id>.svg` doivent suivre les nouveaux identifiants), et adapte `data/strings.json` — en particulier `site.title`, `site.eyebrow`, `site.subtitle`. Aucun fichier `.js` n'a besoin d'être touché.
+
+Dans `data/strings.json`, une valeur peut être soit une phrase simple, soit un objet `{ "one": "...", "other": "..." }` pour accorder correctement le singulier/pluriel (ex. "1 article" / "3 articles"). Les `{variable}` entre accolades sont remplacées à l'affichage (ex. `"Chercher dans {category}"`).
+
+Si tu casses une clé (faute de frappe, clé supprimée), le site ne plante pas : il affiche la clé elle-même à l'écran et un avertissement dans la console, pour que l'erreur soit visible sans bloquer la navigation.
 
 ## Mode sombre
 
@@ -99,13 +117,13 @@ Liste libre, sans nombre fixe — ajoute/retire des entrées selon ton lore :
 
 **`data/manifest.json` se régénère automatiquement en local**, pas besoin de lancer `build-manifest.js` à la main pendant que tu travailles : `scripts/dev-server.js` le régénère à chaque requête sur `data/manifest.json` — crée/modifie une fiche, rafraîchis la page, c'est à jour.
 
-Il n'y a **pas** de régénération côté GitHub (plus de workflow qui committe après coup — ça causait des divergences entre le dépôt local et distant). À la place, la régénération se fait avant l'envoi, via `publier.bat` (voir ci-dessous).
+Il n'y a **pas** de régénération côté GitHub (plus de workflow qui committe après coup — ça causait des divergences entre le dépôt local et distant). À la place, la régénération se fait en local avant l'envoi, via `publier.bat` (voir ci-dessous).
 
 Le script (`node scripts/build-manifest.js`) valide aussi que chaque fiche a bien `title`, `category`, un `public` correct (`ON`/`OFF`), et que son dossier correspond à sa `category` ; il s'arrête avec un message clair si une fiche est mal formée.
 
 ## Publier les modifications
 
-Une fois tes modifications faites (fiches, images, CSS...), double-clique sur `publier.bat` à la racine de ce dossier. Il régénère le manifest, puis committe et pousse tout vers GitHub, en une seule fois. Rien d'autre à faire — pas de commande à taper, pas de `git add`/`commit`/`push` manuel.
+Une fois tes modifications faites (fiches, images, CSS...), double-clique sur `publier.bat` à la racine de ce dossier. Il régénère `data/manifest.json` et s'arrête là — **il n'envoie rien sur GitHub**. L'envoi se fait ensuite à la main via GitHub Desktop (ou `git add`/`commit`/`push` en ligne de commande, au choix).
 
 ## Prévisualiser en local
 
@@ -130,7 +148,7 @@ https://padhiver.github.io/eana/?maitre=ta-passphrase
 
 Le mode reste actif ensuite (stocké dans le navigateur). Pour le quitter : cliquer sur "Public", cliquer sur l'indicateur "Mode maître" en bas à droite, ou ouvrir `?maitre=off`.
 
-En mode maître, les fiches `OFF` réapparaissent partout (accueil, grilles, registre, recherche, articles liés) et portent une étiquette rouge "Privé" sur leur vignette.
+En mode maître, les fiches `OFF` réapparaissent partout (accueil, grilles, recherche, articles liés) et portent une étiquette rouge "Privé" sur leur vignette.
 
 ### Ce que voit un visiteur d'une fiche `OFF`
 
@@ -139,7 +157,6 @@ Une fiche `OFF` n'est pas cachée : elle occupe sa place dans la grille de sa ca
 Son titre n'apparaît nulle part côté visiteur : ni le nom ni l'identifiant (qui dérive du titre) ne sont écrits dans la page. Elle est donc absente :
 
 - des articles récents de l'accueil,
-- du registre alphabétique,
 - des résultats de recherche (chercher son nom exact ne la fait pas apparaître — la grille repasse en mode filtré dès qu'une recherche est saisie),
 - des "articles liés" des autres fiches.
 
@@ -162,7 +179,7 @@ Copier le résultat dans `js/data.js`, constante `MASTER_HASH`. La passphrase el
 Ce dossier fait partie du dépôt `padhiver.github.io` (dépôt utilisateur GitHub Pages existant, remote déjà configuré, branche `main`) — pas besoin de créer un dépôt séparé ni de `git remote add`.
 
 1. Première fois : `Settings → Pages → Source → Deploy from a branch`, choisir la branche `main` et le dossier `/ (root)` (si pas déjà fait).
-2. À chaque mise à jour : lancer `publier.bat` (voir "Publier les modifications" plus haut).
+2. À chaque mise à jour : lancer `publier.bat` (voir "Publier les modifications" plus haut), puis pousser le commit vers GitHub via GitHub Desktop.
 3. Le site est disponible à `https://padhiver.github.io/eana` (le reste du dépôt peut héberger d'autres sites dans d'autres sous-dossiers, ex. `padhiver.github.io/autre-site`, sans interférer avec celui-ci).
 
 GitHub Pages republie automatiquement à chaque `push`, quelques minutes après.

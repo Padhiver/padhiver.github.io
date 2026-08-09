@@ -18,7 +18,6 @@
   // fiche laisse la page blanche.
   let mainViewRendered = false;
   let homeQuery = "";
-  let registerLetter = null;
   const categoryState = {}; // { [categoryId]: { page, query } }
   let overlayPageIndex = 0;
   let pendingCardOrigin = null;
@@ -56,67 +55,13 @@
     });
   }
 
+  function wait(ms) {
+    return new Promise((resolve) => setTimeout(resolve, ms));
+  }
+
   function getCatState(id) {
     if (!categoryState[id]) categoryState[id] = { page: 0, query: "" };
     return categoryState[id];
-  }
-
-  // ---------- Registre alphabétique ----------
-
-  // Les ligatures et lettres barrées n'ont pas de décomposition Unicode
-  // (Œ n'est ni canoniquement ni "compatiblement" décomposable en OE), donc
-  // ni NFD ni NFKD ne les réduisent : il faut les traduire à la main pour
-  // que « Œildrac » soit rangé dans les O.
-  const LETTER_ALIASES = {
-    "Œ": "OE", "œ": "OE", "Æ": "AE", "æ": "AE",
-    "Ø": "O", "ø": "O", "Ł": "L", "ł": "L",
-    "Đ": "D", "đ": "D", "Ð": "D", "ð": "D",
-    "Þ": "TH", "þ": "TH", "ß": "SS",
-  };
-
-  // Les titres français commencent massivement par un article ("Le royaume
-  // de Valœd", "L'adamantite") : sans le retirer, la lettre L absorbait 301
-  // des 442 fiches. On classe donc sur le premier mot significatif, comme un
-  // catalogue de bibliothèque, tout en affichant le titre entier.
-  // L'apostrophe doit être exigée pour "l'", et l'espace pour "le/la/les",
-  // sinon "Lestange" ou "Ladrone" seraient tronqués.
-  const LEADING_ARTICLE = /^(?:l['’]\s*|(?:le|la|les|un|une|des)\s+)/i;
-
-  function filingTitle(title) {
-    const raw = String(title || "").trim();
-    const stripped = raw.replace(LEADING_ARTICLE, "").trim();
-    return stripped || raw;
-  }
-
-  function initialOf(title) {
-    const normalized = filingTitle(title)
-      .replace(/[ŒœÆæØøŁłĐđÐðÞþß]/g, (c) => LETTER_ALIASES[c] || c)
-      .normalize("NFD")
-      .replace(/[̀-ͯ]/g, "");
-    const first = normalized.charAt(0).toUpperCase();
-    return /[A-Z]/.test(first) ? first : "#";
-  }
-
-  function buildRegister() {
-    const all = EanaData.searchArticles(null, "");
-    const grouped = {};
-    all.forEach((a) => {
-      const l = initialOf(a.title);
-      (grouped[l] = grouped[l] || []).push(a);
-    });
-    Object.values(grouped).forEach((list) => {
-      list.sort((a, b) => filingTitle(a.title).localeCompare(filingTitle(b.title), "fr"));
-    });
-
-    const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
-    if (grouped["#"]) alphabet.push("#");
-    const letters = alphabet.map((l) => ({ letter: l, count: (grouped[l] || []).length }));
-
-    if (!registerLetter || !(grouped[registerLetter] || []).length) {
-      const firstFilled = letters.find((l) => l.count > 0);
-      registerLetter = firstFilled ? firstFilled.letter : "A";
-    }
-    return { letters, items: grouped[registerLetter] || [] };
   }
 
   // ---------- Rendu : Accueil ----------
@@ -129,7 +74,6 @@
     // grille de catégorie affiche réellement (publiées + verrouillées).
     const counts = {};
     cats.forEach((c) => { counts[c.id] = EanaData.countAllByCategory(c.id); });
-    const { letters, items } = buildRegister();
 
     app.innerHTML = EanaRender.renderHome({
       recentArticles: recent,
@@ -137,9 +81,6 @@
       counts,
       query: homeQuery,
       searchResults: results,
-      letters,
-      activeLetter: registerLetter,
-      letterArticles: items,
       total: cats.reduce((sum, c) => sum + counts[c.id], 0),
       masterActive: EanaData.isMasterActive(),
     });
@@ -155,16 +96,6 @@
         if (resultsEl) resultsEl.innerHTML = EanaRender.renderSearchResults(r);
       });
     }
-  }
-
-  function updateRegister() {
-    const { letters, items } = buildRegister();
-    const list = document.getElementById("register");
-    if (list) list.innerHTML = EanaRender.renderRegister(items);
-    document.querySelectorAll(".letter[data-letter]").forEach((b) => {
-      b.classList.toggle("active", b.getAttribute("data-letter") === registerLetter);
-    });
-    return letters;
   }
 
   // ---------- Rendu : Catégorie ----------
@@ -320,11 +251,11 @@
     const meta = document.querySelector(".section-title .meta");
     if (meta) {
       const n = gridArticles(categoryId, getCatState(categoryId).query).length;
-      meta.textContent = `${n} entrée${n > 1 ? "s" : ""}`;
+      meta.textContent = EanaI18n.plural("category.entryCount", n);
     }
 
     const input = document.getElementById("search-input");
-    if (input) input.placeholder = `Chercher dans ${category.label.toLowerCase()}`;
+    if (input) input.placeholder = EanaI18n.t("search.placeholderCategory", { category: category.label.toLowerCase() });
   }
 
   // ---------- Mise en page du texte de fiche ----------
@@ -432,12 +363,20 @@
       ? EanaData.getBanner(article.banner.id)
       : null;
 
-    const isFreshOpen = resetPage;
-    const overlayClass = isFreshOpen ? "article-overlay overlay-entering" : "article-overlay";
+    const renderOpts = { article, category, page: overlayPageIndex, related, banner };
+    const openPanel = document.querySelector("#article-overlay .article-panel");
 
-    overlayRoot.innerHTML = `<div class="${overlayClass}" id="article-overlay">${EanaRender.renderArticleOverlay({
-      article, category, page: overlayPageIndex, related, banner, pageSwap: !isFreshOpen,
-    })}</div>`;
+    // Un panneau est déjà ouvert (article lié cliqué depuis une fiche, ou
+    // changement de chapitre) : on le garde en place et on n'échange que son
+    // contenu, plutôt que de le détruire et le reconstruire.
+    if (openPanel) {
+      await swapPanelContent(openPanel, EanaRender.articlePanelInner(renderOpts), id);
+      return;
+    }
+
+    overlayRoot.innerHTML = `<div class="article-overlay overlay-entering" id="article-overlay">${
+      EanaRender.renderArticleOverlay(renderOpts)
+    }</div>`;
 
     wireOverlayEvents(id);
     document.body.style.overflow = "hidden";
@@ -447,6 +386,55 @@
     if (document.fonts && document.fonts.ready) {
       // Recorrige une fois les polices chargées (première ouverture avant cache).
       document.fonts.ready.then(() => fillColumnsSequentially(overlayRoot.querySelector(".body-text")));
+    }
+  }
+
+  // Échange le contenu d'un panneau déjà à l'écran : fondu sortant, remplacement
+  // du contenu, puis la hauteur du cartouche glisse de l'ancienne à la nouvelle
+  // pendant que le nouveau contenu apparaît.
+  async function swapPanelContent(panel, innerHtml, id) {
+    const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const overlay = document.getElementById("article-overlay");
+
+    const applyContent = () => {
+      panel.innerHTML = innerHtml;
+      wireOverlayEvents(id);
+      // La mise en colonnes doit être calculée avant de mesurer la hauteur finale.
+      fillColumnsSequentially(panel.querySelector(".body-text"));
+    };
+
+    if (reduced) {
+      applyContent();
+      if (overlay) overlay.scrollTop = 0;
+      return;
+    }
+
+    const startHeight = panel.getBoundingClientRect().height;
+
+    panel.classList.add("panel-fading");
+    await wait(180);
+
+    // Le contenu est invisible : on peut remonter en haut sans que ça saute.
+    if (overlay) overlay.scrollTop = 0;
+    panel.style.height = "";
+    applyContent();
+    const endHeight = panel.getBoundingClientRect().height;
+
+    if (Math.abs(endHeight - startHeight) > 2) {
+      panel.style.height = `${startHeight}px`;
+      panel.getBoundingClientRect(); // force le recalcul avant d'animer
+      panel.classList.add("panel-resizing");
+      panel.style.height = `${endHeight}px`;
+      panel.classList.remove("panel-fading");
+      await waitTransitionEnd(panel, "height", 520);
+      panel.classList.remove("panel-resizing");
+      panel.style.height = "";
+    } else {
+      panel.classList.remove("panel-fading");
+    }
+
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(() => fillColumnsSequentially(panel.querySelector(".body-text")));
     }
   }
 
@@ -505,7 +493,7 @@
     });
 
     const btn = document.getElementById("theme-toggle");
-    if (btn) btn.title = dark ? "Mode clair" : "Mode sombre";
+    if (btn) btn.title = EanaI18n.t(dark ? "theme.toLight" : "theme.toDark");
 
     try {
       if (dark) localStorage.setItem(THEME_KEY, "dark");
@@ -590,13 +578,6 @@
       return;
     }
 
-    const letter = e.target.closest(".letter[data-letter]");
-    if (letter && !letter.disabled) {
-      registerLetter = letter.getAttribute("data-letter");
-      updateRegister();
-      return;
-    }
-
     const openArticle = e.target.closest("[data-open-article]");
     if (openArticle) { navigate(`#/article/${openArticle.getAttribute("data-open-article")}`); return; }
 
@@ -675,19 +656,48 @@
 
   // ---------- Démarrage ----------
 
+  // Dérivé de data/categories.json (champ "icon") plutôt que d'une liste
+  // d'identifiants figée ici : reprendre ce site pour un autre univers avec
+  // d'autres catégories n'a donc rien à toucher dans ce fichier.
   async function loadIcons() {
-    const ids = ["personnages", "geographie", "monde", "creatures"];
-    const entries = await Promise.all(ids.map(async (id) => {
-      const res = await fetch(`images/ui/icon-${id}.svg`);
+    const entries = await Promise.all(EanaData.getCategories().map(async (c) => {
+      const res = await fetch(`images/ui/icon-${c.icon}.svg`);
       const text = await res.text();
-      return [id, text];
+      return [c.id, text];
     }));
     EanaRender.setIcons(Object.fromEntries(entries));
   }
 
+  function loadCategoryLabels() {
+    const map = {};
+    EanaData.getCategories().forEach((c) => { map[c.id] = c.shortLabel || c.label; });
+    EanaRender.setCategoryLabels(map);
+  }
+
+  // Texte statique de index.html (titre, en-tête, bouton de thème…), posé via
+  // data-i18n / data-i18n-attr et rempli une fois data/strings.json chargé.
+  function applyStaticStrings() {
+    document.title = EanaI18n.t("site.title");
+    const description = document.querySelector('meta[name="description"]');
+    if (description) description.setAttribute("content", EanaI18n.t("site.description"));
+
+    document.querySelectorAll("[data-i18n]").forEach((el) => {
+      el.textContent = EanaI18n.t(el.getAttribute("data-i18n"));
+    });
+    document.querySelectorAll("[data-i18n-attr]").forEach((el) => {
+      el.getAttribute("data-i18n-attr").split(";").forEach((pair) => {
+        const [attr, key] = pair.split(":");
+        el.setAttribute(attr.trim(), EanaI18n.t(key.trim()));
+      });
+    });
+  }
+
   async function start() {
     await EanaData.consumeUrlMasterParam();
-    await Promise.all([EanaData.init(), loadIcons()]);
+    await Promise.all([EanaData.init(), EanaI18n.init()]);
+    applyStaticStrings();
+    loadCategoryLabels();
+    await loadIcons();
     wireThemeToggle();
     renderMasterIndicator();
     await handleRoute();

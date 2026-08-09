@@ -1,0 +1,74 @@
+{
+  "_comment": "Textes d'interface du site, séparés du code pour pouvoir réutiliser ce site pour un autre univers sans toucher au JS. Les articles (data/articles/) et les catégories (data/categories.json) restent à côté : ce fichier ne contient que le texte de l'habillage — titres, boutons, messages. Une clé { \"one\": \"...\", \"other\": \"...\" } accorde le singulier/pluriel ; {variable} est remplacé à l'affichage.",
+
+  "site": {
+    "title": "Codex d'Eana",
+    "description": "Encyclopédie de l'univers d'Eana.",
+    "eyebrow": "Compilé par la Guilde des Archivistes",
+    "subtitle": "Consulter différents articles sur l'univers d'Eana."
+  },
+
+  "keyHints": {
+    "escKey": "Échap",
+    "close": "Fermer"
+  },
+
+  "theme": {
+    "toggleAriaLabel": "Basculer entre mode clair et sombre",
+    "toDark": "Mode sombre",
+    "toLight": "Mode clair"
+  },
+
+  "mode": {
+    "public": "Public",
+    "master": "Maître"
+  },
+
+  "search": {
+    "placeholderHome": "Nom d'un lieu, d'une personne, d'un phénomène…",
+    "placeholderCategory": "Chercher dans {category}"
+  },
+
+  "home": {
+    "recentTitle": "Articles récents",
+    "registriesTitle": "Les quatre registres",
+    "registriesTotal": { "one": "{n} entrée", "other": "{n} entrées" },
+    "emptyRecent": "Aucune fiche publiée pour le moment."
+  },
+
+  "category": {
+    "cardCount": { "one": "{n} article", "other": "{n} articles" },
+    "entryCount": { "one": "{n} entrée", "other": "{n} entrées" },
+    "emptySearch": "Aucun article ne correspond à ta recherche.",
+    "emptyDefault": "Aucun article dans cette catégorie pour le moment.",
+    "feuilletPrev": "Feuillet précédent",
+    "feuilletNext": "Feuillet suivant",
+    "feuilletLabel": "Feuillet {current} / {total}"
+  },
+
+  "card": {
+    "lockedAriaLabel": "Fiche à venir",
+    "off": "Privé"
+  },
+
+  "article": {
+    "emptyText": "Fiche sans texte.",
+    "chaptersTitle": "Chapitres",
+    "chapterDefault": "Page {n}",
+    "relatedTitle": "Articles liés"
+  },
+
+  "master": {
+    "title": "Mode maître",
+    "indicatorHint": "Cliquer pour désactiver le mode maître",
+    "gateDescription": "Saisis la passphrase pour afficher aussi les fiches privées.",
+    "gatePlaceholder": "Passphrase",
+    "gateError": "Passphrase incorrecte.",
+    "gateCancel": "Annuler",
+    "gateOpen": "Ouvrir"
+  },
+
+  "common": {
+    "close": "Fermer"
+  }
+}
