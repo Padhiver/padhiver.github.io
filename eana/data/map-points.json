@@ -31,6 +31,13 @@
       "article": "archiduche-de-rosalia",
       "x": 46.94,
       "y": 32.11
+    },
+    {
+      "id": "fort-norvent",
+      "type": "forteresse",
+      "article": "fort-norvent",
+      "x": 40.12,
+      "y": 22.48
     }
   ]
 }

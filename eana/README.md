@@ -35,7 +35,6 @@ data/articles/<categorie>/*.json    Une fiche = un fichier JSON, rangé dans le 
 images/ui/               Icônes de catégories (SVG)
 images/placeholders/     Visuels de repli : carte-<categorie>.svg (16:9) et portrait-defaut.svg (9:10)
 images/map/              Image(s) de la carte interactive
-mockups/                 Pistes de design explorées avant la refonte (non utilisées par le site)
 scripts/build-manifest.js  Régénère data/manifest.json
 scripts/dev-server.js     Petit serveur statique pour prévisualiser en local
 ```
@@ -138,7 +137,9 @@ Les emplacements reprennent les ratios du codex du jeu de référence. Les image
 | `contextImage` | **9:10** | visuel de la fiche, colonne de droite |
 | bannière (`data/banners.json`) | **3:5** | pennon accroché en haut du visuel de fiche |
 
-Sans `cardImage` (ou avec l'ancienne valeur `images/placeholders/emblem-*.svg`), la vignette retombe automatiquement sur `images/placeholders/carte-<categorie>.svg`. Sans `contextImage`, la fiche affiche `images/placeholders/portrait-defaut.svg`. Aucune fiche n'est donc jamais cassée faute d'illustration.
+Sans `cardImage`, la vignette retombe automatiquement sur `images/placeholders/carte-<categorie>.svg`. Sans `contextImage`, la fiche affiche `images/placeholders/portrait-defaut.svg`. Aucune fiche n'est donc jamais cassée faute d'illustration.
+
+⚠️ Les 442 fiches actuelles ont encore `"cardImage": "images/placeholders/emblem-<categorie>.svg"`, un chemin hérité dont **les fichiers ont été supprimés**. Ce n'est pas un problème : `render.js` reconnaît ce chemin et le remplace par le gabarit `carte-*` avant tout affichage, donc l'image n'est jamais demandée. En revanche, **ne retire pas ce test dans `cardImage()`** (`js/render.js`) sans avoir d'abord vidé le champ dans les fiches, sinon les 442 vignettes pointeraient vers un fichier inexistant.
 
 ## Ajouter / modifier une fiche
 
