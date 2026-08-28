@@ -12,7 +12,7 @@
    ========================================================= */
 
 const EanaMapView = (() => {
-  function create({ viewport, canvas, onScaleChange, onMapClick }) {
+  function create({ viewport, canvas, onScaleChange, onViewChange, onMapClick }) {
     let naturalWidth = 2000, naturalHeight = 1400;
     let scale = 1, minScale = 0.2, maxScale = 6;
     let tx = 0, ty = 0;
@@ -28,6 +28,21 @@ const EanaMapView = (() => {
         lastScale = scale;
         if (onScaleChange) onScaleChange(scale);
       }
+      // Le fond en tuiles, lui, doit être prévenu même d'un pan pur : ce
+      // sont d'autres tuiles qui entrent dans le cadre.
+      if (onViewChange) onViewChange(getViewportRect(), scale);
+    }
+
+    // Zone actuellement visible, en pixels de la carte (repère de l'image,
+    // pas de l'écran) : ce qu'il faut pour savoir quelles tuiles charger.
+    function getViewportRect() {
+      const vw = viewport.clientWidth, vh = viewport.clientHeight;
+      return {
+        x1: -tx / scale,
+        y1: -ty / scale,
+        x2: (vw - tx) / scale,
+        y2: (vh - ty) / scale,
+      };
     }
 
     function clamp() {
@@ -176,6 +191,7 @@ const EanaMapView = (() => {
 
     return {
       wire, fit, setSize, setScaleAround, zoomByFactor, screenToMapPercent,
+      getViewportRect,
       getScale: () => scale,
     };
   }

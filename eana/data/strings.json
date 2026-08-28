@@ -86,6 +86,7 @@
     "zoomOut": "Zoom arrière",
     "resetView": "Recentrer la carte",
     "untitledPoint": "Lieu sans nom",
-    "imageError": "La carte n'a pas pu être chargée. Vérifie que le fichier image existe bien dans images/map/."
+    "imageError": "Cette carte n'a pas pu être chargée. Vérifie que ses fichiers existent bien dans images/map/ et que data/map-config.json pointe au bon endroit.",
+    "pickerLabel": "Cartes"
   }
 }

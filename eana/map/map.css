@@ -37,6 +37,29 @@ html:has(.map-page), .map-page {
 /* .corner-link (position/couleur/hover) vient de css/style.css. */
 .map-back::before { content: "←"; font-size: 0.9em; }
 
+/* Rangée des cartes disponibles, au-dessus de Public/Maître. Masquée par le
+   JS (attribut hidden) tant qu'il n'y a qu'une seule carte. */
+.map-picker {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex: none;
+  margin: 0 0 10px;
+  /* Beaucoup de régions : la rangée défile plutôt que de repousser la carte
+     vers le bas, la page ne défilant pas. */
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding-bottom: 2px;
+}
+.map-picker::-webkit-scrollbar { display: none; }
+.map-picker[hidden] { display: none; }
+
+.map-chip {
+  padding: 8px 14px;
+  white-space: nowrap;
+  flex: none;
+}
+
 .map-tools {
   display: flex;
   gap: 12px;
@@ -95,14 +118,24 @@ html:has(.map-page), .map-page {
   will-change: transform;
 }
 
+/* Fond de la carte, rempli par js/mapbackground.js : soit une seule image,
+   soit un aperçu réduit surmonté des tuiles pleine résolution. Les tuiles
+   sont ajoutées après l'aperçu dans le DOM, donc peintes par-dessus. */
+.map-bg {
+  position: absolute;
+  inset: 0;
+}
+
 .map-image {
   display: block;
-  width: 100%;
-  height: 100%;
   pointer-events: none;
   user-select: none;
   -webkit-user-drag: none;
 }
+
+/* Les tuiles portent leur position et leur taille en style inline (calculées
+   depuis la grille), pour que l'assemblage soit jointif au pixel près. */
+.map-tile { position: absolute; }
 
 /* ---------- Repères ---------- */
 
@@ -214,6 +247,10 @@ html:has(.map-page), .map-page {
 
 @media (max-width: 680px) {
   .map-header { padding: 16px 0 10px; }
+  /* Sur petit écran la rangée déborde souvent : on la laisse défiler collée
+     au bord plutôt que centrée, sinon les premières cartes sont coupées. */
+  .map-picker { justify-content: flex-start; }
+  .map-chip { padding: 7px 12px; }
   .map-zoom-controls { right: 12px; top: 12px; }
   /* Les aides clavier chevaucheraient la carte sur petit écran. */
   .map-page .key-hints { display: none; }

@@ -28,6 +28,7 @@
 <div class="app-shell map-shell editor-shell">
   <header class="editor-header">
     <a class="corner-link map-back" href="map/">Voir la carte</a>
+    <a class="corner-link editor-tiles-link" href="map/tiles.html">Découper en tuiles →</a>
     <h1 class="editor-title">Éditeur de repères</h1>
     <div class="editor-status">
       <span id="save-state" class="save-state">Chargement…</span>
@@ -38,6 +39,12 @@
 
   <div class="editor-body">
     <aside class="editor-panel">
+      <section class="editor-section" id="map-picker-section" hidden>
+        <h2>Carte</h2>
+        <p class="editor-hint">Chaque repère appartient à une carte. Les autres restent enregistrés.</p>
+        <div class="type-palette" id="map-picker"></div>
+      </section>
+
       <section class="editor-section">
         <h2>Type de repère</h2>
         <p class="editor-hint">Choisis un type, puis clique sur la carte pour poser un repère.</p>
@@ -54,8 +61,8 @@
     <div class="map-frame editor-map-frame">
       <div class="map-viewport" id="map-viewport">
         <div class="map-canvas" id="map-canvas">
-          <!-- src posé par le JS depuis data/map-config.json -->
-          <img class="map-image" alt="" id="map-image">
+          <!-- Rempli par js/mapbackground.js, comme sur la carte publique. -->
+          <div class="map-bg" id="map-bg"></div>
           <div id="map-pins"></div>
         </div>
       </div>
@@ -119,6 +126,7 @@
 <script src="js/render.js"></script>
 <script src="js/theme.js"></script>
 <script src="js/mapview.js"></script>
+<script src="js/mapbackground.js"></script>
 <script src="js/mappoints.js"></script>
 <script src="map/editor.js"></script>
 </body>

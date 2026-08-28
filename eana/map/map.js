@@ -1,32 +1,68 @@
 /* =========================================================
    Eana — carte interactive : repères cliquables.
-   Le pan/zoom vit dans js/mapview.js et le dessin des repères
-   dans js/mappoints.js (partagés avec l'éditeur) ; ce fichier
-   n'a que le câblage propre à la page publique et un routage
-   minimal (un seul hash possible : #/article/<id>).
+   Le pan/zoom vit dans js/mapview.js, le fond (image ou tuiles)
+   dans js/mapbackground.js et le dessin des repères dans
+   js/mappoints.js — tous partagés avec l'éditeur ; ce fichier
+   n'a que le câblage propre à la page publique et son routage.
+
+   Hash : #/carte/<carte>, éventuellement suivi de
+   /article/<fiche>. L'ancienne forme #/article/<fiche>, sans
+   carte, reste comprise (elle ouvre la carte par défaut).
    ========================================================= */
 
 (() => {
   const viewport = document.getElementById("map-viewport");
   const canvas = document.getElementById("map-canvas");
-  const image = document.getElementById("map-image");
+  const bgRoot = document.getElementById("map-bg");
   const pinsRoot = document.getElementById("map-pins");
   const overlayRoot = document.getElementById("overlay-root");
+  const pickerRoot = document.getElementById("map-picker");
 
-  let pointsData = [];
-  let mapConfig = {};
+  let allPoints = [];
+  let currentMapId = "";
   let view = null;
+  let background = null;
+  // Un changement de carte est asynchrone (chargement d'image) : ce jeton
+  // permet d'ignorer une réponse arrivée après qu'on a changé d'avis.
+  let loadToken = 0;
+
+  // ---------- Sélecteur de cartes ----------
+
+  function renderPicker() {
+    const maps = EanaMapPoints.getMaps();
+    // Un sélecteur d'un seul élément n'apprend rien et mange de la hauteur.
+    pickerRoot.hidden = maps.length < 2;
+    if (maps.length < 2) return;
+
+    pickerRoot.innerHTML = maps.map((m) => `
+      <button type="button" class="chip map-chip${m.id === currentMapId ? " active" : ""}"
+        data-map="${EanaRender.escapeHtml(m.id)}"
+        aria-current="${m.id === currentMapId ? "page" : "false"}">
+        ${EanaRender.escapeHtml(m.label || m.id)}
+      </button>`).join("");
+  }
+
+  pickerRoot.addEventListener("click", (e) => {
+    const chip = e.target.closest("[data-map]");
+    if (!chip) return;
+    const id = chip.getAttribute("data-map");
+    if (id === currentMapId) return;
+    // Changer de carte ferme la fiche ouverte : elle appartenait à l'autre.
+    window.location.hash = buildHash(id, null);
+  });
 
   // ---------- Repères ----------
 
-  function renderPins() {
-    const visible = pointsData.filter((p) => {
+  function visiblePoints() {
+    return EanaMapPoints.pointsForMap(allPoints, currentMapId).filter((p) => {
       if (!p.article) return true;
       const entry = EanaData.getManifestEntry(p.article);
       return entry && EanaData.isVisible(entry);
     });
+  }
 
-    pinsRoot.innerHTML = visible.map((p) => {
+  function renderPins() {
+    pinsRoot.innerHTML = visiblePoints().map((p) => {
       const entry = p.article ? EanaData.getManifestEntry(p.article) : null;
       const label = EanaRender.escapeHtml(
         EanaMapPoints.labelFor(p, entry, EanaI18n.t("map.untitledPoint"))
@@ -57,21 +93,45 @@
     }
   });
 
-  function onImageReady() {
-    view.setSize(image.naturalWidth, image.naturalHeight);
-    view.fit();
-    renderPins();
-  }
+  // ---------- Chargement d'une carte ----------
 
-  function onImageError() {
+  function showMapError() {
     // Sans ce garde-fou, une image absente ou invalide laissait la carte
     // vide et muette : aucun repère, aucune explication.
     viewport.classList.add("map-viewport--error");
     pinsRoot.innerHTML = "";
+    if (viewport.querySelector(".map-error")) return;
     const msg = document.createElement("p");
     msg.className = "map-error";
     msg.textContent = EanaI18n.t("map.imageError");
     viewport.appendChild(msg);
+  }
+
+  function clearMapError() {
+    viewport.classList.remove("map-viewport--error");
+    const msg = viewport.querySelector(".map-error");
+    if (msg) msg.remove();
+  }
+
+  async function showMap(mapId) {
+    currentMapId = EanaMapPoints.resolveMapId(mapId);
+    renderPicker();
+
+    const token = ++loadToken;
+    clearMapError();
+    pinsRoot.innerHTML = "";
+
+    try {
+      const size = await background.load(EanaMapPoints.getMap(currentMapId));
+      if (token !== loadToken) return; // une autre carte a été demandée entre-temps
+      view.setSize(size.width, size.height);
+      view.fit();
+      renderPins();
+    } catch (err) {
+      if (token !== loadToken) return;
+      console.error(err);
+      showMapError();
+    }
   }
 
   async function loadIcons() {
@@ -83,25 +143,44 @@
     EanaRender.setIcons(Object.fromEntries(entries));
   }
 
-  // ---------- Ouverture de fiche (routage minimal) ----------
-  // Le clic sur un repère ou sur le bouton de fermeture ne fait que changer
-  // le hash (déclarer l'intention) ; c'est l'écouteur hashchange qui ouvre ou
-  // ferme réellement le panneau.
+  // ---------- Routage ----------
+  // Un clic (repère, onglet de carte, fermeture) ne fait que changer le hash,
+  // c'est-à-dire déclarer l'intention ; c'est l'écouteur hashchange qui
+  // applique réellement le changement.
 
-  function currentArticleId() {
-    const h = window.location.hash || "";
-    return h.startsWith("#/article/") ? decodeURIComponent(h.slice("#/article/".length)) : null;
+  function parseHash() {
+    const raw = (window.location.hash || "").replace(/^#\/?/, "");
+    const parts = raw.split("/").filter(Boolean).map((s) => {
+      try { return decodeURIComponent(s); } catch (e) { return s; }
+    });
+
+    if (parts[0] === "carte" && parts[1]) {
+      return {
+        mapId: parts[1],
+        articleId: parts[2] === "article" && parts[3] ? parts[3] : null,
+      };
+    }
+    // Forme historique, sans carte : #/article/<fiche>
+    if (parts[0] === "article" && parts[1]) return { mapId: null, articleId: parts[1] };
+    return { mapId: null, articleId: null };
+  }
+
+  function buildHash(mapId, articleId) {
+    const base = `#/carte/${encodeURIComponent(mapId)}`;
+    return articleId ? `${base}/article/${encodeURIComponent(articleId)}` : base;
   }
 
   function setArticleHash(id) {
-    const target = `#/article/${encodeURIComponent(id)}`;
-    if (window.location.hash === target) syncOverlay();
+    const target = buildHash(currentMapId, id);
+    if (window.location.hash === target) syncRoute();
     else window.location.hash = target;
   }
 
-  async function syncOverlay() {
-    const id = currentArticleId();
-    if (id) await EanaOverlay.open(id);
+  async function syncRoute() {
+    const { mapId, articleId } = parseHash();
+    const wanted = EanaMapPoints.resolveMapId(mapId || currentMapId);
+    if (wanted !== currentMapId) await showMap(wanted);
+    if (articleId) await EanaOverlay.open(articleId);
     else await EanaOverlay.close();
   }
 
@@ -134,7 +213,7 @@
   window.addEventListener("keydown", (e) => {
     if (e.key !== "Escape") return;
     if (EanaMaster.isGateOpen()) { EanaMaster.closeGate(); return; }
-    if (EanaOverlay.isOpen()) window.location.hash = "";
+    if (EanaOverlay.isOpen()) window.location.hash = buildHash(currentMapId, null);
   });
 
   // ---------- Texte statique (voir js/app.js > applyStaticStrings) ----------
@@ -143,6 +222,7 @@
     document.title = EanaI18n.t("map.title");
     const description = document.querySelector('meta[name="description"]');
     if (description) description.setAttribute("content", EanaI18n.t("map.description"));
+    pickerRoot.setAttribute("aria-label", EanaI18n.t("map.pickerLabel"));
 
     document.querySelectorAll("[data-i18n]").forEach((el) => {
       el.textContent = EanaI18n.t(el.getAttribute("data-i18n"));
@@ -161,10 +241,11 @@
     if (EanaData.blockIfFileProtocol()) return;
     await EanaData.consumeUrlMasterParam();
     await Promise.all([EanaData.init(), EanaI18n.init(), EanaMapPoints.initTypes()]);
-    [pointsData, mapConfig] = await Promise.all([
+    const [points] = await Promise.all([
       EanaMapPoints.loadPoints(),
       EanaMapPoints.loadConfig(),
     ]);
+    allPoints = points;
 
     applyStaticStrings();
     await loadIcons();
@@ -174,7 +255,9 @@
     EanaMaster.renderIndicator();
     updateModeChips();
 
-    EanaOverlay.init(overlayRoot, () => { window.location.hash = ""; });
+    EanaOverlay.init(overlayRoot, () => { window.location.hash = buildHash(currentMapId, null); });
+
+    background = EanaMapBackground.create({ root: bgRoot });
 
     view = EanaMapView.create({
       viewport,
@@ -182,6 +265,8 @@
       // Une seule écriture de variable CSS par changement d'échelle, au lieu
       // d'un style par repère à chaque frame de déplacement.
       onScaleChange: (s) => pinsRoot.style.setProperty("--pin-scale", 1 / s),
+      // Le fond en tuiles a besoin de savoir ce qui est visible, pan compris.
+      onViewChange: (rect, scale) => background.update(rect, scale),
     });
     view.wire({ ignoreSelector: ".map-pin" });
 
@@ -189,14 +274,10 @@
     document.getElementById("zoom-out").addEventListener("click", () => view.zoomByFactor(1 / 1.4));
     document.getElementById("zoom-reset").addEventListener("click", () => view.fit());
 
-    // Le chemin vient de data/map-config.json (voir README) : c'est le seul
-    // endroit à changer pour remplacer la carte.
-    image.addEventListener("load", onImageReady);
-    image.addEventListener("error", onImageError);
-    image.src = mapConfig.image || "images/map/placeholder-map.svg";
+    await showMap(parseHash().mapId || EanaMapPoints.getDefaultMapId());
 
-    window.addEventListener("hashchange", syncOverlay);
-    await syncOverlay();
+    window.addEventListener("hashchange", syncRoute);
+    await syncRoute();
   }
 
   start();

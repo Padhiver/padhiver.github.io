@@ -12,10 +12,13 @@ map/index.html         Carte interactive — voir "Carte interactive" plus bas
 map/map.css             Styles propres à la carte (viewport, repères, outils)
 map/map.js               Repères et routage minimal de la carte
 map/editor.html          Éditeur de repères (outil local, voir plus bas)
-map/editor.css           Styles de l'éditeur
+map/editor.css           Styles de l'éditeur et de la découpe en tuiles
 map/editor.js            Logique de l'éditeur
-js/mapview.js            Pan/zoom, partagé entre la carte et l'éditeur
-js/mappoints.js          Chargement des points/types et dessin d'un repère, partagés
+map/tiles.html           Découpe d'une carte en tuiles (outil local, voir plus bas)
+map/tiles.js             Logique de la découpe
+js/mapview.js            Pan/zoom, partagé entre la carte et les outils
+js/mapbackground.js      Fond de carte : image unique ou tuiles réassemblées, partagé
+js/mappoints.js          Cartes, points/types et dessin d'un repère, partagés
 css/style.css          Système visuel partagé (papier quadrillé, cartouches, typographie…)
 js/data.js              Chargement des données + filtrage public/OFF + mode maître
 js/render.js             Construction du HTML des vues
@@ -30,13 +33,15 @@ data/manifest.json      Index généré des fiches (NE PAS éditer à la main)
 data/banners.json       Config des bannières disponibles (id, label, image)
 data/map-points.json    Repères de la carte interactive (édités via map/editor.html)
 data/map-point-types.json  Types de repères (cité, forteresse, port…)
-data/map-config.json    Chemin de l'image de la carte — seul endroit à changer pour la remplacer
+data/map-config.json    Liste des cartes et de leurs images — seul endroit à changer pour en ajouter/remplacer une
 data/articles/<categorie>/*.json    Une fiche = un fichier JSON, rangé dans le dossier de sa catégorie
 images/ui/               Icônes de catégories (SVG)
 images/placeholders/     Visuels de repli : carte-<categorie>.svg (16:9) et portrait-defaut.svg (9:10)
-images/map/              Image(s) de la carte interactive
+images/map/              Images des cartes ; une carte découpée a son sous-dossier (images/map/monde/)
+images/map/sources/      Images sources en pleine résolution — ignorées par git, voir .gitignore
 scripts/build-manifest.js  Régénère data/manifest.json
 scripts/dev-server.js     Petit serveur statique pour prévisualiser en local
+scripts/map-api.js        Routes d'écriture des outils locaux de carte (jamais publiées)
 ```
 
 ## Réutiliser ce site pour un autre univers
@@ -65,16 +70,92 @@ Les gabarits de `images/placeholders/` ont un **fond transparent** : c'est la vi
 
 ## Carte interactive (`/map`)
 
-Une carte pannable/zoomable à `eana/map/`, avec des repères cliquables qui ouvrent une fiche du codex — même panneau, même animation qu'ailleurs sur le site (voir "Architecture partagée" plus bas).
+Une ou plusieurs cartes pannables/zoomables à `eana/map/`, avec des repères cliquables qui ouvrent une fiche du codex — même panneau, même animation qu'ailleurs sur le site (voir "Architecture partagée" plus bas).
 
-**Pas encore de vraie carte** : `images/map/placeholder-map.svg` est un gabarit en attendant, dans les tons parchemin fixes (comme une bannière, une carte dessinée dans l'univers ne suit pas le thème du lecteur).
+Quand il y a plus d'une carte, une rangée d'onglets apparaît au-dessus du cadre. Chaque repère appartient à une carte et n'apparaît que sur la sienne.
 
-### Remplacer la carte
+### Les cartes (`data/map-config.json`)
 
-1. Dépose ton image dans `images/map/` (PNG, JPG, WEBP ou SVG).
-2. Change la ligne `"image"` de **`data/map-config.json`**. C'est le seul endroit : la page publique et l'éditeur lisent tous les deux ce fichier.
-3. **Si c'est un SVG**, mets des attributs `width`/`height` explicites sur la balise `<svg>` racine (en plus du `viewBox`) — sans ça, certains navigateurs rapportent une taille naturelle instable et dépendante de la mise en page CSS du moment, ce qui fausse le calcul du zoom.
-4. Les coordonnées des repères étant en pourcentage, elles restent valables si le **ratio** de la nouvelle image est proche de l'ancien. Sinon, repositionne-les dans `map/editor.html`.
+```json
+{
+  "defaultMap": "monde",
+  "maps": [
+    { "id": "monde",   "label": "Le monde",  "tiles": { "...": "voir plus bas" } },
+    { "id": "rosalia", "label": "Rosalia",   "image": "images/map/rosalia.webp" }
+  ]
+}
+```
+
+- `id` : minuscules, chiffres et tirets. Il sert d'ancre d'URL (`#/carte/rosalia`), de clé dans `data/map-points.json` et de nom de sous-dossier pour les tuiles.
+- `label` : le nom affiché sur l'onglet.
+- `defaultMap` : la carte ouverte à l'arrivée. À défaut, la première de la liste.
+- Une carte se déclare **soit** avec `image` (un fichier), **soit** avec `tiles` (une grille — voir "Cartes en tuiles").
+
+C'est le seul endroit à changer : la page publique et les deux outils locaux lisent tous ce fichier.
+
+**Si c'est un SVG**, mets des attributs `width`/`height` explicites sur la balise `<svg>` racine (en plus du `viewBox`) — sans ça, certains navigateurs rapportent une taille naturelle instable et dépendante de la mise en page CSS du moment, ce qui fausse le calcul du zoom.
+
+Les coordonnées des repères étant en pourcentage, elles restent valables si le **ratio** de la nouvelle image est proche de l'ancien. Sinon, repositionne-les dans `map/editor.html`.
+
+### Cartes en tuiles
+
+Une carte du monde en pleine résolution devient vite trop lourde : un seul fichier de plusieurs Mo, décodé d'un bloc par le navigateur. On peut la découper en une grille de tuiles que la page réassemble.
+
+**C'est réservé à la carte du monde** : une carte de région tient sans mal dans un seul fichier, et le découpage n'apporterait rien.
+
+```json
+{
+  "id": "monde",
+  "label": "Le monde",
+  "tiles": {
+    "cols": 5, "rows": 4,
+    "width": 12000, "height": 8519,
+    "pattern": "images/map/monde/tuile-{col}-{row}.webp",
+    "preview": "images/map/monde/apercu.webp"
+  }
+}
+```
+
+- `cols`/`rows` : la grille. 3 × 3 = 9 tuiles.
+- `width`/`height` : dimensions de la carte **complète**, pas d'une tuile. Elles servent à placer les cases avant même que les images arrivent.
+- `pattern` : chemin d'une tuile, `{col}` et `{row}` numérotés à partir de 0.
+- `preview` : facultatif mais recommandé — la carte entière en réduit.
+
+Ce que ça change à l'affichage :
+
+1. L'aperçu s'affiche immédiatement et sert de fond tant que le zoom ne dépasse pas sa finesse. Au cadrage initial, on ne charge donc **que lui**.
+2. Au-delà, seules les tuiles qui touchent la zone visible sont chargées (avec une marge de préchargement), et elles le restent ensuite.
+
+Mesuré sur la carte d'Eana, source de 26808 × 19032 px (397 Mo en PNG), ramenée à 12000 × 8519 et découpée en 5 × 4 avec un aperçu de 1600 px : **7,1 Mo de tuiles en tout, et 273 Ko au chargement de la page**. Une lecture zoomée sur une région tire une dizaine de tuiles, jamais les vingt.
+
+Les cases se recouvrent d'un pixel — du vrai contenu d'image, pas un étirement — pour qu'aucun liseré n'apparaisse entre deux tuiles à un zoom fractionnaire. `EanaMapBackground.tileRects()` calcule cette géométrie, et **c'est la même fonction qui sert à découper et à réassembler** : les deux ne peuvent pas diverger.
+
+### Découper une carte (`map/tiles.html`)
+
+Outil local, comme l'éditeur. Serveur lancé, ouvre `http://localhost:8080/map/tiles.html` :
+
+1. Choisis la carte, ou dépose une autre image (c'est aussi comme ça qu'on recoupe une carte déjà en tuiles : elles ne se recollent pas d'elles-mêmes, il faut le fichier d'origine).
+2. Règle la **largeur maximale**, la grille, la qualité WEBP et la largeur de l'aperçu. La ligne sous la grille annonce le résultat — dimensions de la carte, nombre et taille des tuiles — **avant** de lancer l'encodage, qui prend des minutes sur une grosse source. Elle passe au rouge et propose une meilleure grille si les tuiles dépassent 4500 px de côté.
+3. **Découper** : les tuiles sont encodées dans le navigateur et l'assemblage s'affiche pour contrôle. Le journal signale les tuiles trop lourdes et un total qui poserait problème à git.
+4. **Écrire dans le dépôt** : les fichiers sont écrits dans `images/map/<id>/` et `data/map-config.json` passe de `image` à `tiles` pour cette carte — le reste du fichier (autres cartes, libellés, carte par défaut) est préservé.
+
+Il ne reste qu'à publier sur git.
+
+#### Choisir la largeur maximale
+
+C'est le réglage qui pèse le plus lourd, et de loin. Une carte exportée pour l'impression a une résolution qui n'a aucun sens sur un écran : au-delà d'un certain point, chaque pixel de plus ne fait qu'ajouter du bruit à encoder.
+
+La source d'Eana fait 26808 px de large. Réduite à 12000, l'écart moyen avec la pleine résolution est de **0,3 à 1,2 sur 255** selon la zone mesurée — autant dire rien, alors que le poids passe de 272 Mo à 7,1 Mo. Tout ce qu'il y avait au-dessus de 12000 px était du bruit de rééchantillonnage.
+
+Repères : 12000 px permettent déjà de zoomer une dizaine de fois plus que le cadrage initial. Si tu hésites, découpe à deux largeurs et compare — c'est deux minutes.
+
+Sur la qualité WEBP : ré-encoder perd toujours un peu. À 0,85, l'écart moyen mesuré est de 0,6 sur 255 — invisible. Monte-la si ta carte a du texte fin, baisse-la si les tuiles pèsent trop.
+
+#### Où ranger l'image source
+
+Dans `images/map/sources/`, **ignoré par git** (voir `.gitignore`). Une source en pleine résolution pèse souvent des centaines de mégaoctets : GitHub refuse tout fichier au-delà de 100 Mo, et un dépôt de cette taille devient long à cloner. Seules les tuiles sont publiées.
+
+Garde-la quand même en local : c'est elle qu'il faut rouvrir pour recouper une carte, puisque les tuiles ne se recollent pas d'elles-mêmes.
 
 ### Éditeur de repères (`map/editor.html`)
 
@@ -88,14 +169,18 @@ puis `http://localhost:8080/map/editor.html`.
 
 Le fonctionnement : tu choisis un type dans la palette, tu cliques sur la carte pour poser un repère, une fenêtre te demande la fiche à lier (recherche par titre, **fiches privées comprises** — c'est un outil de maître), tu valides, puis **Enregistrer** écrit directement dans `data/map-points.json`. Il ne reste qu'à publier.
 
+S'il y a plusieurs cartes, une section **Carte** apparaît en haut du panneau, avec le nombre de repères de chacune. Tu n'édites que la carte affichée, mais **Enregistrer réécrit le fichier entier** : les repères des autres cartes sont conservés tels quels. La carte ouverte est mémorisée d'une session à l'autre.
+
 - **Déplacer** un repère : le glisser sur la carte.
 - **Modifier / supprimer** : cliquer dessus, ou le choisir dans la liste de gauche.
 - La liste signale en rouge un repère dont la fiche liée n'existe plus.
 - L'identifiant du repère est dérivé du titre de la fiche (`Port-Gémeau` → `port-gemeau`), pour que le JSON reste lisible.
 
-L'écriture directe passe par `POST /api/map-points`, une route servie **uniquement par `scripts/dev-server.js`** et refusée hors machine locale.
+L'écriture directe passe par `POST /api/map-points`, une route servie **uniquement par `scripts/dev-server.js`** (voir `scripts/map-api.js`) et refusée hors machine locale. Les deux autres routes d'écriture, `/api/map-tile` et `/api/map-source`, servent à la découpe en tuiles et suivent les mêmes règles. Aucune n'existe sur GitHub Pages, qui ne sert que des fichiers.
 
-⚠️ **L'éditeur ne s'exécute que depuis `localhost`.** Il est publié avec le site (c'est un fichier statique de plus), mais s'y affiche seulement comme un message renvoyant vers le serveur local. La raison n'est pas l'écriture — qu'il ne peut de toute façon pas faire sans le serveur — mais la **lecture** : sa recherche de fiches liste aussi les fiches `OFF`, donc laissé actif en ligne il aurait révélé les titres de tes brouillons et spoilers à quiconque connaît l'URL.
+`/api/map-tile` reçoit les octets bruts de la tuile, un fichier par requête, le dossier et le nom en paramètres d'URL (tous deux validés avant écriture). Passer par du base64 dans du JSON gonflerait le corps d'un tiers et obligerait à construire en mémoire une chaîne aussi grosse que le fichier. Au-delà de 64 Mo, la route répond **413 avec un message explicite** plutôt que de couper la connexion — sinon le navigateur ne rapporte qu'une « erreur réseau », ce qui laisse croire à tort que le serveur local n'est pas lancé.
+
+⚠️ **L'éditeur et la découpe ne s'exécutent que depuis `localhost`.** Il est publié avec le site (c'est un fichier statique de plus), mais s'y affiche seulement comme un message renvoyant vers le serveur local. La raison n'est pas l'écriture — qu'il ne peut de toute façon pas faire sans le serveur — mais la **lecture** : sa recherche de fiches liste aussi les fiches `OFF`, donc laissé actif en ligne il aurait révélé les titres de tes brouillons et spoilers à quiconque connaît l'URL.
 
 ### Types de repères (`data/map-point-types.json`)
 
@@ -104,10 +189,11 @@ Neuf types par défaut (cité, forteresse, ruine, sanctuaire, relief, forêt, po
 ### Points de repère (`data/map-points.json`)
 
 ```json
-{ "id": "rosalith", "type": "cite", "article": "rosalith", "x": 27, "y": 46 }
+{ "id": "rosalith", "map": "monde", "type": "cite", "article": "rosalith", "x": 27, "y": 46 }
 ```
 
-- `x`/`y` : pourcentage (0-100) de la largeur/hauteur de l'image de la carte. Mesure-les par rapport à l'image *finale*, pas au placeholder — ou laisse l'éditeur les poser.
+- `map` : l'`id` d'une carte de `data/map-config.json`. Omis, le repère appartient à la carte par défaut — c'était le cas de tous les repères avant qu'il y en ait plusieurs.
+- `x`/`y` : pourcentage (0-100) de la largeur/hauteur de **sa** carte. Mesure-les par rapport à l'image finale — ou laisse l'éditeur les poser.
 - `type` : optionnel, un `id` de `data/map-point-types.json`. Sans type, le repère retombe sur l'icône de la catégorie de sa fiche liée (comportement des points créés avant les types).
 - `article` : optionnel, l'id d'une fiche du codex (n'importe quelle catégorie — personnage, lieu, créature...).
 - `label` : optionnel. Sans `article`, affiché dans une bulle au clic (le repère n'ouvre alors aucune fiche). Avec `article`, surcharge le titre de la fiche pour l'étiquette du repère.

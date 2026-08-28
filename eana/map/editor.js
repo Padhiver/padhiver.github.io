@@ -14,7 +14,7 @@
 (() => {
   const viewport = document.getElementById("map-viewport");
   const canvas = document.getElementById("map-canvas");
-  const image = document.getElementById("map-image");
+  const bgRoot = document.getElementById("map-bg");
   const pinsRoot = document.getElementById("map-pins");
 
   const dialog = document.getElementById("point-dialog");
@@ -31,7 +31,12 @@
   const saveState = document.getElementById("save-state");
 
   let view = null;
+  let background = null;
+  // "points" contient les repères de TOUTES les cartes : on n'édite que ceux
+  // de la carte courante, mais l'enregistrement réécrit le fichier entier —
+  // les autres cartes ne doivent pas disparaître au passage.
   let points = [];
+  let currentMapId = "";
   let activeType = null;
   let selectedId = null;
   let dirty = false;
@@ -74,8 +79,12 @@
 
   // ---------- Rendu des repères ----------
 
+  function currentPoints() {
+    return EanaMapPoints.pointsForMap(points, currentMapId);
+  }
+
   function renderPins() {
-    pinsRoot.innerHTML = points.map((p) => {
+    pinsRoot.innerHTML = currentPoints().map((p) => {
       const entry = p.article ? EanaData.getManifestEntry(p.article) : null;
       const label = esc(EanaMapPoints.labelFor(p, entry, "Lieu sans nom"));
       const iconSvg = EanaMapPoints.iconFor(p, entry);
@@ -93,16 +102,17 @@
   function renderList() {
     const filter = document.getElementById("point-filter").value.trim().toLowerCase();
     const list = document.getElementById("point-list");
-    document.getElementById("point-count").textContent = points.length;
+    const onThisMap = currentPoints();
+    document.getElementById("point-count").textContent = onThisMap.length;
 
-    const shown = points.filter((p) => {
+    const shown = onThisMap.filter((p) => {
       if (!filter) return true;
       const entry = p.article ? EanaData.getManifestEntry(p.article) : null;
       return EanaMapPoints.labelFor(p, entry, "").toLowerCase().includes(filter);
     });
 
     if (!shown.length) {
-      list.innerHTML = `<li class="point-list-empty">${points.length ? "Aucun repère ne correspond." : "Aucun repère. Choisis un type puis clique sur la carte."}</li>`;
+      list.innerHTML = `<li class="point-list-empty">${onThisMap.length ? "Aucun repère ne correspond." : "Aucun repère sur cette carte. Choisis un type puis clique sur la carte."}</li>`;
       return;
     }
 
@@ -121,7 +131,7 @@
     }).join("");
   }
 
-  function refresh() { renderPins(); renderList(); }
+  function refresh() { renderPins(); renderList(); renderMapPicker(); }
 
   // ---------- Palette de types ----------
 
@@ -135,6 +145,28 @@
     dlgType.innerHTML = EanaMapPoints.getTypes()
       .map((t) => `<option value="${esc(t.id)}">${esc(t.label)}</option>`).join("");
   }
+
+  // ---------- Sélecteur de cartes ----------
+
+  function renderMapPicker() {
+    const maps = EanaMapPoints.getMaps();
+    document.getElementById("map-picker-section").hidden = maps.length < 2;
+    if (maps.length < 2) return;
+
+    document.getElementById("map-picker").innerHTML = maps.map((m) => {
+      const n = EanaMapPoints.pointsForMap(points, m.id).length;
+      return `<button type="button" class="type-chip${m.id === currentMapId ? " active" : ""}" data-map="${esc(m.id)}">
+        ${EanaMapPoints.typeIconSvg("repere")}<span>${esc(m.label || m.id)}</span><span class="editor-count">${n}</span>
+      </button>`;
+    }).join("");
+  }
+
+  document.getElementById("map-picker").addEventListener("click", async (e) => {
+    const chip = e.target.closest("[data-map]");
+    if (!chip || chip.getAttribute("data-map") === currentMapId) return;
+    selectedId = null;
+    await showMap(chip.getAttribute("data-map"));
+  });
 
   document.getElementById("type-palette").addEventListener("click", (e) => {
     const chip = e.target.closest(".type-chip");
@@ -258,7 +290,7 @@
   function onMapClick(pos) {
     if (pos.x < 0 || pos.x > 100 || pos.y < 0 || pos.y > 100) return; // hors carte
     const type = activeType || (EanaMapPoints.getTypes()[0] || {}).id;
-    const point = { id: makeId("repere"), type, x: +pos.x.toFixed(2), y: +pos.y.toFixed(2) };
+    const point = { id: makeId("repere"), map: currentMapId, type, x: +pos.x.toFixed(2), y: +pos.y.toFixed(2) };
     points.push(point);
     selectedId = point.id;
     refresh();
@@ -315,10 +347,18 @@
   // ---------- Enregistrement ----------
 
   function pointsPayload() {
-    // Ordre de clés stable et champs vides omis, pour un diff git lisible.
+    // Ordre de clés stable, repères groupés par carte (dans l'ordre de
+    // data/map-config.json) et champs vides omis : le fichier reste lisible
+    // à la main et les diffs git restent courts.
+    const order = EanaMapPoints.getMaps().map((m) => m.id);
+    const sorted = points.slice().sort((a, b) => {
+      const d = order.indexOf(EanaMapPoints.mapIdOf(a)) - order.indexOf(EanaMapPoints.mapIdOf(b));
+      return d;
+    });
     return {
-      points: points.map((p) => {
+      points: sorted.map((p) => {
         const out = { id: p.id };
+        out.map = EanaMapPoints.mapIdOf(p);
         if (p.type) out.type = p.type;
         if (p.article) out.article = p.article;
         if (p.label) out.label = p.label;
@@ -376,9 +416,18 @@
     EanaRender.setIcons(Object.fromEntries(entries));
   }
 
-  function onImageReady() {
-    view.setSize(image.naturalWidth, image.naturalHeight);
-    view.fit();
+  async function showMap(mapId) {
+    currentMapId = EanaMapPoints.resolveMapId(mapId);
+    try { localStorage.setItem("eana_editor_map", currentMapId); } catch (e) { /* sans mémoire */ }
+    pinsRoot.innerHTML = "";
+    try {
+      const size = await background.load(EanaMapPoints.getMap(currentMapId));
+      view.setSize(size.width, size.height);
+      view.fit();
+    } catch (err) {
+      console.error(err);
+      alert("Image de carte illisible pour « " + currentMapId + " » : " + err.message);
+    }
     refresh();
   }
 
@@ -419,10 +468,13 @@
     activeType = (EanaMapPoints.getTypes()[0] || {}).id || null;
     renderPalette();
 
+    background = EanaMapBackground.create({ root: bgRoot });
+
     view = EanaMapView.create({
       viewport,
       canvas,
       onScaleChange: (s) => pinsRoot.style.setProperty("--pin-scale", 1 / s),
+      onViewChange: (rect, scale) => background.update(rect, scale),
       onMapClick,
     });
     view.wire({ ignoreSelector: ".map-pin" });
@@ -432,12 +484,12 @@
     document.getElementById("zoom-reset").addEventListener("click", () => view.fit());
 
     // Même source que la carte publique (data/map-config.json), pour que
-    // l'éditeur ne puisse pas travailler sur une image différente.
-    image.addEventListener("load", onImageReady);
-    image.src = mapConfig.image || "images/map/placeholder-map.svg";
-
+    // l'éditeur ne puisse pas travailler sur une image différente. On rouvre
+    // la carte de la dernière session : on édite rarement les deux à la fois.
+    let remembered = null;
+    try { remembered = localStorage.getItem("eana_editor_map"); } catch (e) { /* sans mémoire */ }
     setDirty(false);
-    refresh();
+    await showMap(remembered || mapConfig.defaultMapId);
   }
 
   start();

@@ -51,6 +51,10 @@
     <div class="header-rule"></div>
   </header>
 
+  <!-- Rempli par le JS depuis data/map-config.json ; masqué s'il n'y a
+       qu'une seule carte. -->
+  <nav class="map-picker" id="map-picker" aria-label="Cartes" hidden></nav>
+
   <div class="map-tools">
     <button class="chip active" data-mode="public">Public</button>
     <button class="chip" data-mode="master">Maître</button>
@@ -59,8 +63,9 @@
   <div class="map-frame">
     <div class="map-viewport" id="map-viewport">
       <div class="map-canvas" id="map-canvas">
-        <!-- src posé par le JS depuis data/map-config.json -->
-        <img class="map-image" alt="" id="map-image">
+        <!-- Rempli par js/mapbackground.js : une image, ou la grille de
+             tuiles de la carte courante (voir data/map-config.json). -->
+        <div class="map-bg" id="map-bg"></div>
         <div id="map-pins"></div>
       </div>
     </div>
@@ -104,6 +109,7 @@
 <script src="js/master.js"></script>
 <script src="js/overlay.js"></script>
 <script src="js/mapview.js"></script>
+<script src="js/mapbackground.js"></script>
 <script src="js/mappoints.js"></script>
 <script src="map/map.js"></script>
 </body>
