@@ -66,6 +66,9 @@
         <!-- Rempli par js/mapbackground.js : une image, ou la grille de
              tuiles de la carte courante (voir data/map-config.json). -->
         <div class="map-bg" id="map-bg"></div>
+        <!-- Les zones peintes passent SOUS les pastilles : une pastille posée
+             au milieu d'une région doit rester cliquable. -->
+        <svg class="map-zones" id="map-zones" aria-hidden="true"></svg>
         <div id="map-pins"></div>
       </div>
     </div>
@@ -110,6 +113,7 @@
 <script src="js/overlay.js"></script>
 <script src="js/mapview.js"></script>
 <script src="js/mapbackground.js"></script>
+<script src="js/mapzones.js"></script>
 <script src="js/mappoints.js"></script>
 <script src="map/map.js"></script>
 </body>

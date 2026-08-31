@@ -98,7 +98,12 @@ const EanaMapView = (() => {
       setScaleAround(scale * factor, r.width / 2, r.height / 2);
     }
 
-    function wire({ ignoreSelector } = {}) {
+    // "ignoreWhen" laisse l'appelant suspendre le déplacement sans défaire le
+    // câblage : l'éditeur s'en sert pendant qu'on peint une zone au pinceau,
+    // où un glissement doit tracer et non faire glisser la carte.
+    function wire({ ignoreSelector, ignoreWhen } = {}) {
+      const ignore = (e) => (ignoreWhen && ignoreWhen(e))
+        || (ignoreSelector && e.target.closest && e.target.closest(ignoreSelector));
       const pointers = new Map();
       let dragLast = null;
       let pinchStartDist = null;
@@ -110,7 +115,7 @@ const EanaMapView = (() => {
       const mid = (a, b) => ({ x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 });
 
       viewport.addEventListener("pointerdown", (e) => {
-        if (ignoreSelector && e.target.closest(ignoreSelector)) return;
+        if (ignore(e)) return;
         // La capture peut échouer (pointeur déjà relâché, événement synthétique) :
         // ce n'est pas une raison d'abandonner le suivi du geste.
         try { viewport.setPointerCapture(e.pointerId); } catch (err) { /* sans capture */ }
@@ -179,7 +184,7 @@ const EanaMapView = (() => {
       }, { passive: false });
 
       viewport.addEventListener("dblclick", (e) => {
-        if (ignoreSelector && e.target.closest(ignoreSelector)) return;
+        if (ignore(e)) return;
         const rect = viewport.getBoundingClientRect();
         setScaleAround(scale * 1.6, e.clientX - rect.left, e.clientY - rect.top);
       });

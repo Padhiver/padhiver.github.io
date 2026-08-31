@@ -15,6 +15,7 @@
   const canvas = document.getElementById("map-canvas");
   const bgRoot = document.getElementById("map-bg");
   const pinsRoot = document.getElementById("map-pins");
+  const zonesRoot = document.getElementById("map-zones");
   const overlayRoot = document.getElementById("overlay-root");
   const pickerRoot = document.getElementById("map-picker");
 
@@ -22,6 +23,7 @@
   let currentMapId = "";
   let view = null;
   let background = null;
+  let currentSize = null;   // dimensions de la carte affichée, en pixels
   // Un changement de carte est asynchrone (chargement d'image) : ce jeton
   // permet d'ignorer une réponse arrivée après qu'on a changé d'avis.
   let loadToken = 0;
@@ -61,8 +63,40 @@
     });
   }
 
+  // ---------- Zones peintes ----------
+
+  // Une zone ne dessine rien : elle rend cliquable ce que le cartographe a
+  // déjà porté sur la carte. Son étiquette est un cartouche HTML posé au
+  // milieu du tracé, montré au survol.
+  function renderZones(size) {
+    const zones = visiblePoints().filter(EanaMapZones.isZone);
+    pinsRoot.querySelectorAll(".map-zone-label").forEach((el) => el.remove());
+    EanaMapZones.render(zonesRoot, zones, size.width, size.height);
+
+    zones.forEach((z) => {
+      const el = zonesRoot.querySelector(`[data-point-id="${CSS.escape(z.id)}"]`);
+      if (!el) return;
+      const entry = z.article ? EanaData.getManifestEntry(z.article) : null;
+      const text = EanaMapPoints.labelFor(z, entry, EanaI18n.t("map.untitledPoint"));
+
+      const anchor = EanaMapZones.anchorOf(el);
+      const label = document.createElement("span");
+      label.className = "map-zone-label";
+      label.textContent = text;
+      label.style.left = `${(anchor.x / size.width) * 100}%`;
+      label.style.top = `${(anchor.y / size.height) * 100}%`;
+      pinsRoot.appendChild(label);
+
+      el.setAttribute("aria-label", text);
+      el.addEventListener("pointerenter", () => label.classList.add("visible"));
+      el.addEventListener("pointerleave", () => label.classList.remove("visible"));
+    });
+  }
+
+  // ---------- Pastilles ----------
+
   function renderPins() {
-    pinsRoot.innerHTML = visiblePoints().map((p) => {
+    pinsRoot.innerHTML = visiblePoints().filter((p) => !EanaMapZones.isZone(p)).map((p) => {
       const entry = p.article ? EanaData.getManifestEntry(p.article) : null;
       const label = EanaRender.escapeHtml(
         EanaMapPoints.labelFor(p, entry, EanaI18n.t("map.untitledPoint"))
@@ -78,6 +112,14 @@
         <span class="map-pin-label">${label}</span>
       </button>`;
     }).join("");
+  }
+
+  // Les deux couches se redessinent ensemble : elles lisent la même liste,
+  // filtrée par le mode maître.
+  function renderMarkers() {
+    if (!currentSize) return;
+    renderPins();
+    renderZones(currentSize);
   }
 
   pinsRoot.addEventListener("click", (e) => {
@@ -100,6 +142,7 @@
     // vide et muette : aucun repère, aucune explication.
     viewport.classList.add("map-viewport--error");
     pinsRoot.innerHTML = "";
+    zonesRoot.innerHTML = "";
     if (viewport.querySelector(".map-error")) return;
     const msg = document.createElement("p");
     msg.className = "map-error";
@@ -120,13 +163,16 @@
     const token = ++loadToken;
     clearMapError();
     pinsRoot.innerHTML = "";
+    zonesRoot.innerHTML = "";
+    currentSize = null;
 
     try {
       const size = await background.load(EanaMapPoints.getMap(currentMapId));
       if (token !== loadToken) return; // une autre carte a été demandée entre-temps
+      currentSize = size;
       view.setSize(size.width, size.height);
       view.fit();
-      renderPins();
+      renderMarkers();
     } catch (err) {
       if (token !== loadToken) return;
       console.error(err);
@@ -196,7 +242,7 @@
 
   function afterMasterChange() {
     updateModeChips();
-    renderPins(); // change quels repères liés à une fiche OFF sont visibles
+    renderMarkers(); // change quels repères liés à une fiche OFF sont visibles
   }
 
   document.addEventListener("click", (e) => {
@@ -267,6 +313,13 @@
       onScaleChange: (s) => pinsRoot.style.setProperty("--pin-scale", 1 / s),
       // Le fond en tuiles a besoin de savoir ce qui est visible, pan compris.
       onViewChange: (rect, scale) => background.update(rect, scale),
+      // Un clic franc seulement : sans ça, faire glisser la carte en partant
+      // d'une zone ouvrirait sa fiche à chaque fois.
+      onMapClick: (pos) => {
+        const el = EanaMapZones.hitTest(zonesRoot, pos.x, pos.y);
+        const article = el && el.dataset.article;
+        if (article) setArticleHash(article);
+      },
     });
     view.wire({ ignoreSelector: ".map-pin" });
 

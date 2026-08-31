@@ -16,6 +16,7 @@
   const canvas = document.getElementById("map-canvas");
   const bgRoot = document.getElementById("map-bg");
   const pinsRoot = document.getElementById("map-pins");
+  const zonesRoot = document.getElementById("map-zones");
 
   const dialog = document.getElementById("point-dialog");
   const dlgType = document.getElementById("dialog-type");
@@ -39,6 +40,10 @@
   let currentMapId = "";
   let activeType = null;
   let selectedId = null;
+  let currentSize = null;    // dimensions de la carte affichée, en pixels
+  let tool = "point";        // "point" (pastille) ou "brush" (zone peinte)
+  let brushRadius = EanaMapZones.RAYON_DEFAUT;
+  let stroke = null;         // tracé en cours de peinture
   let dirty = false;
   let draft = null;       // point en cours d'édition dans la fenêtre
   let draftIsNew = false;
@@ -84,7 +89,7 @@
   }
 
   function renderPins() {
-    pinsRoot.innerHTML = currentPoints().map((p) => {
+    pinsRoot.innerHTML = currentPoints().filter((p) => !EanaMapZones.isZone(p)).map((p) => {
       const entry = p.article ? EanaData.getManifestEntry(p.article) : null;
       const label = esc(EanaMapPoints.labelFor(p, entry, "Lieu sans nom"));
       const iconSvg = EanaMapPoints.iconFor(p, entry);
@@ -125,13 +130,27 @@
       const meta = orphan
         ? `<span class="pl-meta pl-orphan">fiche introuvable</span>`
         : (p.article ? "" : `<span class="pl-meta">sans fiche</span>`);
+      const kind = EanaMapZones.isZone(p) ? `<span class="pl-meta pl-zone">zone</span>` : "";
       return `<li data-point-id="${esc(p.id)}" class="${p.id === selectedId ? "selected" : ""}">
-        ${icon}<span class="pl-name">${label}</span>${meta}
+        ${icon}<span class="pl-name">${label}</span>${kind}${meta}
       </li>`;
     }).join("");
   }
 
-  function refresh() { renderPins(); renderList(); renderMapPicker(); }
+  // Contrairement au site, l'éditeur MONTRE les zones : sans ça on repeint
+  // deux fois au même endroit sans s'en apercevoir.
+  function renderZones() {
+    if (!currentSize) return;
+    const zones = currentPoints().filter(EanaMapZones.isZone);
+    EanaMapZones.render(zonesRoot, zones, currentSize.width, currentSize.height);
+    zones.forEach((z) => {
+      const el = zonesRoot.querySelector(`[data-point-id="${CSS.escape(z.id)}"]`);
+      if (el && z.id === selectedId) el.classList.add("selected");
+    });
+    ensureBrushOverlay();
+  }
+
+  function refresh() { renderPins(); renderZones(); renderList(); renderMapPicker(); }
 
   // ---------- Palette de types ----------
 
@@ -166,6 +185,34 @@
     if (!chip || chip.getAttribute("data-map") === currentMapId) return;
     selectedId = null;
     await showMap(chip.getAttribute("data-map"));
+  });
+
+  // ---------- Outil : pastille ou pinceau ----------
+
+  function setTool(next) {
+    tool = next;
+    document.querySelectorAll("#tool-switch .tool-btn").forEach((b) => {
+      b.classList.toggle("active", b.getAttribute("data-tool") === tool);
+    });
+    document.getElementById("brush-settings").hidden = tool !== "brush";
+    document.body.classList.toggle("brush-mode", tool === "brush");
+    document.getElementById("tool-hint").textContent = tool === "brush"
+      ? "Peins sur la carte pour couvrir une zone : elle deviendra cliquable sans rien ajouter au dessin."
+      : "Clique sur la carte pour poser un repère.";
+    if (tool !== "brush") hideBrushCursor();
+  }
+
+  document.getElementById("tool-switch").addEventListener("click", (e) => {
+    const btn = e.target.closest("[data-tool]");
+    if (btn) setTool(btn.getAttribute("data-tool"));
+  });
+
+  const brushInput = document.getElementById("brush-size");
+  brushInput.addEventListener("input", () => {
+    brushRadius = Number(brushInput.value) || EanaMapZones.RAYON_DEFAUT;
+    document.getElementById("brush-size-value").textContent =
+      brushRadius.toFixed(1).replace(".", ",") + " %";
+    updateBrushCursorSize();
   });
 
   document.getElementById("type-palette").addEventListener("click", (e) => {
@@ -224,7 +271,9 @@
     dlgArticle.value = "";
     dlgResults.hidden = true;
     setDraftArticle(point.article || null);
-    dlgCoords.textContent = `Position : ${point.x.toFixed(1)} % / ${point.y.toFixed(1)} %`;
+    dlgCoords.textContent = EanaMapZones.isZone(point)
+      ? `Zone peinte — ${point.trace.length} point(s) de tracé, pinceau ${point.pinceau} % de la largeur`
+      : `Position : ${point.x.toFixed(1)} % / ${point.y.toFixed(1)} %`;
     dlgDelete.hidden = isNew;
     dialog.hidden = false;
     dlgArticle.focus();
@@ -257,7 +306,8 @@
     // Renomme l'id d'un repère neuf d'après son contenu, pour un JSON lisible.
     if (draftIsNew) {
       const entry = target.article ? EanaData.getManifestEntry(target.article) : null;
-      const base = target.label || (entry ? entry.title : target.type);
+      const base = target.label || (entry ? entry.title : target.type)
+        || (EanaMapZones.isZone(target) ? "zone" : "repere");
       const newId = makeId(base);
       if (newId !== target.id) target.id = newId;
     }
@@ -285,10 +335,138 @@
     }
   });
 
+  // ---------- Pinceau ----------
+
+  // Le curseur et le tracé en cours vivent dans la même couche SVG que les
+  // zones ; comme celle-ci est réécrite à chaque rendu, on les recrée après.
+  function ensureBrushOverlay() {
+    const NS = "http://www.w3.org/2000/svg";
+    let cursor = zonesRoot.querySelector(".brush-cursor");
+    if (!cursor) {
+      cursor = document.createElementNS(NS, "circle");
+      cursor.setAttribute("class", "brush-cursor");
+      cursor.style.display = "none";
+      zonesRoot.appendChild(cursor);
+    }
+    updateBrushCursorSize();
+  }
+
+  // Le pinceau est exprimé en pourcentage de la LARGEUR : un coup de pinceau
+  // reste rond même sur une carte très allongée, et garde sa taille relative
+  // si la carte est un jour redécoupée en plus fine résolution.
+  function brushPixels() {
+    return currentSize ? (brushRadius / 100) * currentSize.width : 0;
+  }
+
+  function updateBrushCursorSize() {
+    const c = zonesRoot.querySelector(".brush-cursor");
+    if (c) c.setAttribute("r", brushPixels());
+  }
+
+  function moveBrushCursor(pos) {
+    const c = zonesRoot.querySelector(".brush-cursor");
+    if (!c || !currentSize) return;
+    c.setAttribute("cx", (pos.x / 100) * currentSize.width);
+    c.setAttribute("cy", (pos.y / 100) * currentSize.height);
+    c.style.display = "";
+  }
+
+  function hideBrushCursor() {
+    const c = zonesRoot.querySelector(".brush-cursor");
+    if (c) c.style.display = "none";
+  }
+
+  function draftElement() {
+    const NS = "http://www.w3.org/2000/svg";
+    let el = zonesRoot.querySelector(".map-zone-draft");
+    if (!el) {
+      el = document.createElementNS(NS, "polyline");
+      el.setAttribute("class", "map-zone-draft");
+      el.setAttribute("stroke-width", brushPixels() * 2);
+      zonesRoot.appendChild(el);
+    }
+    return el;
+  }
+
+  function updateDraft() {
+    if (!stroke || !currentSize) return;
+    draftElement().setAttribute("points", stroke
+      .map(([x, y]) => `${(x / 100) * currentSize.width},${(y / 100) * currentSize.height}`)
+      .join(" "));
+  }
+
+  // Un point n'est retenu que tous les demi-pinceaux : suivre la souris au
+  // pixel près produirait des milliers de points pour un trait sans plus de
+  // précision visible, et un JSON illisible.
+  function shouldAppend(pos) {
+    if (!stroke.length) return true;
+    const [lx, ly] = stroke[stroke.length - 1];
+    const dx = ((pos.x - lx) / 100) * currentSize.width;
+    const dy = ((pos.y - ly) / 100) * currentSize.height;
+    return Math.hypot(dx, dy) >= brushPixels() / 2;
+  }
+
+  const inMap = (pos) => pos.x >= 0 && pos.x <= 100 && pos.y >= 0 && pos.y <= 100;
+
+  viewport.addEventListener("pointerdown", (e) => {
+    if (tool !== "brush" || !currentSize) return;
+    const pos = view.screenToMapPercent(e.clientX, e.clientY);
+    if (!inMap(pos)) return;
+    try { viewport.setPointerCapture(e.pointerId); } catch (err) { /* sans capture */ }
+    stroke = [[+pos.x.toFixed(2), +pos.y.toFixed(2)]];
+    updateDraft();
+  });
+
+  viewport.addEventListener("pointermove", (e) => {
+    if (tool !== "brush" || !currentSize) return;
+    const pos = view.screenToMapPercent(e.clientX, e.clientY);
+    moveBrushCursor(pos);
+    if (!stroke || !shouldAppend(pos)) return;
+    stroke.push([+pos.x.toFixed(2), +pos.y.toFixed(2)]);
+    updateDraft();
+  });
+
+  viewport.addEventListener("pointerleave", hideBrushCursor);
+
+  function finishStroke() {
+    if (!stroke) return;
+    const trace = stroke;
+    stroke = null;
+    const draft = zonesRoot.querySelector(".map-zone-draft");
+    if (draft) draft.remove();
+    if (!trace.length) return;
+
+    const point = {
+      id: makeId("zone"),
+      map: currentMapId,
+      forme: "trace",
+      pinceau: +brushRadius.toFixed(2),
+      trace,
+      type: activeType || (EanaMapPoints.getTypes()[0] || {}).id,
+    };
+    points.push(point);
+    selectedId = point.id;
+    refresh();
+    openDialog(point, true);
+  }
+
+  viewport.addEventListener("pointerup", finishStroke);
+  viewport.addEventListener("pointercancel", finishStroke);
+
   // ---------- Interaction carte ----------
 
   function onMapClick(pos) {
-    if (pos.x < 0 || pos.x > 100 || pos.y < 0 || pos.y > 100) return; // hors carte
+    if (!inMap(pos)) return; // hors carte
+    if (tool === "brush") return; // la peinture a son propre circuit
+
+    // Une zone déjà peinte sous le curseur : on l'ouvre plutôt que d'empiler
+    // une pastille par-dessus.
+    const hit = EanaMapZones.hitTest(zonesRoot, pos.x, pos.y);
+    if (hit) {
+      const existing = points.find((x) => x.id === hit.dataset.pointId);
+      if (existing) { selectedId = existing.id; refresh(); openDialog(existing, false); return; }
+    }
+
     const type = activeType || (EanaMapPoints.getTypes()[0] || {}).id;
     const point = { id: makeId("repere"), map: currentMapId, type, x: +pos.x.toFixed(2), y: +pos.y.toFixed(2) };
     points.push(point);
@@ -300,6 +478,7 @@
   // Déplacement d'un repère existant : glisser depuis le repère lui-même.
   let dragPin = null;
   pinsRoot.addEventListener("pointerdown", (e) => {
+    if (tool === "brush") return; // en mode pinceau, tout glissement peint
     const pin = e.target.closest(".map-pin");
     if (!pin) return;
     e.stopPropagation(); // ne pas déclencher le pan de la carte
@@ -362,8 +541,15 @@
         if (p.type) out.type = p.type;
         if (p.article) out.article = p.article;
         if (p.label) out.label = p.label;
-        out.x = p.x;
-        out.y = p.y;
+        // Une zone n'a pas de position : c'est son tracé qui la définit.
+        if (EanaMapZones.isZone(p)) {
+          out.forme = "trace";
+          out.pinceau = p.pinceau;
+          out.trace = p.trace;
+        } else {
+          out.x = p.x;
+          out.y = p.y;
+        }
         return out;
       }),
     };
@@ -420,8 +606,11 @@
     currentMapId = EanaMapPoints.resolveMapId(mapId);
     try { localStorage.setItem("eana_editor_map", currentMapId); } catch (e) { /* sans mémoire */ }
     pinsRoot.innerHTML = "";
+    zonesRoot.innerHTML = "";
+    currentSize = null;
     try {
       const size = await background.load(EanaMapPoints.getMap(currentMapId));
+      currentSize = size;
       view.setSize(size.width, size.height);
       view.fit();
     } catch (err) {
@@ -467,6 +656,8 @@
     EanaTheme.wireToggle();
     activeType = (EanaMapPoints.getTypes()[0] || {}).id || null;
     renderPalette();
+    setTool("point");
+    brushInput.dispatchEvent(new Event("input"));
 
     background = EanaMapBackground.create({ root: bgRoot });
 
@@ -477,7 +668,8 @@
       onViewChange: (rect, scale) => background.update(rect, scale),
       onMapClick,
     });
-    view.wire({ ignoreSelector: ".map-pin" });
+    // En mode pinceau, un glissement doit tracer et non déplacer la carte.
+    view.wire({ ignoreSelector: ".map-pin", ignoreWhen: () => tool === "brush" });
 
     document.getElementById("zoom-in").addEventListener("click", () => view.zoomByFactor(1.4));
     document.getElementById("zoom-out").addEventListener("click", () => view.zoomByFactor(1 / 1.4));

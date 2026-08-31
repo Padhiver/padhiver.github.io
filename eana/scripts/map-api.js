@@ -71,9 +71,21 @@ function savePoints(body) {
   }
   parsed.points.forEach((p, i) => {
     if (!p || typeof p.id !== "string" || !p.id.trim()) throw new Error(`point ${i} : "id" manquant`);
-    if (typeof p.x !== "number" || typeof p.y !== "number") throw new Error(`point ${i} : "x"/"y" doivent être des nombres`);
     if (p.map !== undefined && (typeof p.map !== "string" || !p.map.trim())) {
       throw new Error(`point ${i} : "map" doit être l'identifiant d'une carte`);
+    }
+    // Deux formes possibles : une pastille, qui a une position, ou une zone
+    // peinte, définie par son tracé — celle-ci n'a pas de x/y.
+    if (p.forme === "trace") {
+      if (!Array.isArray(p.trace) || !p.trace.length) throw new Error(`point ${i} : "trace" vide`);
+      if (!p.trace.every((c) => Array.isArray(c) && c.length === 2 && c.every(Number.isFinite))) {
+        throw new Error(`point ${i} : "trace" doit être une liste de couples [x, y]`);
+      }
+      if (!Number.isFinite(p.pinceau) || p.pinceau <= 0) {
+        throw new Error(`point ${i} : "pinceau" doit être un nombre positif`);
+      }
+    } else if (typeof p.x !== "number" || typeof p.y !== "number") {
+      throw new Error(`point ${i} : "x"/"y" doivent être des nombres`);
     }
   });
 

@@ -311,3 +311,64 @@ select.editor-input { cursor: pointer; }
 @media (max-width: 1100px) {
   .tiles-body { grid-template-columns: 1fr; }
 }
+
+/* =========================================================
+   Zones peintes, côté éditeur
+   Sur le site elles sont invisibles ; ici il faut voir ce
+   qu'on a déjà couvert, sinon on peint deux fois au même
+   endroit sans le savoir.
+   ========================================================= */
+
+.editor-page .map-zone {
+  stroke: color-mix(in srgb, var(--sea) 26%, transparent);
+  mix-blend-mode: multiply;
+}
+.editor-page .map-zone:hover {
+  stroke: color-mix(in srgb, var(--sea) 40%, transparent);
+}
+.editor-page .map-zone.selected {
+  stroke: color-mix(in srgb, var(--cinabre) 42%, transparent);
+}
+:root[data-theme="dark"] .editor-page .map-zone { mix-blend-mode: screen; }
+
+/* Tracé en cours et cercle qui montre la taille du pinceau sous le curseur. */
+.map-zone-draft {
+  fill: none;
+  stroke: color-mix(in srgb, var(--cinabre) 45%, transparent);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  pointer-events: none;
+}
+.brush-cursor {
+  fill: none;
+  stroke: var(--cinabre);
+  stroke-width: 1.5;
+  opacity: 0.55;
+  pointer-events: none;
+  vector-effect: non-scaling-stroke;
+}
+.editor-page.brush-mode .map-viewport { cursor: none; }
+.editor-page.brush-mode .map-zone { cursor: none; }
+
+/* ---------- Choix de l'outil ---------- */
+
+.tool-switch { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.tool-btn {
+  font-family: var(--font-display);
+  font-size: 0.6rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  padding: 10px 6px;
+  border: 1px solid var(--line);
+  background: var(--paper-2);
+  color: var(--ink-2);
+  cursor: pointer;
+  transition: 0.15s;
+}
+.tool-btn:hover { border-color: var(--sea); color: var(--sea); }
+.tool-btn.active { background: var(--sea); border-color: var(--sea); color: var(--paper-2); }
+
+.editor-range { width: 100%; accent-color: var(--cinabre); cursor: pointer; }
+
+/* Une zone dans la liste : l'icône de son type, plus la mention de sa nature. */
+.pl-zone { color: var(--sea); font-style: italic; }

@@ -18,6 +18,7 @@ map/tiles.html           Découpe d'une carte en tuiles (outil local, voir plus 
 map/tiles.js             Logique de la découpe
 js/mapview.js            Pan/zoom, partagé entre la carte et les outils
 js/mapbackground.js      Fond de carte : image unique ou tuiles réassemblées, partagé
+js/mapzones.js           Zones peintes au pinceau : tracé, rendu, détection du survol
 js/mappoints.js          Cartes, points/types et dessin d'un repère, partagés
 css/style.css          Système visuel partagé (papier quadrillé, cartouches, typographie…)
 js/data.js              Chargement des données + filtrage public/OFF + mode maître
@@ -157,6 +158,51 @@ Dans `images/map/sources/`, **ignoré par git** (voir `.gitignore`). Une source 
 
 Garde-la quand même en local : c'est elle qu'il faut rouvrir pour recouper une carte, puisque les tuiles ne se recollent pas d'elles-mêmes.
 
+### Deux formes de repère : la pastille et la zone
+
+Une **pastille** dessine une icône à un endroit précis. C'est ce qu'il faut pour un lieu que le cartographe n'a pas représenté — un donjon, un champ de bataille, une ruine.
+
+Mais sur une carte déjà dessinée, la pastille tombe souvent à côté du problème : une ville a généralement son propre point rouge, et une chaîne de montagnes n'a pas de position, elle a une **étendue**. Poser une icône sur « Les Montagnes Chauves » double ce qui existe et abîme le dessin.
+
+D'où la **zone** : un trait peint sur la carte, **invisible à la lecture**, qui rend cliquable ce que le cartographe a déjà mis là. Au survol, le curseur devient une main et le nom apparaît — rien d'autre ne change. Dans l'éditeur, en revanche, les zones sont teintées : sans ça on repeint deux fois au même endroit sans s'en apercevoir.
+
+Les deux cohabitent sur la même carte ; chaque repère choisit sa forme. Les zones passent **sous** les pastilles, donc une pastille posée au milieu d'une région reste cliquable.
+
+#### Comment c'est représenté
+
+Une zone stocke le tracé du pinceau et son rayon, rien de plus :
+
+```json
+{ "id": "montagnes-chauves", "map": "monde", "forme": "trace",
+  "pinceau": 3, "trace": [[15, 55], [17.5, 51.7], [20, 49.1]],
+  "article": "montagnes-chauves", "label": "Les Montagnes Chauves" }
+```
+
+- `trace` : la suite des points, en pourcentage comme `x`/`y`. L'éditeur n'en retient un que tous les demi-pinceaux — suivre la souris au pixel près donnerait des milliers de points sans plus de précision visible. Un arc complet tient en une vingtaine de points.
+- `pinceau` : le rayon, en pourcentage de la **largeur seule**, pour qu'un coup de pinceau reste rond sur une carte allongée.
+
+Le rendu repose sur une propriété du SVG qui fait tout le travail : **une polyligne aux bouts et aux coudes arrondis dessine exactement l'union des disques posés le long du trait**. Le rendu et la détection du survol en découlent (`isPointInStroke`), sans une ligne de géométrie écrite à la main.
+
+Comme les coordonnées sont en pourcentage, une zone survit à un changement de résolution de la carte, exactement comme une pastille.
+
+#### Peindre une zone
+
+Dans `map/editor.html`, bascule sur **Pinceau**, règle sa taille, et peins sur la carte. Au relâchement, la même fenêtre que pour une pastille demande le type, la fiche à lier et le nom.
+
+- Un cercle suit le curseur pour montrer la taille réelle du pinceau.
+- Pendant la peinture, le déplacement de la carte est suspendu : un glissement trace au lieu de faire glisser.
+- Un simple clic pose une tache ronde — pratique pour une ville isolée.
+- Pour reprendre une zone, repasse sur **Pastille** et clique dessus : sa fenêtre s'ouvre au lieu d'empiler une icône par-dessus.
+- Une région trop tarabiscotée pour un seul trait ? Peins-en plusieurs et lie-les à la même fiche : elles ouvriront toutes la même.
+
+Côté site, ouvrir une fiche demande un **clic franc** : faire glisser la carte en partant d'une zone la déplace sans rien ouvrir. Sans cette distinction, le cas serait fréquent — une zone couvre de grandes surfaces.
+
+Une zone liée à une fiche `OFF` est **absente du HTML** en mode public, nom compris, comme une pastille : sur une carte, l'emplacement seul peut déjà spoiler.
+
+#### Régler l'effet de survol
+
+Par défaut, survoler une zone la teinte très légèrement (`mix-blend-mode: multiply`, pour que l'encre diffuse dans le papier au lieu de le masquer). Pour ne garder **que** le changement de curseur, supprime la règle `.map-zone:hover` de `map/map.css`.
+
 ### Éditeur de repères (`map/editor.html`)
 
 **Le plus simple : ne pas éditer `data/map-points.json` à la main.** Lance le serveur local et ouvre l'éditeur :
@@ -193,6 +239,7 @@ Neuf types par défaut (cité, forteresse, ruine, sanctuaire, relief, forêt, po
 ```
 
 - `map` : l'`id` d'une carte de `data/map-config.json`. Omis, le repère appartient à la carte par défaut — c'était le cas de tous les repères avant qu'il y en ait plusieurs.
+- `forme` : absent pour une pastille, `"trace"` pour une zone peinte (voir « Deux formes de repère » plus haut). Une zone n'a pas de `x`/`y` : c'est son tracé qui la définit.
 - `x`/`y` : pourcentage (0-100) de la largeur/hauteur de **sa** carte. Mesure-les par rapport à l'image finale — ou laisse l'éditeur les poser.
 - `type` : optionnel, un `id` de `data/map-point-types.json`. Sans type, le repère retombe sur l'icône de la catégorie de sa fiche liée (comportement des points créés avant les types).
 - `article` : optionnel, l'id d'une fiche du codex (n'importe quelle catégorie — personnage, lieu, créature...).

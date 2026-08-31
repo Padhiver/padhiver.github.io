@@ -46,8 +46,23 @@
       </section>
 
       <section class="editor-section">
+        <h2>Outil</h2>
+        <div class="tool-switch" id="tool-switch">
+          <button type="button" class="tool-btn active" data-tool="point">Pastille</button>
+          <button type="button" class="tool-btn" data-tool="brush">Pinceau</button>
+        </div>
+        <p class="editor-hint" id="tool-hint">Clique sur la carte pour poser un repère.</p>
+
+        <div id="brush-settings" hidden>
+          <label class="editor-label" for="brush-size">Taille du pinceau <span class="editor-optional">(% de la largeur)</span></label>
+          <input type="range" class="editor-range" id="brush-size" min="0.2" max="10" step="0.1" value="1.5">
+          <p class="editor-hint" id="brush-size-value">1,5 %</p>
+        </div>
+      </section>
+
+      <section class="editor-section">
         <h2>Type de repère</h2>
-        <p class="editor-hint">Choisis un type, puis clique sur la carte pour poser un repère.</p>
+        <p class="editor-hint">Il s'applique aussi bien à une pastille qu'à une zone peinte.</p>
         <div class="type-palette" id="type-palette"></div>
       </section>
 
@@ -63,6 +78,7 @@
         <div class="map-canvas" id="map-canvas">
           <!-- Rempli par js/mapbackground.js, comme sur la carte publique. -->
           <div class="map-bg" id="map-bg"></div>
+          <svg class="map-zones" id="map-zones" aria-hidden="true"></svg>
           <div id="map-pins"></div>
         </div>
       </div>
@@ -127,6 +143,7 @@
 <script src="js/theme.js"></script>
 <script src="js/mapview.js"></script>
 <script src="js/mapbackground.js"></script>
+<script src="js/mapzones.js"></script>
 <script src="js/mappoints.js"></script>
 <script src="map/editor.js"></script>
 </body>

@@ -137,6 +137,63 @@ html:has(.map-page), .map-page {
    depuis la grille), pour que l'assemblage soit jointif au pixel près. */
 .map-tile { position: absolute; }
 
+/* ---------- Zones peintes ---------- */
+
+/* Une zone ne se dessine pas : elle rend cliquable ce que le cartographe a
+   déjà mis sur la carte. Le trait est donc transparent, et "pointer-events:
+   stroke" lui donne quand même une prise — la main au survol suffit à dire
+   qu'il y a quelque chose, sans rien ajouter au dessin.
+   La couche laisse passer le reste des clics, sinon elle empêcherait de
+   faire glisser la carte. */
+.map-zones {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  pointer-events: none;
+}
+
+.map-zone {
+  fill: none;
+  stroke: transparent;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  pointer-events: stroke;
+  cursor: pointer;
+  transition: stroke 0.18s;
+}
+
+/* Au survol, un lavis très léger : l'encre diffuse dans le papier plutôt
+   qu'un cadre d'interface ne s'allume. Le fondu "multiply" fait que la zone
+   teinte le dessin au lieu de le masquer. Pour ne garder QUE le changement
+   de curseur, il suffit de supprimer cette règle. */
+.map-zone:hover {
+  stroke: color-mix(in srgb, var(--cinabre) 16%, transparent);
+  mix-blend-mode: multiply;
+}
+:root[data-theme="dark"] .map-zone:hover { mix-blend-mode: screen; }
+
+/* Étiquette d'une zone : même cartouche que celle d'une pastille, posée au
+   milieu du tracé et contre-mise à l'échelle pour rester lisible à tout zoom. */
+.map-zone-label {
+  position: absolute;
+  transform: translate(-50%, -50%) scale(var(--pin-scale, 1));
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.18s;
+  white-space: nowrap;
+  background: var(--paper-2);
+  border: 1px solid var(--line);
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+  padding: 5px 10px;
+  z-index: 1;
+}
+.map-zone-label.visible { opacity: 1; }
+
 /* ---------- Repères ---------- */
 
 /* --pin-scale est posé par le JS à chaque changement d'échelle, pour que les
