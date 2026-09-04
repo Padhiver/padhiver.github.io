@@ -1,0 +1,92 @@
+{
+  "_comment": "Textes d'interface du site, séparés du code pour pouvoir réutiliser ce site pour un autre univers sans toucher au JS. Les articles (data/articles/) et les catégories (data/categories.json) restent à côté : ce fichier ne contient que le texte de l'habillage — titres, boutons, messages. Une clé { \"one\": \"...\", \"other\": \"...\" } accorde le singulier/pluriel ; {variable} est remplacé à l'affichage.",
+
+  "site": {
+    "title": "Codex de Valisthéa",
+    "description": "Encyclopédie de l'univers de Valisthéa.",
+    "eyebrow": "Compilé par la Guilde des Archivistes",
+    "subtitle": "Consulter différents articles sur l'univers de Valisthéa."
+  },
+
+  "keyHints": {
+    "escKey": "Échap",
+    "close": "Fermer"
+  },
+
+  "theme": {
+    "toggleAriaLabel": "Basculer entre mode clair et sombre",
+    "toDark": "Mode sombre",
+    "toLight": "Mode clair"
+  },
+
+  "mode": {
+    "public": "Public",
+    "master": "Maître"
+  },
+
+  "search": {
+    "placeholderHome": "Nom d'un lieu, d'une personne, d'un phénomène…",
+    "placeholderCategory": "Chercher dans {category}"
+  },
+
+  "home": {
+    "recentTitle": "Articles récents",
+    "registriesTitle": "Les quatre registres",
+    "registriesTotal": { "one": "{n} entrée", "other": "{n} entrées" },
+    "emptyRecent": "Aucune fiche publiée pour le moment."
+  },
+
+  "category": {
+    "cardCount": { "one": "{n} article", "other": "{n} articles" },
+    "entryCount": { "one": "{n} entrée", "other": "{n} entrées" },
+    "emptySearch": "Aucun article ne correspond à ta recherche.",
+    "emptyDefault": "Aucun article dans cette catégorie pour le moment.",
+    "feuilletPrev": "Feuillet précédent",
+    "feuilletNext": "Feuillet suivant",
+    "feuilletLabel": "Feuillet {current} / {total}"
+  },
+
+  "card": {
+    "lockedAriaLabel": "Fiche à venir",
+    "off": "Privé"
+  },
+
+  "article": {
+    "emptyText": "Fiche sans texte.",
+    "chaptersTitle": "Chapitres",
+    "chapterDefault": "Page {n}",
+    "relatedTitle": "Articles liés"
+  },
+
+  "master": {
+    "title": "Mode maître",
+    "indicatorHint": "Cliquer pour désactiver le mode maître",
+    "gateDescription": "Saisis la passphrase pour afficher aussi les fiches privées.",
+    "gatePlaceholder": "Passphrase",
+    "gateError": "Passphrase incorrecte.",
+    "gateCancel": "Annuler",
+    "gateOpen": "Ouvrir"
+  },
+
+  "common": {
+    "close": "Fermer"
+  },
+
+  "nav": {
+    "map": "Carte"
+  },
+
+  "map": {
+    "title": "Carte — Codex de Valisthéa",
+    "description": "Carte interactive de l'univers de Valisthéa.",
+    "eyebrow": "Repères du monde connu",
+    "subtitle": "Clique un repère pour ouvrir sa fiche.",
+    "backToCodex": "Retour au codex",
+    "zoomIn": "Zoom avant",
+    "zoomOut": "Zoom arrière",
+    "resetView": "Recentrer la carte",
+    "untitledPoint": "Lieu sans nom",
+    "imageError": "Cette carte n'a pas pu être chargée. Vérifie que ses fichiers existent bien dans images/map/ et que data/map-config.json pointe au bon endroit.",
+    "pickerLabel": "Cartes"
+  }
+}
