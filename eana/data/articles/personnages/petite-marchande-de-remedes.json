@@ -2,7 +2,7 @@
   "id": "petite-marchande-de-remedes",
   "title": "La petite marchande de remèdes",
   "category": "personnages",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 42,
   "cardImage": "images/placeholders/emblem-personnages.svg",

@@ -2,7 +2,7 @@
   "id": "officier-du-corps-despionnage-valoedois",
   "title": "L'officier du corps d'espionnage valœdois",
   "category": "personnages",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 58,
   "cardImage": "images/placeholders/emblem-personnages.svg",

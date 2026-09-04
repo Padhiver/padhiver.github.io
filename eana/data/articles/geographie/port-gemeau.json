@@ -2,7 +2,7 @@
   "id": "port-gemeau",
   "title": "Port-Gémeau",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 167,
   "cardImage": "images/placeholders/emblem-geographie.svg",

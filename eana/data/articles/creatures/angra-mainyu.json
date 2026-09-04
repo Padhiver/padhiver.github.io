@@ -2,7 +2,7 @@
   "id": "angra-mainyu",
   "title": "Angra Mainyu",
   "category": "creatures",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 1,
   "cardImage": "images/placeholders/emblem-primordiaux.svg",

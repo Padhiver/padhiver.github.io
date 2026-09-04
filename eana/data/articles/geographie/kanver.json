@@ -2,7 +2,7 @@
   "id": "kanver",
   "title": "Kanvěr",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 18,
   "cardImage": "images/placeholders/emblem-geographie.svg",

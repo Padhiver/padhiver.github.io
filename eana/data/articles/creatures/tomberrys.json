@@ -2,7 +2,7 @@
   "id": "tomberrys",
   "title": "Les Tomberrys",
   "category": "creatures",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 44,
   "cardImage": "images/placeholders/emblem-primordiaux.svg",

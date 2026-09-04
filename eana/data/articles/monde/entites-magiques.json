@@ -2,7 +2,7 @@
   "id": "entites-magiques",
   "title": "Les entités magiques",
   "category": "monde",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 66,
   "cardImage": "images/placeholders/emblem-monde.svg",

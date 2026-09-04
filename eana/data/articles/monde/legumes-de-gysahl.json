@@ -2,7 +2,7 @@
   "id": "legumes-de-gysahl",
   "title": "Les légumes de Gysahl",
   "category": "monde",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 73,
   "cardImage": "images/placeholders/emblem-monde.svg",

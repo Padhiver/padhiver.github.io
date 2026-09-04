@@ -2,7 +2,7 @@
   "id": "geoles-de-balmung",
   "title": "Les geôles de Balmung",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 134,
   "cardImage": "images/placeholders/emblem-geographie.svg",

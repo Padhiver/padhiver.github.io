@@ -2,7 +2,7 @@
   "id": "fort-norvent",
   "title": "Fort-Norvent",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 15,
   "cardImage": "images/placeholders/emblem-geographie.svg",

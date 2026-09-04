@@ -2,7 +2,7 @@
   "id": "monstres",
   "title": "Les monstres",
   "category": "monde",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 78,
   "cardImage": "images/placeholders/emblem-monde.svg",

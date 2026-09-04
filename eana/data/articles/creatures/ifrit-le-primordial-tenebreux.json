@@ -2,7 +2,7 @@
   "id": "ifrit-le-primordial-tenebreux",
   "title": "Ifrit le Primordial ténébreux",
   "category": "creatures",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 6,
   "cardImage": "images/placeholders/emblem-primordiaux.svg",

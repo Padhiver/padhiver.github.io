@@ -2,7 +2,7 @@
   "id": "region-agricole-de-sangbreque",
   "title": "La région agricole de Sangbrèque",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 60,
   "cardImage": "images/placeholders/emblem-geographie.svg",

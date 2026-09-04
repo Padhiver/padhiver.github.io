@@ -2,7 +2,7 @@
   "id": "cristaux-morts",
   "title": "Les cristaux morts",
   "category": "monde",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 62,
   "cardImage": "images/placeholders/emblem-monde.svg",

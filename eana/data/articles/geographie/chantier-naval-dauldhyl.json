@@ -2,7 +2,7 @@
   "id": "chantier-naval-dauldhyl",
   "title": "Le chantier naval d'Auldhyl",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 78,
   "cardImage": "images/placeholders/emblem-geographie.svg",

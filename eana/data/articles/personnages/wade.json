@@ -2,7 +2,7 @@
   "id": "wade",
   "title": "Wade",
   "category": "personnages",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 97,
   "cardImage": "images/placeholders/emblem-personnages.svg",

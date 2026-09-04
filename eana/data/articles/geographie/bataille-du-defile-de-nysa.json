@@ -2,7 +2,7 @@
   "id": "bataille-du-defile-de-nysa",
   "title": "La bataille du défilé de Nýsa",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 22,
   "cardImage": "images/placeholders/emblem-geographie.svg",

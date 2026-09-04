@@ -2,7 +2,7 @@
   "id": "haut-grade-valoedois",
   "title": "Le haut gradé valœdois",
   "category": "personnages",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 47,
   "cardImage": "images/placeholders/emblem-personnages.svg",

@@ -2,7 +2,7 @@
   "id": "cercle-de-malius",
   "title": "Le Cercle de Malius",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 77,
   "cardImage": "images/placeholders/emblem-geographie.svg",

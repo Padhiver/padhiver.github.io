@@ -2,7 +2,7 @@
   "id": "oriflamme",
   "title": "Oriflamme",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 166,
   "cardImage": "images/placeholders/emblem-geographie.svg",

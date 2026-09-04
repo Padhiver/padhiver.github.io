@@ -2,7 +2,7 @@
   "id": "armee-sangbrequoise",
   "title": "L'armée sangbréquoise",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 67,
   "cardImage": "images/placeholders/emblem-geographie.svg",

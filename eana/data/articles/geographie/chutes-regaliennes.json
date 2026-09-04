@@ -2,7 +2,7 @@
   "id": "chutes-regaliennes",
   "title": "Les chutes régaliennes",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 126,
   "cardImage": "images/placeholders/emblem-geographie.svg",

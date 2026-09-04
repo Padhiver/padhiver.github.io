@@ -2,7 +2,7 @@
   "id": "cristaux-geants",
   "title": "Les cristaux géants",
   "category": "monde",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 60,
   "cardImage": "images/placeholders/emblem-monde.svg",

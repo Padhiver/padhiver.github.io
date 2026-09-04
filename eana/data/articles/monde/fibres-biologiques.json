@@ -2,7 +2,7 @@
   "id": "fibres-biologiques",
   "title": "Les fibres biologiques",
   "category": "monde",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 70,
   "cardImage": "images/placeholders/emblem-monde.svg",

@@ -2,7 +2,7 @@
   "id": "caravane-ecarlate",
   "title": "La Caravane écarlate",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 24,
   "cardImage": "images/placeholders/emblem-geographie.svg",

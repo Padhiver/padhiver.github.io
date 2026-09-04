@@ -2,7 +2,7 @@
   "id": "harek",
   "title": "Harek",
   "category": "personnages",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 29,
   "cardImage": "images/placeholders/emblem-personnages.svg",

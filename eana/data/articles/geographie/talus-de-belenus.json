@@ -2,7 +2,7 @@
   "id": "talus-de-belenus",
   "title": "Le talus de Belenus",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 150,
   "cardImage": "images/placeholders/emblem-geographie.svg",

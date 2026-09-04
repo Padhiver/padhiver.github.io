@@ -2,7 +2,7 @@
   "id": "au-court-pendu",
   "title": "Au Court pendu",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 2,
   "cardImage": "images/placeholders/emblem-geographie.svg",

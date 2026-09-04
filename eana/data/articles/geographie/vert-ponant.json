@@ -2,7 +2,7 @@
   "id": "vert-ponant",
   "title": "Le Vert-Ponant",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 152,
   "cardImage": "images/placeholders/emblem-geographie.svg",

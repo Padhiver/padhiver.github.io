@@ -2,7 +2,7 @@
   "id": "midadole-telamon",
   "title": "Mid'adole Télamon",
   "category": "personnages",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 66,
   "cardImage": "images/placeholders/emblem-personnages.svg",

@@ -2,7 +2,7 @@
   "id": "teto",
   "title": "Teto",
   "category": "personnages",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 90,
   "cardImage": "images/placeholders/emblem-personnages.svg",

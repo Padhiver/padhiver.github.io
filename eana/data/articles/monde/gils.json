@@ -2,7 +2,7 @@
   "id": "gils",
   "title": "Les gils",
   "category": "monde",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 71,
   "cardImage": "images/placeholders/emblem-monde.svg",

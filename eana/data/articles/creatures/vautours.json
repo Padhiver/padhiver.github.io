@@ -2,7 +2,7 @@
   "id": "vautours",
   "title": "Les vautours",
   "category": "creatures",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 45,
   "cardImage": "images/placeholders/emblem-primordiaux.svg",

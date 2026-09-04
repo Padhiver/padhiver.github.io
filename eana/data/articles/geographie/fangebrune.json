@@ -2,7 +2,7 @@
   "id": "fangebrune",
   "title": "Fangebrune",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 14,
   "cardImage": "images/placeholders/emblem-geographie.svg",

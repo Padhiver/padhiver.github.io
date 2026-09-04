@@ -2,7 +2,7 @@
   "id": "maitre-de-ceremonie",
   "title": "Le Maître de cérémonie",
   "category": "creatures",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 10,
   "cardImage": "images/placeholders/emblem-primordiaux.svg",

@@ -2,7 +2,7 @@
   "id": "citadelle-de-zirnitra",
   "title": "La citadelle de Zirnitra",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 26,
   "cardImage": "images/placeholders/emblem-geographie.svg",

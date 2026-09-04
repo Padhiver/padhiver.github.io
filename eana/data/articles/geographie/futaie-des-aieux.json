@@ -2,7 +2,7 @@
   "id": "futaie-des-aieux",
   "title": "La futaie des aïeux",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 42,
   "cardImage": "images/placeholders/emblem-geographie.svg",

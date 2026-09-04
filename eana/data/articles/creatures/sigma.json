@@ -2,7 +2,7 @@
   "id": "sigma",
   "title": "Sigma",
   "category": "creatures",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 56,
   "cardImage": "images/placeholders/emblem-primordiaux.svg",

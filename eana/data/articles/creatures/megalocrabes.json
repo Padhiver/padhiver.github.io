@@ -2,7 +2,7 @@
   "id": "megalocrabes",
   "title": "Les mégalocrabes",
   "category": "creatures",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 33,
   "cardImage": "images/placeholders/emblem-primordiaux.svg",

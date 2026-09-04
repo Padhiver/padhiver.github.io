@@ -2,7 +2,7 @@
   "id": "protection-des-pourvoyeurs",
   "title": "La protection des Pourvoyeurs",
   "category": "monde",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 16,
   "cardImage": "images/placeholders/emblem-monde.svg",

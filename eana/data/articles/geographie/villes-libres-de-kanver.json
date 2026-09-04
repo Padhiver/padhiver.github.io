@@ -2,7 +2,7 @@
   "id": "villes-libres-de-kanver",
   "title": "Les Villes libres de Kanvěr",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 149,
   "cardImage": "images/placeholders/emblem-geographie.svg",

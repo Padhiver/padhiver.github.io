@@ -2,7 +2,7 @@
   "id": "thalan",
   "title": "Thalan",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 174,
   "cardImage": "images/placeholders/emblem-geographie.svg",

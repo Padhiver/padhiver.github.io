@@ -2,7 +2,7 @@
   "id": "sources-du-mirage",
   "title": "Les sources du mirage",
   "category": "monde",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 87,
   "cardImage": "images/placeholders/emblem-monde.svg",

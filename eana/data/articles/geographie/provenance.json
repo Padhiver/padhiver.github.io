@@ -2,7 +2,7 @@
   "id": "provenance",
   "title": "Le Provenance",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 110,
   "cardImage": "images/placeholders/emblem-geographie.svg",

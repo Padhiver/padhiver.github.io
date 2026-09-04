@@ -2,7 +2,7 @@
   "id": "oreille-du-desert",
   "title": "L'Oreille du désert",
   "category": "personnages",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 59,
   "cardImage": "images/placeholders/emblem-personnages.svg",

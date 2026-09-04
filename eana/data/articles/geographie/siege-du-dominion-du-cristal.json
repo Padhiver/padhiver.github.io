@@ -2,7 +2,7 @@
   "id": "siege-du-dominion-du-cristal",
   "title": "Le siège du Dominion du Cristal",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 138,
   "cardImage": "images/placeholders/emblem-geographie.svg",

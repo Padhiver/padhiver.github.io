@@ -2,7 +2,7 @@
   "id": "gardiens-de-letincelle",
   "title": "Les Gardiens de l'Étincelle",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 133,
   "cardImage": "images/placeholders/emblem-geographie.svg",

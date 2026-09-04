@@ -2,7 +2,7 @@
   "id": "suppression-de-la-marque",
   "title": "La suppression de la marque",
   "category": "monde",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 24,
   "cardImage": "images/placeholders/emblem-monde.svg",

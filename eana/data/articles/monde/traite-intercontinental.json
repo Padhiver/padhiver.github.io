@@ -2,7 +2,7 @@
   "id": "traite-intercontinental",
   "title": "Le Traité intercontinental",
   "category": "monde",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 94,
   "cardImage": "images/placeholders/emblem-monde.svg",

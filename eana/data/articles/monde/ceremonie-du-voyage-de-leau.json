@@ -2,7 +2,7 @@
   "id": "ceremonie-du-voyage-de-leau",
   "title": "La cérémonie du voyage de l'Eau",
   "category": "monde",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 4,
   "cardImage": "images/placeholders/emblem-monde.svg",

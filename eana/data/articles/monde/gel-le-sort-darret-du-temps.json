@@ -2,7 +2,7 @@
   "id": "gel-le-sort-darret-du-temps",
   "title": "Gel, le sort d'arrêt du temps",
   "category": "monde",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 2,
   "cardImage": "images/placeholders/emblem-monde.svg",

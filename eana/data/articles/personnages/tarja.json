@@ -2,7 +2,7 @@
   "id": "tarja",
   "title": "Tarja",
   "category": "personnages",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 89,
   "cardImage": "images/placeholders/emblem-personnages.svg",

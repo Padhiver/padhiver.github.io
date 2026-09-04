@@ -2,7 +2,7 @@
   "id": "desert-de-krozit",
   "title": "Le désert de Krozít",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 91,
   "cardImage": "images/placeholders/emblem-geographie.svg",

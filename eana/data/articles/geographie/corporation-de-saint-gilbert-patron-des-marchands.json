@@ -2,7 +2,7 @@
   "id": "corporation-de-saint-gilbert-patron-des-marchands",
   "title": "La corporation de saint Gilbert, patron des marchands",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 29,
   "cardImage": "images/placeholders/emblem-geographie.svg",

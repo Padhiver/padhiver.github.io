@@ -2,7 +2,7 @@
   "id": "creation-dun-nouveau-monde",
   "title": "La création d'un nouveau monde",
   "category": "monde",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 8,
   "cardImage": "images/placeholders/emblem-monde.svg",

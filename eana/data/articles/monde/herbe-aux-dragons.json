@@ -2,7 +2,7 @@
   "id": "herbe-aux-dragons",
   "title": "L'herbe aux dragons",
   "category": "monde",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 97,
   "cardImage": "images/placeholders/emblem-monde.svg",

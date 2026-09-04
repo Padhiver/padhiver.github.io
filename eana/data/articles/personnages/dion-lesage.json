@@ -2,7 +2,7 @@
   "id": "dion-lesage",
   "title": "Dion Lesage",
   "category": "personnages",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 16,
   "cardImage": "images/placeholders/emblem-personnages.svg",

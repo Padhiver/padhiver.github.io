@@ -2,7 +2,7 @@
   "id": "hugo-kupka",
   "title": "Hugo Kupka",
   "category": "personnages",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 32,
   "cardImage": "images/placeholders/emblem-personnages.svg",

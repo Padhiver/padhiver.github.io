@@ -2,7 +2,7 @@
   "id": "grande-sylve",
   "title": "La Grande Sylve",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 44,
   "cardImage": "images/placeholders/emblem-geographie.svg",

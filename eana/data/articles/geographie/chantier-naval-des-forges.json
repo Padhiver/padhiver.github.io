@@ -2,7 +2,7 @@
   "id": "chantier-naval-des-forges",
   "title": "Le chantier naval des Forges",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 79,
   "cardImage": "images/placeholders/emblem-geographie.svg",

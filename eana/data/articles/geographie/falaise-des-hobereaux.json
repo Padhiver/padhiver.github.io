@@ -2,7 +2,7 @@
   "id": "falaise-des-hobereaux",
   "title": "La falaise des hobereaux",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 38,
   "cardImage": "images/placeholders/emblem-geographie.svg",

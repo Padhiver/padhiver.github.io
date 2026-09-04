@@ -2,7 +2,7 @@
   "id": "mysidia",
   "title": "Mysidia, ancien Territoire du Nord",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 164,
   "cardImage": "images/placeholders/emblem-geographie.svg",

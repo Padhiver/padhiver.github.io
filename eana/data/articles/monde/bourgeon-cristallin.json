@@ -2,7 +2,7 @@
   "id": "bourgeon-cristallin",
   "title": "Le bourgeon cristallin",
   "category": "monde",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 27,
   "cardImage": "images/placeholders/emblem-monde.svg",

@@ -2,7 +2,7 @@
   "id": "servante-de-margrace",
   "title": "La servante de Margrace",
   "category": "personnages",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 43,
   "cardImage": "images/placeholders/emblem-personnages.svg",

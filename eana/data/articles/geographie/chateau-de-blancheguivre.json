@@ -2,7 +2,7 @@
   "id": "chateau-de-blancheguivre",
   "title": "Le château de Blancheguivre",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 80,
   "cardImage": "images/placeholders/emblem-geographie.svg",

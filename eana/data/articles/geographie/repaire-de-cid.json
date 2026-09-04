@@ -2,7 +2,7 @@
   "id": "repaire-de-cid",
   "title": "Le Repaire de Cid",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 114,
   "cardImage": "images/placeholders/emblem-geographie.svg",

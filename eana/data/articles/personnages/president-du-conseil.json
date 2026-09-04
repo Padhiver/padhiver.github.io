@@ -2,7 +2,7 @@
   "id": "president-du-conseil",
   "title": "Le Président du conseil",
   "category": "personnages",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 52,
   "cardImage": "images/placeholders/emblem-personnages.svg",

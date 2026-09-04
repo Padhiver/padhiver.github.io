@@ -2,7 +2,7 @@
   "id": "guilde-des-marchands-de-letoile-du-matin",
   "title": "La guilde des marchands de l'Étoile du matin",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 47,
   "cardImage": "images/placeholders/emblem-geographie.svg",

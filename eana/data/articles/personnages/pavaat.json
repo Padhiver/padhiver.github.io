@@ -2,7 +2,7 @@
   "id": "pavaat",
   "title": "Pavaat",
   "category": "personnages",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 77,
   "cardImage": "images/placeholders/emblem-personnages.svg",

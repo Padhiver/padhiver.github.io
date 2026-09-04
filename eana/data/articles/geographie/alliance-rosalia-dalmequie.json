@@ -2,7 +2,7 @@
   "id": "alliance-rosalia-dalmequie",
   "title": "L'alliance Rosalia-Dalméquie",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 49,
   "cardImage": "images/placeholders/emblem-geographie.svg",

@@ -2,7 +2,7 @@
   "id": "terres-du-nord",
   "title": "Les Terres du Nord",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 148,
   "cardImage": "images/placeholders/emblem-geographie.svg",

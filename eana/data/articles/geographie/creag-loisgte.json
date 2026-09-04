@@ -2,7 +2,7 @@
   "id": "creag-loisgte",
   "title": "Creag Loisgte",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 7,
   "cardImage": "images/placeholders/emblem-geographie.svg",

@@ -2,7 +2,7 @@
   "id": "ultima-dans-la-fissure-interdimensionnelle",
   "title": "Ultima dans la fissure interdimensionnelle",
   "category": "creatures",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 61,
   "cardImage": "images/placeholders/emblem-primordiaux.svg",

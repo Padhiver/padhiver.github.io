@@ -2,7 +2,7 @@
   "id": "specimens-de-la-tour-des-sages",
   "title": "Les spécimens de la Tour des Sages",
   "category": "monde",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 88,
   "cardImage": "images/placeholders/emblem-monde.svg",

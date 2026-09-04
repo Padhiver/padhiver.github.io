@@ -2,7 +2,7 @@
   "id": "la-nef-dechue",
   "title": "La Nef déchue",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 55,
   "cardImage": "images/placeholders/emblem-geographie.svg",

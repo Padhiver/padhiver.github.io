@@ -2,7 +2,7 @@
   "id": "ordre-des-ailes-ardentes",
   "title": "L'Ordre des Ailes ardentes",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 158,
   "cardImage": "images/placeholders/emblem-geographie.svg",

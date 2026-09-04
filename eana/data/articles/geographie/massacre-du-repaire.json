@@ -2,7 +2,7 @@
   "id": "massacre-du-repaire",
   "title": "Le massacre du Repaire",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 103,
   "cardImage": "images/placeholders/emblem-geographie.svg",

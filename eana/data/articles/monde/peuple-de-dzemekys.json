@@ -2,7 +2,7 @@
   "id": "peuple-de-dzemekys",
   "title": "Le peuple de Dzemekys",
   "category": "monde",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 44,
   "cardImage": "images/placeholders/emblem-monde.svg",

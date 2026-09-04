@@ -2,7 +2,7 @@
   "id": "voix-de-la-tour-des-sages",
   "title": "La voix de la Tour des Sages",
   "category": "personnages",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 45,
   "cardImage": "images/placeholders/emblem-personnages.svg",

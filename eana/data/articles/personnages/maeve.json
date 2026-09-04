@@ -2,7 +2,7 @@
   "id": "maeve",
   "title": "Maëve",
   "category": "personnages",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 61,
   "cardImage": "images/placeholders/emblem-personnages.svg",

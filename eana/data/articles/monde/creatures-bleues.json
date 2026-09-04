@@ -2,7 +2,7 @@
   "id": "creatures-bleues",
   "title": "Les créatures bleues",
   "category": "monde",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 58,
   "cardImage": "images/placeholders/emblem-monde.svg",

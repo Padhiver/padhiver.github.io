@@ -2,7 +2,7 @@
   "id": "lettres",
   "title": "Les lettres",
   "category": "monde",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 74,
   "cardImage": "images/placeholders/emblem-monde.svg",

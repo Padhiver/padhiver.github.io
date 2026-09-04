@@ -2,7 +2,7 @@
   "id": "logos",
   "title": "Lógos",
   "category": "monde",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 101,
   "cardImage": "images/placeholders/emblem-monde.svg",

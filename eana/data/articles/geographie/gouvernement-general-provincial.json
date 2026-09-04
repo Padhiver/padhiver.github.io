@@ -2,7 +2,7 @@
   "id": "gouvernement-general-provincial",
   "title": "Le gouvernement général provincial",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 98,
   "cardImage": "images/placeholders/emblem-geographie.svg",

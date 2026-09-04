@@ -2,7 +2,7 @@
   "id": "ciel-de-larkhe",
   "title": "Le Ciel de l'Arkhè",
   "category": "monde",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 29,
   "cardImage": "images/placeholders/emblem-monde.svg",

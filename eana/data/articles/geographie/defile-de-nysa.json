@@ -2,7 +2,7 @@
   "id": "defile-de-nysa",
   "title": "Le défilé de Nýsa",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 90,
   "cardImage": "images/placeholders/emblem-geographie.svg",

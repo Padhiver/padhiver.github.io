@@ -2,7 +2,7 @@
   "id": "pourvoyeurs",
   "title": "Les Pourvoyeurs",
   "category": "monde",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 81,
   "cardImage": "images/placeholders/emblem-monde.svg",

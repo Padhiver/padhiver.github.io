@@ -2,7 +2,7 @@
   "id": "oeil-de-la-tempete",
   "title": "L'Œil de la tempête",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 157,
   "cardImage": "images/placeholders/emblem-geographie.svg",

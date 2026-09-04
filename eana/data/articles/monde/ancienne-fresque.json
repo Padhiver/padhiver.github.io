@@ -2,7 +2,7 @@
   "id": "ancienne-fresque",
   "title": "L'ancienne fresque",
   "category": "monde",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 13,
   "cardImage": "images/placeholders/emblem-monde.svg",

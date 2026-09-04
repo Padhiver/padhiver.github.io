@@ -2,7 +2,7 @@
   "id": "titre-de-gardien-de-phenix",
   "title": "Le titre de Gardien de Phénix",
   "category": "monde",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 93,
   "cardImage": "images/placeholders/emblem-monde.svg",

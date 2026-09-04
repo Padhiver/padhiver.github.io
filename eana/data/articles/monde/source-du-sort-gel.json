@@ -2,7 +2,7 @@
   "id": "source-du-sort-gel",
   "title": "La source du sort Gel",
   "category": "monde",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 21,
   "cardImage": "images/placeholders/emblem-monde.svg",

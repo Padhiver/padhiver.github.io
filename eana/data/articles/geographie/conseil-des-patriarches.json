@@ -2,7 +2,7 @@
   "id": "conseil-des-patriarches",
   "title": "Le Conseil des Patriarches",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 84,
   "cardImage": "images/placeholders/emblem-geographie.svg",

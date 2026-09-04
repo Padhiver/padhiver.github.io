@@ -2,7 +2,7 @@
   "id": "zoltan",
   "title": "Zoltán",
   "category": "personnages",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 99,
   "cardImage": "images/placeholders/emblem-personnages.svg",

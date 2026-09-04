@@ -2,7 +2,7 @@
   "id": "armee-ferregienne",
   "title": "L'armée ferrégienne",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 64,
   "cardImage": "images/placeholders/emblem-geographie.svg",

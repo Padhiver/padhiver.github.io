@@ -2,7 +2,7 @@
   "id": "foret-de-morion",
   "title": "La forêt de morion",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 40,
   "cardImage": "images/placeholders/emblem-geographie.svg",

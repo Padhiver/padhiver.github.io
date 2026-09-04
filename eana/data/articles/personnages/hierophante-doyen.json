@@ -2,7 +2,7 @@
   "id": "hierophante-doyen",
   "title": "Le Hiérophante doyen",
   "category": "personnages",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 48,
   "cardImage": "images/placeholders/emblem-personnages.svg",

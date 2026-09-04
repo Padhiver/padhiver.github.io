@@ -2,7 +2,7 @@
   "id": "remanences-celestes",
   "title": "Les rémanences célestes",
   "category": "monde",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 85,
   "cardImage": "images/placeholders/emblem-monde.svg",

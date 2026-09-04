@@ -2,7 +2,7 @@
   "id": "bombos",
   "title": "Les bombos",
   "category": "creatures",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 17,
   "cardImage": "images/placeholders/emblem-primordiaux.svg",

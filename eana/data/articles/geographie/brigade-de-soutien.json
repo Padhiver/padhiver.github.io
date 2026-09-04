@@ -2,7 +2,7 @@
   "id": "brigade-de-soutien",
   "title": "La brigade de soutien",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 23,
   "cardImage": "images/placeholders/emblem-geographie.svg",

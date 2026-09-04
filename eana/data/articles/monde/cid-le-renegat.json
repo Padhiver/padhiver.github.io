@@ -2,7 +2,7 @@
   "id": "cid-le-renegat",
   "title": "Cid le Renégat",
   "category": "monde",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 1,
   "cardImage": "images/placeholders/emblem-monde.svg",

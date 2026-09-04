@@ -2,7 +2,7 @@
   "id": "chevaliers-noirs",
   "title": "Les Chevaliers noirs",
   "category": "geographie",
-  "public": "ON",
+  "public": "OFF",
   "date": "2026-08-08",
   "order": 125,
   "cardImage": "images/placeholders/emblem-geographie.svg",
