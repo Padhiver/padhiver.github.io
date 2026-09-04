@@ -2,62 +2,86 @@
 
 Site statique (HTML/CSS/JS vanilla, sans framework ni build) pour le codex de l'univers de Valisthéa. Vit en tant que sous-dossier `valisthea/` du dépôt `padhiver.github.io` (dépôt utilisateur GitHub Pages, qui peut héberger d'autres sites dans d'autres sous-dossiers), publié à `https://padhiver.github.io/valisthea`.
 
-Toutes les commandes ci-dessous (`node scripts/...`) s'exécutent **depuis ce dossier `valisthea/`**, pas depuis la racine du dépôt.
+Toutes les commandes ci-dessous (`node claude/...`) s'exécutent **depuis ce dossier `valisthea/`**, pas depuis la racine du dépôt.
 
 ## Structure
 
+Trois dossiers, trois publics :
+
+- **`site/`** — le codex publié : tout ce qui sert à afficher le site pour un visiteur (HTML/CSS/JS partagé, données, images, carte publique).
+- **`outils/`** — les outils locaux que *tu* utilises pour préparer du contenu (recadrage d'images, éditeur de repères, découpe de tuiles), plus leur page d'accueil.
+- **`claude/`** — les scripts Node qui font tourner tout ça en coulisses (génération du manifest, serveur local, routes d'écriture des outils) : ce que je (Claude) écris et modifie, pas ce que tu ouvres dans un navigateur.
+
 ```
-index.html            Page principale (accueil / catégorie / fiche article)
-map/index.html         Carte interactive — voir "Carte interactive" plus bas
-map/map.css             Styles propres à la carte (viewport, repères, outils)
-map/map.js               Repères et routage minimal de la carte
-map/editor.html          Éditeur de repères (outil local, voir plus bas)
-map/editor.css           Styles de l'éditeur et de la découpe en tuiles
-map/editor.js            Logique de l'éditeur
-map/tiles.html           Découpe d'une carte en tuiles (outil local, voir plus bas)
-map/tiles.js             Logique de la découpe
-js/mapview.js            Pan/zoom, partagé entre la carte et les outils
-js/mapbackground.js      Fond de carte : image unique ou tuiles réassemblées, partagé
-js/mapzones.js           Zones peintes au pinceau : tracé, rendu, détection du survol
-js/mappoints.js          Cartes, points/types et dessin d'un repère, partagés
-css/style.css          Système visuel partagé (papier quadrillé, cartouches, typographie…)
-js/data.js              Chargement des données + filtrage public/OFF + mode maître
-js/render.js             Construction du HTML des vues
-js/i18n.js               Lit data/strings.json, expose EanaI18n.t()/plural()
-js/overlay.js            Panneau de fiche, partagé entre la page principale et la carte
-js/theme.js              Bascule clair/sombre, partagée
-js/master.js             Indicateur + fenêtre de passphrase du mode maître, partagés
-js/app.js                 Routing (#/…) et vues de la page principale
-data/categories.json    Les catégories (une fiche = une catégorie d'univers, pas un texte d'interface)
-data/strings.json       Tout le texte d'interface (titres, boutons, messages) — voir "Réutiliser ce site" plus bas
-data/manifest.json      Index généré des fiches (NE PAS éditer à la main)
-data/banners.json       Config des bannières disponibles (id, label, image)
-data/map-points.json    Repères de la carte interactive (édités via map/editor.html)
-data/map-point-types.json  Types de repères (cité, forteresse, port…)
-data/map-config.json    Liste des cartes et de leurs images — seul endroit à changer pour en ajouter/remplacer une
-data/articles/<categorie>/*.json    Une fiche = un fichier JSON, rangé dans le dossier de sa catégorie
-images/ui/               Icônes de catégories (SVG)
-images/placeholders/     Visuels de repli : carte-<categorie>.svg (16:9) et portrait-defaut.svg (9:10)
-images/map/              Images des cartes ; une carte découpée a son sous-dossier (images/map/monde/)
-images/map/sources/      Images sources en pleine résolution — ignorées par git, voir .gitignore
-scripts/build-manifest.js  Régénère data/manifest.json
-scripts/dev-server.js     Petit serveur statique pour prévisualiser en local
-scripts/map-api.js        Routes d'écriture des outils locaux de carte (jamais publiées)
+index.html               Page principale — DOIT rester à la racine (voir "Déploiement" plus bas)
+outils.bat                Lance le serveur local + ouvre la page des outils dans le navigateur
+publier.bat                Régénère le manifest avant l'envoi sur GitHub
+
+site/index.html — non, ce fichier n'existe pas : voir index.html à la racine ci-dessus
+site/map/index.html      Carte interactive publique — voir "Carte interactive" plus bas
+site/map/map.css          Styles propres à la carte (viewport, repères, outils)
+site/map/map.js            Repères et routage minimal de la carte
+site/js/mapview.js         Pan/zoom, partagé entre la carte et les outils
+site/js/mapbackground.js   Fond de carte : image unique ou tuiles réassemblées, partagé
+site/js/mapzones.js        Zones peintes au pinceau : tracé, rendu, détection du survol
+site/js/mappoints.js       Cartes, points/types et dessin d'un repère, partagés
+site/css/style.css       Système visuel partagé (papier quadrillé, cartouches, typographie…)
+site/js/data.js           Chargement des données + filtrage public/OFF + mode maître
+site/js/render.js          Construction du HTML des vues
+site/js/i18n.js            Lit data/strings.json, expose EanaI18n.t()/plural()
+site/js/overlay.js         Panneau de fiche, partagé entre la page principale et la carte
+site/js/theme.js           Bascule clair/sombre, partagée
+site/js/master.js          Indicateur + fenêtre de passphrase du mode maître, partagés
+site/data/categories.json    Les catégories (une fiche = une catégorie d'univers, pas un texte d'interface)
+site/data/strings.json       Tout le texte d'interface (titres, boutons, messages) — voir "Réutiliser ce site" plus bas
+site/data/manifest.json      Index généré des fiches (NE PAS éditer à la main)
+site/data/banners.json       Config des bannières disponibles (id, label, image)
+site/data/map-points.json    Repères de la carte interactive (édités via outils/editor.html)
+site/data/map-point-types.json  Types de repères (cité, forteresse, port…)
+site/data/map-config.json    Liste des cartes et de leurs images — seul endroit à changer pour en ajouter/remplacer une
+site/data/articles/<categorie>/*.json    Une fiche = un fichier JSON, rangé dans le dossier de sa catégorie
+site/images/ui/               Icônes de catégories (SVG)
+site/images/placeholders/     Visuels de repli : carte-<categorie>.svg (16:9) et portrait-defaut.svg (9:10)
+site/images/articles/<categorie>/<id>/  Images de fiche : <id>-1.webp (vignette) et <id>-2.webp (fiche) — voir "Formats d'image"
+site/images/map/              Images des cartes ; une carte découpée a son sous-dossier (site/images/map/monde/)
+site/images/map/sources/      Images sources en pleine résolution — ignorées par git, voir site/.gitignore
+site/.gitignore              Ignore les sources de carte en pleine résolution (voir ci-dessus)
+
+outils/index.html         Page d'accueil des outils (celle qu'ouvre outils.bat)
+outils/recadrage-images.html  Recadrage des images de fiche — voir "Formats d'image"
+outils/editor.html         Éditeur de repères de carte — voir "Carte interactive"
+outils/editor.css          Styles partagés par l'éditeur et la découpe en tuiles
+outils/editor.js           Logique de l'éditeur
+outils/tiles.html          Découpe d'une carte en tuiles — voir "Carte interactive"
+outils/tiles.js            Logique de la découpe
+
+claude/build-manifest.js   Régénère site/data/manifest.json
+claude/dev-server.js        Petit serveur statique pour prévisualiser en local
+claude/map-api.js           Routes d'écriture des outils locaux de carte (jamais publiées)
+claude/article-image-api.js Route d'écriture de outils/recadrage-images.html (jamais publiée)
 ```
+
+⚠️ **`index.html` reste seul à la racine de `valisthea/`, pas dans `site/`.** GitHub Pages sert le contenu d'un dossier publié directement — il n'existe pas de moyen de lui dire « le site commence dans `site/` ». `index.html` déclare donc `<base href="site/">` pour que tout le HTML/JS partagé (qui écrit ses chemins comme s'il vivait dans `site/`) continue de fonctionner sans qu'un seul de ces chemins n'ait à changer. C'est la seule exception à « tout ce qui sert le site codex est dans `site/` ».
+
+## Outils locaux
+
+`outils.bat` lance le serveur local (`claude/dev-server.js`, dans sa propre fenêtre) et ouvre `outils/index.html` dans le navigateur : une page qui demande quel outil utiliser et l'ouvre dans un nouvel onglet au clic. Trois outils aujourd'hui — recadrage d'images (voir "Formats d'image"), éditeur de repères et découpe en tuiles (voir "Carte interactive") — documentés chacun dans leur section.
+
+Sans serveur local (page ouverte en `file://`, ou déposée ailleurs), la page des outils affiche un bandeau d'avertissement mais reste consultable ; chaque outil qui écrit dans le dépôt (éditeur, recadrage) bascule alors sur un bouton « Télécharger » plutôt que d'échouer silencieusement. Seule la découpe en tuiles exige vraiment le serveur (elle écrit des fichiers trop volumineux pour un téléchargement pratique).
 
 ## Réutiliser ce site pour un autre univers
 
-Le code (`js/`, `css/`, `index.html`) ne contient plus aucun texte propre à Valisthéa — tout est dans trois fichiers de données :
+Le code (`site/js/`, `site/css/`, `index.html`) ne contient plus aucun texte propre à Valisthéa — tout est dans trois fichiers de données :
 
 | Fichier | Ce qu'il contrôle |
 |---|---|
-| `data/strings.json` | Tout le texte d'interface : titre du site, boutons ("Public", "Maître"…), messages vides, libellés de pagination, textes de la fenêtre de passphrase. Sur le modèle d'un fichier de langue `fr.json`. |
-| `data/categories.json` | Les catégories elles-mêmes : `label` (nom complet, affiché en titre de page), `shortLabel` (nom court, affiché sur les onglets et vignettes — optionnel, retombe sur `label` si absent), `description`, `icon`. |
-| `data/articles/` | Le contenu — géré fiche par fiche, sans rapport avec ce point. |
+| `site/data/strings.json` | Tout le texte d'interface : titre du site, boutons ("Public", "Maître"…), messages vides, libellés de pagination, textes de la fenêtre de passphrase. Sur le modèle d'un fichier de langue `fr.json`. |
+| `site/data/categories.json` | Les catégories elles-mêmes : `label` (nom complet, affiché en titre de page), `shortLabel` (nom court, affiché sur les onglets et vignettes — optionnel, retombe sur `label` si absent), `description`, `icon`. |
+| `site/data/articles/` | Le contenu — géré fiche par fiche, sans rapport avec ce point. |
 
-Pour un nouvel univers : vide `data/articles/`, réécris `data/categories.json` avec tes propres catégories (les icônes dans `images/ui/icon-<icon>.svg` et gabarits dans `images/placeholders/carte-<id>.svg` doivent suivre les nouveaux identifiants), et adapte `data/strings.json` — en particulier `site.title`, `site.eyebrow`, `site.subtitle`. Aucun fichier `.js` n'a besoin d'être touché.
+Pour un nouvel univers : vide `site/data/articles/`, réécris `site/data/categories.json` avec tes propres catégories (les icônes dans `site/images/ui/icon-<icon>.svg` et gabarits dans `site/images/placeholders/carte-<id>.svg` doivent suivre les nouveaux identifiants), et adapte `site/data/strings.json` — en particulier `site.title`, `site.eyebrow`, `site.subtitle`. Aucun fichier `.js` n'a besoin d'être touché.
 
-Dans `data/strings.json`, une valeur peut être soit une phrase simple, soit un objet `{ "one": "...", "other": "..." }` pour accorder correctement le singulier/pluriel (ex. "1 article" / "3 articles"). Les `{variable}` entre accolades sont remplacées à l'affichage (ex. `"Chercher dans {category}"`).
+Dans `site/data/strings.json`, une valeur peut être soit une phrase simple, soit un objet `{ "one": "...", "other": "..." }` pour accorder correctement le singulier/pluriel (ex. "1 article" / "3 articles"). Les `{variable}` entre accolades sont remplacées à l'affichage (ex. `"Chercher dans {category}"`).
 
 Si tu casses une clé (faute de frappe, clé supprimée), le site ne plante pas : il affiche la clé elle-même à l'écran et un avertissement dans la console, pour que l'erreur soit visible sans bloquer la navigation.
 
@@ -67,15 +91,15 @@ Un bouton en bas à gauche bascule entre parchemin clair et parchemin de nuit. L
 
 Toutes les couleurs viennent de variables CSS définies dans `:root`, et le mode sombre se contente de les redéfinir sous `:root[data-theme="dark"]`. Pour ajuster une teinte, il suffit donc de modifier la variable dans les deux blocs — rien à chercher ailleurs dans la feuille de style.
 
-Les gabarits de `images/placeholders/` ont un **fond transparent** : c'est la vignette qui donne sa couleur, donc ils suivent le thème sans avoir à maintenir deux jeux d'images. Si tu ajoutes tes propres gabarits, garde ce principe.
+Les gabarits de `site/images/placeholders/` ont un **fond transparent** : c'est la vignette qui donne sa couleur, donc ils suivent le thème sans avoir à maintenir deux jeux d'images. Si tu ajoutes tes propres gabarits, garde ce principe.
 
-## Carte interactive (`/map`)
+## Carte interactive (`site/map`)
 
-Une ou plusieurs cartes pannables/zoomables à `valisthea/map/`, avec des repères cliquables qui ouvrent une fiche du codex — même panneau, même animation qu'ailleurs sur le site (voir "Architecture partagée" plus bas).
+Une ou plusieurs cartes pannables/zoomables à `valisthea/site/map/`, avec des repères cliquables qui ouvrent une fiche du codex — même panneau, même animation qu'ailleurs sur le site (voir "Architecture partagée" plus bas).
 
 Quand il y a plus d'une carte, une rangée d'onglets apparaît au-dessus du cadre. Chaque repère appartient à une carte et n'apparaît que sur la sienne.
 
-### Les cartes (`data/map-config.json`)
+### Les cartes (`site/data/map-config.json`)
 
 ```json
 {
@@ -87,16 +111,16 @@ Quand il y a plus d'une carte, une rangée d'onglets apparaît au-dessus du cadr
 }
 ```
 
-- `id` : minuscules, chiffres et tirets. Il sert d'ancre d'URL (`#/carte/rosalia`), de clé dans `data/map-points.json` et de nom de sous-dossier pour les tuiles.
+- `id` : minuscules, chiffres et tirets. Il sert d'ancre d'URL (`#/carte/rosalia`), de clé dans `site/data/map-points.json` et de nom de sous-dossier pour les tuiles.
 - `label` : le nom affiché sur l'onglet.
 - `defaultMap` : la carte ouverte à l'arrivée. À défaut, la première de la liste.
 - Une carte se déclare **soit** avec `image` (un fichier), **soit** avec `tiles` (une grille — voir "Cartes en tuiles").
 
-C'est le seul endroit à changer : la page publique et les deux outils locaux lisent tous ce fichier.
+C'est le seul endroit à changer : la page publique et les deux outils locaux lisent tous ce fichier. Les chemins d'image qu'il contient (`image`, `tiles.pattern`, `tiles.preview`) s'écrivent **sans** préfixe `site/` — ce sont des chemins relatifs à `site/`, résolus par le `<base>` de la page qui les affiche (voir "Architecture partagée").
 
 **Si c'est un SVG**, mets des attributs `width`/`height` explicites sur la balise `<svg>` racine (en plus du `viewBox`) — sans ça, certains navigateurs rapportent une taille naturelle instable et dépendante de la mise en page CSS du moment, ce qui fausse le calcul du zoom.
 
-Les coordonnées des repères étant en pourcentage, elles restent valables si le **ratio** de la nouvelle image est proche de l'ancien. Sinon, repositionne-les dans `map/editor.html`.
+Les coordonnées des repères étant en pourcentage, elles restent valables si le **ratio** de la nouvelle image est proche de l'ancien. Sinon, repositionne-les dans `outils/editor.html`.
 
 ### Cartes en tuiles
 
@@ -131,14 +155,14 @@ Mesuré sur la carte de Valisthéa, source de 26808 × 19032 px (397 Mo en PNG),
 
 Les cases se recouvrent d'un pixel — du vrai contenu d'image, pas un étirement — pour qu'aucun liseré n'apparaisse entre deux tuiles à un zoom fractionnaire. `EanaMapBackground.tileRects()` calcule cette géométrie, et **c'est la même fonction qui sert à découper et à réassembler** : les deux ne peuvent pas diverger.
 
-### Découper une carte (`map/tiles.html`)
+### Découper une carte (`outils/tiles.html`)
 
-Outil local, comme l'éditeur. Serveur lancé, ouvre `http://localhost:8080/map/tiles.html` :
+Outil local, comme l'éditeur — accessible aussi depuis `outils.bat` / `outils/index.html`. Serveur lancé, ouvre `http://localhost:8080/outils/tiles.html` :
 
 1. Choisis la carte, ou dépose une autre image (c'est aussi comme ça qu'on recoupe une carte déjà en tuiles : elles ne se recollent pas d'elles-mêmes, il faut le fichier d'origine).
 2. Règle la **largeur maximale**, la grille, la qualité WEBP et la largeur de l'aperçu. La ligne sous la grille annonce le résultat — dimensions de la carte, nombre et taille des tuiles — **avant** de lancer l'encodage, qui prend des minutes sur une grosse source. Elle passe au rouge et propose une meilleure grille si les tuiles dépassent 4500 px de côté.
 3. **Découper** : les tuiles sont encodées dans le navigateur et l'assemblage s'affiche pour contrôle. Le journal signale les tuiles trop lourdes et un total qui poserait problème à git.
-4. **Écrire dans le dépôt** : les fichiers sont écrits dans `images/map/<id>/` et `data/map-config.json` passe de `image` à `tiles` pour cette carte — le reste du fichier (autres cartes, libellés, carte par défaut) est préservé.
+4. **Écrire dans le dépôt** : les fichiers sont écrits dans `site/images/map/<id>/` et `site/data/map-config.json` passe de `image` à `tiles` pour cette carte — le reste du fichier (autres cartes, libellés, carte par défaut) est préservé.
 
 Il ne reste qu'à publier sur git.
 
@@ -154,7 +178,7 @@ Sur la qualité WEBP : ré-encoder perd toujours un peu. À 0,85, l'écart moyen
 
 #### Où ranger l'image source
 
-Dans `images/map/sources/`, **ignoré par git** (voir `.gitignore`). Une source en pleine résolution pèse souvent des centaines de mégaoctets : GitHub refuse tout fichier au-delà de 100 Mo, et un dépôt de cette taille devient long à cloner. Seules les tuiles sont publiées.
+Dans `site/images/map/sources/`, **ignoré par git** (voir `site/.gitignore`). Une source en pleine résolution pèse souvent des centaines de mégaoctets : GitHub refuse tout fichier au-delà de 100 Mo, et un dépôt de cette taille devient long à cloner. Seules les tuiles sont publiées.
 
 Garde-la quand même en local : c'est elle qu'il faut rouvrir pour recouper une carte, puisque les tuiles ne se recollent pas d'elles-mêmes.
 
@@ -187,7 +211,7 @@ Comme les coordonnées sont en pourcentage, une zone survit à un changement de 
 
 #### Peindre une zone
 
-Dans `map/editor.html`, bascule sur **Pinceau**, règle sa taille, et peins sur la carte. Au relâchement, la même fenêtre que pour une pastille demande le type, la fiche à lier et le nom.
+Dans `outils/editor.html`, bascule sur **Pinceau**, règle sa taille, et peins sur la carte. Au relâchement, la même fenêtre que pour une pastille demande le type, la fiche à lier et le nom.
 
 - Un cercle suit le curseur pour montrer la taille réelle du pinceau.
 - Pendant la peinture, le déplacement de la carte est suspendu : un glissement trace au lieu de faire glisser.
@@ -201,19 +225,19 @@ Une zone liée à une fiche `OFF` est **absente du HTML** en mode public, nom co
 
 #### Régler l'effet de survol
 
-Par défaut, survoler une zone la teinte très légèrement (`mix-blend-mode: multiply`, pour que l'encre diffuse dans le papier au lieu de le masquer). Pour ne garder **que** le changement de curseur, supprime la règle `.map-zone:hover` de `map/map.css`.
+Par défaut, survoler une zone la teinte très légèrement (`mix-blend-mode: multiply`, pour que l'encre diffuse dans le papier au lieu de le masquer). Pour ne garder **que** le changement de curseur, supprime la règle `.map-zone:hover` de `site/map/map.css`.
 
-### Éditeur de repères (`map/editor.html`)
+### Éditeur de repères (`outils/editor.html`)
 
-**Le plus simple : ne pas éditer `data/map-points.json` à la main.** Lance le serveur local et ouvre l'éditeur :
+**Le plus simple : ne pas éditer `site/data/map-points.json` à la main.** Lance le serveur local (directement, ou via `outils.bat`) et ouvre l'éditeur :
 
 ```bash
-node scripts/dev-server.js 8080
+node claude/dev-server.js 8080
 ```
 
-puis `http://localhost:8080/map/editor.html`.
+puis `http://localhost:8080/outils/editor.html`.
 
-Le fonctionnement : tu choisis un type dans la palette, tu cliques sur la carte pour poser un repère, une fenêtre te demande la fiche à lier (recherche par titre, **fiches privées comprises** — c'est un outil de maître), tu valides, puis **Enregistrer** écrit directement dans `data/map-points.json`. Il ne reste qu'à publier.
+Le fonctionnement : tu choisis un type dans la palette, tu cliques sur la carte pour poser un repère, une fenêtre te demande la fiche à lier (recherche par titre, **fiches privées comprises** — c'est un outil de maître), tu valides, puis **Enregistrer** écrit directement dans `site/data/map-points.json`. Il ne reste qu'à publier.
 
 S'il y a plusieurs cartes, une section **Carte** apparaît en haut du panneau, avec le nombre de repères de chacune. Tu n'édites que la carte affichée, mais **Enregistrer réécrit le fichier entier** : les repères des autres cartes sont conservés tels quels. La carte ouverte est mémorisée d'une session à l'autre.
 
@@ -222,26 +246,26 @@ S'il y a plusieurs cartes, une section **Carte** apparaît en haut du panneau, a
 - La liste signale en rouge un repère dont la fiche liée n'existe plus.
 - L'identifiant du repère est dérivé du titre de la fiche (`Port-Gémeau` → `port-gemeau`), pour que le JSON reste lisible.
 
-L'écriture directe passe par `POST /api/map-points`, une route servie **uniquement par `scripts/dev-server.js`** (voir `scripts/map-api.js`) et refusée hors machine locale. Les deux autres routes d'écriture, `/api/map-tile` et `/api/map-source`, servent à la découpe en tuiles et suivent les mêmes règles. Aucune n'existe sur GitHub Pages, qui ne sert que des fichiers.
+L'écriture directe passe par `POST /api/map-points`, une route servie **uniquement par `claude/dev-server.js`** (voir `claude/map-api.js`) et refusée hors machine locale. Les deux autres routes d'écriture, `/api/map-tile` et `/api/map-source`, servent à la découpe en tuiles et suivent les mêmes règles. Aucune n'existe sur GitHub Pages, qui ne sert que des fichiers.
 
 `/api/map-tile` reçoit les octets bruts de la tuile, un fichier par requête, le dossier et le nom en paramètres d'URL (tous deux validés avant écriture). Passer par du base64 dans du JSON gonflerait le corps d'un tiers et obligerait à construire en mémoire une chaîne aussi grosse que le fichier. Au-delà de 64 Mo, la route répond **413 avec un message explicite** plutôt que de couper la connexion — sinon le navigateur ne rapporte qu'une « erreur réseau », ce qui laisse croire à tort que le serveur local n'est pas lancé.
 
-⚠️ **L'éditeur et la découpe ne s'exécutent que depuis `localhost`.** Il est publié avec le site (c'est un fichier statique de plus), mais s'y affiche seulement comme un message renvoyant vers le serveur local. La raison n'est pas l'écriture — qu'il ne peut de toute façon pas faire sans le serveur — mais la **lecture** : sa recherche de fiches liste aussi les fiches `OFF`, donc laissé actif en ligne il aurait révélé les titres de tes brouillons et spoilers à quiconque connaît l'URL.
+⚠️ **L'éditeur et la découpe ne s'exécutent que depuis `localhost`.** Ils sont publiés avec le site (deux fichiers statiques de plus), mais s'y affichent seulement comme un message renvoyant vers le serveur local. La raison n'est pas l'écriture — qu'ils ne peuvent de toute façon pas faire sans le serveur — mais la **lecture** : la recherche de fiches de l'éditeur liste aussi les fiches `OFF`, donc laissé actif en ligne il aurait révélé les titres de tes brouillons et spoilers à quiconque connaît l'URL.
 
-### Types de repères (`data/map-point-types.json`)
+### Types de repères (`site/data/map-point-types.json`)
 
 Neuf types par défaut (cité, forteresse, ruine, sanctuaire, relief, forêt, port, bataille, repère). Chacun a un `id`, un `label`, un `path` SVG (dessiné sur un viewBox 24×24, en trait) et un `accent` optionnel — `sea` pour les lieux naturels, cinabre par défaut. Ajoute ou modifie librement : la palette de l'éditeur et la carte suivent le fichier.
 
-### Points de repère (`data/map-points.json`)
+### Points de repère (`site/data/map-points.json`)
 
 ```json
 { "id": "rosalith", "map": "monde", "type": "cite", "article": "rosalith", "x": 27, "y": 46 }
 ```
 
-- `map` : l'`id` d'une carte de `data/map-config.json`. Omis, le repère appartient à la carte par défaut — c'était le cas de tous les repères avant qu'il y en ait plusieurs.
+- `map` : l'`id` d'une carte de `site/data/map-config.json`. Omis, le repère appartient à la carte par défaut — c'était le cas de tous les repères avant qu'il y en ait plusieurs.
 - `forme` : absent pour une pastille, `"trace"` pour une zone peinte (voir « Deux formes de repère » plus haut). Une zone n'a pas de `x`/`y` : c'est son tracé qui la définit.
 - `x`/`y` : pourcentage (0-100) de la largeur/hauteur de **sa** carte. Mesure-les par rapport à l'image finale — ou laisse l'éditeur les poser.
-- `type` : optionnel, un `id` de `data/map-point-types.json`. Sans type, le repère retombe sur l'icône de la catégorie de sa fiche liée (comportement des points créés avant les types).
+- `type` : optionnel, un `id` de `site/data/map-point-types.json`. Sans type, le repère retombe sur l'icône de la catégorie de sa fiche liée (comportement des points créés avant les types).
 - `article` : optionnel, l'id d'une fiche du codex (n'importe quelle catégorie — personnage, lieu, créature...).
 - `label` : optionnel. Sans `article`, affiché dans une bulle au clic (le repère n'ouvre alors aucune fiche). Avec `article`, surcharge le titre de la fiche pour l'étiquette du repère.
 - Un point lié à une fiche `OFF` est **invisible** en mode public, y compris sa position — contrairement aux grilles du codex (qui affichent un `?` verrouillé), une carte peut spoiler par le simple emplacement d'un repère. Il réapparaît normalement en mode maître.
@@ -252,31 +276,46 @@ La carte réutilise le même code que la page principale plutôt que de duplique
 
 | Fichier | Rôle |
 |---|---|
-| `js/overlay.js` | Ouverture/fermeture de la fiche, changement de chapitre, mise en colonnes. |
-| `js/theme.js` | Bascule clair/sombre. |
-| `js/master.js` | Indicateur et fenêtre de passphrase du mode maître. |
+| `site/js/overlay.js` | Ouverture/fermeture de la fiche, changement de chapitre, mise en colonnes. |
+| `site/js/theme.js` | Bascule clair/sombre. |
+| `site/js/master.js` | Indicateur et fenêtre de passphrase du mode maître. |
 
-`js/app.js` (page principale) et `map/map.js` (carte) ne contiennent plus que ce qui leur est propre : le routage par onglets/catégories pour l'un, le pan/zoom et les repères pour l'autre.
+`site/js/app.js` (page principale) et `site/map/map.js` (carte) ne contiennent plus que ce qui leur est propre : le routage par onglets/catégories pour l'un, le pan/zoom et les repères pour l'autre.
 
-`map/index.html` déclare `<base href="../">` : le HTML/JS partagé écrit ses chemins (`data/...`, `images/...`) comme si la page était à la racine du site, ce qui est vrai pour `index.html` mais pas pour une page à `map/`. Le `<base>` corrige ça pour toute URL relative de la page, y compris celles injectées dynamiquement (fiche, bannière) — sans lui, il aurait fallu faire porter un préfixe à travers tout le code partagé.
+Ce code partagé écrit ses chemins (`data/...`, `images/...`) comme s'il vivait à la racine de `site/` — c'est vrai pour lui-même, mais pas pour les pages qui le chargent, situées à trois profondeurs différentes. Chacune corrige ça avec `<base>`, sans qu'une seule ligne du code partagé n'ait à connaître sa propre position :
+
+| Page | `<base>` | Pointe vers |
+|---|---|---|
+| `index.html` (racine) | `site/` | `valisthea/site/` |
+| `site/map/index.html` | `../` | `valisthea/site/` |
+| `outils/editor.html`, `outils/tiles.html` | `../site/` | `valisthea/site/` |
+
+Les quelques liens propres à une page d'outil (vers l'autre outil, vers son propre CSS/JS) s'écrivent alors `../outils/...` pour revenir en arrière depuis ce `<base>` — voir les commentaires en tête de chaque fichier. `outils/recadrage-images.html`, lui, est entièrement autonome (pas de dépendance à `site/`) et n'a pas besoin de `<base>` ; ses seuls appels réseau (`/api/article-image`) utilisent un chemin absolu, indépendant de tout `<base>`.
 
 ## Formats d'image
 
-Une fiche n'a **rien à déclarer** pour avoir une image : c'est une convention de dossier, détectée automatiquement.
+Une fiche n'a **rien à déclarer** pour avoir une image : c'est une convention de dossier, détectée automatiquement — et **deux fichiers**, un par usage, chacun déjà recadré pour son cadre :
 
-Dépose un `.png` dans `images/articles/<categorie>/<id>/` (mêmes catégories, mêmes ids que `data/articles/`). `node scripts/build-manifest.js` scanne ce dossier pour chaque fiche : s'il trouve un `.png`, son chemin est ajouté à l'entrée de la fiche dans `data/manifest.json` (champ `image`) ; sinon `image` reste `null`. S'il y a plusieurs `.png` dans le dossier, seul le premier par ordre alphabétique est retenu — n'en mets qu'un.
+| Fichier | Ratio | Où ça s'affiche |
+|---|---|---|
+| `<...>-1.webp` | **16:9** | vignette (accueil + grille de catégorie) |
+| `<...>-2.webp` | **9:10** | visuel de la fiche ouverte, colonne de droite |
 
-Cette **même image** sert à la fois pour la vignette (accueil + grille de catégorie, recadrée en `cover` proche du 16:9) et pour le visuel affiché quand la fiche est ouverte (colonne de droite, recadré en `cover` proche du 9:10) : une image assez neutre/large pour bien se recadrer dans les deux se comporte mieux qu'une image très cadrée sur un détail. Un fond transparent (PNG) est recommandé pour le visuel de fiche, où l'interface applique un fondu dans le coin haut-droit.
+Les deux vivent dans `site/images/articles/<categorie>/<id>/` (mêmes catégories, mêmes ids que `site/data/articles/`) — seule la fin du nom compte (`-1.webp` / `-2.webp`), pas ce qui précède. `node claude/build-manifest.js` scanne ce dossier pour chaque fiche et ajoute les chemins trouvés à son entrée dans `site/data/manifest.json` (champs `image` et `portrait`) ; s'il y a plusieurs candidats pour un même suffixe, le premier par ordre alphabétique est retenu. Sans `-2.webp`, `portrait` retombe sur `-1.webp` (mieux vaut la vignette recadrée en portrait qu'un visuel générique le temps de recadrer les deux). Sans aucune image détectée, la vignette retombe sur `images/placeholders/carte-<categorie>.svg` et le visuel de fiche sur `images/placeholders/portrait-defaut.svg` — aucune fiche n'est donc jamais cassée faute d'illustration.
 
-Sans image détectée, la vignette retombe sur `images/placeholders/carte-<categorie>.svg` et le visuel de fiche sur `images/placeholders/portrait-defaut.svg`. Aucune fiche n'est donc jamais cassée faute d'illustration.
+Comme `site/data/manifest.json`, ce mapping se régénère automatiquement en local à chaque requête (`claude/dev-server.js`) : dépose les fichiers, rafraîchis la page, c'est pris en compte. Pense simplement à relancer `node claude/build-manifest.js` (ou `publier.bat`) avant d'envoyer sur GitHub.
 
-Comme `data/manifest.json`, ce mapping se régénère automatiquement en local à chaque requête (`scripts/dev-server.js`) : dépose l'image, rafraîchis la page, c'est pris en compte. Pense simplement à relancer `node scripts/build-manifest.js` (ou `publier.bat`) avant d'envoyer sur GitHub.
+### Produire les deux fichiers : [`outils/recadrage-images.html`](outils/recadrage-images.html)
 
-La bannière (`data/banners.json`), elle, reste un mécanisme séparé et déclaré explicitement dans la fiche (`banner.id` / `banner.on`) — voir plus bas. Ratio **3:5**, pennon accroché en haut du visuel de fiche.
+Outil local (pas de build, ouvert directement dans le navigateur), accessible depuis `outils.bat` / `outils/index.html`, ou directement : lance `node claude/dev-server.js` puis ouvre `http://localhost:8080/outils/recadrage-images.html`. Choisis une image source, une catégorie et un id de fiche ; deux cadres affichent le recadrage `cover` — glisse pour cadrer, molette ou curseur pour zoomer — l'un au ratio 16:9, l'autre au 9:10. Le cadre est **toujours entièrement rempli** (glisser/zoomer ne peut pas laisser de bord vide), ce qui évite le défaut d'une image mal cadrée qui n'occupe pas tout l'espace prévu.
+
+« Enregistrer dans le dépôt » écrit directement `<id>-1.webp` et `<id>-2.webp` dans `site/images/articles/<categorie>/<id>/` via `POST /api/article-image` (voir `claude/article-image-api.js`, servie **uniquement par `claude/dev-server.js`** et refusée hors machine locale, comme les routes de carte). Sans serveur local (ou sur GitHub Pages), le bouton échoue proprement et invite à utiliser « Télécharger », qui produit les deux fichiers avec les bons noms à placer soi-même.
+
+La bannière (`site/data/banners.json`), elle, reste un mécanisme séparé et déclaré explicitement dans la fiche (`banner.id` / `banner.on`) — voir plus bas. Ratio **3:5**, pennon accroché en haut du visuel de fiche.
 
 ## Ajouter / modifier une fiche
 
-Créer un fichier `data/articles/<categorie>/<id>.json` (le nom de fichier = l'`id`, le dossier = la `category`) :
+Créer un fichier `site/data/articles/<categorie>/<id>.json` (le nom de fichier = l'`id`, le dossier = la `category`) :
 
 ```json
 {
@@ -299,7 +338,7 @@ Créer un fichier `data/articles/<categorie>/<id>.json` (le nom de fichier = l'`
 }
 ```
 
-- `category` : un des id de `data/categories.json` (`personnages`, `geographie`, `monde`, `creatures`).
+- `category` : un des id de `site/data/categories.json` (`personnages`, `geographie`, `monde`, `creatures`).
 - `public` : `"ON"` (visible par tout le monde) ou `"OFF"` (visible uniquement en mode maître — voir plus bas).
 - `order` : entier, plus petit = affiché en premier dans la catégorie. Numérotation continue par catégorie (1, 2, 3… jusqu'au nombre de fiches de cette catégorie) — pas de paliers. Pour insérer une fiche entre deux autres, il faut donc décaler manuellement les `order` suivants dans le dossier de la catégorie. Sans `order`, tri par date puis par titre.
 - `pages` : un tableau. Une seule entrée = pas de liste de chapitres. Plusieurs entrées = la fiche affiche un cadre "Chapitres" dans la colonne de droite, une entrée par page.
@@ -308,10 +347,10 @@ Créer un fichier `data/articles/<categorie>/<id>.json` (le nom de fichier = l'`
 - `text` : si la première ligne est courte (≤ 120 signes) et suivie d'une ligne vide, elle est automatiquement remontée en sous-titre italique sous le nom de la fiche. Le reste devient le corps, affiché en deux colonnes justifiées avec une lettrine.
 - `related` : ids d'autres fiches, affichées en bas de la fiche sous "Articles liés". Un lien vers une fiche `OFF` n'apparaît jamais pour un visiteur normal (même en tant que "related" d'une fiche publique).
 - `relatedOff` : **réserve** d'ids liés, entièrement ignorée par le site — l'équivalent d'un bloc en commentaire. Pour activer un lien, déplace son id de `relatedOff` vers `related`. (Pour l'instant, tous les `related` ont été vidés dans `relatedOff` : à toi de remonter au cas par cas ceux que tu veux afficher.)
-- `banner` : optionnel, affiche un pennon en haut à droite **du visuel** de la fiche. `id` référence une entrée de `data/banners.json` ; `on` doit valoir `"ON"` pour l'afficher (sinon `"OFF"` ou absent = rien ne s'affiche, même si `id` est renseigné — pratique pour préparer une bannière sans l'activer tout de suite).
-- Aucun champ image ici : dépose ton `.png` dans `images/articles/<categorie>/<id>/` (voir "Formats d'image" plus haut).
+- `banner` : optionnel, affiche un pennon en haut à droite **du visuel** de la fiche. `id` référence une entrée de `site/data/banners.json` ; `on` doit valoir `"ON"` pour l'afficher (sinon `"OFF"` ou absent = rien ne s'affiche, même si `id` est renseigné — pratique pour préparer une bannière sans l'activer tout de suite).
+- Aucun champ image ici : produis `<id>-1.webp` et `<id>-2.webp` avec `outils/recadrage-images.html` (voir "Formats d'image" plus haut).
 
-## Bannières (`data/banners.json`)
+## Bannières (`site/data/banners.json`)
 
 Liste libre, sans nombre fixe — ajoute/retire des entrées selon ton lore :
 
@@ -327,31 +366,31 @@ Liste libre, sans nombre fixe — ajoute/retire des entrées selon ton lore :
 
 - `id` : identifiant utilisé dans le champ `banner.id` des fiches.
 - `label` : texte alternatif / infobulle.
-- `image` : idéalement un PNG à fond transparent (la forme du ruban vient de l'image elle-même, l'interface ne la découpe pas). Suggestion : la ranger dans `images/banners/`.
+- `image` : idéalement un PNG à fond transparent (la forme du ruban vient de l'image elle-même, l'interface ne la découpe pas). Suggestion : la ranger dans `site/images/banners/` (le chemin dans le JSON reste relatif à `site/`, sans préfixe — voir "Architecture partagée").
 
-**`data/manifest.json` se régénère automatiquement en local**, pas besoin de lancer `build-manifest.js` à la main pendant que tu travailles : `scripts/dev-server.js` le régénère à chaque requête sur `data/manifest.json` — crée/modifie une fiche, rafraîchis la page, c'est à jour.
+**`site/data/manifest.json` se régénère automatiquement en local**, pas besoin de lancer `build-manifest.js` à la main pendant que tu travailles : `claude/dev-server.js` le régénère à chaque requête sur `/site/data/manifest.json` — crée/modifie une fiche, rafraîchis la page, c'est à jour.
 
 Il n'y a **pas** de régénération côté GitHub (plus de workflow qui committe après coup — ça causait des divergences entre le dépôt local et distant). À la place, la régénération se fait en local avant l'envoi, via `publier.bat` (voir ci-dessous).
 
-Le script (`node scripts/build-manifest.js`) valide aussi que chaque fiche a bien `title`, `category`, un `public` correct (`ON`/`OFF`) — y compris le `public` de chaque page —, et que son dossier correspond à sa `category` ; il s'arrête avec un message clair si une fiche est mal formée.
+Le script (`node claude/build-manifest.js`) valide aussi que chaque fiche a bien `title`, `category`, un `public` correct (`ON`/`OFF`) — y compris le `public` de chaque page —, et que son dossier correspond à sa `category` ; il s'arrête avec un message clair si une fiche est mal formée.
 
 ## Publier les modifications
 
-Une fois tes modifications faites (fiches, images, CSS...), double-clique sur `publier.bat` à la racine de ce dossier. Il régénère `data/manifest.json` et s'arrête là — **il n'envoie rien sur GitHub**. L'envoi se fait ensuite à la main via GitHub Desktop (ou `git add`/`commit`/`push` en ligne de commande, au choix).
+Une fois tes modifications faites (fiches, images, CSS...), double-clique sur `publier.bat` à la racine de ce dossier. Il régénère `site/data/manifest.json` et s'arrête là — **il n'envoie rien sur GitHub**. L'envoi se fait ensuite à la main via GitHub Desktop (ou `git add`/`commit`/`push` en ligne de commande, au choix).
 
 ## Prévisualiser en local
 
 ```bash
-node scripts/dev-server.js 8080
+node claude/dev-server.js 8080
 ```
 
-puis ouvrir `http://localhost:8080`.
+puis ouvrir `http://localhost:8080` (ou double-cliquer `outils.bat`, qui fait la même chose et ouvre en plus la page des outils).
 
 ⚠️ **Toujours passer par cette adresse**, jamais en double-cliquant sur `index.html`. Ouvert directement depuis le disque (`file://`), le navigateur interdit à la page de lire ses propres fichiers de données : le site reste vide et la console se remplit d'erreurs CORS. Le cas est détecté et affiche un message explicite, mais autant l'éviter.
 
 ## Mode maître (fiches `OFF`)
 
-⚠️ Le site est 100% statique et public (GitHub Pages) : marquer une fiche `OFF` la cache de l'interface pour les visiteurs normaux, mais **ce n'est pas une vraie sécurité serveur**. Le fichier JSON de la fiche reste techniquement présent dans le dépôt public et quelqu'un de suffisamment curieux pourrait le retrouver en explorant `data/articles/`. À réserver à du contenu que tu veux juste garder hors de l'expérience de lecture normale (spoilers, brouillons), pas à de vrais secrets.
+⚠️ Le site est 100% statique et public (GitHub Pages) : marquer une fiche `OFF` la cache de l'interface pour les visiteurs normaux, mais **ce n'est pas une vraie sécurité serveur**. Le fichier JSON de la fiche reste techniquement présent dans le dépôt public et quelqu'un de suffisamment curieux pourrait le retrouver en explorant `site/data/articles/`. À réserver à du contenu que tu veux juste garder hors de l'expérience de lecture normale (spoilers, brouillons), pas à de vrais secrets.
 
 Deux façons d'activer le mode maître :
 
@@ -388,7 +427,7 @@ Les compteurs (`100 articles` sur une catégorie) incluent les fiches à venir, 
 node -e "console.log(require('crypto').createHash('sha256').update('TA-NOUVELLE-PASSPHRASE').digest('hex'))"
 ```
 
-Copier le résultat dans `js/data.js`, constante `MASTER_HASH`. La passphrase elle-même n'a pas besoin d'être stockée nulle part — seul son empreinte (hash) est présente dans le code.
+Copier le résultat dans `site/js/data.js`, constante `MASTER_HASH`. La passphrase elle-même n'a pas besoin d'être stockée nulle part — seul son empreinte (hash) est présente dans le code.
 
 ## Déploiement sur GitHub Pages
 
@@ -396,6 +435,6 @@ Ce dossier fait partie du dépôt `padhiver.github.io` (dépôt utilisateur GitH
 
 1. Première fois : `Settings → Pages → Source → Deploy from a branch`, choisir la branche `main` et le dossier `/ (root)` (si pas déjà fait).
 2. À chaque mise à jour : lancer `publier.bat` (voir "Publier les modifications" plus haut), puis pousser le commit vers GitHub via GitHub Desktop.
-3. Le site est disponible à `https://padhiver.github.io/valisthea` (le reste du dépôt peut héberger d'autres sites dans d'autres sous-dossiers, ex. `padhiver.github.io/autre-site`, sans interférer avec celui-ci).
+3. Le site est disponible à `https://padhiver.github.io/valisthea` (le reste du dépôt peut héberger d'autres sites dans d'autres sous-dossiers, ex. `padhiver.github.io/autre-site`, sans interférer avec celui-ci). `outils/` et `claude/` sont publiés avec le reste (GitHub Pages ne sert que des fichiers statiques, il n'y a pas de notion de dossier privé) mais restent sans effet : les outils basculent sur le téléchargement, et les scripts de `claude/` ne s'exécutent que via `node`, jamais dans le navigateur.
 
 GitHub Pages republie automatiquement à chaque `push`, quelques minutes après.

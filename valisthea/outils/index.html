@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Outils — Valisthéa</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:,">
+<style>
+  :root {
+    --ink: #2b2620;
+    --paper: #f3ede0;
+    --paper-2: #e9e0cd;
+    --line: #cabf9f;
+    --accent: #7a3b2e;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 32px 24px;
+    background: var(--paper);
+    color: var(--ink);
+    font: 15px/1.5 "Segoe UI", system-ui, sans-serif;
+  }
+  main { max-width: 780px; margin: 0 auto; }
+  h1 { font-size: 1.4rem; margin: 0 0 4px; }
+  .lede { margin: 0 0 24px; color: #5c5344; }
+  .notice {
+    border: 1px solid #c9a35a; background: #fdf3da; color: #6b4c14;
+    border-radius: 6px; padding: 10px 14px; font-size: 0.85rem; margin-bottom: 24px;
+  }
+  .tools { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+  .tool {
+    display: block; text-decoration: none; color: inherit;
+    background: var(--paper-2); border: 1px solid var(--line); border-radius: 8px;
+    padding: 18px 20px; transition: border-color 0.15s, transform 0.15s;
+  }
+  .tool:hover { border-color: var(--accent); transform: translateY(-2px); }
+  .tool h2 { margin: 0 0 6px; font-size: 1.02rem; color: var(--accent); }
+  .tool p { margin: 0; font-size: 0.85rem; color: #5c5344; }
+  footer { margin-top: 28px; font-size: 0.85rem; }
+  footer a { color: var(--accent); }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Outils</h1>
+  <p class="lede">Quel outil veux-tu utiliser ? Chacun s'ouvre dans un nouvel onglet.</p>
+
+  <p class="notice" id="local-notice" hidden></p>
+
+  <div class="tools">
+    <a class="tool" href="recadrage-images.html" target="_blank" rel="noopener">
+      <h2>Recadrage d'images</h2>
+      <p>Prépare la vignette (16:9) et le visuel de fiche (9:10) d'un article à partir d'une image source.</p>
+    </a>
+    <a class="tool" href="editor.html" target="_blank" rel="noopener">
+      <h2>Éditeur de repères de carte</h2>
+      <p>Place, déplace et relie à une fiche les repères et zones de la carte interactive.</p>
+    </a>
+    <a class="tool" href="tiles.html" target="_blank" rel="noopener">
+      <h2>Découpe en tuiles</h2>
+      <p>Découpe une grande image de carte en tuiles publiables et un aperçu réduit.</p>
+    </a>
+  </div>
+
+  <footer>
+    <a href="../site/">← Voir le site publié en local</a>
+  </footer>
+</main>
+
+<script>
+(() => {
+  const h = window.location.hostname;
+  const isLocalServer = h === "localhost" || h === "127.0.0.1" || h === "[::1]" || h === "::1";
+  if (isLocalServer) return;
+  const notice = document.getElementById("local-notice");
+  notice.hidden = false;
+  notice.textContent = window.location.protocol === "file:"
+    ? "Cette page est ouverte directement depuis le disque (file://) : certains outils (enregistrement direct, carte) ont besoin du serveur local. "
+      + "Lance « node claude/dev-server.js » depuis le dossier valisthea/, puis ouvre http://localhost:8080/outils/ — ou passe par outils.bat."
+    : "Cette page n'est pas servie par le serveur local : certains outils ne fonctionneront pas pleinement.";
+})();
+</script>
+</body>
+</html>

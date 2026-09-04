@@ -1,0 +1,11 @@
+{
+  "_comment": "Cartes de l'onglet Carte. \"maps\" les liste dans l'ordre où elles s'affichent dans le sélecteur ; \"defaultMap\" est celle ouverte à l'arrivée (à défaut, la première). Chaque carte a un \"id\" (minuscules, chiffres et tirets — il sert d'ancre d'URL et de clé dans site/data/map-points.json) et un \"label\" (le nom affiché).\n\nDEUX FAÇONS DE DÉCLARER L'IMAGE :\n\n1. \"image\" — un seul fichier. Formats : PNG, JPG, WEBP, SVG. Pour un SVG, mets des attributs width/height explicites sur la balise <svg> racine en plus du viewBox, sinon certains navigateurs rapportent une taille instable et le zoom part de travers.\n\n2. \"tiles\" — l'image est découpée en tuiles réassemblées à l'affichage, pour une très grande carte qu'un seul fichier rendrait lourde à charger. Réservé à la carte du monde ; les cartes de région tiennent dans un seul fichier. Champs : \"cols\"/\"rows\" (la grille, ex. 3 et 3 pour 9 tuiles), \"width\"/\"height\" (dimensions de la carte COMPLÈTE en pixels), \"pattern\" (chemin d'une tuile avec {col} et {row}, numérotés à partir de 0) et \"preview\" (facultatif mais recommandé : une version réduite de la carte entière, affichée tout de suite et tant que le zoom ne dépasse pas sa finesse — les tuiles ne se chargent qu'au-delà, et seulement celles à l'écran).\n\nL'outil peut aussi RÉDUIRE la carte au passage : une image exportée pour l'impression a une résolution qui n'a aucun sens à l'écran, et chaque pixel de trop se paie en octets. Voir README.md > \"Choisir la largeur maximale\".\n\nPour découper une image en tuiles, ouvre l'outil local outils/tiles.html : il coupe, écrit les fichiers dans site/images/map/<id>/ et remplace lui-même le \"image\" de cette carte par son bloc \"tiles\" — le reste du fichier est préservé.\n\nLes coordonnées des repères sont en pourcentage : elles restent valables si tu changes la résolution d'une carte à ratio identique ; sinon, repositionne-les dans outils/editor.html.",
+  "defaultMap": "monde",
+  "maps": [
+    {
+      "id": "monde",
+      "label": "Le monde",
+      "image": "images/map/placeholder-map.svg"
+    }
+  ]
+}

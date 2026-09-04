@@ -1,0 +1,533 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Recadrage d'images — Valisthéa</title>
+<link rel="icon" href="data:,">
+<style>
+  :root {
+    --ink: #2b2620;
+    --paper: #f3ede0;
+    --paper-2: #e9e0cd;
+    --line: #cabf9f;
+    --accent: #7a3b2e;
+    --accent-2: #3c5a52;
+    --ok: #3c5a52;
+    --error: #a4342a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 24px;
+    background: var(--paper);
+    color: var(--ink);
+    font: 15px/1.5 "Segoe UI", system-ui, sans-serif;
+  }
+  h1 { font-size: 1.3rem; margin: 0 0 4px; }
+  .lede { margin: 0 0 24px; color: #5c5344; max-width: 62em; }
+  main { max-width: 1000px; margin: 0 auto; }
+  section {
+    background: var(--paper-2);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 18px 20px;
+    margin-bottom: 18px;
+  }
+  section h2 { font-size: 0.95rem; margin: 0 0 12px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--accent); }
+  .setup-row { display: flex; gap: 20px; flex-wrap: wrap; align-items: flex-end; margin-bottom: 14px; }
+  label { display: block; font-size: 0.85rem; color: #5c5344; margin-bottom: 4px; }
+  input[type="text"], select {
+    font: inherit; padding: 7px 9px; border: 1px solid var(--line); border-radius: 4px;
+    background: #fff; color: var(--ink); min-width: 220px;
+  }
+  .hint { font-size: 0.8rem; color: #8a7f68; margin-top: 4px; }
+  .hint.error { color: var(--error); }
+  .dropzone {
+    border: 2px dashed var(--line); border-radius: 6px; padding: 26px; text-align: center;
+    color: #6b6250; cursor: pointer; transition: border-color 0.15s, background 0.15s;
+  }
+  .dropzone.drag { border-color: var(--accent); background: #fffaf0; }
+  .dropzone a { color: var(--accent); text-decoration: underline; cursor: pointer; }
+
+  .crops { display: flex; gap: 24px; flex-wrap: wrap; }
+  .crop-panel { flex: 0 0 auto; }
+  .crop-panel h3 { font-size: 0.9rem; margin: 0 0 8px; }
+  .crop-panel p.dims { font-size: 0.78rem; color: #8a7f68; margin: 6px 0 0; }
+  .frame {
+    position: relative; overflow: hidden; border: 1px solid var(--line);
+    background: repeating-conic-gradient(#ddd 0% 25%, #eee 0% 50%) 50% / 16px 16px;
+    cursor: grab; touch-action: none; border-radius: 4px;
+  }
+  .frame:active { cursor: grabbing; }
+  .frame[data-slot="1"] { width: 420px; aspect-ratio: 16 / 9; }
+  .frame[data-slot="2"] { width: 260px; aspect-ratio: 9 / 10; }
+  .frame img { position: absolute; left: 0; top: 0; user-select: none; -webkit-user-drag: none; pointer-events: none; }
+  .zoom-row { display: flex; align-items: center; gap: 8px; margin-top: 10px; }
+  .zoom-row input[type="range"] { flex: 1; }
+  button {
+    font: inherit; padding: 8px 16px; border: 1px solid var(--accent); border-radius: 4px;
+    background: var(--accent); color: #fdf6e8; cursor: pointer;
+  }
+  button.secondary { background: transparent; color: var(--accent); }
+  button:disabled { opacity: 0.45; cursor: not-allowed; }
+  button.small { padding: 4px 10px; font-size: 0.8rem; }
+  .export-row { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
+  .actions { display: flex; gap: 10px; }
+  .status { margin: 12px 0 0; font-size: 0.88rem; white-space: pre-line; }
+  .status.ok { color: var(--ok); }
+  .status.error { color: var(--error); }
+  .notice {
+    border: 1px solid #c9a35a; background: #fdf3da; color: #6b4c14;
+    border-radius: 6px; padding: 10px 14px; font-size: 0.85rem; margin-bottom: 18px;
+  }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+
+<main>
+  <h1>Recadrage d'images de fiche</h1>
+  <p class="lede">
+    Outil local : choisis une image source, recadre-la pour la vignette (16:9) et pour le
+    visuel de la fiche ouverte (9:10), puis enregistre. Le site détecte automatiquement
+    <code>&lt;id&gt;-1.webp</code> (vignette) et <code>&lt;id&gt;-2.webp</code> (fiche) dans
+    <code>site/images/articles/&lt;categorie&gt;/&lt;id&gt;/</code> — voir le README, section
+    « Formats d'image ».
+  </p>
+
+  <p class="notice" id="local-notice" hidden></p>
+
+  <section>
+    <div class="setup-row">
+      <div>
+        <label for="category">Catégorie</label>
+        <select id="category">
+          <option value="">— choisir —</option>
+          <option value="personnages">Personnages</option>
+          <option value="geographie">Géographie</option>
+          <option value="monde">Monde</option>
+          <option value="creatures">Créatures</option>
+        </select>
+      </div>
+      <div>
+        <label for="article-id">Id de la fiche</label>
+        <input type="text" id="article-id" placeholder="ex. blanc-septentrion" autocomplete="off">
+        <p class="hint" id="id-hint">Doit correspondre au nom du fichier JSON (minuscules, chiffres, tirets).</p>
+      </div>
+    </div>
+    <div class="dropzone" id="dropzone">
+      Dépose une image ici, ou <a id="file-trigger">choisis un fichier</a>
+      <input type="file" id="file-input" accept="image/*" hidden>
+    </div>
+  </section>
+
+  <section class="crops" id="crops" hidden>
+    <div class="crop-panel">
+      <h3>Vignette — accueil &amp; grille (16:9)</h3>
+      <div class="frame" data-slot="1"><img class="crop-img" alt=""></div>
+      <div class="zoom-row">
+        <span>Zoom</span>
+        <input type="range" class="zoom" data-slot="1" min="1" max="3" step="0.01" value="1">
+        <button type="button" class="secondary small reset" data-slot="1">Réinitialiser</button>
+      </div>
+      <p class="dims">Export : jusqu'à 1024 × 576 px (réduit si l'image source n'a pas assez de résolution, pour ne jamais agrandir)</p>
+    </div>
+    <div class="crop-panel">
+      <h3>Fiche ouverte — colonne de droite (9:10)</h3>
+      <div class="frame" data-slot="2"><img class="crop-img" alt=""></div>
+      <div class="zoom-row">
+        <span>Zoom</span>
+        <input type="range" class="zoom" data-slot="2" min="1" max="3" step="0.01" value="1">
+        <button type="button" class="secondary small reset" data-slot="2">Réinitialiser</button>
+      </div>
+      <p class="dims">Export : jusqu'à 810 × 900 px (réduit si l'image source n'a pas assez de résolution, pour ne jamais agrandir)</p>
+    </div>
+  </section>
+
+  <section id="export" hidden>
+    <h2>Enregistrer</h2>
+    <div class="export-row">
+      <div>
+        <label for="quality">Qualité WEBP (<span id="quality-val">0.85</span>)</label>
+        <input type="range" id="quality" min="0.5" max="1" step="0.01" value="0.85">
+      </div>
+      <div class="actions">
+        <button type="button" id="save-btn">Enregistrer dans le dépôt</button>
+        <button type="button" id="download-btn" class="secondary">Télécharger</button>
+      </div>
+    </div>
+    <p class="hint error" id="setup-hint" hidden></p>
+    <p class="status" id="status"></p>
+  </section>
+</main>
+
+<script>
+(() => {
+  // Taille d'export par slot. Fixe, indépendante de la taille du cadre à
+  // l'écran (qui ne sert qu'à l'interaction) : cf. exportCrop().
+  const OUT = { 1: { w: 1024, h: 576 }, 2: { w: 810, h: 900 } };
+  const SAFE_ID = /^[a-z0-9][a-z0-9-]*$/;
+
+  const categorySel = document.getElementById("category");
+  const idInput = document.getElementById("article-id");
+  const idHint = document.getElementById("id-hint");
+  const setupHint = document.getElementById("setup-hint");
+  const dropzone = document.getElementById("dropzone");
+  const fileInput = document.getElementById("file-input");
+  const fileTrigger = document.getElementById("file-trigger");
+  const cropsSection = document.getElementById("crops");
+  const exportSection = document.getElementById("export");
+  const qualityInput = document.getElementById("quality");
+  const qualityVal = document.getElementById("quality-val");
+  const saveBtn = document.getElementById("save-btn");
+  const downloadBtn = document.getElementById("download-btn");
+  const statusEl = document.getElementById("status");
+
+  // État de recadrage par slot : scale = échelle appliquée à la résolution
+  // naturelle de l'image ; tx/ty = position (en px CSS) du coin haut-gauche
+  // de l'image affichée, relative au cadre. Toujours clampé pour que
+  // l'image ne laisse jamais de vide dans le cadre (le cadre est TOUJOURS
+  // rempli, par construction — c'est le bug qu'on corrige).
+  const panels = {};
+  ["1", "2"].forEach((slot) => {
+    const frame = document.querySelector(`.frame[data-slot="${slot}"]`);
+    panels[slot] = {
+      slot,
+      frame,
+      img: frame.querySelector("img"),
+      zoom: document.querySelector(`.zoom[data-slot="${slot}"]`),
+      resetBtn: document.querySelector(`.reset[data-slot="${slot}"]`),
+      natW: 0, natH: 0, minScale: 1, scale: 1, tx: 0, ty: 0,
+      frameW: 0, frameH: 0,
+    };
+  });
+
+  function setStatus(text, kind) {
+    statusEl.textContent = text;
+    statusEl.className = "status" + (kind ? ` ${kind}` : "");
+  }
+
+  // "Enregistrer dans le dépôt" a besoin du serveur local (claude/dev-server.js) :
+  // ouvert en double-cliquant (file://) ou copié ailleurs, la requête ne peut
+  // aboutir nulle part. Autant le dire avant que le bouton échoue.
+  (() => {
+    const h = window.location.hostname;
+    const isLocalServer = h === "localhost" || h === "127.0.0.1" || h === "[::1]" || h === "::1";
+    if (isLocalServer) return;
+    const notice = document.getElementById("local-notice");
+    notice.hidden = false;
+    notice.textContent = window.location.protocol === "file:"
+      ? "Cette page est ouverte directement depuis le disque (file://) : « Enregistrer dans le dépôt » ne fonctionnera pas. "
+        + "Lance « node claude/dev-server.js » depuis le dossier valisthea/, puis ouvre http://localhost:8080/outils/recadrage-images.html — "
+        + "ou utilise « Télécharger » et place les fichiers toi-même."
+      : "Cette page n'est pas servie par le serveur local : « Enregistrer dans le dépôt » ne fonctionnera pas. Utilise « Télécharger ».";
+  })();
+
+  // ---------- Chargement de l'image source ----------
+
+  function loadFile(file) {
+    // Le type MIME n'est pas toujours renseigné par le glisser-déposer
+    // depuis l'explorateur (dépend du navigateur/de l'OS) : on ne rejette
+    // que si le type est connu ET différent d'une image, jamais sur un
+    // type vide.
+    if (!file || (file.type && !file.type.startsWith("image/"))) {
+      setStatus("Fichier ignoré : ce n'est pas une image.", "error");
+      return;
+    }
+    setStatus("Chargement de l'image…");
+    const url = URL.createObjectURL(file);
+    const img = new Image();
+    img.onload = () => {
+      // Démasquer AVANT de mesurer les cadres : un élément "hidden" a un
+      // getBoundingClientRect() nul, donc setupPanel() calculerait une
+      // image à 0×0 s'il passait en premier (c'était le bug : cadre resté
+      // vide en apparence après un chargement pourtant réussi).
+      cropsSection.hidden = false;
+      exportSection.hidden = false;
+      Object.values(panels).forEach((p) => setupPanel(p, url, img.naturalWidth, img.naturalHeight));
+      setStatus("");
+      updateButtons();
+    };
+    img.onerror = () => setStatus("Image illisible : le fichier n'a pas pu être décodé.", "error");
+    img.src = url;
+  }
+
+  function setupPanel(p, url, natW, natH) {
+    p.img.src = url;
+    p.natW = natW;
+    p.natH = natH;
+    const rect = p.frame.getBoundingClientRect();
+    p.frameW = rect.width;
+    p.frameH = rect.height;
+    p.minScale = Math.max(p.frameW / natW, p.frameH / natH);
+    p.scale = p.minScale;
+    p.zoom.value = "1";
+    centerImage(p);
+    applyTransform(p);
+  }
+
+  function centerImage(p) {
+    p.tx = (p.frameW - p.natW * p.scale) / 2;
+    p.ty = (p.frameH - p.natH * p.scale) / 2;
+    clamp(p);
+  }
+
+  // Le cadre doit toujours être entièrement couvert : tx/ty ne peuvent
+  // jamais laisser apparaître un bord de cadre sans image derrière.
+  function clamp(p) {
+    const dispW = p.natW * p.scale;
+    const dispH = p.natH * p.scale;
+    p.tx = Math.min(0, Math.max(p.frameW - dispW, p.tx));
+    p.ty = Math.min(0, Math.max(p.frameH - dispH, p.ty));
+  }
+
+  function applyTransform(p) {
+    p.img.style.width = `${p.natW * p.scale}px`;
+    p.img.style.height = `${p.natH * p.scale}px`;
+    p.img.style.left = `${p.tx}px`;
+    p.img.style.top = `${p.ty}px`;
+  }
+
+  // ---------- Interaction : glisser pour cadrer, molette/slider pour zoomer ----------
+
+  Object.values(panels).forEach((p) => {
+    let dragging = null;
+
+    p.frame.addEventListener("pointerdown", (e) => {
+      if (!p.natW) return;
+      dragging = { x: e.clientX, y: e.clientY, tx: p.tx, ty: p.ty };
+      p.frame.setPointerCapture(e.pointerId);
+    });
+    p.frame.addEventListener("pointermove", (e) => {
+      if (!dragging) return;
+      p.tx = dragging.tx + (e.clientX - dragging.x);
+      p.ty = dragging.ty + (e.clientY - dragging.y);
+      clamp(p);
+      applyTransform(p);
+    });
+    ["pointerup", "pointercancel"].forEach((ev) => p.frame.addEventListener(ev, () => { dragging = null; }));
+
+    // Zoom vers le centre du cadre : le point actuellement au centre reste
+    // au centre après le changement d'échelle.
+    p.zoom.addEventListener("input", () => {
+      if (!p.natW) return;
+      const factor = Number(p.zoom.value);
+      const cx = (p.frameW / 2 - p.tx) / p.scale;
+      const cy = (p.frameH / 2 - p.ty) / p.scale;
+      p.scale = p.minScale * factor;
+      p.tx = p.frameW / 2 - cx * p.scale;
+      p.ty = p.frameH / 2 - cy * p.scale;
+      clamp(p);
+      applyTransform(p);
+    });
+
+    p.frame.addEventListener("wheel", (e) => {
+      if (!p.natW) return;
+      e.preventDefault();
+      const next = Math.min(3, Math.max(1, Number(p.zoom.value) - e.deltaY * 0.0015));
+      p.zoom.value = String(next);
+      p.zoom.dispatchEvent(new Event("input"));
+    }, { passive: false });
+
+    p.resetBtn.addEventListener("click", () => {
+      if (!p.natW) return;
+      p.scale = p.minScale;
+      p.zoom.value = "1";
+      centerImage(p);
+      applyTransform(p);
+    });
+  });
+
+  window.addEventListener("resize", () => {
+    Object.values(panels).forEach((p) => {
+      if (!p.natW) return;
+      const rect = p.frame.getBoundingClientRect();
+      p.frameW = rect.width;
+      p.frameH = rect.height;
+      p.minScale = Math.max(p.frameW / p.natW, p.frameH / p.natH);
+      p.scale = Math.max(p.scale, p.minScale);
+      clamp(p);
+      applyTransform(p);
+    });
+  });
+
+  // ---------- Sélection de fichier ----------
+
+  fileTrigger.addEventListener("click", () => fileInput.click());
+  fileInput.addEventListener("change", () => { if (fileInput.files[0]) loadFile(fileInput.files[0]); });
+
+  // "items" est essayé en premier : sur certains navigateurs/OS, un fichier
+  // glissé depuis l'explorateur atterrit dans DataTransfer.items sans que
+  // .files soit peuplé de façon fiable au moment du "drop".
+  function fileFromDrop(e) {
+    const dt = e.dataTransfer;
+    if (dt.items && dt.items.length) {
+      for (const item of dt.items) {
+        if (item.kind === "file") {
+          const f = item.getAsFile();
+          if (f) return f;
+        }
+      }
+    }
+    return (dt.files && dt.files[0]) || null;
+  }
+
+  // Empêche le navigateur de naviguer vers le fichier (voire de quitter la
+  // page) si le dépôt rate le cadre exact de la zone.
+  ["dragover", "drop"].forEach((ev) => window.addEventListener(ev, (e) => e.preventDefault()));
+
+  ["dragenter", "dragover"].forEach((ev) => dropzone.addEventListener(ev, (e) => {
+    e.preventDefault();
+    dropzone.classList.add("drag");
+  }));
+  dropzone.addEventListener("dragleave", (e) => {
+    e.preventDefault();
+    dropzone.classList.remove("drag");
+  });
+  dropzone.addEventListener("drop", (e) => {
+    e.preventDefault();
+    dropzone.classList.remove("drag");
+    const file = fileFromDrop(e);
+    if (file) loadFile(file);
+    else setStatus("Glisser-déposer : aucun fichier détecté — utilise « choisis un fichier ».", "error");
+  });
+
+  // ---------- Validation catégorie / id ----------
+
+  function idValid() {
+    return SAFE_ID.test(idInput.value.trim());
+  }
+  function setupValid() {
+    return categorySel.value && idValid();
+  }
+  function updateButtons() {
+    const imageLoaded = panels["1"].natW && panels["2"].natW;
+    const ready = setupValid() && imageLoaded;
+    saveBtn.disabled = !ready;
+    downloadBtn.disabled = !ready;
+    idHint.classList.toggle("error", idInput.value.trim().length > 0 && !idValid());
+
+    // Rappel visible une fois l'image chargée : sans lui, un bouton grisé
+    // sans explication laisse croire à un bug plutôt qu'à un champ manquant.
+    if (imageLoaded && !setupValid()) {
+      const missing = [];
+      if (!categorySel.value) missing.push("une catégorie");
+      if (!idValid()) missing.push("un id de fiche valide");
+      setupHint.textContent = `Choisis ${missing.join(" et ")} ci-dessus pour pouvoir enregistrer.`;
+      setupHint.hidden = false;
+    } else {
+      setupHint.hidden = true;
+    }
+  }
+  categorySel.addEventListener("change", updateButtons);
+  idInput.addEventListener("input", updateButtons);
+  updateButtons();
+
+  // ---------- Export ----------
+
+  qualityInput.addEventListener("input", () => { qualityVal.textContent = qualityInput.value; });
+
+  function exportBlob(p) {
+    const { w: targetW, h: targetH } = OUT[p.slot];
+    const sx = -p.tx / p.scale;
+    const sy = -p.ty / p.scale;
+    const sw = p.frameW / p.scale;
+    const sh = p.frameH / p.scale;
+    // Ne jamais agrandir au-delà de la résolution réellement disponible dans
+    // le recadrage : sw/sh (déjà au bon ratio 16:9 ou 9:10, imposé par le
+    // cadre) donnent la taille source du recadrage courant. Une image
+    // source plus petite — ou un zoom qui réduit la zone recadrée — que la
+    // cible d'export serait sinon agrandie et rendrait flou.
+    const scaleDown = Math.min(1, sw / targetW);
+    const w = Math.max(1, Math.round(targetW * scaleDown));
+    const h = Math.max(1, Math.round(targetH * scaleDown));
+    const canvas = document.createElement("canvas");
+    canvas.width = w;
+    canvas.height = h;
+    const ctx = canvas.getContext("2d");
+    ctx.imageSmoothingQuality = "high";
+    ctx.drawImage(p.img, sx, sy, sw, sh, 0, 0, w, h);
+    const quality = Number(qualityInput.value);
+    return new Promise((resolve, reject) => {
+      canvas.toBlob((blob) => (blob ? resolve(blob) : reject(new Error("Encodage WEBP refusé par le navigateur."))), "image/webp", quality);
+    });
+  }
+
+  async function exportBoth() {
+    const id = idInput.value.trim();
+    const blobs = {};
+    for (const slot of ["1", "2"]) {
+      // eslint-disable-next-line no-await-in-loop -- deux exports seulement
+      blobs[slot] = await exportBlob(panels[slot]);
+    }
+    return { id, category: categorySel.value, blobs };
+  }
+
+  saveBtn.addEventListener("click", async () => {
+    saveBtn.disabled = true;
+    setStatus("Enregistrement…");
+    try {
+      const { id, category, blobs } = await exportBoth();
+      const results = [];
+      for (const slot of ["1", "2"]) {
+        const q = `category=${encodeURIComponent(category)}&id=${encodeURIComponent(id)}&slot=${slot}`;
+        // eslint-disable-next-line no-await-in-loop -- un fichier à la fois
+        let res;
+        try {
+          res = await fetch(`/api/article-image?${q}`, {
+            method: "POST",
+            headers: { "Content-Type": "application/octet-stream" },
+            body: blobs[slot],
+          });
+        } catch (err) {
+          throw new Error(
+            `Le serveur local n'a pas répondu (${err.message}). `
+            + "Vérifie que « node claude/dev-server.js » tourne toujours dans son terminal, "
+            + "ou utilise « Télécharger »."
+          );
+        }
+        if (!res.ok) {
+          const err = await res.json().catch(() => ({}));
+          throw new Error(err.error || `Refusé par le serveur (HTTP ${res.status}).`);
+        }
+        const body = await res.json();
+        results.push(body.path);
+      }
+      setStatus(`Enregistré :\n${results.join("\n")}`, "ok");
+    } catch (err) {
+      console.error(err);
+      setStatus(`Échec — ${err.message}`, "error");
+    } finally {
+      saveBtn.disabled = !setupValid();
+    }
+  });
+
+  downloadBtn.addEventListener("click", async () => {
+    downloadBtn.disabled = true;
+    setStatus("Préparation du téléchargement…");
+    try {
+      const { id, blobs } = await exportBoth();
+      ["1", "2"].forEach((slot) => {
+        const a = document.createElement("a");
+        a.href = URL.createObjectURL(blobs[slot]);
+        a.download = `${id}-${slot}.webp`;
+        a.click();
+        URL.revokeObjectURL(a.href);
+      });
+      setStatus(
+        `Téléchargé : ${id}-1.webp et ${id}-2.webp\n`
+        + `À placer dans site/images/articles/${categorySel.value}/${id}/`,
+        "ok"
+      );
+    } catch (err) {
+      console.error(err);
+      setStatus(`Échec — ${err.message}`, "error");
+    } finally {
+      downloadBtn.disabled = !setupValid();
+    }
+  });
+})();
+</script>
+</body>
+</html>

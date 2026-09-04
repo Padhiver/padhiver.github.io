@@ -2,6 +2,13 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
+<!-- Le HTML/JS partagé (data.js, render.js…) écrit ses chemins d'image et de
+     données comme si la page vivait dans site/ (ex. "data/categories.json",
+     "images/banners/x.png") : c'est là qu'ils vivent réellement. "base"
+     redirige donc TOUTE URL relative de cette page vers site/, y compris
+     celles injectées plus tard en HTML (fiche, bannière…) — même principe
+     que site/map/index.html, qui pointe dans l'autre sens. -->
+<base href="site/">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Codex de Valisthéa</title>
 <meta name="description" content="Encyclopédie de l'univers de Valisthéa.">

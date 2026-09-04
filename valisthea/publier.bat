@@ -2,7 +2,7 @@
 cd /d "%~dp0.."
 
 echo Regeneration du manifest...
-node valisthea\scripts\build-manifest.js
+node valisthea\claude\build-manifest.js
 if errorlevel 1 (
   echo.
   echo ERREUR lors de la regeneration du manifest. Rien n'a ete envoye.
