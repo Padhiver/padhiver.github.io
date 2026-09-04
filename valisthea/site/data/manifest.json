@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T15:14:51.304Z",
+  "generatedAt": "2026-09-04T16:15:47.631Z",
   "articles": [
     {
       "id": "angra-mainyu",
@@ -2458,8 +2458,8 @@
       "public": "ON",
       "date": "2026-09-04",
       "order": 6,
-      "image": null,
-      "portrait": null
+      "image": "images/articles/monde/academies-imperiales/academies-imperiales-1.webp",
+      "portrait": "images/articles/monde/academies-imperiales/academies-imperiales-2.webp"
     },
     {
       "id": "civilisation-celeste",
@@ -2518,8 +2518,8 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 11,
-      "image": null,
-      "portrait": null
+      "image": "images/articles/monde/magie/magie-1.webp",
+      "portrait": "images/articles/monde/magie/magie-2.webp"
     },
     {
       "id": "stigmate",
@@ -2528,8 +2528,8 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 12,
-      "image": null,
-      "portrait": null
+      "image": "images/articles/monde/stigmate/stigmate-1.webp",
+      "portrait": "images/articles/monde/stigmate/stigmate-2.webp"
     },
     {
       "id": "ancienne-fresque",
@@ -2548,8 +2548,8 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 14,
-      "image": null,
-      "portrait": null
+      "image": "images/articles/monde/petrification/petrification-1.webp",
+      "portrait": "images/articles/monde/petrification/petrification-2.webp"
     },
     {
       "id": "prophetie-du-salut",
@@ -2658,8 +2658,8 @@
       "public": "ON",
       "date": "2026-09-04",
       "order": 25,
-      "image": null,
-      "portrait": null
+      "image": "images/articles/monde/la-suppression/la-suppression-1.webp",
+      "portrait": "images/articles/monde/la-suppression/la-suppression-2.webp"
     },
     {
       "id": "technologie-magitech",
@@ -2698,8 +2698,8 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 28,
-      "image": null,
-      "portrait": null
+      "image": "images/articles/monde/calendrier-ponantin/calendrier-ponantin-1.webp",
+      "portrait": "images/articles/monde/calendrier-ponantin/calendrier-ponantin-2.webp"
     },
     {
       "id": "ciel-de-larkhe",
@@ -2898,8 +2898,8 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 48,
-      "image": null,
-      "portrait": null
+      "image": "images/articles/monde/activites-des-pourvoyeurs/activites-des-pourvoyeurs-1.webp",
+      "portrait": "images/articles/monde/activites-des-pourvoyeurs/activites-des-pourvoyeurs-2.webp"
     },
     {
       "id": "aeronefs",
@@ -2938,8 +2938,8 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 52,
-      "image": null,
-      "portrait": null
+      "image": "images/articles/monde/bardes/bardes-1.webp",
+      "portrait": "images/articles/monde/bardes/bardes-2.webp"
     },
     {
       "id": "barrieres-magiques",
@@ -2978,8 +2978,8 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 56,
-      "image": null,
-      "portrait": null
+      "image": "images/articles/monde/broches/broches-1.webp",
+      "portrait": "images/articles/monde/broches/broches-2.webp"
     },
     {
       "id": "cibles-delite",
@@ -2998,8 +2998,8 @@
       "public": "ON",
       "date": "2026-09-04",
       "order": 58,
-      "image": null,
-      "portrait": null
+      "image": "images/articles/monde/nomos-hekatea/nomos-hekatea-1.webp",
+      "portrait": "images/articles/monde/nomos-hekatea/nomos-hekatea-2.webp"
     },
     {
       "id": "creatures-bleues",
@@ -3018,8 +3018,8 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 59,
-      "image": null,
-      "portrait": null
+      "image": "images/articles/monde/cristaux/cristaux-1.webp",
+      "portrait": "images/articles/monde/cristaux/cristaux-2.webp"
     },
     {
       "id": "cristaux-geants",
@@ -3028,8 +3028,8 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 60,
-      "image": null,
-      "portrait": null
+      "image": "images/articles/monde/cristaux-geants/cristaux-geants-1.webp",
+      "portrait": "images/articles/monde/cristaux-geants/cristaux-geants-2.webp"
     },
     {
       "id": "cristaux-meres",
@@ -3038,8 +3038,8 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 61,
-      "image": null,
-      "portrait": null
+      "image": "images/articles/monde/cristaux-meres/cristaux-meres-1.webp",
+      "portrait": "images/articles/monde/cristaux-meres/cristaux-meres-2.webp"
     },
     {
       "id": "cristaux-morts",
@@ -3188,8 +3188,8 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 76,
-      "image": null,
-      "portrait": null
+      "image": "images/articles/monde/marques/marques-1.webp",
+      "portrait": "images/articles/monde/marques/marques-2.webp"
     },
     {
       "id": "monolithes",
@@ -3228,8 +3228,8 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 80,
-      "image": null,
-      "portrait": null
+      "image": "images/articles/monde/petits-cristaux/petits-cristaux-1.webp",
+      "portrait": "images/articles/monde/petits-cristaux/petits-cristaux-2.webp"
     },
     {
       "id": "pourvoyeurs",
@@ -3238,8 +3238,8 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 81,
-      "image": null,
-      "portrait": null
+      "image": "images/articles/monde/pourvoyeurs/pourvoyeurs-1.webp",
+      "portrait": "images/articles/monde/pourvoyeurs/pourvoyeurs-2.webp"
     },
     {
       "id": "pourvoyeurs-caches",
@@ -3288,8 +3288,8 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 86,
-      "image": null,
-      "portrait": null
+      "image": "images/articles/monde/soldats-pourvoyeurs/soldats-pourvoyeurs-1.webp",
+      "portrait": "images/articles/monde/soldats-pourvoyeurs/soldats-pourvoyeurs-2.webp"
     },
     {
       "id": "sources-du-mirage",
@@ -3328,8 +3328,8 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 90,
-      "image": null,
-      "portrait": null
+      "image": "images/articles/monde/ether/ether-1.webp",
+      "portrait": "images/articles/monde/ether/ether-2.webp"
     },
     {
       "id": "ether-stagnant",
@@ -3368,8 +3368,8 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 94,
-      "image": null,
-      "portrait": null
+      "image": "images/articles/monde/traite-intercontinental/traite-intercontinental-1.webp",
+      "portrait": "images/articles/monde/traite-intercontinental/traite-intercontinental-2.webp"
     },
     {
       "id": "vin-de-bacchus",
@@ -3458,8 +3458,8 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 103,
-      "image": null,
-      "portrait": null
+      "image": "images/articles/monde/methia/methia-1.webp",
+      "portrait": "images/articles/monde/methia/methia-2.webp"
     },
     {
       "id": "mythos",

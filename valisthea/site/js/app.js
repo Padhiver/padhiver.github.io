@@ -65,10 +65,10 @@
     const cats = EanaData.getCategories();
     const recent = EanaData.getRecentArticles(RECENT_COUNT);
     const results = homeQuery ? EanaData.searchArticles(null, homeQuery).slice(0, 10) : [];
-    // Les compteurs incluent les fiches à venir, pour coller à ce que la
-    // grille de catégorie affiche réellement (publiées + verrouillées).
+    // Compte ce qui est réellement visible pour le mode courant (ON
+    // seulement en public, tout en mode maître) — cohérent avec la grille.
     const counts = {};
-    cats.forEach((c) => { counts[c.id] = EanaData.countAllByCategory(c.id); });
+    cats.forEach((c) => { counts[c.id] = EanaData.getArticlesByCategory(c.id).length; });
 
     app.innerHTML = EanaRender.renderHome({
       recentArticles: recent,
@@ -95,14 +95,14 @@
 
   // ---------- Rendu : Catégorie ----------
 
-  // Sans recherche, la grille liste toute la catégorie : les fiches OFF y
-  // apparaissent verrouillées. Dès qu'une recherche est saisie, on repasse par
-  // le filtre normal — une fiche non publiée ne doit pas pouvoir être trouvée
-  // par son nom.
+  // Une fiche OFF n'apparaît nulle part pour un visiteur — ni dans la
+  // grille, ni verrouillée, ni par la recherche — et normalement en mode
+  // maître. getArticlesByCategory()/searchArticles() appliquent déjà cette
+  // règle (isVisible), donc rien de spécial à faire ici selon le mode.
   function gridArticles(categoryId, query) {
     return query.trim()
       ? EanaData.searchArticles(categoryId, query)
-      : EanaData.getAllByCategory(categoryId);
+      : EanaData.getArticlesByCategory(categoryId);
   }
 
   function renderCategoryView(categoryId) {
@@ -134,7 +134,6 @@
     if (!wrap) return;
     wrap.innerHTML = EanaRender.renderCategoryResults({
       articles, page: state.page, pageSize: PAGE_SIZE, query: state.query,
-      masterActive: EanaData.isMasterActive(),
     });
   }
 

@@ -398,29 +398,6 @@ a.site-title:hover { color: var(--cinabre); }
   padding: 3px 8px;
 }
 
-/* Fiche préparée mais non publiée, vue par un visiteur : un "?" en fond,
-   ni nom ni lien. Pas de survol, pas de curseur main : rien à cliquer. */
-.card-locked {
-  cursor: default;
-  background: var(--paper-3);
-  border-style: dashed;
-  border-color: var(--line-soft);
-  display: grid;
-  place-items: center;
-  overflow: hidden;
-}
-.card-locked::after { content: none; }
-.card-locked:hover { transform: none; box-shadow: none; border-color: var(--line-soft); }
-.card-lock {
-  font-family: var(--font-display);
-  font-weight: 600;
-  font-size: 3.4rem;
-  line-height: 1;
-  color: var(--sea);
-  opacity: 0.18;
-  user-select: none;
-}
-
 /* Entrée en cascade des vignettes (accueil, grille de catégorie, pagination). */
 .card-in { animation: card-in 0.4s cubic-bezier(0.22, 1, 0.36, 1) both; }
 @keyframes card-in {

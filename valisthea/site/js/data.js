@@ -130,18 +130,6 @@ const EanaData = (() => {
     return getVisibleArticles().filter((a) => a.category === categoryId);
   }
 
-  // Grille de catégorie : les fiches OFF y figurent aussi, mais rendues
-  // verrouillées (un "?" sans nom ni lien) pour montrer ce qui est en
-  // préparation. Ne jamais utiliser pour la recherche : le
-  // titre d'une fiche OFF ne doit apparaître nulle part.
-  function getAllByCategory(categoryId) {
-    return manifestArticles.filter((a) => a.category === categoryId);
-  }
-
-  function countAllByCategory(categoryId) {
-    return getAllByCategory(categoryId).length;
-  }
-
   // Toutes les fiches, sans filtre de visibilité. Réservé aux outils de
   // maître hors site publié (map/editor.html) : ne jamais utiliser pour
   // une vue destinée aux visiteurs.
@@ -182,8 +170,6 @@ const EanaData = (() => {
     getCategory,
     getBanner,
     getArticlesByCategory,
-    getAllByCategory,
-    countAllByCategory,
     getAllArticles,
     getRecentArticles,
     searchArticles,

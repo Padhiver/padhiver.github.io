@@ -71,18 +71,8 @@ const EanaRender = (() => {
     </div>`;
   }
 
-  function articleCard(article, { showKind = false, index = 0, locked = false } = {}) {
+  function articleCard(article, { showKind = false, index = 0 } = {}) {
     const delay = `style="animation-delay:${index * 35}ms"`;
-
-    // Fiche non publiée vue par un visiteur : on n'émet ni l'id (qui dérive du
-    // titre), ni le titre, ni l'image — rien qui puisse trahir son contenu.
-    // Sans data-open-article, la délégation de clic l'ignore aussi.
-    if (locked) {
-      return `<div class="card card-locked card-in" ${delay} aria-label="${escapeHtml(EanaI18n.t("card.lockedAriaLabel"))}">
-        ${CORNERS_TOP}
-        <span class="card-lock" aria-hidden="true">?</span>
-      </div>`;
-    }
 
     const off = article.public === "OFF" ? `<span class="badge-off">${escapeHtml(EanaI18n.t("card.off"))}</span>` : "";
     const kind = showKind
@@ -144,13 +134,13 @@ const EanaRender = (() => {
     </div>`;
   }
 
-  function renderCategoryResults({ articles, page, pageSize, query, masterActive }) {
+  function renderCategoryResults({ articles, page, pageSize, query }) {
     const totalPages = Math.max(1, Math.ceil(articles.length / pageSize));
     const currentPage = Math.min(page, totalPages - 1);
     const pageItems = articles.slice(currentPage * pageSize, currentPage * pageSize + pageSize);
 
     const gridHtml = pageItems.length
-      ? pageItems.map((a, i) => articleCard(a, { index: i, locked: !masterActive && a.public === "OFF" })).join("")
+      ? pageItems.map((a, i) => articleCard(a, { index: i })).join("")
       : `<div class="empty-state">${escapeHtml(EanaI18n.t(query ? "category.emptySearch" : "category.emptyDefault"))}</div>`;
 
     return `
@@ -168,7 +158,7 @@ const EanaRender = (() => {
       <div class="category-tabs">${tabsHtml}</div>
       ${tools(query, EanaI18n.t("search.placeholderCategory", { category: activeCategory.label.toLowerCase() }), masterActive)}
       ${sectionTitle(activeCategory.label, EanaI18n.plural("category.entryCount", articles.length))}
-      <div id="grid-wrap">${renderCategoryResults({ articles, page, pageSize, query, masterActive })}</div>
+      <div id="grid-wrap">${renderCategoryResults({ articles, page, pageSize, query })}</div>
     `;
   }
 

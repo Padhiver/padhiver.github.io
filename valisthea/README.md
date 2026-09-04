@@ -268,7 +268,7 @@ Neuf types par défaut (cité, forteresse, ruine, sanctuaire, relief, forêt, po
 - `type` : optionnel, un `id` de `site/data/map-point-types.json`. Sans type, le repère retombe sur l'icône de la catégorie de sa fiche liée (comportement des points créés avant les types).
 - `article` : optionnel, l'id d'une fiche du codex (n'importe quelle catégorie — personnage, lieu, créature...).
 - `label` : optionnel. Sans `article`, affiché dans une bulle au clic (le repère n'ouvre alors aucune fiche). Avec `article`, surcharge le titre de la fiche pour l'étiquette du repère.
-- Un point lié à une fiche `OFF` est **invisible** en mode public, y compris sa position — contrairement aux grilles du codex (qui affichent un `?` verrouillé), une carte peut spoiler par le simple emplacement d'un repère. Il réapparaît normalement en mode maître.
+- Un point lié à une fiche `OFF` est **invisible** en mode public, y compris sa position — comme la fiche elle-même, absente de la grille de sa catégorie. Il réapparaît normalement en mode maître.
 
 ### Architecture partagée
 
@@ -407,19 +407,18 @@ En mode maître, les fiches `OFF` réapparaissent partout (accueil, grilles, rec
 
 ### Ce que voit un visiteur d'une fiche `OFF`
 
-Une fiche `OFF` n'est pas cachée : elle occupe sa place dans la grille de sa catégorie sous forme d'une **vignette verrouillée** — bordure pointillée, gros `?` en filigrane, sans nom, non cliquable. Pratique pour préparer des fiches à l'avance et montrer qu'il y a de la suite.
+Une fiche `OFF` est **entièrement absente** pour un visiteur — pas de vignette, verrouillée ou non : rien qui indique même qu'elle existe. Ni le nom ni l'identifiant (qui dérive du titre) ne sont écrits dans la page. Elle est donc absente :
 
-Son titre n'apparaît nulle part côté visiteur : ni le nom ni l'identifiant (qui dérive du titre) ne sont écrits dans la page. Elle est donc absente :
-
+- de la grille de sa catégorie (les vignettes qui restent glissent pour combler sa place, la grille se comporte comme si elle n'existait pas),
 - des articles récents de l'accueil,
-- des résultats de recherche (chercher son nom exact ne la fait pas apparaître — la grille repasse en mode filtré dès qu'une recherche est saisie),
+- des résultats de recherche,
 - des "articles liés" des autres fiches.
 
 L'ouvrir par son URL directe (`#/article/mon-id`) renvoie à la vue précédente.
 
-Les compteurs (`100 articles` sur une catégorie) incluent les fiches à venir, pour rester cohérents avec le nombre de vignettes réellement affichées.
+Les compteurs (`100 articles` sur une catégorie, total de l'accueil) ne comptent donc que les fiches `ON` en mode public. En mode maître, ils comptent tout (`ON` + `OFF`), pour rester cohérents avec ce que la grille affiche réellement dans chaque mode.
 
-⚠️ Rappel : tout cela concerne l'interface. Le JSON de la fiche reste présent dans le dépôt public, et la vignette `?` signale désormais explicitement qu'il existe quelque chose à cet endroit. Toujours pas de secrets réels, donc.
+⚠️ Rappel : tout cela concerne l'interface. Le JSON de la fiche reste présent dans le dépôt public, retrouvable par quiconque explore `site/data/articles/` — l'absence de vignette n'est qu'un confort de lecture, pas une protection.
 
 **Changer la passphrase** (la comparaison est sensible à la casse et aux accents) :
 
