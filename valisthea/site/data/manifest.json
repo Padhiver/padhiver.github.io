@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T16:19:24.803Z",
+  "generatedAt": "2026-09-04T16:37:55.820Z",
   "articles": [
     {
       "id": "angra-mainyu",
@@ -798,8 +798,8 @@
       "public": "ON",
       "date": "2026-09-04",
       "order": 18,
-      "image": null,
-      "portrait": null
+      "image": "images/articles/geographie/blanc-septentrion/blanc-septentrion-1.webp",
+      "portrait": "images/articles/geographie/blanc-septentrion/blanc-septentrion-2.webp"
     },
     {
       "id": "kanver",
@@ -1168,8 +1168,8 @@
       "public": "ON",
       "date": "2026-09-04",
       "order": 54,
-      "image": null,
-      "portrait": null
+      "image": "images/articles/geographie/empire-mineen/empire-mineen-1.webp",
+      "portrait": "images/articles/geographie/empire-mineen/empire-mineen-2.webp"
     },
     {
       "id": "milice-dautodefense",
@@ -1228,8 +1228,8 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 59,
-      "image": null,
-      "portrait": null
+      "image": "images/articles/geographie/archiduche-de-rosalia/archiduche-de-rosalia-1.webp",
+      "portrait": "images/articles/geographie/archiduche-de-rosalia/archiduche-de-rosalia-2.webp"
     },
     {
       "id": "region-agricole-de-sangbreque",
@@ -1728,8 +1728,8 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 109,
-      "image": null,
-      "portrait": null
+      "image": "images/articles/geographie/pantheisme-de-sainte-gweligore/pantheisme-de-sainte-gweligore-1.webp",
+      "portrait": "images/articles/geographie/pantheisme-de-sainte-gweligore/pantheisme-de-sainte-gweligore-2.webp"
     },
     {
       "id": "provenance",
@@ -1848,8 +1848,8 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 121,
-      "image": null,
-      "portrait": null
+      "image": "images/articles/geographie/saint-empire-de-sangbreque/saint-empire-de-sangbreque-1.webp",
+      "portrait": "images/articles/geographie/saint-empire-de-sangbreque/saint-empire-de-sangbreque-2.webp"
     },
     {
       "id": "saut-de-leploree",
