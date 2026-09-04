@@ -8,7 +8,19 @@ const path = require("path");
 
 const root = path.join(__dirname, "..");
 const articlesDir = path.join(root, "data", "articles");
+const imagesDir = path.join(root, "images", "articles");
 const manifestPath = path.join(root, "data", "manifest.json");
+
+// Convention : images/articles/<categorie>/<id>/*.png. Aucune fiche ne
+// déclare son image, elle est détectée ici au moment de générer le
+// manifest. S'il y a plusieurs .png dans le dossier, le premier par ordre
+// alphabétique est utilisé.
+function findArticleImage(category, id) {
+  const dir = path.join(imagesDir, category, id);
+  if (!fs.existsSync(dir) || !fs.statSync(dir).isDirectory()) return null;
+  const png = fs.readdirSync(dir).filter((f) => /\.png$/i.test(f)).sort()[0];
+  return png ? `images/articles/${category}/${id}/${png}` : null;
+}
 
 function readArticles() {
   const categoryDirs = fs.readdirSync(articlesDir, { withFileTypes: true })
@@ -56,7 +68,7 @@ function readArticles() {
         public: data.public,
         date: data.date || "1970-01-01",
         order: typeof data.order === "number" ? data.order : null,
-        cardImage: data.cardImage || null
+        image: findArticleImage(data.category, id)
       });
     }
   }

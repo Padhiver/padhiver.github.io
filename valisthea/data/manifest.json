@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T13:23:01.231Z",
+  "generatedAt": "2026-09-04T14:02:57.204Z",
   "articles": [
     {
       "id": "angra-mainyu",
@@ -8,7 +8,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 1,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "bahamut",
@@ -17,7 +17,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 2,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "chirada",
@@ -26,7 +26,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 3,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "garuda",
@@ -35,7 +35,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 4,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "hreidmarr",
@@ -44,7 +44,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 5,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "ifrit-le-primordial-tenebreux",
@@ -53,7 +53,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 6,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "ifrit-paracheve",
@@ -62,7 +62,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 7,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "flamme-liquide",
@@ -71,7 +71,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 8,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "gardien-du-temps",
@@ -80,7 +80,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 9,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "maitre-de-ceremonie",
@@ -89,7 +89,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 10,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "primordial-mysterieux",
@@ -98,7 +98,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 11,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "adamankhelones",
@@ -107,7 +107,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 12,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "ahrimans",
@@ -116,7 +116,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 13,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "antilopes",
@@ -125,7 +125,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 14,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "archeosaures",
@@ -134,7 +134,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 15,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "behemoths",
@@ -143,7 +143,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 16,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "bombos",
@@ -152,7 +152,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 17,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "chimeres",
@@ -161,7 +161,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 18,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "chocobos",
@@ -170,7 +170,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 19,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "coeurls",
@@ -179,7 +179,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 20,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "dragonnets",
@@ -188,7 +188,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 21,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "dragons",
@@ -197,7 +197,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 22,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "eibis-especes",
@@ -206,7 +206,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 23,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "flans",
@@ -215,7 +215,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 24,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "frelons",
@@ -224,7 +224,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 25,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "geants-de-fer",
@@ -233,7 +233,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 26,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "gigas",
@@ -242,7 +242,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 27,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "gobelins",
@@ -251,7 +251,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 28,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "gobelins-inhabituels",
@@ -260,7 +260,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 29,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "griffons",
@@ -269,7 +269,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 30,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "leopards",
@@ -278,7 +278,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 31,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "loups-warg",
@@ -287,7 +287,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 32,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "megalocrabes",
@@ -296,7 +296,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 33,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "morbols",
@@ -305,7 +305,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 34,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "orcs",
@@ -314,7 +314,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 35,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "orties-vampires",
@@ -323,7 +323,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 36,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "pinces-dargile",
@@ -332,7 +332,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 37,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "raptors",
@@ -341,7 +341,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 38,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "rhinofuros",
@@ -350,7 +350,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 39,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "scorpions",
@@ -359,7 +359,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 40,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "stolas",
@@ -368,7 +368,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 41,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "taurus",
@@ -377,7 +377,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 42,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "taurus-anciens",
@@ -386,7 +386,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 43,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "tomberrys",
@@ -395,7 +395,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 44,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "vautours",
@@ -404,7 +404,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 45,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "veuves-noires",
@@ -413,7 +413,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 46,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "leviathan",
@@ -422,7 +422,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 47,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "odin",
@@ -431,7 +431,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 48,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "omega",
@@ -440,7 +440,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 49,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "omicron",
@@ -449,7 +449,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 50,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "perykos",
@@ -458,7 +458,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 51,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "phenix",
@@ -467,7 +467,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 52,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "primo-ultima",
@@ -476,7 +476,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 53,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "ramuh",
@@ -485,7 +485,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 54,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "shiva",
@@ -494,7 +494,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 55,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "sigma",
@@ -503,7 +503,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 56,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "suparna",
@@ -512,7 +512,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 57,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "thalaos",
@@ -521,7 +521,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 58,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "titan",
@@ -530,7 +530,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 59,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "typhos",
@@ -539,7 +539,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 60,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "ultima-dans-la-fissure-interdimensionnelle",
@@ -548,7 +548,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 61,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "ultimalius",
@@ -557,7 +557,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 62,
-      "cardImage": "images/placeholders/emblem-primordiaux.svg"
+      "image": null
     },
     {
       "id": "ambrune",
@@ -566,7 +566,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 1,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "au-court-pendu",
@@ -575,7 +575,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 2,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "caudrac",
@@ -584,7 +584,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 3,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "ceratina",
@@ -593,7 +593,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 4,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "chefdrac",
@@ -602,7 +602,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 5,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "cornedrac",
@@ -611,7 +611,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 6,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "creag-loisgte",
@@ -620,7 +620,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 7,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "cressida",
@@ -629,7 +629,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 8,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "crocdrac",
@@ -638,7 +638,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 9,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "dravost",
@@ -647,7 +647,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 10,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "dzemekys",
@@ -656,7 +656,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 11,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "echinedrac",
@@ -665,7 +665,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 12,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "eistla",
@@ -674,7 +674,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 13,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "fangebrune",
@@ -683,7 +683,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 14,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "fort-norvent",
@@ -692,7 +692,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 15,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "francastel",
@@ -701,7 +701,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 16,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "gjallarhorn",
@@ -710,7 +710,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 17,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "blanc-septentrion",
@@ -719,7 +719,7 @@
       "public": "ON",
       "date": "2026-09-04",
       "order": 18,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "kanver",
@@ -728,7 +728,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 18,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "kaslok",
@@ -737,7 +737,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 19,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "kretov",
@@ -746,7 +746,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 20,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "baie-de-lollpheist",
@@ -755,7 +755,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 21,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "bataille-du-defile-de-nysa",
@@ -764,7 +764,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 22,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "brigade-de-soutien",
@@ -773,7 +773,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 23,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "caravane-ecarlate",
@@ -782,7 +782,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 24,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "ceremonie-dadoubement",
@@ -791,7 +791,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 25,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "citadelle-de-zirnitra",
@@ -800,7 +800,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 26,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "cite-suspendue",
@@ -809,7 +809,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 27,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "combe-de-lastny",
@@ -818,7 +818,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 28,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "corporation-de-saint-gilbert-patron-des-marchands",
@@ -827,7 +827,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 29,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "cote-de-jais-svartstroendin",
@@ -836,7 +836,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 30,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "cote-du-vent-portant",
@@ -845,7 +845,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 31,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "deferlante-de-nepto",
@@ -854,7 +854,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 32,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "destruction-de-caudrac",
@@ -863,7 +863,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 33,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "destruction-de-chefdrac",
@@ -872,7 +872,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 34,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "destruction-dechinedrac",
@@ -881,7 +881,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 35,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "destruction-de-crocdrac",
@@ -890,7 +890,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 36,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "destruction-de-souffledrac",
@@ -899,7 +899,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 37,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "falaise-des-hobereaux",
@@ -908,7 +908,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 38,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "fissure-interdimensionnelle",
@@ -917,7 +917,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 39,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "foret-de-morion",
@@ -926,7 +926,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 40,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "forteresse-aux-corbeaux-hrafnvitsborg",
@@ -935,7 +935,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 41,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "futaie-des-aieux",
@@ -944,7 +944,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 42,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "garde-de-kanver",
@@ -953,7 +953,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 43,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "grande-sylve",
@@ -962,7 +962,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 44,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "guerre-de-la-magie",
@@ -971,7 +971,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 45,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "guerre-des-deux-continents",
@@ -980,7 +980,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 46,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "guilde-des-marchands-de-letoile-du-matin",
@@ -989,7 +989,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 47,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "guilde-marchande-des-cretargent",
@@ -998,7 +998,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 48,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "alliance-rosalia-dalmequie",
@@ -1007,7 +1007,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 49,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "machoire-du-geant",
@@ -1016,7 +1016,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 50,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "maison-rosfield",
@@ -1025,7 +1025,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 51,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "mer-de-naldia",
@@ -1034,7 +1034,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 52,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "mer-fremissante",
@@ -1043,7 +1043,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 53,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "empire-mineen",
@@ -1052,7 +1052,7 @@
       "public": "ON",
       "date": "2026-09-04",
       "order": 54,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "milice-dautodefense",
@@ -1061,7 +1061,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 54,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "la-nef-dechue",
@@ -1070,7 +1070,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 55,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "annexion-de-rosalia",
@@ -1079,7 +1079,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 56,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "nuit-galante",
@@ -1088,7 +1088,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 57,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "plaine-de-la-glorieuse",
@@ -1097,7 +1097,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 58,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "archiduche-de-rosalia",
@@ -1106,7 +1106,7 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 59,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "region-agricole-de-sangbreque",
@@ -1115,7 +1115,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 60,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "republique-de-dalmequie",
@@ -1124,7 +1124,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 61,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "revolte-des-saints-dragons",
@@ -1133,7 +1133,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 62,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "armee-dalmeque",
@@ -1142,7 +1142,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 63,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "armee-ferregienne",
@@ -1151,7 +1151,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 64,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "armee-rosalienne",
@@ -1160,7 +1160,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 65,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "armee-royale-de-valoed",
@@ -1169,7 +1169,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 66,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "armee-sangbrequoise",
@@ -1178,7 +1178,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 67,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "route-du-cristal",
@@ -1187,7 +1187,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 68,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "tour-des-sages",
@@ -1196,7 +1196,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 69,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "tour-des-songes-droemmeri",
@@ -1205,7 +1205,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 70,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "tragedie-de-dzemekys",
@@ -1214,7 +1214,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 71,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "triple-alliance-de-859",
@@ -1223,7 +1223,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 72,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "triple-alliance-de-878",
@@ -1232,7 +1232,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 73,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "attaque-du-fort-phenix",
@@ -1241,7 +1241,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 74,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "auberge-de-martha",
@@ -1250,7 +1250,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 75,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "bourg-du-saint-secours",
@@ -1259,7 +1259,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 76,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "cercle-de-malius",
@@ -1268,7 +1268,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 77,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "chantier-naval-dauldhyl",
@@ -1277,7 +1277,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 78,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "chantier-naval-des-forges",
@@ -1286,7 +1286,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 79,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "chateau-de-blancheguivre",
@@ -1295,7 +1295,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 80,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "chateau-de-dazbbog",
@@ -1304,7 +1304,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 81,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "chateau-de-rosalith",
@@ -1313,7 +1313,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 82,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "conflit-frontalier-de-873",
@@ -1322,7 +1322,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 83,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "conseil-des-patriarches",
@@ -1331,7 +1331,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 84,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "conseil-republicain",
@@ -1340,7 +1340,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 85,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "corps-despionnage-valoedois",
@@ -1349,7 +1349,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 86,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "coteau-de-loree-belle",
@@ -1358,7 +1358,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 87,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "cratere-de-dzemekys",
@@ -1367,7 +1367,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 88,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "culte-messianique-levantin",
@@ -1376,7 +1376,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 89,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "defile-de-nysa",
@@ -1385,7 +1385,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 90,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "desert-de-krozit",
@@ -1394,7 +1394,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 91,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "desert-de-velkyroj",
@@ -1403,7 +1403,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 92,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "detroit-daurtha",
@@ -1412,7 +1412,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 93,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "domaine-des-prieuses",
@@ -1421,7 +1421,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 94,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "dominion-du-cristal",
@@ -1430,7 +1430,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 95,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "fay-de-la-dragonniere",
@@ -1439,7 +1439,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 96,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "fort-phenix",
@@ -1448,7 +1448,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 97,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "gouvernement-general-provincial",
@@ -1457,7 +1457,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 98,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "gris-levant",
@@ -1466,7 +1466,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 99,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "hameau-de-garnakur",
@@ -1475,7 +1475,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 100,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "lac-benou",
@@ -1484,7 +1484,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 101,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "marche-de-poklad",
@@ -1493,7 +1493,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 102,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "massacre-du-repaire",
@@ -1502,7 +1502,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 103,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "ministere-de-la-justice",
@@ -1511,7 +1511,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 104,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "monastere-de-saint-glaidemont",
@@ -1520,7 +1520,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 105,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "mours",
@@ -1529,7 +1529,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 106,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "mouvement-independantiste-de-kanver",
@@ -1538,7 +1538,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 107,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "pacte-de-non-agression",
@@ -1547,7 +1547,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 108,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "pantheisme-de-sainte-gweligore",
@@ -1556,7 +1556,7 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 109,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "provenance",
@@ -1565,7 +1565,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 110,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "quartier-des-refugies-de-kostnice",
@@ -1574,7 +1574,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 111,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "raid-sur-lestange",
@@ -1583,7 +1583,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 112,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "relais-de-dalimil",
@@ -1592,7 +1592,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 113,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "repaire-de-cid",
@@ -1601,7 +1601,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 114,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "repaire-de-clive",
@@ -1610,7 +1610,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 115,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "royaume-de-fer-eileanan-iarainn",
@@ -1619,7 +1619,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 116,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "royaume-de-valoed",
@@ -1628,7 +1628,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 117,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "royaume-de-weldermark",
@@ -1637,7 +1637,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 118,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "sacrarium",
@@ -1646,7 +1646,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 119,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "sacre-doctavien",
@@ -1655,7 +1655,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 120,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "saint-empire-de-sangbreque",
@@ -1664,7 +1664,7 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 121,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "saut-de-leploree",
@@ -1673,7 +1673,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 122,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "bandits",
@@ -1682,7 +1682,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 123,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "chevaliers-dragon",
@@ -1691,7 +1691,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 124,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "chevaliers-noirs",
@@ -1700,7 +1700,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 125,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "chutes-regaliennes",
@@ -1709,7 +1709,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 126,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "colosses-de-pierre",
@@ -1718,7 +1718,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 127,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "continents-exterieurs",
@@ -1727,7 +1727,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 128,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "cristodoxes",
@@ -1736,7 +1736,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 129,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "ducalistes",
@@ -1745,7 +1745,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 130,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "sentier-de-la-mante",
@@ -1754,7 +1754,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 131,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "falaises-de-loubli",
@@ -1763,7 +1763,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 132,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "gardiens-de-letincelle",
@@ -1772,7 +1772,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 133,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "geoles-de-balmung",
@@ -1781,7 +1781,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 134,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "haches-rouges",
@@ -1790,7 +1790,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 135,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "hierophantes",
@@ -1799,7 +1799,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 136,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "siege-de-rosalith",
@@ -1808,7 +1808,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 137,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "siege-du-dominion-du-cristal",
@@ -1817,7 +1817,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 138,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "iles-de-la-croisee",
@@ -1826,7 +1826,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 139,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "iles-du-sud",
@@ -1835,7 +1835,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 140,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "joncheres",
@@ -1844,7 +1844,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 141,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "lames-de-la-rose",
@@ -1853,7 +1853,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 142,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "lames-de-pierre",
@@ -1862,7 +1862,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 143,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "lapidaires",
@@ -1871,7 +1871,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 144,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "pourparlers-de-zirnitra",
@@ -1880,7 +1880,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 145,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "sept-dynasties-rosaliennes",
@@ -1889,7 +1889,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 146,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "lestange",
@@ -1898,7 +1898,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 147,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "terres-du-nord",
@@ -1907,7 +1907,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 148,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "villes-libres-de-kanver",
@@ -1916,7 +1916,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 149,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "talus-de-belenus",
@@ -1925,7 +1925,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 150,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "val-de-la-confluence",
@@ -1934,7 +1934,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 151,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "vert-ponant",
@@ -1943,7 +1943,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 152,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "viaduc-de-bewit",
@@ -1952,7 +1952,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 153,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "village-de-la-tribu-de-leau",
@@ -1961,7 +1961,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 154,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "ile-drustanus",
@@ -1970,7 +1970,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 155,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "invasion-ferregienne",
@@ -1979,7 +1979,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 156,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "oeil-de-la-tempete",
@@ -1988,7 +1988,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 157,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "ordre-des-ailes-ardentes",
@@ -1997,7 +1997,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 158,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "ordre-des-chevaliers-aux-ailes-de-jais",
@@ -2006,7 +2006,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 159,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "ordre-des-saints-dragons",
@@ -2015,7 +2015,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 160,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "orphelinat-de-badbach",
@@ -2024,7 +2024,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 161,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "unite-speciale-de-pourvoyeurs",
@@ -2033,7 +2033,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 162,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "miklaborg",
@@ -2042,7 +2042,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 163,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "mysidia",
@@ -2051,7 +2051,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 164,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "oeildrac",
@@ -2060,7 +2060,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 165,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "oriflamme",
@@ -2069,7 +2069,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 166,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "port-gemeau",
@@ -2078,7 +2078,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 167,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "port-yseut",
@@ -2087,7 +2087,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 168,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "randela",
@@ -2096,7 +2096,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 169,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "rosalith",
@@ -2105,7 +2105,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 170,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "souffledrac",
@@ -2114,7 +2114,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 171,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "steinnhyrr",
@@ -2123,7 +2123,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 172,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "tabor",
@@ -2132,7 +2132,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 173,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "thalan",
@@ -2141,7 +2141,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 174,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "valisthea",
@@ -2150,7 +2150,7 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 175,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": "images/articles/geographie/valisthea/valisthea.png"
     },
     {
       "id": "val-norvent",
@@ -2159,7 +2159,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 176,
-      "cardImage": "images/placeholders/emblem-geographie.svg"
+      "image": null
     },
     {
       "id": "cid-le-renegat",
@@ -2168,7 +2168,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 1,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "gel-le-sort-darret-du-temps",
@@ -2177,7 +2177,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 2,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "benediction-de-phenix",
@@ -2186,7 +2186,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 3,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "ceremonie-du-voyage-de-leau",
@@ -2195,7 +2195,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 4,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "chasse-aux-heretiques",
@@ -2204,7 +2204,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 5,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "academies-imperiales",
@@ -2213,7 +2213,7 @@
       "public": "ON",
       "date": "2026-09-04",
       "order": 6,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "civilisation-celeste",
@@ -2222,7 +2222,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 6,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "civilisation-ultimienne",
@@ -2231,7 +2231,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 7,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "creation-dun-nouveau-monde",
@@ -2240,7 +2240,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 8,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "adamantite",
@@ -2249,7 +2249,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 9,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "geste-de-crandall",
@@ -2258,7 +2258,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 10,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "magie",
@@ -2267,7 +2267,7 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 11,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "stigmate",
@@ -2276,7 +2276,7 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 12,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "ancienne-fresque",
@@ -2285,7 +2285,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 13,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "petrification",
@@ -2294,7 +2294,7 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 14,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "prophetie-du-salut",
@@ -2303,7 +2303,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 15,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "protection-des-pourvoyeurs",
@@ -2312,7 +2312,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 16,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "raison-supreme",
@@ -2321,7 +2321,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 17,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "recherche-botanique",
@@ -2330,7 +2330,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 18,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "resistance-a-lether",
@@ -2339,7 +2339,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 19,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "resurrection",
@@ -2348,7 +2348,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 20,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "source-du-sort-gel",
@@ -2357,7 +2357,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 21,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "stele-dexcellence",
@@ -2366,7 +2366,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 22,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "astromancie",
@@ -2375,7 +2375,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 23,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "suppression-de-la-marque",
@@ -2384,7 +2384,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 24,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "la-suppression",
@@ -2393,7 +2393,7 @@
       "public": "ON",
       "date": "2026-09-04",
       "order": 25,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "technologie-magitech",
@@ -2402,7 +2402,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 25,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "bio-primordial",
@@ -2411,7 +2411,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 26,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "bourgeon-cristallin",
@@ -2420,7 +2420,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 27,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "calendrier-ponantin",
@@ -2429,7 +2429,7 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 28,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "ciel-de-larkhe",
@@ -2438,7 +2438,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 29,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "cristal-mere-synthetique",
@@ -2447,7 +2447,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 30,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "deluge-de-sang",
@@ -2456,7 +2456,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 31,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "dragon-premier",
@@ -2465,7 +2465,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 32,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "einherjar",
@@ -2474,7 +2474,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 33,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "libre-arbitre",
@@ -2483,7 +2483,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 34,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "lien-spirituel",
@@ -2492,7 +2492,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 35,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "loup-des-glaces",
@@ -2501,7 +2501,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 36,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "mirage",
@@ -2510,7 +2510,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 37,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "monde-veritable",
@@ -2519,7 +2519,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 38,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "moteur-a-mithril",
@@ -2528,7 +2528,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 39,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "mur-de-gladsheim",
@@ -2537,7 +2537,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 40,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "mythe-fondateur-de-rosalia",
@@ -2546,7 +2546,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 41,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "noyau-des-cristaux-meres",
@@ -2555,7 +2555,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 42,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "entreprise",
@@ -2564,7 +2564,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 43,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "peuple-de-dzemekys",
@@ -2573,7 +2573,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 44,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "peuple-de-leau",
@@ -2582,7 +2582,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 45,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "peuple-du-feu",
@@ -2591,7 +2591,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 46,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "receptacle",
@@ -2600,7 +2600,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 47,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "activites-des-pourvoyeurs",
@@ -2609,7 +2609,7 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 48,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "aeronefs",
@@ -2618,7 +2618,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 49,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "sanctuaire-cristallin",
@@ -2627,7 +2627,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 50,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "armes-magitech",
@@ -2636,7 +2636,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 51,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "bardes",
@@ -2645,7 +2645,7 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 52,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "barrieres-magiques",
@@ -2654,7 +2654,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 53,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "betes-fabuleuses",
@@ -2663,7 +2663,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 54,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "boutons-de-minnwu",
@@ -2672,7 +2672,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 55,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "broches",
@@ -2681,7 +2681,7 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 56,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "cibles-delite",
@@ -2690,7 +2690,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 57,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "nomos-hekatea",
@@ -2699,7 +2699,7 @@
       "public": "ON",
       "date": "2026-09-04",
       "order": 58,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "creatures-bleues",
@@ -2708,7 +2708,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 58,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "cristaux",
@@ -2717,7 +2717,7 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 59,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "cristaux-geants",
@@ -2726,7 +2726,7 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 60,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "cristaux-meres",
@@ -2735,7 +2735,7 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 61,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "cristaux-morts",
@@ -2744,7 +2744,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 62,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "cristaux-voiles",
@@ -2753,7 +2753,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 63,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "ecrits-de-mors-lancien",
@@ -2762,7 +2762,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 64,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "emissaires",
@@ -2771,7 +2771,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 65,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "entites-magiques",
@@ -2780,7 +2780,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 66,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "entraves-de-cristal",
@@ -2789,7 +2789,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 67,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "etheriques",
@@ -2798,7 +2798,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 68,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "executeurs",
@@ -2807,7 +2807,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 69,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "fibres-biologiques",
@@ -2816,7 +2816,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 70,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "gils",
@@ -2825,7 +2825,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 71,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "hommes-betes",
@@ -2834,7 +2834,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 72,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "legumes-de-gysahl",
@@ -2843,7 +2843,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 73,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "lettres",
@@ -2852,7 +2852,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 74,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "marchands-desclaves",
@@ -2861,7 +2861,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 75,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "marques",
@@ -2870,7 +2870,7 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 76,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "monolithes",
@@ -2879,7 +2879,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 77,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "monstres",
@@ -2888,7 +2888,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 78,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "partisans-du-repaire",
@@ -2897,7 +2897,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 79,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "petits-cristaux",
@@ -2906,7 +2906,7 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 80,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "pourvoyeurs",
@@ -2915,7 +2915,7 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 81,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "pourvoyeurs-caches",
@@ -2924,7 +2924,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 82,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "primordiaux",
@@ -2933,7 +2933,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 83,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "purges",
@@ -2942,7 +2942,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 84,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "remanences-celestes",
@@ -2951,7 +2951,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 85,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "soldats-pourvoyeurs",
@@ -2960,7 +2960,7 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 86,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "sources-du-mirage",
@@ -2969,7 +2969,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 87,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "specimens-de-la-tour-des-sages",
@@ -2978,7 +2978,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 88,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "terres-mortes",
@@ -2987,7 +2987,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 89,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "ether",
@@ -2996,7 +2996,7 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 90,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "ether-stagnant",
@@ -3005,7 +3005,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 91,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "tiers-regard",
@@ -3014,7 +3014,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 92,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "titre-de-gardien-de-phenix",
@@ -3023,7 +3023,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 93,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "traite-intercontinental",
@@ -3032,7 +3032,7 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 94,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "vin-de-bacchus",
@@ -3041,7 +3041,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 95,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "expurgation",
@@ -3050,7 +3050,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 96,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "herbe-aux-dragons",
@@ -3059,7 +3059,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 97,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "incarnation",
@@ -3068,7 +3068,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 98,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "incarnation-partielle",
@@ -3077,7 +3077,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 99,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "ingenierie",
@@ -3086,7 +3086,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 100,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "logos",
@@ -3095,7 +3095,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 101,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "orchestrion",
@@ -3104,7 +3104,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 102,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "methia",
@@ -3113,7 +3113,7 @@
       "public": "ON",
       "date": "2026-08-08",
       "order": 103,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "mythos",
@@ -3122,7 +3122,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 104,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "valisthea-un-voyage-gastronomique",
@@ -3131,7 +3131,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 105,
-      "cardImage": "images/placeholders/emblem-monde.svg"
+      "image": null
     },
     {
       "id": "ambroisie",
@@ -3140,7 +3140,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 1,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "annabella-rosfield",
@@ -3149,7 +3149,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 2,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "auguste",
@@ -3158,7 +3158,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 3,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "benedikta-harman",
@@ -3167,7 +3167,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 4,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "bernard",
@@ -3176,7 +3176,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 5,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "biast",
@@ -3185,7 +3185,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 6,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "blackthorne",
@@ -3194,7 +3194,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 7,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "byron-rosfield",
@@ -3203,7 +3203,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 8,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "cid",
@@ -3212,7 +3212,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 9,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "clive",
@@ -3221,7 +3221,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 10,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "cole",
@@ -3230,7 +3230,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 11,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "cyril",
@@ -3239,7 +3239,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 12,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "darina",
@@ -3248,7 +3248,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 13,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "dasa",
@@ -3257,7 +3257,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 14,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "desiree",
@@ -3266,7 +3266,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 15,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "dion-lesage",
@@ -3275,7 +3275,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 16,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "dorys",
@@ -3284,7 +3284,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 17,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "edda",
@@ -3293,7 +3293,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 18,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "eibis",
@@ -3302,7 +3302,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 19,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "eloise-vesta",
@@ -3311,7 +3311,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 20,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "elwin-rosfield",
@@ -3320,7 +3320,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 21,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "ember",
@@ -3329,7 +3329,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 22,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "fanette",
@@ -3338,7 +3338,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 23,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "ferda",
@@ -3347,7 +3347,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 24,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "gab",
@@ -3356,7 +3356,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 25,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "gauthier",
@@ -3365,7 +3365,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 26,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "goetz",
@@ -3374,7 +3374,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 27,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "hanna-murdoch",
@@ -3383,7 +3383,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 28,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "harek",
@@ -3392,7 +3392,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 29,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "harpocrate-hyperboreoi-ii",
@@ -3401,7 +3401,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 30,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "honza",
@@ -3410,7 +3410,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 31,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "hugo-kupka",
@@ -3419,7 +3419,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 32,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "imreann",
@@ -3428,7 +3428,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 33,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "jarmila",
@@ -3437,7 +3437,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 34,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "jill-warrick",
@@ -3446,7 +3446,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 35,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "joshua-rosfield",
@@ -3455,7 +3455,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 36,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "kenneth",
@@ -3464,7 +3464,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 37,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "kharonne",
@@ -3473,7 +3473,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 38,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "konrad",
@@ -3482,7 +3482,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 39,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "kuro",
@@ -3491,7 +3491,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 40,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "mere-de-barnabas",
@@ -3500,7 +3500,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 41,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "petite-marchande-de-remedes",
@@ -3509,7 +3509,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 42,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "servante-de-margrace",
@@ -3518,7 +3518,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 43,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "sorciere-du-nord",
@@ -3527,7 +3527,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 44,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "voix-de-la-tour-des-sages",
@@ -3536,7 +3536,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 45,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "bras-droit-de-dion-lesage",
@@ -3545,7 +3545,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 46,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "haut-grade-valoedois",
@@ -3554,7 +3554,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 47,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "hierophante-doyen",
@@ -3563,7 +3563,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 48,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "emissaire-de-feu",
@@ -3572,7 +3572,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 49,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "emissaire-de-leau",
@@ -3581,7 +3581,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 50,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "leos",
@@ -3590,7 +3590,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 51,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "president-du-conseil",
@@ -3599,7 +3599,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 52,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "renard-gris",
@@ -3608,7 +3608,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 53,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "roi-de-valoed",
@@ -3617,7 +3617,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 54,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "stratege-dalmeque",
@@ -3626,7 +3626,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 55,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "homme-a-lair-louche",
@@ -3635,7 +3635,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 56,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "homme-louche",
@@ -3644,7 +3644,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 57,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "officier-du-corps-despionnage-valoedois",
@@ -3653,7 +3653,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 58,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "oreille-du-desert",
@@ -3662,7 +3662,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 59,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "madame-apolline",
@@ -3671,7 +3671,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 60,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "maeve",
@@ -3680,7 +3680,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 61,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "marielle",
@@ -3689,7 +3689,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 62,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "marleigh",
@@ -3698,7 +3698,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 63,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "marnek",
@@ -3707,7 +3707,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 64,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "martha",
@@ -3716,7 +3716,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 65,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "midadole-telamon",
@@ -3725,7 +3725,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 66,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "molly",
@@ -3734,7 +3734,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 67,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "mors-lancien",
@@ -3743,7 +3743,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 68,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "natalie",
@@ -3752,7 +3752,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 69,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "nektar",
@@ -3761,7 +3761,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 70,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "nigel",
@@ -3770,7 +3770,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 71,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "obelos",
@@ -3779,7 +3779,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 72,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "octavien-lesage",
@@ -3788,7 +3788,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 73,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "oscar",
@@ -3797,7 +3797,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 74,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "otto",
@@ -3806,7 +3806,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 75,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "owain",
@@ -3815,7 +3815,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 76,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "pavaat",
@@ -3824,7 +3824,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 77,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "philippe",
@@ -3833,7 +3833,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 78,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "quentin",
@@ -3842,7 +3842,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 79,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "rodney-murdoch",
@@ -3851,7 +3851,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 80,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "rodrigue",
@@ -3860,7 +3860,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 81,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "rowan",
@@ -3869,7 +3869,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 82,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "sabine",
@@ -3878,7 +3878,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 83,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "sebastian-rutherford",
@@ -3887,7 +3887,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 84,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "suhra",
@@ -3896,7 +3896,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 85,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "sylvestre-lesage",
@@ -3905,7 +3905,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 86,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "talgor",
@@ -3914,7 +3914,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 87,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "talol",
@@ -3923,7 +3923,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 88,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "tarja",
@@ -3932,7 +3932,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 89,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "teto",
@@ -3941,7 +3941,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 90,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "theodore-vesta",
@@ -3950,7 +3950,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 91,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "tiamat",
@@ -3959,7 +3959,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 92,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "tyler",
@@ -3968,7 +3968,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 93,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "ultima",
@@ -3977,7 +3977,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 94,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "viktor",
@@ -3986,7 +3986,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 95,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "viviane",
@@ -3995,7 +3995,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 96,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "wade",
@@ -4004,7 +4004,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 97,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "yvan",
@@ -4013,7 +4013,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 98,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     },
     {
       "id": "zoltan",
@@ -4022,7 +4022,7 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 99,
-      "cardImage": "images/placeholders/emblem-personnages.svg"
+      "image": null
     }
   ]
 }

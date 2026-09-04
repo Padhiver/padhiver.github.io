@@ -169,7 +169,7 @@ const EanaOverlay = (() => {
       ? EanaData.getBanner(article.banner.id)
       : null;
 
-    const renderOpts = { article, category, page: overlayPageIndex, related, banner, pages };
+    const renderOpts = { article, category, page: overlayPageIndex, related, banner, pages, image: entry.image };
     const openPanel = overlayRoot.querySelector("#article-overlay .article-panel");
 
     // Un panneau est déjà ouvert (article lié cliqué depuis une fiche, ou

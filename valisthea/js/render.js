@@ -45,14 +45,11 @@ const EanaRender = (() => {
   const CORNERS_TOP = `<i class="corner c1"></i><i class="corner c4"></i>`;
   const CORNERS_ALL = `<i class="corner c1"></i><i class="corner c2"></i><i class="corner c3"></i><i class="corner c4"></i>`;
 
-  // Les anciens emblèmes de remplacement sont sombres : sur le papier clair on
-  // leur substitue les gabarits « carte-* », au ratio 16:9.
+  // "image" vient du manifest : build-manifest.js la détecte automatiquement
+  // (un .png dans images/articles/<categorie>/<id>/, s'il existe). Aucune
+  // fiche n'a besoin de déclarer de champ image elle-même.
   function cardImage(article) {
-    const src = article.cardImage || "";
-    if (!src || src.includes("placeholders/emblem-")) {
-      return `images/placeholders/carte-${article.category}.svg`;
-    }
-    return src;
+    return article.image || `images/placeholders/carte-${article.category}.svg`;
   }
 
   function sectionTitle(label, meta) {
@@ -190,7 +187,7 @@ const EanaRender = (() => {
   // Contenu du panneau, sans son enveloppe. Isolé pour que app.js puisse
   // n'échanger que l'intérieur du cartouche d'une fiche à l'autre, en le
   // laissant en place plutôt que de le détruire et le reconstruire.
-  function articlePanelInner({ article, category, page, related, banner, pages }) {
+  function articlePanelInner({ article, category, page, related, banner, pages, image }) {
     // "pages" est déjà filtré des pages masquées par overlay.js ; on retombe
     // sur article.pages si l'appelant ne le fournit pas.
     pages = pages || article.pages || [];
@@ -207,7 +204,9 @@ const EanaRender = (() => {
       ? `<span class="pennon"><img src="${escapeHtml(banner.image)}" alt="${escapeHtml(banner.label || "")}" title="${escapeHtml(banner.label || "")}"></span>`
       : "";
 
-    const portraitSrc = pageData.contextImage || "images/placeholders/portrait-defaut.svg";
+    // Une seule image par fiche (pas par page) : même source que la vignette,
+    // détectée par build-manifest.js et transmise via overlay.js.
+    const portraitSrc = image || "images/placeholders/portrait-defaut.svg";
 
     const chaptersHtml = total > 1
       ? `<div class="chapters">

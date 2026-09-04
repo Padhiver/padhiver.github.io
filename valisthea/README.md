@@ -262,17 +262,17 @@ La carte réutilise le même code que la page principale plutôt que de duplique
 
 ## Formats d'image
 
-Les emplacements reprennent les ratios du codex du jeu de référence. Les images sont recadrées en `cover`, donc c'est le ratio qui compte, pas la taille exacte.
+Une fiche n'a **rien à déclarer** pour avoir une image : c'est une convention de dossier, détectée automatiquement.
 
-| Champ | Ratio | Où ça s'affiche |
-|---|---|---|
-| `cardImage` | **16:9** | vignette d'article (accueil + grille de catégorie) |
-| `contextImage` | **9:10** | visuel de la fiche, colonne de droite |
-| bannière (`data/banners.json`) | **3:5** | pennon accroché en haut du visuel de fiche |
+Dépose un `.png` dans `images/articles/<categorie>/<id>/` (mêmes catégories, mêmes ids que `data/articles/`). `node scripts/build-manifest.js` scanne ce dossier pour chaque fiche : s'il trouve un `.png`, son chemin est ajouté à l'entrée de la fiche dans `data/manifest.json` (champ `image`) ; sinon `image` reste `null`. S'il y a plusieurs `.png` dans le dossier, seul le premier par ordre alphabétique est retenu — n'en mets qu'un.
 
-Sans `cardImage`, la vignette retombe automatiquement sur `images/placeholders/carte-<categorie>.svg`. Sans `contextImage`, la fiche affiche `images/placeholders/portrait-defaut.svg`. Aucune fiche n'est donc jamais cassée faute d'illustration.
+Cette **même image** sert à la fois pour la vignette (accueil + grille de catégorie, recadrée en `cover` proche du 16:9) et pour le visuel affiché quand la fiche est ouverte (colonne de droite, recadré en `cover` proche du 9:10) : une image assez neutre/large pour bien se recadrer dans les deux se comporte mieux qu'une image très cadrée sur un détail. Un fond transparent (PNG) est recommandé pour le visuel de fiche, où l'interface applique un fondu dans le coin haut-droit.
 
-⚠️ Les 442 fiches actuelles ont encore `"cardImage": "images/placeholders/emblem-<categorie>.svg"`, un chemin hérité dont **les fichiers ont été supprimés**. Ce n'est pas un problème : `render.js` reconnaît ce chemin et le remplace par le gabarit `carte-*` avant tout affichage, donc l'image n'est jamais demandée. En revanche, **ne retire pas ce test dans `cardImage()`** (`js/render.js`) sans avoir d'abord vidé le champ dans les fiches, sinon les 442 vignettes pointeraient vers un fichier inexistant.
+Sans image détectée, la vignette retombe sur `images/placeholders/carte-<categorie>.svg` et le visuel de fiche sur `images/placeholders/portrait-defaut.svg`. Aucune fiche n'est donc jamais cassée faute d'illustration.
+
+Comme `data/manifest.json`, ce mapping se régénère automatiquement en local à chaque requête (`scripts/dev-server.js`) : dépose l'image, rafraîchis la page, c'est pris en compte. Pense simplement à relancer `node scripts/build-manifest.js` (ou `publier.bat`) avant d'envoyer sur GitHub.
+
+La bannière (`data/banners.json`), elle, reste un mécanisme séparé et déclaré explicitement dans la fiche (`banner.id` / `banner.on`) — voir plus bas. Ratio **3:5**, pennon accroché en haut du visuel de fiche.
 
 ## Ajouter / modifier une fiche
 
@@ -286,11 +286,9 @@ Créer un fichier `data/articles/<categorie>/<id>.json` (le nom de fichier = l'`
   "public": "ON",
   "date": "2026-08-04",
   "order": 30,
-  "cardImage": "images/articles/mon-article/card.jpg",
   "pages": [
     {
       "text": "Texte de la fiche. Les sauts de ligne (\\n\\n) créent des paragraphes.",
-      "contextImage": "images/articles/mon-article/context.png",
       "caption": "Légende optionnelle sous l'image",
       "public": "ON"
     }
@@ -308,11 +306,10 @@ Créer un fichier `data/articles/<categorie>/<id>.json` (le nom de fichier = l'`
 - `caption` : sert de **nom de chapitre** dans cette liste. Sans `caption`, la page s'appelle "Page 1", "Page 2"…
 - `pages[].public` : `"ON"` / `"OFF"` par **page**, même logique que le `public` de la fiche. Une page `"OFF"` est retirée pour les visiteurs (et disparaît de la liste des chapitres) mais reste visible en mode maître. Champ absent = page visible. Si une fiche `"ON"` n'a aucune page visible, le visiteur ouvre une fiche vide — pense à repasser au moins une page en `"ON"` en même temps que la fiche.
 - `text` : si la première ligne est courte (≤ 120 signes) et suivie d'une ligne vide, elle est automatiquement remontée en sous-titre italique sous le nom de la fiche. Le reste devient le corps, affiché en deux colonnes justifiées avec une lettrine.
-- `contextImage` : idéalement un PNG à fond transparent (silhouette, illustration détourée). L'interface applique un fondu dans le coin haut-droit pour l'intégrer au papier, mais une vraie transparence donne un meilleur résultat.
 - `related` : ids d'autres fiches, affichées en bas de la fiche sous "Articles liés". Un lien vers une fiche `OFF` n'apparaît jamais pour un visiteur normal (même en tant que "related" d'une fiche publique).
 - `relatedOff` : **réserve** d'ids liés, entièrement ignorée par le site — l'équivalent d'un bloc en commentaire. Pour activer un lien, déplace son id de `relatedOff` vers `related`. (Pour l'instant, tous les `related` ont été vidés dans `relatedOff` : à toi de remonter au cas par cas ceux que tu veux afficher.)
 - `banner` : optionnel, affiche un pennon en haut à droite **du visuel** de la fiche. `id` référence une entrée de `data/banners.json` ; `on` doit valoir `"ON"` pour l'afficher (sinon `"OFF"` ou absent = rien ne s'affiche, même si `id` est renseigné — pratique pour préparer une bannière sans l'activer tout de suite).
-- Place les images dans `images/articles/<id>/` (dossier libre, à créer).
+- Aucun champ image ici : dépose ton `.png` dans `images/articles/<categorie>/<id>/` (voir "Formats d'image" plus haut).
 
 ## Bannières (`data/banners.json`)
 
