@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Une prison militaire au centre du royaume de Valœd et voisine de la Forteresse aux corbeaux.\n\nLes Valœdois y séquestraient des Pourvoyeurs, dont ils se servaient pour entraîner un monstre impitoyable. Les malheureuses victimes étaient dévorées tout entières par la créature, au point qu'il n'en restait pas une trace. Après l'Expurgation, les geôliers et les soldats se sont tous transformés en éthériques, abandonnant les Pourvoyeurs à leur sort. La plupart sont ainsi morts sous les crocs de la bête.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "dorys",
     "pourvoyeurs",
     "forteresse-aux-corbeaux-hrafnvitsborg",

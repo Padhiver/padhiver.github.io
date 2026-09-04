@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Une créature magique de flammes apparue dans le sanctuaire du cristal de Souffledrac.\n\nEntité de lave, elle a été créée par le mécanisme de défense du noyau du Cristal-mère, quand celui-ci a ressenti le danger. Elle peut manipuler la lave environnante à volonté et attaquer en prenant la forme de différentes bêtes.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "entites-magiques",
     "noyau-des-cristaux-meres",
     "souffledrac",

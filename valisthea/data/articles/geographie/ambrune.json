@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Un hameau situé au sud de la province impériale de Rosalia.\n\nÉloigné de la capitale et entouré de montagnes, il vit de son agriculture et de la collecte de plantes sauvages.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "falaise-des-hobereaux",
     "gouvernement-general-provincial",
     "chevaliers-noirs",

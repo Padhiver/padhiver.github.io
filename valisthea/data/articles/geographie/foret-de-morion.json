@@ -10,14 +10,17 @@
   "pages": [
     {
       "text": "Une forêt de Rosalia que le Fléau noir a étiolée au fil du temps.\n\nSa végétation autrefois luxuriante s'étendait de Lestange jusqu'aux régions du nord. Aujourd'hui, elle est surtout connue pour l'immense vestige des Célestes qui se dresse dans sa partie sud-ouest, la Tour des Sages.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Une forêt de Rosalia que le Fléau noir a étiolée au fil du temps.\n\nSa végétation autrefois luxuriante s'étendait de Lestange jusqu'aux régions du nord. Au plus profond de ce domaine boisé se cachait une porte dérobée permettant de s'introduire dans la Tour des Sages.",
-      "caption": "L'entrée de la Tour des Sages"
+      "caption": "L'entrée de la Tour des Sages",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "terres-mortes",
     "tour-des-sages",
     "lestange",

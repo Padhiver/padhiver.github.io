@@ -10,18 +10,21 @@
   "pages": [
     {
       "text": "La fleur emblème du Saint-Empire de Sangbrèque.\n\nElle resplendit d'un blanc immaculé.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "La fleur emblème du Saint-Empire de Sangbrèque.\n\nSa beauté resplendissante cache un poison violent. Situé dans ses racines, il est utilisé comme colorant pour les marques de Pourvoyeurs. Afin d'en dessiner le motif, on injecte ce poison entre la chair et la peau, mais il arrive qu'une injection trop brutale le mélange avec le sang, le répandant ainsi instantanément dans tout le corps. Cette plante a généralement des fleurs blanches, mais les spécimens poussant dans des environnements extrêmes peuvent en avoir des violettes.",
-      "caption": "La marque des Pourvoyeurs"
+      "caption": "La marque des Pourvoyeurs",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "saint-empire-de-sangbreque",
     "dion-lesage",
     "sylvestre-lesage",
     "bourgeon-cristallin",
-    "marque"
+    "stigmate"
   ]
 }

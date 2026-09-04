@@ -10,22 +10,27 @@
   "pages": [
     {
       "text": "Des vaisseaux qui existaient à l'époque de la civilisation des Célestes, et que l'on dit avoir été capables de s'élever et de voler dans les airs.\n\nLe village de La Nef déchue a été construit autour de la carcasse de ce que l'on suppose être un de ces aéronefs tombés à terre.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Des vaisseaux qui existaient à l'époque de la civilisation des Célestes, et que l'on dit avoir été capables de s'élever et de voler dans les airs.\n\nLe village de La Nef déchue a été construit autour de la carcasse de ce que l'on suppose être un de ces aéronefs tombés à terre. Le nouveau Repaire de Clive et de son groupe est lui aussi un ancien aéronef échoué au sol, au milieu du lac Bénou.",
-      "caption": "Le nouveau Repaire"
+      "caption": "Le nouveau Repaire",
+      "public": "OFF"
     },
     {
       "text": "Des vaisseaux qui existaient à l'époque de la civilisation des Célestes, et que l'on dit avoir été capables de s'élever et de voler dans les airs.\n\nLe village de La Nef déchue a été construit autour de la carcasse de ce que l'on suppose être un de ces aéronefs tombés à terre. Le nouveau Repaire de Clive et de son groupe est lui aussi un ancien aéronef échoué au milieu du lac Bénou, et que l'on appelle « l'Invincible ». Mid, l'inventeuse de génie, tente de s'inspirer de cette technologie pour recréer un vaisseau capable de voler.",
-      "caption": "Révélation"
+      "caption": "Révélation",
+      "public": "OFF"
     },
     {
       "text": "Des vaisseaux volants qui existaient du temps de la civilisation des Célestes.\n\nCapables de se déplacer dans les cieux, ils constituaient à l'époque le principal mode de transport. Ils devaient également apporter un grand soutien logistique et offensif en temps de guerre grâce à leur liberté de mouvement. Leur stationnement en grand nombre dans la Tour des Sages démontre, s'il en était encore besoin, la domination totale qu'exerçaient les Célestes sur le domaine des airs.",
-      "caption": "La domination du ciel"
+      "caption": "La domination du ciel",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "civilisation-celeste",
     "la-nef-dechue",
     "coteau-de-loree-belle",

@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "La destruction du Repaire par Hugo Kupka.\n\nCe triste événement eut lieu en l'an 873 du calendrier ponantin, quand Hugo Kupka attaqua le Repaire de Cid accompagné de ses soldats. Titan dévasta ce lieu, bâti sur des vestiges au milieu des Terres mortes, et de nombreuses personnes y perdirent la vie, que ce soit les Pourvoyeurs qui y vivaient ou les précieux alliés de Cid.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "repaire-de-cid",
     "homme-louche",
     "colosses-de-pierre",

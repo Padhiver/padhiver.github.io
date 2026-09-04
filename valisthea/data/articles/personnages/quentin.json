@@ -10,22 +10,27 @@
   "pages": [
     {
       "text": "Un partisan, propriétaire du Court pendu, une auberge située à La Nef déchue.\n\nOfficiellement, il est connu pour être le chef d'un village agricole en déclin.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Un partisan, propriétaire du Court pendu, une auberge située à La Nef déchue.\n\nIl était jadis un homme de loi de Sangbrèque dont la famille a été massacrée par ordre de son supérieur, le ministre de la Justice. Assoiffé de vengeance, Quentin s'entoure ensuite de Pourvoyeurs sensibles à sa cause et désireux de l'aider à tuer celui qui lui a tout pris.",
-      "caption": "Détails sur son passé"
+      "caption": "Détails sur son passé",
+      "public": "OFF"
     },
     {
       "text": "Un partisan, propriétaire du Court pendu, une auberge située à La Nef déchue.\n\nSon ennemi juré occis et son hameau avalé par l'éther stagnant, il regrette un temps la futilité de ses actes. Le sacrifice de nombreux camarades sur la conscience, il perd le goût de vivre. Toutefois, il trouve le salut dans ses amis restants, sa « famille » avec laquelle il compte construire un nouveau village.",
-      "caption": "Une nouvelle famille"
+      "caption": "Une nouvelle famille",
+      "public": "OFF"
     },
     {
       "text": "Un partisan de La Nef déchue.\n\nAprès la destruction de La Nef déchue, lui et sa nouvelle famille composée de Pourvoyeurs désormais libres, s'apprêtent à bâtir un nouveau village au milieu des vignobles. Clive le convainc de prendre part à la Triple-Alliance entre Rosalia, la Dalméquie et Sangbrèque. Il travaille ainsi à éloigner les siens de tout conflit.",
-      "caption": "La Triple-Alliance"
+      "caption": "La Triple-Alliance",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "la-nef-dechue",
     "au-court-pendu",
     "partisans-du-repaire",

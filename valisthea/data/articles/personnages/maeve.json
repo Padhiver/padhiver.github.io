@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "La pétulante serveuse de la « Couronne immergée », la taverne du Repaire.\n\nPourvoyeuse originaire de Rosalith, elle a pu profiter d'une liberté relative jusqu'à ce que l'archiduché passe sous la férule d'Annabella. Un jour, son maître a failli la tuer à cause d'une récolte de blé déplorable. Heureusement, des Lames de pierre de passage sont parvenues à la sauver en abattant le misérable. L'incident l'a poussée à s'enfuir et à s'installer au Repaire.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "lames-de-pierre",
     "annexion-de-rosalia",
     "pourvoyeurs",

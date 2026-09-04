@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Des enceintes infranchissables créées par un sort magique.\n\nSelon leur taille et leur puissance, il peut être difficile pour leurs créateurs de les maintenir pendant de longues périodes.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "magie",
     "emissaires",
     "joshua-rosfield",

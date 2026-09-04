@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Un loup particulièrement rare qui vit dans le nord de Valisthéa et qui est aussi appelé « Fenrir ».\n\nIl dispose d'aptitudes physiques élevées et peut manipuler la magie. Dans la littérature classique, il accompagne la souveraine des glaces qui serait en fait Shiva, une Primordiale dont seuls les habitants du nord peuvent être l'Émissaire.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "talgor",
     "terres-du-nord",
     "shiva",

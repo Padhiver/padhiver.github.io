@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Un détroit qui part du nord du Dominion du Cristal séparant le Vert-Ponant et le Gris-Levant.\n\nLa présence permanente de soldats sur ses rives et la tension qui y règne s'expliquent par son statut de zone tampon pour les trois nations qui le bordent : à l'ouest le Saint-Empire de Sangbrèque, à l'est le royaume de Valœd, et au sud le Dominion du Cristal.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "vert-ponant",
     "gris-levant",
     "guerre-des-deux-continents",

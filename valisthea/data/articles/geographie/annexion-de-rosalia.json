@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "L'annexion du territoire de Rosalia par l'Empire sangbréquois en 861.\n\nSuite à un complot ourdi par sa première dame Annabella Rosfield, l'archiduché de Rosalia fut trahi par son allié Sangbrèque lors de la Nuit des flammes. Des troupes de l'Empire de Sangbrèque attaquèrent par surprise l'armée rosalienne au fort Phénix et assassinèrent son monarque, Elwin Rosfield. Quelques jours après l'assaut meurtrier, le Royaume de Fer, ennemi de longue date de Rosalia, profita de l'affaiblissement du pays et de la confusion générale pour y lancer un raid et piller sa capitale. Devenu presque exsangue, l'archiduché fut quelque temps plus tard annexé et transformé en province impériale par Sangbrèque.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "saint-empire-de-sangbreque",
     "archiduche-de-rosalia",
     "annabella-rosfield",

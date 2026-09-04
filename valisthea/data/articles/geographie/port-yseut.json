@@ -10,14 +10,17 @@
   "pages": [
     {
       "text": "Une ville portuaire située dans la partie ouest de Rosalia.\n\nPresque aussi développée que Rosalith, cette ville voyait défiler de nombreux bateaux marchands venus de tous les horizons et prospérait quand Elwin Rosfield était à la tête de l'archiduché, mais tout a changé quand Sangbrèque a pris le pouvoir. L'empire s'est emparé des bases militaires et du marché de la ville, et a privé les habitants de toute liberté.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Une ville portuaire située dans la partie ouest de Rosalia.\n\nEntre la main de fer du gouvernement d'occupation et les brimades de l'armée en faction contre les réfugiés, Port-Yseut a vécu un long enfer. Fort heureusement, la dévastation du Dominion du Cristal a semé le chaos à Sangbrèque et poussé l'oppresseur à retirer ses troupes de la ville. C'est désormais une milice au service de Byron Rosfield qui y fait régner l'ordre et la justice pour tous, même les réfugiés les plus démunis. ",
-      "caption": "Après le retrait des troupes"
+      "caption": "Après le retrait des troupes",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "rosalith",
     "byron-rosfield",
     "sebastian-rutherford",

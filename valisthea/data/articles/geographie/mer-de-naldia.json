@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Une vaste zone maritime qui s'étend au sud du détroit d'Aurtha, lequel partage en deux le Vert-Ponant et le Gris-Levant.\n\nDe nombreux navires marchands en font quotidiennement la traversée, principalement à destination du port de Kanvěr. De forts courants marins la traversent, mais son climat tempéré est propice à de nombreuses espèces de poissons dont se nourrissent les habitants des terres environnantes.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "entreprise",
     "einherjar",
     "villes-libres-de-kanver",

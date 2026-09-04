@@ -2,7 +2,7 @@
   "id": "pourvoyeurs",
   "title": "Les Pourvoyeurs",
   "category": "monde",
-  "public": "OFF",
+  "public": "ON",
   "date": "2026-08-08",
   "order": 81,
   "cardImage": "images/placeholders/emblem-monde.svg",
@@ -10,16 +10,27 @@
   "pages": [
     {
       "text": "Des individus maintenus dans la servitude à Valisthéa.\n\nLeur capacité à utiliser la magie sans recourir à d'onéreux cristaux fait d'eux de précieux outils pour leurs maîtres. Certains gouvernements les confisquent à la naissance, et les marquent à la joue pour les reconnaître. Le traitement qui leur est réservé est si ancré dans l'histoire que les Pourvoyeurs sont résignés et ne cherchent plus à trouver de l'aide pour les libérer.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "ON"
     },
     {
-      "text": "Des individus maintenus dans la servitude à Valisthéa.\n\nDe par leur capacité à pouvoir utiliser la magie sans recourir à d'onéreux cristaux, ils deviennent de précieux outils pour leurs maîtres. Le tatouage qu'ils portent à la joue leur vaut le surnom péjoratif de « marqués ». En outre, ils ne disposent pas d'une force équivalente à celle des Émissaires, mais tout comme pour ces derniers, la mort par pétrification advient lorsqu'ils ont eu recours à la magie un nombre indéfini de fois.",
-      "caption": "Marque et pétrification"
+      "text": "Des individus maintenus dans la servitude à Valisthéa.\n\nDe par leur capacité à pouvoir utiliser la magie sans recourir à d'onéreux cristaux, ils deviennent de précieux outils pour leurs maîtres. Le tatouage qu'ils portent à la joue leur vaut le surnom péjoratif de « marqués ». En outre, la mort par pétrification advient lorsqu'ils ont eu recours à la magie un nombre indéfini de fois.",
+      "caption": "Marque et pétrification",
+      "public": "ON"
     }
   ],
   "related": [
     "magie",
-    "marque",
+    "stigmate",
+    "soldats-pourvoyeurs",
+    "cristaux",
+    "marques",
+    "petrification",
+    "activites-des-pourvoyeurs"
+  ],
+  "relatedOff": [
+    "magie",
+    "stigmate",
     "soldats-pourvoyeurs",
     "cristaux",
     "marques",

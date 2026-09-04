@@ -10,14 +10,17 @@
   "pages": [
     {
       "text": "Un corps armé appartenant au Repaire reconstruit par Clive.\n\nIl a des alliés aux quatre coins de Valisthéa et répond aux ordres d'Otto. Ses membres se font retirer le tatouage qu'ils portaient autrefois à la joue, et ils partent en mission pour secourir des Pourvoyeurs ou enquêter sur des créatures dangereuses. L'ancien Repaire possédait déjà un corps armé similaire à celui-ci, mais ce n'est qu'au nouveau qu'il fut nommé « Lames de pierre ».",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Un corps armé appartenant au Repaire reconstruit par Clive.\n\nSeuls ceux qui réussissent l'examen d'aptitude parviennent à rejoindre ses rangs. C'est Otto qui donne les instructions tandis que Dorys, capitaine en titre, dirige les troupes sur le terrain avec l'aide de Cole, son adjoint. Les membres des Lames de pierre se font retirer le tatouage qu'ils portent à la joue et partent en mission à l'extérieur pour secourir des Pourvoyeurs ou enquêter sur des créatures dangereuses.",
-      "caption": "Examen d'aptitude"
+      "caption": "Examen d'aptitude",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "protection-des-pourvoyeurs",
     "otto",
     "maeve",

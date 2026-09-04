@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Une zone-clef dans la défense sangbréquoise, située au sud du centre du pays.\n\nCette plaine se trouve juste au sud d'Oriflamme et joue tout naturellement un rôle essentiel dans la défense de la capitale. La glorieuse évoquée dans son nom est bien sûr la Déesse Gwéligore elle-même. En outre, la route qui la traverse, reliant Fort-Norvent et Francastel, étant souvent empruntée par des marchands comme des militaires, celle-ci fut nommée <i>charrière des cohortes</i>, une charrière étant une voie sur laquelle passent des attelages.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "oriflamme",
     "fort-norvent",
     "francastel",

@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "On appelle ainsi le Tomberry doyen au sein de son groupe.\n\nCe maître de cérémonie a tout d'un véritable roi, à commencer par une armée de ses congénères à son commandement. On pense que c'est lui qui préside le rituel de malédiction en aspirant l'énergie vitale de la victime pour ainsi se gorger de pouvoir. Alors qu'il tentait vainement de maudire un homme déjà mort, Talol est devenu la cible de cette malédiction. Heureusement, Clive est parvenu à le sauver en éliminant le roi tomberry. Toutefois, le lien de cause à effet entre la mort du maître de cérémonie et le soudain rétablissement de Talol n'a pas pu être clairement établi, et la malédiction des Tomberrys reste nimbée de mystère.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "hommes-betes",
     "tomberrys",
     "talol",

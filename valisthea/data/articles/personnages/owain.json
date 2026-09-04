@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Un des ingénieurs assistant Mid dans ses recherches.\n\nSon rôle en tant que disciple consiste principalement à fabriquer ou améliorer les inventions de la jeune fille dont le cerveau ruisselle en permanence d'inventions miraculeuses.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "midadole-telamon",
     "ingenierie",
     "pourvoyeurs",

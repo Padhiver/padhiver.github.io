@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Le continent occidental de Valisthéa.\n\nSa superficie est telle que ses terres balaient presque toutes les latitudes, en offrant un climat boréal au nord, tempéré en son centre et tropical au sud. La large palette de paysages qui découle de cette variété a cultivé au fil des siècles des civilisations toutes plus singulières les unes que les autres.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "valisthea",
     "archiduche-de-rosalia",
     "saint-empire-de-sangbreque",

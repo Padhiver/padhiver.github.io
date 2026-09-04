@@ -10,14 +10,17 @@
   "pages": [
     {
       "text": "Un gouvernement instauré par Sangbrèque pour gouverner Rosalia.\n\nCette administration est aussi appelée « gouvernement d'occupation » par les Rosaliens. L'empereur Sylvestre a délégué la gestion de la province annexée à l'impératrice Annabella, nommée pour l'occasion vice-reine. Celle-ci s'est ainsi établie à Rosalith.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Un gouvernement instauré par Sangbrèque pour gouverner Rosalia.\n\nCette administration est aussi appelée « gouvernement d'occupation » par les Rosaliens. L'empereur Sylvestre a délégué la gestion de la province annexée à l'impératrice Annabella, nommée pour l'occasion vice-reine. Celle-ci s'est établie à Rosalith et a fondé un escadron surnommé les Chevaliers noirs. Ils se chargent de purger les Pourvoyeurs inutiles et d'éliminer les dissidents démophiles, partisans de la philosophie d'Elwin Rosfield.",
-      "caption": "Oppression d'Annabella"
+      "caption": "Oppression d'Annabella",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "rosalith",
     "archiduche-de-rosalia",
     "raid-sur-lestange",

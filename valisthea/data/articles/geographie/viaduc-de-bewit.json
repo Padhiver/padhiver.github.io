@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Une structure reliant Rosalith et l'est de Rosalia en enjambant la mer de la Serre.\n\nIl devait s'agir d'un aqueduc comme les autres, construit dans le but d'approvisionner en eau potable les régions du nord affectées par le Fléau noir. Toutefois, le décès prématuré de l'archiduc Elwin signa l'arrêt des travaux, et il n'a jamais acheminé une seule goutte.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "rosalith",
     "elwin-rosfield",
     "chevaliers-noirs",

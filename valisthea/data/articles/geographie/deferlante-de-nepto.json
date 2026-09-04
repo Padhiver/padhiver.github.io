@@ -10,26 +10,32 @@
   "pages": [
     {
       "text": "Une immense vague figée au-dessus du cap de Nepto, dans les anciens Territoires du Nord, et qui serait apparue en l'espace d'une nuit.\n\nElle s'est formée soudainement il y a environ 80 ans, et on la considère généralement comme un phénomène étrange lié à la disparition d'Œildrac, qui a eu lieu à peu près à la même époque. D'après le chef du peuple de l'Eau, cette vague a en réalité été soulevée par Léviathan, dont l'Émissaire dort encore au cœur de la vague. ",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Une immense vague figée au-dessus du cap de Nepto, dans les anciens Territoires du Nord, et qui s'est formée il y a environ quatre-vingts ans.\n\nCette vague a en réalité été soulevée par Waleas, l'Émissaire de Léviathan, lorsque le peuple de l'Eau a tenté d'exploiter ses pouvoirs au cours d'un rite.",
-      "caption": "Le rite du peuple de l'Eau"
+      "caption": "Le rite du peuple de l'Eau",
+      "public": "OFF"
     },
     {
       "text": "Une immense vague figée au-dessus du cap de Nepto, dans les anciens Territoires du Nord, et qui s'est formée il y a environ quatre-vingts ans.\n\nCette vague s'est créée lorsque Waleas, transformé en Léviathan à cause du rite du peuple de l'Eau, s'est mis en colère et a lancé un immense raz-de-marée. La vague a été arrêtée de justesse par le sort d'arrêt du temps et s'est transformée en mur d'eau immobile, devenant pour le peuple de l'Eau un lourd symbole de son terrible crime.",
-      "caption": "Révélation"
+      "caption": "Révélation",
+      "public": "OFF"
     },
     {
       "text": "Une immense vague figée au-dessus du cap de Nepto, dans les anciens Territoires du Nord, et qui s'est formée il y a environ quatre-vingts ans.\n\nIl s'agit d'un immense raz-de-marée déclenché par Léviathan et qui a été pétrifié en plein soulèvement par le sort Gel. Léviathan, manipulé par Ultima et à nouveau en colère, a déchaîné une immense tempête autour de la Déferlante.",
-      "caption": "La colère de Léviathan"
+      "caption": "La colère de Léviathan",
+      "public": "OFF"
     },
     {
       "text": "Une immense vague figée au-dessus du cap de Nepto, dans les anciens Territoires du Nord, et qui s'est formée il y a environ quatre-vingts ans.\n\nIl s'agit d'un immense raz-de-marée déclenché par Léviathan et qui a été pétrifié en plein soulèvement par le sort Gel. Lorsque Waleas a enfin été libéré de l'emprise du sort Gel, l'effet de celui-ci a été maintenu sur la Déferlante afin que celle-ci ne détruise pas les environs en reprenant sa course.",
-      "caption": "La libération de Waleas"
+      "caption": "La libération de Waleas",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "emissaire-de-leau",
     "leviathan",
     "oeildrac",

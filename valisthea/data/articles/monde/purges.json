@@ -9,11 +9,13 @@
   "source": "base",
   "pages": [
     {
-      "text": "Des interventions militaires ciblant les Pourvoyeurs et ceux qui les cachent ou les protègent, ce qui est un crime passible de mort.\n\nIl arrive qu'un village entier soit massacré lors d'une purge, afin de faire de ses résidents un exemple. La politique des purges a été établie par Annabella. Après son mariage avec l'empereur Sylvestre et l'annexion de Rosalia à Sangbrèque, elle a ordonné la formation des Chevaliers noirs, un régiment spécial de l'armée sangbréquoise. Ses membres sont postés dans tout Rosalia et y font régner la terreur en commettant ces atrocités.",
-      "caption": ""
+      "text": "Des interventions militaires ciblant les Pourvoyeurs et ceux qui les cachent ou les protègent, ce qui est un crime passible de mort.\n\nIl arrive qu'un village entier soit massacré lors d'une purge, afin de faire de ses résidents un exemple. La politique des purges a été établie par le Synode. Ses membres sont postés dans tout Rosalia et y font régner la terreur en commettant ces atrocités.",
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "gouvernement-general-provincial",
     "chevaliers-noirs",
     "pourvoyeurs",

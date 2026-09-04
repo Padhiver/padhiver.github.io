@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Une cérémonie traditionnelle visant à accueillir un nouveau-né dans la tribu de l'Eau.\n\nPeu après sa naissance, on présente l'enfant aux membres de la communauté qui l'accueillent officiellement ainsi. En temps normal, trois personnes y président : les deux parents et un témoin extérieur à la famille, qui est habituellement le chef de la tribu. Une personne ayant des liens profonds avec l'enfant peut éventuellement tenir l'un des rôles à titre de remplaçante.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "peuple-de-leau",
     "emissaire-de-leau",
     "suhra",

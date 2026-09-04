@@ -10,12 +10,14 @@
   "pages": [
     {
       "text": "L'assistant de Tarja, à l'infirmerie du Repaire.\n\nC'est un jeune homme timide et compatissant. Il veut croire qu'un médecin est là pour sauver ses patients, et il est donc troublé lorsqu'il doit faire face à la mort. Il est ainsi réticent à l'idée de participer à l'ablation très risquée de la marque d'un Pourvoyeur. Il est particulièrement mal à l'aise vis-à-vis de l'administration d'Elyseum à certains patients, cette drogue faisant perdre toute sensation corporelle. En outre, il s'inquiète pour Tarja, qui travaille à la limite de l'épuisement.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "tarja",
-    "marque",
+    "stigmate",
     "suppression-de-la-marque",
     "repaire-de-clive"
   ]

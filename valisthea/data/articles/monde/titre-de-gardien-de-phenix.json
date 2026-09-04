@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Un titre est décerné à un Gardien flamboyant particulièrement valeureux choisi par Phénix.\n\nChargé de la protection de l'Émissaire, il se voit béni par le Primordial de feu et reçoit une partie de ses pouvoirs exceptionnels.",
-      "caption": "La bénédiction de Phénix"
+      "caption": "La bénédiction de Phénix",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "armee-rosalienne",
     "benediction-de-phenix",
     "clive",

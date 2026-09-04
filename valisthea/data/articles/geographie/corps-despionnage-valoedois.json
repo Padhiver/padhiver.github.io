@@ -10,14 +10,17 @@
   "pages": [
     {
       "text": "Un groupe de l'armée valœdoise spécialisé dans les missions d'infiltration, sous contrôle direct du roi lui-même.\n\nBenedikta Harman dirige cette troupe qui opère dans différents pays étrangers afin de mener à bien des objectifs allant du simple espionnage à l'assassinat.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Un groupe de l'armée valœdoise spécialisé dans les missions d'infiltration, sous contrôle direct du roi lui-même.\n\nIl est parvenu à infiltrer Sangbrèque et à prendre Fort-Norvent malgré son effectif modeste, mais a été ensuite défait par Clive et Cid.",
-      "caption": "Chute de Fort-Norvent"
+      "caption": "Chute de Fort-Norvent",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "benedikta-harman",
     "officier-du-corps-despionnage-valoedois",
     "armee-royale-de-valoed",

@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Un chercheur en botanique au Repaire.\n\nIl étudie les effets des plantes médicinales et la façon de les cultiver, dans un Repaire où elles ont toujours tendance à manquer.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "marielle",
     "recherche-botanique",
     "pourvoyeurs",

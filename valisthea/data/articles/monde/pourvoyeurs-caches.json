@@ -10,12 +10,14 @@
   "pages": [
     {
       "text": "Des Pourvoyeurs ne portant pas de marque.\n\nIl existe des cas très rares de Pourvoyeurs ayant échappé aux contrôles effectués par les autorités de leur pays, ou dont les pouvoirs se sont manifestés plus tard au cours de leur vie. Ils sont alors élevés comme des êtres humains ordinaires, et pensent et agissent librement. La punition est cependant sévère s'ils sont démasqués à un moment ou à un autre.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "pourvoyeurs",
-    "marque",
+    "stigmate",
     "marques",
     "oreille-du-desert"
   ]

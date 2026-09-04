@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Une vallée dans le centre sud du Saint-Empire de Sangbrèque et à l'ouest de Fort-Norvent.\n\nAu-delà de la vallée se trouve une route forestière escarpée qui mène à La Nef déchue.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "fort-norvent",
     "la-nef-dechue",
     "plaine-de-la-glorieuse",

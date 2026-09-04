@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "La lignée des souverains rosaliens.\n\nL'Émissaire de Phénix ne naît que dans cette famille, et devient à sa majorité premier héritier du trône, selon la coutume.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "elwin-rosfield",
     "joshua-rosfield",
     "ducalistes",

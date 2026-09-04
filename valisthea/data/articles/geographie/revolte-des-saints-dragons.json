@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Une révolte menée par l'Ordre des Saints Dragons, une partie de l'armée sangbréquoise, au Dominion du Cristal en 878.\n\nL'élément déclencheur en est l'abdication de l'empereur Sylvestre en faveur d'Octavien, le fils qu'il avait eu avec Annabella. Dion Lesage, fils aîné de l'empereur, Émissaire de Bahamut et commandant des Saints Dragons, espérait utiliser ses troupes pour retirer son influence à Annabella, mais il perdit le contrôle de son Primordial et dévasta Port-Gémeau.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "sacre-doctavien",
     "dion-lesage",
     "ordre-des-saints-dragons",

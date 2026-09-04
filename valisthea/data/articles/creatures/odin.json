@@ -10,14 +10,17 @@
   "pages": [
     {
       "text": "Le Primordial des ténèbres qui ressemble à un chevalier montant un destrier noir de jais.\n\nSon Émissaire Barnabas Tharmr règne sur Valœd et a brandi l'épée d'Odin à de multiples reprises pour s'imposer sur le champ de bataille. Il lui suffirait d'un seul de ses « Zantetsuken » pour trancher le fil des jours de ses adversaires, quel que soit leur nombre.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Le Primordial des ténèbres qui a pour Émissaire Barnabas Tharmr, le roi de Valœd.\n\nLe sang du peuple ancestral des Ténèbres coulerait dans les veines de Barnabas, et on pourrait s'attendre à ce que d'autres personnes de cette ethnie l'aient précédé au rang d'Émissaire, mais étrangement, il n'en est fait mention dans aucun écrit.",
-      "caption": "Révélation"
+      "caption": "Révélation",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "roi-de-valoed",
     "royaume-de-valoed",
     "conflit-frontalier-de-873",

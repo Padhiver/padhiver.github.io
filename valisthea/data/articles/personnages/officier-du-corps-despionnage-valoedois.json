@@ -10,14 +10,17 @@
   "pages": [
     {
       "text": "Le fidèle bras droit de Benedikta au sein du corps d'espionnage valœdois.\n\nElle et lui se vouent une solide confiance mutuelle.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Le fidèle bras droit de Benedikta au sein du corps d'espionnage valœdois.\n\nIl permet à sa supérieure de s'échapper alors elle a perdu son emprise sur les pouvoirs de Garuda à Fort-Norvent. C'est lors de cette fuite que son homme de confiance trouve la mort aux mains de brigands de grand chemin.",
-      "caption": "Épilogue"
+      "caption": "Épilogue",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "benedikta-harman",
     "corps-despionnage-valoedois",
     "armee-royale-de-valoed",

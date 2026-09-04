@@ -10,30 +10,37 @@
   "pages": [
     {
       "text": "Un chevalier de l'archiduché de Rosalia.\n\nSubordonné de Rodney Murdoch, il est chargé d'escorter Clive à Fangebrune. Ancien page originaire d'une famille modeste, il a décidé de tout faire pour devenir chevalier après que le jeune Joshua lui a sauvé la vie.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Un chevalier de l'archiduché de Rosalia.\n\nSubordonné de Rodney Murdoch, il est chargé d'escorter Clive à Fangebrune. Lors de l'incident du fort Phénix, il aide l'archiduc Elwin et Joshua à s'enfuir mais il disparaît dans les flammes de Phénix lorsque celui-ci perd le contrôle de ses pouvoirs.",
-      "caption": "L'attaque du fort Phénix"
+      "caption": "L'attaque du fort Phénix",
+      "public": "OFF"
     },
     {
       "text": "Un ancien chevalier de l'archiduché de Rosalia.\n\nAlors qu'il avait disparu lors des événements du fort Phénix, il réapparaît au Bourg du saint secours à la tête d'un groupe se faisant appeler les Gardiens de l'Étincelle, perpétuant l'esprit des chevaliers de Rosalia.",
-      "caption": "Gardiens de l'Étincelle"
+      "caption": "Gardiens de l'Étincelle",
+      "public": "OFF"
     },
     {
       "text": "Un ancien chevalier de l'archiduché de Rosalia et allié du Repaire.\n\nChef des Gardiens de l'Étincelle, il se bat sans relâche pour la protection du peuple de Rosalia et des Pourvoyeurs. Suite à la destruction de leur quartier général au Bourg du saint secours par un épanchement d'éther, lui et ses hommes trouvent refuge à l'Auberge de Martha et prennent l'initiative de s'allier aux mercenaires déjà présents afin de protéger le hameau.",
-      "caption": "L'alliance avec Martha"
+      "caption": "L'alliance avec Martha",
+      "public": "OFF"
     },
     {
       "text": "Un ancien chevalier de l'archiduché de Rosalia et allié du Repaire.\n\nAvec l'aide de Clive, les Gardiens de l'Étincelle qu'il mène ont repris le village de Lestange à des bandits et s'y sont installés avec les Pourvoyeurs qu'ils protègent. Ils s'activent maintenant à restaurer le village abandonné avec le soutien de Martha.",
-      "caption": "Reconquête de Lestange"
+      "caption": "Reconquête de Lestange",
+      "public": "OFF"
     },
     {
       "text": "Un ancien chevalier de l'archiduché de Rosalia et allié du Repaire.\n\nIl est à la fois à la tête des Gardiens de l'Étincelle et chef du village de Lestange. Il a juré d'aider les Pourvoyeurs à s'émanciper en tant que personnes libres tout en protégeant le peuple de sa chère patrie, Rosalia.",
-      "caption": "Maire de Lestange"
+      "caption": "Maire de Lestange",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "rodney-murdoch",
     "tyler",
     "armee-rosalienne",

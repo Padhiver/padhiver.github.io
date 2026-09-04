@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Un membre d'une grande famille dalmèque qui a aperçu Clive à Lestange.\n\nIl cherche l'emplacement du Repaire de Cid afin de s'insinuer dans les bonnes grâces de Hugo Kupka, l'amant de la défunte Benedikta en quête de vengeance. C'est donc lui qui révèle cette information à Kupka.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "massacre-du-repaire",
     "hugo-kupka",
     "raid-sur-lestange",

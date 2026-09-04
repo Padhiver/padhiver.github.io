@@ -2,18 +2,22 @@
   "id": "pantheisme-de-sainte-gweligore",
   "title": "Le panthéisme de sainte Gwéligore",
   "category": "geographie",
-  "public": "OFF",
+  "public": "ON",
   "date": "2026-08-08",
   "order": 109,
   "cardImage": "images/placeholders/emblem-geographie.svg",
   "source": "base",
   "pages": [
     {
-      "text": "La religion d'État de Sangbrèque.\n\nLe pieux pays voue un culte à sainte Gwéligore, déesse guerrière unique dépeinte dans les écrits saints de l'Empire. Le chef de l'Église est le Saint Pontife, élu par un comité de cardinaux, mais dans les faits, c'est l'Empereur qui possède le pouvoir suprême. La déesse aurait, d'après la légende, soumis un dragon et l'animal est depuis vu comme sacré par les Sangbréquois, qui le protègent avec ferveur et tentent de le domestiquer.",
-      "caption": ""
+      "text": "La religion d'État de Sangbrèque et celle la plus pratiquée de Valisthéa.\n\nLe pieux pays voue un culte à sainte Gwéligore, déesse unique dépeinte dans les écrits saints de l'Empire. La dirigeante de l'Église est la Sainte Pontife, élu par un comité de cardinaux, mais dans les faits, c'est l'Impératrice qui possède le pouvoir suprême.",
+      "caption": "",
+      "public": "ON"
     }
   ],
   "related": [
+    "saint-empire-de-sangbreque"
+  ],
+  "relatedOff": [
     "saint-empire-de-sangbreque",
     "sylvestre-lesage",
     "dragons",

@@ -10,14 +10,17 @@
   "pages": [
     {
       "text": "Un corps militaire d'élite du Saint-Empire de Sangbrèque mené par Dion Lesage.\n\nBeaucoup de ses membres sont de jeunes nobles pour qui être fait chevalier des Saints Dragons est un grand honneur. Lors du conflit frontalier de 873 entre Sangbrèque et Valœd, les Saints Dragons sont en première ligne.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Un corps militaire d'élite du Saint-Empire de Sangbrèque mené par Dion Lesage.\n\nBeaucoup de ses membres sont de jeunes nobles pour qui être fait chevalier des Saints Dragons est un grand honneur. Ils étaient également en première ligne lors du conflit frontalier de 873 entre Sangbrèque et Valœd et ont souvent sorti l'Empire d'une position difficile. Ils se rebellent ensuite contre la traîtresse Annabella au Dominion du Cristal.",
-      "caption": "Insurrection de Dion"
+      "caption": "Insurrection de Dion",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "dion-lesage",
     "bras-droit-de-dion-lesage",
     "saint-empire-de-sangbreque",

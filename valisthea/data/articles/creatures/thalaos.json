@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Un être magique créé par Waleas, l'Émissaire de Léviathan.\n\nCette créature a traversé le val de la confluence en attaquant monstres comme hommes sur son passage, pour finalement rejoindre les ruines englouties. On aperçoit de là-bas le Saut de l'Éplorée, une cascade du haut de laquelle s'est jetée la mère de Waleas, qui n'avait jamais pu se remettre de ce qui était arrivé à son premier-né.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "entites-magiques",
     "emissaire-de-leau",
     "perykos",

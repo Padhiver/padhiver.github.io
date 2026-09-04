@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Une sorte de vin prisé dans les différentes régions de Valisthéa.\n\nL'origine de ce vin, présenté comme une production des continents extérieurs, est plus que douteuse, tant il est facile à trouver. Il est tristement célèbre pour rendre saoul dès la première gorgée, ce qui ne l'empêche pas d'avoir de nombreux amateurs.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "continents-exterieurs",
     "valisthea",
     "vert-ponant",

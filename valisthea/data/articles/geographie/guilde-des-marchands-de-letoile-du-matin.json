@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Une guilde de commerçants censée se trouver à Randělá imaginée par Lubor.\n\nIl a fait passer Clive pour un certain « Baron Soucolline » afin de convaincre Natálie. De son côté, Viktor a fait jouer à Jill le rôle de « Jeanne, la chef des Javelots d'argent, la guilde de mercenaires » pour faire la même chose avec Konrád. Aujourd'hui encore, Natálie n'a pas découvert la supercherie.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "oreille-du-desert",
     "natalie",
     "konrad",

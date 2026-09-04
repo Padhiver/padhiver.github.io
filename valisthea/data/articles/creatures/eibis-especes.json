@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Des dragons de taille moyenne qui se distinguent de leurs cousins plus imposants par leurs membranes brachiales.\n\nBien qu'elles ne leur permettent pas de voler, elles sont terminées par des griffes acérées qui, combinées à leur agilité et leur agressivité, suffisent amplement à déchiqueter leur proie. On les aperçoit le plus souvent au côté de leurs dresseurs au sein de bataillons du Saint-Empire de Sangbrèque, mais certaines sous-espèces sont adaptées aux climats arides et il n'est pas rare d'en croiser des sauvages dans le désert.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "betes-fabuleuses",
     "armee-sangbrequoise",
     "dragons",

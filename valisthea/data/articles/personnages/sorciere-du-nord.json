@@ -10,18 +10,22 @@
   "pages": [
     {
       "text": "Une femme issue des Territoires du Nord qui était surnommée la « sorcière du Nord » par les siens.\n\nIl y a environ quatre-vingts ans, elle a créé Gel, le sort d'arrêt du temps, dans le but d'empêcher l'effondrement d'Œildrac, en vain. Elle est arrivée dans un état de pétrification avancée au hameau de la tribu de l'Eau, alors qu'elle avait semble-t-il été exilée de son pays après l'échec du plan d'utilisation du sort Gel. Le peuple de l'Eau l'a recueillie alors qu'elle semblait déjà condamnée, et elle leur a appris le secret du sort et quelques autres connaissances anciennes avant de rendre l'âme.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Une femme issue des Territoires du Nord qui était surnommée la « sorcière du Nord » par les siens.\n\nIl y a environ quatre-vingts ans, elle a créé Gel, le sort d'arrêt du temps, dans le but d'empêcher l'effondrement d'Œildrac. À en juger par les rémanences d'éther qui se trouvaient près de la source du sort, au cœur de la Cité suspendue, il semble fort probable qu'elle était une Émissaire de Shiva.",
-      "caption": "Une ancienne Émissaire de Shiva"
+      "caption": "Une ancienne Émissaire de Shiva",
+      "public": "OFF"
     },
     {
       "text": "Une ancienne Émissaire de Shiva.\n\nIl y a environ quatre-vingts ans, elle a créé Gel, le sort d'arrêt du temps, dans le but d'empêcher l'effondrement d'Œildrac. Avant l'arrivée du peuple de l'Eau dans la région, elle faisait partie d'un groupe de recherche vivant à Mysidia et qui étudiait entre autres le sort d'arrêt du temps, s'étant installé à cet effet au sein des ruines de la Cité suspendue. Un homme du nom de Velgr veillait semble-t-il sur elle, si bien qu'il fut surnommé son chevalier protecteur.",
-      "caption": "Liens avec Mysidia"
+      "caption": "Liens avec Mysidia",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "oeildrac",
     "gel-le-sort-darret-du-temps",
     "mysidia",

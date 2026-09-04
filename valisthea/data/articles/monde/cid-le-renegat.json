@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Le meneur du groupe qui a détruit le Cristal-mère de Chefdrac en 873.\n\nCet homme, que l'on présume avoir mené le groupe ayant attaqué Chefdrac, est considéré comme un criminel par la majorité des habitants de Valisthéa. À leurs yeux, faire disparaître une source de magie aussi précieuse est un acte d'une malfaisance inouïe. Cette atrocité, une première dans l'histoire, l'a rendu immédiatement célèbre à travers le monde.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "clive",
     "cid",
     "cristaux-meres",

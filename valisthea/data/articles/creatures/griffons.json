@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Des monstres bestiaux qui ressemblent au croisement entre un oiseau et un fauve.\n\nLeur maîtrise de la magie de vent leur octroie une incroyable agilité, grâce à laquelle ils peuvent réaliser d'impressionnants plongeons aériens et piqués de vitesse malgré leur corps imposant. Aussi rares que majestueux, les griffons, sauvages ou non, ne se laissent que rarement apercevoir.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "betes-fabuleuses",
     "chimeres",
     "vautours",

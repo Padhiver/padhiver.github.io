@@ -10,14 +10,17 @@
   "pages": [
     {
       "text": "Un dispositif servant à projeter le sort d'arrêt du temps, Gel.\n\nIl se trouve au cœur de ruines anciennes sur un plateau dans les hauteurs de Mysidia. Il est donc nécessaire de se rendre dans ces ruines, appelées Cité suspendue, pour manipuler le sort.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Un dispositif servant à projeter le sort d'arrêt du temps, Gel.\n\nIl se trouve au cœur de la Cité suspendue, dans les hauteurs de Mysidia. Le dispositif ressemble à une tour enchâssée de cristal. Pendant quatre-vingts ans, il a figé dans le temps Waleas et la Déferlante de Nepto, ainsi que la Cité suspendue elle-même.",
-      "caption": "Révélation"
+      "caption": "Révélation",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "cite-suspendue",
     "gel-le-sort-darret-du-temps",
     "sorciere-du-nord",

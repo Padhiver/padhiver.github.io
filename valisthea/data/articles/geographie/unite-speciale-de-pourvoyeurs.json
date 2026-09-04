@@ -10,14 +10,17 @@
   "pages": [
     {
       "text": "Une petite troupe de soldats d'élite envoyée au défilé de Nýsa, dans la république de Dalméquie.\n\nSa mission est d'assassiner l'Émissaire qui doit prendre part à cette bataille.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Une troupe de soldats sangbréquois envoyée assassiner l'Émissaire de Shiva au Royaume de Fer au cours d'une mission secrète.\n\nTous les membres de ce groupe, à commencer par leur capitaine Tiamat, portent la marque des Pourvoyeurs et sont donc des soldats-esclaves.",
-      "caption": "Bataille du défilé de Nýsa"
+      "caption": "Bataille du défilé de Nýsa",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "tiamat",
     "biast",
     "eibis",

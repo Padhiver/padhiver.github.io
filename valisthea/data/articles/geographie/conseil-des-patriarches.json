@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Une assemblée qui soutient et conseille l'empereur du Saint-Empire de Sangbrèque dans le cadre de sa gestion du pays.\n\nElle est composée de cinq sages appelés des hiérophantes, l'un d'entre eux présidant en tant que doyen. Sur le papier, les Patriarches sont responsables des affaires politiques et militaires, mais dans les faits, l'empereur Sylvestre Lesage règne en monarque absolu.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "hierophantes",
     "sylvestre-lesage",
     "astromancie",

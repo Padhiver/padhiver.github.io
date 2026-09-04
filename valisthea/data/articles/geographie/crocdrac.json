@@ -10,14 +10,17 @@
   "pages": [
     {
       "text": "Un Cristal-mère situé en république de Dalméquie.\n\nCrocdrac a une forme particulière et est entouré d'une chaîne de montagnes colossales, comme s'il était protégé par la roche. Pour les Dalmèques, Crocdrac est synonyme de progrès et de prospérité. C'est en effet en minant et en exportant ses cristaux que la république s'est enrichie.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Un Cristal-mère qui appartenait autrefois à la république de Dalméquie.\n\nIl était la clef du développement du pays, jusqu'à sa destruction en l'an 878 du calendrier ponantin par Cid le Renégat et son groupe de rebelles. Lors de ces troubles, la présence d'Orcs du Gris-Levant et de Valœdois aurait également été signalée. Quoi qu'il en soit, cet événement marque la fin du conflit qui opposait la Dalméquie au Saint-Empire de Sangbrèque.",
-      "caption": "Destruction de Crocdrac"
+      "caption": "Destruction de Crocdrac",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "republique-de-dalmequie",
     "cristaux-meres",
     "hugo-kupka",

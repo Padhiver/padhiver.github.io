@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Une chute d'eau que l'on aperçoit depuis les ruines inondées dans le val de la confluence.\n\nLa légende voudrait que la mère de Waleas, accablée par le chagrin à cause du triste sort de son premier enfant, se soit finalement jetée de ces hauteurs pour mettre fin à ses jours dans un moment de désespoir. Des décennies plus tard, certains villageois continuent de se rendre chaque année à cet endroit pour honorer sa mémoire. Récemment, une créature magique engendrée par Waleas et nommée Thalaos a fait son apparition dans les environs, comme si elle avait elle aussi voulu se recueillir sur les lieux du drame.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "val-de-la-confluence",
     "emissaire-de-leau",
     "thalaos",

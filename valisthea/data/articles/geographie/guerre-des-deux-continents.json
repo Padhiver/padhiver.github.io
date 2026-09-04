@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Une guerre qui éclate en 865 avec une bataille autour du détroit d'Aurtha opposant le Saint-Empire de Sangbrèque au royaume de Valœd.\n\nAlors que l'Empire gagne en puissance au Vert-Ponant, la république de Dalméquie, elle-même en guerre contre le Royaume de Fer, forme une alliance avec Valœd pour assurer ses arrières, déclenchant ce conflit qui divise Valisthéa.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "saint-empire-de-sangbreque",
     "royaume-de-valoed",
     "detroit-daurtha",

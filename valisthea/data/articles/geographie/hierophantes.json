@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Un conseil de cinq patriarches qui s'occupent de l'essentiel des tâches administratives au sein du gouvernement sangbréquois.\n\nFonctionnant comme une assemblée, ses membres sont appelés hiérophantes en référence à leur grande érudition, et ils ont pour rôle d'épauler l'Empereur dans ses décisions politiques et administratives. Le conseil est composé du Hiérophante doyen qui veille sur la capitale d'Oriflamme et des Hiérophantes du nord, du sud, de l'est et de l'ouest, chacun chargé de sa région respective.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "oriflamme",
     "hierophante-doyen",
     "conseil-des-patriarches",

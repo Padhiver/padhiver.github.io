@@ -10,14 +10,17 @@
   "pages": [
     {
       "text": "Le neveu du général rosalien Rodney Murdoch.\n\nAncien membre des Gardiens de l'Étincelle sous les ordres de Wade, il demande à Clive de devenir son écuyer afin de se former aux côtés d'un Gardien de Rosalia. Il emménage ensuite au Repaire.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Le neveu du général rosalien Rodney Murdoch.\n\nDevenu écuyer de Clive, il habitait au Repaire pour se former et rêvait de reconstruire le village de Lestange, où vivait et repose encore sa tante Hanna. C'est avec la bénédiction de Clive qu'il est rentré au pays.",
-      "caption": "Reconquête de Lestange"
+      "caption": "Reconquête de Lestange",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "rodney-murdoch",
     "gardiens-de-letincelle",
     "hanna-murdoch",

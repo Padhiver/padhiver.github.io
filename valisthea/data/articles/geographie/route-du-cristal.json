@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Une route commerciale vers le Dominion du Cristal, qui traverse d'est en ouest la zone centrale du Vert-Ponant.\n\nIl s'agit d'une zone tampon, appelée la « Ceinture cristalline », englobant la route elle-même et les frontières de trois états. Il est formellement interdit de s'y battre, et l'on n'y trouve ni forteresse ni octroi. Depuis quelques années, des réfugiés privés de domicile par le Fléau noir sont très nombreux à emprunter cette route à pied, ce qui pose certains problèmes.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "caudrac",
     "petite-marchande-de-remedes",
     "iles-de-la-croisee",

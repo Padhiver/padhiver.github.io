@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Une région vallonnée qui s'étend dans le sud du Saint-Empire de Sangbrèque.\n\nLes habitants de La Nef déchue ont utilisé une de ses collines pour y installer leurs vignobles, tout juste au nord de la Grande Sylve.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "grande-sylve",
     "la-nef-dechue",
     "civilisation-celeste",

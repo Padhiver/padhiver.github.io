@@ -10,18 +10,22 @@
   "pages": [
     {
       "text": "Une région située sur l'extrémité est du nord du Vert-Ponant.\n\nOn pensait qu'elle avait été engloutie par le Fléau noir, comme le reste des Terres du Nord, mais il se trouve qu'elle avait en fait été épargnée. Elle possède encore une végétation luxuriante, des lacs et rivières. Le sort d'illusion du Mirage permet de la faire passer pour une terre morte, mais aussi de projeter l'image d'un magnifique ciel bleu à l'intérieur.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Une région située sur l'extrémité est du nord du Vert-Ponant.\n\nUn sort appelé Mirage maintient l'illusion qu'elle a été engloutie par le Fléau noir. Jadis, les populations du Nord avaient habité la région et il y a quatre-vingts ans, ils y avaient installé une équipe de recherche qui travaillait à la préservation du Cristal-mère d'Œildrac. Ils tentèrent de lancer le sort Gel sur Œildrac, mais ce plan échoua, et les Nordiques se retirèrent de la région. Quelque temps après, la tribu de l'Eau y migra, s'installant dans un ancien hameau réaménagé.",
-      "caption": "Retraite des Nordiques"
+      "caption": "Retraite des Nordiques",
+      "public": "OFF"
     },
     {
       "text": "Une région située sur l'extrémité est du nord du Vert-Ponant.\n\nOn y trouve nombre d'anciens édifices dédiés au culte de Shiva, la Primordiale de la glace que les anciens peuples nordiques avaient élevée au rang de déesse. Dans son histoire contemporaine, la région a accueilli un groupe de chercheurs qui essayaient de mettre au point Gel, le sort d'arrêt du temps, avant de quitter les environs. Par la suite, Mysidia a été un temps vide de présence humaine, avant d'accueillir la tribu de l'Eau qui s'y est installée en réaménageant un ancien hameau. La modeste communauté a longtemps mené une existence discrète en se dissimulant derrière le sort du Mirage, mais depuis la libération de Waleas, elle a accepté l'idée qu'elle devrait s'ouvrir progressivement au monde extérieur.",
-      "caption": "La libération de Waleas"
+      "caption": "La libération de Waleas",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "mirage",
     "sources-du-mirage",
     "terres-mortes",

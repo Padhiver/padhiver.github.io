@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Une petite orpheline de guerre vivant à Dalimil.\n\nGentille et intelligente, elle ne quitte pas d'une semelle le jeune Leoš, lui aussi orphelin, ce qui laisse croire à tort que les deux enfants sont frère et sœur. Dáša voit en Lubor un grand frère, depuis qu'il l'a secourue au bord de l'inanition. Son passe-temps préféré est d'écouter les rumeurs que font circuler les adultes dans tout Dalimil.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "relais-de-dalimil",
     "leos",
     "oreille-du-desert",

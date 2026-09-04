@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Une appellation qui désigne les habitants nés à Rosalia.\n\nLe peuple rosalien s'est lui-même désigné ainsi. Cette appellation fait référence au fait que le pays est dirigé par l'archiduc qui est généralement l'Émissaire de Phénix, et que son peuple bénéficie de sa protection et de ses bienfaits. Elle apparaît dans les chants populaires et est également utilisée par les soldats pour se donner courage.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "archiduche-de-rosalia",
     "armee-rosalienne",
     "phenix",

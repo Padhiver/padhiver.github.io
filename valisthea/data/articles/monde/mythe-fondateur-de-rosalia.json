@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Le mythe qui existe autour de la fondation de l'archiduché de Rosalia.\n\nDivers mythes et légendes y font allusion, qui ont été en partie compilés par l'historien Mors dans un de ses écrits. Selon celui-ci, alors que la civilisation humaine périclitait, un groupe d'hommes, craignant la colère des dieux, décida de s'affranchir du confort offert par l'utilisation de la magie. Ces hommes renoncèrent donc à ses bienfaits et devinrent une tribu nomade. Un jour, l'un d'eux décida de s'établir quelque part et construisit un abri, qu'il développa progressivement en maison. Il fit l'objet d'ostracisme de la part de certains de ses pairs, mais ne renonça pas. Avec le temps, d'autres camarades se rassemblèrent autour de lui, et firent de même. Ils bâtirent leurs toits de leurs mains, sans avoir recours à la magie, à la sueur de leur front. Ces maisons constituèrent bientôt un hameau, puis un village, puis une ville. C'est ainsi, selon la croyance, que naquit la communauté qui allait devenir l'archiduché de Rosalia, bâtie autour d'un foyer d'un humble travailleur dont l'Histoire a oublié le nom, mais dont la légende brûle encore dans l'inconscient collectif des Rosaliens. Ainsi, tous les Rosaliens se voient comme les descendants de cette tribu légendaire appelée « peuple du Feu ».",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "archiduche-de-rosalia",
     "mors-lancien",
     "peuple-du-feu",

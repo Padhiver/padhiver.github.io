@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Un immense lac situé au cœur d'une région ravagée par le Fléau noir, au centre du Vert-Ponant.\n\nDes épaves d'aéronefs flottant çà et là à sa surface sont à l'origine de son surnom de cimetière des aéronefs. C'est là que Clive a décidé d'installer son nouveau Repaire. Éloigné des principales routes commerciales et englouti par le Fléau noir, ce lac dont même l'eau est contaminée a été oublié de tous, et plus personne n'ose s‘aventurer sur ses berges.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "repaire-de-clive",
     "obelos",
     "aeronefs",

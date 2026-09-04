@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Des créatures apparentées aux oiseaux mais incapables de voler.\n\nIls ont longtemps été assimilés aux dragons, car ils crachent du feu et leur corps est dépourvu de plumes. Il n'est pas rare d'en apercevoir dans les plaines sangbréquoises.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "monstres",
     "vautours",
     "dragonnets",

@@ -10,18 +10,22 @@
   "pages": [
     {
       "text": "Une ville fortifiée au nord du Saint-Empire de Sangbrèque.\n\nElle sert de ligne de défense à Oriflamme, la capitale, et est divisée en deux par un grand rempart qui la traverse de bout en bout. Du côté intérieur du mur, on retrouve surtout des soldats et des nobles, ainsi que la taverne et la maison close que la garnison fréquente. À l'extérieur du rempart, un marché en plein air s'est établi où des marchands venus de tout Valisthéa vendent leurs biens et denrées sur les nombreux étals qui s'y trouvent.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Une ville fortifiée au nord du Saint-Empire de Sangbrèque.\n\nCréée pour servir de rempart à Oriflamme, son activité s'est vue fortement réduite lorsque l'Empire a transféré sa capitale au Dominion du Cristal. De plus, la destruction de Chefdrac a provoqué un appauvrissement des champs de blé environnants, qui étaient jusqu'alors fertiles et prospères.",
-      "caption": "Destruction de Chefdrac"
+      "caption": "Destruction de Chefdrac",
+      "public": "OFF"
     },
     {
       "text": "Une ville fortifiée au nord du Saint-Empire de Sangbrèque.\n\nAprès l'Expurgation, la zone menant à Oriflamme ayant été submergée par l'éther stagnant, d'étranges créatures bleutées se sont mises à attaquer la ville. Les habitants étaient en conflit avec le projet de fortification du duc d'Oriflamme mais ils ont pu unir leurs forces avec les militaires pour venir à bout de la menace. Au final, Apolline et le duc ont trouvé un terrain d'entente pour redévelopper la ville.",
-      "caption": "Réconciliation"
+      "caption": "Réconciliation",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "oriflamme",
     "madame-apolline",
     "nuit-galante",

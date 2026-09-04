@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Un corps inerte dont s'est séparé Ultima il y a fort longtemps.\n\nIl ressemble fortement à la transformation en Ifrit de Mythos, autrement dit Clive. À la différence de la fusion entre ce dernier et Phénix, cette version a perdu une aile.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "ultima-dans-la-fissure-interdimensionnelle",
     "primo-ultima",
     "ifrit-paracheve",

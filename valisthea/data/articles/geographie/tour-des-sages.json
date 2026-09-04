@@ -10,22 +10,27 @@
   "pages": [
     {
       "text": "Un édifice millénaire de Rosalia qui fait partie des vestiges de la civilisation céleste.\n\nNul ne peut l'ignorer à cause de sa taille qui la rend visible de très loin. Malgré cela, personne n'en a jamais trouvé l'entrée, et tout le monde la considérait comme une ruine sans vie jusqu'à ce qu'elle s'illumine du jour au lendemain. À en juger par le comportement de Fahmil et ses acolytes, elle aurait quelque chose à voir avec les cristaux voilés.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Un édifice millénaire de Rosalia qui fait partie des vestiges de la civilisation céleste.\n\nTout le monde la considérait comme une ruine sans vie, jusqu'à ce que son exploration révèle qu'il n'en est rien. En effet, elle s'avère être la source des cristaux voilés, et abrite même un noyau ressemblant à ceux vus dans les sanctuaires des Cristaux-mères. Une voix sans émotion résonne à l'intérieur et semble déterminée à éliminer les intrus comme Clive et ses amis.",
-      "caption": "Cristaux voilés et Cristal-mère artificiel"
+      "caption": "Cristaux voilés et Cristal-mère artificiel",
+      "public": "OFF"
     },
     {
       "text": "Un édifice millénaire de Rosalia qui fait partie des vestiges de la civilisation céleste.\n\nLes Célestes s'en servaient de laboratoire et y conduisaient des expériences visant à créer un Cristal-mère artificiel. Leur déclin semble toutefois avoir coupé court à cette entreprise, résultant en un prototype imparfait. Ce dernier a finalement été brisé par la main de Clive, et la Tour des Sages, berceau désormais vide, paraît s'être éteinte pour de bon.",
-      "caption": "Destruction du Cristal-mère artificiel"
+      "caption": "Destruction du Cristal-mère artificiel",
+      "public": "OFF"
     },
     {
       "text": "Un vestige millénaire où les Célestes expérimentaient afin de créer un Cristal-mère artificiel.\n\nÀ l'intérieur, la technologie magitech était mise à profit afin de fabriquer des cristaux synthétiques, eux-mêmes testés sur des êtres vivants avec pour but de concevoir de puissantes armes magitech. La tour était à l'abandon depuis la tragédie de Dzemekys, mais ses rouages, eux, continuaient tout ce temps de tourner, lentement mais sûrement. Ce n'est qu'avec la perte de son Cristal-mère artificiel qu'elle s'est éteinte à jamais.",
-      "caption": "Révélation"
+      "caption": "Révélation",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "civilisation-celeste",
     "cristaux-voiles",
     "foret-de-morion",

@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Un hameau situé dans une région minière au centre de la Dalméquie.\n\nDans la langue locale, « Dravost » signifie « impétuosité ». Depuis les temps anciens, ce hameau a vu les techniques de métallurgie se développer, sans doute grâce à la proximité de nombreuses ressources en minerais. De nombreux forgerons se sont ainsi établis dans le hameau. Grâce aux métaux qui sont extraits localement, Dravost est vu comme à la pointe des techniques de fabrication d'armes et d'armures de toute la Dalméquie. ",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "blackthorne",
     "zoltan",
     "auguste",

@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Une unité spéciale sous les ordres du gouvernement d'occupation, dont la mission est d'exterminer les Pourvoyeurs et ceux qui les protègent dans la province impériale de Rosalia.\n\nÀ l'opposé des Saints Dragons, ces chevaliers sont vêtus d'une impressionnante armure d'un noir de jais. Le nom officiel de cette troupe de l'ombre n'a jamais été révélé au public par le Saint-Empire. Ainsi, les habitants de Rosalia, terrorisés par les massacres de Pourvoyeurs, ont fini par les surnommer « Chevaliers noirs », nom sous lequel ils se sont fait connaître.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "chevaliers-noirs",
     "ordre-des-saints-dragons",
     "gouvernement-general-provincial",

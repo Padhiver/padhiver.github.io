@@ -10,22 +10,27 @@
   "pages": [
     {
       "text": "Un village situé au nord-est de la Grande Sylve, une forêt du centre géographique de l'empire de Sangbrèque.\n\nJadis important relais pour le commerce de la région, la construction de nouvelles routes fit perdre à La Nef déchue tout rayonnement, au point que son nom finit par disparaître des cartes. Elle a été bâtie autour de vestiges d'un aéronef.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Un village situé dans le centre de l'empire de Sangbrèque.\n\nIl accueille la base de Quentin, un partisan de Cid, qui abrite des Pourvoyeurs dans ce hameau abandonné. Il y a fondé une communauté clandestine où tout le monde s'entraide, Pourvoyeurs ou non. L'exploitation vitivinicole à proximité permet la production d'un grand cru, appelé « Château Gaulton », qui représente une précieuse source de revenus.",
-      "caption": "Collectivité"
+      "caption": "Collectivité",
+      "public": "OFF"
     },
     {
       "text": "Un village situé dans le centre de l'empire de Sangbrèque.\n\nIl accueille la base de Quentin, un partisan de Cid, dont l'objectif est de se venger de l'ancien ministre des Affaires judiciaires du Saint-Empire de Sangbrèque. C'est d'ailleurs pour rassembler des gens adhérant à ses opinions qu'il a restauré ce village abandonné. C'est lorsqu'il a su que les Chevaliers noirs observaient son village que Quentin a décidé de mettre son plan à exécution.",
-      "caption": "Les affaires de Quentin"
+      "caption": "Les affaires de Quentin",
+      "public": "OFF"
     },
     {
       "text": "Un village situé dans le centre de l'empire de Sangbrèque.\n\nIl accueillait la base de Quentin, un partisan de Cid, qui a obtenu ce qu'il voulait et réussi à se venger de son ennemi, mais au prix de nombreuses vies parmi ses camarades. De plus, le hameau a été englouti par l'éther stagnant et est devenu inhabitable. Cependant, l'exploitation vitivinicole et quelques proches de Quentin sont toujours là. Ce fut l'occasion pour lui de faire le point sur son avenir et de choisir de reconstruire son village.",
-      "caption": "Une nouvelle famille"
+      "caption": "Une nouvelle famille",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "aeronefs",
     "coteau-de-loree-belle",
     "civilisation-celeste",

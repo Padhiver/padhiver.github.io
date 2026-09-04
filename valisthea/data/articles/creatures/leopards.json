@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Des fauves agiles au pelage tacheté.\n\nCes énormes bêtes protègent activement leur territoire et préfèrent agir seules plutôt que de se déplacer en meute. Ce sont des prédateurs vicieux qui harcèlent leurs proies sans relâche jusqu'à pouvoir leur porter le coup fatal, ce qui fait d'eux une arme redoutable pour l'armée. On en trouve principalement sur le territoire dalmèque.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "betes-fabuleuses",
     "armee-dalmeque",
     "coeurls",

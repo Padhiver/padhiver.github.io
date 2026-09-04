@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "La capitale des villes libres de Kanvěr, située au sud-est de la république de Dalméquie.\n\nFourmillant centre commercial, ses rues sont remplies d'échoppes proposant des produits de toutes sortes.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "villes-libres-de-kanver",
     "republique-de-dalmequie",
     "corporation-de-saint-gilbert-patron-des-marchands",

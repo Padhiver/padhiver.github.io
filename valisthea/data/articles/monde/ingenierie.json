@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "La science qui étudie les machines et outils avancés.\n\nLes érudits qui la pratiquent tentent ainsi de lever le voile sur les méthodes de fabrication ancestrales des Célestes et les fabuleux matériaux employés, afin de faire renaître cet extraordinaire savoir perdu. Mid a appris l'ingénierie à l'université de Kanvěr et en enseigne maintenant les bases aux enfants du Repaire.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "moteur-a-mithril",
     "orchestrion",
     "midadole-telamon",

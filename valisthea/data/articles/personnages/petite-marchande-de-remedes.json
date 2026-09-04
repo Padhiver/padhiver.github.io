@@ -10,14 +10,17 @@
   "pages": [
     {
       "text": "Une jeune réfugiée.\n\nElle fabrique des remèdes à partir d'ingrédients issus de différentes régions et vend sa marchandise dans les endroits passants.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Une petite fille qui vend des médicaments.\n\nKielle est une réfugiée originaire de Dalméquie. Présente au Dominion du Cristal lorsque Dion Lesage dévaste Port-Gémeau en perdant le contrôle de Bahamut, elle tente de soigner les blessés. Elle trouve alors le prince de Sangbrèque, inconscient, et le soigne jusqu'à ce qu'il reprenne ses esprits.",
-      "caption": "Rencontre avec Dion"
+      "caption": "Rencontre avec Dion",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "quartier-des-refugies-de-kostnice",
     "route-du-cristal",
     "iles-de-la-croisee",

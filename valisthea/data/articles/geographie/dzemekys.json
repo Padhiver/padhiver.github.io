@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Un Cristal-mère qui, si l'on en croit les légendes, se trouvait jadis au nord-est de la Dalméquie.\n\nIl aurait été détruit lors d'une violente guerre qui opposa les dieux et les hommes, un conflit si brutal que la région fut défigurée à jamais par un énorme cratère creusé à même la mer. Il s'agirait de l'endroit où l'on trouve aujourd'hui les chutes de Dzemekys.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "cratere-de-dzemekys",
     "cristaux-morts",
     "tragedie-de-dzemekys",

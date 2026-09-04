@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Des créatures herbivores qui possèdent de longues cornes sur le côté.\n\nElles protègent activement leur territoire et chargent n'importe quel intrus à vue. Leur peau résistante et leurs cornes sont convoitées pour la confection de nombreux objets utiles pour la vie de tous les jours. On en trouve sur le territoire dalmèque et dans la région de Rosalia.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "betes-fabuleuses",
     "antilopes",
     "republique-de-dalmequie",

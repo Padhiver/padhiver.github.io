@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Des Cristaux-mères qui existaient autrefois à Valisthéa, mais qui ont été détruits.\n\nCette appellation fait référence à Œildrac dans le nord du Vert-Ponant, Cornedrac dans le sud du Gris-Levant, et à Dzemekys au centre de Valisthéa. Tous ont été anéantis et il n'en reste désormais que des vestiges.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "cristaux-meres",
     "dzemekys",
     "oeildrac",

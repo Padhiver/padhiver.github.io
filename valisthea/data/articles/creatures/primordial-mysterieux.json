@@ -10,14 +10,17 @@
   "pages": [
     {
       "text": "Le deuxième Primordial de feu.\n\nIl a soudainement fait son apparition le soir de l'attaque du fort Phénix par Sangbrèque en 860. Il se distingue par une silhouette noire et les terribles flammes dont il s'entoure. La nuit du drame, il a vaincu sans mal Phénix, Primordial du même élément. Son identité et sa nature restent un mystère.",
-      "caption": "Un Primordial énigmatique"
+      "caption": "Un Primordial énigmatique",
+      "public": "OFF"
     },
     {
       "text": "Le deuxième Primordial de feu.\n\nIl a soudainement fait son apparition la nuit de l'attaque du fort Phénix par Sangbrèque en l'an 860 et a mis le feu à toute la zone lors de son terrible combat contre Phénix. Clive a appris que c'est lui-même qui avait en réalité pris la forme de ce Primordial.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "emissaire-de-feu",
     "phenix",
     "attaque-du-fort-phenix",

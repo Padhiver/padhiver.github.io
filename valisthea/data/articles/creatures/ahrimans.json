@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Des entités magiques qui flottent dans les airs et sont dotées d'un unique œil gigantesque qui compose la majeure partie de leur anatomie.\n\nLeurs battements d'ailes leur donnent une apparence frêle, mais ils dissimulent en réalité une grande habileté pour la magie qui les rend redoutables. Ils sont en effet capables de manipuler l'espace et de se téléporter instantanément, et pour qui sonne le « Glas », il est bien souvent trop tard.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "entites-magiques",
     "flans",
     "bombos",

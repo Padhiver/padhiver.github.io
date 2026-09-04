@@ -10,14 +10,17 @@
   "pages": [
     {
       "text": "Le Primordial de la foudre qui a pour Émissaire Cidolfus Télamon.\n\nSon apparence de sage digne et majestueux force le respect, et il tient toujours à la main un sceptre avec lequel il porte jugement sur toutes sortes de choses. Un mythe veut que ceux qui possèdent les pouvoirs de Ramuh soient amenés à découvrir d'importantes vérités sur le monde.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Le Primordial de la foudre qui a pour Émissaire Cidolfus Télamon.\n\nLa croyance veut que l'Émissaire de Ramuh apparaisse parmi les descendants du peuple de la Foudre, une tribu qui vivait il y a très longtemps dans les régions voisines de Valœd. Le Primordial est vénéré depuis l'antiquité par les populations locales comme un grand érudit, symbole du savoir universel.",
-      "caption": "Révélation"
+      "caption": "Révélation",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "cid",
     "repaire-de-cid",
     "incarnation",

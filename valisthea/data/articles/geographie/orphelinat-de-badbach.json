@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Une institution pour pupilles de la nation située au nord de Valœd.\n\nElle se cache dans un bosquet sur une colline de la plaine de Vidugrœs et n'a d'orphelinat que le nom. En effet, elle recueillait les enfants Pourvoyeurs afin d'en faire des soldats. Ils y étaient soumis à un « entraînement » cruel auxquels beaucoup ne survivaient pas. Les enfants comme leurs tortionnaires ont disparu et on n'y trouve plus que des éthériques.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "pourvoyeurs",
     "soldats-pourvoyeurs",
     "etheriques",

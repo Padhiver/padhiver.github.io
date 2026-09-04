@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Un chemin de montagne qui s'étend au-delà des falaises de l'oubli.\n\nC'est le chemin qu'empruntent les travailleurs de la tribu de l'Eau lorsqu'ils rentrent au village après un séjour à l'extérieur. Il traverse une vaste vallée à la végétation luxuriante, dans un secteur que tous croient engloutis par le Fléau noir. Le nom de « mante » fait référence à la vue du manteau de verdure qui recouvre le paysage vu de dessus.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "falaises-de-loubli",
     "peuple-de-leau",
     "mirage",

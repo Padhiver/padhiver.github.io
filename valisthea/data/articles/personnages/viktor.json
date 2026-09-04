@@ -10,14 +10,17 @@
   "pages": [
     {
       "text": "Un partisan de Cid qui vit au quartier des réfugiés de Kostnice connu pour sa population agitée.\n\nMalgré tout le chaos qui règne sur place, rien ne lui échappe. Ayant une longue histoire de coopération avec l'ancien Cid, il est toujours très inquiet pour Clive qui a pris la relève si jeune.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Un partisan de Cid qui fait la navette entre le quartier des réfugiés de Kostnice et le relais de Dalimil.\n\nS'étant attaché au relais après le combat contre les bandits venus l'attaquer, il y passe désormais une bonne partie de son temps. Il est aussi devenu bon ami avec Lubor et a su se faire apprécier des habitants.",
-      "caption": "À Dalimil"
+      "caption": "À Dalimil",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "quartier-des-refugies-de-kostnice",
     "clive",
     "partisans-du-repaire",

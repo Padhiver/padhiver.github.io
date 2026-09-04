@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Un village abandonné dans le nord-est de la république de Dalméquie.\n\nIl est situé en aval de la rivière qui passe au relais de Dalimil, et c'était de ce lieu que partaient autrefois des convois de cristaux et d'autres marchandises. L'activité s'est réduite à mesure que d'autres grandes routes ont été construites, jusqu'à ce qu'il soit complètement déserté. Il est à l'heure actuelle en cours de rénovation, car Éloïse et les membres de la Caravane écarlate ont pour projet d'y loger des Pourvoyeurs.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "combe-de-lastny",
     "relais-de-dalimil",
     "eloise-vesta",

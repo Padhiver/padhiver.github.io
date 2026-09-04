@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Le souverain des Ultimiens.\n\nIl a fui son propre monde rongé par le Fléau noir et a enfoui son vaisseau, le Provenance, dans le sol de sa terre d'accueil afin qu'il emmagasine l'éther nécessaire à la résurrection des Ultimiens. Il s'est ensuite bâti un sanctuaire aérien d'où il pourrait manipuler les hommes, puis il a offert la magie aux êtres humains et leur a transmis une prophétie du salut. Enfin, il s'est plongé dans un profond sommeil en attendant le jour où il pourrait ranimer les siens.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "ultima",
     "creation-dun-nouveau-monde",
     "prophetie-du-salut",

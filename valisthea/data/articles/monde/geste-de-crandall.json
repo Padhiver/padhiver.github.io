@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Une célèbre histoire valisthéenne, souvent racontée sous la forme d'une pièce de théâtre.\n\nElle suit les aventures de Sire Crandall de Camelot, un chevalier au service de sainte Sibylle la Bienveillante. L'antagoniste principal est le sorcier Madou. C'était un des livres préférés de Clive lorsqu'il était enfant. Il aimait en jouer des passages avec son oncle Byron, dans les rôles respectifs de Crandall et Madou.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "clive",
     "byron-rosfield",
     "chateau-de-rosalith",

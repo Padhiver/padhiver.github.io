@@ -10,18 +10,22 @@
   "pages": [
     {
       "text": "Un roulier du marché de Poklad, qui travaille dans le transport de diverses marchandises et met sa force physique au service de la Caravane écarlate.\n\nC'est le petit frère d'Éloïse, pour qui il ressent un profond respect.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Un allié de Clive et un roulier du marché de Poklad, qui travaille dans le transport de marchandises.\n\nSa sœur Éloïse gère les affaires de la Caravane écarlate, tandis que Théodore se charge d'escorter les produits en cours de livraison. Il a déjà éliminé de nombreuses menaces, en éloignant les monstres et les bandits intéressés par ses convois. D'autre part, il éprouve une infinie reconnaissance pour sa sœur, qui a renoncé à tout pour sauver le malheureux Pourvoyeur qu'il était.",
-      "caption": "Théodore et sa sœur"
+      "caption": "Théodore et sa sœur",
+      "public": "OFF"
     },
     {
       "text": "Un allié de Clive et un roulier du marché de Poklad, qui travaillait dans le transport de marchandises.\n\nIl tentait d'aménager un village abandonné afin d'y accueillir des Pourvoyeurs, mais son immersion prolongée dans une nappe d'éther stagnant a fait de lui un monstre. Dans un dernier instant de lucidité, il met fin à ses jours tout en souhaitant le bonheur de sa sœur.",
-      "caption": "Fratrie séparée"
+      "caption": "Fratrie séparée",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "marche-de-poklad",
     "caravane-ecarlate",
     "goetz",

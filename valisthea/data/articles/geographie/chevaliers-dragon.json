@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Des combattants d'élite appartenant aux forces armées sangbréquoises.\n\nIls ont pour particularité de bondir lorsqu'ils se battent et de manipuler leur lance avec une infinie dextérité. Aussi, ils sont sélectionnés parmi les personnes ayant suivi une formation spéciale au sein des forces armées du Saint-Empire. Le folklore sangbréquois veut que les dragons fussent autrefois au service de sainte Gwéligore, si bien qu'ils sont considérés comme des créatures sacrées. L'aptitude de ces combattants à parcourir les cieux en bondissant sur les champs de bataille leur a ainsi valu le nom de « Chevalier dragon ».",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "armee-sangbrequoise",
     "ordre-des-saints-dragons",
     "dragons",

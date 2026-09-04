@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Le fait d'utiliser le sort absolu de vie « Résurrection » afin de créer un monde véritablement idéal.\n\nPour Ultima, ce sort permettrait de ranimer les siens, avec qui il pourrait ensuite fusionner pour régner comme un dieu sur ce monde. À ses yeux, les humains ne sont guère que de vulgaires morceaux de viande dont l'unique raison d'être serait de lui offrir un jour un réceptacle. La création de son nouveau monde lui permettrait d'éradiquer les hommes.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "resurrection",
     "monde-veritable",
     "raison-supreme",

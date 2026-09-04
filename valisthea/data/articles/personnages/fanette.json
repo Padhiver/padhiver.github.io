@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "La soigneuse de la tribu de l'Eau.\n\nElle veille sur la santé et le bien-être des habitants du village en se servant de sa connaissance des soins, des plantes médicinales et de l'anatomie. Dévouée à sa mission, lorsque Talol est atteint d'un mal inconnu, elle soupçonne un lien avec la malédictions des Tomberrys, et se renseigne sur le sujet dans l'espoir de guérir le vieil homme.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "talol",
     "tomberrys",
     "maitre-de-ceremonie",

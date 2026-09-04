@@ -10,14 +10,17 @@
   "pages": [
     {
       "text": "Une vaste barrière magique créée par Odin.\n\nElle ne se contente pas de repousser les attaques extérieures, mais peut également désintégrer tout ce qui la touche. Elle bloque l'accès à la capitale Steinnhyrr.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Une vaste barrière magique créée par Odin.\n\nElle ne se contentait pas de repousser les attaques extérieures, mais pouvait également désintégrer tout ce qui la touche. Elle bloquait jadis l'accès à la capitale Steinnhyrr, mais a disparu avec la mort de Barnabas.",
-      "caption": "Disparition"
+      "caption": "Disparition",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "barrieres-magiques",
     "roi-de-valoed",
     "odin",

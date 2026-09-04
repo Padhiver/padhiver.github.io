@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Le propriétaire d'un restaurant populaire à Dalimil.\n\nC'est un endroit fréquenté par les mineurs de cristaux et les gens du petit peuple, auprès desquels il jouit d'une grande popularité. Lorsque des bandits commencent à attaquer le relais, il préconise de payer des mercenaires pour se défendre. Il finit néanmoins par changer d'avis et créer une milice, affirmant que Dalimil devait être défendu par ses habitants.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "relais-de-dalimil",
     "milice-dautodefense",
     "natalie",

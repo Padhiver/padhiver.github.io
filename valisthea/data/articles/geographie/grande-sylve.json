@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Une immense forêt qui s'étend dans le sud-ouest du Saint-Empire de Sangbrèque.\n\nElle est habitée par une faune variée qui comprend même des monstres. De plus, son équilibre zoologique a changé ces dernières années sous l'influence du Fléau noir. De grands monstres, chassés de leur habitat naturel, ont migré dans la région, empêchant les habitants de s'approcher des lieux.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "terres-mortes",
     "monstres",
     "archeosaures",

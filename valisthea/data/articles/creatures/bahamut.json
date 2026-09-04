@@ -10,14 +10,17 @@
   "pages": [
     {
       "text": "Le Primordial de la Lumière qui a pour Émissaire le prince Dion Lesage de Sangbrèque.\n\nBahamut est un dragon aux proportions gigantesques. À Sangbrèque, où le culte monothéiste de la déesse Gwéligore est la religion d'État, les dragons sont néanmoins considérés comme des créatures sacrées. C'est pourquoi Bahamut, le plus imposant et le plus puissant d'entre eux, est l'objet d'une fervente dévotion populaire.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Le Primordial de la Lumière qui a pour Émissaire le prince Dion Lesage de Sangbrèque.\n\nBahamut est un dragon aux proportions gigantesques. On raconte qu'il y a plusieurs siècles, une ethnie du nom de « peuple de la Lumière » vivait dans la région d'Oriflamme. Les pouvoirs de Bahamut se révéleraient toujours parmi les descendants de ce groupe, qui sont nombreux au sein de la noblesse sangbréquoise.",
-      "caption": "Révélation"
+      "caption": "Révélation",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "dion-lesage",
     "saint-empire-de-sangbreque",
     "pantheisme-de-sainte-gweligore",

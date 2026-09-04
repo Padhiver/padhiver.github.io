@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Des légumes dont les chocobos raffolent.\n\nLes colporteurs ont tendance à en acheter en grande quantité à destination des chocobos, mais ils doivent bien faire attention à bien sceller la marchandise. En effet, l'odeur de ces légumes attire les chocobos sauvages qui ont vite fait de se rassembler. Cette plante est plus communément connue comme nourriture pour chocobos mais elle peut également être utilisée en cuisine si on prend soin de la préparer correctement.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "chocobos",
     "auberge-de-martha",
     "lestange",

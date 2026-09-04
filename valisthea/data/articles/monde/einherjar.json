@@ -10,14 +10,17 @@
   "pages": [
     {
       "text": "Le navire amiral de la flotte valœdoise.\n\nFleuron de la marine du royaume, il est, avec la cavalerie, l'une des deux pièces maîtresses de sa force militaire. Il permet de transporter des troupes galvanisées pour envahir les pays ennemis sous la protection d'Odin.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Le navire amiral de la flotte valœdoise.\n\nFleuron de la marine du royaume, il est, avec la cavalerie, l'une des deux pièces maîtresses de sa force militaire. Composé de trois navires dont les coques sont reliées entre elles, c'est une gigantesque forteresse flottante qui permet de transporter des troupes galvanisées pour envahir les pays ennemis sous la protection d'Odin.",
-      "caption": "Sur la mer de Naldia"
+      "caption": "Sur la mer de Naldia",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "royaume-de-valoed",
     "roi-de-valoed",
     "odin",

@@ -1,0 +1,33 @@
+{
+  "id": "la-suppression",
+  "title": "La Suppression",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-09-04",
+  "order": 25,
+  "cardImage": "images/placeholders/emblem-monde.svg",
+  "source": "blanc-septentrion",
+  "pages": [
+    {
+      "text": "Le châtiment de l'Empire Minéen pour les mages hors-la-loi, réputé pire que la mort.\n\nCe rituel, mis au point par les académies impériales et le plus souvent accompli sur le sol des cités-États naines, calcifie définitivement les canaux magiques de l'individu et le sépare à jamais du flux ésotérique. On dit qu'il éteint du même coup toute émotion et toute ambition : le condamné survit, mais vidé. Les nobles et patriciens dont le don magique est découvert peuvent l'accepter volontairement plutôt que de renoncer à leur titre.",
+      "caption": "",
+      "public": "ON"
+    }
+  ],
+  "related": [
+    "nomos-hekatea",
+    "empire-mineen",
+    "academies-imperiales",
+    "magie",
+    "blanc-septentrion",
+    "suppression-de-la-marque"
+  ],
+  "relatedOff": [
+    "nomos-hekatea",
+    "empire-mineen",
+    "academies-imperiales",
+    "magie",
+    "blanc-septentrion",
+    "suppression-de-la-marque"
+  ]
+}

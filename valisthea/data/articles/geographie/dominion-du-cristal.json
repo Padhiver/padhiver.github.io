@@ -10,22 +10,27 @@
   "pages": [
     {
       "text": "Un état autonome et neutre, situé sur les Îles de la Croisée, entre le Vert-Ponant et le Gris-Levant.\n\nSa capitale est Port-Gémeau, et il abrite l'immense Cristal-mère de Caudrac, ce qui lui vaut de faire l'objet de querelles incessantes pour sa possession entre les pays voisins. Le Dominion n'est protégé par aucun Émissaire, mais une certaine indépendance a pu être obtenue grâce à la création d'un conseil constitué des représentants de chaque pays. Ceux-ci ont ainsi ratifié un pacte de non-agression.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Un état autrefois autonome et neutre, situé sur les Îles de la Croisée, entre le Vert-Ponant et le Gris-Levant.\n\nIl abrite le Cristal-mère de Caudrac. La situation a changé au Dominion quand les Sangbréquois l'ont déclaré territoire de Sangbrèque, sans aucune concertation avec les autres états valisthéens et en dépit du traité qui avait été conclu entre eux. Le transfert de la capitale s'est fait sans heurts, car sous la menace d'une réponse explosive de l'Émissaire sangbréquois, Dion.",
-      "caption": "Invasion sangbréquoise"
+      "caption": "Invasion sangbréquoise",
+      "public": "OFF"
     },
     {
       "text": "Un état autonome situé sur les Îles de la Croisée, entre le Vert-Ponant et le Gris-Levant.\n\nIl se trouvait sous le joug du Saint-Empire sangbréquois depuis les événements de l'an 873 du calendrier ponantin, mais la situation bascule complètement lorsque Dion Lesage mène une insurrection avec ses Saints Dragons. Celle-ci entraîne l'anéantissement du territoire et du Cristal-mère de Caudrac, et avec lui l'annihilation des organisations centrales de l'empire sangbréquois. Cet événement marque la fin de cinq années de domination.",
-      "caption": "Insurrection de Dion"
+      "caption": "Insurrection de Dion",
+      "public": "OFF"
     },
     {
       "text": "Un état autonome situé sur les Îles de la Croisée, entre le Vert-Ponant et le Gris-Levant.\n\nLa rébellion de Dion Lesage et des Saints Dragons a permis d'anéantir les institutions centrales de l'empire sangbréquois et de mettre un terme à son invasion, au prix d'irrémédiables dégâts sur le territoire. Le coup final a cependant été porté par Ultima, qui a ouvert la terre pour permettre au Provenance de s'élever, au prix d'une destruction considérable du Dominion.",
-      "caption": "Apparition du Provenance"
+      "caption": "Apparition du Provenance",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "iles-de-la-croisee",
     "port-gemeau",
     "valisthea",

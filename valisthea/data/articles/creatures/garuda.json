@@ -10,14 +10,17 @@
   "pages": [
     {
       "text": "La Primordiale du vent qui a pour Émissaire Benedikta Harman, une femme au service de Valœd.\n\nElle a l'apparence d'un oiseau aux griffes acérées. Maîtresse des rafales, son caractère se rapproche d'une violente bourrasque imprévisible : elle peut être changeante, cruelle et impétueuse. Là où ses tornades passent, la terre s'en trouve à jamais défigurée.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "La Primordiale du vent qui avait pour Émissaire Benedikta Harman, une femme au service de Valœd.\n\nGaruda a l'apparence d'un oiseau aux griffes acérées et son pouvoir se transmettrait au sein du peuple du Vent, une ethnie ancestrale qui habitait la région des actuelles Îles de la Croisée. Comme Benedikta, nombre des Émissaires du vent ont mené une vie où malheurs et passion s'entremêlaient.",
-      "caption": "Révélation"
+      "caption": "Révélation",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "benedikta-harman",
     "royaume-de-valoed",
     "oeil-de-la-tempete",

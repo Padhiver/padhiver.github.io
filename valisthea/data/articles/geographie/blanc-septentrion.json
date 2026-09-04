@@ -1,0 +1,41 @@
+{
+  "id": "blanc-septentrion",
+  "title": "Le Blanc-Septentrion",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-09-04",
+  "order": 18,
+  "cardImage": "images/placeholders/emblem-geographie.svg",
+  "source": "blanc-septentrion",
+  "pages": [
+    {
+      "text": "Le continent septentrional de Valisthéa, né comme les deux autres de la Convergence.\n\nLe Blanc-Septentrion aligne plaines fertiles et forêts profondes ; mais ce sont la neige et les vents glacés du grand nord qui lui ont donné son nom. On y trouve des royaumes humains isolés et des cités-États naines, alors que la totalité du continent vit sous la coupe d'une seule puissance : l'Empire Minéen.",
+      "caption": "Généralités",
+      "public": "ON"
+    },
+    {
+      "text": "Le seul continent de Valisthéa où le Synode n'a jamais imposé sa loi.\n\nIci, ni Ordonnance ni asservissement des Pourvoyeurs : l'usage de la magie est régi par une loi impériale, la Nomos Hekatea, qui la déclare, l'encadre et la met au service de l'Empire. Vu du Vert-Ponant et du Gris-Levant, où règnent les Sœurs du Synode, le Blanc-Septentrion passe pour une terre d'hérésie.",
+      "caption": "Loin du Synode",
+      "public": "ON"
+    }
+  ],
+  "related": [
+    "valisthea",
+    "vert-ponant",
+    "gris-levant",
+    "empire-mineen",
+    "nomos-hekatea",
+    "pourvoyeurs",
+    "pantheisme-de-sainte-gweligore"
+  ],
+  "relatedOff": [
+    "valisthea",
+    "vert-ponant",
+    "gris-levant",
+    "empire-mineen",
+    "nomos-hekatea",
+    "pourvoyeurs",
+    "chasse-aux-heretiques",
+    "pantheisme-de-sainte-gweligore"
+  ]
+}

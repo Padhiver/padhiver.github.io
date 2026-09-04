@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Une vallée qui se situe dans la partie est de la république de Dalméquie.\n\nLes troupes ferrégiennes s'y sont introduites par voie maritime lors de la guerre des Deux Continents qui éclata en l'an 865 du calendrier ponantin. Il faut dire que l'endroit fait régulièrement l'objet de conflits territoriaux entre le Royaume de Fer et la république de Dalméquie.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "bataille-du-defile-de-nysa",
     "citadelle-de-zirnitra",
     "guerre-des-deux-continents",

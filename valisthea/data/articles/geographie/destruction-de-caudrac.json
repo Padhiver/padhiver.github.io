@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Les événements ayant entraîné la destruction du Cristal-mère du Dominion du Cristal.\n\nEn 878, Port-Gémeau, la capitale, essuie une attaque soudaine des Saints Dragons désireux de repousser l'Empire. Dion Lesage, à la tête des insurgés, fait appel à Bahamut, et perd le contrôle de son Primordial. La zone tout entière, Caudrac inclus, est anéantie. On raconte que le Cristal-mère s'est à ce moment changé en un bourgeon qui germa en une énorme fleur avant de disparaître.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "caudrac",
     "revolte-des-saints-dragons",
     "bourgeon-cristallin",

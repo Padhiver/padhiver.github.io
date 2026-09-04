@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Une île isolée surplombant les vagues déferlantes de la mer Frémissante.\n\nLe Cristal-mère de Souffledrac, objet de culte du Royaume de Fer, se dresse sur cette terre volcanique, sur le mont Leodlàdh. Faisant également office de porte d'entrée au continent, elle était autrefois une terre sainte pour les Rosaliens avant que le Royaume de Fer ne l'annexe.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "mer-fremissante",
     "royaume-de-fer-eileanan-iarainn",
     "souffledrac",

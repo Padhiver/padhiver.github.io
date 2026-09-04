@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Les volontés libres exprimées en fonction des convictions de chaque individu.\n\nCe terme peut également désigner la volonté de survivre ou de vivre dans l'opulence. Pour Ultima, c'est ce qui salit les hommes. Il considère ainsi les éthériques comme des créatures pures, débarrassées de leur libre arbitre. C'est la raison pour laquelle il souhaite procéder à une Expurgation qui transformera tous les êtres humains en éthériques et anéantira leurs volontés.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "lien-spirituel",
     "expurgation",
     "etheriques",

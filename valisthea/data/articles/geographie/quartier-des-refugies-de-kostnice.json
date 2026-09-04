@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Un quartier dans le nord-ouest de la république de Dalméquie.\n\nIl a autrefois prospéré grâce au commerce, mais ne compte presque plus d'habitants aujourd'hui. Ceux-ci ont préféré partir devant l'avancée du Fléau noir. Il ne reste guère plus que des réfugiés sans nulle part où aller et des magouilleurs et autres marchands aux commerces douteux. Un nombre très faible de soldats assurent la sécurité des lieux, mais la corruption est monnaie courante. Dans les faits, c'est un endroit où l'ordre et la loi ne règnent plus.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "colosses-de-pierre",
     "viktor",
     "petite-marchande-de-remedes",

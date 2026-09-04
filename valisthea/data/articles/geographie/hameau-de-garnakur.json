@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Un petit village situé dans le nord du Gris-Levant, près de Steinnhyrr, la capitale valœdoise.\n\nIl est aujourd'hui à l'abandon, et n'a de notable que la demeure d'un ancien ami de Harpocrate qui habitait tout au fond.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "executeurs",
     "tiers-regard",
     "viviane",

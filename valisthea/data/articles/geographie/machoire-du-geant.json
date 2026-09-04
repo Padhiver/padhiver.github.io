@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Une région montagneuse dans le sud-ouest de la république de Dalméquie.\n\nElle offre une vue dégagée du Cristal-mère de Crocdrac avec son grand espace désertique.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "crocdrac",
     "desert-de-velkyroj",
     "relais-de-dalimil",

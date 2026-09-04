@@ -41,6 +41,13 @@ function readArticles() {
       if (data.public !== "ON" && data.public !== "OFF") {
         throw new Error(`Fiche "${relFile}" : "public" doit valoir "ON" ou "OFF" (trouvé: ${JSON.stringify(data.public)}).`);
       }
+      if (Array.isArray(data.pages)) {
+        data.pages.forEach((pg, i) => {
+          if (pg && pg.public !== undefined && pg.public !== "ON" && pg.public !== "OFF") {
+            throw new Error(`Fiche "${relFile}", page ${i + 1} : "public" doit valoir "ON" ou "OFF" (trouvé: ${JSON.stringify(pg.public)}).`);
+          }
+        });
+      }
 
       results.push({
         id,

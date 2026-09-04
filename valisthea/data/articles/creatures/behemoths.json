@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Des bêtes colossales dotées d'une incroyable force destructrice.\n\nOn dit des malheureux qui croisent leur route qu'ils sont paralysés par la peur de mourir, et de ceux qui cherchent à l'affronter qu'ils finiront dans son estomac. Les béhémoths ne vivent qu'au Gris-Levant. Il faut noter que le royaume de Valœd est parvenu à exploiter la puissance destructrice de ces terribles bêtes sur le champ de bataille.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "betes-fabuleuses",
     "armee-royale-de-valoed",
     "steinnhyrr",

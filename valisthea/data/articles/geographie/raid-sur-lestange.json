@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Une attaque menée en 873 sur Lestange, un village situé au nord-est de la province impériale de Rosalia.\n\nUne troupe de soldats sangbréquois se sont vus ordonner par l'impératrice Annabella Lesage d'y effectuer une véritable purge des Pourvoyeurs et de ceux qui les protégeaient. Le village a complètement été ravagé.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "lestange",
     "annabella-rosfield",
     "hanna-murdoch",

@@ -10,46 +10,57 @@
   "pages": [
     {
       "text": "Une jeune fille originaire des Territoires du Nord qui a été confiée à la cour de Rosalia en gage de paix entre les deux pays.\n\nL'archiduc l'a toujours traitée comme sa propre fille, aussi a-t-elle grandi aux côtés de Clive et de Joshua, ce qui lui a permis de tisser une profonde amitié avec eux.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Une jeune fille originaire des Territoires du Nord qui a été confiée à la cour de Rosalia en gage de paix entre les deux pays.\n\nL'archiduc l'a toujours traitée comme sa propre fille, aussi a-t-elle grandi aux côtés de Clive et de Joshua, ce qui lui a permis de tisser une profonde amitié avec eux. Clive l'a vue pour la dernière fois alors qu'il partait pour le fort Phénix, là où le destin allait basculer.",
-      "caption": "L'attaque du fort Phénix"
+      "caption": "L'attaque du fort Phénix",
+      "public": "OFF"
     },
     {
       "text": "L'Émissaire de Shiva et l'amie d'enfance de Clive.\n\nLe Royaume de Fer l'envoie dans le défilé de Nýsa afin de combattre Titan, le Primordial dalmèque. Après un combat éreintant, elle utilise ses dernières forces pour affronter le groupe d'assassins dont Clive faisait partie et perd connaissance.",
-      "caption": "Au défilé de Nýsa"
+      "caption": "Au défilé de Nýsa",
+      "public": "OFF"
     },
     {
       "text": "L'Émissaire de Shiva et l'amie d'enfance de Clive.\n\nAprès l'incident du fort Phénix, le Royaume de Fer profita de la confusion pour attaquer Rosalith. Jill fut alors capturée, et c'est à cette occasion que ses pouvoirs s'éveillèrent. Elle est depuis prisonnière des Ferrégiens qui ne voient en elle qu'une puissante arme à opposer à leurs ennemis.",
-      "caption": "Le Royaume de Fer"
+      "caption": "Le Royaume de Fer",
+      "public": "OFF"
     },
     {
       "text": "L'Émissaire de Shiva et l'amie d'enfance de Clive.\n\nLe Royaume de Fer l'a forcée à se battre pendant des années jusqu'à ce que Clive la libère dans le défilé de Nýsa. Transportée inconsciente jusqu'au Repaire de Cid, elle a repris connaissance grâce aux bons soins de Tarja, leur guérisseuse. Depuis ces retrouvailles mouvementées, Jill apporte tout son soutien à Clive qu'elle accompagne régulièrement en mission.",
-      "caption": "Retrouvailles"
+      "caption": "Retrouvailles",
+      "public": "OFF"
     },
     {
       "text": "L'Émissaire de Shiva et l'amie d'enfance de Clive.\n\nCinq ans ont passé depuis qu'elle, Cid et Clive ont détruit Chefdrac, le Cristal-mère du Dominion. Elle a dû surmonter la mort de Cid ainsi que la destruction de l'ancien Repaire, mais aujourd'hui, Jill a trouvé sa place parmi les renégats.",
-      "caption": "Après l'ellipse de cinq ans"
+      "caption": "Après l'ellipse de cinq ans",
+      "public": "OFF"
     },
     {
       "text": "L'Émissaire de Shiva et une des plus fidèles alliées de Clive, dont elle est l'amie d'enfance.\n\nEnsemble, ils ont repris le flambeau de meneur du Repaire de Cid et espèrent accomplir son rêve de libérer tous les Pourvoyeurs en détruisant tous les Cristaux-mères.",
-      "caption": "Destruction des Cristaux-mères"
+      "caption": "Destruction des Cristaux-mères",
+      "public": "OFF"
     },
     {
       "text": "L'Émissaire de Shiva et une des plus fidèles alliées de Clive, dont elle est l'amie d'enfance.\n\nAprès leur défaite contre Barnabas au Gris-Levant, à l'abri d'une plage de la Côte de Jais, Clive a voulu la libérer de son fardeau et a absorbé les pouvoirs de Shiva. En retour, Jill lui a promis que leurs chemins se recroiseraient toujours, quoi que le destin leur réserve.",
-      "caption": "Sur la côte de jais"
+      "caption": "Sur la côte de jais",
+      "public": "OFF"
     },
     {
       "text": "La fille du Renard gris, Geir Warrick, le chef des Territoires du Nord.\n\nElle a été confiée à la cour de Rosalia en gage de paix entre les deux pays. Là-bas, elle s'est liée d'amitié avec les frères Rosfield avant que le destin les sépare et les réunisse à nouveau des années plus tard. Elle est affaiblie depuis qu'elle a offert ses pouvoirs de Shiva à Clive.",
-      "caption": "Le passé de Jill"
+      "caption": "Le passé de Jill",
+      "public": "OFF"
     },
     {
       "text": "L'Émissaire de Shiva et une des plus fidèles alliées de Clive, dont elle est l'amie d'enfance.\n\nSur l'invitation de la chef de la tribu de l'Eau, Šuhra, elle retourne dans les Terres du Nord, où elle retrouve les paysages de son enfance. À Mysidia, dans la Cité suspendue, elle ressent un éther rémanent qu'elle devine être celui de l'ancienne Émissaire de Shiva, la « sorcière » qui a mis au point le sort Gel.",
-      "caption": "À Mysidia"
+      "caption": "À Mysidia",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "clive",
     "joshua-rosfield",
     "archiduche-de-rosalia",

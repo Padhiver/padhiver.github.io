@@ -190,8 +190,10 @@ const EanaRender = (() => {
   // Contenu du panneau, sans son enveloppe. Isolé pour que app.js puisse
   // n'échanger que l'intérieur du cartouche d'une fiche à l'autre, en le
   // laissant en place plutôt que de le détruire et le reconstruire.
-  function articlePanelInner({ article, category, page, related, banner }) {
-    const pages = article.pages || [];
+  function articlePanelInner({ article, category, page, related, banner, pages }) {
+    // "pages" est déjà filtré des pages masquées par overlay.js ; on retombe
+    // sur article.pages si l'appelant ne le fournit pas.
+    pages = pages || article.pages || [];
     const total = pages.length;
     const current = Math.min(page, Math.max(0, total - 1));
     const pageData = pages[current] || {};

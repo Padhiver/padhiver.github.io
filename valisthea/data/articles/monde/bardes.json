@@ -2,20 +2,20 @@
   "id": "bardes",
   "title": "Les bardes",
   "category": "monde",
-  "public": "OFF",
+  "public": "ON",
   "date": "2026-08-08",
   "order": 52,
   "cardImage": "images/placeholders/emblem-monde.svg",
   "source": "base",
   "pages": [
     {
-      "text": "Des musiciens ambulants qui voyagent aux quatre coins du monde.\n\nLorsqu'ils séjournent dans leurs villes de passage, ils s'arment de leur luth et entonnent des chants relatant les événements récents ou les actes héroïques dont ils ont été témoins. Le Repaire de Cid étant propice à l'aventure, l'un de ces bardes en a même profité pour y élire domicile.",
-      "caption": ""
+      "text": "Des musiciens ambulants qui voyagent aux quatre coins du monde.\n\nLorsqu'ils séjournent dans leurs villes de passage, ils s'arment de leur luth et entonnent des chants relatant les événements récents ou les actes héroïques dont ils ont été témoins.",
+      "caption": "",
+      "public": "ON"
     }
   ],
-  "related": [
-    "repaire-de-cid",
-    "repaire-de-clive",
+  "related": [],
+  "relatedOff": [
     "la-nef-dechue",
     "francastel"
   ]

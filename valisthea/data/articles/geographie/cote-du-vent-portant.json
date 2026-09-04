@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Littoral qui s'étend à l'est de Mysidia.\n\n\nCette côte offre une vue dégagée sur le cap de Nepto et son étonnante Déferlante figée dans le temps. On raconte que ses falaises escarpées auraient été sculptées par les coups de queue du puissant Léviathan lorsqu'il s'est mis en colère il y a quatre-vingts ans.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "deferlante-de-nepto",
     "leviathan",
     "gel-le-sort-darret-du-temps",

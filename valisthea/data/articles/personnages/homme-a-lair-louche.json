@@ -10,26 +10,32 @@
   "pages": [
     {
       "text": "Le chef d'un trio de mineurs qui extraient des cristaux voilés.\n\nOn devine qu'il s'agit d'un jeune homme malgré la coule qui dissimule son identité.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Le chef d'un trio de mineurs qui extraient des cristaux voilés.\n\nIl s'est retrouvé poursuivi par des bandits après avoir tenté d'écouler sa marchandise à Port-Yseut et semble savoir ce qui lie les cristaux voilés à la Tour des Sages.",
-      "caption": "Son lien avec les cristaux voilés"
+      "caption": "Son lien avec les cristaux voilés",
+      "public": "OFF"
     },
     {
       "text": "Le chef d'un trio de trafiquants des cristaux voilés.\n\nIl s'introduisait clandestinement dans la Tour des Sages avec ses comparses Harek et Marnek afin d'extraire les fameux cristaux. L'assombrissement du ciel ayant étrangement accru cette manne, il a décidé de vendre son surplus sur le marché noir.",
-      "caption": "Dans la Tour des Sages"
+      "caption": "Dans la Tour des Sages",
+      "public": "OFF"
     },
     {
       "text": "Le chef d'un trio de trafiquants des cristaux voilés.\n\nIl se servait de ces derniers afin de subvenir aux besoins de son peuple, qui fut autrefois condamné à l'errance par l'expansion du Fléau noir. Clive lui a toutefois ouvert les yeux en lui révélant que les Cristaux-mères sont responsables de ce terrible phénomène. Cette révélation lui a permis d'accepter la destruction du Cristal-mère artificiel, source des cristaux voilés qui avait jusqu'ici tant aidé les siens.",
-      "caption": "Après l'évaporation des cristaux voilés"
+      "caption": "Après l'évaporation des cristaux voilés",
+      "public": "OFF"
     },
     {
       "text": "Le jeune frère de Šuhra, qui a quitté son village pour gagner de l'argent pour son peuple.\n\nIl est rentré chez lui avec ses deux complices après avoir assisté à la destruction des cristaux voilés. Il a aidé à organiser la cérémonie du voyage de l'Eau lors de laquelle il a joué le rôle du père. Futé et éloquent, il sait habilement cacher ses origines et se sortir des mauvais pas. Dans son village, toutefois, il n'ose jamais tenir tête à sa chère grande sœur qui l'a en partie élevé. Il possède la chevelure argentée typique du peuple de l'Eau, mais se teint souvent les cheveux en châtain pour être plus discret lorsqu'il travaille à l'extérieur.",
-      "caption": "En tant que membre de la tribu de l'Eau"
+      "caption": "En tant que membre de la tribu de l'Eau",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "harek",
     "marnek",
     "cristaux-voiles",

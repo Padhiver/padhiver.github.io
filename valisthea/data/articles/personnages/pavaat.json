@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "L'artisan forgeron du village de la tribu de l'Eau.\n\nMalgré des dehors bougons et un naturel taciturne, il est très doué pour son art, et se démène pour réaliser toutes sortes d'armes et d'objets avec les ressources souvent limitées du hameau. Même s'il se montre parfois râleur envers sa femme Wirda, ils s'entendent en fait très bien.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "talol",
     "peuple-de-leau",
     "boutons-de-minnwu",

@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Des dragons de petite taille, mais qui conservent la même facilité à voler que leurs grands frères.\n\nLa sous-espèce des wyrms étant commune à Sangbrèque et relativement domptable, elle est bien souvent incorporée dans les bataillons de l'armée impériale.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "betes-fabuleuses",
     "armee-sangbrequoise",
     "dragons",

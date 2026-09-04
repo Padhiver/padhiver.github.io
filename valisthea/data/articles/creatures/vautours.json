@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Des monstres présents dans tout Valisthéa, qui s'élèvent sombrement dans les cieux.\n\nDotés d'un bec effilé, ces oiseaux se déplacent en groupe en se laissant porter par les vents jusqu'à trouver une carcasse ou de la viande en décomposition dont ils pourront se repaître. Ils font vibrer la poche qu'ils ont sous la gorge pour pousser un cri inquiétant et synonyme de mauvais présage dans de nombreuses contrées.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "monstres",
     "chocobos",
     "raptors",

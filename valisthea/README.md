@@ -291,10 +291,12 @@ Créer un fichier `data/articles/<categorie>/<id>.json` (le nom de fichier = l'`
     {
       "text": "Texte de la fiche. Les sauts de ligne (\\n\\n) créent des paragraphes.",
       "contextImage": "images/articles/mon-article/context.png",
-      "caption": "Légende optionnelle sous l'image"
+      "caption": "Légende optionnelle sous l'image",
+      "public": "ON"
     }
   ],
-  "related": ["autre-fiche-1", "autre-fiche-2"],
+  "related": ["autre-fiche-1"],
+  "relatedOff": ["fiche-en-reserve-1", "fiche-en-reserve-2"],
   "banner": { "id": null, "on": "OFF" }
 }
 ```
@@ -304,9 +306,11 @@ Créer un fichier `data/articles/<categorie>/<id>.json` (le nom de fichier = l'`
 - `order` : entier, plus petit = affiché en premier dans la catégorie. Numérotation continue par catégorie (1, 2, 3… jusqu'au nombre de fiches de cette catégorie) — pas de paliers. Pour insérer une fiche entre deux autres, il faut donc décaler manuellement les `order` suivants dans le dossier de la catégorie. Sans `order`, tri par date puis par titre.
 - `pages` : un tableau. Une seule entrée = pas de liste de chapitres. Plusieurs entrées = la fiche affiche un cadre "Chapitres" dans la colonne de droite, une entrée par page.
 - `caption` : sert de **nom de chapitre** dans cette liste. Sans `caption`, la page s'appelle "Page 1", "Page 2"…
+- `pages[].public` : `"ON"` / `"OFF"` par **page**, même logique que le `public` de la fiche. Une page `"OFF"` est retirée pour les visiteurs (et disparaît de la liste des chapitres) mais reste visible en mode maître. Champ absent = page visible. Si une fiche `"ON"` n'a aucune page visible, le visiteur ouvre une fiche vide — pense à repasser au moins une page en `"ON"` en même temps que la fiche.
 - `text` : si la première ligne est courte (≤ 120 signes) et suivie d'une ligne vide, elle est automatiquement remontée en sous-titre italique sous le nom de la fiche. Le reste devient le corps, affiché en deux colonnes justifiées avec une lettrine.
 - `contextImage` : idéalement un PNG à fond transparent (silhouette, illustration détourée). L'interface applique un fondu dans le coin haut-droit pour l'intégrer au papier, mais une vraie transparence donne un meilleur résultat.
 - `related` : ids d'autres fiches, affichées en bas de la fiche sous "Articles liés". Un lien vers une fiche `OFF` n'apparaît jamais pour un visiteur normal (même en tant que "related" d'une fiche publique).
+- `relatedOff` : **réserve** d'ids liés, entièrement ignorée par le site — l'équivalent d'un bloc en commentaire. Pour activer un lien, déplace son id de `relatedOff` vers `related`. (Pour l'instant, tous les `related` ont été vidés dans `relatedOff` : à toi de remonter au cas par cas ceux que tu veux afficher.)
 - `banner` : optionnel, affiche un pennon en haut à droite **du visuel** de la fiche. `id` référence une entrée de `data/banners.json` ; `on` doit valoir `"ON"` pour l'afficher (sinon `"OFF"` ou absent = rien ne s'affiche, même si `id` est renseigné — pratique pour préparer une bannière sans l'activer tout de suite).
 - Place les images dans `images/articles/<id>/` (dossier libre, à créer).
 
@@ -332,7 +336,7 @@ Liste libre, sans nombre fixe — ajoute/retire des entrées selon ton lore :
 
 Il n'y a **pas** de régénération côté GitHub (plus de workflow qui committe après coup — ça causait des divergences entre le dépôt local et distant). À la place, la régénération se fait en local avant l'envoi, via `publier.bat` (voir ci-dessous).
 
-Le script (`node scripts/build-manifest.js`) valide aussi que chaque fiche a bien `title`, `category`, un `public` correct (`ON`/`OFF`), et que son dossier correspond à sa `category` ; il s'arrête avec un message clair si une fiche est mal formée.
+Le script (`node scripts/build-manifest.js`) valide aussi que chaque fiche a bien `title`, `category`, un `public` correct (`ON`/`OFF`) — y compris le `public` de chaque page —, et que son dossier correspond à sa `category` ; il s'arrête avec un message clair si une fiche est mal formée.
 
 ## Publier les modifications
 
@@ -363,7 +367,7 @@ https://padhiver.github.io/valisthea/?maitre=ta-passphrase
 
 Le mode reste actif ensuite (stocké dans le navigateur). Pour le quitter : cliquer sur "Public", cliquer sur l'indicateur "Mode maître" en bas à droite, ou ouvrir `?maitre=off`.
 
-En mode maître, les fiches `OFF` réapparaissent partout (accueil, grilles, recherche, articles liés) et portent une étiquette rouge "Privé" sur leur vignette.
+En mode maître, les fiches `OFF` réapparaissent partout (accueil, grilles, recherche, articles liés) et portent une étiquette rouge "Privé" sur leur vignette. Les **pages** `OFF` d'une fiche réapparaissent elles aussi (avec leur chapitre) ; le `relatedOff`, lui, reste ignoré même en mode maître (c'est une réserve d'édition, pas du contenu masqué).
 
 ### Ce que voit un visiteur d'une fiche `OFF`
 

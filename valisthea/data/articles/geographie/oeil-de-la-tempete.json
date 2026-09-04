@@ -10,14 +10,17 @@
   "pages": [
     {
       "text": "Un cyclone colossal né de la colère de Garuda.\n\nIl arrache du sol les villages et les maisons alentour, et défigure les reliefs sans difficulté. Lorsque la force d'un Primordial devient incontrôlable, c'est que la fin approche pour son Émissaire.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Un cyclone colossal qui était né de la colère de Garuda.\n\nIl a arraché du sol les villages et les maisons alentour, et défiguré les reliefs sans difficulté. Ses vents se sont apaisés lorsque Benedikta, l'Émissaire de Garuda, a rendu son dernier souffle à l'issue de son ultime combat contre Ifrit.",
-      "caption": "La fin de Garuda"
+      "caption": "La fin de Garuda",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "garuda",
     "incarnation",
     "emissaires",

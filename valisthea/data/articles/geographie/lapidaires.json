@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Un groupe de bandits qui s'est établi à la combe de Lastny, en Dalméquie.\n\nLes Lapidaires exploitaient la misère des réfugiés du marché de Poklad pour les pousser à commettre des méfaits. C'est comme cela qu'ils revendaient au marché noir des biens volés par des enfants des rues et des orphelins.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "marche-de-poklad",
     "honza",
     "theodore-vesta",

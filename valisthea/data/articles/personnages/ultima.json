@@ -10,30 +10,37 @@
   "pages": [
     {
       "text": "Un être surnaturel qui a révélé son existence à Chefdrac, le Cristal-mère sangbréquois.\n\nSes objectifs restent nimbés de mystère, mais il fait référence à Clive sous le nom de Mythos et cherche à en faire un « réceptacle ». Il a bien tenté de fusionner avec lui, mais l'esprit de Clive est parvenu à le repousser. Joshua est alors intervenu et a emprisonné Ultima dans son propre corps.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Un être surnaturel qui provoque des catastrophes et des conflits dans tout Valisthéa.\n\nIl cherche à faire de Clive, ou de Mythos comme il l'appelle, son « réceptacle ». Cependant, l'esprit de sa cible est trop résilient et il tente de l'émousser en brisant les liens qui l'attachent aux autres. En lançant « l'Expurgation », un sort qui transformerait tous les êtres humains en éthériques, il espère isoler Clive pour en faire une proie facile.",
-      "caption": "L'Expurgation"
+      "caption": "L'Expurgation",
+      "public": "OFF"
     },
     {
       "text": "Un être surnaturel et probablement incorporel qui provoque des catastrophes et des conflits dans tout Valisthéa.\n\nIl cherche à faire de Clive, ou de Mythos comme il l'appelle, son « réceptacle ». Pour cela, il compte lui faire absorber le pouvoir de multiples Primordiaux.",
-      "caption": "Entité spirituelle"
+      "caption": "Entité spirituelle",
+      "public": "OFF"
     },
     {
       "text": "Un être surnaturel qui provoque des catastrophes et des conflits dans tout Valisthéa.\n\nIl cherche à faire de Clive, ou de Mythos comme il l'appelle, son « réceptacle ». Barnabas, le souverain valœdois, le considère même comme un dieu.",
-      "caption": "Socle du monde"
+      "caption": "Socle du monde",
+      "public": "OFF"
     },
     {
       "text": "Un des êtres originels qui a fait naître l'humanité et la magie dans ce monde.\n\nIl y a bien longtemps, sa civilisation vivait un âge d'or grâce à sa toute-puissante magie. Cet apogée s'accompagna toutefois de l'arrivée du Fléau noir. Incapable d'endiguer sa progression, Ultima décida de fuir à Valisthéa, où il entreprit de fonder cette fois un monde parfait. À cette fin, il récolta de vastes quantités d'éther grâce aux Cristaux-mères et créa l'humanité ; le terreau où devrait germer son réceptacle, un corps assez puissant pour lui permettre de reprendre forme physique.",
-      "caption": "Dans la fissure interdimensionnelle"
+      "caption": "Dans la fissure interdimensionnelle",
+      "public": "OFF"
     },
     {
       "text": "Un des êtres originels qui a fait naître l'humanité et la magie dans ce monde.\n\nIl y a bien longtemps, sa civilisation vivait un âge d'or grâce à sa toute-puissante magie. Cet apogée s'accompagna toutefois de l'arrivée du Fléau noir, et incapable d'endiguer sa progression, Ultima décida de fuir à l'aide de son vaisseau, le Provenance. Une fois à Valisthéa, il élabora un plan pour lancer « Résurrection », un sort extraordinaire capable de faire revenir à la vie sa civilisation réduite alors à seize copies de lui-même. Toutes ces copies peuvent fusionner et ainsi partager tout leur savoir pour déployer une puissance incommensurable.",
-      "caption": "Révélation"
+      "caption": "Révélation",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "joshua-rosfield",
     "receptacle",
     "typhos",

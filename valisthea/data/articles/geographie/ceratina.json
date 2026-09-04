@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Un ancien hameau situé tout au nord du désert de Velkýroj, qui se trouve lui-même dans la partie ouest de la Dalméquie.\n\nDes groupes de brigands menaçant le relais de Dalimil y avaient élu domicile, mais un épanchement d'éther les a tous changés en éthériques.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "desert-de-velkyroj",
     "bandits",
     "ether-stagnant",

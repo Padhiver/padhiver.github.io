@@ -10,18 +10,22 @@
   "pages": [
     {
       "text": "Un mystérieux personnage encapuchonné qui est apparu lors de l'attaque de Sangbrèque sur le fort Phénix.\n\nClive pense qu'il pourrait s'agir d'un second Émissaire de feu encore inconnu jusqu'ici et le tient pour responsable de la mort de son jeune frère Joshua. Il espère un jour le capturer afin d'assouvir sa vengeance.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Un homme mystérieux, présumé être un Émissaire de feu.\n\nIl apparaît toujours drapé dans une coule dissimulant son visage et accompagné d'une subordonnée. Il semble mû par un objectif précis, mais nul ne saurait le deviner. Clive pense qu'il s'agit de l'Émissaire de feu qu'il cherche et le poursuit sans relâche.",
-      "caption": "Chute de Fort-Norvent"
+      "caption": "Chute de Fort-Norvent",
+      "public": "OFF"
     },
     {
       "text": "Un homme mystérieux que Clive poursuit depuis l'attaque sur le fort Phénix.\n\nClive sait désormais que c'est lui-même qui est responsable de la mort de son frère Joshua, mais il ignore toujours l'identité de celui que lui et Cid ont vu dans L'Œil de la tempête.",
-      "caption": "Émissaire de feu"
+      "caption": "Émissaire de feu",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "emissaires",
     "primordial-mysterieux",
     "attaque-du-fort-phenix",

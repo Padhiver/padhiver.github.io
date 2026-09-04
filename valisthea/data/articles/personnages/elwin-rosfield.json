@@ -10,22 +10,27 @@
   "pages": [
     {
       "text": "L'archiduc de Rosalia, ainsi que le père de Clive et Joshua.\n\nC'est un homme réfléchi, dont l'érudition n'a d'égale que sa connaissance de l'art de la guerre. Il a accompli l'exploit d'apporter paix et stabilité dans le nord du Vert-Ponant et inspire pour cela un profond respect à ses sujets.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "L'archiduc de Rosalia, ainsi que le père de Clive et Joshua.\n\nLe précédent Émissaire de Phénix étant décédé relativement jeune, Elwin est monté sur le trône et est devenu archiduc en attendant l'avènement d'un nouvel Émissaire. Il a fait honneur à son titre en apportant paix et prospérité à Rosalia. Il a aussi dûment accompli son devoir de père en donnant une éducation pleine de sagesse et d'affection à ses deux fils. Respecté et apprécié de ses sujets, il est considéré comme un excellent souverain, étant un humaniste aux idées modernes et un partisan de la paix entre les peuples.",
-      "caption": "L'archiduc de Rosalia"
+      "caption": "L'archiduc de Rosalia",
+      "public": "OFF"
     },
     {
       "text": "L'ultime archiduc de Rosalia, ainsi que le père de Clive et Joshua.\n\nLors de la confusion qui régnait dans l'attaque du fort Phénix, des éléments ennemis qui s'étaient mêlés à ses hommes l'ont assassiné pour le compte de Sangbrèque, signant ainsi la fin de l'archiduché. Connu pour son altruisme et particulièrement pour sa bienveillance envers les Pourvoyeurs, Elwin Rosfield avait réussi à insuffler un esprit de probité à Rosalia, mais ce dernier s'étiole peu à peu depuis sa disparition.",
-      "caption": "L'attaque du fort Phénix"
+      "caption": "L'attaque du fort Phénix",
+      "public": "OFF"
     },
     {
       "text": "L'ultime archiduc de Rosalia qui a trouvé la mort au fort Phénix.\n\nIl fut à l'origine de nombreuses réformes visant à améliorer la condition des Pourvoyeurs et celle de son peuple, devenu trop dépendant à la magie. Il savait néanmoins qu'une génération ne suffirait pas pour atteindre ce noble but, et a donc confié la relève à ses enfants en leur léguant des bracelets assortis afin de renforcer leur lien fraternel. Cette cause lui tenait à cœur car il éprouvait de la compassion envers ses fils et les autres membres de sa famille capables de faire usage de magie ou de se changer en Primordial.",
-      "caption": "Le père"
+      "caption": "Le père",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "clive",
     "joshua-rosfield",
     "terres-du-nord",

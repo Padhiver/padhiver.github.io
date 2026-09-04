@@ -9,11 +9,13 @@
   "source": "base",
   "pages": [
     {
-      "text": "Une guerre vieille de plusieurs siècles qui opposa les Pourvoyeurs aux autres humains.\n\nLes « pourvoyeurs de bonheur » étaient à l'époque érigés en saints grâce à leur magie, mais les sphères dirigeantes voyant leur influence diminuer à vue d'œil les opprimèrent afin de conserver leur statut privilégié. Les Pourvoyeurs furent écrasés par la force du nombre et condamnés à une vie d'esclavage. Quant aux tout-puissants Émissaires qui apparurent ensuite, les aristocrates n'eurent d'autre choix que de desserrer leur carcan en leur offrant des rangs élevés, mais ils continuent de les surveiller de près.",
-      "caption": ""
+      "text": "Une guerre vieille de plusieurs siècles qui opposa les Pourvoyeurs aux autres humains.\n\nLes « pourvoyeurs de bonheur » étaient à l'époque érigés en saints grâce à leur magie, mais les sphères dirigeantes voyant leur influence diminuer à vue d'œil les opprimèrent afin de conserver leur statut privilégié. Les Pourvoyeurs furent écrasés par la force du nombre et condamnés à une vie d'esclavage.",
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "traite-intercontinental",
     "pourvoyeurs",
     "emissaires",

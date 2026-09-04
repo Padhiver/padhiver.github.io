@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Des bêtes aux caractéristiques si hétérogènes qu'on les croirait faites des membres de plusieurs monstres différents.\n\nEn plus d'être féroces et intelligentes, elles peuvent manipuler différentes magies élémentaires. D'autre part, certaines chimères sont de véritables meneuses nées et sont accompagnées de toutes sortes de monstres à leurs ordres. D'une façon générale, ces créatures sont extrêmement rares, mais quelques personnes en ont apparemment aperçu en république de Dalméquie.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "betes-fabuleuses",
     "griffons",
     "coeurls",

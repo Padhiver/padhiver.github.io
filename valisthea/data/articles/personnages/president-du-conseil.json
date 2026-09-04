@@ -10,14 +10,17 @@
   "pages": [
     {
       "text": "L'homme à la tête du Conseil républicain de Dalméquie.\n\nC'est le plus âgé et le plus expérimenté de tous les membres élus du Conseil, mais il peine à exercer son autorité face à l'Émissaire de Titan, Hugo Kupka.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "L'homme à la tête du Conseil républicain de Dalméquie.\n\nParmi tous les membres élus du Conseil, c'est le président dont la parole a le plus de poids. C'est pourquoi sa position est convoitée et faisait l'objet d'intrigues incessantes au sein du Conseil. Le président actuel est porté disparu depuis la chute de la République.",
-      "caption": "Rôle à Randělá"
+      "caption": "Rôle à Randělá",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "conseil-republicain",
     "hugo-kupka",
     "stratege-dalmeque",

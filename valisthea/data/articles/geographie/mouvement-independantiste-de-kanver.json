@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Un mouvement né en l'an 849 du calendrier ponantin sous l'impulsion de marchands fortunés.\n\nAutour des villes libres de Kanvěr, au sud-est de la république de Dalméquie, des commerçants aisés réclamèrent l'indépendance. Ils l'obtinrent en 857, après des années de conflits internes.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "villes-libres-de-kanver",
     "republique-de-dalmequie",
     "garde-de-kanver",

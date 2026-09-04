@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Une région vallonnée dans la partie est du Saint-Empire de Sangbrèque.\n\nEn l'an 873 du calendrier ponantin, le royaume de Valœd s'est introduit en territoire sangbréquois, et c'est au talus de Belenus que les deux armées se sont affrontées.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "conflit-frontalier-de-873",
     "bahamut",
     "odin",

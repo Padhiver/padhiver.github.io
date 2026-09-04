@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Le surnom du chef des Territoires du Nord, Geir Warrick.\n\nSa fille Jill a été confiée à la cour de Rosalia en gage de paix entre les deux pays lorsque son camp a perdu la guerre contre l'Archiduché.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "jill-warrick",
     "elwin-rosfield",
     "terres-du-nord",

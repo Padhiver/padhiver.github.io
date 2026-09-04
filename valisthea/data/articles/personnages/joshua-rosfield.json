@@ -10,38 +10,47 @@
   "pages": [
     {
       "text": "Le second fils de l'archiduc de Rosalia et l'Émissaire de Phénix.\n\nIl s'est très jeune révélé être l'Émissaire du feu, ce qui a fait de lui l'héritier au trône. Il admire par-dessus tout son grand frère Clive qui assure sa protection.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Le second fils de l'archiduc de Rosalia et l'Émissaire de Phénix, ce qui faisait de lui l'héritier au trône.\n\nÉtant devenu héritier très jeune, il possède un grand sens des responsabilités, mais garde un côté enfantin dans certains aspects de son caractère, comme son aversion bien connue pour les carottes. Son père a été tué dans l'attaque sangbréquoise sur le fort Phénix ; un événement traumatisant qui lui a fait perdre le contrôle de ses pouvoirs. Métamorphosé en Phénix, il a ensuite été terrassé par un second Primordial de feu sorti de nulle part.",
-      "caption": "L'attaque du fort Phénix"
+      "caption": "L'attaque du fort Phénix",
+      "public": "OFF"
     },
     {
       "text": "Un homme mystérieux, présumé être un Émissaire de feu, qui apparaît toujours accompagné d'une subordonnée.\n\nIl a pendant un temps été retenu prisonnier par Benedikta à Fort-Norvent, mais a réussi plus tard à profiter de la confusion générale pour s'échapper et refaire surface à différents endroits, comme au fort Phénix ou encore dans le nord du Vert-Ponant.",
-      "caption": "L'homme à la capuche"
+      "caption": "L'homme à la capuche",
+      "public": "OFF"
     },
     {
       "text": "Le second fils de l'archiduc de Rosalia et l'Émissaire de Phénix, ce qui faisait de lui l'héritier au trône avant l'annexion du pays par Sangbrèque.\n\nComme tout le monde, son frère aîné Clive le croit mort dans l'attaque sangbréquoise, pendant laquelle il avait été attaqué par un second Primordial de feu sorti de nulle part. En vérité, Joshua a survécu, mais il dissimule désormais son identité sous une longue coule et se fait appeler Margrace.",
-      "caption": "L'Oiseau immortel"
+      "caption": "L'Oiseau immortel",
+      "public": "OFF"
     },
     {
       "text": "Le second fils de l'archiduc de Rosalia et l'Émissaire de Phénix, ce qui faisait de lui l'héritier au trône avant l'annexion du pays.\n\nComme tout le monde, son frère aîné Clive le croit mort dans l'attaque du fort Phénix, mais Joshua refait surface treize ans plus tard et retrouve Clive à Chefdrac. Là-bas, il protège son aîné qui a perdu connaissance en scellant Ultima dans sa propre poitrine pour ensuite disparaître à nouveau sans laisser de trace.",
-      "caption": "Emprisonnement d'Ultima"
+      "caption": "Emprisonnement d'Ultima",
+      "public": "OFF"
     },
     {
       "text": "Le frère cadet de Clive et l'Émissaire de Phénix.\n\nIl parcourt le monde incognito à la recherche des véritables intentions d'Ultima ; un long voyage qui le place à nouveau sur la route de son frère au Dominion du Cristal.",
-      "caption": "Retrouvailles avec Clive"
+      "caption": "Retrouvailles avec Clive",
+      "public": "OFF"
     },
     {
       "text": "Le second fils de l'archiduc de Rosalia et l'Émissaire de Phénix, ce qui faisait de lui l'héritier au trône avant l'annexion du pays.\n\nIl fut recueilli par les Ailes ardentes après l'attaque sur le fort Phénix il y a dix-huit ans et devint leur suzerain. Il parcourt ensuite le monde incognito à la recherche des véritables intentions d'Ultima, jusqu'à ce qu'il parvienne à le sceller dans sa poitrine afin de sauver son frère Clive. Le pouvoir guérisseur de Phénix ne fait toutefois que tenir en respect cet ennemi mortel.",
-      "caption": "Suzerain des Ailes ardentes"
+      "caption": "Suzerain des Ailes ardentes",
+      "public": "OFF"
     },
     {
       "text": "Le second fils de l'archiduc de Rosalia et l'Émissaire de Phénix, ce qui faisait de lui l'héritier au trône avant l'annexion du pays.\n\nIl a été choisi comme suzerain par l'ordre secret des Ailes ardentes. Fort de ce soutien, il a enquêté sur la véritable nature d'Ultima et l'a finalement empêché d'incarner Ifrit parachevé. Il gardait depuis cet ennemi mortel scellé dans sa poitrine grâce aux pouvoirs de Phénix, mais ne pouvant plus le contenir, il a décidé de tout risquer afin de l'éliminer une bonne fois pour toutes avec l'aide de Clive.",
-      "caption": "Combat contre Ultima"
+      "caption": "Combat contre Ultima",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "emissaires",
     "phenix",
     "titre-de-gardien-de-phenix",

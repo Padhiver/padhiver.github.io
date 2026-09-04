@@ -10,18 +10,22 @@
   "pages": [
     {
       "text": "Des bêtes sauvages et des hommes-bêtes utilisés comme cobayes dans la Tour des Sages.\n\nLa variété des sujets d'expérience semble indiquer qu'ils ont été capturés aux quatre coins de Valisthéa. Aussi vieux que la tour, ces sujets d'expérience ont conservé leur ancienne anatomie, ce qui les rend différents des espèces actuelles. La voix qui contrôle la tour est capable de les libérer de leur stase pour les lâcher contre Clive et ses compagnons. ",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Des bêtes sauvages et des hommes-bêtes utilisés comme cobayes dans la Tour des Sages.\n\nLes Célestes menaient des expériences sur eux dans le cadre de leurs recherches visant à créer un Cristal-mère artificiel, mais la voix qui contrôle la tour s'en sert maintenant pour empêcher Clive et ses compagnons de gravir l'édifice. Certains d'entre eux dans l'étage central ont même des cristaux incrustés dans le corps, preuve qu'ils ont été le sujet de nombreux tests.",
-      "caption": "Recherche intensive"
+      "caption": "Recherche intensive",
+      "public": "OFF"
     },
     {
       "text": "Des bêtes sauvages et des hommes-bêtes utilisés comme cobayes dans la Tour des Sages.\n\nLes expérimentations effectuées sur eux dans le cadre de leurs recherches visant à créer un Cristal-mère artificiel ont mené à la découverte de fibres biologiques ultrarésistantes. Ces dernières ont ensuite servi à développer les armes magitech.",
-      "caption": "Fibres biologiques"
+      "caption": "Fibres biologiques",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "monstres",
     "hommes-betes",
     "voix-de-la-tour-des-sages",

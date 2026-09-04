@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Le puissant royaume qui s'étendait autrefois sur le Gris-Levant.\n\nBarnabas Tharmr le mit à genoux en l'espace d'une seule nuit et règne désormais en maître sur tout le continent.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "roi-de-valoed",
     "odin",
     "royaume-de-valoed",

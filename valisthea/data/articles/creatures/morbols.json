@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "De colossaux monstres végétaux, au nombre incalculable de tentacules.\n\nLes sécrétions qu'ils produisent donnent à leur haleine putride une puanteur propre aux morbols. Ces créatures aiment les climats humides et tempérés, et vivent principalement dans des marécages. Leur présence a été signalée à Rosalia, mais également sur une île de l'ouest ponantin.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "monstres",
     "orties-vampires",
     "fangebrune",

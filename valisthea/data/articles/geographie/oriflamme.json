@@ -10,14 +10,17 @@
   "pages": [
     {
       "text": "La capitale sangbréquoise, située dans une péninsule au nord-est du Vert-Ponant, avec vue sur la baie de l'ollphéist.\n\nElle siège au pied du Cristal-mère de Chefdrac. La ville rassemble de nombreux points d'intérêts, à commencer par le château de Blancheguivre, où siège l'empereur et où se rassemblent les membres du Conseil des Patriarches. Oriflamme accueille aussi de nombreuses institutions étatiques.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Une ville au nord-est du Vert-Ponant, qui était autrefois la capitale du Saint-Empire de Sangbrèque.\n\nEn l'an 873 du calendrier ponantin, après la destruction du Cristal-mère de Chefdrac par l'organisation de Cid, la capitale sangbréquoise a mis en application son plan établi en secret et s'est installée au Dominion du Cristal. Oriflamme n'était alors plus que l'ombre d'elle-même, en partie parce qu'elle ne profitait plus de bienfaits de son Cristal-mère. ",
-      "caption": "Destruction de Chefdrac"
+      "caption": "Destruction de Chefdrac",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "saint-empire-de-sangbreque",
     "chateau-de-blancheguivre",
     "chefdrac",

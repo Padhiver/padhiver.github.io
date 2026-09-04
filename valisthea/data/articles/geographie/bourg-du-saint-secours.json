@@ -10,14 +10,17 @@
   "pages": [
     {
       "text": "Une localité proche de Port-Yseut, dans le sud-ouest de la province impériale de Rosalia.\n\nJadis lieu de villégiature pour la noblesse de l'ancien archiduché de Rosalia, le luxe et l'opulence y régnaient. Après l'annexion par le Saint-Empire de Sangbrèque, le quartier a été réquisitionné par l'armée mais celle-ci ayant quitté les lieux, il ne reste plus qu'un faubourg mal famé que les gens évitent.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Une localité proche de Port-Yseut, dans le sud-ouest de la province impériale de Rosalia.\n\nJadis lieu de villégiature pour la noblesse de l'ancien archiduché de Rosalia, c'était une porte d'entrée florissante sur le port. Après l'annexion par l'armée sangbréquoise suivie de son retrait, le faubourg est devenu le quartier général des Gardiens de l'Étincelle qui se font passer pour des brigands. Toute la zone a cependant été engloutie par de l'éther stagnant, la rendant inhabitable.",
-      "caption": "Ravagé par l'éther stagnant"
+      "caption": "Ravagé par l'éther stagnant",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "port-yseut",
     "gardiens-de-letincelle",
     "wade",

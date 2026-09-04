@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Un monastère situé au centre de la province impériale de Rosalia à proximité de la Crique des tourments.\n\nIl a été construit à la suite de l'annexion de l'archiduché de Rosalia par le Saint-Empire de Sangbrèque, pour propager la doctrine liée à la déesse Gwéligore. C'est de ce fait, un des rares édifices à architecture sangbréquoise de la région.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "auberge-de-martha",
     "protection-des-pourvoyeurs",
     "petrification",

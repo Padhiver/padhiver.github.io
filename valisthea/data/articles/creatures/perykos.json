@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Un être magique créé par Waleas, l'Émissaire de Léviathan.\n\nCette créature, ou Egi, est recouverte d'écailles de poisson et est munie de nageoires rappelant celles des mammifères marins. Elle possède aussi de sortes d'ailes qui lui permettent de manipuler l'eau et même de voler. Elle a fait son apparition des bulles d'eau environnantes lorsque Clive s'est approché de Waleas, comme une réaction de défense de sa part.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "entites-magiques",
     "emissaire-de-leau",
     "thalaos",

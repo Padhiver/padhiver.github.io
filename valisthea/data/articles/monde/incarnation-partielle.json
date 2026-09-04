@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Une capacité spéciale qu'ont les Émissaires à stopper à mi-chemin leur transformation en Primordial.\n\nIls bénéficient ainsi d'une partie de leur pouvoir sans pour autant s'épuiser en consommant trop d'éther. Les changements varient selon les personnes, mais ils sont souvent radicaux.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "magie",
     "incarnation",
     "emissaires",

@@ -10,14 +10,17 @@
   "pages": [
     {
       "text": "L'armée régulière du royaume de Valœd, également appelée ordre royal des Chevaliers.\n\nSi le roi Barnabas en est le chef déclaré, son commandement effectif revient généralement au chef de l'ordre. En parallèle, il existe aussi un corps d'espionnage qui effectue des missions discrètes dans tout Valisthéa.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "L'armée régulière du royaume de Valœd, également appelée ordre royal des Chevaliers.\n\nLe roi Barnabas, sous l'influence d'Ultima, y a incorporé des Orcs, qu'il a envoyés attaquer les différentes nations du Vert-Ponant. Après l'Expurgation, la plupart des soldats valœdois ont été changés en éthériques. Rompant les rangs et n'obéissant qu'à leur instinct meurtrier, ces derniers ont, de fait, sonné le glas de la puissante armée royale.",
-      "caption": "Alliance avec les Orcs"
+      "caption": "Alliance avec les Orcs",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "haut-grade-valoedois",
     "roi-de-valoed",
     "corps-despionnage-valoedois",

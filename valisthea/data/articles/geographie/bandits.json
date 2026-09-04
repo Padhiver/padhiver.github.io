@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Les parasites qui ponctionnent marchands et voyageurs pour combler leurs désirs.\n\nIls rôdent généralement près des chemins de traverse ou sur le bord des routes non surveillées, là où le couperet de la justice ne saurait les atteindre. Ils sont les plus dangereux en bande, quand leur nombre leur inspire l'audace de convoiter des proies plus grosses, et pillent parfois des villages entiers à la recherche de matériel et de vivres. On les croise aussi dans les hameaux à l'abandon qu'ils aménagent souvent en repaire.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "lapidaires",
     "bourg-du-saint-secours",
     "officier-du-corps-despionnage-valoedois",

@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "La responsable du comptoir des récompenses, où les alliés de Cid peuvent faire parvenir leurs dons.\n\nElle était encore enfant lorsqu'elle a été secourue et recueillie dans l'ancien Repaire. C'est là-bas qu'elle a appris à lire et à écrire, ce qui lui permet aujourd'hui de remplir aussi le rôle de scribe en recopiant les messages qui arrivent par stolas. Elle est capable de se montrer joviale même dans les pires circonstances, une qualité qui, alliée à un doux sourire, ne manque jamais de remonter le moral des gens qui la croisent. ",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "gauthier",
     "lettres",
     "pourvoyeurs",

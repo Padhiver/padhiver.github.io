@@ -155,6 +155,12 @@ const EanaOverlay = (() => {
 
     if (resetPage) overlayPageIndex = 0;
 
+    // Pages masquées ("public": "OFF") retirées ici : la navigation par
+    // chapitres et l'affichage travaillent sur la même liste filtrée, donc
+    // l'index d'un bouton de chapitre pointe toujours la bonne page.
+    const pages = (article.pages || []).filter(EanaData.isPageVisible);
+    if (overlayPageIndex >= pages.length) overlayPageIndex = 0;
+
     const category = EanaData.getCategory(article.category);
     const related = (article.related || [])
       .map((rid) => EanaData.getManifestEntry(rid))
@@ -163,7 +169,7 @@ const EanaOverlay = (() => {
       ? EanaData.getBanner(article.banner.id)
       : null;
 
-    const renderOpts = { article, category, page: overlayPageIndex, related, banner };
+    const renderOpts = { article, category, page: overlayPageIndex, related, banner, pages };
     const openPanel = overlayRoot.querySelector("#article-overlay .article-panel");
 
     // Un panneau est déjà ouvert (article lié cliqué depuis une fiche, ou

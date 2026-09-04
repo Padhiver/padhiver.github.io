@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Les recherches pour cultiver des plantes en zone dévastée par le Fléau noir.\n\nDans l'ancien Repaire, Bohumil et son assistante Marielle ont réussi à produire des fruits au milieu des Terres mortes, dans un environnement où c'était en théorie impossible. Après leurs morts, les chercheurs du nouveau Repaire ont repris le flambeau et sont parvenus à obtenir les doux fruits dont Marielle rêvait grâce au système de purification d'eau inventé par Mid. Ils ont désormais un magnifique Jardinet avec des plantes en plein air.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "terres-mortes",
     "marielle",
     "nigel",

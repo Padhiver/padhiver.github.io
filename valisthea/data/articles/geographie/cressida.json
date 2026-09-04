@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Un village abandonné proche de l'Auberge de Martha, au centre de la province impériale de Rosalia.\n\nSuite à l'annexion de Rosalia et l'avancée du Fléau noir, les résidents ont dû le quitter pour fuir la pauvreté, et certains se sont installés près du hameau de l'auberge. Les ruines du village sont désormais occupées par des monstres et des brigands.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "auberge-de-martha",
     "bernard",
     "monstres",

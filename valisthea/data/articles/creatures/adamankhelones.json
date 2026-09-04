@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "De grandes bêtes de l'ordre des testudines, possédant une carapace.\n\nCes colossales créatures sont recouvertes d'une lourde carapace sur laquelle croît une végétation hétéroclite. Au moindre signe de danger, elles rentrent les parties exposées de leur corps dans cette épaisse enveloppe et se préparent au combat en se mettant à tourner sur elles-mêmes. On les trouve surtout aux abords des cours d'eau et près des étangs.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "betes-fabuleuses",
     "morbols",
     "joncheres",

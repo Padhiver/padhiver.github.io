@@ -10,18 +10,22 @@
   "pages": [
     {
       "text": "Un sort extraordinaire lancé par Ultima.\n\nC'est à cause de lui si le ciel valisthéen n'est plus comme avant.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Un sort extraordinaire lancé par Ultima.\n\nIl a d'abord obscurci le ciel de tout Valisthéa, mais ses effets se sont révélés bien plus pervers. Depuis, la magie des cristaux a commencé à s'étioler. Sans ce rempart contre l'avancée du Fléau noir, les poches d'éther stagnant ne cessent de se multiplier, transformant les êtres vivants en éthériques et faisant surgir des monstres luisant d'une inquiétante lumière bleue, qui sèment le chaos dans le monde entier.",
-      "caption": "Ses conséquences chaotiques"
+      "caption": "Ses conséquences chaotiques",
+      "public": "OFF"
     },
     {
       "text": "Un sort extraordinaire lancé par Ultima dans le but de transformer tous les êtres humains en éthériques.\n\nIl a d'abord obscurci le ciel de tout Valisthéa, mais ses effets se sont révélés bien plus pervers. Depuis, la magie des cristaux a commencé à s'étioler, favorisant l'apparition d'éthériques et des sbires d'Ultima. ",
-      "caption": "Révélation"
+      "caption": "Révélation",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "ultima",
     "lien-spirituel",
     "port-gemeau",

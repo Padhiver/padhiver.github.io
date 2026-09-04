@@ -10,24 +10,28 @@
   "pages": [
     {
       "text": "Une des alliées de Cid.\n\nC'est une soigneuse très qualifiée, capable de s'occuper des patients dans un Repaire situé au milieu des Terres mortes. C'est à elle qu'a été confiée la lourde tâche de remettre Jill sur pied après la bataille au défilé de Nýsa. Son rôle ne se limite pas à fournir des traitements, puisqu'elle prodigue des conseils avisés à ses alliés. Ceux-ci n'hésitent d'ailleurs pas à se tourner vers elle en cas de besoin.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Le médecin du nouveau Repaire.\n\nTarja est une précieuse conseillère pour Clive, qui a pris la relève de Cid. Elle a mis au point une technique pour retirer la marque tatouée sur la joue des Pourvoyeurs, en multipliant les tentatives sur sa propre personne.",
-      "caption": "Marque et ablation"
+      "caption": "Marque et ablation",
+      "public": "OFF"
     },
     {
       "text": "Le médecin du nouveau Repaire.\n\nTarja est une ancienne infirmière militaire qui travaillait dans les îles du sud. C'est ainsi qu'elle a rencontré son mentor, un autre Pourvoyeur qui soignait les blessés sans faire appel à la magie. Sans lui, elle ne serait jamais devenue la personne qu'elle est aujourd'hui. Elle l'a retrouvé bien plus tard au Repaire, par hasard. Il avait alors atteint le stade terminal du mal cristallin et son corps était entièrement pétrifié. Tarja a fait son possible pour qu'il s'éteigne sans trop souffrir.",
-      "caption": "Médecin de choix"
+      "caption": "Médecin de choix",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "jill-warrick",
     "cid",
     "protection-des-pourvoyeurs",
     "repaire-de-cid",
     "suppression-de-la-marque",
-    "marque",
+    "stigmate",
     "massacre-du-repaire",
     "repaire-de-clive",
     "rodrigue",

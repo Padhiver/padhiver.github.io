@@ -10,26 +10,32 @@
   "pages": [
     {
       "text": "Un souverain du nom de Barnabas Tharmr.\n\nSa présence digne et majestueuse impressionne ceux qui osent s'opposer à lui.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Le roi de Valœd et l'Émissaire d'Odin.\n\nTout en étant un souverain à l'allure digne et majestueuse, il fait des ravages sur les champs de bataille sous la forme d'Odin. Il a affronté lui-même Bahamut, le Primordial de Sangbrèque, en menant ses troupes au front lors de la Campagne de Belenus.",
-      "caption": "La campagne de Belenus"
+      "caption": "La campagne de Belenus",
+      "public": "OFF"
     },
     {
       "text": "Le roi de Valœd et l'Émissaire d'Odin.\n\nIl avait pour habitude de s'impliquer dans tous les conflits de Valisthéa mais ces dernières années, il se contente d'observer les tensions depuis sa lointaine contrée.",
-      "caption": "Après la chute du Dominion du Cristal"
+      "caption": "Après la chute du Dominion du Cristal",
+      "public": "OFF"
     },
     {
       "text": "Le roi de Valœd et l'Émissaire d'Odin.\n\nIl a unifié les différentes ethnies du Gris-Levant à la force de son Primordial Odin et réduit en cendres la grande puissance qu'était son pays ennemi, le royaume de Weldermark, en une nuit.",
-      "caption": "Odin"
+      "caption": "Odin",
+      "public": "OFF"
     },
     {
       "text": "Le roi de Valœd et l'Émissaire d'Odin.\n\nFervent disciple du Cercle de Malius et descendant d'un peuple venu à Valisthéa des continents extérieurs, il cherchait désespérément à éveiller les pouvoirs cachés de Clive, se pliant à la volonté d'Ultima. Suite à un violent combat face à Clive à la Tour des songes, il parvient à transmettre ses pouvoirs d'Odin à son adversaire avant de trépasser. ",
-      "caption": "Épilogue"
+      "caption": "Épilogue",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "pourparlers-de-zirnitra",
     "benedikta-harman",
     "haut-grade-valoedois",

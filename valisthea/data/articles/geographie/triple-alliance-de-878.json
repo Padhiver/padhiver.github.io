@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Une alliance conclue à Port-Yseut en 878 à l'initiative de Byron Rosfield.\n\nL'impuissance des gouvernements des trois états du Vert-Ponant a créé une instabilité historique. Afin d'assurer un avenir pérenne au plus grand nombre, Byron propose d'utiliser son expérience commerciale contre les pénuries. Il recrute également Eugen Havel pour stabiliser la situation militaire et Quentin de La Nef déchue pour convaincre le peuple et ses dirigeants du bien-fondé de cette initiative. Les trois hommes étant respectivement issus de Rosalia, de Dalméquie et de Sangbrèque, il paraît évident de reprendre le nom de l'alliance qui unissait autrefois leurs trois pays.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "byron-rosfield",
     "stratege-dalmeque",
     "quentin",

@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Une recrue récente des Lames de pierre.\n\nIl désire devenir éclaireur à l'instar de Gab qu'il admire. Son test d'aptitude n'est pas concluant, mais il est néanmoins accepté comme apprenti grâce à un potentiel indéniable.",
-      "caption": "Première apparition"
+      "caption": "Première apparition",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "gab",
     "lames-de-pierre",
     "pourvoyeurs",

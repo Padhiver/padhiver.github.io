@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Une milice chargée de la protection des Villes libres de Kanvěr.\n\nElle est composée de mercenaires payés par des groupes de marchands pour pallier l'absence d'armée régulière dans une cité-État qui, revendiquant sa neutralité, ne saurait posséder plus qu'une simple force d'autodéfense.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "villes-libres-de-kanver",
     "kanver",
     "corporation-de-saint-gilbert-patron-des-marchands",

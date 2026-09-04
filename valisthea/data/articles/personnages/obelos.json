@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Le batelier du Repaire.\n\nIl connaît Otto depuis très longtemps. C'est à l'occasion de la reconstruction du Repaire qu'il devient un compagnon de Clive et des siens.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "lac-benou",
     "otto",
     "clive",

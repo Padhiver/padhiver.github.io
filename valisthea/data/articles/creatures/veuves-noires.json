@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Des arthropodes qui s'approchent doucement de leurs proies.\n\nLes veuves noires attaquent en projetant sur leurs victimes un liquide collant ou en utilisant leurs pattes pourvues de crochets. Elles peuvent ramper sur n'importe quelle surface, des rochers d'une falaise au plafond d'un bâtiment, si bien que de nombreuses personnes affirment en avoir vu apparaître devant elles comme si l'animal était tombé du ciel. Leur présence a été signalée à de nombreuses reprises dans différentes contrées de Valisthéa, mais elles se font plus rares dans les déserts et les régions tropicales.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "monstres",
     "scorpions",
     "frelons",

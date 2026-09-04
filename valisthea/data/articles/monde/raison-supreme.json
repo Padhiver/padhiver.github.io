@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Une loi immuable de ce monde.\n\nPour Ultima, qui estime être le dieu créateur de ce monde, il s'agit d'une façon de parler de lui-même.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "creation-dun-nouveau-monde",
     "monde-veritable",
     "ancienne-fresque",

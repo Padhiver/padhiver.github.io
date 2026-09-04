@@ -2,7 +2,7 @@
   "id": "cristaux",
   "title": "Les cristaux",
   "category": "monde",
-  "public": "OFF",
+  "public": "ON",
   "date": "2026-08-08",
   "order": 59,
   "cardImage": "images/placeholders/emblem-monde.svg",
@@ -10,22 +10,22 @@
   "pages": [
     {
       "text": "Un outil permettant de faire appel à la magie, même sans disposition innée.\n\nLes cristaux fonctionnent en extrayant l'éther environnant afin de lancer des sorts élémentaires en tout genre. Ils se fragilisent toutefois à chaque utilisation et finissent par tomber en morceaux. Leur distribution est réglementée par les gouvernements de chaque nation, car ils sont considérés comme indispensables à la vie quotidienne à Valisthéa.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "ON"
     },
     {
       "text": "Un outil permettant de faire appel à la magie, même sans disposition innée.\n\nLes cristaux fonctionnent en extrayant l'éther environnant afin de lancer des sorts élémentaires en tout genre. Cette précieuse ressource est d'ordinaire réglementée par les gouvernements de chaque nation, mais comme tout ce qui est rare et cher, on peut dénicher ces minéraux sur les marchés noirs. Toutefois, la garde veille, et seuls les commerçants les plus téméraires risquent leur vie dans ces transactions juteuses.",
-      "caption": "Sur le marché noir"
-    },
-    {
-      "text": "Un outil permettant de faire appel à la magie, même sans disposition innée.\n\nLes cristaux fonctionnent en extrayant l'éther environnant afin de lancer des sorts élémentaires en tout genre. L'efficacité des plus gros, et même des plus petits par endroit, a malheureusement commencé à baisser depuis qu'Ultima a lancé l'Expurgation et que le ciel s'est assombri. Une conséquence dramatique pour la population qui dépendait de leurs bienfaits.",
-      "caption": "Conséquences de l'Expurgation"
-    },
-    {
-      "text": "Un outil permettant de faire appel à la magie même sans disposition innée.\n\nLes cristaux fonctionnent en extrayant l'éther environnant afin de lancer des sorts élémentaires en tout genre. Ils sont malheureusement devenus inutilisables dans la plupart des régions du monde depuis qu'Ultima a lancé l'Expurgation. En conséquence, les différents gouvernements ont cessé de les distribuer à leurs citoyens, mais nombreux sont ceux et celles qui dépendaient de leur miraculeuse magie pour survivre, et le peuple cherche plus que jamais à s'en procurer par tous les moyens.",
-      "caption": "À la poursuite des cristaux"
+      "caption": "Sur le marché noir",
+      "public": "ON"
     }
   ],
   "related": [
+    "cristaux-meres",
+    "ether",
+    "cristaux-geants",
+    "petits-cristaux"
+  ],
+  "relatedOff": [
     "cristaux-meres",
     "ether",
     "cristaux-geants",

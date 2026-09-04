@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Un hameau qui s'est développé autour d'une auberge, situé dans le sud-est de la province impériale de Rosalia.\n\nBâti en hauteur dans une zone marécageuse, le village se compose de l'auberge proprement dite, autour de laquelle ont été dressées quelques constructions, dont des baraquements et un marché. Depuis que la région a été annexée par Sangbrèque, l'Auberge de Martha représente un havre de paix pour les Rosaliens qui ont connu des jours meilleurs.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "joncheres",
     "martha",
     "annexion-de-rosalia",

@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Une ville minière située dans la partie sud du\n\nGris-Levant. On y trouve des filons d'adamantite, un minerai à la dureté élevée, et des ressources en abondance, qui ont souvent fait l'objet de conflits avec les Orcs. Les mines ont cependant fermé du fait de l'avancée du Fléau noir ces dernières années.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "adamantite",
     "orcs",
     "terres-mortes",

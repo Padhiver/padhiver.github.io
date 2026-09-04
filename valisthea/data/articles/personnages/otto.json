@@ -10,18 +10,22 @@
   "pages": [
     {
       "text": "Un partisan de Cid.\n\nC'est un personnage central du Repaire, et il s'occupe de tout en l'absence de Cid car celui-ci a une fâcheuse tendance à s'éclipser en lui laissant les tâches ingrates. Tous ses camarades ont une totale confiance en lui.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "L'homme à tout faire du Repaire.\n\nIl s'occupait de tout ce qui était administratif et relationnel en l'absence de Cid dans l'ancien Repaire. Il en va de même dans le nouveau, où il soutient Clive et les siens dans leur cause.",
-      "caption": "Après la reconstruction du Repaire"
+      "caption": "Après la reconstruction du Repaire",
+      "public": "OFF"
     },
     {
       "text": "L'homme à tout faire du Repaire.\n\nC'est à l'époque où il travaillait encore comme marin qu'il s'est lié d'amitié avec Cid qui était alors le commandant en chef des Chevaliers royaux valœdois. Lorsque son fils, avéré Pourvoyeur, lui a été enlevé par les autorités, Cid a fait preuve de compassion et a essayé de le réconforter. Ils partagent depuis une confiance mutuelle et une cause commune à travers le Repaire.",
-      "caption": "Lien avec Cid"
+      "caption": "Lien avec Cid",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "cid",
     "tarja",
     "protection-des-pourvoyeurs",

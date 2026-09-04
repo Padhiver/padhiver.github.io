@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Un hameau situé au sud du royaume de Valœd.\n\nLa plupart de ses habitants d'origine l'avaient quitté, mais un cercle de croyants venus de divers horizons s'y est formé autour d'un culte de la salvation. Le troisième Prévôt de l'ordre des Ailes ardentes a été envoyé en mission pour enquêter sur ce groupe. Ses fidèles étaient convaincus que devenir éthérique était la forme ultime de salut. L'éther stagnant qui rongeait le village a exaucé leur vœu.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "ordre-des-ailes-ardentes",
     "culte-messianique-levantin",
     "remanences-celestes",

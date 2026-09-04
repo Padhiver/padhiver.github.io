@@ -10,14 +10,17 @@
   "pages": [
     {
       "text": "La plus haute autorité législative et exécutive de la république de Dalméquie.\n\nComposé de sept membres, le Conseil décide des grandes orientations politiques et vote les lois importantes. Hugo Kupka, l'Émissaire de Titan, y siège en tant que conseiller à l'Économie et dispose d'une influence disproportionnée qu'il cherche à étendre.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "La plus haute autorité législative et exécutive de la république de Dalméquie.\n\nComposé de sept membres, le Conseil décide des grandes orientations politiques et vote les lois importantes. Hugo Kupka y siégeait en tant que conseiller à l'Économie et disposait d'une influence disproportionnée jusqu'à sa mort à Crocdrac. Le Conseil a désormais la tâche ardue de diriger un pays en désarroi, privé de son Émissaire et de son Cristal-mère.",
-      "caption": "Chute de la Dalméquie"
+      "caption": "Chute de la Dalméquie",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "republique-de-dalmequie",
     "president-du-conseil",
     "hugo-kupka",

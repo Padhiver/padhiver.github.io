@@ -10,18 +10,22 @@
   "pages": [
     {
       "text": "Des dispositifs servant à projeter le sort du Mirage.\n\nIls se trouvent placés en différents endroits dans la région de Mysidia, pour dissimuler celle-ci. Ces sources sont des colonnes de pierre légèrement plus grandes qu'un adulte, et au sein desquelles se trouvent encastrés des cristaux.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Des dispositifs servant à projeter le sort du Mirage.\n\nIls se trouvent placés en différents endroits dans la région de Mysidia, pour dissimuler celle-ci. Ces sources sont des colonnes de pierre légèrement plus grandes qu'un adulte, au sein desquelles se trouvent encastrés des cristaux qui doivent être remplacés régulièrement. Ce sont les Pourvoyeurs du village, versés en magie, qui s'occupent de leur entretien.",
-      "caption": "Maintien du mirage par des Pourvoyeurs"
+      "caption": "Maintien du mirage par des Pourvoyeurs",
+      "public": "OFF"
     },
     {
       "text": "Des dispositifs servant à projeter le sort du Mirage.\n\nIls se trouvent placés en différents endroits dans la région de Mysidia, pour dissimuler celle-ci. Ces colonnes de pierre renferment des cristaux voilés qui doivent être régulièrement remplacés par des Pourvoyeurs. La Tour des Sages ayant disparu, on est en droit de penser qu'il sera difficile de maintenir le Mirage sur le long terme.",
-      "caption": "Utilisation des cristaux voilés"
+      "caption": "Utilisation des cristaux voilés",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "cristaux",
     "mirage",
     "magie",

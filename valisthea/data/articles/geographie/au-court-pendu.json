@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Une auberge située à La Nef déchue.\n\nLe propriétaire est Quentin, un mécène que tous les habitants considèrent comme leur chef. L'enseigne de l'établissement représente un homme pendu par les pieds. On y sert de l'alcool et des collations. Afin de trouver les fonds nécessaires à la bonne marche du hameau, Quentin cherche des marchands pour vendre le vin produit sur ses terres entre autres activités.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "la-nef-dechue",
     "quentin",
     "partisans-du-repaire",

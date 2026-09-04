@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Le nouveau monde qu'Ultima veut créer.\n\nTous les membres du Cercle de Malius, jusqu'à Barnabas Tharmr lui-même, croient qu'ils accéderont au monde véritable où les attend une vie de calme et de plénitude, sans comprendre leur méprise. Le seul but d'Ultima, qui est arrivé à Valisthéa pour fuir une première incidence du Fléau noir, est de créer un nouvel ordre pour lui et lui seul. L'avènement de son nouveau monde s'accompagnera de la destruction de l'humanité tout entière, qui n'était qu'un instrument dans ce processus.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "ultima",
     "roi-de-valoed",
     "culte-messianique-levantin",

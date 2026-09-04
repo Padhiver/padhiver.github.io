@@ -93,6 +93,13 @@ const EanaData = (() => {
     return article.public === "ON" || isMasterActive();
   }
 
+  // Visibilité d'une page de fiche. Même principe que la fiche : "OFF" la
+  // cache aux visiteurs, le mode maître la montre quand même. Une page sans
+  // champ "public" reste visible (compat ascendante).
+  function isPageVisible(page) {
+    return !page || page.public !== "OFF" || isMasterActive();
+  }
+
   async function init() {
     [categories, manifestArticles, banners] = await Promise.all([
       fetchJson("data/categories.json"),
@@ -181,6 +188,7 @@ const EanaData = (() => {
     getManifestEntry,
     getArticleFull,
     isVisible,
+    isPageVisible,
     isMasterActive,
     tryActivateMaster,
     deactivateMaster,

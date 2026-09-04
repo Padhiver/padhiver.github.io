@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Des chutes immenses dans l'ouest de Sangbrèque.\n\nToutes les sources et les cours d'eau de la région, à commencer par ceux de la Grande Sylve au sud, confluent et viennent former les chutes régaliennes avant de poursuivre leur route vers le bord de mer rosalien. Les hommes bénéficiaient autrefois des riches ressources que ces eaux leur apportaient, mais le nombre croissant de monstres dans la zone l'a rendue difficile d'accès.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "gab",
     "grande-sylve",
     "archiduche-de-rosalia",

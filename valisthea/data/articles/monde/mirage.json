@@ -10,22 +10,27 @@
   "pages": [
     {
       "text": "Un sort d'illusion transmis au sein du peuple de l'Eau depuis plusieurs générations.\n\nCet artifice permet d'étirer l'éther pour modifier l'apparence extérieure et intérieure d'un grand espace. La tribu de l'Eau a fait appel à une version immense de ce sort pour dissimuler la région de Mysidia. Aux yeux de ceux qui l'observent de dehors, la zone semble engloutie par le Fléau noir. Lorsque l'on traverse les limites du Mirage, on ressent un trouble de la vue qui donne une sensation de malaise.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Un sort d'illusion transmis au sein du peuple de l'Eau depuis plusieurs générations.\n\nCet artifice permet d'étirer l'éther pour modifier l'apparence extérieure et intérieure d'un grand espace. La tribu de l'Eau a fait appel à une version immense de ce sort pour dissimuler la région de Mysidia. Aux yeux de ceux qui l'observent de dehors, la zone semble engloutie par le Fléau noir. À l'intérieur du Mirage, le ciel apparaît bleu comme s'il ne s'était jamais assombri.",
-      "caption": "Un ciel transformé"
+      "caption": "Un ciel transformé",
+      "public": "OFF"
     },
     {
       "text": "Un sort d'illusion transmis au sein du peuple de l'Eau depuis plusieurs générations.\n\nCet artifice permet de modifier l'apparence extérieure et intérieure d'un grand espace. La tribu de l'Eau s'en sert depuis longtemps pour échapper aux tribus barbares, mais a ensuite développé une version à grande échelle du sort pour dissimuler la région de Mysidia après l'incident avec Léviathan. Des piliers servant à tendre le sort, appelés sources, sont placés un peu partout dans la forêt, et les pourvoyeurs du village se chargent de les entretenir.",
-      "caption": "Histoire ancienne"
+      "caption": "Histoire ancienne",
+      "public": "OFF"
     },
     {
       "text": "Un sort d'illusion transmis au sein du peuple de l'Eau depuis plusieurs générations.\n\nCet artifice permet de modifier l'apparence extérieure et intérieure d'un grand espace. La tribu de l'Eau s'en sert depuis longtemps pour dissimuler la région de Mysidia en utilisant des sources alimentées par des cristaux voilés. Ces derniers provenaient de la Tour des Sages et il est désormais impossible d'en trouver de nouveaux. Le peuple de l'Eau s'attend donc à ce qu'il ne soit plus possible de maintenir le Mirage à terme.",
-      "caption": "Utilisation des cristaux voilés"
+      "caption": "Utilisation des cristaux voilés",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "vin-de-bacchus",
     "terres-mortes",
     "peuple-de-leau",

@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Les gens qui coopèrent avec Cid en apportant leur soutien au Repaire.\n\nComme Cid, beaucoup remettent en question la façon dont sont traités les Pourvoyeurs dans ce monde. Ils fournissent leur aide par conviction ou pour des intérêts communs. Ils communiquent leurs informations par stolas de tout Valisthéa et contribuent à secourir des Pourvoyeurs en détresse ou bien apportent une aide financière.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "protection-des-pourvoyeurs",
     "cid",
     "broches",

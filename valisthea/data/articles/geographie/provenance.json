@@ -10,14 +10,17 @@
   "pages": [
     {
       "text": "Un vestige qui dormait dans les terres du Dominion du Cristal.\n\nUltima l'a activé lorsque l'étape finale de son plan s'est mise en marche. Le Provenance a alors déchiré la terre et s'est élevé dans les cieux. L'objet est comme recouvert d'une croûte noire, et a globalement la forme d'un Cristal-mère.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Un vestige qui dormait dans les terres du Dominion du Cristal.\n\nIl s'agit en fait de l'ancien vaisseau mère des Ultimiens, qui leur a d'ailleurs servi à voyager jusqu'à Valisthéa. Il est resté en sommeil, le temps que le plan qu'Ultima réservait au monde atteigne sa phase finale.",
-      "caption": "Révélation"
+      "caption": "Révélation",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "ultima",
     "cristaux-meres",
     "iles-de-la-croisee",

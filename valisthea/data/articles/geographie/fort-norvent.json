@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Un fort érigé dans le centre sud du Saint-Empire de Sangbrèque, dans un endroit stratégique tout juste au sud d'Oriflamme, la capitale impériale.\n\nL'édifice compte parmi les plus prééminents de l'Empire. Il comprend de petits quartiers résidentiels, une chapelle, des oubliettes, des réserves alimentaires et certaines particularités qui lui permettraient de résister à un siège.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "plaine-de-la-glorieuse",
     "val-norvent",
     "corps-despionnage-valoedois",

@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Un château construit à l'intérieur du Cristal-mère de Crocdrac, au sud-ouest de la république de Dalméquie.\n\nÉgalement quartier général de Hugo Kupka, l'Émissaire de Titan, la citadelle renferme une décoration intérieure composée d'objets au luxe flamboyant.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "hugo-kupka",
     "titan",
     "republique-de-dalmequie",

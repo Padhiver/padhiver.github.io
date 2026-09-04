@@ -10,22 +10,27 @@
   "pages": [
     {
       "text": "Une peinture murale dessinée il y a bien longtemps.\n\nL'auteur, la date et la raison de sa création sont encore inconnus à ce jour, mais une silhouette divine se dresse en son centre et il s'en dégage une austérité liturgique. Cette fresque se trouve dans le Sacrarium du fort Phénix.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Une peinture murale liturgique dessinée il y a bien longtemps.\n\nLa silhouette en son centre serait vraisemblablement Ultima, figuré comme une entité divine. Ce sujet serait représenté dans différentes contrées, à commencer par le Sacrarium du fort Phénix, mais également dans le temple souterrain de Souffledrac ou à Tábor.",
-      "caption": "Fresque liturgique"
+      "caption": "Fresque liturgique",
+      "public": "OFF"
     },
     {
       "text": "Une œuvre liturgique relative au maliusianisme, la plus ancienne des religions connues, qui vouait un culte à Ultima.\n\nLa silhouette centrale entourée des différents Primordiaux serait celle d'un Ultima représenté comme une figure divine. Sur la peinture d'origine, qui peut être observée dans une forteresse abandonnée du Gris-Levant, le Primordial de feu Phénix n'est pas représenté.",
-      "caption": "Peinture d'origine"
+      "caption": "Peinture d'origine",
+      "public": "OFF"
     },
     {
       "text": "Une œuvre liturgique relative au maliusianisme, la plus ancienne des religions connues, qui vouait un culte à Ultima.\n\nLa silhouette centrale entourée des différents Primordiaux serait celle d'un Ultima représenté comme une figure divine. Sur la peinture d'origine, qui peut être observée dans une forteresse abandonnée du Gris-Levant, tout laisse à penser que l'entité centrale résulte d'une fusion entre Ifrit et Phénix.",
-      "caption": "Révélation"
+      "caption": "Révélation",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "sacrarium",
     "civilisation-celeste",
     "fort-phenix",

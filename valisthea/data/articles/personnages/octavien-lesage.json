@@ -10,18 +10,22 @@
   "pages": [
     {
       "text": "Le second enfant de l'Empereur de Sangbrèque.\n\nIl n'est que le demi-frère de Dion, car c'est sa nouvelle épouse, l'impératrice Annabella, qui lui a donné naissance. Cette dernière s'arrange toujours pour que son fils apparaisse dans les réunions où l'avenir du pays se décide.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Le second enfant de Sylvestre Lesage, récemment couronné nouvel empereur de Sangbrèque.\n\nMalgré son jeune âge, il a joué un rôle de médiateur lors de la négociation de l'armistice avec la République dalmèque. Ce coup d'éclat a tant impressionné son père Sylvestre que ce dernier a abdiqué en sa faveur.",
-      "caption": "Sacre en tant que saint empereur"
+      "caption": "Sacre en tant que saint empereur",
+      "public": "OFF"
     },
     {
       "text": "L'empereur de Sangbrèque depuis que son père Sylvestre a abdiqué en sa faveur.\n\nCeci suscite l'ire de Dion, le fils aîné, qui s'insurge contre cette décision et appelle à la rébellion, qualifiant la manœuvre de traîtrise. C'est au milieu de cette crise qu'Octavien provoque son aîné par des paroles ne ressemblant pas à celles d'un enfant de son âge, jusqu'à ce que Dion dirige sa lance contre lui, tuant accidentellement leur père. Lorsque l'enfant succombe finalement, son corps disparaît, prouvant qu'il n'était qu'un pantin d'Ultima.",
-      "caption": "Épilogue"
+      "caption": "Épilogue",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "sylvestre-lesage",
     "annabella-rosfield",
     "dion-lesage",

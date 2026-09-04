@@ -10,14 +10,17 @@
   "pages": [
     {
       "text": "Un majordome au service de Byron Rosfield.\n\nGrâce à Rutherford, tout est toujours en ordre à la résidence yseutoise de Byron. Ses tâches vont de l'accueil des invités à la préparation des repas et au polissage des haches favorites de son maître.",
-      "caption": "Généralités"
+      "caption": "Généralités",
+      "public": "OFF"
     },
     {
       "text": "Un majordome au service de Byron Rosfield.\n\nD'ordinaire, les responsabilités de Rutherford se cantonnent à la résidence de Byron à Port-Yseut. Cependant, son maître lui demande parfois d'effectuer des missions ailleurs. Ainsi, Rutherford est désormais chargé de coopérer avec les majordomes d'autres nobles familles rosaliennes pour enquêter sur la situation dans chaque nation du Vert-Ponant.",
-      "caption": "Enquête sur la situation au Vert-Ponant"
+      "caption": "Enquête sur la situation au Vert-Ponant",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "port-yseut",
     "byron-rosfield",
     "sept-dynasties-rosaliennes",

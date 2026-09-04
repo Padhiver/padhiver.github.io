@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T11:24:50.451Z",
+  "generatedAt": "2026-09-04T13:23:01.231Z",
   "articles": [
     {
       "id": "angra-mainyu",
@@ -713,6 +713,15 @@
       "cardImage": "images/placeholders/emblem-geographie.svg"
     },
     {
+      "id": "blanc-septentrion",
+      "title": "Le Blanc-Septentrion",
+      "category": "geographie",
+      "public": "ON",
+      "date": "2026-09-04",
+      "order": 18,
+      "cardImage": "images/placeholders/emblem-geographie.svg"
+    },
+    {
       "id": "kanver",
       "title": "Kanvěr",
       "category": "geographie",
@@ -1037,6 +1046,15 @@
       "cardImage": "images/placeholders/emblem-geographie.svg"
     },
     {
+      "id": "empire-mineen",
+      "title": "L'Empire Minéen",
+      "category": "geographie",
+      "public": "ON",
+      "date": "2026-09-04",
+      "order": 54,
+      "cardImage": "images/placeholders/emblem-geographie.svg"
+    },
+    {
       "id": "milice-dautodefense",
       "title": "La milice d'autodéfense",
       "category": "geographie",
@@ -1085,7 +1103,7 @@
       "id": "archiduche-de-rosalia",
       "title": "L'archiduché de Rosalia",
       "category": "geographie",
-      "public": "OFF",
+      "public": "ON",
       "date": "2026-08-08",
       "order": 59,
       "cardImage": "images/placeholders/emblem-geographie.svg"
@@ -1535,7 +1553,7 @@
       "id": "pantheisme-de-sainte-gweligore",
       "title": "Le panthéisme de sainte Gwéligore",
       "category": "geographie",
-      "public": "OFF",
+      "public": "ON",
       "date": "2026-08-08",
       "order": 109,
       "cardImage": "images/placeholders/emblem-geographie.svg"
@@ -1643,7 +1661,7 @@
       "id": "saint-empire-de-sangbreque",
       "title": "Le Saint-Empire de Sangbrèque",
       "category": "geographie",
-      "public": "OFF",
+      "public": "ON",
       "date": "2026-08-08",
       "order": 121,
       "cardImage": "images/placeholders/emblem-geographie.svg"
@@ -2129,7 +2147,7 @@
       "id": "valisthea",
       "title": "Valisthéa",
       "category": "geographie",
-      "public": "OFF",
+      "public": "ON",
       "date": "2026-08-08",
       "order": 175,
       "cardImage": "images/placeholders/emblem-geographie.svg"
@@ -2189,6 +2207,15 @@
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
     {
+      "id": "academies-imperiales",
+      "title": "Les académies impériales",
+      "category": "monde",
+      "public": "ON",
+      "date": "2026-09-04",
+      "order": 6,
+      "cardImage": "images/placeholders/emblem-monde.svg"
+    },
+    {
       "id": "civilisation-celeste",
       "title": "La civilisation céleste",
       "category": "monde",
@@ -2237,16 +2264,16 @@
       "id": "magie",
       "title": "La magie",
       "category": "monde",
-      "public": "OFF",
+      "public": "ON",
       "date": "2026-08-08",
       "order": 11,
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
     {
-      "id": "marque",
-      "title": "La marque",
+      "id": "stigmate",
+      "title": "Le Stigmate",
       "category": "monde",
-      "public": "OFF",
+      "public": "ON",
       "date": "2026-08-08",
       "order": 12,
       "cardImage": "images/placeholders/emblem-monde.svg"
@@ -2264,7 +2291,7 @@
       "id": "petrification",
       "title": "La pétrification",
       "category": "monde",
-      "public": "OFF",
+      "public": "ON",
       "date": "2026-08-08",
       "order": 14,
       "cardImage": "images/placeholders/emblem-monde.svg"
@@ -2360,6 +2387,15 @@
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
     {
+      "id": "la-suppression",
+      "title": "La Suppression",
+      "category": "monde",
+      "public": "ON",
+      "date": "2026-09-04",
+      "order": 25,
+      "cardImage": "images/placeholders/emblem-monde.svg"
+    },
+    {
       "id": "technologie-magitech",
       "title": "La technologie magitech",
       "category": "monde",
@@ -2390,7 +2426,7 @@
       "id": "calendrier-ponantin",
       "title": "Le calendrier ponantin",
       "category": "monde",
-      "public": "OFF",
+      "public": "ON",
       "date": "2026-08-08",
       "order": 28,
       "cardImage": "images/placeholders/emblem-monde.svg"
@@ -2570,7 +2606,7 @@
       "id": "activites-des-pourvoyeurs",
       "title": "Les activités des Pourvoyeurs",
       "category": "monde",
-      "public": "OFF",
+      "public": "ON",
       "date": "2026-08-08",
       "order": 48,
       "cardImage": "images/placeholders/emblem-monde.svg"
@@ -2606,7 +2642,7 @@
       "id": "bardes",
       "title": "Les bardes",
       "category": "monde",
-      "public": "OFF",
+      "public": "ON",
       "date": "2026-08-08",
       "order": 52,
       "cardImage": "images/placeholders/emblem-monde.svg"
@@ -2642,7 +2678,7 @@
       "id": "broches",
       "title": "Les broches",
       "category": "monde",
-      "public": "OFF",
+      "public": "ON",
       "date": "2026-08-08",
       "order": 56,
       "cardImage": "images/placeholders/emblem-monde.svg"
@@ -2654,6 +2690,15 @@
       "public": "OFF",
       "date": "2026-08-08",
       "order": 57,
+      "cardImage": "images/placeholders/emblem-monde.svg"
+    },
+    {
+      "id": "nomos-hekatea",
+      "title": "La Nomos Hekatea",
+      "category": "monde",
+      "public": "ON",
+      "date": "2026-09-04",
+      "order": 58,
       "cardImage": "images/placeholders/emblem-monde.svg"
     },
     {
@@ -2669,7 +2714,7 @@
       "id": "cristaux",
       "title": "Les cristaux",
       "category": "monde",
-      "public": "OFF",
+      "public": "ON",
       "date": "2026-08-08",
       "order": 59,
       "cardImage": "images/placeholders/emblem-monde.svg"
@@ -2678,7 +2723,7 @@
       "id": "cristaux-geants",
       "title": "Les cristaux géants",
       "category": "monde",
-      "public": "OFF",
+      "public": "ON",
       "date": "2026-08-08",
       "order": 60,
       "cardImage": "images/placeholders/emblem-monde.svg"
@@ -2687,7 +2732,7 @@
       "id": "cristaux-meres",
       "title": "Les Cristaux-mères",
       "category": "monde",
-      "public": "OFF",
+      "public": "ON",
       "date": "2026-08-08",
       "order": 61,
       "cardImage": "images/placeholders/emblem-monde.svg"
@@ -2822,7 +2867,7 @@
       "id": "marques",
       "title": "Les marqués",
       "category": "monde",
-      "public": "OFF",
+      "public": "ON",
       "date": "2026-08-08",
       "order": 76,
       "cardImage": "images/placeholders/emblem-monde.svg"
@@ -2858,7 +2903,7 @@
       "id": "petits-cristaux",
       "title": "Les petits cristaux",
       "category": "monde",
-      "public": "OFF",
+      "public": "ON",
       "date": "2026-08-08",
       "order": 80,
       "cardImage": "images/placeholders/emblem-monde.svg"
@@ -2867,7 +2912,7 @@
       "id": "pourvoyeurs",
       "title": "Les Pourvoyeurs",
       "category": "monde",
-      "public": "OFF",
+      "public": "ON",
       "date": "2026-08-08",
       "order": 81,
       "cardImage": "images/placeholders/emblem-monde.svg"
@@ -2912,7 +2957,7 @@
       "id": "soldats-pourvoyeurs",
       "title": "Les soldats pourvoyeurs",
       "category": "monde",
-      "public": "OFF",
+      "public": "ON",
       "date": "2026-08-08",
       "order": 86,
       "cardImage": "images/placeholders/emblem-monde.svg"
@@ -2948,7 +2993,7 @@
       "id": "ether",
       "title": "L'éther",
       "category": "monde",
-      "public": "OFF",
+      "public": "ON",
       "date": "2026-08-08",
       "order": 90,
       "cardImage": "images/placeholders/emblem-monde.svg"
@@ -2984,7 +3029,7 @@
       "id": "traite-intercontinental",
       "title": "Le Traité intercontinental",
       "category": "monde",
-      "public": "OFF",
+      "public": "ON",
       "date": "2026-08-08",
       "order": 94,
       "cardImage": "images/placeholders/emblem-monde.svg"
@@ -3065,7 +3110,7 @@
       "id": "methia",
       "title": "Méthia",
       "category": "monde",
-      "public": "OFF",
+      "public": "ON",
       "date": "2026-08-08",
       "order": 103,
       "cardImage": "images/placeholders/emblem-monde.svg"

@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Un ouvrage défensif situé dans la partie nord du royaume de Valœd, sur l'unique route menant à la capitale.\n\nSes hautes murailles se dressent en travers d'une étroite vallée, en faisant un passage obligé pour quiconque se rend à Steinnhyrr. Les soldats qui y étaient stationnés sont presque tous devenus éthériques. Les Orcs loyaux à Barnabas Tharmr ont rapidement pris leur place, accompagnés de monstres divers.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "armee-royale-de-valoed",
     "orcs",
     "geoles-de-balmung",

@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Le capitaine adjoint des Lames de pierre.\n\nC'est un Pourvoyeur qui se battait autrefois dans les rangs de l'armée dalmèque. Il participe aux activités de protection des Pourvoyeurs depuis que Cid l'a secouru et accueilli dans l'ancien Repaire. Il effectue de nombreuses missions aux côtés de sa capitaine, Dorys.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "protection-des-pourvoyeurs",
     "lames-de-pierre",
     "dorys",

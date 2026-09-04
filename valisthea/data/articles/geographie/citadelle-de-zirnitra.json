@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Une citadelle érigée dans le défilé de Nýsa, dans la partie ouest de la république de Dalméquie.\n\nCe lieu fut choisi pour héberger les négociations de demande d'aide des Dalmèques à leurs alliés valœdois, alors que la République souhaitait par-dessus tout mettre un terme aux querelles qui l'opposaient au Royaume de Fer. Il faut dire que leur conflit avait commencé avec la guerre des Deux Continents en l'an 865 du calendrier ponantin, et il s'enlisait.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "defile-de-nysa",
     "pourparlers-de-zirnitra",
     "guerre-des-deux-continents",

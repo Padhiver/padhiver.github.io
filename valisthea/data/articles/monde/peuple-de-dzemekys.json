@@ -10,10 +10,12 @@
   "pages": [
     {
       "text": "Le peuple qui habitait autrefois les terres autour de Dzemekys, le Cristal-mère rattaché au Provenance.\n\nCette proximité a mené à la création du Cercle de Malius qui vénère Ultima. Lorsque la tragédie de Dzemekys dévasta la région, les habitants s'exilèrent dans les continents extérieurs, mais aujourd'hui encore, certains d'entre eux attendent toujours qu'Ultima leur ouvre les portes de son paradis.",
-      "caption": ""
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
+  "related": [],
+  "relatedOff": [
     "tragedie-de-dzemekys",
     "cercle-de-malius",
     "continents-exterieurs",
