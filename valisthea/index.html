@@ -7,7 +7,13 @@
      "images/banners/x.png") : c'est là qu'ils vivent réellement. "base"
      redirige donc TOUTE URL relative de cette page vers site/, y compris
      celles injectées plus tard en HTML (fiche, bannière…) — même principe
-     que site/map/index.html, qui pointe dans l'autre sens. -->
+     que site/map/index.html, qui pointe dans l'autre sens.
+
+     Piège : un lien purement fragment ("#/") se résout AUSSI contre "base"
+     (donc vers site/#/, une page qui n'existe pas), même si l'intention est
+     de rester sur ce document. Tout lien vers l'accueil doit donc s'écrire
+     "../index.html#/", jamais juste "#/" — voir le lien "site-title"
+     ci-dessous. -->
 <base href="site/">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Codex de Valisthéa</title>
@@ -44,7 +50,7 @@
     </svg>
     <a class="corner-link site-map-link" href="map/" data-i18n="nav.map">Carte</a>
     <p class="site-eyebrow" data-i18n="site.eyebrow">Compilé par la Guilde des Archivistes</p>
-    <a class="site-title" href="#/" data-i18n="site.title">Codex de Valisthéa</a>
+    <a class="site-title" href="../index.html#/" data-i18n="site.title">Codex de Valisthéa</a>
     <p class="site-subtitle" data-i18n="site.subtitle">Consulter différents articles sur l'univers de Valisthéa.</p>
     <div class="header-rule"></div>
   </header>
