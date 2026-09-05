@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T11:45:15.461Z",
+  "generatedAt": "2026-09-05T12:27:03.347Z",
   "articles": [
     {
       "id": "fiannahban",
@@ -1082,16 +1082,6 @@
       "portrait": null
     },
     {
-      "id": "oblivion",
-      "title": "Oblivion",
-      "category": "monde",
-      "public": "OFF",
-      "date": "2026-09-05",
-      "order": null,
-      "image": null,
-      "portrait": null
-    },
-    {
       "id": "port-d-armes-et-contrebande",
       "title": "Port d'armes et contrebande",
       "category": "monde",
@@ -1122,16 +1112,6 @@
       "portrait": null
     },
     {
-      "id": "akmar",
-      "title": "Akmar",
-      "category": "personnages",
-      "public": "OFF",
-      "date": "2026-09-05",
-      "order": null,
-      "image": null,
-      "portrait": null
-    },
-    {
       "id": "alcide-neptoproxenos",
       "title": "Alcide Neptoproxenos",
       "category": "personnages",
@@ -1142,68 +1122,8 @@
       "portrait": null
     },
     {
-      "id": "azel-liark",
-      "title": "Azel-Liark",
-      "category": "personnages",
-      "public": "OFF",
-      "date": "2026-09-05",
-      "order": null,
-      "image": null,
-      "portrait": null
-    },
-    {
-      "id": "baltus",
-      "title": "Baltus",
-      "category": "personnages",
-      "public": "OFF",
-      "date": "2026-09-05",
-      "order": null,
-      "image": null,
-      "portrait": null
-    },
-    {
-      "id": "baron-bleme",
-      "title": "Baron Blême",
-      "category": "personnages",
-      "public": "OFF",
-      "date": "2026-09-05",
-      "order": null,
-      "image": null,
-      "portrait": null
-    },
-    {
-      "id": "cybele-et-lorien-gayle",
-      "title": "Cybèle et Lorien Gayle",
-      "category": "personnages",
-      "public": "OFF",
-      "date": "2026-09-05",
-      "order": null,
-      "image": null,
-      "portrait": null
-    },
-    {
-      "id": "darkna",
-      "title": "Darkna",
-      "category": "personnages",
-      "public": "OFF",
-      "date": "2026-09-05",
-      "order": null,
-      "image": null,
-      "portrait": null
-    },
-    {
       "id": "fronir-ciel-dore",
       "title": "Fronir Ciel-Doré",
-      "category": "personnages",
-      "public": "OFF",
-      "date": "2026-09-05",
-      "order": null,
-      "image": null,
-      "portrait": null
-    },
-    {
-      "id": "galefrin",
-      "title": "Galefrin",
       "category": "personnages",
       "public": "OFF",
       "date": "2026-09-05",
@@ -1224,16 +1144,6 @@
     {
       "id": "hakilon-xiii",
       "title": "Hakilon XIII, le Lion aveugle",
-      "category": "personnages",
-      "public": "OFF",
-      "date": "2026-09-05",
-      "order": null,
-      "image": null,
-      "portrait": null
-    },
-    {
-      "id": "ilzaach",
-      "title": "Ilzaach",
       "category": "personnages",
       "public": "OFF",
       "date": "2026-09-05",
@@ -1292,16 +1202,6 @@
       "portrait": null
     },
     {
-      "id": "kortos",
-      "title": "Kortos",
-      "category": "personnages",
-      "public": "OFF",
-      "date": "2026-09-05",
-      "order": null,
-      "image": null,
-      "portrait": null
-    },
-    {
       "id": "reine-des-mers-scorchessa",
       "title": "La Reine des Mers Scorchessa",
       "category": "personnages",
@@ -1314,26 +1214,6 @@
     {
       "id": "reine-eternelle",
       "title": "La Reine Éternelle",
-      "category": "personnages",
-      "public": "OFF",
-      "date": "2026-09-05",
-      "order": null,
-      "image": null,
-      "portrait": null
-    },
-    {
-      "id": "leowen",
-      "title": "Leowen",
-      "category": "personnages",
-      "public": "OFF",
-      "date": "2026-09-05",
-      "order": null,
-      "image": null,
-      "portrait": null
-    },
-    {
-      "id": "malathor",
-      "title": "Malathor le Juste",
       "category": "personnages",
       "public": "OFF",
       "date": "2026-09-05",
@@ -1362,16 +1242,6 @@
       "portrait": null
     },
     {
-      "id": "nelonys-et-syloriel",
-      "title": "Nelonys et Syloriel",
-      "category": "personnages",
-      "public": "OFF",
-      "date": "2026-09-05",
-      "order": null,
-      "image": null,
-      "portrait": null
-    },
-    {
       "id": "nicodemo-falapsios",
       "title": "Nicodémo Falapsios",
       "category": "personnages",
@@ -1382,48 +1252,8 @@
       "portrait": null
     },
     {
-      "id": "nostromo",
-      "title": "Nostromo",
-      "category": "personnages",
-      "public": "OFF",
-      "date": "2026-09-05",
-      "order": null,
-      "image": null,
-      "portrait": null
-    },
-    {
-      "id": "ozyias",
-      "title": "Ozyias",
-      "category": "personnages",
-      "public": "OFF",
-      "date": "2026-09-05",
-      "order": null,
-      "image": null,
-      "portrait": null
-    },
-    {
-      "id": "pandore",
-      "title": "Pandore",
-      "category": "personnages",
-      "public": "OFF",
-      "date": "2026-09-05",
-      "order": null,
-      "image": null,
-      "portrait": null
-    },
-    {
       "id": "polymede-chrysothemis",
       "title": "Polymède Chrysothémis",
-      "category": "personnages",
-      "public": "OFF",
-      "date": "2026-09-05",
-      "order": null,
-      "image": null,
-      "portrait": null
-    },
-    {
-      "id": "reghulus-et-serenite",
-      "title": "Réghûlus et Sérénité",
       "category": "personnages",
       "public": "OFF",
       "date": "2026-09-05",
