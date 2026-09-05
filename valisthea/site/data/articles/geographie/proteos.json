@@ -1,0 +1,23 @@
+{
+  "id": "proteos",
+  "title": "Protéos",
+  "category": "geographie",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Capitale de l'Empire minéen et plus grande cité du continent connu, Protéos fut fondée par Akiles Hakaton en hommage aux ancêtres protéens dont l'humanité impériale revendique la filiation, son nom rappelant directement Minéa, capitale mythique de l'ancien Empire protéen disparu lors de la chute des pierres du ciel. Elle concentre les institutions les plus prestigieuses de l'Empire : le sénat, les plus grandes universités impériales, et la plus grande bibliothèque du pays — rivalisée seulement par celle de Wissenheim, en Tharse.\n\nLa cité abrite également le théâtre des âmes perdues, où fut notamment jouée la célèbre pièce *L'homme qui voyagea dans la lune* de la dramaturge Haleta Jenopsios. C'est à la bibliothèque de Protéos, en tant que Maître Aepistion, qu'exerce Kletio Kanaspos, l'érudit voyageur dont les carnets constituent l'essentiel des sources compilées sur les peuples et les terres de l'Empire.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "khoros",
+    "empire-mineen",
+    "avenement-empire-mineen",
+    "academies-imperiales"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "ozyias",
+  "title": "Ozyias",
+  "category": "personnages",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Ensorceleur gnome, membre du groupe de héros de la campagne d'Oblivion, ancien élève du mystérieux Akmar avant la disparition de ce dernier. Tout au long de la campagne, il reçoit à plusieurs reprises des visions et des conversations avec l'esprit de son ancien mentor, notamment en un lieu onirique décrit comme « là où tout a commencé, et là où tout finira » — des apparitions qui laissent entendre un lien plus profond entre son maître disparu et les origines mêmes des événements d'Oblivion.\n\nSa formation auprès d'Akmar et ces visions récurrentes en font l'un des membres du groupe les plus directement connectés aux mystères cosmologiques sous-jacents à la campagne, bien avant que la vérité sur l'Étincelle et l'Anéantissement ne soit pleinement révélée.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "oblivion",
+    "akmar"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "nomos-hekatea",
+  "title": "La Nomos Hekatea",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-09-04",
+  "order": 58,
+  "source": "blanc-septentrion",
+  "pages": [
+    {
+      "text": "La loi de l'Empire Minéen qui régit à elle seule l'usage de la magie.\n\nLà où le Synode asservit les Pourvoyeurs, l'Empire recense et encadre : quiconque manie la magie, quelle qu'en soit la source, doit être déclaré auprès de sa communauté, de sa province et de l'Empire, et suivre l'enseignement d'un temple ou d'une académie. Le texte, long et truffé d'exceptions, tient tout entier dans cinq axiomes. Toute pratique clandestine est punie de mort ou de la Suppression.",
+      "caption": "Généralités",
+      "public": "ON"
+    },
+    {
+      "text": "Nulle magie ne se mêle de politique ni de justice, et aucune ne se soustrait à l'Empire.\n\nNul lanceur de sorts ne peut exercer de charge politique ; toute magie doit être déclarée ; toute magie doit être enseignée, par les temples pour le divin, par les académies Akadama, Akadama Vox et Archascholia pour le profane ; la magie ne doit jamais peser sur une procédure de justice ; enfin, elle a le devoir de servir la cité et l'Empire. Académies et Ordre rouge veillent à l'application, sans indulgence.",
+      "caption": "Les cinq axiomes",
+      "public": "ON"
+    }
+  ],
+  "related": [
+    "empire-mineen",
+    "academies-imperiales",
+    "la-suppression",
+    "blanc-septentrion",
+    "magie",
+    "pourvoyeurs"
+  ],
+  "relatedOff": [
+    "empire-mineen",
+    "academies-imperiales",
+    "la-suppression",
+    "blanc-septentrion",
+    "magie",
+    "pourvoyeurs",
+    "chasse-aux-heretiques"
+  ]
+}

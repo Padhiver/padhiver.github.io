@@ -1,0 +1,22 @@
+{
+  "id": "fronir-ciel-dore",
+  "title": "Fronir Ciel-Doré",
+  "category": "personnages",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Fondateur légendaire de la cité-État naine de Kar'Berial, artisan, alchimiste et diplomate d'exception vénéré aujourd'hui comme esprit tutélaire de sa cité par le culte des Fondateurs. Sa réputation de guérisseur hors normes est scellée par l'épisode où il parvint à guérir Thorin Sombre-Poing, Fondateur de Kar'Dhurim, d'une peste jugée incurable — un geste à l'origine des liens privilégiés qui unissent encore aujourd'hui les deux cités.\n\nSon héritage se perpétue à travers les fronir'sön, guérisseurs itinérants de Kar'Berial perpétuant sa tradition médicale et diplomatique bien au-delà des frontières de la cité elle-même.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "kar-berial",
+    "fondateurs-nains",
+    "thorin-sombre-poing"
+  ]
+}

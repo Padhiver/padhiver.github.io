@@ -1,0 +1,21 @@
+{
+  "id": "kergos-akaleptos",
+  "title": "Kergos Akaleptos",
+  "category": "personnages",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Prêtre priméiste khorite qui consacra quarante années et la totalité de la fortune de sa famille à faire construire Les neuf maisons, ambitieux sanctuaire de neuf temples destiné à rivaliser avec le prestige religieux de Zukreis, berceau du priméisme. Le destin s'acharna contre son projet dès son achèvement : Kergos mourut écrasé sous son propre toit la toute première nuit suivant la fin des travaux.\n\nLe sanctuaire, jugé maudit depuis ce jour, fut abandonné et reste aujourd'hui un lieu déserté et redouté des habitants de la région, hanté par le souvenir de l'ambition démesurée de son fondateur.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "khoros",
+    "primeisme"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "aghan-maist",
+  "title": "Aghan'maist",
+  "category": "geographie",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Terre nouvellement émergée au nord de Kar'Dhurim et de Syl'Gaedrim, que les elfes nomment tean'fora, « la terre sans retour », et qu'ils interdisent formellement à leur propre peuple comme aux nains. Malgré un climat tempéré froid et une végétation étonnamment luxuriante, le territoire reste très faiblement peuplé, hanté par les vestiges d'anciennes colonies protéennes et impériales dont la disparition demeure inexpliquée. Trois sites de ruines protéennes majeures y sont recensés : Anchaïad, forêt d'arbres torturés parcourue d'un bourdonnement mortel autour d'un monolithe gravé de secrets de l'ancien Empire protéen ; les ruines d'Andarna, zone stérile de plusieurs kilomètres drainant toute vie alentour, gardées par des spectres autour d'un second monolithe ; et les ruines côtières d'Antreas, cernées d'une tempête permanente, dont le monolithe ferait office de porte vers un autre monde.\n\nPeïkia, ancienne colonie impériale minéenne établie il y a environ deux siècles en passant par les Terres de feu et les monts des Deux Lunes, y disparut un jour sans laisser derrière elle ni corps ni la moindre trace, un mystère que nul n'est jamais parvenu à élucider.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "empire-proteen",
+    "syl-gaedrim",
+    "landes-de-givre"
+  ]
+}

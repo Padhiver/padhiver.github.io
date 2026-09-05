@@ -1,0 +1,23 @@
+{
+  "id": "meridian-pied-leger",
+  "title": "Meridian Pied-Léger",
+  "category": "personnages",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Halfelin philaxien de la XIIIe légion, devenu un héros national de son peuple pour avoir vaincu en duel singulier un général orc et contribué à repousser une armée barbare. En récompense de ces exploits, le Kaïsar lui offrit, à sa demande, un territoire prélevé sur la province de Tharse — la province d'Eiren, aujourd'hui la plus petite de l'Empire, fondée en 1662 Æ et devenue depuis le foyer politique et culturel le plus proche d'une véritable patrie pour l'ensemble du peuple halfelin.\n\nSa mémoire reste vivace en Eiren, où on le cite volontiers comme la preuve vivante que les halfelins peuvent exceller malgré les faibles attentes que le reste de l'Empire nourrit généralement à leur égard — même si la cession de ces terres continue, plus de trois siècles plus tard, d'alimenter un vif ressentiment chez certains patriciens tharséens qui n'ont jamais accepté cette perte territoriale.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "eiren",
+    "halfelins",
+    "tharse",
+    "legions-imperiales"
+  ]
+}

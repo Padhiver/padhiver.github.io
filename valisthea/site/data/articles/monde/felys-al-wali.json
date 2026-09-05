@@ -1,0 +1,22 @@
+{
+  "id": "felys-al-wali",
+  "title": "Les al'wali (félys)",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Peuple à tête de chat originaire du Royaume du Fleuve, où il se nomme lui-même al'wali (« nés du Fleuve »), le surnom « félys » n'étant qu'une déformation populaire de feilh'hyss, terme désignant à l'origine les bannis. Les al'wali n'ont pas de mythe de création distinct : ils se considèrent comme une expression directe du Fleuve Dieu lui-même, au même titre que les humains al'rajul (« Enfants de la Terre ») avec qui ils cohabitent à égalité dans le royaume. Selon la légende locale, Cemnon, plus jeune des Divinités Premières nées du Fleuve après la création des deux peuples, leur aurait enseigné castes, lois, architecture et ordre — fondant ainsi l'ensemble de la civilisation fluviale, plurimillénaire et antérieure de loin à l'Empire minéen, ce qui nourrit chez les Fluviens un net sentiment de supériorité culturelle.\n\nLa société repose sur un système de castes rigide, déterminé à la naissance et presque impossible à changer sinon par le bannissement : les muqadal'wali (« bénis des dieux »), noblesse, clergé, érudits, diplomates et politiciens, seule caste pouvant fournir l'époux ou l'épouse du couple royal tahal'sheub ; et les mushtaral'wali (« qui travaillent »), majorité de la population, souvent réduite à tort à une simple « caste pauvre » par les érudits impériaux alors qu'elle comprend aussi artisans, marchands et militaires — un mushtaral'wali peut d'ailleurs accéder au rang de lebqali (« maître d'œuvre ») par un exploit exceptionnel, faisant alors entrer sa descendance dans la caste muqadal'wali. Le couple royal humains-al'wali associe systématiquement un noble et un prêtre ou une prêtresse, le sexe de chaque rôle étant, selon la tradition, déterminé par les dieux eux-mêmes.\n\nUn trait culturel trouble entache la réputation du peuple : une fascination, parfois obsessionnelle, pour les humains (alsa'maluk, « les sans-poils »), avec lesquels les al'wali ne peuvent naturellement pas concevoir d'enfants. Les maham'swadi (« sombres juristes ») orchestrent, pour le compte de riches muqadal'wali, la ruine sociale et financière de victimes humaines ciblées avant de leur imposer des contrats de servitude « librement consentie » mais en réalité inéluctables — une pratique proche de l'esclavage que les autorités du Royaume tolèrent tacitement. La société secrète miqal'muhab (« les griffes libératrices »), vieille d'une trentaine d'années et comptant même certains muqadal'wali réformistes en son sein, s'efforce d'intercepter les victimes et de faire interdire ces contrats, une frange plus jeune et radicale poussant désormais pour une action plus directe. Les feilh'hyss dispersés dans l'Empire vivent en petites colonies urbaines discrètes (une vingtaine d'individus au plus), cherchent rarement la citoyenneté, et défendent farouchement tout membre menacé de leur communauté.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "royaume-du-fleuve",
+    "halem-rah",
+    "fleuve-dieu"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "avyssos",
+  "title": "Avyssos, l'antre des fiélons",
+  "category": "geographie",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Monde-miroir peuplé de fiélons, surnommé « la perdition des âmes » — les âmes capturées par les créatures qui l'habitent y échouent, et non en Thanatos, monde des morts habituel. Sa géographie, contrairement à la plupart des mondes-miroirs, ne reproduit pas celle de Pangée : Avyssos oppose deux camps engagés dans une guerre fratricide éternelle. D'un côté, les giir'etzu, treize Archiducs Infernaux régnant sur les Mille Terrasses, montagne s'élevant en une multitude de gradins sous un soleil rouge fixé en un midi perpétuel, où prévaut une culture stricte du contrat et de la parole donnée. De l'autre, les massar'gadzu, neuf Ducs Abyssaux, régnant sur les Plaines abyssales, paysage urbain délabré et changeant à l'infini, plongé dans une nuit éternelle sous une lune violette. Une troisième faction, neutre, les aar'satzu, agit en marchands et mercenaires entre les deux camps.\n\nLes deux territoires sont séparés par l'Oblitération, un gouffre menant directement au Néant de Kenos, et ne communiquent que via la Cité d'Onyx et de Sang, ville fortifiée de cent cinquante mètres de hauteur dirigée par un conseil énigmatique connu sous le nom des Six (ou Seigneurs Noirs), organisée en six quartiers et gardée par les redoutables Yeux Déments. La monnaie locale, le daimon, consiste en une âme compressée sous forme de pièce d'airain ; le pire châtiment que puisse y subir un fiélon se nomme la Privation. C'est par de rares failles instables ouvertes vers Avyssos que naissent les géennites, semi-humains issus d'un pacte, d'une possession ou d'une lignée fiélonne lointaine.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "mondes-miroirs",
+    "geennites",
+    "kenos"
+  ]
+}

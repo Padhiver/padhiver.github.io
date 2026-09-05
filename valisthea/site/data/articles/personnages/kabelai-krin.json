@@ -1,0 +1,22 @@
+{
+  "id": "kabelai-krin",
+  "title": "Kabelaï Krin",
+  "category": "personnages",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Générale hobgobeline ayant unifié sous son autorité la Horde blanche, coalition de hobgobelins, de gobelours et de gnolls, pour envahir les Terres perdues et y établir sa capitale à Noxian, bâtie sur les ruines de l'ancienne cité protéenne d'Anthéone. Son aura et sa puissance personnelle, décrites comme mystérieuses par ceux qui l'ont affrontée, ont longtemps semblé indissociables de la cohésion de la Horde elle-même.\n\nSa défaite, voici une dizaine d'années, face à l'intervention d'agents de l'Ordre rouge marqua le reflux de la Horde blanche hors des Terres perdues et le début d'une reconquête impériale encore inachevée à ce jour ; son sort exact depuis cette défaite reste incertain.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "terres-perdues",
+    "horde-blanche",
+    "ordre-rouge"
+  ]
+}

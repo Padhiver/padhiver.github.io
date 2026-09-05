@@ -1,0 +1,22 @@
+{
+  "id": "les-lointains",
+  "title": "Les Lointains",
+  "category": "geographie",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Marche la plus septentrionale de l'Empire, au nord même d'Opharmos, conquise et intégrée en l'an 1972 Æ et aujourd'hui encore la plus jeune et la plus sauvage des marches impériales, sans capitale ni structure gouvernementale unifiée. Terre d'opportunité pour les citoyens ambitieux prêts à tout risquer, elle abrite des clans d'aldsan küme (demi-ogres) et d'orcs peu enclins à se soumettre à l'autorité impériale, ainsi que le peu nombreux peuple des Lintinites qui y subsiste. L'unique véritable place forte de la marche est Criventeux, bâtie sur des sources chaudes et défendue par quatre légions.\n\nOn y trouve aussi Norfortin, plus vieille forteresse frontalière de l'Empire accessible seulement par un système de plateformes et de poulies, traditionnellement réservée aux affectations punitives, ainsi qu'Orinfort, ancien comptoir promu « rempart de l'est » après l'effondrement de la cité d'Ultimata dans les Landes de Givre voisines. Trois anciens cercles de pierres mystérieux, Strom'leach, Trom'leach et Crom'leach, ponctuent la marche et ses abords, honorés notamment par les pèlerinages de bénédiction des tribus demi-ogres.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "opharmos",
+    "landes-de-givre",
+    "demi-ogres"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "polymede-chrysothemis",
+  "title": "Polymède Chrysothémis",
+  "category": "personnages",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Grande prêtresse d'Aliana et gouverneure de la cité de Philos, en Hautemarche, nommée à ce poste par décret direct du Kaïsar Hakilon XIII aux dépens d'une famille patricienne locale, les Hexomedès, expropriée sans justification claire — une décision qui nourrit toujours leur ressentiment. Sous son impulsion, Philos est devenue la première cité alianite de l'Empire et le foyer d'un culte en pleine expansion, construisant temples et autels et envoyant des missionnaires jusque dans des cités traditionnellement priméistes comme Wissenheim.\n\nElle mène aujourd'hui ce qu'elle appelle la « croisade des jeunes dieux », campagne militaro-religieuse visant à étendre l'influence alianite jusque dans les Terres perdues, avec le soutien de la XVIIe légion — une entreprise qui détourne des ressources et des patrouilles jusque-là affectées à la surveillance des montagnes Ocres, et qui met sa cité en conflit ouvert d'intérêts avec le général Talamène Hypodemion, chargé de l'administration de l'ensemble de la marche de Hautemarche.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "philos",
+    "alianisme",
+    "hautemarche",
+    "terres-perdues",
+    "hakilon-xiii"
+  ]
+}

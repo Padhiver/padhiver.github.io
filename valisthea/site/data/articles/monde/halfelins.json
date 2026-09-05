@@ -1,0 +1,24 @@
+{
+  "id": "halfelins",
+  "title": "Les halfelins",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Troisième peuple le plus répandu de l'Empire après humains et nains, dépourvu de royaume, d'histoire connue et de cohésion culturelle globale ; leur dialecte propre, réduit à un argot résiduel parlé devant les non-halfelins (les « marwas », ou « grandes jambes »), se perd progressivement. Réputés à tort comme un peuple de serviteurs pacifiques et hédonistes, ils vivent en réalité soit en havrexis (« havres de paix », communautés cachées, hospitalières mais intransigeantes envers quiconque les menace), soit intégrés aux cités et bourgades des autres peuples, où leur fort sens de la famille les regroupe souvent en communautés élargies.\n\nQuatre grands ensembles structurent ce peuple : les halfelins d'Eiren, les plus organisés, vivant en havrexis dans la province qui leur fut offerte par l'Empereur en récompense des exploits du philaxien Meridian Pied-Léger (parfois vus comme une élite) ; les halfelins impériaux, intégrés aux communautés des autres peuples ; les halfelins de maison, familles attachées depuis des générations aux familles nobles elfes de Syl'Gaedrim (tribus Alsing'Traïbh, Creaïch'Traïbh et Aihmad'Traïbh), en relation de symbiose plutôt que de subordination ; et les P'relinnes, nationalistes convaincus de la survivance légitime d'un royaume halfelin disparu, le P'rel, vivant en pentrefs isolés et méprisant Eiren comme soumise à l'Empire — bien qu'aucune trace matérielle de ce royaume n'ait jamais été retrouvée, même dans les archives millénaires des cités naines.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "eiren",
+    "tharse",
+    "syl-gaedrim",
+    "meridian-pied-leger",
+    "banrior"
+  ]
+}

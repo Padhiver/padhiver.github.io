@@ -1,0 +1,25 @@
+{
+  "id": "kar-dhurim",
+  "title": "Kar'Dhurim",
+  "category": "geographie",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "La plus mystique des trois cités-États naines, bâtie au cœur des montagnes Chauves et englobant à ses pieds la forêt Noire, forêt vivante et dangereuse dont les arbres, dit-on, se déplacent pour égarer puis dévorer les voyageurs imprudents. La forêt est gouvernée par les Archidruides, qui y président les Cercles sacrés et se réunissent tous les dix ans en Grand Concile dans la cité antique en ruine de Hringlaght, site sacré dédié à Gaïa et rumeur de portail ouvrant sur n'importe quel monde-miroir en son centre. Kar'Dhurim relie la province de Tharse à la marche de Hautemarche et envoie régulièrement des émissaires et diplomates à Protéos.\n\nSon Fondateur, Thorin Sombre-Poing, premier Huolta'Kal (gardien de la Roche) de l'histoire naine, créa l'Akadama — l'académie qui forme les magiciens capables de concevoir leurs propres sorts et rituels —, les portes-miroirs reliant les cités naines entre elles, le rituel de l'apaisement (la Suppression) et les tuhotaika employés par l'Ordre rouge contre les utilisateurs illégaux de magie. La cité a survécu, il y a environ deux millénaires, à des guerres souterraines contre un ennemi aujourd'hui oublié de tous sauf des nains eux-mêmes.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "nains",
+    "fondateurs-nains",
+    "thorin-sombre-poing",
+    "akadama",
+    "tharse",
+    "hautemarche"
+  ]
+}

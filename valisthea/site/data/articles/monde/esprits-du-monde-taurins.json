@@ -1,0 +1,20 @@
+{
+  "id": "esprits-du-monde-taurins",
+  "title": "Les Esprits du Monde (culte taurin)",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Culte animiste du peuple taurin (Wak'ya runak, « peuple cornu »), fondé sur la croyance que le divin habite toute chose et tout être : rien ne peut être prélevé sans l'autorisation silencieuse de l'esprit concerné, ce qui pousse ce peuple à éviter la chasse et à ne jamais donner la mort sauf nécessité absolue. Sans traditions écrites, la spiritualité (Sperti'pachka) varie selon les tribus ; le peuple ne bâtit que quatre sanctuaires sacrés anciens, seuls lieux de représentation d'Illa'tia et des Maîtres Esprits, la foi s'exprimant sinon par des prières silencieuses et des dialogues quotidiens avec les esprits environnants, tenus par l'omanh'tol de chaque tribu.\n\nIlla'tia, la Mère des Cornes, est la créatrice du peuple taurin. Trois Maîtres Esprits (Kamach'speritu), ses enfants, la secondent : Kamach'haypachka (temps, oracles, divination), Kamach'kwasy (vie, fertilité, arts) et Kamach'wanchqa (mort, repos des morts, hostile à la non-mort). Six catégories d'esprits innombrables, sans nom propre individuel, peuplent le reste du monde : les Sperite'nisqa (plantes), Sperite'penya (colère et éléments destructeurs), Sperite'rumi (pierre), Sperite'uywe (bêtes), Sperite'wayre (vent) et Sperite'yakwe (eau).",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "taurins"
+  ]
+}

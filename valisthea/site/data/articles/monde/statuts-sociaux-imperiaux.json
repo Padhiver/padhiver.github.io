@@ -1,0 +1,23 @@
+{
+  "id": "statuts-sociaux-imperiaux",
+  "title": "Les statuts sociaux impériaux",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "La société de l'Empire minéen ne se hiérarchise pas selon la richesse individuelle mais selon un système de statuts légaux, transversal à toutes les classes de revenus. Les citoyens (environ la moitié de la population) peuvent travailler, s'établir et posséder des biens librement ; ce statut, le plus souvent hérité, peut aussi s'acquérir par un mariage avec un citoyen de troisième génération, par dix années de service (militaire ou volontaire), par l'accumulation de mille statères, ou par un exploit rendant service à l'Empire validé par le Kaïsar. Les patriciens (environ un dixième de la population) forment l'élite parmi les citoyens : seuls eux peuvent siéger au sénat de Khoros ou aux conseils provinciaux, possèdent des domaines et un droit de préemption sur les terres de leurs propres citoyens ; on devient patricien en épousant un patricien ou par promotion officielle — un titre révocable en cas de crime de sang. Dans les provinces d'Opharmos et de Tharse, on parle de « nobles » plutôt que de « patriciens ».\n\nLes akolé (environ quatre citoyens sur dix) ne sont pas des esclaves au sens propre, mais des serviteurs dont le statut est protégé par la loi : gîte, nourriture et soins garantis, salaire minime versé même aux akolé de naissance. On devient akolos par naissance (cas le plus fréquent, enfant d'akolé ou orphelin non reconnu), par condamnation judiciaire (alternative à l'emprisonnement), par capture de guerre, ou volontairement, un étranger acceptant ce statut obtenant la citoyenneté automatique après trois ans de service ; le rachat de sa propre citoyenneté reste possible à tout moment moyennant mille statères. Les étrangers, enfin, restent protégés par la loi impériale sans bénéficier d'aucun des droits attachés aux trois autres statuts ; ils doivent s'associer à un citoyen garant pour posséder un bien et s'acquitter d'une taxe spécifique, dite « sans terre », sur leurs revenus. Chaque statut se signale par un symbole distinctif porté ouvertement : le prosmeon pour les patriciens, le someon pour les citoyens, un collier de servitude pour les akolé, et aucun signe pour les étrangers. C'est contre l'hérédité du seul statut d'akolos que milite aujourd'hui la Société des Libres.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "senat-et-administration",
+    "societe-des-libres",
+    "esclavage-et-prostitution",
+    "symboles-institutionnels"
+  ]
+}

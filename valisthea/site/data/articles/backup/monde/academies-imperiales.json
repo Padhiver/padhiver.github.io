@@ -1,0 +1,35 @@
+{
+  "id": "academies-imperiales",
+  "title": "Les académies impériales",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-09-04",
+  "order": 6,
+  "source": "blanc-septentrion",
+  "pages": [
+    {
+      "text": "Les trois seules écoles autorisées à enseigner la magie profane dans l'Empire Minéen.\n\nChacune est gardée par une cité-État naine et forme les siens à un art distinct. Ce sont elles qui ont rédigé la Nomos Hekatea et forgé le rituel de la Suppression, et elles qui lancent l'Ordre rouge sur la piste des mages clandestins. Former les praticiens les plus puissants de l'Empire - certains capables de renverser un royaume d'un seul sort - leur assure un poids politique que nul ne conteste vraiment.",
+      "caption": "Généralités",
+      "public": "ON"
+    },
+    {
+      "text": "L'Archascholia, l'Akadama Vox et l'Akadama, une par cité naine.\n\nL'Archascholia, à Kar'Azdhur, instruit ceux dont la magie coule dans le sang. L'Akadama Vox, à Kar'Berial, forme les voxomanciens, qui charment et accomplissent des prodiges par la voix et la musique. L'Akadama, à Kar'Dhurim, façonne des érudits qui étudient la magie pour la création de nouveaux sorts et rituels, et supervisent les Suppressions.",
+      "caption": "Les trois académies",
+      "public": "ON"
+    }
+  ],
+  "related": [
+    "nomos-hekatea",
+    "empire-mineen",
+    "la-suppression",
+    "magie",
+    "blanc-septentrion"
+  ],
+  "relatedOff": [
+    "nomos-hekatea",
+    "empire-mineen",
+    "la-suppression",
+    "magie",
+    "blanc-septentrion"
+  ]
+}

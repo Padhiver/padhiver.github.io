@@ -1,0 +1,22 @@
+{
+  "id": "la-brisure",
+  "title": "La Brisure",
+  "category": "geographie",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Archipel né de la chute des pierres du ciel, lorsque les terres orientales de Pangée volèrent en éclats pour former des centaines, voire des milliers d'îles et d'îlots aujourd'hui envahis par la jungle. Protectorat impérial en théorie, la Brisure fonctionne en réalité dans une quasi-anarchie : chaque île, chaque ville y applique ses propres règles, dans une logique où « qui ne peut protéger ses biens mérite ses ennuis » ; l'Empire n'y maintient qu'une présence renforcée mais incomplète, notamment via la forteresse légionnaire de Fort-impitoyable, sur le continent proche, aux montagnes Vertes.\n\nParmi ses lieux notables : Port-aux-bris (aussi appelée Khalaf), officiellement gouvernée par la patricienne Nédée de Cédonis mais largement livrée à la corruption et au banditisme ; Port-au-carme, ancien « port-au-calme » rebaptisé après sa conquête sanglante par la Reine des Mers Scorchessa il y a plus de deux siècles, qui y fonda plus tard la communauté libre de Délivrance, dirigée par vote à main levée ; et Daemens, ville délabrée réputée pour ses plantes et poisons rares ainsi que pour la deamensia, bière de champignons aussi hallucinogène qu'addictive. L'île de Talea appartient exclusivement au peuple des hommes-serpents, qui en interdit l'accès à quiconque n'est pas des leurs, sous peine de mort — on murmure que les secrets les plus profonds de ce peuple mystérieux y seraient gardés. La Brisure abrite également la plus forte concentration d'hommes-serpents de tout Pangée, ainsi que le repaire de la redoutable pirate Lamba'issa.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "chute-des-pierres-du-ciel",
+    "hommes-serpents",
+    "lamba-issa"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "betes-esprits",
+  "title": "Les bêtes-esprits (bêtes rêvantes)",
+  "category": "creatures",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Créatures ayant reçu l'Étincelle à leur naissance — un phénomène apparu voici environ cent mille ans, en même temps que la magie elle-même se répandait chez les mortels de Pangée. Devenues pleinement intelligentes, capables d'apprendre et de raisonner, certaines vont jusqu'à parler ou manier la magie, ce qui en fait des créatures aussi rares que recherchées par les chasseurs en quête de trophées d'exception — sans que ces derniers ne soupçonnent toujours la conscience véritable, parfois redoutable, qui se cache derrière leur apparence animale.\n\nPlusieurs figures majeures de la mythologie de divers peuples pourraient n'être, en définitive, que d'anciennes bêtes-esprits élevées au rang de véritables divinités : Illa'tia, la Mère des Cornes vénérée par les taurins, en est peut-être une, de même que Paqjasi, l'immense ours blanc protecteur du clan Förli dans les Landes de givre, ou les tashmiyat, créatures titanesques ressemblant à des collines endormies servant de villages ambulants au clan taurin Temaïda. Cette parenté trouble entre mythe fondateur et simple bête-esprit, jamais confirmée ni infirmée, alimente une part importante du mystère entourant l'origine réelle de nombreux cultes de Pangée.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "etincelle",
+    "creation-du-monde",
+    "illa-tia",
+    "paqjasi",
+    "tashmiyat"
+  ]
+}

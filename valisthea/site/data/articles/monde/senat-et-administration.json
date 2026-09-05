@@ -1,0 +1,22 @@
+{
+  "id": "senat-et-administration",
+  "title": "Le sénat et l'administration provinciale",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "L'administration de l'Empire minéen s'organise en une chaîne hiérarchique descendante, sous l'autorité ultime du Kaïsar, seul habilité à décider de la guerre, des lois et de la répartition des terres. Le sénat, siégeant à Khoros et composé exclusivement de patriciens devenus sénateurs, le conseille sur les grandes orientations politiques sans pouvoir empiéter sur le rituel secret de l'Ascension qui légitime chaque nouveau Kaïsar. À l'échelon inférieur, chaque province ou marche dispose de son propre Conseil provincial, composé de patriciens élus par leurs pairs et disposant de tout pouvoir sur leur territoire, à l'exception des légions qui y stationnent — une prérogative militaire toujours réservée au commandement impérial central.\n\nAu niveau des cités, un Conseil citadin, mêlant patriciens et citoyens, gère taxes, milice locale et Mastérions. Les domaines ruraux sont administrés par des patriciens appelés gouverneurs, tandis que chaque village relève d'un kephtos (ou kephté), sorte de maire ou de bourgmestre local, lui-même responsable devant le Conseil local de citoyens. Les cités-États naines et certains protectorats conservent des structures dirigeantes propres, distinctes de cette hiérarchie standard mais reconnues par elle en vertu de leur statut particulier.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "statuts-sociaux-imperiaux",
+    "kaisar-et-ascension",
+    "khoros"
+  ]
+}

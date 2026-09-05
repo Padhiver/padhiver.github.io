@@ -1,0 +1,30 @@
+{
+  "id": "mondes-miroirs",
+  "title": "Les mondes-miroirs",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Pangée est représentée comme un disque pris en sandwich entre de multiples disques parallèles nommés mondes-miroirs, reliés au monde matériel par des failles instables — de quelques minutes à quelques années, parfois définitives — toujours associées à une surface miroitante (lac, bassin, miroir). Ce phénomène planaire, apparu en même temps que le Mur du Bord du Monde lors de la chute des pierres du ciel, a coupé Pangée du reste de la cosmologie habituelle tout en engendrant cette multitude de mondes-miroirs autour d'elle.\n\nChaque monde-miroir reproduit en général la géographie élémentaire de Pangée, mais avec une faune, une flore et une architecture propres — Avyssos, Oneira et Protogénésis dérogent totalement à cette règle. Dans de rares lieux chargés de magie primale, un lanceur de sorts peut forcer l'ouverture d'une faille par un rituel épuisant et rare ; les Archidruides de Kar'Dhurim seraient ceux qui en maîtrisent le mieux les rudiments.\n\nDepuis un événement cataclysmique survenu il y a une dizaine d'années en Hautemarche et à Glaceterre — vraisemblablement lié aux répliques de l'Anéantissement —, les failles se multiplient et laissent déferler des créatures de plus en plus nombreuses sur Pangée, en particulier dans les montagnes Ocres, déjà instables depuis la guerre entre l'Empire et Syl'Gaedrim. Huit mondes-miroirs principaux sont aujourd'hui documentés par les érudits impériaux : Avyssos, Megalos, Oneira, Paráxenos, Phôtismos, Protogénésis, Téros et Thanatos — bien qu'il en existe une multitude d'autres, de tailles très variables.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "mur-du-bord-du-monde",
+    "montagnes-ocres",
+    "age-du-changement",
+    "avyssos",
+    "megalos",
+    "oneira",
+    "paraxenos",
+    "photismos",
+    "protogenesis",
+    "teros",
+    "thanatos"
+  ]
+}

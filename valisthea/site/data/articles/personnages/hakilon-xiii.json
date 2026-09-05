@@ -1,0 +1,23 @@
+{
+  "id": "hakilon-xiii",
+  "title": "Hakilon XIII, le Lion aveugle",
+  "category": "personnages",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Treizième Kaïsar de la lignée d'Akiles Hakaton, régnant sur l'Empire minéen au moment de l'Âge du Changement, dit le Lion aveugle. Accédé au trône en l'an 2018 Æ après être né en 1998 Æ, il est aujourd'hui un souverain vieillissant, donné mourant depuis près de dix ans par certains, sans succession clairement assurée — une incertitude politique qui alimente rumeurs et manœuvres dans tout l'Empire, des ambitions de Polymède Chrysothémis à Philos jusqu'aux manigances séculaires de la société secrète des Yeux noirs autour du secret de l'Ascension.\n\nSon règne coïncide avec l'apparition du Silence, ce phénomène religieux inquiétant par lequel les dieux, toutes confessions confondues, cessent peu à peu de répondre à leurs fidèles — certains courants politiques y voient un présage directement lié au déclin de santé du vieux Kaïsar, dont la disparition prochaine pourrait rebattre profondément les cartes du pouvoir impérial.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "akiles-hakaton",
+    "kaisar-et-ascension",
+    "le-silence",
+    "age-du-changement"
+  ]
+}

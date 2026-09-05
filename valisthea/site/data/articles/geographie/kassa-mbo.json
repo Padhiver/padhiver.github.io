@@ -1,0 +1,22 @@
+{
+  "id": "kassa-mbo",
+  "title": "Kassa m'bo",
+  "category": "geographie",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Marche impériale la plus méridionale, conquise en l'an 1243 Æ, isolée du reste de l'Empire par-delà la mer des Larmes et fragilisée depuis l'indépendance de sa voisine, le Royaume du Fleuve, qui assurait jusque-là une partie de son ravitaillement — une situation qui alimente des rumeurs persistantes de retrait impérial pur et simple. Savane fertile au nord cédant la place à une jungle naissante au sud, la marche est le territoire ancestral du peuple nomade Kassa, présent bien avant l'arrivée de l'Empire, dont les légions locales sont aujourd'hui encore très largement composées de soldats issus de ce peuple.\n\nEpychris, première cité impériale de la marche, fait office de port et de nœud commercial fondé par des colons arrivés via la Brisure ; sa gouvernance permissive envers les pillards de cet archipel voisin en fait une place commerciale aussi dynamique que trouble. Les caravanes Kassa, notamment les célèbres Arsam K'bo et Bassam K'bo, traversent deux fois l'an la marche d'est en ouest entre Epychris et Pelemagra, commerçant des peaux d'animaux rares et servant à l'occasion de guides aux voyageurs de passage.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "kassa",
+    "royaume-du-fleuve",
+    "empire-mineen"
+  ]
+}

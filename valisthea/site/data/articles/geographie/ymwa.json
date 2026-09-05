@@ -1,0 +1,21 @@
+{
+  "id": "ymwa",
+  "title": "Ymwa",
+  "category": "geographie",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Cité-État naine insulaire de la mer Blanche, bâtie sur une île volcanique dont les forges et les mines exploitent directement la chaleur de la lave. Ymwa fut, durant environ six siècles, inféodée au Royaume du Fleuve, avant qu'une révolte menée par le nain Aarne Briseroche, voici plus de cinq cents ans, ne lui rende son indépendance — au prix de l'effondrement volontaire des routes souterraines et sous-marines qui la reliaient jusque-là à ses voisins. Cette rupture a laissé une rancœur historique durable envers le Royaume du Fleuve, mais aussi envers l'Empire et les trois autres cités-États naines, dont Ymwa se tient farouchement à l'écart.\n\nSa cité intérieure reste aujourd'hui quasiment fermée, même aux autres nains, un isolationnisme dont quelques rares voix, comme celle du jeune nain Into Briseglace, né dans la cité intérieure, cherchent à s'affranchir en tentant de renouer un dialogue diplomatique avec le monde extérieur.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "nains",
+    "royaume-du-fleuve"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "hommes-serpents",
+  "title": "Les hommes-serpents (Abantu Issbagyr)",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Peuple extrêmement récent à l'échelle de Pangée : les premiers groupes ont émergé, amnésiques, de cocons de pierre magiques nichés dans des ruines souterraines de la jungle de la Brisure lors du « Réveil », vers l'an 2000 Æ, les premiers contacts avec des impériaux n'étant documentés qu'à partir de 2050 Æ. Se nommant Abantu Issbagyr (« le Peuple de l'oubli »), ils sortirent de leur sommeil par groupes de dix à cinquante individus, sans aucun souvenir de leur identité ou culture d'origine, mais en conservant intégralement langage, écriture, artisanat, aptitudes magiques et combat, ainsi qu'un mode de communication télépathique propre appelé imssugassma (« la parole des émotions »). Malgré cette amnésie totale, ils organisèrent rapidement des micro-sociétés complexes.\n\nLe peuple n'est pas sexué (un unique pronom, « ku », leur est propre) ; sa reproduction repose entièrement sur l'Umwa, titre porté par chaque Reine d'une communauté — un être-serpent géant à tête de femme, seul capable de pondre par parthénogenèse, gardé et caché au plus profond des ruines, sans jamais donner d'ordre direct. Plusieurs Umwa existent, mystiquement reliées entre elles, partageant vue et pensée sans un mot. Les inrezi sont les individus nés sans rôle assigné dans leur communauté ; envoyés explorer le monde à l'âge adulte, la plupart finissent par entendre « l'Appel de la Mère » et rentrent enrichir leur communauté d'origine sur leurs vieux jours — une minorité, les yazha-gho (« âmes perdues »), embrasse définitivement l'individualisme du monde extérieur et ne revient jamais, à l'image de la redoutable capitaine pirate Lamba'issa, tristement célèbre dans la Brisure.\n\nDeux types physiologiques coexistent : les kubea ssyere, plus massifs et agressifs, combattants, chasseurs et éclaireurs chargés de garder l'Umwa ; et les kubea ghinduk, plus fins, bâtisseurs, penseurs et chamans, seuls capables de prendre apparence humaine, et parmi lesquels certains, dits amatsi-gho (« âmes curieuses »), s'interrogent sur une architecture plus ancienne découverte près des chambres de l'Umwa — statues brutalistes mêlant humains et serpents, inscriptions illisibles même à la magie — suggérant que les hommes-serpents auraient été créés comme « serviteurs parfaits » par une civilisation plus ancienne et plus puissante encore, capable de manipuler chair et âme.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "la-brisure",
+    "lamba-issa"
+  ]
+}

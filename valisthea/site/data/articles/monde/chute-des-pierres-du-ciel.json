@@ -1,0 +1,25 @@
+{
+  "id": "chute-des-pierres-du-ciel",
+  "title": "La chute des pierres du ciel",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Cataclysme dont la cause reste inconnue, survenu en une seule nuit alors que les peuples dormaient : les étoiles se détachèrent du ciel et s'abattirent sur Pangée. Le continent se sépara en deux, les eaux envahissant la fracture pour former la mer des Larmes, tandis que les terres orientales volaient en éclats pour devenir la Brisure, aujourd'hui un archipel de centaines, voire de milliers d'îles.\n\nL'événement anéantit d'un coup l'Empire protéen et la totalité de ses cités, châtiment perçu comme une punition divine face à son hubris. Cette même nuit, les dieux érigèrent le Mur du Bord du Monde, enfermant Pangée et la coupant du reste de la cosmologie — un phénomène qui engendra en retour la multitude de mondes-miroirs qui entourent aujourd'hui le continent.\n\nLes elfes nomment cet événement « la Chute » et l'identifient comme l'origine de la Ruine, la malédiction qui les a privés de leur immortalité ; certaines constellations elfiques auraient également disparu ou été affaiblies cette nuit-là. La chute des pierres du ciel marque le point de bascule entre l'âge des mythes et le début de l'Histoire documentée, ouvrant l'Âge des Sombres Guerres. Un lien mystérieux, jamais éclairci, est parfois évoqué par les érudits entre cet événement et des cataclysmes similaires survenus dans d'autres mondes lointains.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "empire-proteen",
+    "mur-du-bord-du-monde",
+    "la-ruine",
+    "age-des-sombres-guerres",
+    "la-brisure",
+    "mer-des-larmes"
+  ]
+}

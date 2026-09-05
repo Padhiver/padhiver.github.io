@@ -1,0 +1,22 @@
+{
+  "id": "opharmos",
+  "title": "Opharmos",
+  "category": "geographie",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Quatrième province de l'Empire, Opharmos s'étend au nord par-delà les montagnes Chauves et Blanches ; ancienne marche promue province lors de l'avancée impériale vers les Lointains, elle s'arrête aux trois montagnes septentrionales que sont la Mâchoire des wyrms, les Glacemonts et les monts Silencieux. C'est la province la moins accueillante de l'Empire, battue toute l'année par le vent glacial Slörkol, ce qui n'empêche pas ses habitants (les Ophiens) d'être farouchement attachés à leur terre — une charité populaire notable y veut même qu'une assiette supplémentaire soit systématiquement laissée sur la table pour d'éventuels vagabonds. Sa capitale, Pyrhid, s'accroche à flanc de montagne à l'extrémité ouest des montagnes Blanches ; on y trouve aussi Pont-aux-ruines et la ville-relais fortifiée mais peu prospère de Gardefort.\n\nUne enclave surprend au sein de ce climat rude : Glaceterre, région annexée depuis environ trois cents ans, bénéficie d'un micro-climat étonnamment doux et fertile grâce à la proximité de la mer de Feu, probablement chauffée par des volcans sous-marins. En l'an 2088, à l'aube de l'Âge du Changement, Glaceterre et Opharmos furent toutes deux frappées par une peste surnaturelle ; l'Ordre rouge intervint pour ramener la région à la vie dès 2091, sa reconstruction complète n'étant achevée qu'en 2095.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "empire-mineen",
+    "les-lointains",
+    "landes-de-givre"
+  ]
+}

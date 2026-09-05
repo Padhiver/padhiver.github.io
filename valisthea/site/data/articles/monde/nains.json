@@ -1,0 +1,26 @@
+{
+  "id": "nains",
+  "title": "Les nains",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Peuple bâtisseur des trois cités-États souterraines de Kar'Azdhur, Kar'Berial et Kar'Dhurim, dont l'alliance a permis l'ascension d'Akiles Hakaton et la fondation de l'Empire minéen. Chaque cité conserve aujourd'hui une pleine souveraineté politique et une identité culturelle propre tout en restant un protectorat historique et un partenaire économique indispensable de l'Empire, auquel les nains fournissent l'essentiel de l'armement, de l'ingénierie et de l'alchimie. La société naine se structure en klani (clans familiaux élargis, unité de base de l'organisation sociale, économique et politique de chaque cité) et se répartit en quatre kasti professionnelles héréditaires : les emstentotta (artisans et bâtisseurs), les epstänstotta (guerriers et gardes), les taïvastotta (érudits, alchimistes et ingénieurs) et les hölko, caste la plus basse, assignée aux tâches les plus ingrates et dépourvue de la plupart des droits politiques reconnus aux trois autres.\n\nLa spiritualité naine ignore les dieux au profit d'un double culte : celui des Fondateurs de chaque cité (Gorim Cœur-de-Pierre, Fronir Ciel-Doré, Thorin Sombre-Poing), et celui, plus mystique, de la Roche elle-même dont les nains s'estiment issus. Une quatrième cité-État, dont le Fondateur et jusqu'au nom ont été effacés de toute mémoire par un événement resté secret, a disparu lors de l'Âge des Sombres Guerres ; son territoire forme aujourd'hui la marche impériale de Hautemarche, seule région naine directement intégrée à l'administration minéenne plutôt que gouvernée en cité-État autonome.\n\nRéputés pour leur longévité, leur maîtrise sans égale de la pierre et du métal, et pour une mémoire collective institutionnalisée (l'Alvadh'Har, formant les gardiens Alvadh'Kar de la mémoire de chaque cité), les nains entretiennent avec l'Empire une relation de respect mutuel teintée de méfiance : leur soutien fut décisif à sa fondation, mais aucune des trois cités n'a jamais accepté de subordination politique à Protéos.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "kar-azdhur",
+    "kar-berial",
+    "kar-dhurim",
+    "hautemarche",
+    "fondateurs-nains",
+    "avenement-empire-mineen",
+    "nomos-hekatea"
+  ]
+}

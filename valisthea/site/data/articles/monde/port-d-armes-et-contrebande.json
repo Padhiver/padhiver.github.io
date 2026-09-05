@@ -1,0 +1,22 @@
+{
+  "id": "port-d-armes-et-contrebande",
+  "title": "Port d'armes et contrebande",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "La réglementation du port d'armes varie d'une cité impériale à l'autre, mais quelques principes communs s'appliquent partout : les armes de guerre et les armures lourdes restent interdites en zone urbaine hors des métiers qui les requièrent explicitement, tandis que des armes simples (dague, bâton, massue) demeurent toujours tolérées ; ces restrictions sont d'ailleurs suspendues de fait en pleine nature, loin de toute cité. Les utilisateurs de magie sont légalement considérés comme armés en permanence et doivent, à ce titre, neutraliser leurs focaliseurs, composantes matérielles ou potions avant d'entrer dans certaines zones sensibles.\n\nLa contrebande se répartit en trois degrés de gravité croissante : les biens simplement taxés à l'importation (produits de luxe non déclarés), les biens contrôlés — poisons, esclaves réduits en servitude complète, armes militaires — requalifiés en crime de sang dès leur découverte, et les biens purement et simplement interdits, dont le trafic expose ses acteurs aux réseaux les plus dangereux et à la répression la plus sévère de tout l'appareil judiciaire impérial.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "noma-autokrata",
+    "monnaie-et-commerce",
+    "drogues-et-poisons"
+  ]
+}

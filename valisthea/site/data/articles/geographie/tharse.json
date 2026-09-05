@@ -1,0 +1,26 @@
+{
+  "id": "tharse",
+  "title": "Tharse",
+  "category": "geographie",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Surnommée « l'Austère » ou « la Grise », Tharse s'étend, depuis la cession d'Eiren, entre les monts du Milieu et le fleuve Mégalé, sous un climat extrême balayé l'hiver par des vents glacials venus du nord et, l'été, par des vents brûlants venus du sud. La perte de son ancien couvert boisé au profit d'Eiren a durablement affaibli son économie du bois, sans pour autant lui coûter son rang de deuxième province la plus puissante de l'Empire après Khoros ; elle relie également Hautemarche à la cité-État naine de Kar'Dhurim. Tharse est aussi le foyer politique de la Société des Libres, faction sénatoriale militant pour l'abolition du statut d'akolos de naissance, qui y gagne régulièrement en influence.\n\nLa province abrite deux cités notables. Wissenheim, port majeur de la côte, possède une bibliothèque rivalisant avec celle de Protéos — c'est de cette cité que la patricienne Niobe Anaxandros fut expulsée avant de fonder Epistea, en Hautemarche. Zukreis, quant à elle, est le berceau historique du priméisme : un arbre central géant y recouvre tout le quartier des temples, parmi lesquels celui de Mère Printemps sert également d'hospice, prodiguant soins et accompagnant les accouchements de toute la région.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "eiren",
+    "zukreis",
+    "wissenheim",
+    "kar-dhurim",
+    "hautemarche",
+    "societe-des-libres",
+    "primeisme"
+  ]
+}

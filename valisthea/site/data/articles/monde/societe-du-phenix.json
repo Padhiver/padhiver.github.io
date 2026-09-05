@@ -1,0 +1,24 @@
+{
+  "id": "societe-du-phenix",
+  "title": "La Société du Phénix",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Fondée il y a environ cinquante ans par des utilisateurs de magie excédés par les restrictions de la Nomos Hekatea, la Société du Phénix mène un double combat. Sur le plan légal, elle œuvre au sein des conseils provinciaux et, indirectement, du sénat — la loi interdisant à tout mage déclaré d'y siéger, elle recrute et forme des non-mages sympathisants pour porter sa cause. Sur un plan plus discret, elle organise une véritable filière clandestine d'exfiltration au profit des mages menacés de Suppression, combinant un rituel dissimulant temporairement toute trace divinatoire, un talisman enchanté et la fourniture d'une identité entièrement nouvelle. Ses membres se reconnaissent à un sortilège mineur convenu, faisant apparaître un bref phénix de flammes dans la paume de la main.\n\nUne faction dissidente, apparue il y a une dizaine d'années sous le nom des Libérateurs, a rompu avec la stratégie légaliste de la Société pour prôner une révolte ouverte et la destruction pure et simple des académies magiques impériales — un radicalisme que la direction historique de la Société du Phénix refuse d'endosser, sans toutefois parvenir à s'en dissocier complètement aux yeux de l'Ordre rouge et des académies.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "nomos-hekatea",
+    "academies-imperiales",
+    "confrerie-entropee",
+    "ouroboros-blanc",
+    "yeux-noirs"
+  ]
+}

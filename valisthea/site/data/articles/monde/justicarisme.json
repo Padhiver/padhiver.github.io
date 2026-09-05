@@ -1,0 +1,25 @@
+{
+  "id": "justicarisme",
+  "title": "Le justicarisme (culte disparu de Justicaar)",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Le justicarisme est un culte aujourd'hui éteint, dont la connaissance a valeur essentiellement historique depuis les événements d'Oblivion. Dans l'ancien état du monde (l'Âge des héros), il s'agissait d'une religion organisée et hiérarchisée, prosélyte et exclusiviste, vouée à Justicaar, dieu de la justice et de la loi élevé au rang suprême par un prophète ayant vaincu une liche menaçant Pangée voilà un millénaire. Sa puissance politique avait permis à son territoire de sécession d'obtenir le statut de Saint Protectorat, théocratie dirigée par un Archonte, dont la capitale était Anthéone. Le panthéon justicarite comptait notamment Aeva, Alaria (et ses Sœurs d'Alaria, inquisitrices chasseuses de sorciers), Aliana, Céridien, Keros, Tahor, Kovar, Obaram, Salvatio, Téhulia, Thanat et Vorteos.\n\nLa vérité, révélée par l'enquête des héros d'Oblivion, était bien plus sombre : Justicaar avait depuis longtemps été dévoré par une liche, Azel-Liark, qui dirigeait en secret le culte justicarite de l'intérieur. Lorsque le plan de la liche échoua et provoqua l'Anéantissement, l'histoire de Pangée fut réécrite en profondeur : dans l'état actuel du monde, Justicaar n'a jamais pris son essor politique — ce dieu mineur n'a existé que quelques siècles avant que son culte ne s'étiole face à la montée de l'alianisme — et le Saint Protectorat n'a jamais existé sous cette forme. Anthéone, son ancienne capitale religieuse, n'est plus qu'une ruine occupée par la Horde blanche sous le nom de Noxian. Le panthéon successeur, l'alianisme, est structurellement plus fragmenté que ne l'était le justicarisme, faute d'avoir jamais bénéficié de l'unité qu'apportait un Saint Protectorat.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "azel-liark",
+    "oblivion",
+    "alianisme",
+    "saint-protectorat",
+    "anthéone",
+    "primeisme"
+  ]
+}

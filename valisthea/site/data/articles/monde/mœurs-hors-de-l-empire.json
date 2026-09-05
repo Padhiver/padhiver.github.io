@@ -1,0 +1,25 @@
+{
+  "id": "mœurs-hors-de-l-empire",
+  "title": "Mœurs hors de l'Empire",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Si l'Empire minéen impose une relative homogénéité culturelle sur son propre territoire, les peuples et royaumes qui l'entourent affichent des mœurs radicalement différentes, parfois opposées terme à terme aux usages impériaux. Le Royaume du Fleuve applique une justice d'une sévérité redoutée (amputation pour vol, castration pour adultère, décapitation pour meurtre), interdit toute substance récréative et toute infidélité conjugale, ne tolérant l'homosexualité que comme passade avant l'union solennelle. Kh'Eoda, à l'inverse, accepte les aventures extraconjugales mais interdit les maisons de plaisir et ne tolère que la fleur de lotus pourpre fumée parmi les substances récréatives. Le peuple Kassa conçoit le mariage comme un engagement à vie strictement hétérosexuel, où toute rupture entraîne bannissement, tandis que Syl'Gaedrim n'a jamais connu de prostitution organisée et que la Brisure, à l'opposé, applique des lois d'une permissivité presque totale sur l'ensemble de ces questions.\n\nCette diversité s'étend aux usages funéraires (crémation elfique libératrice, ensevelissement en vallée rocheuse chez les Kassa, dispersion des cendres au désert à Kh'Eoda, nécropoles du dieu-vautour Enos au Royaume du Fleuve) comme aux structures familiales elles-mêmes — absence totale de la notion impériale de « bâtard » au Royaume du Fleuve et chez les clans du nord, castes héréditaires rigides chez les al'wali, matriarcat électif chez les aldsan küme. Les érudits impériaux qui voyagent, à l'image de Kletio Kanaspos, en tirent souvent la leçon qu'aucune de ces coutumes n'est plus « naturelle » qu'une autre — seulement le produit de l'histoire propre à chaque peuple.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "royaume-du-fleuve",
+    "kh-eoda",
+    "kassa",
+    "syl-gaedrim",
+    "la-brisure",
+    "mariage-fidelite-homosexualite"
+  ]
+}

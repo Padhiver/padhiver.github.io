@@ -1,0 +1,23 @@
+{
+  "id": "azel-liark",
+  "title": "Azel-Liark",
+  "category": "personnages",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Liche redoutable, connue dans les récits contemporains de l'Âge du Changement sous le simple surnom de « la liche » — le nom d'Azel-Liark lui-même y étant soigneusement évité. Bien avant les événements de la campagne d'Oblivion, elle avait secrètement dévoré le dieu Justicaar dans l'ombre, réduisant tout son culte, adoré pendant des siècles par un Saint Protectorat entier, à une gigantesque façade tirée en coulisses par ses soins — une vérité que seule la révélation d'Oblivion mit au jour.\n\nDurant la campagne d'Oblivion, elle chercha à s'incarner dans un golem géant pour devenir elle-même une divinité et absorber la Cité des rêves des dieux tout entière. Elle fut finalement détruite par le paladin drakh Ilzaach, qui la frappa de l'épée Sépulcre complétée, arme forgée par Pandore et rendue capable de tuer les dieux grâce à la Larme de Kronos. Sa destruction et la révélation de sa manipulation du culte de Justicaar déclenchèrent l'Anéantissement, cataclysme qui réécrivit rétroactivement l'histoire entière de Pangée.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "oblivion",
+    "aneantissement",
+    "justicarisme",
+    "ilzaach"
+  ]
+}

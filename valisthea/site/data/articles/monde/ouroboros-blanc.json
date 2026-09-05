@@ -1,0 +1,24 @@
+{
+  "id": "ouroboros-blanc",
+  "title": "L'Ouroboros blanc",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Scission dissidente de l'Ordre rouge vieille de plus de quatre siècles, fondée par un céleste déchu connu sous le nom du Serpent d'ivoire, infiltré dans l'Ordre en se faisant passer pour un yscherion. Là où l'Ordre rouge officiel s'astreint à des méthodes encadrées par la Noma Autokrata et la Nomos Hekatea, l'Ouroboros blanc assume ouvertement les « choix difficiles » — sacrifices utilitaristes, exécutions sommaires, moyens illégaux — au nom d'une efficacité que ses membres jugent supérieure à la légalité.\n\nL'organisation se structure en petites cellules appelées creusets, de un à dix membres, chacune dirigée par un hégémène et spécialisée selon quatre fonctions : les Yeux (espionnage et renseignement), les Crocs (bras armé), le Corps (soutien logistique) et le Sifflement, réservé aux officiers isolés appelés Siffleurs, opérant seuls et sans lien direct avec les autres creusets. Un temps mobilisé contre les Octaèdres, de puissants esprits d'un autre monde ayant disparu depuis les événements de la campagne dite des « Plaies Ouvertes », l'Ouroboros blanc demeure aujourd'hui un adversaire déclaré de son organisation mère, l'Ordre rouge, dont il partage l'origine mais rejette la retenue.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "ordre-rouge",
+    "confrerie-entropee",
+    "societe-du-phenix",
+    "yeux-noirs",
+    "yscherions"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "montures-et-betes-de-somme",
+  "title": "Montures et bêtes de somme de Pangée",
+  "category": "creatures",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Chaque peuple de Pangée a domestiqué, au fil des siècles, des créatures adaptées à son environnement et à son mode de vie. Les Kassa montent le kubwavifa, énorme rhinocéros blanc servant à la fois de monture et de bête de somme dans la savane ; les gnomes nomades vaesenkaebae vivent sur le dos d'idhayoba, tortues géantes assez vastes pour porter un village entier, parfois confondues en mer avec des îlots dérivants. Les demi-ogres delchin, nomades des plaines du nord, se déplacent à dos de mammouth laineux, tout comme certaines matriarchies rouges pratiquant le pillage ; les nains, quant à eux, élèvent sous leurs cités le sivilskvä, sanglier des profondeurs albinos géant, aussi bien monture que source de lait fermenté.\n\nLes gobelins élèvent des araignées géantes (lep'lezeq) et des grenouilles géantes (bazdna'hery) selon leurs clans, tandis que les kobolds domestiquent le kaya'nyv, grand lézard albinos aux usages multiples (monture, nourriture, artisanat). Kh'Eoda, enfin, tire toute sa réputation de « Royaume aux Mille Montures » de son élevage et de la capture de chevaux sauvages jamais domptés dès la naissance, par respect d'une tradition qui veut qu'un cheval dressé trop tôt en perde à jamais la force et la noblesse.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "kassa",
+    "kh-eoda",
+    "gnomes",
+    "demi-ogres",
+    "nains",
+    "gobelins",
+    "kobolds"
+  ]
+}

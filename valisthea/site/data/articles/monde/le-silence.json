@@ -1,0 +1,24 @@
+{
+  "id": "le-silence",
+  "title": "Le Silence",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Phénomène religieux inquiétant apparu depuis quelques mois dans l'Âge du Changement : les dieux, tous panthéons confondus, répondent de moins en moins à leurs adeptes, leurs voix s'éloignent ou deviennent indéchiffrables, et les miracles se raréfient. Le plus troublant n'est pas cette absence, mais le fait que ce silence n'est pas vide : plusieurs oracles et prophètes rapportent, indépendamment les uns des autres, avoir entendu les mêmes murmures cryptiques d'une voix inconnue, décrite comme « l'écho du néant ».\n\nLe phénomène touche tous les cultes, y compris le priméisme, mais les jeunes dieux alianites semblent y être moins sensibles, ce qui alimente à la fois le scepticisme des prêtres priméistes (accusation d'esbroufe) et les conversions vers l'alianisme. Certains courants politiques commencent à relier le Silence au déclin de santé du Kaïsar Hakilon XIII, y voyant le signe avant-coureur d'un événement majeur à venir.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "primeisme",
+    "alianisme",
+    "etincelle",
+    "age-du-changement",
+    "hakilon-xiii"
+  ]
+}

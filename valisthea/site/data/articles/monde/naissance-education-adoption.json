@@ -1,0 +1,22 @@
+{
+  "id": "naissance-education-adoption",
+  "title": "Naissance, éducation et adoption dans l'Empire",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Toute naissance impériale doit être consignée dans le grammapaithan, registre des naissances et des morts tenu par un prêtre, le kephtos local ou un agent administratif dédié. La reconnaissance paternelle conditionne entièrement le statut de l'enfant : sans elle, celui-ci est déclaré bâtard, élevé au temple, puis akolos de naissance vers l'âge de dix ans, avant de devenir citoyen pauvre libre à sa majorité — sauf à intégrer plus tôt les ner-philax, jeunes éclaireurs enrôlés dès dix ans qui deviennent souvent des mercenaires mistheos à l'âge adulte. Deux couples de femmes voient légalement la plus âgée des deux endosser le rôle de « père » aux yeux de l'administration. L'adoption reste possible à tout âge, y compris pour une femme seule depuis une réforme relativement récente, mais généralement limitée aux orphelins ou aux enfants déjà formellement reconnus par un homme ; l'enfant adopté prend alors le nom de sa nouvelle famille et hérite de tous les droits d'un enfant biologique.\n\nL'éducation impériale suit deux voies distinctes selon la fortune familiale : les enfants modestes sont instruits par les prêtres priméistes jusqu'à quinze ans (lecture, écriture, histoire, mythologie, lois), tandis que les familles aisées emploient des précepteurs privés dès sept ans, avant de pouvoir prolonger leurs études dans l'une des universités impériales pour près d'une décennie supplémentaire — un privilège réservé de fait aux plus fortunés. Les akolé eux-mêmes reçoivent une éducation de base. Signe de l'importance de la démographie pour l'Empire, le deuxième enfant de chaque famille est conscrit dès la naissance dans les légions, élevé à cette fin dans l'egei-philakè jusqu'à ses quinze ans.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "mariage-fidelite-homosexualite",
+    "legions-imperiales",
+    "statuts-sociaux-imperiaux"
+  ]
+}

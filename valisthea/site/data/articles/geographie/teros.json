@@ -1,0 +1,21 @@
+{
+  "id": "teros",
+  "title": "Téros, la terre des monstres",
+  "category": "geographie",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Monde-miroir surnommé « la terre des monstres » ou « le monde des crocs », version sauvage et primitive de Pangée totalement dépourvue de civilisation. On y accède plus facilement que dans n'importe quel autre monde-miroir, les failles y étant à la fois les plus nombreuses et les plus stables — un paradoxe pour un monde où tout, de la faune à la flore, atteint des proportions démesurées, et où la magie sauvage qui y circule est d'une puissance aussi extraordinaire que chaotique, rendant tout repos prolongé impossible en dehors des rares Berceaux de magie qui parsèment son territoire.\n\nSelon le mythe fondateur du culte gnoll de la Mère de Tous, Téros serait né du ventre même de la déesse Bralirgh Rhana, lorsqu'elle s'éventra pour déverser sur le monde une armée de monstres en représailles du massacre des animaux par les peuples civilisés — donnant naissance dans le même geste au peuple gnoll. Quelques vestiges de l'ancien Empire protéen, avant-postes ou lieux d'étude à la fonction aujourd'hui oubliée, subsistent malgré tout dans ce chaos permanent.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "mondes-miroirs",
+    "mere-de-tous-gnolls"
+  ]
+}

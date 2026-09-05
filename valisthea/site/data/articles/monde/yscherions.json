@@ -1,0 +1,22 @@
+{
+  "id": "yscherions",
+  "title": "Les yscherions (aasimars)",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Semi-humains liés à Phôtismos, le monde-miroir des Lumières, paradis en apparence mais régi par une loi céleste rigide et immuable. Deux types de célestes ont pu essaimer leur sang parmi les mortels de Pangée : les exori, partis en paix et toujours bienvenus s'ils souhaitent revenir, et les agramnons, bannis pour rébellion, ambitieux et jaloux de la liberté mortelle, condamnés à une mort rapide et douloureuse s'ils tentent de rentrer. La grande majorité des yscherions actuels ignorent tout de cette ascendance : la bénédiction céleste peut sauter plusieurs générations avant de resurgir, ou disparaître purement et simplement. Seuls les humains peuvent concevoir naturellement avec un céleste ; les unions avec elfes, orcs, demi-elfes ou demi-orcs restent systématiquement stériles, de même qu'avec la plupart des autres peuples hormis les humains et, plus rarement, les géennites (dont l'union produit un dekrâ).\n\nTous les yscherions portent l'Étincelle, source de leur magie innée. Physiquement, ils se distinguent par une beauté remarquable, une légère aura dorée autour du visage, des yeux gris acier aux pupilles fixes ne se dilatant jamais, et une peau perpétuellement tiède au toucher — des traits qui suscitent autant la fascination que l'obsession malsaine chez les mortels qui les croisent. Cette fascination a un revers sombre : les yscherions sont considérés comme le « meilleur investissement possible » sur le marché de la servitude, et des réseaux criminels, parfois avec la complicité de magistrats corrompus, orchestrent de fausses accusations pour les réduire en esclavage sous couvert de légalité.\n\nFace à cette exploitation systémique, certains yscherions se sont récemment organisés en société secrète pour retrouver et guider les jeunes de leur peuple avant qu'ils ne tombent entre de mauvaises mains. Du côté de Phôtismos, l'isolationnisme traditionnel des Anges Supérieurs commence à être contesté par une frange conquérante qui verrait dans la soumission de Pangée, et l'éradication pure et simple de l'humanité jugée responsable de la « corruption » du sang céleste, une solution au problème que représentent les yscherions — position à laquelle s'opposent ouvertement des anges dits renégats.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "geennites",
+    "etincelle",
+    "photismos"
+  ]
+}

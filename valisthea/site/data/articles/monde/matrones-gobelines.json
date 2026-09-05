@@ -1,0 +1,20 @@
+{
+  "id": "matrones-gobelines",
+  "title": "Les Matrones Sacrées (culte gobelin)",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Le peuple gobelin est profondément spirituel, considérant ses divinités (Daxwe'sît) comme immanentes à chaque élément du monde, sans distance entre mortels et divin ; les prières y sont silencieuses et précèdent chaque tâche. Chaque clan (melset) choisit exclusivement l'une des deux lignées incompatibles qui structurent le panthéon, chacune comportant une Matrone et quatre divinités élémentaires en miroir positif ou négatif de l'autre. Les temples et autels sont quasi inexistants ; la maison des esprits (rân'hê'xuei) sert de lieu communautaire, non cultuel.\n\nLa lignée du Monde Paisible (Sîrasiti'dhers, harmonie et respect de la vie) est menée par Mehar'xîa, la Matrone Paisible (vie, connaissance, magie), entourée de Nethil'xi (feu de la création), Iliathan'mâ (fleuve tranquille, faune et flore), Tholian'tiia (roche impassible, justice, tradition) et Xylan'gal (vent apaisant, voyage, connaissance). La lignée de la Colère (Xhewê'dhers, violence, survie, honneur martial) est menée par Meher'sker, la Matrone aux Mains de Sang (mort, violence, survie), entourée de Gulam'xi (feu destructeur), Farghal'mâ (tempête déchaînée, hiver, mort), Rhanim'tiia (terre rugissante, prédateurs souterrains) et Hathal'gal (tornade cruelle, illusion, peur), dont le paradis promis est les Terres Cramoisies (Xwîn'sorhed).",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "gobelins"
+  ]
+}

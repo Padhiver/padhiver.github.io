@@ -1,0 +1,22 @@
+{
+  "id": "gobelins",
+  "title": "Les gobelins",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Peuple discret et profondément spirituel, organisé en clans (melset) plutôt qu'en nations, dispersés en petites communautés à travers les terres sauvages et les marges de l'Empire, en particulier dans les Lointains. Contrairement à la réputation de sauvagerie que leur prêtent les autres peuples, les gobelins pratiquent un artisanat minutieux (vannerie, tannerie, petite métallurgie) et un commerce discret avec leurs voisins, préférant l'évitement au conflit sauf lorsque leur clan est directement menacé.\n\nLa vie spirituelle imprègne chaque instant du quotidien gobelin : aucune tâche, même la plus modeste, n'est entreprise sans une prière silencieuse adressée aux Daxwe'sît, les divinités immanentes considérées comme présentes dans chaque élément du monde plutôt que lointaines ou abstraites. Chaque clan choisit dès sa fondation l'une des deux lignées incompatibles du panthéon gobelin — la lignée du Monde Paisible, tournée vers l'harmonie, la connaissance et le respect de la vie, ou la lignée de la Colère, tournée vers la violence, la survie et l'honneur martial — un choix qui structure durablement l'identité, les alliances et les rivalités entre clans.\n\nLa maison des esprits (rân'hê'xuei) sert de cœur communautaire à chaque clan, lieu de rassemblement et de décision collective plutôt que temple à proprement parler, les gobelins n'élevant que rarement des lieux de culte formels. Les clans de la lignée de la Colère, plus rares mais plus redoutés, sont souvent tenus pour responsables par les autres peuples des raids et pillages attribués globalement aux gobelins, entretenant une réputation qui ne reflète qu'une fraction du peuple.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "matrones-gobelines",
+    "les-lointains",
+    "kar-azdhur"
+  ]
+}

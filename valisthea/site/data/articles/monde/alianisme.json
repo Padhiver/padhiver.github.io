@@ -1,0 +1,26 @@
+{
+  "id": "alianisme",
+  "title": "L'alianisme",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Dite « culte des jeunes dieux », l'alianisme est une religion récente et prosélyte, dont les premiers signes remontent à environ six siècles, apparue dans le sud de Tharse et sur le territoire aujourd'hui appelé les Terres perdues. Contrairement au priméisme, son clergé est hiérarchisé et centralisé : il bâtit temples, cathédrales et monastères grandioses conçus comme des forteresses, tient des registres administratifs (naissances, confessions) et prélève une taxe annuelle plutôt que de dépendre des offrandes. Le culte finance en retour hospices, orphelinats et hôpitaux, et prône une justice égalitaire entre riches et pauvres — traits qui le rendent à la fois craint et admiré.\n\nLe panthéon des « jeunes dieux » est dominé par Aliana, Maîtresse des chouettes (sagesse, vérité, tactique de guerre), mais reste fragile et miné de rivalités internes entre divinités concurrentes : Aeva (guérison, neutralité), Alaria (magie, protection contre les sorciers), Céridien le Chasseur (forêts, chasse), Keros (récoltes, fertilité rurale), Kovar (forge, artisanat), Obaram (secrets, ruse, amant d'Aliana), Salvatio (arts, fête, joie), Téhulia (rêves, sommeil, vengeance), Tahor (courage, bravoure), Thanat le Passeur (mort, interdit l'incinération) et Vorteos (tempêtes, voyages, astres). Certains érudits pensent que ces dieux étaient à l'origine des divinités mineures du panthéon justicarite disparu, ralliées ou absorbées après la chute de Justicaar.\n\nLa grande prêtresse Polymède Chrysothémis, nommée gouverneure de Philos (Hautemarche) par le Kaïsar, y a fait de sa cité le premier bastion alianite et y mène la « croisade des jeunes dieux », visant à reconquérir les Terres perdues au nom d'Aliana. Comme les autres panthéons, les jeunes dieux sont touchés par le Silence, mais y semblent moins sensibles — un fait qui alimente à la fois le scepticisme des priméistes et les conversions en faveur de l'alianisme.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "primeisme",
+    "justicarisme",
+    "le-silence",
+    "polymede-chrysothemis",
+    "hautemarche",
+    "terres-perdues",
+    "tharse"
+  ]
+}

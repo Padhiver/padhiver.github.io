@@ -1,0 +1,22 @@
+{
+  "id": "demi-ogres",
+  "title": "Les demi-ogres (aldsan küme)",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Peuple se nommant lui-même aldsan küme, jugeant « demi-ogre » dégradant et insultant. La légende d'une ascendance née du viol d'humaines par des ogres lors de raids n'est jamais confirmée, et contredite par une culture réellement raffinée, sans rapport avec la sauvagerie ogresque. Fait unique parmi les peuples de Pangée : les aldsan küme peuvent se reproduire avec la quasi-totalité des autres peuples (y compris elfes, nains et gnomes), l'enfant né de cette union étant toujours un demi-ogre quel que soit l'autre parent — à l'exception notable des drakhs et des hommes-serpents de la Brisure, avec qui aucune descendance n'est possible. Ils vivent en petits villages isolés (beülgers), méfiants envers les étrangers, en particulier les impériaux, mais fidèles à un code d'hospitalité strict.\n\nLa société aldsan küme est matriarcale : chaque beülger est dirigé par une matriarche élue tous les dix ans parmi celles en capacité d'enfanter, seul critère jugé légitime pour gouverner ; les hommes peuvent occuper des fonctions politiques mais jamais dirigeantes. La spiritualité, l'Andhag shütak (culte des esprits primordiaux), est ouverte aux deux genres, mais le rôle de Yadhag sunta (parleur aux esprits, prêtre-chaman) est réservé aux kahchin (« touchés par les esprits »), une condition plus fréquemment féminine. De rares Matriarchies rouges rompent avec la tradition pacifique : elles vivent du pillage à dos de mammouth laineux et sont probablement à l'origine de la réputation de sauvagerie injustement attribuée à l'ensemble du peuple — réputation qu'incarne la figure historique du chef de guerre Khantsu le Sombre, qui mena une guerre contre Opharmos des siècles durant l'Âge des Sombres Guerres. Le bannissement, marqué du sceau du parakh tatoué en écriture khum-kele, ne sanctionne que le meurtre d'un autre aldsan küme — un tabou absolu ; tuer un étranger en légitime défense ou en temps de guerre reste toléré, mais le meurtre gratuit demeure puni.\n\nQuatre sous-groupes structurent le peuple : les sulchin, sédentaires, maîtres artisans de pierre et de bois vivant dans des villages aux maisons en forme de bateau, où le statut social s'affiche par le tatouage plutôt que par la richesse ; les delchin, nomades des plaines du nord au-delà des Lointains, se déplaçant à dos de mammouth laineux au rythme des migrations de gibier ; les kahchin, individus rares et non une tribu à part, petits (environ deux mètres), à la peau très pâle striée de gris, tous porteurs de l'Étincelle et doués pour la magie ; et les gadychin, nés hors de tout beülger (enfants illégitimes, de parakh ou d'aldsan küme errants), sans clan ni terre, généralement solitaires.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "les-lointains",
+    "opharmos",
+    "khantsu-le-sombre"
+  ]
+}

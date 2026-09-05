@@ -1,0 +1,21 @@
+{
+  "id": "photismos",
+  "title": "Phôtismos, le bastion des célestes",
+  "category": "geographie",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Monde-miroir des célestes, à l'apparence paradisiaque mais régi par une société féodale d'une rigidité et d'une immuabilité absolues : des anges inférieurs aux anges intermédiaires (devas, planétars), jusqu'aux Anges Supérieurs, dont la forme échappe à toute apparence humanoïde. Le pouvoir se concentre à la Cité d'Or et de Lumière, cité volante où naissent tous les anges, sous la doctrine officielle du « Pour le Plus Grand Bien » — un non-interventionnisme de principe envers Pangée aujourd'hui contesté par une frange conquérante qui y voit une occasion manquée de soumettre le continent et d'éradiquer l'humanité, jugée responsable de la « corruption » du sang céleste à l'origine des yscherions.\n\nDeux types de célestes ont pu quitter Phôtismos pour Pangée au fil du temps : les exori, partis en paix et toujours bienvenus à leur retour, et les agramnons, bannis pour rébellion et condamnés à une mort rapide s'ils tentent de rentrer. Une frange dissidente d'anges dits renégats s'oppose ouvertement à la faction conquérante, incarnant une résistance interne à Phôtismos même face à toute intervention militaire contre Pangée.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "mondes-miroirs",
+    "yscherions"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "psychiarch-et-suppression",
+  "title": "Le psychiarch et le rituel de la Suppression",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "La Suppression est le châtiment ultime réservé aux utilisateurs de magie ayant gravement enfreint la Nomos Hekatea, souvent présenté comme une alternative « plus douce » que la peine de mort — un jugement que nombre de ses victimes et de leurs proches contestent violemment. Le rituel, mis au point par les académies impériales et couramment pratiqué à Kar'Dhurim, repose sur le psychiarch, un dispositif magique conservant une goutte de sang du mage visé et servant de réceptacle au rituel, dont les modalités précises restent secrètes, même pour la plupart des membres des académies.\n\nSon effet est aussi radical qu'irréversible : la victime, coupée de toute source de magie, devient un Ampathe, un être totalement dépourvu d'émotion et de volonté propre, réduit à l'état de simple exécutant. Un Ampathe voit son statut social ramené en dessous même de celui d'un akolos, traité comme une marchandise plutôt que comme une personne — un sort si redouté qu'il alimente directement l'existence de filières clandestines comme celle organisée par la Société du Phénix pour exfiltrer les mages menacés avant que la sentence ne soit exécutée.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "nomos-hekatea",
+    "academies-imperiales",
+    "kar-dhurim",
+    "societe-du-phenix"
+  ]
+}

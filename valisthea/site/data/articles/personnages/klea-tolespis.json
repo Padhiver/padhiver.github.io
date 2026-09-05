@@ -1,0 +1,22 @@
+{
+  "id": "klea-tolespis",
+  "title": "Klea Tolespis",
+  "category": "personnages",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Sénatrice patricienne contemporaine, active au sénat de Khoros à l'époque de l'Âge du Changement. Elle y porte une réforme du droit de reconnaissance des enfants, cherchant à corriger le déséquilibre persistant qui favorise les pères sur les mères dans l'attribution de la citoyenneté et de l'héritage aux enfants nés hors mariage — une loi restée inchangée depuis la réforme du mariage vieille de plus de deux siècles.\n\nSon combat, encore en cours, en fait une figure notable des débats institutionnels de son temps, aux côtés d'autres voix réformistes comme la Société des Libres, sans pour autant partager leur cause principale.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "senat-et-administration",
+    "naissance-education-adoption",
+    "mariage-fidelite-homosexualite"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "megalos",
+  "title": "Megalos, le territoire des géants",
+  "category": "geographie",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Monde-miroir peuplé de géants, étonnamment civilisé et organisé au regard des standards pangéens, où la faune et la flore atteignent deux à trois fois la taille de leurs équivalents sur Pangée. Les sociétés géantes y sont hétérogènes mais partagent une valorisation intense de l'érudition, au point que des érudits pangéens y sont parfois employés, voire retenus prisonniers, pour leur savoir. La présence humaine y est en réalité majoritaire en nombre : des villages entiers de serfs humains entourent les cités géantes, surveillés par des « barons » locaux.\n\nCertains individus, les faillants, se spécialisent dans la détection des failles menant vers Pangée, tandis que de rares Chasseurs de bétail organisent, plus rarement, des raids d'enlèvement vers le monde d'origine. Une révolte humaine clandestine serait en gestation au sein de ces communautés serves, sans que son ampleur réelle soit connue au-delà du monde-miroir lui-même.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "mondes-miroirs",
+    "sidh"
+  ]
+}

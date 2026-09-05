@@ -1,0 +1,21 @@
+{
+  "id": "les-neuf",
+  "title": "Les Neuf",
+  "category": "geographie",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Chaîne montagneuse formant un protectorat pas comme les autres : plutôt qu'un royaume ou une cité, elle abrite neuf monastères guerriers et spirituels bâtis à son sommet, chacun indépendant, gouverné par son propre conseil régional, et entretenant une relation cordiale mais distante avec l'Empire — au point d'envoyer parfois certains de leurs disciples servir volontairement dans les légions impériales. Chaque monastère cultive sa propre philosophie martiale et spirituelle : Elmir (la puissance de l'esprit), Fadmir (la rapidité du feu), Ganliu (l'eau implacable), Hanmir (la dureté du bois), Ilmir (la sérénité du vide, protection contre la magie), Kailiu (la souplesse du vent), Reiliu (la dualité du métal), Sanliu (la force de la pierre) et Tanliu (la permanence de la vie).\n\nUne légende commune à tous les Neuf évoque l'existence d'une Source spirituelle capable de résurrection, dont la clé aurait été volontairement divisée en neuf fragments, un par monastère, afin qu'aucun d'entre eux ne puisse jamais s'en emparer seul. La région, au climat méditerranéen au nord et subtropical au sud, abrite une population mêlant humains, nains, halfelins, gnomes et une proportion notable de drakhs venus de l'Ancien Royaume voisin.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "ancien-royaume",
+    "drakhs"
+  ]
+}

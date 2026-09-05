@@ -1,0 +1,24 @@
+{
+  "id": "kar-berial",
+  "title": "Kar'Berial",
+  "category": "geographie",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Cité-État naine des montagnes Blanches, la plus ouverte et la plus militarisée des trois, entretenant les échanges les plus fréquents entre sa cité intérieure et sa cité de surface. Sans être ni la plus riche ni la plus mystique, elle tire sa prospérité de gisements de minerais qu'elle transforme elle-même, et forge l'essentiel des armes et armures de l'Empire — ce qui lui vaut la faveur particulière du Kaïsar et le surnom officieux de « cité des arts ». Elle abrite l'Akadama Vox, l'académie qui forme les voxomanciens, magiciens de la voix et de la musique, ainsi que les fronir'sön, guérisseurs itinérants perpétuant l'héritage de son Fondateur.\n\nSon Fondateur, Fronir Ciel-Doré, artisan, alchimiste et diplomate hors pair, guérit un jour Thorin Sombre-Poing, Fondateur de Kar'Dhurim, d'une peste incurable — un geste fondateur des relations privilégiées entre les deux cités. Parmi ses possessions notables figure Kivharm, forteresse côtière défendue par la seule légion entièrement composée de nains de tout l'Empire, ainsi que Laskunen et Tämharm, anciens comptoirs devenus villes marchandes mixtes.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "nains",
+    "fondateurs-nains",
+    "fronir-ciel-dore",
+    "academies-imperiales",
+    "kasti"
+  ]
+}

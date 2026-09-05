@@ -1,0 +1,23 @@
+{
+  "id": "gorim-coeur-de-pierre",
+  "title": "Gorim Cœur-de-Pierre",
+  "category": "personnages",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Fondateur légendaire de la cité-État naine de Kar'Azdhur, guerrier et tacticien hors pair vénéré aujourd'hui comme esprit tutélaire de sa cité par le culte des Fondateurs. C'est à lui que l'on doit le système défensif de Kar'Azdhur, réputé n'avoir jamais connu la moindre brèche depuis des millénaires, y compris lors des anciennes guerres souterraines contre les menaces de l'Ombremonde qui faillirent emporter les trois cités-États naines.\n\nSon culte, entretenu au sein de l'Alvadh'Har de Kar'Azdhur par les Alvadh'Kar chargés de préserver sa mémoire, place son héritage militaire au cœur même de l'identité traditionaliste et xénophobe de sa cité, la plus fermée des trois cités-États naines.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "kar-azdhur",
+    "fondateurs-nains",
+    "thorin-sombre-poing",
+    "fronir-ciel-dore"
+  ]
+}

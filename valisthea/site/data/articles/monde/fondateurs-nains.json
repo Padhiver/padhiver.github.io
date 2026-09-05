@@ -1,0 +1,28 @@
+{
+  "id": "fondateurs-nains",
+  "title": "Le culte des Fondateurs et de la Roche",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Les nains ne vénèrent aucune divinité — les dieux n'ont pas leur place dans les cités-États naines, qui préfèrent honorer les Fondateurs de chaque cité, dont l'esprit veillerait sur elle et ses habitants. Devenir Alvadh'Kar (« mémoire de la cité ») exige des décennies d'étude au sein de l'Alvadh'Har ; ces gardiens officient au Hatt'pyha (mausolée sacré) où reposent dépouille et mémoires gravées du fondateur, et jouent un rôle politique consultatif reconnu dans chaque cité.\n\nUne spiritualité parallèle rend hommage à la Roche elle-même, esprit de la montagne dont les nains s'estiment issus. Devenir Huolta'Kal (« gardien de la Roche ») exige de survivre d'abord des années comme Huol'rek, ermite isolé sans contact ni aide au cœur de la montagne ; les rares survivants en reviennent dotés de pouvoirs magiques parfois considérables, mais s'interdisent à jamais toute fonction politique — une tradition dont serait née la Nomos Hekatea impériale.\n\nChaque cité-État vénère son propre Fondateur : Gorim Cœur-de-Pierre à Kar'Azdhur (guerre, défense, ingénierie souterraine), Fronir Ciel-Doré à Kar'Berial (artisanat, alchimie, diplomatie) et Thorin Sombre-Poing à Kar'Dhurim, premier des Huolta'Kal, créateur de l'Akadama et des portes-miroirs vers les mondes-miroirs. Un quatrième Fondateur, celui de l'ancienne cité-État aujourd'hui disparue (devenue la marche de Hautemarche), est tombé dans un oubli si total que son nom même a été effacé, un événement dont la cause reste un mystère jalousement gardé.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "nains",
+    "kar-azdhur",
+    "kar-berial",
+    "kar-dhurim",
+    "hautemarche",
+    "nomos-hekatea",
+    "gorim-coeur-de-pierre",
+    "fronir-ciel-dore",
+    "thorin-sombre-poing"
+  ]
+}

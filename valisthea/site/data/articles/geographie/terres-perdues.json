@@ -1,0 +1,22 @@
+{
+  "id": "terres-perdues",
+  "title": "Les Terres perdues",
+  "category": "geographie",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Anciennement nommées « Terres sauvages », ces terres au climat méditerranéen, au sud de Tharse, furent longtemps revendiquées sans être jamais colonisées ni par Hautemarche ni par Syl'Gaedrim, avant d'être envahies par la Horde blanche — coalition de hobgobelins, de gobelours et de gnolls unifiée sous l'autorité de la générale Kabelaï Krin. La Horde y installa sa capitale à Noxian, bâtie sur les ruines de l'ancienne cité protéenne d'Anthéone, avant d'être repoussée voici une dizaine d'années grâce à l'intervention d'agents de l'Ordre rouge — un répit fragile, la région restant aujourd'hui le théâtre d'une reconquête impériale encore inachevée.\n\nTecheios, cité portuaire ayant résisté au siège de la Horde grâce à la ruse de sa gouverneure Panope Terastion, sert désormais de base arrière à cette reconquête, dirigée par les généraux Eurydème Scamandrine et Choride Ménélé. Noxian elle-même, reprise mais toujours d'accès interdit sous contrôle légionnaire strict, reste hantée par le souvenir de son passé de capitale de la Horde blanche. Le territoire fut également la cible, il y a six siècles, des tout premiers temples et autels alianites jamais établis dans la région — un lien historique qui explique en partie pourquoi la « croisade des jeunes dieux » de Polymède Chrysothémis vise aujourd'hui à y étendre l'influence de l'alianisme.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "kabelaï-krin",
+    "hautemarche",
+    "tharse"
+  ]
+}

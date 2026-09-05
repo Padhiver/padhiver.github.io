@@ -2,34 +2,23 @@
   "id": "academies-imperiales",
   "title": "Les académies impériales",
   "category": "monde",
-  "public": "ON",
-  "date": "2026-09-04",
-  "order": 6,
-  "source": "blanc-septentrion",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
   "pages": [
     {
-      "text": "Les trois seules écoles autorisées à enseigner la magie profane dans l'Empire Minéen.\n\nChacune est gardée par une cité-État naine et forme les siens à un art distinct. Ce sont elles qui ont rédigé la Nomos Hekatea et forgé le rituel de la Suppression, et elles qui lancent l'Ordre rouge sur la piste des mages clandestins. Former les praticiens les plus puissants de l'Empire - certains capables de renverser un royaume d'un seul sort - leur assure un poids politique que nul ne conteste vraiment.",
-      "caption": "Généralités",
-      "public": "ON"
-    },
-    {
-      "text": "L'Archascholia, l'Akadama Vox et l'Akadama, une par cité naine.\n\nL'Archascholia, à Kar'Azdhur, instruit ceux dont la magie coule dans le sang. L'Akadama Vox, à Kar'Berial, forme les voxomanciens, qui charment et accomplissent des prodiges par la voix et la musique. L'Akadama, à Kar'Dhurim, façonne des érudits qui étudient la magie pour la création de nouveaux sorts et rituels, et supervisent les Suppressions.",
-      "caption": "Les trois académies",
-      "public": "ON"
+      "text": "L'Empire confie à trois académies magiques, chacune abritée par une cité-État naine distincte, l'ensemble de la formation légale des utilisateurs de magie innée. L'Akadama, à Kar'Dhurim, forme les magiciens capables de concevoir leurs propres sorts et rituels, sous la tutelle historique de son créateur, le Fondateur nain Thorin Sombre-Poing ; elle supervise également le rituel de la Suppression. L'Akadama Vox, à Kar'Berial, forme les voxomanciens, magiciens de la voix et de la musique. L'Archascholia, à Kar'Azdhur, forme les ensorceleurs dont la magie innée provient du sang et de la lignée, parfois mêlée à celui d'êtres fantastiques.\n\nChaque diplômé reçoit une lettre enchantée et une broche distinctive à l'effigie de son académie. Des Maesterios, mages devins itinérants, sont chargés de repérer, grâce à l'observation des rêves des porteurs de l'Étincelle, les enfants à potentiel magique et de les conduire à l'académie compétente, en vertu d'un droit de conscription magique reconnu par la Nomos Hekatea. Les clercs, eux, restent formés par les temples, les paladins par les temples, les monastères ou en autodidactes, et les druides et rôdeurs exclusivement par les Archidruides de la forêt sacrée entourant Kar'Dhurim — les sorciers, enfin, demeurent hors de tout ce système de contrôle, ce qui en fait des individus aussi rares que redoutés et pourchassés.",
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
-    "nomos-hekatea",
-    "empire-mineen",
-    "la-suppression",
-    "magie",
-    "blanc-septentrion"
-  ],
+  "related": [],
   "relatedOff": [
+    "kar-azdhur",
+    "kar-berial",
+    "kar-dhurim",
     "nomos-hekatea",
-    "empire-mineen",
-    "la-suppression",
-    "magie",
-    "blanc-septentrion"
+    "etincelle"
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "id": "elfes",
+  "title": "Les elfes (Deithreib'Dalh)",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Peuple parmi les plus anciens de Pangée, se nommant lui-même Deithreib'Dalh (« le peuple aux douze tribus »), antérieur selon la légende aux humains et peut-être aux nains. Les douze tribus, historiquement indépendantes, se réunissent une fois par décennie lors du Creïnda'Traebhae (« la réunion des douze ») sous l'égide de la Reine Éternelle, seule elfe encore épargnée par la Ruine, malédiction qui a fait chuter l'espérance de vie jadis quasi immortelle des elfes à peine plus qu'un humain. Six tribus se sont alliées pour fonder le royaume de Syl'Gaedrim, protectorat impérial depuis l'Entente ; les six autres sont restées indépendantes, dispersées à travers le continent.\n\nLes six tribus de Syl'Gaedrim sont les Alsing'Traïbh (« elfes du rêve », caste dirigeante d'où est issue la Reine Éternelle, gouvernant Banrior et fournissant les diplomates), les Creaïch'Traïbh (« elfes d'acier », anciens guerriers proches de l'extinction et sauvés par les Rêveurs, aujourd'hui voués à leur service militaire et logistique), les Aihmad'Traïbh (« elfes de bois », artisans sédentaires vivant dans des villages arboricoles et détenant l'essentiel du commerce elfique, éleveurs de fiannahbàns), les Ceirigh'Traïbh (« elfes des roches », tribu la plus mystérieuse, gardiens troglodytes des temples et observatoires astrologiques), les Lliagath'Traïbh (« elfes du souffle », clans nomades spécialisés dans l'élevage sacré des fiannahbàns) et les Taenatha'Traïbh (« elfes des vagues », constructeurs de navires vivant en partie sur des villages flottants tirés par des baleines).\n\nLes six autres tribus, dispersées et rarement croisées, sont les Sanath'Traïbh (elfes de neige, palais de glace du nord), les Theanh'Traïbh (elfes de feu, nomades des déserts du sud), les Leana'Traïbh (elfes de lianes, cités végétales de la Brisure), les Feamh'Traïbh (elfes d'algues, royaume sous-marin protégé par sortilège), les Theras'Traïbh (elfes des steppes, cousins des elfes du souffle) et les Oigrah'Traïbh (elfes de cristal, artisans du métal et de la pierre des montagnes du sud). La société elfe pratique une forte solidarité communautaire mais valorise durement le travail ; une frange extrémiste, les Fulh'ghalan, œuvre en secret à l'extermination des demi-elfes, jugés responsables de la Ruine.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "syl-gaedrim",
+    "reine-eternelle",
+    "la-ruine",
+    "constellations-elfiques",
+    "banrior",
+    "fulh-ghalan",
+    "avenement-empire-mineen"
+  ]
+}

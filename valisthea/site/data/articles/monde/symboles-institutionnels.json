@@ -1,0 +1,23 @@
+{
+  "id": "symboles-institutionnels",
+  "title": "Les symboles institutionnels de l'Empire",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "L'Empire minéen distingue chacune de ses grandes institutions par un sigle propre, immédiatement reconnaissable sur les bannières, monnaies ou documents officiels. Le kasmeïon, triangle orné d'une tête de lion de profil, symbolise l'Empire dans son ensemble. Le phylatmeon, deux têtes de lion dos à dos, orne l'équipement des légions. Le beosmeon, un cercle renfermant un ours endormi, identifie l'administration civile. L'ophmeon, un ouroboros rouge, est l'emblème de l'Ordre rouge. Le golaxmeon, une chouette perchée sur une branche d'olivier, signale les universités impériales. Le zoéismeon, une tête de loup, marque les Mastérions, les mistheos et les justiciants.\n\nLes trois académies magiques se distinguent chacune par un symbole propre, réunis sous le terme générique d'agnosmeon : un cercle traversé d'un serpent ailé pour l'Akadama, un triangle surmonté d'un pinson pour l'Akadama Vox, une étoile à huit branches ornée d'un œil pour l'Archascholia. Chaque statut social dispose enfin de son propre signe distinctif — le prosmeon (chevalière ou pendentif de famille) pour les patriciens, le someon (bracelet ou pendentif gravé du kasmeïon) pour les citoyens, et un simple collier de servitude, marqué du symbole de l'employeur, pour les akolé.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "statuts-sociaux-imperiaux",
+    "legions-imperiales",
+    "ordre-rouge",
+    "academies-imperiales"
+  ]
+}

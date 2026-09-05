@@ -1,0 +1,22 @@
+{
+  "id": "landes-de-givre",
+  "title": "Les Landes de givre",
+  "category": "geographie",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Vaste continent septentrional, aussi étendu qu'un tiers à la moitié de l'Empire minéen lui-même, révélé par la fonte de l'ancienne mer des Linceuls (la banquise) et coupé du reste de l'Empire par la Mâchoire des wyrms et les Glacemonts. Ce froid permanent n'empêche pas une mosaïque de peuples et de clans de s'y être installés : humains, nains, ursides (medkelov à tête d'ours), centaures du clan Sovuq, et taurins du clan Temaïda (Vasylery) y cohabitent sans autorité centrale unique, séparés en zones plus ou moins sûres par le fleuve de Cristal — au sud, des clans relativement pacifiques ; au nord et à l'est, des zones dangereuses où les portails vers les mondes-miroirs sont particulièrement anciens et instables.\n\nParmi les lieux marquants : Jad Sharà, cité oubliée et maudite de la forêt de Mratojan, transformée en un champ de statues de glace ; Ultimata, ancienne ville impériale du bois Silencieux, effondrée et vieillie en une seule nuit sans cause connue ; Lugn, village le plus septentrional de l'Empire, ravagé en l'an 2089 par une catastrophe qui a laissé la région hantée de morts-vivants ; et Noch, ruines dont l'accès est interdit par les clans qui les protègent farouchement, au prix d'un châtiment collectif pour quiconque enfreint ce tabou. Förlort, ancienne colonie impériale abandonnée, a donné naissance au clan Förli, dont les membres — chavjasi (chevaucheurs d'ours) ou höljasi (« sans ours ») — vivent liés depuis la naissance à un ourson issu de la bête rêvante Paqjasi, gigantesque ours blanc protecteur du territoire.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "clans-landes-de-givre",
+    "les-lointains",
+    "opharmos"
+  ]
+}

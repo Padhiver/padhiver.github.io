@@ -2,37 +2,22 @@
   "id": "nomos-hekatea",
   "title": "La Nomos Hekatea",
   "category": "monde",
-  "public": "ON",
-  "date": "2026-09-04",
-  "order": 58,
-  "source": "blanc-septentrion",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
   "pages": [
     {
-      "text": "La loi de l'Empire Minéen qui régit à elle seule l'usage de la magie.\n\nLà où le Synode asservit les Pourvoyeurs, l'Empire recense et encadre : quiconque manie la magie, quelle qu'en soit la source, doit être déclaré auprès de sa communauté, de sa province et de l'Empire, et suivre l'enseignement d'un temple ou d'une académie. Le texte, long et truffé d'exceptions, tient tout entier dans cinq axiomes. Toute pratique clandestine est punie de mort ou de la Suppression.",
-      "caption": "Généralités",
-      "public": "ON"
-    },
-    {
-      "text": "Nulle magie ne se mêle de politique ni de justice, et aucune ne se soustrait à l'Empire.\n\nNul lanceur de sorts ne peut exercer de charge politique ; toute magie doit être déclarée ; toute magie doit être enseignée, par les temples pour le divin, par les académies Akadama, Akadama Vox et Archascholia pour le profane ; la magie ne doit jamais peser sur une procédure de justice ; enfin, elle a le devoir de servir la cité et l'Empire. Académies et Ordre rouge veillent à l'application, sans indulgence.",
-      "caption": "Les cinq axiomes",
-      "public": "ON"
+      "text": "Corpus de lois encadrant spécifiquement l'usage de la magie dans l'Empire, distinct de la Noma Autokrata qui régit la vie quotidienne de tous les statuts sociaux. Élaborée par les académies magiques et instaurée à la suite du coup d'État avorté de l'archimage Galos Hekaton en l'an 344 Æ, elle repose sur des axiomes simples mais rigides : la magie ne peut jamais se mêler de politique (tout mage visant une charge doit renoncer à son titre ou à la magie via la Suppression), tout usage de la magie doit être déclaré, tout usage de la magie doit être enseigné dans un cadre reconnu (académies ou temples), la magie ne doit jamais interférer avec le cours normal de la loi, et elle doit en toutes circonstances demeurer au service de la cité ou de l'Empire.\n\nCertains érudits font remonter l'inspiration de cette loi à la tradition naine du Huol'rek, l'ermite de la Roche qui renonce à toute fonction politique en échange de ses pouvoirs. La Nomos Hekatea est appliquée sur le terrain par l'Ordre rouge, dont les questeurs traquent les contrevenants ; la Société du Phénix, à l'inverse, milite ouvertement pour son assouplissement voire son abrogation.",
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
-    "empire-mineen",
-    "academies-imperiales",
-    "la-suppression",
-    "blanc-septentrion",
-    "magie",
-    "pourvoyeurs"
-  ],
+  "related": [],
   "relatedOff": [
-    "empire-mineen",
+    "fondateurs-nains",
     "academies-imperiales",
-    "la-suppression",
-    "blanc-septentrion",
-    "magie",
-    "pourvoyeurs",
-    "chasse-aux-heretiques"
+    "ordre-rouge",
+    "psychiarch-et-suppression"
   ]
 }

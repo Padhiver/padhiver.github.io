@@ -1,0 +1,21 @@
+{
+  "id": "changelins",
+  "title": "Les changelins",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Semi-humains parmi les plus rares et les plus mystérieux de Pangée, que les faës d'Oneira nomment vaïhdakgars. Selon la légende, ils naissent lorsqu'une faë du monde-miroir d'Oneira, peinant à concevoir par le rite du välmeenis (le mode de procréation propre aux faës), enlève un nouveau-né sur Pangée — le plus souvent humain — pour l'élever comme le sien. Ramené très jeune en Oneira, l'enfant s'imprègne peu à peu de l'énergie magique du monde-miroir et devient partiellement faë lui-même, acquérant au passage la Petite mort et la Grande mort propres à l'élément de son parent adoptif, ainsi qu'une longévité pouvant dépasser les deux siècles. Sur Pangée, cette rareté et cette apparence presque indiscernable de l'humain (à l'exception d'un léger reflet argenté ou doré de la peau et de couleurs d'yeux changeantes ou inhabituelles) en font des cibles recherchées, tant comme serviteurs que par des praticiens de magie noire convaincus que leur sang, correctement distillé, prolongerait la vie humaine.\n\nL'éducation d'un changelin varie entièrement selon le tempérament du parent faë qui l'a recueilli — craint, chéri ou simple compagnon de passe-temps — sans qu'aucun schéma ne domine. Ce qui reste constant, en revanche, c'est qu'à l'âge adulte, tout changelin ressent un appel irrésistible à retourner sur Pangée, son monde de naissance — un retour qui s'accompagne le plus souvent de la perte de tout souvenir de son passage en Oneira, ne laissant derrière lui que les traits physiques et la longévité hérités de son enfance féerique.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "oneira",
+    "sidh"
+  ]
+}

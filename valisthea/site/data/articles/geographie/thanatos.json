@@ -1,0 +1,22 @@
+{
+  "id": "thanatos",
+  "title": "Thanatos, le royaume des morts",
+  "category": "geographie",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Monde-miroir des morts, purgatoire bien réel derrière les mythes funéraires que chaque religion de Pangée raconte à sa façon. Sa géographie constitue un reflet quasi exact de Pangée, modifié à chaque nouvelle mort survenue sur le continent, et chaque panthéon y possède ses propres portails divins et points fixes par lesquels les âmes de ses fidèles transitent. Des Ancres, phénomène partagé avec Protogénésis, permettent parfois à Thanatos de déborder sur Pangée sans passer par une faille classique, tandis que des Déchirures Entropiques apparaissent dans les lieux marqués par l'horreur et la violence.\n\nLes âmes qui peuplent Thanatos y suivent une hiérarchie précise — Chétives, Errantes, Éveillées, puis Maîtresses — à mesure qu'elles s'y enracinent ou, au contraire, s'efforcent d'en repartir. Des récolteuses, entités liées à Avyssos également appelées guenaudes, y traquent spécifiquement les âmes liées par un pacte démoniaque resté impayé. Au-delà de toute cette hiérarchie subsiste un ultime châtiment, l'anéantissement de l'âme elle-même, qui la projette dans le Grand Néant sans aucun retour possible — le sort que le dieu alianite Thanat promet précisément d'épargner à ses fidèles en exigeant leur enterrement au cœur même des cités plutôt qu'en tholos à l'écart.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "mondes-miroirs",
+    "primeisme",
+    "le-silence"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "kh-eoda",
+  "title": "Kh'Eoda",
+  "category": "geographie",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Surnommé le « Royaume aux Mille Montures », Kh'Eoda est un protectorat désertique lointain, au-delà de la mer Blanche, gouverné en monarchie élective depuis sa capitale Madi'Maluk, surnommée le « Grand Bazar ». Le cheval y est quasiment sacré : le royaume élève et capture les montures les plus rapides de tout l'Empire, selon une tradition voulant qu'un cheval dressé dès la naissance perde à jamais sa force et sa noblesse — voler un cheval y est d'ailleurs puni de mort. Le pouvoir suprême revient à un consul, élu par l'assemblée des vésirs locaux, qui dirige depuis le palais de la capitale.\n\nAutrefois puissant et pleinement indépendant, le royaume a vu son influence décliner depuis son passage au statut de protectorat, réduit dans les faits au rôle de réserve de chevaux pour l'Empire — un déclin que l'indépendance récente du Royaume du Fleuve voisin a ravivé chez certains notables locaux sous forme d'aspirations à une indépendance similaire. Parmi ses cités notables : Muqta'fahid, principal port et « cité des mille voleurs », où le crime organisé opère en collusion tacite avec les autorités locales ; Muqta'helad, ville des chasseurs de chevaux sauvages ; et Muqta'masad, « cité des temples » bâtie autour d'une oasis, où se rend chaque année en pèlerinage le consul suprême pour honorer le panthéon du désert, l'Umra'rimshara.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "felys-al-wali",
+    "gnolls",
+    "mere-de-tous-gnolls"
+  ]
+}

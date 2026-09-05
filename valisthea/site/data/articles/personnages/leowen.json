@@ -1,0 +1,22 @@
+{
+  "id": "leowen",
+  "title": "Leowen",
+  "category": "personnages",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Rôdeuse demi-elfe, membre du groupe de héros au cœur de la campagne d'Oblivion, partie à la recherche de ses deux frères disparus depuis longtemps. Sa quête la conduit à découvrir que ceux-ci se cachaient en réalité parmi ses pires ennemis : Nelonys, enfant à l'apparence trompeuse menant les forces de l'Écorcheuse sous une forme démoniaque ailée, et Syloriel, dissimulé sous l'identité du Faucheur, massacreur de dignitaires lors du procès d'Anthéone. Emprisonnée puis libérée à plusieurs reprises au fil de l'intrigue, elle parvient notamment à infiltrer l'antre de Schisme en y déposant une pierre noire fournie par ce dernier.\n\nSa confrontation avec ses frères, révélés comme ennemis, se conclut par leur mort à tous deux lors du combat final contre Azel-Liark et ses alliés, aux côtés du reste du groupe de héros — un dénouement amer qui clôt sa quête personnelle dans la douleur plutôt que dans les retrouvailles espérées.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "oblivion",
+    "nelonys-et-syloriel",
+    "darkna"
+  ]
+}

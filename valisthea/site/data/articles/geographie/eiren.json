@@ -1,0 +1,23 @@
+{
+  "id": "eiren",
+  "title": "Eiren",
+  "category": "geographie",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Surnommée « la Petite Province », Eiren est la plus petite des provinces impériales, créée en l'an 1662 Æ sur des territoires boisés confisqués à Tharse en récompense des exploits militaires du halfelin Méridian Pied-Léger — une cession dont les Tharséens gardent une rancœur tenace, ayant perdu à cette occasion l'essentiel de leurs meilleures terres boisées et tempérées. Nichée entre les monts du Milieu et la mer des Larmes, la province jouit d'un climat doux et d'une criminalité particulièrement basse ; elle est majoritairement peuplée de halfelins et de gnomes, qui y cohabitent en bonne entente, la capitale portant le nom d'Erein'Syl.\n\nC'est en Eiren que se concentrent les havrexis, ces communautés halfelines cachées et hospitalières mais intransigeantes envers toute menace, ainsi que des villages d'une grande diversité architecturale : maisons troglodytes, clairières habitées, villages arboricoles reliés par des ponts suspendus, et le curieux village de Madra'ch, bâti à même des champignons géants servant à la fois de logis et de nourriture. Pour de nombreux halfelins, Eiren reste la province la plus proche d'une véritable patrie depuis la disparition, restée inexpliquée, de leur ancien royaume légendaire, le P'rel.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "halfelins",
+    "gnomes",
+    "tharse",
+    "meridian-pied-leger"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "oneira",
+  "title": "Oneira, le paradis des faës",
+  "category": "geographie",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Monde-miroir onirique où règne la magie à l'état permanent, dépourvu de cycle jour/nuit classique — une lune y brille sans jamais être accompagnée d'un soleil. Sa cartographie obéit à une logique toute particulière : la distance entre deux lieux y reflète leur affinité plutôt qu'une mesure spatiale ordinaire, et l'ensemble du territoire s'organise en relais classés selon l'allégeance de faction. Trois pouvoirs se partagent Oneira : la Cour de Lumière, dirigée par la reine Issea, dont la tyrannie policée n'en reste pas moins absolue ; la Cour des Ombres, dirigée par le prince Maldëran, où le respect du serment donné prime sur toute autre loi ; et l'Antémonde, faction de faës indépendantes vivant sous terre, en particulier les alfeärs de cendre, qui cherchent à unifier ce territoire souterrain et à l'étendre jusque sous Pangée elle-même.\n\nLa naissance d'un faë s'y opère par le rite du välmeenis, dépôt d'un élément corporel remplacé par un nourrisson — souvent humain, à l'origine des changelins. Les faës d'Oneira connaissent deux morts distinctes : la Petite mort, dont on réapparaît après quelques heures ou jours, et la Grande mort, transformation définitive en l'élément associé à son peuple (bois pour les alfeärs, pierre pour les devergars, glace, cendre ou givre pour d'autres). Des ruines disséminées à travers le monde-miroir, celles de l'imset'muin (le « peuple ancien »), nourrissent le mythe de l'Exode selon lequel elfes, nains, gnomes, kobolds et orcs pangéens descendraient tous d'anciennes faës déchues ; la disparition de ce peuple ancien, connue sous le nom de Grande Oblitération (Is'täysha), tua au passage la moitié des habitants d'Oneira.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "mondes-miroirs",
+    "sidh",
+    "gnomes",
+    "changelins"
+  ]
+}

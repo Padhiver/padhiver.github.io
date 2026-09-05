@@ -1,0 +1,23 @@
+{
+  "id": "confrerie-entropee",
+  "title": "La Confrérie d'Entropée",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Ordre secret dévot vénérant un dieu oublié nommé Abhaal, « la Main du Néant, le Changement Perpétuel » — à ne pas confondre, contrairement à une croyance répandue jusque dans certains cercles impériaux, avec Kenos, « le Grand Ver, le Dévoreur des Mondes » des Très Anciens priméistes. La théologie de la Confrérie repose sur une conviction ésotérique précise : la puissance d'une divinité serait directement proportionnelle au nombre et à la ferveur de ses croyants, si bien que l'oubli collectif suffirait à « tuer » ou à endormir un dieu. Son credo tient en une formule : « Nul autre dessein que la Transformation, nul autre destin que l'Inexistence. » Les initiés se reconnaissent à un pendentif discret représentant un œil à six rayons inscrit dans un triangle aux angles arrondis.\n\nContrairement aux autres sociétés secrètes de l'Empire, la Confrérie ne recherche ni richesse ni pouvoir personnel pour ses membres, ce qui la rend remarquablement difficile à corrompre ou à infiltrer par les moyens habituels. Sa stratégie se déploie sur le temps long en deux phases : d'abord l'infiltration de pouvoirs locaux, utilisés comme terrains d'expérimentation, puis celle d'instances toujours plus élevées — conseils provinciaux, sénat, clergés, commandement des légions — dans un projet dont la finalité exacte demeure aussi obscure que le dieu qu'elle sert.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "ouroboros-blanc",
+    "societe-du-phenix",
+    "yeux-noirs",
+    "kenos"
+  ]
+}

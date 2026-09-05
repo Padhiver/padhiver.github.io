@@ -1,0 +1,21 @@
+{
+  "id": "noma-autokrata",
+  "title": "La Noma Autokrata",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Corpus de lois communes régissant la vie quotidienne de l'Empire minéen, applicable à l'identique à tous les statuts sociaux — citoyens, patriciens, akolé et étrangers confondus. Elle distingue deux catégories d'infractions : les crimes de sang (meurtre, corruption, vol de deniers publics, sédition, trahison, désertion), rarement punis de mort mais plutôt par l'emprisonnement à vie, le bannissement ou l'enrôlement forcé — les déserteurs étant systématiquement vendus comme akolé sans possibilité d'affranchissement ultérieur — et les crimes communs (vol, injures publiques, dettes impayées, diffamation), sanctionnés par une simple amende ou une servitude compensatoire envers la victime.\n\nLes enquêtes relèvent des Mastérions, officiers spécialisés répondant au Conseil citadin, assistés des Therions (gardes et miliciens locaux) et parfois de Mistheos, mercenaires spécialisés dans la capture de criminels en fuite. Les Justiciants, Mastérions itinérants parcourant routes et régions isolées, peuvent quant à eux présider un tribunal local en l'absence de toute autre instance disponible. Les crimes communs sont généralement jugés par un tribunal populaire, les crimes de sang par un tribunal patricien ; les « marches de la honte », humiliation publique du condamné, complètent fréquemment la sanction judiciaire proprement dite.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "statuts-sociaux-imperiaux",
+    "senat-et-administration"
+  ]
+}

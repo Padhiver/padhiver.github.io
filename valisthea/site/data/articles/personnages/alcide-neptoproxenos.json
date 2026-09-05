@@ -1,0 +1,20 @@
+{
+  "id": "alcide-neptoproxenos",
+  "title": "Alcide Neptoproxenos",
+  "category": "personnages",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Général impérial commandant la ville militaire de Légion Blanche, en Opharmos, en vertu d'un accord formel avec le Conseil provincial lui garantissant une indépendance totale vis-à-vis du pouvoir civil local. Cette autonomie exceptionnelle fait de lui l'une des figures militaires les plus puissantes de la province, échappant à tout contrôle politique ordinaire.\n\nSon commandement illustre la place particulière qu'occupent certaines places fortes frontalières dans l'équilibre des pouvoirs impériaux, où l'autorité militaire peut, dans des cas exceptionnels, s'affranchir presque entièrement de la tutelle civile habituelle.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "opharmos"
+  ]
+}

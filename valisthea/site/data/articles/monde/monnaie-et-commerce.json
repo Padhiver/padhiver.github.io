@@ -1,0 +1,21 @@
+{
+  "id": "monnaie-et-commerce",
+  "title": "La monnaie et le commerce impériaux",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "La monnaie impériale s'organise en cinq métaux de valeur croissante, chacun valant dix fois le précédent : le chalque (cuivre), la drachme (argent), le statère (or), la mine (platine) et le talent (orichalque, la plus rare). Une pièce alliant fer et métal noble vaut environ le tiers d'une pièce pure du même métal. De petites pièces de chalques sont traditionnellement réservées à la charité populaire ; le troc reste par ailleurs toléré et répandu chez les plus démunis, et des lettres de reconnaissance de dette circulent comme quasi-monnaie entre marchands.\n\nTout commerce doit être déclaré auprès du kephtos local ou d'une hagièkermé (« hall du commerce »), moyennant une taxe sur le revenu généralement fixée à trente pour cent du chiffre d'affaires total, et non du seul bénéfice. Des taxes de péage s'appliquent également à l'arrivée des caravanes, de l'ordre de trente pour cent du prix du voyage. Les corps de métiers s'organisent en guildes réunies dans des eklèkermé (« halls des guildes ») — la guilde des encreurs de Tharse et la guilde des vents (marine marchande) de Mur des terres comptant parmi les plus influentes. La contrebande se répartit en trois catégories de gravité croissante : les biens simplement taxés (importations de luxe non déclarées), les biens contrôlés (poisons, esclaves, armes militaires — traités comme crime de sang), et les biens strictement interdits, dont le trafic expose à la répression la plus sévère.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "statuts-sociaux-imperiaux",
+    "port-d-armes-et-contrebande"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "ordre-rouge",
+  "title": "L'Ordre rouge",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Branche militaire impériale chargée de la sécurité liée à l'usage de la magie, fondée peu après l'Entente sous le nom des Serpents rouges (Pyrr-opheos en ancien impérial) en l'an 4 Æ, à l'origine simple bataillon de chasseurs de monstres et de magiciens hors-la-loi. Séparé officiellement des légions en l'an 106 Æ pour devenir l'Ordre rouge à proprement parler, son emblème, un ouroboros rouge, orne encore aujourd'hui ses bannières. L'Ordre agit pour le compte des académies impériales dans la traque des utilisateurs de magie illégaux, en particulier les contrevenants à la Nomos Hekatea, mais ne dispose d'aucun pouvoir d'arrestation direct hors de ce mandat précis — chasse aux monstres, phénomènes étranges, usage illégal de la magie.\n\nL'Ordre s'organise en trois sections : la queue (intendance), le corps (soldats, questeurs et officiers subalternes) et la tête (officiers supérieurs et maîtres) ; ses membres de terrain, les questeurs rouges, opèrent seuls ou en petits groupes. En déclin marqué depuis plusieurs siècles, l'Ordre ne conserve aujourd'hui que la forteresse de Mystiantrios et quelques avant-postes disséminés — un affaiblissement qui n'a pas empêché ses agents de jouer un rôle décisif, voici une dizaine d'années, dans la défaite de la Horde blanche aux Terres perdues, ni de restaurer Glaceterre après la peste surnaturelle de 2088. Une scission dissidente, l'Ouroboros blanc, s'en est détachée voici plus de quatre siècles pour assumer des méthodes que l'Ordre officiel continue de refuser.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "nomos-hekatea",
+    "ouroboros-blanc",
+    "academies-imperiales",
+    "psychiarch-et-suppression"
+  ]
+}

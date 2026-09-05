@@ -1,0 +1,25 @@
+{
+  "id": "sidh",
+  "title": "Les sidh (Vrais Faës)",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Habitants d'Oneira considérés comme les véritables faës, ancêtres mythiques des peuples pangéens qui leur ressemblent (elfes, nains, gnomes, kobolds, gobelins et orcs), et bâtisseurs/seigneurs de la Faërie, où ils règnent sur les autres créatures féeriques comme alliés ou, plus souvent, comme serviteurs. Ils ne s'aventurent qu'exceptionnellement hors d'Oneira, en tant qu'aventuriers ou exilés ; quand un impérial en croise un, l'apparence bien plus exotique du sidh (peau évoquant le métal, la pierre ou d'autres matières précieuses) le pousse souvent à le prendre, à tort, pour un elfe, un orc ou un nain particulièrement singulier, nourrissant ainsi des légendes d'archifaës ou de demi-dieux. Chaque peuple sidh est indissociablement lié à un élément (bois, pierre, métal, air, eau, terre) qui compose littéralement son corps, même quand la peau semble ordinaire au toucher.\n\nLes alfeärs, ancêtres des elfes véritables, sont grands, élégants, aux oreilles pointues et à la peau striée comme une écorce (du bouleau pâle à l'ébène, rarement des tons terreux) ; intellect mesuré mais arrogance sans limite, ils se considèrent comme la royauté du monde féerique — la Reine de la Cour de Lumière et le Prince de la Cour d'Ombre sont tous deux alfeärs. Les devergars, ancêtres des nains, mesurent environ 1m60, à la peau couleur pierre (du calcaire blanc à l'obsidienne noire, y compris des teintes précieuses ou semi-précieuses) ; maîtres artisans du métal, de la pierre, du bois, du cuir et de la joaillerie, ils impriment leur magie dans leurs créations pour bâtir des machineries extraordinaires dans leurs cités souterraines. Les drakengars, ancêtres des kobolds, vivent en zones montagneuses ou souterraines, souvent aux côtés des devergars ; peau métallique et parfois changeante, forte affinité pour la détection des métaux — d'autres faës redoutent qu'ils ne réveillent un jour des choses sombres et oubliées dans les profondeurs d'Oneira.\n\nLes hissengars, ancêtres des orcs et des gobelins, ont la peau terreuse et sombre ; contrairement à la réputation de leurs cousins pangéens, ils sont enjoués (les petits) ou taciturnes (les grands), solitaires, vivant en forêt et tenant parfois de tranquilles relais ou auberges. Les snifërgars, ancêtres des gnomes, petits et fins, nés de l'eau mais arborant des teintes de peau végétales ou fongiques, savent parler à la faune et à la flore et s'installent toujours près de l'eau. Les tuathans (« les géants »), peuple d'un monde oublié adapté à Oneira et lié à l'air, à la peau bleutée, forment des communautés isolées vouées à la maîtrise de la magie et du combat, devenant volontiers gardiens solitaires des portails vers Pangée et les autres mondes. Les vëngergars, enfin, correspondent le mieux à l'image populaire d'une faë — petits, colorés, chevelure de flamme, ailes de papillon — vivant partout en Oneira comme serviteurs ou conseillers, aussi malins que notoirement peu fiables (« seuls les fous ou les imbéciles croient en la parole d'une vëngergar »). D'autres faës mineures peuplent Oneira, dont des sägsegars érudits à tête de hibou, des hevengars centauresques guidant les voyageurs, des iltengars à tête d'oiseau capables de se transformer en volatile, et des ksäeltgars félins de feu servant dans la garde royale de la Cour de Lumière.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "oneira",
+    "elfes",
+    "nains",
+    "gnomes",
+    "kobolds",
+    "gobelins"
+  ]
+}

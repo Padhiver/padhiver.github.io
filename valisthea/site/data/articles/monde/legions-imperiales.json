@@ -1,0 +1,22 @@
+{
+  "id": "legions-imperiales",
+  "title": "Les légions impériales",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "L'armée impériale se structure selon une organisation strictement décimale : une unité de dix soldats est menée par un phi-alda, dix unités forment un bataillon (phi-telda) mené par un officier du même rang supérieur, dix bataillons forment un régiment (phi-ischa), et plusieurs régiments constituent une légion, placée sous l'autorité d'un général. Les soldats de rang commun sont appelés philaxiens ; les meilleurs d'entre eux intègrent l'arch-philax, garde personnelle rapprochée du Kaïsar. L'intendance de chaque légion relève d'un corps distinct, l'agas-philakè (« garde du bien-être »).\n\nLe fondement du recrutement légionnaire repose sur la conscription obligatoire : le deuxième enfant de chaque famille impériale est destiné, dès sa naissance, à rejoindre les légions, élevé à cette fin dans l'egei-philakè (« garde de l'éveil ») jusqu'à ses quinze ans avant de rejoindre son régiment d'affectation — une règle vécue comme un pilier fondateur de la société impériale, à laquelle seules les familles des cités-États naines échappent partiellement, leurs enfants conscrits étant systématiquement affectés à la défense de leur propre cité plutôt qu'envoyés au loin. Des enfants répudiés ou orphelins peuvent également être enrôlés dès dix ans comme ner-philax (jeunes éclaireurs), une voie qui mène souvent, à l'âge adulte, vers une reconversion comme mercenaire mistheos plutôt que vers une carrière légionnaire classique.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "naissance-education-adoption",
+    "statuts-sociaux-imperiaux",
+    "ordre-rouge"
+  ]
+}

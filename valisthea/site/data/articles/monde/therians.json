@@ -1,0 +1,18 @@
+{
+  "id": "therians",
+  "title": "Les thérians",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Peuple vivant loin au nord-est de l'Empire, par-delà les monts Silencieux et la mer Rugissante, presque toujours confondu par les impériaux avec des lycanthropes et chassé sur cette seule apparence, sans que personne ne soupçonne leur véritable nature. Leurs propres origines leur échappent à eux-mêmes : aucune archive ne remonte au-delà de huit siècles, aucune ruine ni temple plus ancien n'a jamais été retrouvé, et le sujet constitue un tabou aussi frustrant que central dans leur culture. Les théories les plus sérieuses évoquent une lointaine civilisation disparue, un peuple féerique exilé ayant oublié son passé, ou quelque chose de plus sombre volontairement dissimulé par des sages anciens.\n\nLoin de former une civilisation unifiée, les thérians vivent en une multitude de clans et de villages aux structures rigides mais très diverses, allant de l'égalitarisme le plus strict à l'autoritarisme où seule la force prime — sans corrélation avec l'apparence plus ou moins prédatrice du clan. Aucun titre ni terre ne se transmet par hérédité (à l'exception de quelques objets symboliques) : un fürwrethen (chef de clan, élu pour une génération, révocable et rééligible) doit être choisi sur ses mérites, de même que l'enfant d'un chef doit prouver sa valeur par des épreuves rituelles pour lui succéder ; aucune fonction (chasseur, artisan, chef) n'est considérée socialement supérieure à une autre. Le weisgeisten (chef spirituel) préside les rites, honore les esprits de la nature, bénit les chasses et forme son successeur aux arts spirituels et à la médecine avancée.\n\nLe peuple souffre d'une crise de fertilité inexpliquée qui le fait lentement disparaître ; les rares familles fécondes sont chéries et protégées, et le meurtre n'est jamais utilisé comme châtiment (bannissement ou emprisonnement lui sont préférés), tandis que tuer un thérian déclenche une vengeance collective féroce. De nombreux sous-types animaux existent, certains rares et solitaires (uluvmanden, natelmanden, lévèmanden), d'autres plus nombreux et moins touchés par la stérilité (kanenmanden, garavmanden, gnavelmanden). Les kopfhumen (« sangs-mêlés »), malgré leur nom, naissent de deux parents thérians pleinement animaux — un phénomène représentant environ trois naissances sur dix, dont la cause reste mystérieuse même pour les sages du peuple ; d'apparence plus humaine que leurs cousins kopftieren mais conservant des traits animaux (pilosité excessive, barbes fournies, nez crochus), ils ne sont pas traités en citoyens de seconde zone à proprement parler, mais restent de fait exclus de fonctions comme celle de fürwrethen, injustement associés aux défauts prêtés aux humains — inconstance, violence naturelle, soif de pouvoir.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": []
+}

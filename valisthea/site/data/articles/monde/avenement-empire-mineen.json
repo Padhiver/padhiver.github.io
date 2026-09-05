@@ -1,0 +1,28 @@
+{
+  "id": "avenement-empire-mineen",
+  "title": "L'avènement de l'Empire minéen et l'Entente",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Il y a plus de 2000 ans, les trois cités-États naines (Kar'Dhurim, Kar'Berial, Kar'Azdhur), constatant que l'Âge des Sombres Guerres menaçait jusqu'à leurs propres royaumes, s'allièrent pour soutenir l'ascension d'Akiles Hakaton, chef de guerre né dans la misère. Conduit par des émissaires nains jusqu'à Kalipsis, lieu connu des seuls nains, Akiles y accomplit la première Ascension, rituel secret lui conférant la sagesse de ses prédécesseurs. Il fonda ensuite Protéos, en hommage aux ancêtres protéens de l'humanité, et posa les bases de l'Empire minéen — nommé d'après Minéa, capitale mythique de l'Empire protéen.\n\nSoutenu par un équipement et un approvisionnement nains irréprochables, l'Empire naissant conquit rapidement Khoros, Opharmos, Hautemarche, Tharse et Basse-terre, mais se heurta à l'union des tribus elfes de Syl'Gaedrim, fédérées sous la Reine Éternelle. Après près d'une décennie de guerre, épuisés, les deux camps conclurent l'Entente : l'Empire renonça à ses visées sur la forêt elfe, qui devint protectorat, en échange de la consolidation de son propre territoire. Le jour de l'Entente marque le premier jour de l'an 1 du calendrier impérial (ère Æ, « après l'Entente » ; les dates antérieures sont notées PE, « précédant l'Entente »).\n\nCette guerre a laissé des cicatrices durables : l'arsenal magique déployé lors des derniers combats dans les montagnes Ocres y a provoqué une instabilité qui perdure aujourd'hui, ouvrant des passages imprévisibles vers des mondes-miroirs. C'est également lors de ce conflit qu'une quatrième cité-État naine, dont le nom et l'emplacement exact sont aujourd'hui oubliés, fut détruite ; son territoire est devenu la marche de Hautemarche. L'Empire est aujourd'hui, en l'an 2098 Æ, dirigé par le treizième Kaïsar de la lignée d'Akiles Hakaton, Hakilon, dit le Lion aveugle.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "akiles-hakaton",
+    "kalipsis",
+    "ascension-imperiale",
+    "les-trois-cites-naines",
+    "syl-gaedrim",
+    "reine-eternelle",
+    "hautemarche",
+    "montagnes-ocres",
+    "calendrier-imperial"
+  ]
+}

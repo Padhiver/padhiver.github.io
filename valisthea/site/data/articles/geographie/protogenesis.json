@@ -1,0 +1,21 @@
+{
+  "id": "protogenesis",
+  "title": "Protogénésis, le berceau des élémentaires",
+  "category": "geographie",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Monde-miroir des éléments purs, à la géographie radicalement différente de celle de Pangée : il se divise en zones à élément unique (air, eau, feu, terre), chacune dotée de sa propre gravité, et se rejoignant en zones frontalières mixtes où se manifestent des éléments dits mineurs, tels la lave ou la poussière. Ce monde inhospitalier est peuplé de créatures élémentaires en tout genre, ainsi que de djinns organisés en véritables royaumes, sous l'autorité des Seigneurs des Éléments qui résident à la Cité des Quatre.\n\nComme dans plusieurs autres mondes-miroirs, on y trouve des vestiges de l'ancien Empire protéen, dont la présence dans un environnement aussi hostile reste largement inexpliquée. C'est l'exposition prolongée à l'énergie magique brute de Protogénésis — que ce soit par un séjour direct ou par la proximité durable d'un portail — qui serait à l'origine, selon la théorie la plus répandue, de la naissance des élémentaliens sur Pangée.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "mondes-miroirs",
+    "elementaliens"
+  ]
+}

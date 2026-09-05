@@ -1,0 +1,22 @@
+{
+  "id": "mere-de-tous-gnolls",
+  "title": "La Mère de Tous (culte gnoll)",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Religion peu documentée du peuple gnoll, nomade et esclavagiste, hostile aux étrangers, vivant traditionnellement autour de Kh'Eoda avant qu'une partie ne rejoigne la Horde blanche dans les Terres perdues. Le mythe fondateur raconte que la déesse Bralirgh Rhana, témoin du massacre des animaux par les peuples civilisés, s'éventra elle-même pour déverser sur le monde une armée de monstres — donnant naissance au monde-miroir de Téros — ainsi que les gnolls, ses enfants chéris, accompagnés des Enfants Jumeaux offerts pour les guider. Les gnolls se considèrent comme un peuple élu, bras armé vengeur de la nature contre la civilisation (les tazlagsargh, « charognards nettoyeurs »), une croyance qui légitime à leurs yeux l'esclavage des peuples civilisés.\n\nLes lieux de culte sont rudimentaires — ruines réappropriées ou autels sommaires ornés de statues et d'un autel sacrificiel. Les rites impliquent des sacrifices d'animaux ou de créatures avant chasse ou bataille, jamais de prière à voix haute. La Trinité de la Mère réunit Bralirgh Rhana, la Mère de Tous (force de la nature, vengeance, création des monstres et des gnolls), Alatin Ul, le Fils d'Or (guide quotidien, chance, chasse) et Tersti Qis, la Fille Affamée (force au combat, purification des terres conquises).",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "kh-eoda",
+    "teros",
+    "horde-blanche"
+  ]
+}

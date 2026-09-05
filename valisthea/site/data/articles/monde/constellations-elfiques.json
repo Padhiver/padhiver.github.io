@@ -1,0 +1,24 @@
+{
+  "id": "constellations-elfiques",
+  "title": "Les Constellations (spiritualité elfique)",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Les elfes ne vénèrent aucune divinité, jugeant que des dieux mortels par nature ne méritent aucune dévotion, contrairement au ciel et aux étoiles, éternels. Leur tradition spirituelle repose sur les Constellations, formées par les âmes des Maeribraethi (« elfes véritables ») ayant achevé leur cycle de réincarnations et « rejoint la voûte céleste ». Sans clergé structuré, ce sont les gardiens nocturnes (oihd'maor) et les astrologues qui entretiennent temples et observatoires à ciel ouvert ; un clerc elfe naît sous la bénédiction d'une constellation plutôt que de la vénérer activement.\n\nLes elfes croient en la réincarnation cyclique : chaque mort est équilibrée par une naissance, l'âme pouvant attendre des années avant de se réincarner. Le calendrier Eon'deagn (treize mois de 28 jours, dont un mois hors-saison dédié à la réincarnation) rythme cette spiritualité, culminant tous les quatre ans au jour de Mallach'iiath, où le voile vers Thanatos s'amincit. Le rituel du Gleich'an'Fargh permet à un elfe de puiser dans la sagesse de ses vies antérieures, en particulier dans les moments graves. Les demi-elfes, incapables d'accomplir ce rituel ni de rejoindre pleinement le cycle des réincarnations, alimentent une controverse théologique et le mouvement extrémiste des Fulh'ghalan, qui les tient pour responsables de la Ruine.\n\nParmi les constellations les plus vénérées figurent Gal'sanam (oracles), Gil'sanem (amour, charme), Issine malei (voyageurs), Kael'ner (ombres, secrets, vengeance, premier à avoir usé de violence), Ogh'mael (mers, tempêtes), Raechio'alaem (artisanat, architecture), Sael'dam (premier chasseur et magistrat, punisseur des parjures), Sol narem (chance, destin, être aux deux visages), Solis galem (guide des réincarnations), Syris galem (gardienne des morts, guide des âmes, empêche les morts-vivants d'entrer au royaume elfe) et Tol'aethin (saisons, forêt).",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "elfes",
+    "syl-gaedrim",
+    "reine-eternelle",
+    "la-ruine",
+    "fulh-ghalan"
+  ]
+}

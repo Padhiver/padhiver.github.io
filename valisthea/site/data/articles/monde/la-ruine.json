@@ -1,0 +1,23 @@
+{
+  "id": "la-ruine",
+  "title": "La Ruine",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Malédiction ayant frappé le peuple elfe, lui faisant perdre progressivement son immortalité. Les elfes en situent l'origine dans l'événement qu'ils nomment la Chute, identifiée à la chute des pierres du ciel. Jadis capables de vivre plusieurs siècles, voire indéfiniment pour les plus anciens (les Maeribraethi, ou « elfes véritables »), les elfes voient leur espérance de vie diminuer à chaque génération depuis ce cataclysme, aujourd'hui à peine supérieure à celle d'un humain — et rien ne garantit qu'elle cessera de décroître.\n\nLa cause exacte de la Ruine demeure inconnue ; beaucoup d'elfes en tiennent les humains pour responsables, sans pouvoir l'établir. La Reine Éternelle, souveraine de Syl'Gaedrim, est la dernière elfe connue à n'avoir jamais été touchée par cette malédiction — un fait qui alimente à la fois sa légitimité et bien des interrogations sur sa nature véritable.\n\nLa Ruine a aussi eu pour effet, selon plusieurs érudits, d'émousser la mémoire collective des elfes : depuis son avènement, plus personne ne semble en mesure de se souvenir précisément de ce qui précédait l'Empire minéen. Une frange extrémiste du peuple elfe, les Fulh'ghalan, estime que les demi-elfes — nés d'unions avec des humains — interrompent le cycle des réincarnations et seraient la cause réelle de la Ruine ; ce courant œuvre discrètement à leur extermination.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "elfes",
+    "chute-des-pierres-du-ciel",
+    "reine-eternelle",
+    "constellations-elfiques"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "elementaliens",
+  "title": "Les élémentaliens",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Également appelés « fils des éléments » ou « demi-élémentaires », les élémentaliens ont une apparence humaine mais sont irrémédiablement infusés d'une nature élémentaire qu'ils ne peuvent dissimuler : chevelure aux teintes et mouvements de flamme, cheveux ondoyant comme de l'eau courante, peau craquelée par plaques comme une terre desséchée, ou courants d'air permanents autour du corps, selon l'élément concerné. La cause de leur existence reste incertaine faute d'étude sérieuse — la théorie la plus répandue veut qu'une mère ait été exposée, pendant sa grossesse, à l'énergie magique brute de Protogénésis, monde-miroir des éléments, que ce soit en s'y rendant directement ou en séjournant longuement à proximité d'un portail.\n\nLeur nature visible leur vaut à la fois fascination et hostilité ouverte : on les tient volontiers pour responsables de catastrophes correspondant à leur élément — un élémentalien du feu accusé d'avoir incendié une taverne, un élémentalien de la terre blâmé pour un éboulement — même sans la moindre preuve. Cette suspicion permanente pousse la plupart d'entre eux vers l'isolement et une vie recluse, loin des communautés qui pourraient à tout moment se retourner contre eux.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "protogenesis"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "pangee",
+  "title": "Pangée",
+  "category": "geographie",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Pangée est l'unique continent connu du monde, ancien supercontinent aujourd'hui fracturé par la chute des pierres du ciel, qui en sépara une partie pour former la mer des Larmes et brisa les terres orientales en l'archipel de la Brisure. Il s'étend sur plus de 15 000 kilomètres d'est en ouest et au moins autant du nord au sud, et se trouve entièrement cerné par le Mur du Bord du Monde, barrière mystique érigée par les dieux la nuit même de la Chute pour empêcher toute créature d'en sortir. Cet isolement forcé a eu pour contrepartie l'apparition d'innombrables mondes-miroirs, demi-plans reliés à Pangée par de rares failles instables, qui entourent aujourd'hui le continent de toutes parts.\n\nL'ouvrage de référence des érudits impériaux, centré sur le point de vue de Kletio Kanaspos, ne documente en détail que le nord-ouest du continent (l'Empire minéen et ses protectorats) ; les régions du sud, du nord-est et du sud-est de Pangée demeurent largement inexplorées ou mal connues de la civilisation impériale. Le continent abrite une mosaïque de peuples, de cultures et de systèmes politiques radicalement différents, de l'Empire minéen unifié aux tribus taurines animistes des vallées Tranquilles en passant par les cités-États naines et les sociétés matriarcales des aldsan küme — une diversité que seule l'ampleur du territoire, et son isolement de toute autre cosmologie, permet d'expliquer.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "mur-du-bord-du-monde",
+    "creation-du-monde",
+    "chute-des-pierres-du-ciel",
+    "empire-mineen",
+    "mondes-miroirs"
+  ]
+}

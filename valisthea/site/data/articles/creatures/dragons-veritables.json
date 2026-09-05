@@ -1,0 +1,23 @@
+{
+  "id": "dragons-veritables",
+  "title": "Les Dragons Véritables",
+  "category": "creatures",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Êtres de chair et de magie ayant jadis parcouru Pangée en quête de savoir, de pouvoir et de richesses, les Dragons Véritables régnaient en maîtres quasi divins sur l'Ancien Royaume, où ils auraient façonné le peuple drakh à leur propre image, dans la glaise de la jungle, pour en faire serviteurs et compagnons. Leurs comportements passés, tour à tour jugés bienveillants ou tyranniques selon les sources, expliquent l'ambivalence persistante des drakhs à l'idée de leur retour éventuel.\n\nIls ont disparu de Pangée de façon aussi soudaine que mystérieuse voici plus d'un millénaire — la légende parle d'une seule nuit, les érudits impériaux évoquent plutôt plusieurs années —, un événement contemporain de l'effondrement cataclysmique de l'Ancien Royaume lui-même, sans qu'un lien de causalité certain n'ait jamais pu être établi entre les deux. Depuis leur disparition, aucun Dragon Véritable n'a été formellement revu sur Pangée ; seules des formes jugées « inférieures » — drakhs et vouivres — perpétuent un lointain écho de leur lignée. Les kobolds les vénèrent au travers des Esprits Dragons, tandis que les drakhs leur associent un panthéon distinct, celui des Dragons Premiers, considérés comme leurs créateurs.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "ancien-royaume",
+    "drakhs",
+    "dragons-premiers",
+    "esprits-dragons-kobolds"
+  ]
+}

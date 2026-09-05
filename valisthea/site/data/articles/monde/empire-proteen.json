@@ -1,0 +1,25 @@
+{
+  "id": "empire-proteen",
+  "title": "L'Empire protéen",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Civilisation antique fondée par les Protéens, enfants de Kronos et Gaïa, l'Empire protéen répandit sur Pangée des forteresses et des cités merveilleuses où la magie rendait possible toute excentricité. Sa capitale légendaire, Minéa, aussi vaste qu'un royaume, défiait les lois du monde et concentrait toutes les merveilles magiques de l'empire.\n\nCette civilisation vécut des éons de paix relative avant qu'une hubris grandissante — certains disent qu'elle chercha à « tutoyer les dieux » — ne provoque son anéantissement complet la nuit de la chute des pierres du ciel : cités et forteresses furent réduites en cendres, châtiment perçu comme divin, et le Mur du Bord du Monde fut érigé cette même nuit pour sceller Pangée.\n\nLes humains sont considérés par les érudits impériaux et les Gardiens du Savoir nains comme les descendants légitimes de cet empire disparu ; le nom même de l'Empire minéen dérive de celui de Minéa, en hommage à cette civilisation perdue. Des ruines protéennes, éparses à travers tout Pangée et même dans certains mondes-miroirs (notamment Paráxenos), témoignent encore de cette grandeur oubliée — la plupart dangereuses, gardées par une magie résiduelle qui rend fou ou tue quiconque s'en approche sans précaution.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "creation-du-monde",
+    "chute-des-pierres-du-ciel",
+    "mur-du-bord-du-monde",
+    "empire-mineen",
+    "proteos",
+    "humains"
+  ]
+}

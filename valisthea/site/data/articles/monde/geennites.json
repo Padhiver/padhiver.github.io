@@ -1,0 +1,24 @@
+{
+  "id": "geennites",
+  "title": "Les géennites (tieffelins)",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Semi-humains dont l'ascendance remonte à une créature d'Avyssos, monde-miroir des fiélons, franchie sur Pangée via un portail rare et instable — pacte conclu avec un giir'etzu, accident de possession par un massar'gatzu, ou lignée plus discrète issue d'un aar'satzu. Leur nature est visible dès la naissance (peau allant du rouge écarlate à l'ébène, en passant par le bleu ou le violet, parfois bicolore ; cornes de chèvre, de gazelle ou simples excroissances ; queue pointue ou fourchue ; parfois sabots, mains griffues ou ailes atrophiées inutilisables), ce qui les expose sans échappatoire possible au rejet social dès l'enfance. La plupart sont des bâtards désavoués par un père fiélon absent, grandissent au temple puis basculent dans la mendicité, l'esclavage ou le banditisme ; certains, plus rares, sont adoptés par des familles acceptantes mais restent des boucs émissaires commodes. Beaucoup sont stériles.\n\nLes fiélons d'Avyssos exploitent activement ce rejet en recrutant les géennites comme agents, leur promettant appartenance, richesse, pouvoir ou vengeance — et se retournant contre ceux qui résistent. Tous les géennites portent l'Étincelle, source de leur magie innée ; leurs origines et leur classification exacte demeurent mal connues du grand public, les rares érudits qui s'y consacrent sérieusement finissant souvent oubliés ou rendus fous. On distingue trois lignées : les gel'absu (« enfants du feu »), descendants de pactes avec des giir'etzu, affinité ardente et type le plus visible/connu du grand public ; les na'saqwu, nés d'un accident de possession, aux traits plus « monstrueux » et déformés ; et les uttuk'emu, descendants des aar'satzu neutres collecteurs d'âmes, type le plus rare et le plus discret, capable d'influencer subtilement les esprits.\n\nUn seul géennite occupe une fonction politique notable et documentée : Eurysthée Adeimantos, unique sénateur tieffelin siégeant au sénat de Khoros, salué comme un exemple isolé de réussite plutôt que le signe d'une intégration réelle du peuple géennite. L'union d'un géennite et d'un yscherion produit systématiquement un dekrâ (« le corrompu »), porteur à la fois de la puissance céleste et fiélonne, parfois marqué de petites cornes ou d'une queue rabougrie héritées du parent géennite.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "yscherions",
+    "etincelle",
+    "avyssos",
+    "khoros",
+    "demographie-magie"
+  ]
+}

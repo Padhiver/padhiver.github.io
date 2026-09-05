@@ -1,0 +1,23 @@
+{
+  "id": "dragons-premiers",
+  "title": "Le culte des Dragons Premiers",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Culte du peuple drakh, survivants déclinants de l'Ancien Royaume, vénérant les Dragons Premiers, créateurs mythiques des Dragons Véritables (chromatiques et métalliques) aujourd'hui disparus. Le panthéon oppose deux lignées rivales : le culte bienveillant de Mushussa, largement majoritaire, et le culte plus violent et sacrificiel de Nammu, minoritaire mais gagnant du terrain chez les jeunes drakhs qui blâment la modération de Mushussa pour la stagnation démographique et territoriale de leur peuple. Les temples, souvent en ruines, sont des lieux neutres où l'on ne mange, ne dort ni ne combat, et où sont bénies les unions ; la grande pyramide de Mokaroi, dernière cité drakhe, est dédiée à Mushussa.\n\nLes Dragons Premiers métalliques sont Mushussa, le Père aux cinq métaux, Premier Patriarche et Protecteur de la Terre, entouré d'Ashur (cuivre, nature et fertilité), Jorm (or, ordre juste), Ladonia (airain, été et soleil), Nidhar (argent, hiver, mort paisible et renaissance) et Védir (bronze, pluies). Les Dragons Premiers chromatiques sont Nammu, la Mère aux cinq couleurs, associée à la destruction, au chaos et aux eaux, entourée d'Apep (noir, maladie et folie), Béhém (bleu, colère des eaux), Fatakh (rouge, feu destructeur), Leviathan (blanc, hiver impitoyable) et Pythas (vert, rage et fureur sauvage). La majorité des drakhs espère qu'en transcendant leurs bas instincts draconiques, ils provoqueront le retour des Dragons Véritables ; une minorité, au contraire, prône l'abandon total à ces instincts pour réveiller les dragons qu'elle croit seulement endormis.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "drakhs",
+    "ancien-royaume",
+    "mokaroi",
+    "dragons-veritables"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "basse-terre",
+  "title": "Basse-terre",
+  "category": "geographie",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Marche impériale à l'est de Khoros, ancienne zone tampon face à l'Ancien Royaume avant son effondrement, aujourd'hui aussi prospère et fertile que sa voisine et aspirant depuis longtemps au statut de province à part entière. Sa capitale, Hautesource (aussi connue sous le nom d'Alabast), s'organise autour de la chute d'eau du fleuve le Bourbeux. La marche abrite la plus grande armada de l'Empire et des chantiers navals réputés, en particulier à Mur des terres, grande cité portuaire tournée vers la construction navale et la surveillance de la mer Rugissante. Basse-terre a également fondé la colonie d'Acheros dans l'Est lointain, à deux mois de traversée par-delà cette même mer, aujourd'hui en pleine expansion.\n\nLa marche porte un projet d'infrastructure majeur : le canal d'Abalast, financé par Khoros, doit relier le Bourbeux (qui se jette dans la mer Rugissante) au fleuve Klapetio, frontière orientale de Khoros se jetant dans le golfe Doré puis la mer des Larmes — un chantier ambitieux qui désenclaverait durablement le commerce de la marche. Akleptio, ville de contrebandiers installée sur le Klapetio, et Prosperio, ancienne forteresse reconvertie en relais marchand influent, comptent parmi ses autres cités notables.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "khoros",
+    "ancien-royaume",
+    "la-brisure"
+  ]
+}

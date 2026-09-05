@@ -1,0 +1,26 @@
+{
+  "id": "hautemarche",
+  "title": "Hautemarche",
+  "category": "geographie",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Deuxième marche impériale la plus ancienne, frontalière de Syl'Gaedrim via les montagnes Ocres, bordée aussi par l'ancien Saint Protectorat (aujourd'hui disparu), Kar'Dhurim et Tharse, et dépourvue de toute capitale officielle — la seule véritable cité fortifiée de la marche étant Legeryth, sur le fleuve Rouge, défendue par trois légions. C'est également sous les montagnes Ocres que se trouverait l'emplacement, aujourd'hui oublié, de la quatrième cité-État naine disparue lors de l'Âge des Sombres Guerres. Cette même guerre transforma les montagnes Ocres en point de passage instable vers les mondes-miroirs, un phénomène qui n'a cessé de s'intensifier depuis, en particulier depuis l'événement cataclysmique survenu il y a une dizaine d'années à Hautemarche et à Glaceterre. Les Hautmarcheurs, habitants de la marche, ont la réputation d'être durs et méfiants — un tempérament forgé par des siècles de vie en zone frontalière tendue.\n\nDeux cités notables sont nées de bouleversements récents : Epistea, bâtie par la patricienne Niobe Anaxandros (ancienne Maîtresse Aepistion de Wissenheim, expulsée par une cabale) pour abriter les archives impériales, saccagée par la Horde blanche puis en cours de reconquête sous la générale Calisté Jorménos ; et Philos, cité en pleine expansion devenue capitale du culte alianite naissant sous l'impulsion de sa gouverneure Polymède Chrysothémis, qui y mène la « croisade des jeunes dieux » vers les Terres perdues. La marche est administrée par le général Talamène Hypodemion, dont l'autorité se heurte régulièrement aux ambitions autonomes de Philos.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "montagnes-ocres",
+    "syl-gaedrim",
+    "kar-dhurim",
+    "tharse",
+    "saint-protectorat",
+    "epistea",
+    "philos"
+  ]
+}

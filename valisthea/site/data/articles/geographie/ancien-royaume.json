@@ -1,0 +1,23 @@
+{
+  "id": "ancien-royaume",
+  "title": "L'Ancien Royaume",
+  "category": "geographie",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Protectorat impérial couvrant les jungles tropicales berceau de la civilisation drakhe, théocratie dirigée depuis Mokaroi, dernière grande cité drakhe encore debout, forte d'environ quinze mille habitants et dominée par une pyramide à étages dédiée à Mushussa, le Père aux cinq métaux. Autrefois florissant sous l'autorité quasi divine des Dragons Véritables, le royaume s'est effondré soudainement voici environ quinze siècles à la suite d'une catastrophe magique d'une ampleur inouïe, dont l'origine exacte reste un mystère — les ruines de Kmocha sana, où l'on situe traditionnellement l'origine de cette chute, restent hantées de choses inquiétantes réputées corrompre le cœur et l'âme de quiconque s'y attarde.\n\nLe royaume ne s'est jamais pleinement relevé : ses villages sont aujourd'hui indépendants, sans pouvoir central fort, et son peuple drakh continue de décliner démographiquement génération après génération. Le port abandonné de Bat'r-Achax a récemment vu réapparaître des drakhs à la peau étrangement tachetée de violet, dont certains soupçonnent un lien avec les causes profondes, jamais élucidées, de l'effondrement du royaume.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "drakhs",
+    "dragons-veritables",
+    "les-neuf",
+    "mokaroi"
+  ]
+}

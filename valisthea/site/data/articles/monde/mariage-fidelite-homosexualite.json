@@ -1,0 +1,22 @@
+{
+  "id": "mariage-fidelite-homosexualite",
+  "title": "Mariage, fidélité et homosexualité dans l'Empire",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Le mariage impérial relève avant tout d'une fonction sociale et financière plutôt que sentimentale : la plupart des unions se concluent par arrangement entre familles, notamment chez les patriciens, où l'infidélité conjugale est non seulement tolérée mais parfois activement valorisée comme signe de statut. Les enfants nés hors mariage n'héritent d'aucun droit à moins d'être formellement reconnus par leur père, et l'Empire, contrairement au Royaume du Fleuve ou aux clans du nord, ignore totalement la notion de « bâtard » comme catégorie sociale infamante distincte. L'homosexualité y est pleinement et durablement acceptée, la loi sur le mariage ayant évolué en ce sens il y a plus de deux siècles ; les règles de reconnaissance des enfants restent en revanche toujours plus défavorables aux mères qu'aux pères, un déséquilibre que des sénatrices réformistes comme Klea Tolespis s'efforcent aujourd'hui de corriger.\n\nCette tolérance impériale contraste nettement avec les mœurs d'autres peuples de Pangée : les nains ne reconnaissent traditionnellement que l'amitié et l'union pragmatique destinée à perpétuer leur peuple, à l'exception notable des hölko et des taïvastotta, jugés « contaminés par la surface » par les emstentotta les plus conservateurs ; au Royaume du Fleuve, l'infidélité est formellement interdite et durement punie, tandis que l'homosexualité n'y est tolérée que comme passade précédant l'union solennelle ; le peuple Kassa conçoit le mariage comme un engagement à vie et irrévocable, réservé aux seuls couples homme-femme, où toute rupture entraîne la répudiation et le bannissement du fautif.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "naissance-education-adoption",
+    "mœurs-hors-de-l-empire",
+    "statuts-sociaux-imperiaux"
+  ]
+}

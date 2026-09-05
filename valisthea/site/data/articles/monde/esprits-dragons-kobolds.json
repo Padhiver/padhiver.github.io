@@ -1,0 +1,21 @@
+{
+  "id": "esprits-dragons-kobolds",
+  "title": "Les Esprits Dragons (culte kobold)",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Les kobolds se croient descendants et serviteurs directs des Dragons Véritables et vénèrent les Esprits Dragons, esprits élémentaires immanents correspondant chacun à un type de souffle draconique, distincts des dragons eux-mêmes. Une légende prophétise leur retour sous forme d'avatars pour guider les kobolds vers un paradis éternel. Le culte ne demande aucune offrande matérielle mais de l'investissement et de l'ardeur dans l'accomplissement des tâches quotidiennes ; échouer est considéré comme un outrage. Les temples sont rares, creusés dans la roche et dirigés par un prêtre khongcha'vinya ; le plus souvent, un simple autel orné d'une statuette de Mang'he'thiba suffit.\n\nLa Déesse Dragon Mang'he'thiba est la divinité principale (prospérité, naissance, création du monde), entourée de Mang'fai'kon, la Flamme Éternelle (été, soleil, feu destructeur), Mang'yen'khan, le Froid Implacable (hiver, vieillissement, guide vers la terre des morts Olken'taï, oracles), Fang'pha'kon, l'Éclair Destructeur (tempêtes, protection des voyageurs), Fel'phid'khan, le Poison de la Terre (tromperie, discorde, mais aussi nature) et Phan'sid'kon, la Fin de Toutes Choses (sommeil éternel, mort, dévoreur des âmes indignes, dont le réveil signifierait la fin du monde).",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "kobolds",
+    "dragons-veritables"
+  ]
+}

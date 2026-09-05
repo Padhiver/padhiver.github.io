@@ -1,0 +1,25 @@
+{
+  "id": "humains",
+  "title": "Les humains",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Peuple le plus nombreux de Pangée et fondateur de l'Empire minéen, les humains se considèrent héritiers directs de l'Empire protéen disparu lors de la Chute des Pierres du Ciel, dont Akiles Hakaton revendiqua la filiation en nommant sa nouvelle capitale Protéos en hommage à Minéa, capitale mythique de l'ancien empire. Cette identité impériale prime aujourd'hui sur toute appartenance régionale : un citoyen de Khoros, de Tharse ou de Basse-terre se définit d'abord comme minéen avant de se définir par sa province d'origine, l'Empire ayant méthodiquement diffusé une culture, une administration, un calendrier et une religion (le priméisme) communs sur l'ensemble de son territoire en un peu plus de deux mille ans.\n\nCette homogénéité culturelle n'efface pas des différences régionales marquées : les Khorosiens des cités portuaires cultivent un cosmopolitisme commerçant et une tolérance religieuse plus grande qu'ailleurs ; les Protéens de la capitale incarnent l'orthodoxie impériale et administrative ; les gens de Tharse, terre agricole et de garnison frontalière face à Syl'Gaedrim, restent attachés à des traditions plus rustiques ; les habitants de Basse-terre, région marécageuse et pauvre, sont souvent perçus avec condescendance par le reste de l'Empire. La société humaine impériale est strictement stratifiée par un système de statuts sociaux légaux (citoyens, patriciens, akolé, étrangers) qui détermine droits politiques, accès à la propriété et à la justice, indépendamment de la richesse individuelle.\n\nHors des frontières impériales, des communautés humaines subsistent de manière autonome et culturellement distincte, notamment dans les Terres boréales, à Kassa M'bo et dans les Landes de givre, où des siècles d'isolement ont produit des sociétés, des croyances et des structures politiques radicalement différentes du modèle impérial — preuve que l'identité minéenne, bien que dominante, ne définit pas l'ensemble du peuple humain de Pangée.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "empire-proteen",
+    "avenement-empire-mineen",
+    "khoros",
+    "protéos",
+    "statuts-sociaux-imperiaux",
+    "hakilon-xiii"
+  ]
+}

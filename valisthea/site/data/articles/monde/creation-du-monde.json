@@ -1,0 +1,26 @@
+{
+  "id": "creation-du-monde",
+  "title": "La création du monde",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Selon le mythe priméiste, le plus répandu dans l'Empire minéen, l'univers commença par la Lumière Primordiale entourée des douces ténèbres de la Noirceur. Leur union enfanta Pangeos, la Terre Mère ; à sa naissance, Lumière et Noirceur furent déchiquetées en millions de particules formant le ciel étoilé. Pangeos fut projetée à travers l'espace jusqu'à heurter Océan, où son voyage s'acheva dans un sommeil éternel : ainsi naquit Pangée.\n\nDe ses rêves émergèrent six Très Anciens (voir cet article). De l'union de Gaïa et Kosmos naquirent les peuples de Pangée, jugés imparfaits et primitifs par le mythe, jusqu'à ce que l'union de Kronos et Gaïa enfante les Protéens, chargés de les guider — fondant l'Empire protéen.\n\nUn dernier Très Ancien, Kenos le Grand Dévoreur, né des cauchemars de Pangeos, bâtit un jour le Creuset, fait de l'essence du Néant, pour y enfermer et dévorer les rêves de ses semblables. Incapable de contenir le dernier d'entre eux, le Creuset explosa en milliards d'échardes dispersées à travers le temps et l'espace : c'est ainsi, selon ce mythe, que naquit l'Étincelle qui permet à certains mortels de manier la magie. De façon troublante, ce récit recoupe presque mot pour mot l'événement bien réel de l'Anéantissement survenu à la fin de la campagne d'Oblivion, suggérant que le mythe pourrait être un écho déformé, remonté dans le temps, d'un événement historique bien plus récent que la création du monde elle-même.\n\nD'autres peuples racontent une genèse différente. Les elfes se considèrent descendants des étoiles : les premiers elfes, les Maeribraethi (« elfes véritables »), peuple éternel ayant vécu des millénaires sur Tarraemath (Pangée), auraient choisi de se retirer en devenant lumière, illuminant le ciel sous forme d'étoiles et de constellations aujourd'hui vénérées. Les nains, eux, ne reconnaissent aucune création par des dieux : rien n'existait avant la Terre, qui les enfanta, la Roche qui les éleva, et la Lave qui les anima de volonté ; les éclaboussures de lave des volcans auraient percé le voile de la Roche Céleste pour former les étoiles, et la Divine Machine met en mouvement la voûte céleste depuis, engendrant le cycle du jour et de la nuit. Des érudits impériaux ont relevé des concordances troublantes entre ces trois traditions, sans qu'aucun clergé n'accepte d'y voir autre chose qu'une coïncidence.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "pangeos",
+    "les-tres-anciens",
+    "empire-proteen",
+    "primeisme",
+    "elfes",
+    "nains",
+    "etincelle"
+  ]
+}

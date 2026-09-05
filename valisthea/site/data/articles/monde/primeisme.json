@@ -1,0 +1,26 @@
+{
+  "id": "primeisme",
+  "title": "Le priméisme",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Religion la plus ancienne et la plus répandue de l'Empire minéen, le priméisme est une foi protéiforme et non centralisée : chaque temple, autel ou bosquet est indépendant, dirigé par des prêtres et prêtresses sans hiérarchie unifiée (novices, prêtres, grands prêtres), souvent cumulée avec une activité civile. Ses divinités, lointaines et peu interventionnistes, incarnent chacune un aspect du monde plutôt que des figures capricieuses. Des recherches récentes, non encouragées par le clergé, suggèrent l'existence d'un « proto-priméisme » antérieur à l'humanité, dont les premiers croyants n'étaient ni humains, ni nains, ni elfes, mais un peuple aujourd'hui totalement oublié.\n\nLes lieux de culte comportent toujours un bassin d'eau sacrée utilisé pour les naissances (immersion de la mère, offrandes végétales à Mère Printemps) et les rites funéraires. Une naissance difficile appelle un sacrifice de sang animal à Grand-père Hiver. Zukreis, en Tharse, est considérée comme le berceau du culte : c'est sur sa Place des neuf, dominée par un chêne millénaire de plus de 110 mètres de haut, que le premier homme aurait entendu les dieux.\n\nDix divinités majeures structurent le panthéon, une par mois du calendrier impérial : Mère Printemps (naissance, santé, force), Père Été (fertilité, abondance, foyer), Grand-mère Automne (sagesse, justice, gardienne du savoir), Grand-père Hiver (mort, maladie, hostile à la résurrection), la Chasseresse (chasse, combat, dangers sauvages), l'Arbre-Sage (oracles, destinée, mémoire), l'Enfant (source de la magie, rêves, arts), l'Enfant-Griffe (dualité innocence/violence, folie, invoqué et non prié), le Souffle (vent, voyages, protection routière) et Haïmfer, son frère jaloux (tempêtes, destruction, néant). Au-dessus d'eux se tiennent les Très Anciens (Gaïa, Kenos, Kosmos, Kronos, Oceanos, Solarios), vénérés surtout par les Archidruides comme « Esprits primordiaux » plutôt que comme des dieux à proprement parler. Le priméisme est aujourd'hui concurrencé par l'essor de l'alianisme, dont certains pensent qu'elle cherche délibérément à calquer ses propres fêtes sur le calendrier priméiste pour mieux le supplanter.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "creation-du-monde",
+    "les-tres-anciens",
+    "calendrier-imperial",
+    "alianisme",
+    "vieillesse-et-mort-empire",
+    "zukreis",
+    "archidruides-cercles-sacres"
+  ]
+}

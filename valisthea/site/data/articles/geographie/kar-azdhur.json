@@ -1,0 +1,24 @@
+{
+  "id": "kar-azdhur",
+  "title": "Kar'Azdhur",
+  "category": "geographie",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "La plus traditionaliste, la plus riche et la plus difficile d'accès des trois cités-États naines, nichée au cœur des monts du Milieu, sur des gisements particulièrement riches en métaux et pierres précieuses. Sa population, presque exclusivement naine, se répartit entre une cité intérieure creusée sous la montagne — quasi interdite même aux nains de surface, sauf dérogation — et une cité de surface reliée à l'intérieur par un sas commercial appelé l'Antichambre ; seuls les futurs ensorceleurs admis à l'Archascholia, l'académie impériale de magie innée qu'abrite la cité, sont autorisés à franchir cette frontière en tant qu'étrangers. Un discours de « pureté » opposée à la « corruption du soleil » y circule ouvertement parmi les traditionalistes les plus fervents, ce qui rend la cité intérieure quasiment impénétrable, y compris pour les érudits impériaux les mieux introduits.\n\nKar'Azdhur vénère pour Fondateur Gorim Cœur-de-Pierre, dont le système défensif, jamais mis en défaut depuis des millénaires, est réputé n'avoir jamais connu la moindre brèche, y compris lors des anciennes guerres souterraines contre les menaces de l'Ombremonde. La cité abrite l'Obrakel, tour-refuge des oracles reliée aux deux autres cités-États par un réseau de tunnels anciens, ainsi que Port-Pierreux, port de surface dont la prospérité est freinée par une fiscalité locale particulièrement lourde.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "nains",
+    "fondateurs-nains",
+    "gorim-coeur-de-pierre",
+    "archascholia",
+    "kasti"
+  ]
+}

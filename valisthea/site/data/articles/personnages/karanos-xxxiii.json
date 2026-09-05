@@ -1,0 +1,22 @@
+{
+  "id": "karanos-xxxiii",
+  "title": "Karanos XXXIII, l'Enfant Prodige (figure historique effacée)",
+  "category": "personnages",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Trente-troisième Kaïsar de la lignée d'Akiles Hakaton selon l'histoire telle qu'elle était racontée avant l'Anéantissement : intronisé à l'âge de huit ans en l'an 2087 Æ sous le surnom d'« Enfant Prodige », son règne se déroulait dans un monde encore marqué par l'existence du Saint Protectorat et du culte florissant de Justicaar.\n\nCe souverain n'a en réalité jamais existé dans l'histoire telle qu'elle est connue aujourd'hui : la réécriture rétroactive du passé provoquée par l'Anéantissement a effacé son règne comme elle a effacé le Saint Protectorat lui-même, ne laissant subsister son souvenir que dans les rêves fragmentaires et troublants de certains porteurs de l'Étincelle, echos d'une « vie non vécue » qu'ils n'ont jamais réellement connue. Le treizième Kaïsar actuel, Hakilon XIII, ne descend d'aucune manière connue de ce souverain fantôme.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "hakilon-xiii",
+    "aneantissement",
+    "saint-protectorat"
+  ]
+}

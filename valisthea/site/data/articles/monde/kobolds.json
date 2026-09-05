@@ -1,0 +1,22 @@
+{
+  "id": "kobolds",
+  "title": "Les kobolds",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Petit peuple reptilien vivant en communautés souterraines ou en marge des territoires nains, dont l'identité entière repose sur la conviction d'être les descendants et serviteurs directs des Dragons Véritables. Cette filiation revendiquée, qu'elle soit mythologique ou biologique, façonne une éthique du travail exigeante : les kobolds vénèrent les Esprits Dragons non par des offrandes matérielles mais par l'ardeur et l'application mises dans l'accomplissement des tâches quotidiennes, l'échec ou la paresse étant vécus comme un outrage religieux autant que personnel.\n\nOrganisées autour de temples rupestres rares, dirigés par un prêtre khongcha'vinya, ou plus simplement autour d'un autel domestique orné d'une statuette de la Déesse Dragon Mang'he'thiba, les communautés kobolds entretiennent une hiérarchie sociale calquée sur leur cosmologie : chaque individu se rattache symboliquement à l'un des Esprits Dragons selon son tempérament ou son métier, un peu comme d'autres peuples se rattacheraient à un saint patron. Une prophétie largement partagée annonce le retour des Dragons Véritables sous forme d'avatars, chargés de guider enfin les kobolds vers un paradis éternel.\n\nSouvent employés comme mineurs, artificiers ou éclaireurs par les cités-États naines voisines, notamment Kar'Dhurim, les kobolds entretiennent avec les nains une relation de coopération pragmatique davantage que d'égalité, leur petite taille et leur réputation de couardise au combat masquant une ingéniosité technique et une endurance au travail souterrain largement reconnues par ceux qui les emploient.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "esprits-dragons-kobolds",
+    "dragons-veritables",
+    "kar-dhurim"
+  ]
+}

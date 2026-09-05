@@ -1,0 +1,24 @@
+{
+  "id": "ilzaach",
+  "title": "Ilzaach",
+  "category": "personnages",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Paladin drakh, ancien élève du maître Melrioch au temple d'Elmir, l'un des monastères des Neuf, et protagoniste central de la campagne d'Oblivion. Héritier de Nocturno, épée possédée transmise par sa lignée, il l'échange plus tard auprès de Pandore contre Sépulcre, arme capable, une fois complétée et fusionnée avec la Larme de Kronos par la Reine Éternelle elle-même, de tuer les dieux. Tout au long de sa quête, il dissimule secrètement cette Larme de Kronos dans un cube, conscient du danger que représenterait sa découverte prématurée.\n\nC'est lui qui, au terme de la campagne, porte le coup final contre le golem incarnant Azel-Liark grâce à Sépulcre complétée, provoquant la destruction de la liche et, dans la foulée, l'Anéantissement qui redessine l'histoire entière de Pangée. Son rôle dans cet événement fondateur de l'Âge du Changement en fait l'un des rares individus, avec ses compagnons, dont les actions ont directement façonné le monde tel qu'il est connu aujourd'hui.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "oblivion",
+    "azel-liark",
+    "drakhs",
+    "pandore",
+    "reine-eternelle"
+  ]
+}

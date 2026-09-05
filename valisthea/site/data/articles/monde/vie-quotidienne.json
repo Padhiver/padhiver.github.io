@@ -1,0 +1,21 @@
+{
+  "id": "vie-quotidienne",
+  "title": "La vie quotidienne dans l'Empire",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "L'architecture impériale tend à s'uniformiser depuis Protéos vers le reste du territoire : maisons patriciennes organisées autour d'un atrium central, toits plats et façades aux couleurs pastel de plus en plus répandus au cœur de l'Empire, tandis que les habitations les plus pauvres restent plus petites, anciennes et souvent vétustes. Les cités-États naines conservent à l'inverse une architecture massive et distincte, taillée à même la pierre brute, aux toits en pente douce et au mobilier volontiers minéral, ornée de gravures d'une grande finesse. L'alimentation impérial repose sur les céréales (blé dur, épeautre, orge), avec des variations régionales marquées — l'huile d'olive domine en Basse-terre, le fromage et le lard en Tharse et en Opharmos — et ignore totalement des denrées inconnues de Pangée comme la tomate, le haricot, le maïs ou la pomme de terre ; le miel sert de sucrant de référence, aux côtés de vins, de bières et d'hydromel.\n\nLes bains publics jouent un rôle social de premier plan, servant tout autant à l'hygiène qu'aux affaires et aux rencontres, sans séparation nette entre vie privée et vie professionnelle ; seuls les patriciens les plus fortunés disposent de bains privés chez eux. Cette vie quotidienne, largement homogène au cœur de l'Empire, laisse cependant subsister d'importantes marges régionales : charité populaire particulièrement affirmée en Opharmos (une assiette systématiquement laissée pour d'éventuels vagabonds), austérité et méfiance tharséenne codifiée par la tradition d'accueil de la Ferdhauss (« maison des étrangers »), ou encore hospitalité stricte mais bien réelle des Orphiens du nord.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "statuts-sociaux-imperiaux",
+    "monnaie-et-commerce"
+  ]
+}

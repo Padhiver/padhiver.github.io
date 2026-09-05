@@ -1,0 +1,22 @@
+{
+  "id": "societe-des-libres",
+  "title": "La Société des Libres",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Faction politique légale, née et enracinée à Tharse, où elle gagne régulièrement en influence au sein du sénat de l'Empire. Elle milite pour l'abolition du statut d'akolos de naissance, estimant qu'aucun être ne devrait naître serviteur du seul fait de la condition de ses parents. La Société ne remet pas en cause l'ensemble du système des statuts sociaux impériaux : elle admet que la servitude reste légitime comme peine de justice, ou comme engagement pleinement volontaire et temporaire permettant à un étranger d'obtenir la citoyenneté — sa cible unique est l'hérédité de la servitude elle-même.\n\nPortée par des sénateurs et des patriciens tharséens sensibles à cette cause, la Société des Libres représente l'aile la plus progressiste du débat institutionnel sur les statuts sociaux, sans disposer à ce jour d'une majorité suffisante pour faire aboutir une réforme législative à l'échelle de l'Empire tout entier.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "tharse",
+    "statuts-sociaux-imperiaux",
+    "esclavage-et-prostitution"
+  ]
+}

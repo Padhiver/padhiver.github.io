@@ -1,0 +1,22 @@
+{
+  "id": "royaume-du-fleuve",
+  "title": "Le Royaume du Fleuve",
+  "category": "geographie",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Royaume désertique indépendant, bâti autour du Fleuve Dieu qui le traverse du sud au nord avant de se jeter dans la mer des Larmes, et dont l'histoire plurimillénaire précède de loin la fondation de l'Empire minéen — une antériorité qui nourrit chez ses habitants un net sentiment de supériorité culturelle. Conquis par l'Empire en l'an 654 Æ et longtemps maintenu en protectorat, le royaume a reconquis son indépendance à l'issue d'une guerre civile qui dura de 1853 à 1878, un événement encore récent qui a profondément reconfiguré l'équilibre géopolitique régional, jusqu'à Kassa m'bo et Kh'Eoda, désormais coupés d'un soutien logistique impérial autrefois acheminé via le royaume.\n\nLa société fluviale associe à égalité les humains al'mani, qui occupent les fonctions politiques et administratives, et le peuple al'wali, qui détient les fonctions religieuses — une répartition incarnée par le couple royal, toujours composé d'un humain et d'un al'wali. La capitale, Halem'Rah (anciennement nommée Amon), est surnommée « la cité soleil » pour ses monuments pyramidaux et son artisanat réputé de l'or et de l'argent ; sa justice y est d'une sévérité redoutée, punissant le vol par l'amputation, l'adultère par la castration et le meurtre par la décapitation. Soufir, ville de surveillance postée sur le Fleuve Dieu, fait figure d'avant-poste face à d'éventuelles ambitions du royaume sur la marche voisine de Kassa m'bo.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "felys-al-wali",
+    "fleuve-dieu",
+    "kassa-mbo"
+  ]
+}

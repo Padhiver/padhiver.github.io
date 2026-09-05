@@ -1,0 +1,23 @@
+{
+  "id": "akiles-hakaton",
+  "title": "Akiles Hakaton",
+  "category": "personnages",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Premier Kaïsar de l'Empire minéen, né dans la misère plus de deux mille ans avant l'époque actuelle. Chef de guerre monté en grade au sein d'une bande sans foi ni loi, il finit par déposer son propre chef pour lui succéder et promulguer des lois justes qui lui valurent la loyauté de nombreuses cités et clans épuisés par l'Âge des Sombres Guerres. Repéré par les trois cités-États naines, qui virent en lui l'homme capable d'unifier les terres humaines menacées, il fut conduit par leurs émissaires jusqu'au lieu secret de Kalipsis, où il accomplit la toute première Ascension. Il fonda ensuite Protéos en hommage aux ancêtres protéens de l'humanité et posa les bases de l'Empire minéen, qu'il nomma d'après Minéa, capitale mythique de l'ancien Empire protéen.\n\nSous son règne, l'Empire naissant conquit rapidement Khoros, Opharmos, Hautemarche, Tharse et Basse-terre, avant de se heurter à la résistance des tribus elfes unies de Syl'Gaedrim ; la guerre qui s'ensuivit se conclut par l'Entente, qui marque le point zéro du calendrier impérial. Une théorie hérétique, jamais tranchée, avancée par certaines Archives de Pierre naines, prétend qu'Akiles Hakaton aurait en réalité été une femme, Akilea — l'ambiguïté venant d'une runique ancienne où ce nom signifiait aussi « serviteur ». Fondateur de la lignée impériale, il est mort depuis plus de deux millénaires ; le Kaïsar actuel, Hakilon XIII, en est le treizième descendant direct.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "avenement-empire-mineen",
+    "kaisar-et-ascension",
+    "proteos",
+    "hakilon-xiii"
+  ]
+}

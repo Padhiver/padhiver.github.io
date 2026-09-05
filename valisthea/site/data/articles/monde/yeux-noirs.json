@@ -1,0 +1,27 @@
+{
+  "id": "yeux-noirs",
+  "title": "Les Yeux noirs",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Secte apparue il y a environ cent cinquante ans, née d'un mouvement humain hostile aux privilèges politiques accordés aux trois cités-États naines, rapidement rejoint par des gnomes, des halfelins et des elfes partageant ce ressentiment. Ses membres se reconnaissent à un tatouage discret de trois points noirs disposés en triangle sous le poignet gauche. Leur objectif affiché est de purger les institutions impériales de toute influence naine — mais leur véritable obsession porte sur le secret entourant la succession impériale, jalousement gardé par les trois cités-États, qui semblerait impliquer un mystérieux monastère à Zukreis chargé de repérer et de former en secret un enfant humain au « sang particulier », un « élu » destiné à devenir le prochain Kaïsar.\n\nPour percer ce secret et le retourner contre les nains, les Yeux noirs pratiquent l'espionnage, l'infiltration de postes subalternes dans l'administration et, quand nécessaire, l'assassinat ciblé maquillé en accident, mort naturelle ou disparition. Leur projet le plus ambitieux et le plus inquiétant consiste à élever secrètement, dans une forteresse dissimulée des montagnes Blanches, un orphelin humain rigoureusement conditionné contre les nains, dans l'espoir de le substituer un jour au véritable héritier avant son couronnement — une manipulation directe du rituel de l'Ascension elle-même.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "kar-azdhur",
+    "kar-berial",
+    "kar-dhurim",
+    "kaisar-et-ascension",
+    "zukreis",
+    "confrerie-entropee",
+    "ouroboros-blanc",
+    "societe-du-phenix"
+  ]
+}

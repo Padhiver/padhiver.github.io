@@ -1,0 +1,24 @@
+{
+  "id": "age-des-sombres-guerres",
+  "title": "L'Âge des Sombres Guerres",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Période chaotique consécutive à la chute des pierres du ciel, durant laquelle l'humanité, privée de guides, s'enfonça dans la guerre et la barbarie, tandis que les nains se calfeutraient dans leurs cités souterraines et les elfes derrière les frontières de leurs territoires. Royaumes, rois-sorciers et chefs de guerre s'élevaient et s'effondraient en un éclair ; la magie, employée sans retenue pour déplacer montagnes et fleuves ou transformer des terres fertiles en désert, menaçait l'intégrité même de Pangée.\n\nL'ultime signal d'alarme fut la disparition des Dragons Véritables — un événement que la légende situe en une seule nuit sur tout le continent, mais que les érudits impériaux estiment plus probablement étalé sur plusieurs années. C'est dans ce contexte d'effondrement généralisé que les trois cités-États naines (Kar'Dhurim, Kar'Berial, Kar'Azdhur), constatant que le chaos menaçait jusqu'à leurs propres royaumes, décidèrent de s'unir et de soutenir l'ascension d'Akiles Hakaton, mettant fin à cette ère par la fondation de l'Empire minéen.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "chute-des-pierres-du-ciel",
+    "dragons-veritables",
+    "avenement-empire-mineen",
+    "les-trois-cites-naines",
+    "akiles-hakaton"
+  ]
+}

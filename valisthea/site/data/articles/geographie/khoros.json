@@ -1,0 +1,22 @@
+{
+  "id": "khoros",
+  "title": "Khoros",
+  "category": "geographie",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Première province de l'Empire minéen et cœur politique et administratif du pays, Khoros abrite la capitale Protéos et le siège du sénat impérial. Protégée des vents violents par les montagnes du Milieu au sud-ouest et les Neuf monts au sud-est, tout en profitant des vents méridionaux doux de la mer des Larmes, la province bénéficie d'un climat tempéré idéal : plaines herbeuses, vignobles réputés et agriculture parmi les plus productives de l'Empire. Cette prospérité naturelle en fit, avant même la fondation de l'Empire, un royaume conquérant qui joua un rôle décisif dans l'unification des autres territoires sous Akiles Hakaton.\n\nEn tant que province la plus riche et la plus peuplée, Khoros fournit à ses légions de nombreux régiments d'archers, et son sénat siège comme seule assemblée habilitée à représenter l'ensemble du corps patricien de l'Empire — un sénat où, fait notable, siège l'unique sénateur géennite connu, Eurysthée Adeimantos.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "empire-mineen",
+    "protéos",
+    "senat-et-administration"
+  ]
+}

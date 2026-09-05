@@ -1,0 +1,22 @@
+{
+  "id": "kletio-kanaspos",
+  "title": "Kletio Kanaspos",
+  "category": "personnages",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Érudit voyageur humain, Maître Aepistion à la grande bibliothèque de Protéos, formé dans sa jeunesse par la vénérable érudite Aklia d'Asceptos, aujourd'hui décédée. Auteur du carnet de voyage de référence intitulé Un voyage extraordinaire, essai et carnet de bord, dont les extraits documentent l'essentiel de la connaissance impériale sur les peuples, les provinces et les coutumes de Pangée. Ses voyages l'ont mené jusqu'à Syl'Gaedrim, où il noua une amitié durable avec le jeune soldat elfe Sylam Gheal et assista personnellement aux funérailles du père de ce dernier — une expérience de première main qui imprègne ses écrits d'un respect rare pour les mœurs des peuples qu'il documente.\n\nFigure de référence citée par la quasi-totalité des ouvrages savants sur Pangée, Kletio Kanaspos incarne l'idéal impérial de l'érudit-voyageur : curieux sans être condescendant, rigoureux sans jamais prétendre à une objectivité totale, et toujours prompt à souligner qu'aucune coutume observée n'est plus « naturelle » qu'une autre.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "proteos",
+    "aklia-d-asceptos",
+    "sylam-gheal"
+  ]
+}

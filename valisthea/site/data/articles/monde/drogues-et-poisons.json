@@ -1,0 +1,22 @@
+{
+  "id": "drogues-et-poisons",
+  "title": "Drogues et poisons dans l'Empire",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "L'Empire tolère et taxe la consommation de substances psychotropes récréatives, dont le prix varie selon la complexité de préparation ; les hallucinogènes, mal vus socialement, ne sont pas pour autant interdits par la loi, et l'onirance est même reconnue comme analgésique à usage médical légitime. Seul l'usage d'un poison à des fins meurtrières contre un citoyen bascule dans le crime de sang, la possession et le commerce de poisons restant sinon parfaitement légaux. Cette tolérance impériale n'est pas universelle : le Royaume du Fleuve interdit purement et simplement toute substance récréative, tandis que Kh'Eoda n'autorise que la fleur de lotus pourpre fumée, à l'exclusion de toute autre drogue.\n\nCertains usages locaux illustrent les dérives possibles de cette tolérance : la deamensia, bière hallucinogène et addictive à base de champignons consommée à Daemens, dans la Brisure, ou la « fumerie sacrée » de Muqta'fahid, à Kh'Eoda, où des transes provoquées par des herbes séchées seraient exploitées à des fins de chantage et de manipulation par le crime organisé local, en collusion tacite avec les autorités.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "noma-autokrata",
+    "port-d-armes-et-contrebande",
+    "mœurs-hors-de-l-empire"
+  ]
+}

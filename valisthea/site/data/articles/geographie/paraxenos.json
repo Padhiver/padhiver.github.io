@@ -1,0 +1,20 @@
+{
+  "id": "paraxenos",
+  "title": "Paráxenos, le creuset des aberrations",
+  "category": "geographie",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Monde-miroir peuplé de créatures insolites que l'on désigne collectivement sous le nom d'aberrations, sans qu'aucun point commun ni origine partagée ne les relie entre elles. Sa géographie non-euclidienne, en mouvement perpétuel, défie toute cartographie durable ; certaines de ces aberrations sont pourtant parvenues à y fonder de véritables royaumes, voire des empires, en dépit de l'instabilité permanente de leur environnement.\n\nParáxenos concentre, plus qu'aucun autre monde-miroir, des vestiges de l'ancien Empire protéen, généralement bâtis sur des points de stabilité eux-mêmes fondés sur des Berceaux de magie — un mystère qui n'a jamais été résolu par les rares érudits à s'y être aventurés. C'est aussi l'un des mondes les plus hermétiquement scellés à Pangée : les failles y sont rares et particulièrement instables, même si la barrière semble s'affaiblir insensiblement au fil des millénaires.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "mondes-miroirs"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "fiannahban",
+  "title": "Le fiannahbàn",
+  "category": "creatures",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Immense cervidé au pelage d'un blanc pur, aux reflets parfois dorés ou argentés, reconnaissable entre tous à ses yeux d'un bleu étrange, dépourvus d'iris et de pupille visibles. Le fiannahbàn sert de monture et d'animal de trait exclusivement aux elfes de Syl'Gaedrim, en particulier aux Aihmad'Traïbh (elfes de bois) et surtout aux Lliagath'Traïbh (elfes du souffle), seuls véritablement capables de comprendre ses besoins et d'établir avec lui le lien nécessaire à son élevage. Un fiannahbàn ne peut être mis en enclos avant l'âge adulte, ni sans son consentement, sous peine de dépérir lentement — un impératif qui façonne l'ensemble des pratiques d'élevage elfiques, réunies dans de grands domaines appelés manàn'tir, dont le plus vaste, à Mathabahan, abrite le plus grand troupeau de tout le royaume.\n\nLe lien qui unit un fiannahbàn à son cavalier reste sacré tout au long de sa vie : abréger ses souffrances lorsqu'il est blessé au-delà de tout espoir de guérison est considéré comme un geste sacré plutôt que comme un simple soin vétérinaire. Certains individus exceptionnels, à l'image de Cnumiea'màr (« Grands Sabots »), un fiannahbàn géant, sont même considérés par les elfes comme des bêtes-esprits protectrices à part entière plutôt que de simples montures.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "elfes",
+    "syl-gaedrim"
+  ]
+}

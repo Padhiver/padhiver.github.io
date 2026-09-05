@@ -1,0 +1,22 @@
+{
+  "id": "fleuve-dieu",
+  "title": "Le culte du Fleuve Dieu",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Religion officielle et politiquement dominante du Royaume du Fleuve, antérieure de plusieurs millénaires à l'Empire minéen, centrée sur le Fleuve Dieu — une entité visible et traversable, source de toute création (peuples, terres, mers) et père des divinités fluviennes. Son clergé, richement rémunéré (prélèvement d'un tiers des dons, commerce de bénédictions magiques), est très puissant politiquement, souvent plus que les nobles. Les grands temples, en pierre calcaire blanche, arborent des statues du Fleuve Dieu au ventre bleu turquoise ; de modestes autels domestiques ou de rue, marqueurs de statut social, complètent ces sanctuaires. Un rite distinct, le culte d'Enos le Dieu Vautour, est assuré par de rares prêtres nommés les Fils du Néant, qui escortent les morts vers l'Autre Vie et entretiennent d'extensives nécropoles hors des zones habitées ; les souverains du royaume sont quant à eux inhumés dans des pyramides monumentales.\n\nLe Fleuve Dieu, Kas al'melis, est entouré de six enfants : Aspisis (loi, sagesse), Cemnon (ciel, noblesse, civilisation, guerre), Eltoum (lune, richesse, apaisement, amante de Sethmel), Espis (mort, passage des âmes, créateur du Désert des Tourments et du Navire d'Or), Onirtis (création, rêves, arts) et Sethmel (soleil, feu, naissance, frère et amant maudit d'Eltoum).",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "royaume-du-fleuve",
+    "al-wali",
+    "halem-rah"
+  ]
+}

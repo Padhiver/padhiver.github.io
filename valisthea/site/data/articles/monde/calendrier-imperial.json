@@ -1,0 +1,22 @@
+{
+  "id": "calendrier-imperial",
+  "title": "Le calendrier impérial",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Le calendrier de l'Empire minéen compte dix mois de trente-cinq jours, un par divinité priméiste, séparés par des semaines ordinaires de sept jours à l'exception des deux équinoxes, marqués par une semaine spéciale de six jours. Chaque solstice ajoute un jour isolé, hors mois et hors semaine — le soliskala en été, dans le mois du Père, et le soliskeia en hiver, dans le mois du Patriarche. Le dernier jour de l'année est consacré à Theotis, jour des dieux ; tous les quatre ans, un jour supplémentaire, Thanatis, lui succède immédiatement, dédié aux morts et aux ancêtres. Une Conjonction des Voiles, rarissime alignement d'une éclipse lunaire à Theotis suivie d'une éclipse solaire à Thanatis, survient tous les cent ans.\n\nLe point zéro du calendrier est fixé au jour de l'Entente, traité de paix qui mit fin à la guerre entre l'Empire naissant et les tribus elfes de Syl'Gaedrim : les années qui suivent sont comptées « après l'Entente » (Æ), celles qui précèdent « précédant l'Entente » (PE). Ce même calendrier, universellement utilisé dans l'Empire, sert aussi de référence commune aux érudits pour dater les événements survenus hors de ses frontières, y compris ceux des royaumes indépendants comme le Royaume du Fleuve ou Kh'Eoda.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "avenement-empire-mineen",
+    "primeisme",
+    "le-silence"
+  ]
+}

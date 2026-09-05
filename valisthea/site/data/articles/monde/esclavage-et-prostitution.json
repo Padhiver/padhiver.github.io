@@ -1,0 +1,24 @@
+{
+  "id": "esclavage-et-prostitution",
+  "title": "Esclavage illégal et prostitution",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "L'akolos impérial n'est officiellement pas un esclave : son statut, encadré par la loi, lui garantit gîte, nourriture, soins et salaire minime. Il existe pourtant, en marge de cette légalité, un véritable marché de l'esclavage complet, alimenté par les marchands de collier, commerçants semi-légitimes rachetant et revendant des akolé « encolletés », et prolongé par un versant pleinement illégal opérant dans des lieux légendaires dits marchés des chaînes, où se négocieraient dans le plus grand secret des individus réduits en esclavage total — les peuples rares comme les géennites, les yscherions et les demi-ogres étant particulièrement recherchés sur ce marché noir en raison de leur valeur perçue. Toute vente d'un citoyen en esclavage complet constitue un crime de sang lourdement réprimé lorsqu'il est découvert. C'est précisément contre l'hérédité du statut d'akolos, sinon contre le principe même de la servitude, que milite la Société des Libres.\n\nLa prostitution, quant à elle, est pleinement légale dans l'Empire et encadrée par trois obligations strictes : l'obligation déclarative (interdisant à tout patron de maison de plaisir d'exercer une fonction politique), l'obligation de volontariat (garantissant depuis environ un siècle le consentement éclairé de chaque travailleur), et l'obligation d'apaisement (chargeant l'établissement du maintien de l'ordre en son sein). Un scandale resté célèbre a révélé que certains dignitaires utilisaient leurs employés à des fins d'espionnage ou de chantage. Hors de l'Empire, les pratiques varient radicalement : le Royaume du Fleuve interdit tout commerce sexuel, Syl'Gaedrim l'ignore totalement, tandis que la Brisure applique des lois particulièrement permissives en la matière.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "statuts-sociaux-imperiaux",
+    "societe-des-libres",
+    "yscherions",
+    "geennites",
+    "felys-al-wali"
+  ]
+}

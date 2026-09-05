@@ -1,0 +1,20 @@
+{
+  "id": "reine-des-mers-scorchessa",
+  "title": "La Reine des Mers Scorchessa",
+  "category": "personnages",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Célèbre reine pirate ayant sévi dans la Brisure il y a plus de deux siècles, dont la conquête sanglante de l'ancienne ville de Port-au-calme lui valut de la rebaptiser Port-au-carme en mémoire de sa victoire. Plus tard dans sa vie, elle fonda Délivrance, communauté libre fonctionnant sans dirigeant unique, où toute décision se prend encore aujourd'hui par un vote à main levée de l'ensemble de ses habitants — un héritage politique aussi durable que sa légende de pirate.\n\nDéfunte depuis longtemps, elle demeure une figure quasi mythique de la Brisure, invoquée aussi bien par les pirates en quête de gloire que par les habitants de Délivrance fiers de son legs égalitaire.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "la-brisure"
+  ]
+}

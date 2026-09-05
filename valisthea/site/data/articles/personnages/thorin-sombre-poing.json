@@ -1,0 +1,25 @@
+{
+  "id": "thorin-sombre-poing",
+  "title": "Thorin Sombre-Poing",
+  "category": "personnages",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Fondateur légendaire de la cité-État naine de Kar'Dhurim, aujourd'hui vénéré comme esprit tutélaire de la cité par le culte des Fondateurs. Premier Huolta'Kal (gardien de la Roche) de toute l'histoire naine, il dut auparavant survivre à des années d'isolement total en ermite au cœur de la montagne en tant que Huol'rek, épreuve dont il revint doté de pouvoirs considérables mais à jamais exclu de toute fonction politique — un renoncement dont s'inspirera, selon certains érudits, la Nomos Hekatea impériale elle-même.\n\nSes créations façonnent encore aujourd'hui la vie magique de tout l'Empire : l'Akadama, académie formant les magiciens capables de concevoir leurs propres sorts, les portes-miroirs reliant les cités naines entre elles, le rituel de l'apaisement (la Suppression) et les tuhotaika employés par l'Ordre rouge. Une dette personnelle le lie à Fronir Ciel-Doré, Fondateur de Kar'Berial, qui le guérit un jour d'une peste jugée incurable — un épisode fondateur de l'alliance durable entre les deux cités.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "kar-dhurim",
+    "fondateurs-nains",
+    "academies-imperiales",
+    "ordre-rouge",
+    "gorim-coeur-de-pierre",
+    "fronir-ciel-dore"
+  ]
+}

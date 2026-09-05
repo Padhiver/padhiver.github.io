@@ -1,0 +1,23 @@
+{
+  "id": "pandore",
+  "title": "Pandore",
+  "category": "personnages",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Entité prisonnière de sa propre cité, l'Horlogion, au cœur de la Cité des rêves des dieux, et créatrice de Nocturno, l'épée possédée héritée par Ilzaach. Capable de forger des armes véritablement capables de tuer les dieux, elle accepte d'échanger Nocturno contre Sépulcre, l'arme qui permettra finalement à Ilzaach, une fois fusionnée à la Larme de Kronos, de détruire le golem incarnant Azel-Liark.\n\nSon rôle d'artisane des armes ultimes de la campagne d'Oblivion, conjugué à son emprisonnement au sein même de la cité la plus mystérieuse de tout le récit, en fait l'une des figures les plus énigmatiques de toute la mythologie liée à l'Anéantissement.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "oblivion",
+    "ilzaach",
+    "azel-liark",
+    "horlogion"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "terres-de-feu",
+  "title": "Les Terres de feu",
+  "category": "geographie",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Terre volcanique que ses habitants orcs nomment Nashdilk'zely, « la terre de nos ancêtres », conquise sur d'anciens colons impériaux qui en furent chassés lors de la guerre relatée dans la légende de Hamra. Le climat y est aride et froid, mais une agriculture organisée s'est développée à proximité de la mer de Feu, permettant à plusieurs clans orcs, ainsi qu'à une importante minorité de gobelins et de demi-ogres, d'y prospérer sans le soutien de l'Empire. Le lieu le plus funeste du territoire reste la Main du démon, cinq monolithes noirs marquant l'endroit où le fermier Hamra scella jadis un pacte mal formulé qui rendit tout le peuple orc bestial et à jamais lié au démon qui l'exauça.\n\nParmi les clans notables : Opkunlyud, le plus grand et le plus puissant, bâti en pierre et dirigé par la matriarche Farkhan la Rouge ; Svetlyud, clan de forgerons réputés employant de nombreux artisans gobelins ; Kraslyud, clan des sages et chamans dépositaires de la spiritualité orque ; et Vieilgard, ancienne forteresse impériale et dernier bastion tombé lors de la guerre de conquête orque, aujourd'hui hantée depuis l'explosion mystérieuse qui y décima jadis un siège orc entier. Luminat, autre ancienne cité impériale, a été réoccupée par des orcs qui y développent une nouvelle croyance dont la nature inquiète jusqu'aux autres clans du territoire.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "landes-de-givre",
+    "opharmos"
+  ]
+}

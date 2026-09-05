@@ -1,0 +1,24 @@
+{
+  "id": "reine-eternelle",
+  "title": "La Reine Éternelle",
+  "category": "personnages",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Souveraine absolue de Syl'Gaedrim, unique elfe encore épargnée par la Ruine, malédiction ayant réduit l'espérance de vie jadis quasi immortelle de son peuple à peine plus qu'un siècle humain. Possiblement la dernière survivante des Maeribraethi, les elfes véritables d'origine, elle refuse d'évoquer le passé le plus ancien — un silence qui laisse planer le doute sur les causes exactes de son immortalité persistante, protection magique délibérée ou simple oubli du temps lui-même. C'est elle qui fédéra les six tribus elfes formant aujourd'hui Syl'Gaedrim pour résister à l'expansion de l'Empire naissant d'Akiles Hakaton, jusqu'à la signature de l'Entente qui mit fin au conflit sans jamais soumettre pleinement son royaume.\n\nElle préside, tous les dix ans, le Creïnda'Traebhae, la réunion des douze tribus elfes de Pangée, et gouverne Banrior en s'appuyant sur les Alsing'Traïbh, la caste des Rêveurs dont elle est elle-même issue. Toujours régnante à l'époque de l'Âge du Changement, elle fait face à une pression grandissante de certains cercles elfiques, galvanisés par l'indépendance récente du Royaume du Fleuve, qui la pressent de négocier à son tour l'indépendance totale de Syl'Gaedrim vis-à-vis de l'Empire.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "elfes",
+    "syl-gaedrim",
+    "avenement-empire-mineen",
+    "la-ruine",
+    "constellations-elfiques"
+  ]
+}

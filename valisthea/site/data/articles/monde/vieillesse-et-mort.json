@@ -1,0 +1,22 @@
+{
+  "id": "vieillesse-et-mort",
+  "title": "Vieillesse et mort dans l'Empire",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Les personnes âgées de l'Empire restent le plus souvent prises en charge par leur famille, ou trouvent refuge au temple en tant que conseillers respectés de la communauté. Les rites funéraires suivent traditionnellement le culte priméiste : le corps est lavé dans le bassin sacré du temple, vêtu de tissus purifiés, des pièces sont posées sur ses yeux pour payer le passage vers Thanatos, avant d'être inhumé — jamais incinéré, sous peine que l'âme n'en soit détruite selon la croyance priméiste — sous de lourdes pierres, dans un cimetière traditionnellement tenu à l'écart de la communauté (environ vingt minutes de marche), veillé par un gardien aussi craint que respecté. Deux formats de sépulture coexistent selon la fortune du défunt : le puits funéraire individuel pour les plus riches, ou le tholos, structure ogivale collective en forme de ruche, à l'origine de l'expression populaire « aller au rucher ».\n\nL'essor récent de l'alianisme introduit une rupture notable avec cette tradition : ses fidèles adoptent des cimetières individuels à pierre tombale, une pratique encore mal comprise, voire jugée déplacée, par les traditionalistes priméistes — sans compter que le dieu alianite Thanat exige au contraire l'enterrement de ses fidèles au cœur même des cités plutôt qu'à l'écart, en rupture ouverte avec l'usage du tholos. Les usages funéraires varient considérablement hors de l'Empire : crémation libératrice chez les elfes, culte du dieu-vautour Enos et nécropoles isolées au Royaume du Fleuve, ensevelissement en vallée rocheuse avec l'objet le plus précieux du défunt chez les Kassa, ou incinération suivie de dispersion des cendres au désert à Kh'Eoda.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "primeisme",
+    "thanatos",
+    "mœurs-hors-de-l-empire"
+  ]
+}

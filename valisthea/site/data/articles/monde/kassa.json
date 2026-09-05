@@ -1,0 +1,21 @@
+{
+  "id": "kassa",
+  "title": "Le peuple Kassa",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Peuple humain à la peau d'ébène, nomade par nécessité autant que par tradition, parcourant au rythme des saisons la marche désertique de Kassa m'bo, aux confins méridionaux de l'Empire, à la recherche des maigres ressources qu'offre ce territoire aride. Chaque clan est dirigé par un prince nomade, la direction se transmettant par héritage direct plutôt que par élection ou mérite, à l'inverse de nombreux autres peuples nomades de Pangée. Conquise et intégrée à l'Empire en l'an 1243 Æ, la marche fournit traditionnellement l'essentiel des légions qui la défendent, largement composées de soldats Kassa — un rôle frontalier crucial, aujourd'hui fragilisé par la perte d'une partie du ravitaillement impérial depuis l'indépendance du voisin Royaume du Fleuve, au point que circulent des rumeurs persistantes d'un retrait pur et simple de l'Empire.\n\nLes mœurs matrimoniales du peuple Kassa tranchent nettement avec celles du reste de l'Empire : l'union y est conçue comme un engagement à vie et irrévocable, toute rupture entraînant la répudiation et le bannissement du fautif ; les aventures amoureuses avant l'union sacrée sont rares, bien que le peuple se montre par ailleurs tolérant envers les coutumes différentes des autres cultures qu'il côtoie. L'homosexualité, jugée inhabituelle au regard de cette conception rigide du mariage, y est mal acceptée, quoique les relations hors mariage restent généralement vues comme des « amusements sans tabou » tant qu'elles ne remettent pas en cause l'union principale, réservée aux seuls couples homme-femme. Les défunts en voyage ne sont jamais laissés en chemin : le peuple les enterre dans une vallée rocheuse ou une grotte, accompagnés de l'objet le plus précieux qu'ils possédaient, afin de faciliter leur passage vers l'Autre Vie.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "kassa-mbo",
+    "royaume-du-fleuve"
+  ]
+}

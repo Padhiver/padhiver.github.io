@@ -1,0 +1,23 @@
+{
+  "id": "drakhs",
+  "title": "Les drakhs (sangdragons)",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Peuple fier et déclinant, originaire des jungles de l'Ancien Royaume, où il vit encore aujourd'hui pour l'essentiel (quelques communautés isolées existent aussi dans les Neuf et, plus rarement, en territoire impérial). Selon leur légende fondatrice, les Dragons Véritables les auraient façonnés dans la glaise de la jungle, à leur propre image, pour en faire serviteurs et compagnons plutôt que de se tourner vers les nains, les elfes ou les Protéens. Leur ancienne civilisation, aujourd'hui disparue, se scindait en deux territoires rivaux : le Lothen'phen (« terre des métaux »), plus égalitaire, valorisant courage, solidarité et savoir sous des lois fermes mais justes, et le Penen'phen (« terre des couleurs »), croyant au règne de la force et à l'individualisme, allant jusqu'à réduire d'autres drakhs en esclavage. Les deux territoires vécurent des siècles, voire des millénaires, sous l'autorité quasi divine des Dragons Véritables, tour à tour jugés bienveillants ou tyranniques selon les récits.\n\nCette civilisation s'est effondrée soudainement il y a environ quinze siècles, sans laisser d'archives écrites, en un cataclysme aujourd'hui attribué par les drakhs à Nammu, la Mère aux cinq couleurs (déesse dragonne chromatique) — un événement contemporain de la disparition mystérieuse des Dragons Véritables eux-mêmes. Le peuple tente depuis de se reconstruire, sans succès notable : sa fertilité déjà très basse (une ponte tous les dix ans, avec seulement un œuf sur cinq fécondable) continue de décliner de génération en génération, et l'Ancien Royaume reste aujourd'hui fragmenté en villages indépendants sans pouvoir central. Un mal mystique appelé l'Abandon frappe la quasi-totalité du peuple dès la naissance sous forme d'une mélancolie profonde et paralysante ; seuls les Éclairés, souvent porteurs de l'Étincelle, y échappent temporairement et deviennent naturellement les meneurs et bâtisseurs du peuple — avant de succomber eux aussi en vieillissant et de revenir généralement mourir au Royaume.\n\nSur le plan religieux, le culte dominant de Mushussa, le Père aux cinq métaux (dragon métallique), prône l'entraide et l'altruisme mais est accusé par certains d'entretenir la stagnation du peuple par sa passivité ; un culte rival, celui de Nammu, prêchant la domination draconique sur le monde et pratiquant le sacrifice (animal ou drakh), gagne en popularité chez les jeunes générations en quête de conquête plutôt que de survie. Deux types physiologiques coexistent sans former des peuples distincts, s'interfécondant librement : les phelun-kheun (« fils du feu »), majoritaires, héritent d'un souffle élémentaire ; les kehay-kheun (« fils de l'air »), environ un tiers du peuple, n'ont pas de souffle mais possèdent des ailes leur permettant un vol lent. La coloration d'un drakh ne reflète pas fiablement son ascendance draconique réelle.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "ancien-royaume",
+    "dragons-veritables",
+    "les-neuf",
+    "religions-drakhs"
+  ]
+}

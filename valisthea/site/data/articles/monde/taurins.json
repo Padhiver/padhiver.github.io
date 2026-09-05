@@ -1,0 +1,20 @@
+{
+  "id": "taurins",
+  "title": "Les taurins (Wak'ya runak)",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Se nommant eux-mêmes Wak'ya runak (« le peuple cornu »), les taurins vivent dans l'ilat'atyak (« les vallées Tranquilles »), vaste région fertile grande comme l'Irlande, protégée par les montagnes Tempétueuses et accessible seulement après la traversée de la mer Rugissante — un territoire qui n'appartient à aucun royaume et qu'aucune puissance extérieure n'a jamais réussi à conquérir malgré ses ressources abondantes. Organisés en tribus nomades d'une centaine d'individus au plus, ils suivent les migrations des ulya'tan, immenses bovins cornus de la taille d'un rhinocéros blanc, considérés comme les frères des taurins, tous deux descendants de la déesse Illa'tia, la Mère des Cornes. Ce mode de vie est d'une durabilité totale : les ulya'tan débroussaillent sur leur passage les baies toxiques rendant le terrain sûr pour la cueillette, chaque animal mort est intégralement utilisé, et le passage du troupeau attendrit la plante Tissefeuille utilisée pour tisser vêtements et armures — le métal lui-même affleure à même la roche, sans qu'aucune mine ne soit nécessaire.\n\nLeur spiritualité est un animisme intégral : le divin habite toute chose et tout être, si bien qu'aucun prélèvement — objet, plante, animal — ne se fait sans prière ni « autorisation » demandée à l'esprit concerné ; les taurins ne chassent jamais et refusent de donner la mort sauf en dernier recours de légitime défense. Il n'existe aucune divinité unique, aucune tradition écrite, seulement des esprits classés en six catégories (plantes, colère, pierre, bêtes, vent, eau) et trois Maîtres Esprits (Temps, Vie, Mort), tous considérés comme les enfants directs d'Illa'tia. Le peuple ne construit rien de permanent hormis quatre sanctuaires sacrés très anciens et cachés, seuls lieux porteurs de représentations d'Illa'tia et des Maîtres Esprits, où se réunissent à chaque équinoxe et solstice les omanh'tol (dignitaires-interprètes des esprits) de chaque tribu pour échanger les informations saisonnières.\n\nLa philosophie pacifiste du peuple n'empêche pas des guerriers bien entraînés, certaines tribus plus proches des frontières adoptant même des kaya'katan (tigres à dents de sabre géants) comme montures sans perdre leur retenue générale ; la justice locale ignore la violence punitive, réservant le bannissement au seul meurtre d'un autre taurin. Le peuple fait face à deux menaces distinctes : le Grand Host, coalition nomade d'humains, d'orcs et de nains en quête de leur « cité sacrée » légendaire d'Arunkeht, qui multiplie depuis un siècle les raids sans avoir encore trouvé de route d'invasion sûre ; et l'Omak'athaya (« le peuple banni »), tribu regroupant tous les exilés et parias taurins, retranchée dans les hauteurs les plus isolées des montagnes Tempétueuses, dont une partie envisage désormais une alliance avec le Grand Host pour se venger des autres tribus.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "illa-tia"
+  ]
+}

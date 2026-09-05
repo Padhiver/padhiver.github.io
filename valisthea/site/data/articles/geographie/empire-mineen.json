@@ -1,42 +1,24 @@
 {
   "id": "empire-mineen",
-  "title": "L'Empire Minéen",
+  "title": "L'Empire minéen",
   "category": "geographie",
-  "public": "ON",
-  "date": "2026-09-04",
-  "order": 54,
-  "source": "blanc-septentrion",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
   "pages": [
     {
-      "text": "La puissance qui domine tout le Blanc-Septentrion, née il y a plus de deux mille ans.\n\nFondé par la conquête puis consolidé le jour de l'Entente, l'Empire a depuis renoncé à s'étendre pour se consacrer à sa stabilité intérieure. Sa capitale est Protéos, siège du sénat des patriciens ; son territoire se partage en provinces - chacune un ancien royaume -, en marches frontalières et en protectorats. L'empereur régnant est Hakilon XIII, dit le Lion aveugle.",
-      "caption": "Généralités",
-      "public": "ON"
-    },
-    {
-      "text": "Un empire multiculturel tenu par une administration méticuleuse plus que par la force.\n\nOn y naît citoyen, patricien - les propriétaires terriens et détenteurs de charges - ou akolos, une servitude encadrée et le plus souvent temporaire ; un étranger peut gagner la citoyenneté au terme de quelques années de service. La conscription confie le deuxième enfant de chaque famille aux légions impériales, ce qui suffit à en garnir les rangs : la plupart des citoyens ne connaîtront jamais la guerre.",
-      "caption": "Une société de statuts",
-      "public": "ON"
-    },
-    {
-      "text": "L'Empire doit sa fondation aux nains, et leur a confié le contrôle de la magie.\n\nTrois cités-États naines - Kar'Azdhur, Kar'Berial et Kar'Dhurim - gardent chacune l'une des académies impériales, seules habilitées à enseigner la magie profane. Ce sont elles qui ont rédigé la Nomos Hekatea et mis au point le rituel de la Suppression ; la traque des mages hors-la-loi revient à l'Ordre rouge, reconnaissable à son ouroboros écarlate.",
-      "caption": "Les nains et la magie",
-      "public": "ON"
+      "text": "Fondé il y a plus de 2000 ans par Akiles Hakaton avec le soutien des trois cités-États naines, l'Empire minéen occupe le nord-ouest de Pangée et couvre environ 6000 kilomètres d'est en ouest sur 4000 du nord au sud, mer comprise, soit près de 20 millions de kilomètres carrés de terres — une superficie comparable à celle de l'Amérique du Nord. Il compte aujourd'hui entre 800 et 900 millions d'habitants, avec une densité moyenne d'environ 40 habitants au kilomètre carré, pouvant atteindre 15 000 dans les grandes cités et descendre à une dizaine à peine dans les campagnes les plus reculées.\n\nL'Empire se structure en quatre provinces historiques (Khoros, Eiren, Tharse, Opharmos), en marches frontalières plus militarisées (Basse-terre, Hautemarche, les Lointains, Kassa m'bo), en trois cités-États naines jouissant d'une souveraineté propre (Kar'Azdhur, Kar'Berial, Kar'Dhurim), et en plusieurs protectorats aux lois distinctes (Syl'Gaedrim, Kh'Eoda, la Brisure, les Neuf, l'Ancien Royaume). Cette mosaïque administrative repose sur une société stratifiée en statuts légaux (citoyens, patriciens, akolé, étrangers) plutôt que sur une hiérarchie unique de richesse, sous l'autorité d'un Kaïsar dont la légitimité découle du rituel secret de l'Ascension.\n\nAu moment de la rédaction du récit-cadre le plus récent, l'Empire est dirigé par Hakilon XIII, dit le Lion aveugle, treizième de la lignée d'Akiles Hakaton, vieillissant et sans succession clairement assurée — une incertitude politique qui pèse sur tout l'Âge du Changement traversé par le continent.",
+      "caption": "",
+      "public": "OFF"
     }
   ],
-  "related": [
-    "blanc-septentrion",
-    "valisthea",
-    "nomos-hekatea",
-    "academies-imperiales",
-    "la-suppression",
-    "magie"
-  ],
+  "related": [],
   "relatedOff": [
-    "blanc-septentrion",
-    "valisthea",
-    "nomos-hekatea",
-    "academies-imperiales",
-    "la-suppression",
-    "magie"
+    "avenement-empire-mineen",
+    "khoros",
+    "protéos",
+    "hakilon-xiii",
+    "statuts-sociaux-imperiaux"
   ]
 }

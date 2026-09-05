@@ -1,0 +1,23 @@
+{
+  "id": "ombremonde-creatures",
+  "title": "Les créatures de l'Ombremonde",
+  "category": "creatures",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Sous les trois cités-États naines s'étend l'Ombremonde (aussi appelé maltunja), monde souterrain hostile peuplé de créatures suffisamment dangereuses pour que chaque cité-État entretienne en permanence des forces militaires dédiées à sa contention : les Défenseurs des Profondeurs (syvästaja), troupes d'élite comprenant une cavalerie montée sur des sivilskvä, sangliers albinos géants des profondeurs également élevés pour leur lait fermenté, le tulimaïti. Ces guerres souterraines, menées sans relâche depuis des générations, ont ponctuellement failli emporter une cité-État naine tout entière lors d'épisodes aujourd'hui appelés les « guerres souterraines », survenus il y a environ deux millénaires.\n\nLa nature exacte de ces créatures reste un secret jalousement gardé par les nains, qui ne partagent que peu d'informations avec le reste de l'Empire sur ce qui rôde réellement sous leurs cités — un silence qui alimente autant les rumeurs les plus folles que le respect prudent que les autres peuples réservent à l'endurance militaire naine.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "nains",
+    "kar-azdhur",
+    "kar-berial",
+    "kar-dhurim"
+  ]
+}

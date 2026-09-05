@@ -1,0 +1,23 @@
+{
+  "id": "kaisar-et-ascension",
+  "title": "Le Kaïsar et le rituel de l'Ascension",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Le Kaïsar (ou l'Impératrice) règne au sommet de la hiérarchie impériale, avec l'autorité exclusive de décider de la guerre, des lois et de la répartition des terres — un pouvoir que ni le sénat ni aucun conseil provincial ne peut contester une fois qu'il a été confirmé par le rituel secret de l'Ascension. Ce rituel, dont les modalités précises échappent à tous sauf aux nains qui le président, se déroule au monastère de Sophios, gardé par les Silenciés, moines et prêtres ayant subi l'ablation de la langue et, selon la rumeur, d'« une partie de leur être » — une mutilation empêchant toute révélation du secret de l'Ascension, même sous la contrainte de la magie la plus puissante. La première Ascension, celle d'Akiles Hakaton, eut lieu au lieu secret de Kalipsis, connu des seuls nains, qui y conduisirent le futur premier Kaïsar par des voies tenues secrètes.\n\nLa légitimité de chaque souverain repose ainsi entièrement sur la sagesse transmise par ce rite, censé le rendre difficile à corrompre ou à influencer une fois intronisé. Ce monopole naïn sur la succession impériale, jamais entièrement expliqué au reste de l'Empire, alimente les soupçons les plus vifs de la société secrète des Yeux noirs, convaincue qu'un « élu » au sang particulier serait repéré et formé en secret dès l'enfance dans un monastère de Zukreis avant chaque Ascension — et qui rêve de substituer son propre candidat à ce processus.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "avenement-empire-mineen",
+    "hakilon-xiii",
+    "yeux-noirs",
+    "khoros"
+  ]
+}

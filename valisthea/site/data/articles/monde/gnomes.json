@@ -1,0 +1,22 @@
+{
+  "id": "gnomes",
+  "title": "Les gnomes",
+  "category": "monde",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Peuple jamais organisé en nation, structuré autour de la famille élargie en prajavals (communautés de dix à quinze familles, parfois plus d'une centaine), chacun dirigé par un praenava deran (« porteur de sagesse »), mémoire et enseignant de la communauté (langues, écriture, histoire, légendes). Réputés sociables et bien intégrés partout, les gnomes restent peu ambitieux politiquement et généralement neutres dans les conflits tant que leur communauté n'est pas menacée. Selon leur mythologie, les gnomes seraient originaires du monde-miroir faérique d'Oneira ; l'Exode désigne leur arrivée sur Pangée (causes disputées) et l'Effacement la perte progressive de leur nature féerique originelle, dont subsiste un vestige dans les couleurs fantastiques de peau et de cheveux de leurs plus anciens ancêtres.\n\nLa reproduction gnome est unique : tout gnome, quel que soit son genre, peut tomber enceint à la suite d'une union appelée « Fusion » ; après neuf mois de grossesse sans travail ni risque, le jour de la « Mise au Monde » voit l'enfant apparaître comme par magie pendant le sommeil du porteur. Les gnomes se définissent par leur environnement plutôt que par une ethnie, changeant de dénomination en changeant de mode de vie : les vaesenteryl (plaines et lieux civilisés, troglodytes ou citadins), les vaesenmaejik (forêts, vénération des arbres anciens), les vaesenyaly (lacs et rivières, parfois en grottes sous-marines), les vaesenkaebae (nomades vivant sur le dos d'une idhayoba, tortue géante mobile) et les vaesenhudak, statut d'exception mêlant l'explorateur solitaire volontaire et le paria banni pour faute grave, marqué au poignet et privé de son nom de famille.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "eiren",
+    "oneira",
+    "sidh"
+  ]
+}

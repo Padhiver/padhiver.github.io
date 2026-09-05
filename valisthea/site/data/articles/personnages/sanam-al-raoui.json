@@ -1,0 +1,20 @@
+{
+  "id": "sanam-al-raoui",
+  "title": "Sanam al'Raoui",
+  "category": "personnages",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Vésir et consul suprême actuel de Kh'Eoda, le « Royaume aux Mille Montures », élu à ce poste par l'assemblée de ses pairs vésirs selon la tradition monarchique élective du royaume. Politicien habile, décrit comme une véritable « main de fer dans un gant de velours », il dirige depuis le palais de la capitale, Madi'Maluk, un royaume dont l'influence n'a cessé de décliner depuis son passage au statut de protectorat impérial, réduit dans les faits au rôle de réserve de chevaux pour l'Empire.\n\nSon mandat s'exerce dans un contexte de tensions croissantes, certains notables du royaume voyant dans l'indépendance récente du Royaume du Fleuve voisin un exemple à suivre pour Kh'Eoda lui-même.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "kh-eoda"
+  ]
+}

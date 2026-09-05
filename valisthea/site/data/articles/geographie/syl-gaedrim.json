@@ -1,0 +1,24 @@
+{
+  "id": "syl-gaedrim",
+  "title": "Syl'Gaedrim",
+  "category": "geographie",
+  "public": "OFF",
+  "date": "2026-09-05",
+  "order": null,
+  "source": "pangee",
+  "pages": [
+    {
+      "text": "Royaume elfe et protectorat impérial, gouverné en monarchie absolue par la Reine Éternelle depuis sa capitale Banrior, cité à l'architecture façonnée par la magie, dont l'accès reste strictement limité aux étrangers. Ancien ennemi de l'Empire, Syl'Gaedrim fut le seul territoire à lui résister assez farouchement pour négocier l'Entente plutôt que de se soumettre entièrement — un compromis qui pèse encore sur les relations entre les deux camps, la magie déployée durant les derniers combats de cette guerre ayant durablement instabilisé les montagnes Ocres, aujourd'hui parsemées de passages imprévisibles vers les mondes-miroirs, un phénomène en intensification constante depuis une dizaine d'années. Cette instabilité alimente un ressentiment anti-humain grandissant dans certains cercles elfiques, tandis que d'autres, inspirés par l'indépendance récente du Royaume du Fleuve, plaident ouvertement pour que la Reine Éternelle négocie à son tour l'indépendance totale du royaume.\n\nParmi les lieux notables du royaume : Cridhuin, ville-forêt élevée à l'image de l'idéal elfique, fortement garnisonnée ; For'al'cridhe, plus ancien observatoire elfe, aujourd'hui abandonné aux fées et aux dryades ; Mathabahan, qui abrite le plus grand manàn'tir (élevage de fiannahbàns) du royaume ; et Selledreach, poste-frontière tendu au confluent des territoires de Kar'Dhurim et de Hautemarche. Sept forteresses colossales, les Sept Sœurs, furent bâties sur ordre de la Reine Éternelle pour accueillir les cavaliers de nimleairs, aigles géants dressés au combat — une huitième sœur, détruite durant la guerre contre l'Empire, reste aujourd'hui une zone interdite dont le secret est jalousement gardé.",
+      "caption": "",
+      "public": "OFF"
+    }
+  ],
+  "related": [],
+  "relatedOff": [
+    "elfes",
+    "reine-eternelle",
+    "montagnes-ocres",
+    "avenement-empire-mineen",
+    "fiannahbans"
+  ]
+}
