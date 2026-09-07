@@ -1,0 +1,23 @@
+{
+  "id": "la-convergence",
+  "title": "La Convergence",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-09-07",
+  "order": 10,
+  "source": "guide-joueur",
+  "pages": [
+    {
+      "text": "Le cataclysme qui a fait le monde.\n\nIl y a si longtemps que plus personne ne saurait en donner la date exacte, les frontières de la réalité se déchirèrent : plusieurs mondes distincts, jusque-là séparés, se percutèrent et fusionnèrent. Des terres, des créatures et des forces venues d'ailleurs se retrouvèrent mêlées à celles qui existaient déjà.\n\nDe cette catastrophe serait né L'Après-Monde, un monde étrange composé de territoires qui ne devraient peut-être jamais avoir coexisté. C'est l'une des rares certitudes que partagent tous les habitants du monde : la Convergence a façonné le monde actuel.",
+      "caption": "Le récit commun",
+      "public": "ON"
+    },
+    {
+      "text": "Sur le comment et le pourquoi, personne ne s'accorde.\n\nLes causes exactes de la Convergence restent débattues. Les textes les plus anciens sont rares, et chaque peuple semble en conserver une version différente. Le récit le plus répandu accuse les Elfes : maîtres, avant le cataclysme, d'un royaume aujourd'hui disparu, ils auraient cherché à percer les secrets du vide astral et à ouvrir des passages vers d'autres mondes — et quelque chose aurait terriblement mal tourné.\n\nRien de tout cela n'est prouvé. Ce sont des récits, des croyances, et par endroits de la propagande, accumulés sur des millénaires.",
+      "caption": "Les causes débattues",
+      "public": "OFF"
+    }
+  ],
+  "related": ["les-elfes", "les-cristaux-meres", "l-apres-monde"],
+  "relatedOff": ["le-vide-astral"]
+}

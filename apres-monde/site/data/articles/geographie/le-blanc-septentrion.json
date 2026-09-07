@@ -1,0 +1,18 @@
+{
+  "id": "le-blanc-septentrion",
+  "title": "Le Blanc-Septentrion",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-09-05",
+  "order": 30,
+  "source": "guide-joueur",
+  "pages": [
+    {
+      "text": "Le continent de l'Empire minéen, hors de portée du Synode.\n\nLe Blanc-Septentrion est l'une des quatre grandes régions de L'Après-Monde. Là, le pouvoir appartient à l'Empire minéen, qui ne reconnaît pas l'autorité du Synode sur l'utilisation de la magie.\n\nLa magie n'y est pas traitée comme un péché mais comme une force à surveiller, enregistrer et discipliner, selon la Nomos Hekatea. Un porteur de don qui fuit les terres du Synode y trouve un sort différent : surveillé et bridé, mais ni marqué au fer ni asservi.",
+      "caption": "",
+      "public": "ON"
+    }
+  ],
+  "related": ["l-empire-mineen", "la-nomos-hekatea"],
+  "relatedOff": []
+}

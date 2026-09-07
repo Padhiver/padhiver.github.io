@@ -1,0 +1,24 @@
+{
+  "id": "gweligore",
+  "title": "Gwéligore",
+  "category": "personnages",
+  "public": "ON",
+  "date": "2026-09-07",
+  "order": 10,
+  "source": "guide-joueur",
+  "banner": { "on": "ON", "id": "synode" },
+  "pages": [
+    {
+      "text": "La Déesse qui veille sur le monde depuis la Lune d'Or.\n\nGwéligore est la déesse au centre de la foi du Synode. Elle réside dans Éternité, la lune mordorée, d'où elle observe ses enfants et protège L'Après-Monde contre les forces qui menacent son équilibre.\n\nQue Gwéligore veille sur L'Après-Monde depuis Éternité fait partie des rares certitudes avec lesquelles grandissent la plupart des habitants du monde.",
+      "caption": "La Déesse d'Éternité",
+      "public": "ON"
+    },
+    {
+      "text": "On lui attribue le plus grand des présents : la magie.\n\nSelon le Synode, les Cristaux-mères sont des conduits divins par lesquels Gwéligore distribue son sang magique, fertilise les sols et empêche les continents de se disloquer de nouveau après la Convergence. S'en servir est présenté comme la seule manière juste d'user de la magie.\n\nLa petite étoile rouge fixée près d'Éternité, Méthia, est elle aussi tenue par le dogme pour Gwéligore en personne, descendue veiller sur le monde à la tombée de la nuit.",
+      "caption": "La source de toute magie",
+      "public": "ON"
+    }
+  ],
+  "related": ["eternite", "les-cristaux-meres", "le-synode", "la-convergence"],
+  "relatedOff": []
+}

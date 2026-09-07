@@ -1,0 +1,18 @@
+{
+  "id": "le-gris-levant",
+  "title": "Le Gris-Levant",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-09-06",
+  "order": 20,
+  "source": "guide-joueur",
+  "pages": [
+    {
+      "text": "L'autre continent sous l'autorité du Synode.\n\nLe Gris-Levant est l'une des quatre grandes régions de L'Après-Monde. Comme le Vert-Ponant, c'est un territoire où le Synode exerce une autorité considérable sur l'usage de la magie.\n\nQuiconque y naît avec un don de magie inné y est marqué du Stigmate et soumis à la Loi de l'Ordonnance, dans les mêmes termes que sur le continent voisin.",
+      "caption": "",
+      "public": "ON"
+    }
+  ],
+  "related": ["le-synode", "le-vert-ponant"],
+  "relatedOff": []
+}

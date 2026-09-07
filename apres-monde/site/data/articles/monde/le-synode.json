@@ -1,0 +1,23 @@
+{
+  "id": "le-synode",
+  "title": "Le Synode",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-09-06",
+  "order": 60,
+  "source": "guide-joueur",
+  "pages": [
+    {
+      "text": "L'autorité religieuse qui régit la magie sur deux continents.\n\nLe Synode est une organisation religieuse exclusivement féminine. Dans les territoires du Vert-Ponant et du Gris-Levant, il exerce une autorité considérable sur l'usage de la magie.\n\nIl se réclame de la Déesse Gwéligore et enseigne que la seule manière juste d'user de la magie est de passer par le don de la Déesse : les Cristaux-mères.",
+      "caption": "L'institution",
+      "public": "ON"
+    },
+    {
+      "text": "Naître capable de magie sans les cristaux est, pour le Synode, un sacrilège.\n\nLe Synode voit dans les porteurs d'un don inné une anomalie dangereuse et une transgression de l'ordre voulu par la Déesse. Sur ses terres, il les fait marquer au visage d'un Stigmate dès la naissance et les soumet à la Loi de l'Ordonnance — jusqu'à l'asservissement, pour les Elfes comme pour quiconque enfreint ses règles.",
+      "caption": "Sa police de la magie",
+      "public": "ON"
+    }
+  ],
+  "related": ["le-don-de-magie", "la-loi-de-lordonnance", "les-cristaux-meres", "gweligore", "eternite", "le-vert-ponant", "le-gris-levant"],
+  "relatedOff": []
+}

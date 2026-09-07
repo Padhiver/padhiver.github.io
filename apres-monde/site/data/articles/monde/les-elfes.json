@@ -1,0 +1,28 @@
+{
+  "id": "les-elfes",
+  "title": "Les Elfes",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-09-06",
+  "order": 70,
+  "source": "guide-joueur",
+  "pages": [
+    {
+      "text": "Le peuple que presque tout le monde tient pour coupable.\n\nLes Elfes portent encore le poids de la Convergence. Dans la plupart des régions, on les considère comme les responsables de la catastrophe : on raconte qu'ils ont voulu dépasser les limites imposées aux mortels et que leur arrogance a condamné le monde.\n\nIls vivent désormais à l'écart, derrière leurs propres frontières, et entretiennent peu de relations avec les autres peuples. Que les habitants du monde retiennent surtout : les Elfes sont liés à cette catastrophe.",
+      "caption": "Les parias de la Convergence",
+      "public": "ON"
+    },
+    {
+      "text": "Chez eux, la magie innée est la règle, pas l'exception.\n\nLes Elfes naissent tous avec la magie dans le sang, là où, chez les autres peuples, un tel don reste une rareté. C'est pourquoi, dans les terres du Synode, un Elfe qui vient au monde reçoit d'emblée le Stigmate complet et devient Pourvoyeur : privé de ses droits, il est mis au service de la société. Un Elfe venu d'ailleurs, ou qui aurait fui, reçoit la même marque.\n\nQuelques-uns échappent aux travaux communs en servant un noble ou un personnage puissant — mais on les regarde alors avec encore plus de mépris, du côté des humains comme des autres Elfes, qui les tiennent pour des traîtres.",
+      "caption": "Nés dans la magie",
+      "public": "ON"
+    },
+    {
+      "text": "Sur ce qu'ils savent vraiment, on ne fait que spéculer.\n\nCertains affirment que les Elfes cachent encore les secrets de la Convergence, jalousement gardés derrière leurs frontières. D'autres prétendent qu'ils n'en savent pas davantage que quiconque sur ce qui s'est réellement passé, et qu'ils se terrent surtout pour échapper au ressentiment général.\n\nAucune des deux versions n'a jamais été confirmée.",
+      "caption": "Ce qu'on murmure",
+      "public": "OFF"
+    }
+  ],
+  "related": ["la-convergence", "le-don-de-magie", "la-loi-de-lordonnance"],
+  "relatedOff": []
+}

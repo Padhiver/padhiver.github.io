@@ -1,0 +1,23 @@
+{
+  "id": "l-apres-monde",
+  "title": "L'Après-Monde",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-09-07",
+  "order": 0,
+  "source": "guide-joueur",
+  "pages": [
+    {
+      "text": "Un monde né de la collision de plusieurs autres.\n\nDe la Convergence est né L'Après-Monde : un monde étrange, composé de territoires qui ne devraient peut-être jamais avoir coexisté. Des terres, des créatures et des forces venues d'ailleurs s'y trouvent mêlées à celles qui existaient déjà.\n\nLes textes les plus anciens sont rares et se contredisent, et chaque peuple conserve sa propre version du passé.",
+      "caption": "Un monde composite",
+      "public": "ON"
+    },
+    {
+      "text": "On distingue aujourd'hui quatre grandes régions.\n\nLe Vert-Ponant et le Gris-Levant relèvent de l'autorité du Synode, qui y régit strictement l'usage de la magie. Le Blanc-Septentrion appartient à l'Empire minéen, qui ne reconnaît pas le Synode et discipline la magie par sa propre loi, la Nomos Hekatea.\n\nLe Rouge-Méridion, enfin, n'est guère plus qu'un nom sur les cartes : le savoir commun n'en dit rien.",
+      "caption": "Les quatre régions",
+      "public": "ON"
+    }
+  ],
+  "related": ["la-convergence", "le-vert-ponant", "le-gris-levant", "le-blanc-septentrion", "le-rouge-meridion"],
+  "relatedOff": []
+}

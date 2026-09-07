@@ -1,0 +1,23 @@
+{
+  "id": "la-nomos-hekatea",
+  "title": "La Nomos Hekatea",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-09-05",
+  "order": 110,
+  "source": "guide-joueur",
+  "pages": [
+    {
+      "text": "La manière dont l'Empire minéen discipline la magie, sans le Synode.\n\nDans le Blanc-Septentrion, l'Empire minéen ne reconnaît pas l'autorité du Synode. Il considère néanmoins la magie comme une force qui doit être surveillée, enregistrée et disciplinée. Cette philosophie est résumée dans un ensemble de lois régissant les arts occultes : la Nomos Hekatea.\n\nSes grands principes sont connus de tous : la magie ne doit pas permettre de prendre un avantage politique indu ; les utilisateurs de magie doivent être déclarés ; la pratique magique doit être encadrée et enseignée ; la magie ne doit pas perturber la justice impériale ; les talents magiques doivent, autant que possible, servir la communauté et l'Empire.",
+      "caption": "Les cinq principes",
+      "public": "ON"
+    },
+    {
+      "text": "Ceux qui l'enfreignent risquent la Suppression.\n\nLes contrevenants à la Nomos Hekatea risquent une peine appelée la Suppression. On raconte que cette sanction prive définitivement un individu de sa capacité à utiliser la magie.\n\nLà où le Synode marque, surveille et asservit, l'Empire retranche : le porteur de don qui fuit les terres du Synode pour le Blanc-Septentrion échange un régime de contrôle pour un autre.",
+      "caption": "La Suppression",
+      "public": "ON"
+    }
+  ],
+  "related": ["le-blanc-septentrion", "l-empire-mineen", "le-don-de-magie"],
+  "relatedOff": []
+}
