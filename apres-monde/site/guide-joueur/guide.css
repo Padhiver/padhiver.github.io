@@ -1,0 +1,197 @@
+/* =========================================================
+   L'Après-Monde — Guide du joueur.
+   Page autonome de lecture longue : une seule colonne de
+   texte, habillée aux codes du codex (encre bleu-vert et
+   cinabre, cartouches à coins d'angle, capitales Cinzel,
+   lettrines). Hérite des variables et de l'en-tête de
+   css/style.css ; ne redéfinit ici que le corps du guide.
+   ========================================================= */
+
+.guide {
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+/* ---------- Encart d'avertissement ---------- */
+
+.guide-note {
+  position: relative;
+  margin: 4px 0 58px;
+  padding: 24px 30px;
+  background: var(--paper-2);
+  border: 1px solid var(--line);
+}
+.guide-note-label {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.62rem;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: var(--cinabre);
+  margin: 0 0 10px;
+}
+.guide-note p:not(.guide-note-label) {
+  margin: 0;
+  font-style: italic;
+  font-size: 1.06rem;
+  line-height: 1.7;
+  color: var(--ink-2);
+  text-align: left;
+}
+
+/* ---------- Chapitre ---------- */
+
+.guide-chapter {
+  margin: 0;
+}
+
+.guide-chapter h2 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(1.4rem, 3vw, 1.75rem);
+  line-height: 1.22;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--sea);
+  margin: 0 0 6px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--line);
+}
+.guide-chapter h2 .num {
+  display: block;
+  font-size: 0.68rem;
+  letter-spacing: 0.34em;
+  color: var(--cinabre);
+  margin-bottom: 9px;
+}
+
+.guide-chapter h3 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.98rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin: 38px 0 0;
+}
+.guide-chapter h3::after {
+  content: "";
+  display: block;
+  width: 46px;
+  margin-top: 9px;
+  border-top: 2px solid var(--cinabre);
+  opacity: 0.7;
+}
+
+/* ---------- Corps de texte ---------- */
+
+.guide p {
+  margin: 1.05em 0 0;
+  font-size: 1.12rem;
+  line-height: 1.75;
+  text-align: justify;
+  hyphens: auto;
+}
+.guide h2 + p,
+.guide h3 + p {
+  margin-top: 1.05em;
+}
+
+.guide strong {
+  color: var(--sea);
+  font-weight: 600;
+}
+
+/* Lettrine sur le premier paragraphe de chaque chapitre. */
+.guide-chapter > p:first-of-type::first-letter {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 3.1em;
+  line-height: 0.8;
+  float: left;
+  margin: 0.06em 0.14em 0 0;
+  color: var(--cinabre);
+}
+
+/* ---------- Listes ---------- */
+
+.guide ul {
+  list-style: none;
+  margin: 1.15em 0 0;
+  padding: 0;
+}
+.guide li {
+  position: relative;
+  margin-top: 0.55em;
+  padding-left: 1.6em;
+  font-size: 1.12rem;
+  line-height: 1.7;
+}
+.guide li::before {
+  content: "◆";
+  position: absolute;
+  left: 0.15em;
+  top: 0.02em;
+  font-size: 0.66em;
+  color: var(--cinabre);
+}
+
+/* ---------- Division ornée entre chapitres ---------- */
+
+.guide-div {
+  position: relative;
+  width: 58%;
+  height: 1px;
+  margin: 46px auto;
+  border: 0;
+  background: var(--line);
+  overflow: visible;
+}
+.guide-div::after {
+  content: "◆";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0 16px;
+  background: var(--paper);
+  color: var(--sea);
+  opacity: 0.5;
+  font-size: 0.8rem;
+}
+
+/* ---------- Récapitulatif final ---------- */
+
+.guide-recap {
+  position: relative;
+  margin-top: 56px;
+  padding: 34px 34px 38px;
+  background: var(--paper-3);
+  border: 1px solid var(--line);
+}
+.guide-recap h2 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(1.15rem, 2.6vw, 1.42rem);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--sea);
+  margin: 0;
+}
+.guide-recap > p:first-of-type {
+  margin-top: 0.9em;
+  text-align: center;
+  font-style: italic;
+  color: var(--ink-2);
+}
+
+/* ---------- Adaptatif ---------- */
+
+@media (max-width: 680px) {
+  .guide-note { padding: 20px 20px; }
+  .guide p,
+  .guide li { text-align: left; hyphens: none; }
+  .guide-recap { padding: 26px 20px 30px; }
+  .guide-div { width: 72%; }
+}

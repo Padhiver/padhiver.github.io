@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<!-- Page autonome, comme site/map/ : le HTML/JS partagé et css/style.css
+     écrivent leurs chemins comme si l'on était dans site/. Cette page est un
+     cran plus bas (site/guide-joueur/), donc "base" ramène toute URL relative
+     vers site/. Seuls les liens vers index.html visent un cran au-dessus
+     encore (racine de apres-monde/), d'où "../index.html". -->
+<base href="../">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guide du joueur — Codex de L'Après-Monde</title>
+<meta name="description" content="Ce que l'on raconte du monde de L'Après-Monde : document de mise en route pour les joueurs.">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="guide-joueur/guide.css">
+<script>
+  // Voir index.html à la racine : même principe, pour éviter le flash clair
+  // au chargement d'une préférence sombre.
+  try {
+    if (localStorage.getItem("eana_theme") === "dark") {
+      document.documentElement.setAttribute("data-theme", "dark");
+    }
+  } catch (e) { /* stockage indisponible : on reste en clair */ }
+</script>
+</head>
+<body class="guide-page">
+
+<div class="app-shell">
+  <header class="site-header">
+    <svg class="compass" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="1" aria-hidden="true">
+      <circle cx="50" cy="50" r="46"/>
+      <circle cx="50" cy="50" r="36"/>
+      <circle cx="50" cy="50" r="8"/>
+      <path d="M50 4v92M4 50h92" stroke-width=".6"/>
+      <path class="needle" d="M50 8l7 34 34 8-34 8-7 34-7-34-34-8 34-8z" stroke-width="1.2"/>
+      <path d="M22 22l17 39 39 17-17-39z" stroke-width=".5"/>
+    </svg>
+    <a class="corner-link guide-back" href="../index.html#/">Retour au codex</a>
+    <p class="site-eyebrow">Guide du joueur</p>
+    <a class="site-title" href="../index.html#/">L'Après-Monde</a>
+    <p class="site-subtitle">Ce que l'on raconte du monde</p>
+    <div class="header-rule"></div>
+  </header>
+
+  <main>
+    <article class="guide">
+
+      <aside class="guide-note">
+        <i class="corner c1"></i><i class="corner c2"></i><i class="corner c3"></i><i class="corner c4"></i>
+        <p class="guide-note-label">Document destiné aux joueurs</p>
+        <p>Ce texte rassemble les connaissances qu'un habitant instruit de L'Après-Monde pourrait avoir sur le monde. Certaines informations sont anciennes, simplifiées, contradictoires ou déformées par des millénaires de récits, de croyances et de propagande.</p>
+      </aside>
+
+      <section class="guide-chapter">
+        <h2><span class="num">I</span>L'Après-Monde, un monde né du cataclysme</h2>
+        <p>L'expérience tourna au désastre. Les frontières de la réalité se déchirèrent, provoquant la <strong>Convergence</strong> : une collision cataclysmique où plusieurs mondes distincts se percutèrent et fusionnèrent.</p>
+        <p>Il y a si longtemps que plus personne ne saurait en donner la date exacte, le monde aurait été frappé par un événement appelé <strong>la Convergence</strong>.</p>
+        <p>Les <strong>Elfes</strong>, alors maîtres d'un royaume aujourd'hui disparu, auraient cherché à percer les secrets du vide astral et à ouvrir des passages vers d'autres mondes.</p>
+        <p>Et quelque chose tourna terriblement mal.</p>
+        <p>Les frontières entre les réalités furent brisées et plusieurs mondes auraient été projetés les uns contre les autres. Des terres, des créatures et des forces venues d'ailleurs se retrouvèrent mêlées à celles qui existaient déjà.</p>
+        <p>De cette catastrophe serait né <strong>L'Après-Monde</strong>, un monde étrange composé de territoires qui ne devraient peut-être jamais avoir coexisté.</p>
+        <p>On distingue aujourd'hui quatre grandes régions :</p>
+        <ul>
+          <li><strong>Le Vert-Ponant</strong></li>
+          <li><strong>Le Gris-Levant</strong></li>
+          <li><strong>Le Blanc-Septentrion</strong></li>
+          <li><strong>Le Rouge-Méridion</strong></li>
+        </ul>
+        <p>Les causes exactes de la Convergence restent débattues. Les textes les plus anciens sont rares, et chaque peuple semble en conserver une version différente.</p>
+
+        <h3>Les Elfes</h3>
+        <p>Les Elfes portent encore le poids de la Convergence. Dans la plupart des régions, on les considère comme les responsables de la catastrophe. On raconte qu'ils ont voulu dépasser les limites imposées aux mortels et que leur arrogance a condamné le monde.</p>
+        <p>Les Elfes vivent désormais à l'écart, derrière leurs propres frontières, et entretiennent peu de relations avec les autres peuples. Certains affirment qu'ils cachent encore les secrets de la Convergence. D'autres prétendent qu'ils ne savent pas davantage ce qui s'est réellement passé.</p>
+        <p>Les Elfes naissent tous avec la magie dans le sang, là où, chez les autres peuples, un tel don reste une rareté.</p>
+      </section>
+
+      <hr class="guide-div">
+
+      <section class="guide-chapter">
+        <h2><span class="num">II</span>Les Cristaux-mères</h2>
+        <p>À travers L'Après-Monde se dressent de colossaux monolithes de cristal qui scintillent d'une pure lumière magique : les <strong>Cristaux-mères</strong>.</p>
+        <p>Pour l'humanité, ces structures sont les plus grands miracles de la Déesse Gwéligore. Ce sont des conduits divins plantés dans la terre pour distribuer son sang magique, fertiliser les sols et maintenir les continents stables après les traumatismes de la Convergence. Chaque nation s'est construite autour d'un Cristal-mère, exploitant ses éclats pour alimenter ses forges, soigner ses malades et illuminer ses cités. Sans eux, la civilisation s'effondrerait dans le froid et la barbarie.</p>
+      </section>
+
+      <hr class="guide-div">
+
+      <section class="guide-chapter">
+        <h2><span class="num">III</span>La magie et les Pourvoyeurs</h2>
+        <p>La magie existe sous plusieurs formes sur L'Après-Monde. Dans les territoires du Vert-Ponant et du Gris-Levant, le Synode, organisation religieuse exclusivement féminine, exerce une autorité considérable sur son utilisation.</p>
+
+        <h3>Les cristaux</h3>
+        <p>Directement prélevés par le Synode sur les cristaux-mères, ces fragments du don divin de Gwéligore sont largement exploités à travers l'Après-Monde et rendent la magie accessible à quiconque s'en munit. Les prédispositions de chacun, cependant, sont inégales et les bienfaits délivrés par ces éclats ont un coût. Celui qui use et abuse du don de la déesse prend ainsi le risque de voir sa chair fragile se pétrifier peu à peu, sans certitude d'accomplir le miracle espéré. Mener une vie dépourvue de magie ou prendre le risque de se changer en statue de pierre, tel est le choix offert au commun des mortels qui regarde d'un oeil suspicieux ceux qui dérogent à la règle.</p>
+
+        <h3>Les profanes</h3>
+        <p>Certains individus naissent avec la capacité de manipuler la magie sans dépendre des Cristaux-mères. Le Synode voit en eux une anomalie dangereuse, une transgression de l'ordre établi par la Déesse qu'il est impératif de ramener dans son giron.</p>
+        <p>Dans les terres du Synode, quiconque naît avec ce don est marqué au visage d'un tatouage runique à trois niveaux, le <strong>Stigmate</strong>, dont la complexité reflète la condition de celui qui le porte. Dans sa forme la plus simple, le Stigmate a une fonction de marqueur social assurant que l'individu doté de magie est aisément identifiable et qu'il se soumet à la <strong>Loi de l'Ordonnance</strong>. Ceux qui transgressent cette loi sont marqués une seconde fois, condamnés à porter sur leur visage la preuve de leur duplicité. Le Stigmate complet, quant-à-lui, est réservé aux Pourvoyeurs.</p>
+
+        <h3>Pourvoyeurs</h3>
+        <p>Privés de leurs droits, les Pourvoyeurs sont des esclaves dont les talents magiques sont mis au service de la société.</p>
+        <p>Naturellement dotés de magie, les <strong>Elfes</strong> représentent la grande majorité des Pourvoyeurs. Sur les terres du Synode, la grâce qui est faite aux autres peuples ne leur est pas accordée et chaque elfe reçoit, dès sa naissance, l'empreinte complète du Stigmate. Le même sort attend les elfes imprudents venus d'ailleurs et qui s'aventureraient sur le territoire, systématiquement traqués et asservis par le Synode.</p>
+        <p>Certains Pourvoyeurs échappent aux travaux communs en servant la noblesse ou en tombant sous la coupe de personnages puissants, mais ces derniers sont considéré avec plus de mépris encore. Les Elfes, en particulier, tiennent leurs semblables mieux lotis pour des traitres.</p>
+
+        <h3>L'Ordonnance</h3>
+        <p>La Loi de l'Ordonnance encadre le destin de ceux qui naissent avec la magie dans le sang.</p>
+        <p>Elle impose de déclarer tout porteur de magie en le marquant d'un Stigmate. Quiconque porte le Stigmate se doit d'engager ses dons au service de la société et jamais pour son propre bénéfice. Les porteurs de Stigmate ne doivent pas se marier, enfanter, ou occuper une position de commandement; que ce soit dans une guilde, une armée, un temple ou un conseil.</p>
+        <p>Celui qui enfreint ces règles voit son Stigmate « complété » par le Synode : sa marque devient celle des Pourvoyeurs et il est réduit en esclavage au côté des Elfes naturellement asservis.</p>
+        <p>Pour un Elfe né dans les terres du Synode, l'Ordonnance signifie la perte de ses droits dès la naissance et une vie entière au service de la société, souvent affecté à des tâches pénibles ou dangereuses où ses capacités sont exploitées jusqu'à sa mort.</p>
+      </section>
+
+      <hr class="guide-div">
+
+      <section class="guide-chapter">
+        <h2><span class="num">IV</span>Le Blanc-Septentrion et l'Empire Minéen</h2>
+        <p>La situation est différente dans le <strong>Blanc-Septentrion</strong>. Là-bas, le pouvoir appartient à l'<strong>Empire Minéen</strong>, qui ne reconnaît pas l'autorité du Synode sur l'utilisation de la magie.</p>
+        <p>L'Empire considère cependant la magie comme une force qui doit être surveillée, enregistrée et disciplinée. Cette philosophie est résumée dans la <strong>Nomos Hekatea</strong>, un ensemble de lois régissant les arts occultes.</p>
+        <p>Ses grands principes sont connus de tous :</p>
+        <ul>
+          <li>la magie ne doit pas permettre à un individu de prendre un avantage politique indu ;</li>
+          <li>les utilisateurs de magie doivent être déclarés ;</li>
+          <li>la pratique magique doit être encadrée et enseignée ;</li>
+          <li>la magie ne doit pas perturber la justice impériale ;</li>
+          <li>les talents magiques doivent, autant que possible, servir la communauté et l'Empire.</li>
+        </ul>
+        <p>Les contrevenants risquent une peine appelée <strong>Suppression</strong>.</p>
+        <p>On raconte que cette sanction prive définitivement un individu de sa capacité à utiliser la magie.</p>
+      </section>
+
+      <hr class="guide-div">
+
+      <section class="guide-chapter">
+        <h2><span class="num">VII</span>La Déesse et la Lune d'Or</h2>
+        <p>Chaque nuit, une lune mordorée domine le ciel de L'Après-Monde. Elle est appelée <strong>Éternité</strong>. Pour les fidèles du Synode, Éternité est le domaine céleste de <strong>Gwéligore</strong>, la déesse qui veille sur le monde.</p>
+        <p>La lune représente l'espoir, la pureté et la continuité de la création. Le Synode enseigne que Gwéligore observe ses enfants depuis les cieux et protège L'Après-Monde contre les forces qui menacent son équilibre.</p>
+
+        <h3>Méthia, L'Étoile Rouge</h3>
+        <p>Une petite étoile rouge, remarquablement fixe, brille près d'Éternité.</p>
+        <p>Selon le dogme du Synode, cette étoile est Gwéligore elle-même, présente lorsque la nuit tombe. D'autres peuples lui attribuent des significations très différentes.</p>
+      </section>
+
+      <section class="guide-recap">
+        <i class="corner c1"></i><i class="corner c2"></i><i class="corner c3"></i><i class="corner c4"></i>
+        <h2>Ce que tout le monde sait… ou croit savoir</h2>
+        <p>Les habitants de L'Après-Monde grandissent généralement avec quelques certitudes :</p>
+        <ul>
+          <li><strong>La Convergence</strong> a façonné le monde actuel.</li>
+          <li>Les <strong>Elfes</strong> sont liés à cette catastrophe.</li>
+          <li>Les <strong>Cristaux-mères</strong> sont indispensables à l'équilibre de L'Après-Monde.</li>
+          <li>La magie doit être contrôlée, mais la manière de le faire dépend des régions.</li>
+          <li><strong>Gwéligore</strong> veille sur L'Après-Monde depuis Éternité.</li>
+        </ul>
+      </section>
+
+    </article>
+  </main>
+</div>
+
+<button id="theme-toggle" class="theme-toggle" type="button" aria-label="Basculer entre mode clair et sombre" title="Mode sombre">
+  <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z"/>
+  </svg>
+  <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true">
+    <circle cx="12" cy="12" r="4.2"/>
+    <path d="M12 2.5v2.6M12 18.9v2.6M4.2 4.2l1.9 1.9M17.9 17.9l1.9 1.9M2.5 12h2.6M18.9 12h2.6M4.2 19.8l1.9-1.9M17.9 6.1l1.9-1.9"/>
+  </svg>
+</button>
+
+<script>
+  // Bascule clair/sombre autonome : cette page ne charge ni i18n.js ni
+  // theme.js (rien d'autre n'en a besoin ici). Même clé de stockage que le
+  // reste du site — la préférence est partagée.
+  (function () {
+    var KEY = "eana_theme";
+    var btn = document.getElementById("theme-toggle");
+    if (!btn) return;
+    var root = document.documentElement;
+    function isDark() { return root.getAttribute("data-theme") === "dark"; }
+    function refreshTitle() { btn.title = isDark() ? "Mode clair" : "Mode sombre"; }
+    function apply(dark) {
+      root.classList.add("theme-switching");
+      if (dark) root.setAttribute("data-theme", "dark");
+      else root.removeAttribute("data-theme");
+      requestAnimationFrame(function () {
+        requestAnimationFrame(function () { root.classList.remove("theme-switching"); });
+      });
+      try {
+        if (dark) localStorage.setItem(KEY, "dark");
+        else localStorage.removeItem(KEY);
+      } catch (e) { /* stockage indisponible : valable pour la session */ }
+      refreshTitle();
+    }
+    refreshTitle();
+    btn.addEventListener("click", function () { apply(!isDark()); });
+  })();
+</script>
+</body>
+</html>
