@@ -621,7 +621,6 @@ a.site-title:hover { color: var(--cinabre); }
   text-transform: uppercase;
   padding-right: 46px;
 }
-.article-kicker { font-style: italic; font-size: 1.16rem; color: var(--ink-2); margin: 0.4em 0 0; }
 .article-rule {
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);

@@ -7,12 +7,12 @@
   "order": 1,
   "pages": [
     {
-      "html": "<p>Une vaste région divisée en quatre continents.</p><ul><li>le Vert-Ponant</li><li>le Gris-Levant</li><li>le Blanc-Septentrion</li><li>le Rouge-Méridion</li></ul><p>Des Cristaux-mères se dressent çà et là, et autour d'eux se sont construit des villes et des états bénéficiant de la magie pour se développer.</p>",
+      "html": "<p>Une vaste région divisée en quatre continents :</p><ul><li>le Vert-Ponant</li><li>le Gris-Levant</li><li>le Blanc-Septentrion</li><li>le Rouge-Méridion</li></ul><p>Des Cristaux-mères se dressent çà et là, et autour d'eux se sont construit des villes et des états bénéficiant de la magie pour se développer.</p>",
       "caption": "Généralités",
       "public": "ON"
     },
     {
-      "html": "<p>Une vaste région divisée en quatre continents.</p><ul><li>le Vert-Ponant</li><li>le Gris-Levant</li><li>le Blanc-Septentrion</li><li>le Rouge-Méridion</li></ul><p>Des Cristaux-mères se dressent çà et là, et autour d'eux se sont construit des villes et des états bénéficiant de la magie pour se développer. Malheureusement, le temps de l'abondance semble désormais révolu avec la progression du Fléau noir, un mystérieux phénomène qui rend les terres invivables et menace les hameaux humains.</p>",
+      "html": "<p>Une vaste région divisée en quatre continents :</p><ul><li>le Vert-Ponant</li><li>le Gris-Levant</li><li>le Blanc-Septentrion</li><li>le Rouge-Méridion</li></ul><p>Des Cristaux-mères se dressent çà et là, et autour d'eux se sont construit des villes et des états bénéficiant de la magie pour se développer. Malheureusement, le temps de l'abondance semble désormais révolu avec la progression du Fléau noir, un mystérieux phénomène qui rend les terres invivables et menace les hameaux humains.</p>",
       "caption": "Le Fléau Noir",
       "public": "ON"
     }

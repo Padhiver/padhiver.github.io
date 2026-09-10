@@ -243,18 +243,6 @@ const EanaRender = (() => {
     return sanitizeArticleHtml(pageData.html || "");
   }
 
-  // Accroche : si le corps s'ouvre sur un court paragraphe isolé, on le
-  // remonte en sous-titre (comportement historique, transposé au HTML).
-  function splitKicker(bodyHtml) {
-    const m = bodyHtml.match(/^\s*<p>([\s\S]*?)<\/p>\s*([\s\S]*)$/i);
-    if (m) {
-      const firstText = m[1].replace(/<[^>]+>/g, "").trim();
-      const rest = m[2].trim();
-      if (rest && firstText.length <= 120) return { kicker: m[1].trim(), body: rest };
-    }
-    return { kicker: "", body: bodyHtml };
-  }
-
   // Corps structuré (listes, titres, citations…) : rendu en une seule colonne,
   // le découpage en colonnes mesuré (overlay.js) ne s'y prête pas.
   function isRichBody(html) {
@@ -272,7 +260,7 @@ const EanaRender = (() => {
     const current = Math.min(page, Math.max(0, total - 1));
     const pageData = pages[current] || {};
 
-    const { kicker, body } = splitKicker(pageBodyHtml(pageData));
+    const body = pageBodyHtml(pageData);
     const rich = isRichBody(body);
     const bodyHtml = body
       ? body
@@ -307,7 +295,6 @@ const EanaRender = (() => {
       <button class="article-close" data-close-overlay aria-label="${escapeHtml(EanaI18n.t("common.close"))}">${CLOSE_ICON}</button>
       <div class="article-breadcrumb">${escapeHtml(category ? category.label : "")}</div>
       <h2>${escapeHtml(article.title)}</h2>
-      ${kicker ? `<p class="article-kicker">${kicker}</p>` : ""}
       <div class="article-rule"></div>
       <div class="article-body">
         <div class="body-text${rich ? " body-text--rich" : ""}">${bodyHtml}</div>
