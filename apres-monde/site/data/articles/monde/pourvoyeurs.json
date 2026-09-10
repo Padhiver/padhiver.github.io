@@ -1,0 +1,31 @@
+{
+  "id": "pourvoyeurs",
+  "title": "Les Pourvoyeurs",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 10,
+  "pages": [
+    {
+      "html": "<p>Privés de leurs droits, les Pourvoyeurs sont des esclaves dont les talents magiques sont mis au service de la société.</p><p>Naturellement dotés de magie, les <b>Elfes</b> représentent la grande majorité des Pourvoyeurs. Sur les terres du Synode, la grâce qui est faite aux autres peuples ne leur est pas accordée et chaque elfe reçoit, dès sa naissance, l'empreinte complète du Stigmate. Le même sort attend les elfes imprudents venus d'ailleurs et qui s'aventureraient sur le territoire, systématiquement traqués et asservis par le Synode.</p><p>Certains Pourvoyeurs échappent aux travaux communs en servant la noblesse ou en tombant sous la coupe de personnages puissants, mais ces derniers sont considéré avec plus de mépris encore. Les Elfes, en particulier, tiennent leurs semblables mieux lotis pour des traitres.</p>",
+      "caption": "Généralités",
+      "public": "ON"
+    },
+    {
+      "html": "<p>Des individus maintenus dans la servitude sur l'Après-Monde.</p><p>De par leur capacité à pouvoir utiliser la magie sans recourir à d'onéreux cristaux, ils deviennent de précieux outils pour leurs maîtres. Le tatouage qu'ils portent à la joue leur vaut le surnom péjoratif de « marqués ». En outre, la mort par pétrification advient lorsqu'ils ont eu recours à la magie un nombre indéfini de fois.</p>",
+      "caption": "Marque et pétrification",
+      "public": "ON"
+    }
+  ],
+  "related": [
+    "magie",
+    "stigmate",
+    "soldats-pourvoyeurs",
+    "cristaux",
+    "petrification",
+    "activites-des-pourvoyeurs"
+  ],
+  "relatedOff": [
+    "marques"
+  ]
+}

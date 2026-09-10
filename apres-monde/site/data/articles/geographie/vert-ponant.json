@@ -1,0 +1,22 @@
+{
+  "id": "vert-ponant",
+  "title": "Le Vert-Ponant",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 2,
+  "pages": [
+    {
+      "html": "<p>Le continent occidental de l'Après-Monde.</p><p>Sa superficie est telle que ses terres balaient presque toutes les latitudes, en offrant un climat boréal au nord, tempéré en son centre et tropical au sud. La large palette de paysages qui découle de cette variété a cultivé au fil des siècles des civilisations toutes plus singulières les unes que les autres.</p>",
+      "caption": "",
+      "public": "ON"
+    }
+  ],
+  "related": [
+    "apres-monde",
+    "archiduche-de-rosalia",
+    "saint-empire-de-sangbreque",
+    "republique-de-dalmequie"
+  ],
+  "relatedOff": []
+}

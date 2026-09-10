@@ -1,0 +1,26 @@
+{
+  "id": "rosalith",
+  "title": "Rosalith",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 12,
+  "pages": [
+    {
+      "html": "<p>La capitale de l'archiduché de Rosalia, située à l'ouest du Vert-Ponant.</p><p>Le château de Rosalith, demeure de l'archiduc et de sa famille, surplombe la cité et ses marchés bouillonnant d'activité. Ces dernières années, l'avancée du Fléau noir a causé l'arrivée de nombreux réfugiés venus des terres septentrionales.</p>",
+      "caption": "Généralités",
+      "public": "ON"
+    }
+  ],
+  "related": [
+    "archiduche-de-rosalia",
+    "gouvernement-general-provincial"
+  ],
+  "relatedOff": [
+    "elwin-rosfield",
+    "chateau-de-rosalith",
+    "terres-du-nord",
+    "attaque-du-fort-phenix",
+    "siege-de-rosalith"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "traite-intercontinental",
+  "title": "Le Traité intercontinental",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 16,
+  "pages": [
+    {
+      "html": "<p>Un accord international conclu il y a plusieurs centaines d'années.</p><p>Il est à l'origine de la création du Synode et de ses prérogatives. Il détermine également le traitement réservé aux Pourvoyeurs à travers l'Après-Monde et établit une monnaie unique. On lui doit le statut de propriété des Pourvoyeurs et l'obligation de leur marquage, deux éléments fondateurs de la société. Sa signature fut également marquée par l'adoption d'un calendrier commun, le calendrier ponantin, indiquant la volonté des nations participantes de créer un monde nouveau.</p>",
+      "caption": "",
+      "public": "ON"
+    }
+  ],
+  "related": [
+    "calendrier-ponantin",
+    "pourvoyeurs",
+    "stigmate"
+  ],
+  "relatedOff": [
+    "gils"
+  ]
+}

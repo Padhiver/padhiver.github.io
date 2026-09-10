@@ -1,0 +1,25 @@
+{
+  "id": "crocdrac",
+  "title": "Crocdrac",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 16,
+  "pages": [
+    {
+      "html": "<p>Un Cristal-mère situé en république de Dalméquie.</p><p>Crocdrac a une forme particulière et est entouré d'une chaîne de montagnes colossales, comme s'il était protégé par la roche. Pour les Dalmèques, Crocdrac est synonyme de progrès et de prospérité. C'est en effet en minant et en exportant ses cristaux que la république s'est enrichie.</p>",
+      "caption": "Généralités",
+      "public": "ON"
+    }
+  ],
+  "related": [
+    "republique-de-dalmequie",
+    "cristaux-meres"
+  ],
+  "relatedOff": [
+    "hugo-kupka",
+    "chateau-de-dazbbog",
+    "titan",
+    "destruction-de-crocdrac"
+  ]
+}

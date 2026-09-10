@@ -1,0 +1,23 @@
+{
+  "id": "pantheisme-de-sainte-gweligore",
+  "title": "Le panthéisme de sainte Gwéligore",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 21,
+  "pages": [
+    {
+      "html": "<p>La religion d'État de Sangbrèque et celle la plus pratiquée de l'Après-Monde.</p><p>Le pieux pays voue un culte à sainte Gwéligore, déesse unique dépeinte dans les écrits saints de l'Empire. La dirigeante de l'Église est la Sainte Pontife, élu par un comité de cardinaux, mais dans les faits, c'est l'Impératrice qui possède le pouvoir suprême.</p>",
+      "caption": "",
+      "public": "ON"
+    }
+  ],
+  "related": [
+    "saint-empire-de-sangbreque"
+  ],
+  "relatedOff": [
+    "sylvestre-lesage",
+    "dragons",
+    "astromancie"
+  ]
+}

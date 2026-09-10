@@ -1,0 +1,25 @@
+{
+  "id": "randela",
+  "title": "Randělá",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 13,
+  "pages": [
+    {
+      "html": "<p>La capitale de la république de Dalméquie, au sud du Vert-Ponant.</p><p>C'est avant tout un centre commercial de grande importance qui attire les marchands venus des quatre coins de l'Après-Monde. C'est une ville prospère réputée pour sa vie nocturne où les gens peuvent passer un moment agréable dans les rues illuminées. C'est aussi le siège du Conseil républicain chargé de gouverner la Dalméquie.</p>",
+      "caption": "Généralités",
+      "public": "ON"
+    }
+  ],
+  "related": [
+    "republique-de-dalmequie"
+  ],
+  "relatedOff": [
+    "conseil-republicain",
+    "hugo-kupka",
+    "president-du-conseil",
+    "etheriques",
+    "armee-royale-de-valoed"
+  ]
+}

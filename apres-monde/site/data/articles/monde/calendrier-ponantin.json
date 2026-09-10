@@ -1,0 +1,22 @@
+{
+  "id": "calendrier-ponantin",
+  "title": "Le calendrier ponantin",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 17,
+  "pages": [
+    {
+      "html": "<p>Un calendrier utilisé dans plusieurs régions de l'Après-Monde depuis plus de huit cents ans.</p><p>C'est à l'occasion de la signature du Traité intercontinental entre les différentes nations de l'Après-Monde que celles-ci adoptèrent le calendrier ponantin, qui fut créé sur le continent du Vert-Ponant. Il s'agissait alors de symboliser le passage à une nouvelle ère de paix. Les nations grandirent puis s'éteignirent au gré des victoires et des défaites militaires, ce qui fit perdre toute crédibilité à ce traité, mais le calendrier resta quant à lui en usage dans les textes administratifs et la vie de tous les jours.</p>",
+      "caption": "",
+      "public": "ON"
+    }
+  ],
+  "related": [
+    "apres-monde",
+    "traite-intercontinental"
+  ],
+  "relatedOff": [
+    "guerre-des-deux-continents"
+  ]
+}

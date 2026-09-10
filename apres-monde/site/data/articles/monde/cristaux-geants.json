@@ -1,0 +1,22 @@
+{
+  "id": "cristaux-geants",
+  "title": "Les cristaux géants",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 5,
+  "pages": [
+    {
+      "html": "<p>Des cristaux utilisés dans les villes et les villages du Vert-Ponant et du Gris-Levant.</p><p>Ils sont fixes et génèrent une grande quantité de magie qui sert à alimenter les puits ou les fourneaux publics. Étant généralement gérés par les états, ces cristaux ne circulent pas librement et il n'est pas permis aux particuliers d'en posséder.</p>",
+      "caption": "",
+      "public": "ON"
+    }
+  ],
+  "related": [
+    "cristaux",
+    "cristaux-meres",
+    "pourvoyeurs",
+    "ether"
+  ],
+  "relatedOff": []
+}

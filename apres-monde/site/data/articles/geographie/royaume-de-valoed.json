@@ -1,0 +1,41 @@
+{
+  "id": "royaume-de-valoed",
+  "title": "Le royaume de Valœd",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 9,
+  "pages": [
+    {
+      "html": "<p>Le seul état présent sur le continent du Gris-Levant.</p><p>Ce royaume a pour capitale Steinnhyrr et possède un Cristal-mère, Échinedrac. Doté d'une puissante armée, Valœd a formé une alliance avec la république de Dalméquie.</p>",
+      "caption": "Généralités",
+      "public": "ON"
+    },
+    {
+      "html": "<p>Le seul état présent sur le continent du Gris-Levant.</p><p>Ce royaume a pour capitale Steinnhyrr et possède un Cristal-mère, Échinedrac. Bien que doté d'une puissante armée, Valœd est menacé d'une part par les belliqueux hommes-bêtes vivant sur son territoire, d'autre part par l'avancée du Fléau noir.</p>",
+      "caption": "Situation interne",
+      "public": "ON"
+    }
+  ],
+  "related": [
+    "gris-levant",
+    "echinedrac"
+  ],
+  "relatedOff": [
+    "roi-de-valoed",
+    "benedikta-harman",
+    "haut-grade-valoedois",
+    "pourparlers-de-zirnitra",
+    "armee-royale-de-valoed",
+    "hommes-betes",
+    "odin",
+    "conflit-frontalier-de-873",
+    "talus-de-belenus",
+    "siege-du-dominion-du-cristal",
+    "orcs",
+    "destruction-de-crocdrac",
+    "steinnhyrr",
+    "royaume-de-weldermark",
+    "destruction-dechinedrac"
+  ]
+}

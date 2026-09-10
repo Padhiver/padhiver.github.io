@@ -7,17 +7,17 @@
   "order": 58,
   "pages": [
     {
-      "html": "<p>Des créatures bleues non identifiées qui sont subitement apparues au fort Phénix.</p><p>Elles ont barré la route de Clive et Jill, alors qu&#39;ils s&#39;y étaient introduits.</p>",
+      "html": "<p>Des créatures bleues non identifiées qui sont subitement apparues au fort Phénix.</p><p>Elles ont barré la route de Clive et Jill, alors qu'ils s'y étaient introduits.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "html": "<p>Des entités formées d&#39;éther qui répondent à la volonté d&#39;Ultima.</p><p>Les gens en aperçoivent de plus en plus aux quatre coins de Valisthéa depuis que l&#39;Expurgation a changé l&#39;apparence du ciel.</p>",
+      "html": "<p>Des entités formées d'éther qui répondent à la volonté d'Ultima.</p><p>Les gens en aperçoivent de plus en plus aux quatre coins de Valisthéa depuis que l'Expurgation a changé l'apparence du ciel.</p>",
       "caption": "Signalements en augmentation",
       "public": "OFF"
     },
     {
-      "html": "<p>Des entités formées d&#39;éther qui répondent à la volonté d&#39;Ultima.</p><p>Ils ont été créés par Ultima lorsqu&#39;il est arrivé à Valisthéa afin de repousser de potentiels intrus.</p>",
+      "html": "<p>Des entités formées d'éther qui répondent à la volonté d'Ultima.</p><p>Ils ont été créés par Ultima lorsqu'il est arrivé à Valisthéa afin de repousser de potentiels intrus.</p>",
       "caption": "Révélation",
       "public": "OFF"
     }

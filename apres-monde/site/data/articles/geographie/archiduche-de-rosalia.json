@@ -1,0 +1,30 @@
+{
+  "id": "archiduche-de-rosalia",
+  "title": "L'archiduché de Rosalia",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 6,
+  "pages": [
+    {
+      "html": "<p>Un archiduché situé à l'ouest du Vert-Ponant.</p><p>Avec pour capitale Rosalith, cet état se compose de plusieurs pays unis sous l'autorité de l'archiduc Elwin Rosfield. Le Cristal-mère de Rosalia, Souffledrac, a été conquis par le Royaume de Fer et a été annexé de facto par cette nation. Les deux pays se livrent depuis des années une lutte acharnée autour de ce cristal.</p>",
+      "caption": "Généralités",
+      "public": "ON"
+    }
+  ],
+  "related": [
+    "souffledrac",
+    "rosalith",
+    "saint-empire-de-sangbreque"
+  ],
+  "relatedOff": [
+    "elwin-rosfield",
+    "phenix",
+    "invasion-ferregienne",
+    "annexion-de-rosalia",
+    "attaque-du-fort-phenix",
+    "annabella-rosfield",
+    "siege-de-rosalith",
+    "revolte-des-saints-dragons"
+  ]
+}

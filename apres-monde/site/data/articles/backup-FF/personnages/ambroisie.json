@@ -7,17 +7,17 @@
   "order": 1,
   "pages": [
     {
-      "html": "<p>La monture de Clive.</p><p>Ce chocobo est né dans les écuries du château de Rosalia, et a été élevé avec amour par Clive. Ambroisie est très loyale et dévouée envers son jeune maître, et elle n&#39;hésite pas à montrer sa méfiance et son mécontentement lorsqu&#39;elle se trouve face à un individu qu&#39;elle connaît mal.</p>",
+      "html": "<p>La monture de Clive.</p><p>Ce chocobo est né dans les écuries du château de Rosalia, et a été élevé avec amour par Clive. Ambroisie est très loyale et dévouée envers son jeune maître, et elle n'hésite pas à montrer sa méfiance et son mécontentement lorsqu'elle se trouve face à un individu qu'elle connaît mal.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "html": "<p>La monture de Clive.</p><p>Ambroisie a disparu lors de l&#39;assaut lancé sur le fort Phénix.</p>",
+      "html": "<p>La monture de Clive.</p><p>Ambroisie a disparu lors de l'assaut lancé sur le fort Phénix.</p>",
       "caption": "L'attaque du fort Phénix",
       "public": "OFF"
     },
     {
-      "html": "<p>La monture de Clive.</p><p>Disparue lors de l&#39;assaut lancé sur le fort Phénix, Ambroisie était en fait retournée vivre dans la nature, prenant la tête d&#39;un troupeau de chocobos à Rosalia. Elle était appréciée des marchands et des voyageurs, car elle les protégeait des monstres et des bandits en chemin, ce qui lui valut même le surnom de « Vaillante ». Elle rejoint Clive dans ses aventures dès que leurs routes se croisent de nouveau.</p>",
+      "html": "<p>La monture de Clive.</p><p>Disparue lors de l'assaut lancé sur le fort Phénix, Ambroisie était en fait retournée vivre dans la nature, prenant la tête d'un troupeau de chocobos à Rosalia. Elle était appréciée des marchands et des voyageurs, car elle les protégeait des monstres et des bandits en chemin, ce qui lui valut même le surnom de « Vaillante ». Elle rejoint Clive dans ses aventures dès que leurs routes se croisent de nouveau.</p>",
       "caption": "Vaillante",
       "public": "OFF"
     }

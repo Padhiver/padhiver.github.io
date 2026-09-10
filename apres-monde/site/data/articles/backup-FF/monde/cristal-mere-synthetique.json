@@ -7,17 +7,17 @@
   "order": 30,
   "pages": [
     {
-      "html": "<p>Un Cristal-mère créé par la main de l&#39;Homme.</p><p>Il se trouve à l&#39;intérieur de la Tour des Sages et est conservé dans une cuve issue de la technologie magitech.</p>",
+      "html": "<p>Un Cristal-mère créé par la main de l'Homme.</p><p>Il se trouve à l'intérieur de la Tour des Sages et est conservé dans une cuve issue de la technologie magitech.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "html": "<p>Un Cristal-mère créé par la main de l&#39;Homme.</p><p>Il se trouve à l&#39;intérieur de la Tour des Sages et était conservé dans une cuve issue de la technologie magitech jusqu&#39;à l&#39;arrivée de Clive et ses amis. La tour, détectant des individus hostiles, a retiré le Cristal-mère de sa cuve pour le placer en sécurité.</p>",
+      "html": "<p>Un Cristal-mère créé par la main de l'Homme.</p><p>Il se trouve à l'intérieur de la Tour des Sages et était conservé dans une cuve issue de la technologie magitech jusqu'à l'arrivée de Clive et ses amis. La tour, détectant des individus hostiles, a retiré le Cristal-mère de sa cuve pour le placer en sécurité.</p>",
       "caption": "Isolation",
       "public": "OFF"
     },
     {
-      "html": "<p>Un Cristal-mère créé par la main de l&#39;Homme, et qui, comme ses équivalents traditionnels, absorbait l&#39;éther environnant.</p><p>Face à la menace que constituaient Clive et ses amis, la tour l&#39;a confié au Bio-Primordial Oméga qui l&#39;a absorbé. Clive est toutefois parvenu à vaincre Oméga et a pu ensuite détruire le Cristal-mère artificiel.</p>",
+      "html": "<p>Un Cristal-mère créé par la main de l'Homme, et qui, comme ses équivalents traditionnels, absorbait l'éther environnant.</p><p>Face à la menace que constituaient Clive et ses amis, la tour l'a confié au Bio-Primordial Oméga qui l'a absorbé. Clive est toutefois parvenu à vaincre Oméga et a pu ensuite détruire le Cristal-mère artificiel.</p>",
       "caption": "Révélation",
       "public": "OFF"
     }

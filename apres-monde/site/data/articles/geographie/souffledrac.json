@@ -1,0 +1,25 @@
+{
+  "id": "souffledrac",
+  "title": "Souffledrac",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 17,
+  "pages": [
+    {
+      "html": "<p>Un Cristal-mère situé au cœur de l'île Drustanus, entre le Royaume de Fer et les côtes rosaliennes.</p><p>Il s'élève vers les cieux, comme transperçant le mont Leodlàdh, et se cache dans l'épaisse fumée noire qui s'échappe du volcan. Il appartenait jadis à Rosalia, mais fut dérobé par le Royaume de Fer après une série d'âpres conflits.</p>",
+      "caption": "Généralités",
+      "public": "ON"
+    }
+  ],
+  "related": [
+    "royaume-de-fer-eileanan-iarainn",
+    "cristaux-meres",
+    "archiduche-de-rosalia"
+  ],
+  "relatedOff": [
+    "ile-drustanus",
+    "flamme-liquide",
+    "destruction-de-souffledrac"
+  ]
+}

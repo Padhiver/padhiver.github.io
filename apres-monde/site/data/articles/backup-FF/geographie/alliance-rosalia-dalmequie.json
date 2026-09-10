@@ -7,12 +7,17 @@
   "order": 49,
   "pages": [
     {
-      "html": "<p>Une alliance nouée en 850 du calendrier ponantin entre la république de Dalméquie et l&#39;archiduché de Rosalia.</p><p>Elle visait avant tout à réprimer le mouvement indépendantiste de la ville dalmèque de Kanvěr. Si cette union s&#39;est par la suite transformée en une Triple-Alliance en incluant le Saint-Empire de Sangbrèque après l&#39;indépendance de Kanvěr, les liens tissés entre Rosaliens et Dalmèques ont continué de s&#39;illustrer, notamment au travers d&#39;échanges diplomatiques et de technologies.</p>",
+      "html": "<p>Une alliance nouée en 850 du calendrier ponantin entre la république de Dalméquie et l'archiduché de Rosalia.</p><p>Elle visait avant tout à réprimer le mouvement indépendantiste de la ville dalmèque de Kanvěr. Si cette union s'est par la suite transformée en une Triple-Alliance en incluant le Saint-Empire de Sangbrèque après l'indépendance de Kanvěr, les liens tissés entre Rosaliens et Dalmèques ont continué de s'illustrer, notamment au travers d'échanges diplomatiques et de technologies.</p>",
       "caption": "",
       "public": "OFF"
     }
   ],
-  "related": [],
+  "related": [
+    "archiduche-de-rosalia",
+    "republique-de-dalmequie",
+    "mouvement-independantiste-de-kanver",
+    "triple-alliance-de-859"
+  ],
   "relatedOff": [
     "archiduche-de-rosalia",
     "republique-de-dalmequie",

@@ -1,0 +1,32 @@
+{
+  "id": "republique-de-dalmequie",
+  "title": "La république de Dalméquie",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 7,
+  "pages": [
+    {
+      "html": "<p>Une république constituée de cinq provinces, située au sud du Vert-Ponant.</p><p>Randělá en est la capitale. Son territoire est marqué par la présence de Crocdrac et l'absence de toute religion d'État, puisque l'on y observe la liberté de culte. Le noyau dur de son gouvernement est composé d'un président du conseil dalmèque, représentant la république, entouré des membres du conseil républicain, représentant quant à eux chacune des provinces.</p>",
+      "caption": "Généralités",
+      "public": "ON"
+    }
+  ],
+  "related": [
+    "crocdrac",
+    "randela"
+  ],
+  "relatedOff": [
+    "hugo-kupka",
+    "titan",
+    "conseil-republicain",
+    "armee-dalmeque",
+    "chateau-de-dazbbog",
+    "colosses-de-pierre",
+    "siege-du-dominion-du-cristal",
+    "destruction-de-crocdrac",
+    "stratege-dalmeque",
+    "ordre-des-saints-dragons",
+    "armee-royale-de-valoed"
+  ]
+}

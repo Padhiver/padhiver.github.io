@@ -1,0 +1,38 @@
+{
+  "id": "royaume-de-fer-eileanan-iarainn",
+  "title": "Le Royaume de Fer, Eileanan Iarainn",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 8,
+  "pages": [
+    {
+      "html": "<p>Un royaume insulaire se trouvant à l'ouest du Vert-Ponant.</p><p>Sa capitale se nomme Creag Loisgte. Occupant le Cristal-mère de Souffledrac, il est en conflit avec son proche voisin, l'archiduché de Rosalia. Le royaume s'est forgé sa propre culture, refusant toute relation diplomatique avec l'étranger. Les Ferrégiens, adeptes de raids et de pillage, souvent vus comme rustres, sont surnommés péjorativement « Sang-de-rouille » par leurs ennemis.</p>",
+      "caption": "Généralités",
+      "public": "ON"
+    },
+    {
+      "html": "<p>Un royaume insulaire se trouvant à l'ouest du Vert-Ponant.</p><p>Sa capitale se nomme Creag Loisgte. Occupant le Cristal-mère de Souffledrac, il est en conflit avec son proche voisin, l'archiduché de Rosalia. La doctrine cristodoxe, qui vénère les Cristaux-mères tout en diabolisant la magie, est la religion d'État. Étant des utilisateurs de magie, les Pourvoyeurs sont de ce fait victimes de violentes discriminations.</p>",
+      "caption": "La doctrine cristodoxe",
+      "public": "ON"
+    },
+    {
+      "html": "<p>Un royaume insulaire se trouvant à l'ouest du Vert-Ponant.</p><p>Sa capitale se nomme Creag Loisgte. Le grand prêtre, qui se tient au sommet de la doctrine cristodoxe, y détient les pleins pouvoirs. Le sanctuaire principal de cette religion a été construit sur le mont Leodlàdh qui abrite le Cristal-mère de Souffledrac. C'est là que sont séquestrés des esclaves de tous bords pour les besoins de leurs rituels.</p>",
+      "caption": "Le grand prêtre",
+      "public": "ON"
+    }
+  ],
+  "related": [
+    "creag-loisgte",
+    "archiduche-de-rosalia",
+    "souffledrac",
+    "cristodoxes"
+  ],
+  "relatedOff": [
+    "armee-ferregienne",
+    "shiva",
+    "imreann",
+    "marleigh",
+    "destruction-de-souffledrac"
+  ]
+}

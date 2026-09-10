@@ -1,0 +1,25 @@
+{
+  "id": "terres-mortes",
+  "title": "Les Terres mortes",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 8,
+  "pages": [
+    {
+      "html": "<p>Le nom donné aux régions décaties atteintes par le Fléau noir et où la vie n'est plus en mesure de s'épanouir.</p><p>Ces terres se sont assombries pour ne laisser que des paysages désolés ; une transformation si profonde que même la magie n'y opère plus. Incapables d'y survivre, des peuples entiers les abandonnent à la recherche d'endroits plus fertiles, tandis que de dangereux monstres y élisent domicile. Ces dernières années, l'accélération du phénomène a accentué cet exode et provoque maintenant d'inquiétants troubles géopolitiques.</p>",
+      "caption": "Généralités",
+      "public": "ON"
+    }
+  ],
+  "related": [
+    "magie",
+    "ether",
+    "apres-monde",
+    "cristaux-meres"
+  ],
+  "relatedOff": [
+    "monstres",
+    "creation-dun-nouveau-monde"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "stigmate",
+  "title": "Le Stigmate",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 9,
+  "pages": [
+    {
+      "html": "<p>Un symbole tatoué sur la joue de certaines personnes afin de simplifier la gestion des esclaves.</p><p>Les gouvernements de chaque état veillent au bon marquage de ces individus avec l'aide du Synode, mais ne choisissent pas le motif tatoué, qui est quant à lui défini uniquement par le Synode.</p>",
+      "caption": "Généralités",
+      "public": "ON"
+    },
+    {
+      "html": "<p>Dans les terres du Synode, quiconque naît avec le dons de magie est marqué au visage d'un tatouage runique à trois niveaux, le <b>Stigmate</b>, dont la complexité reflète la condition de celui qui le porte.</p><p>Dans sa forme la plus simple, le Stigmate a une fonction de marqueur social assurant que l'individu doté de magie est aisément identifiable et qu'il se soumet à la <b>Loi de l'Ordonnance</b>.</p><p>Ceux qui transgressent cette loi sont marqués une seconde fois, condamnés à porter sur leur visage la preuve de leur duplicité.</p><p>Le Stigmate complet, quant-à-lui, est réservé aux Pourvoyeurs.</p>",
+      "caption": "Niveau du Stigmate",
+      "public": "ON"
+    }
+  ],
+  "related": [
+    "traite-intercontinental",
+    "soldats-pourvoyeurs",
+    "apres-monde",
+    "pourvoyeurs"
+  ],
+  "relatedOff": [
+    "marques",
+    "pourvoyeurs-caches",
+    "suppression-de-la-marque"
+  ]
+}

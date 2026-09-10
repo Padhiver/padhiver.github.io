@@ -1,0 +1,38 @@
+{
+  "id": "saint-empire-de-sangbreque",
+  "title": "Le Saint-Empire de Sangbrèque",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 5,
+  "pages": [
+    {
+      "html": "<p>Un empire situé au nord-est du Vert-Ponant et dont la capitale est Oriflamme.</p><p>Cette théocratie, qui est d'ailleurs la plus grande de tout l'Après-Monde, détient le Cristal-mère de Chefdrac. Le pays est dirigé par une Impératrice entourée de hiérophantes, et ses habitants vouent un culte à Gwéligore, leur déesse unique. Le Saint-Empire vit dans l'opulence grâce à l'éther diffusé par Chefdrac.</p>",
+      "caption": "Généralités",
+      "public": "ON"
+    }
+  ],
+  "related": [
+    "oriflamme",
+    "pantheisme-de-sainte-gweligore",
+    "chefdrac"
+  ],
+  "relatedOff": [
+    "armee-sangbrequoise",
+    "conflit-frontalier-de-873",
+    "talus-de-belenus",
+    "detroit-daurtha",
+    "annexion-de-rosalia",
+    "conseil-des-patriarches",
+    "ordre-des-saints-dragons",
+    "sylvestre-lesage",
+    "bahamut",
+    "siege-du-dominion-du-cristal",
+    "destruction-de-chefdrac",
+    "sacre-doctavien",
+    "annabella-rosfield",
+    "octavien-lesage",
+    "dion-lesage",
+    "revolte-des-saints-dragons"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "oriflamme",
+  "title": "Oriflamme",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 11,
+  "pages": [
+    {
+      "html": "<p>La capitale sangbréquoise, située dans une péninsule au nord-est du Vert-Ponant, avec vue sur la baie de l'ollphéist.</p><p>Elle siège au pied du Cristal-mère de Chefdrac. La ville rassemble de nombreux points d'intérêts, à commencer par le château de Blancheguivre, où siège l'impératrice et où se rassemblent les membres du Conseil des Patriarches. Oriflamme accueille aussi de nombreuses institutions étatiques.</p>",
+      "caption": "Généralités",
+      "public": "ON"
+    }
+  ],
+  "related": [
+    "saint-empire-de-sangbreque",
+    "chefdrac"
+  ],
+  "relatedOff": [
+    "chateau-de-blancheguivre",
+    "mours"
+  ]
+}

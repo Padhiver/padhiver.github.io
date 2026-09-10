@@ -1,0 +1,22 @@
+{
+  "id": "gris-levant",
+  "title": "Le Gris-Levant",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 3,
+  "pages": [
+    {
+      "html": "<p>Le continent oriental de l'Après-Monde, sur lequel se trouve principalement le royaume de Valœd.</p><p>Plus petit que le Vert-Ponant, il est tapissé de montagnes et cerclé de côtes escarpées. À cette géographie inhospitalière viennent s'ajouter les Terres mortes qui engloutissent chaque jour un peu plus les rares étendues boisées, faisant du Gris-Levant une région hostile à la vie.</p>",
+      "caption": "",
+      "public": "ON"
+    }
+  ],
+  "related": [
+    "apres-monde",
+    "royaume-de-valoed",
+    "vert-ponant",
+    "terres-mortes"
+  ],
+  "relatedOff": []
+}

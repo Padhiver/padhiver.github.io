@@ -1,0 +1,25 @@
+{
+  "id": "chefdrac",
+  "title": "Chefdrac",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 15,
+  "pages": [
+    {
+      "html": "<p>Un Cristal-mère situé à Sangbrèque.</p><p>Il s'élève si haut que son sommet semble parfois toucher les nuages, et la capitale impériale d'Oriflamme se trouve directement à son pied.</p>",
+      "caption": "Généralités",
+      "public": "ON"
+    }
+  ],
+  "related": [
+    "saint-empire-de-sangbreque",
+    "cristaux-meres",
+    "oriflamme",
+    "terres-mortes"
+  ],
+  "relatedOff": [
+    "cid-le-renegat",
+    "destruction-de-chefdrac"
+  ]
+}

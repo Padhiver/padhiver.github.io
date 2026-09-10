@@ -1,0 +1,25 @@
+{
+  "id": "echinedrac",
+  "title": "Échinedrac",
+  "category": "geographie",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 18,
+  "pages": [
+    {
+      "html": "<p>Un Cristal-mère qui appartient au royaume de Valœd.</p><p>Sa surface fait penser à de rugueuses falaises, et l'intérieur est accessible grâce à un pont reliant Échinedrac à Steinnhyrr, la capitale du royaume de Valœd. C'est le seul Cristal-mère encore intact au Gris-Levant, mais Valœd ne peut pas se permettre de le soumettre à une exploitation minière intensive. Le royaume dépend donc des importations.</p>",
+      "caption": "Généralités",
+      "public": "ON"
+    }
+  ],
+  "related": [
+    "royaume-de-valoed",
+    "cristaux-meres",
+    "cornedrac"
+  ],
+  "relatedOff": [
+    "steinnhyrr",
+    "fissure-interdimensionnelle",
+    "destruction-dechinedrac"
+  ]
+}

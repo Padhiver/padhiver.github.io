@@ -1,0 +1,29 @@
+{
+  "id": "cristaux-meres",
+  "title": "Les Cristaux-mères",
+  "category": "monde",
+  "public": "ON",
+  "date": "2026-08-08",
+  "order": 3,
+  "pages": [
+    {
+      "html": "<p>Huit cristaux colossaux répartis à travers tout l'Après-Monde.</p><p>Ils sont connus sous l'appellation de « Cristaux-mères » car c'est d'eux que sont extraits les précieux cristaux utilisés pour pratiquer la magie. Le flux d'éther étant plus concentré dans les zones avoisinantes, la magie y est plus abondante et facile d'accès, faisant de ces régions des sources de conflits entre les nations.</p>",
+      "caption": "Généralités",
+      "public": "ON"
+    }
+  ],
+  "related": [
+    "cristaux",
+    "apres-monde",
+    "souffledrac",
+    "magie",
+    "ether",
+    "terres-mortes"
+  ],
+  "relatedOff": [
+    "sanctuaire-cristallin",
+    "noyau-des-cristaux-meres",
+    "creation-dun-nouveau-monde",
+    "dragon-premier"
+  ]
+}
