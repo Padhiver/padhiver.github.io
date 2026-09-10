@@ -21,7 +21,10 @@
   background: var(--paper-2);
   border: 1px solid var(--line);
 }
-.guide-note-label {
+/* Sélecteur à deux classes : ".guide p", déclaré plus bas, l'emporterait
+   sinon sur un simple ".guide-note-label" et rendrait le libellé à la
+   taille du corps de texte. */
+.guide-note .guide-note-label {
   font-family: var(--font-display);
   font-weight: 600;
   font-size: 0.62rem;
@@ -37,6 +40,42 @@
   line-height: 1.7;
   color: var(--ink-2);
   text-align: left;
+}
+
+/* ---------- Inspirations ---------- */
+
+/* Troisième registre visuel : ni cartouche plein (l'encart), ni cartouche à
+   coins d'angle (le récapitulatif) — un simple filet de marge, pour que les
+   trois blocs ne se ressemblent pas. */
+.guide-inspirations {
+  margin: -34px 0 54px;
+  padding: 2px 0 2px 18px;
+  border-left: 3px solid var(--cinabre);
+}
+.guide-inspirations .guide-inspirations-label {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.62rem;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: var(--cinabre);
+  margin: 0 0 7px;
+  text-align: left;
+}
+.guide-inspirations .guide-inspirations-list {
+  margin: 0;
+  font-size: 1.04rem;
+  line-height: 1.85;
+  color: var(--ink-2);
+  text-align: left;
+  hyphens: none;
+}
+/* Un titre ne doit pas se couper en fin de ligne ("Warhammer : 40 000"
+   se scindait au niveau du deux-points). */
+.guide-inspirations-list em { white-space: nowrap; }
+.guide-inspirations .sep {
+  color: var(--ink-3);
+  padding: 0 0.15em;
 }
 
 /* ---------- Chapitre ---------- */
