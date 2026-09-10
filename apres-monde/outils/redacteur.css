@@ -153,7 +153,6 @@ section > h2 {
   padding: 8px 10px;
   border-bottom: 1px solid var(--line);
 }
-#pages.single .page-num { display: none; }
 .page-num {
   flex: none;
   font-size: 0.72rem;
@@ -186,8 +185,9 @@ section > h2 {
 .page-ctl button:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
 .page-ctl button:disabled { opacity: 0.35; cursor: default; }
 
-#pages.single .page-head { border-bottom: 0; padding-bottom: 0; }
-#pages.single .page-ctl { display: none; }
+/* Une seule page : ni numéro, ni contrôles, ni titre de chapitre — la
+   barre d'en-tête entière disparaît, il ne reste que la zone d'écriture. */
+#pages.single .page-head { display: none; }
 
 .add-page {
   margin-top: 12px;

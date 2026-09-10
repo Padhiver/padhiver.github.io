@@ -18,8 +18,14 @@ const EanaData = (() => {
   let banners = [];
   const articleCache = new Map();
 
+  // "no-cache" et non "no-store" : le navigateur revalide bien à chaque fois
+  // (donc une fiche publiée s'affiche dès le rechargement, en local comme en
+  // ligne), mais il peut réutiliser sa copie quand le fichier n'a pas bougé.
+  // GitHub Pages renvoie des ETag : un manifest inchangé coûte alors un 304
+  // de quelques octets au lieu du fichier entier. "no-store" interdisait
+  // jusqu'à la revalidation et retéléchargeait tout à chaque navigation.
   async function fetchJson(path) {
-    const res = await fetch(path, { cache: "no-store" });
+    const res = await fetch(path, { cache: "no-cache" });
     if (!res.ok) throw new Error(`Échec de chargement: ${path} (${res.status})`);
     return res.json();
   }

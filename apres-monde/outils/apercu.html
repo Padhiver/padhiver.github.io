@@ -50,14 +50,21 @@
     parent.postMessage(Object.assign({ source: "eana-apercu" }, msg), "*");
   }
 
+  let firstRender = true;
+
   function renderFiche() {
     if (!currentFiche) return;
     const category = categories.find((c) => c.id === currentFiche.category) || null;
     const pages = Array.isArray(currentFiche.pages) ? currentFiche.pages : [];
     if (pageIndex >= pages.length) pageIndex = 0;
 
+    // L'animation d'entrée ne joue qu'à l'ouverture : la rejouer à chaque
+    // changement de chapitre serait pénible.
+    const anim = firstRender ? " overlay-entering" : "";
+    firstRender = false;
+
     const mount = document.getElementById("mount");
-    mount.innerHTML = `<div class="article-overlay overlay-entering" id="article-overlay">${
+    mount.innerHTML = `<div class="article-overlay${anim}" id="article-overlay">${
       EanaRender.renderArticleOverlay({
         article: currentFiche,
         category,
@@ -106,11 +113,21 @@
     if (d.type === "preview") {
       currentFiche = d.fiche;
       pageIndex = 0;
+      firstRender = true;
       if (ready) renderFiche();
     }
   });
 
-  init();
+  // Sans ce catch, un échec de chargement (données absentes, hors ligne)
+  // laisserait une iframe blanche et le parent attendrait un "ready" qui
+  // ne viendrait jamais.
+  init().catch((err) => {
+    console.error("[apercu] initialisation impossible :", err);
+    toParent({ type: "error" });
+    document.getElementById("mount").innerHTML =
+      '<p style="font:16px/1.5 system-ui; padding:32px; text-align:center">'
+      + "L'aperçu n'a pas pu charger les données du codex.</p>";
+  });
 })();
 </script>
 </body>

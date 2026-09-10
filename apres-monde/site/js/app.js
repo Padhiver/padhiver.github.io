@@ -357,11 +357,22 @@
   // Dérivé de data/categories.json (champ "icon") plutôt que d'une liste
   // d'identifiants figée ici : reprendre ce site pour un autre univers avec
   // d'autres catégories n'a donc rien à toucher dans ce fichier.
+  // Une icône manquante ne doit pas emporter tout le démarrage avec elle :
+  // on retombe sur "pas d'icône" pour la catégorie concernée. Le contenu est
+  // aussi vérifié — une 404 de GitHub Pages renvoie une page HTML, qu'il ne
+  // faut surtout pas injecter à la place d'un SVG.
   async function loadIcons() {
     const entries = await Promise.all(EanaData.getCategories().map(async (c) => {
-      const res = await fetch(`images/ui/icon-${c.icon}.svg`);
-      const text = await res.text();
-      return [c.id, text];
+      try {
+        const res = await fetch(`images/ui/icon-${c.icon}.svg`);
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const text = await res.text();
+        if (!text.trimStart().startsWith("<svg")) throw new Error("ce n'est pas un SVG");
+        return [c.id, text];
+      } catch (err) {
+        console.warn(`[icônes] images/ui/icon-${c.icon}.svg illisible : ${err.message}`);
+        return [c.id, ""];
+      }
     }));
     EanaRender.setIcons(Object.fromEntries(entries));
   }

@@ -640,7 +640,8 @@ a.site-title:hover { color: var(--cinabre); }
 /* Texte assez court pour tenir d'un seul tenant : une seule colonne, pleine largeur. */
 .body-text--single { column-count: 1; column-rule: none; height: auto !important; }
 .body-text p { margin: 0 0 1.05em; font-size: 1.09rem; line-height: 1.72; text-align: justify; hyphens: auto; }
-.body-text p:first-of-type::first-letter {
+/* La lettrine ne coiffe que du vrai texte : pas le message « page vide ». */
+.body-text p:not(.empty-state):first-of-type::first-letter {
   font-family: var(--font-display);
   font-weight: 600;
   font-size: 3em;
@@ -656,8 +657,9 @@ a.site-title:hover { color: var(--cinabre); }
 .body-text--rich { columns: 1; column-rule: none; column-gap: 0; height: auto !important; }
 .body-text--rich > :first-child { margin-top: 0; }
 .body-text--rich p { margin: 1.05em 0 0; }
-/* Pas de lettrine : le premier paragraphe peut être n'importe où. */
-.body-text--rich p:first-of-type::first-letter {
+/* Pas de lettrine : le premier paragraphe peut être n'importe où. Sélecteur
+   calqué sur celui de la règle ci-dessus (même spécificité, posé après). */
+.body-text--rich p:not(.empty-state):first-of-type::first-letter {
   font: inherit; float: none; margin: 0; color: inherit;
 }
 .body-text--rich h3,
@@ -685,6 +687,7 @@ a.site-title:hover { color: var(--cinabre); }
   font-size: 0.7em;
   color: var(--cinabre);
 }
+.body-text--rich ol > li::marker { color: var(--cinabre); }
 .body-text--rich li { margin-top: 0.45em; text-align: left; line-height: 1.7; }
 .body-text--rich li > p { margin: 0; }
 .body-text--rich blockquote {

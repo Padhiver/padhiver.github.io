@@ -146,12 +146,12 @@ function makePagePanel() {
   // éditeur la cible de la barre d'outils partagée.
   editor.on("update", () => {
     activeEditor = editor;
-    refreshToolbar();
+    scheduleToolbarRefresh();
     refreshCodePreview();
     scheduleDraftSave();
   });
-  editor.on("selectionUpdate", () => { activeEditor = editor; refreshToolbar(); });
-  editor.on("focus", () => { activeEditor = editor; refreshToolbar(); });
+  editor.on("selectionUpdate", () => { activeEditor = editor; scheduleToolbarRefresh(); });
+  editor.on("focus", () => { activeEditor = editor; scheduleToolbarRefresh(); });
   captionEl.addEventListener("input", scheduleDraftSave);
 
   panel.querySelector("[data-page-up]").addEventListener("click", () => movePage(entry, -1));
@@ -331,14 +331,30 @@ function refreshToolbar() {
     if (!b) continue;
     if (!e) { b.disabled = true; b.classList.remove("is-active"); continue; }
     if (item.active) b.classList.toggle("is-active", !!item.active(e));
+    // Sans "enabled", le bouton est toujours actionnable : il faut le
+    // réactiver explicitement, sinon un passage précédent sans éditeur
+    // (b.disabled = true ci-dessus) le laisserait grisé pour de bon.
     if (item.enabled) b.disabled = !item.enabled(e);
-    else if (!item.active) b.disabled = false;
+    else b.disabled = false;
   }
+}
+
+// La barre interroge l'éditeur (isActive, can().undo()…) à chaque appel :
+// on n'en fait qu'un par frame, sinon chaque frappe en déclenche un.
+let toolbarRaf = null;
+function scheduleToolbarRefresh() {
+  if (toolbarRaf) return;
+  toolbarRaf = requestAnimationFrame(() => { toolbarRaf = null; refreshToolbar(); });
 }
 
 // ---------- Aperçu du code ----------
 
+// Reconstruire la fiche sérialise le HTML de toutes les pages : inutile tant
+// que le <details> est replié (cas par défaut). Il se remet à jour à
+// l'ouverture, via l'écouteur "toggle" posé dans main().
 function refreshCodePreview() {
+  const details = el("code-details");
+  if (!details || !details.open) return;
   elCodePreview.textContent = JSON.stringify(buildFiche(), null, 2);
 }
 
@@ -358,6 +374,15 @@ function validate() {
   if (!anyContent()) {
     flash("Le corps de la fiche est vide.", true);
     if (pages[0]) pages[0].editor.commands.focus();
+    return false;
+  }
+  // Une page vide partirait avec "html": "" et s'afficherait comme un
+  // chapitre blanc dans le codex : on bloque plutôt que de la laisser passer.
+  const blank = pages.findIndex((p) => p.editor.isEmpty);
+  if (blank !== -1) {
+    flash(`La page ${blank + 1} est vide : remplis-la ou supprime-la.`, true);
+    pages[blank].editor.commands.focus();
+    pages[blank].panel.scrollIntoView({ block: "center", behavior: "smooth" });
     return false;
   }
   return true;
@@ -398,6 +423,7 @@ async function copyJson() {
 
 let previewReady = false;
 let pendingPreview = null;
+let previewOpener = null;
 
 function openPreview() {
   if (!anyContent()) {
@@ -407,20 +433,26 @@ function openPreview() {
   const fiche = buildFiche();
   if (!fiche.title) fiche.title = "Sans titre";
 
+  previewOpener = document.activeElement;
   el("preview-modal").hidden = false;
   document.body.style.overflow = "hidden";
+  el("preview-close").focus();
 
   const frame = el("preview-frame");
   if (!frame.getAttribute("src")) frame.setAttribute("src", "apercu.html");
 
+  // Toujours mémoriser : si l'iframe se recharge, elle rejouera le message
+  // à son prochain "ready" (voir l'écouteur "load" posé dans main()).
   const msg = { source: "eana-redacteur", type: "preview", fiche };
+  pendingPreview = msg;
   if (previewReady) frame.contentWindow.postMessage(msg, "*");
-  else pendingPreview = msg;
 }
 
 function closePreview() {
   el("preview-modal").hidden = true;
   document.body.style.overflow = "";
+  if (previewOpener && typeof previewOpener.focus === "function") previewOpener.focus();
+  previewOpener = null;
 }
 
 window.addEventListener("message", (e) => {
@@ -429,10 +461,10 @@ window.addEventListener("message", (e) => {
   if (!d || d.source !== "eana-apercu") return;
   if (d.type === "ready") {
     previewReady = true;
-    if (pendingPreview) {
-      el("preview-frame").contentWindow.postMessage(pendingPreview, "*");
-      pendingPreview = null;
-    }
+    if (pendingPreview) el("preview-frame").contentWindow.postMessage(pendingPreview, "*");
+  } else if (d.type === "error") {
+    closePreview();
+    flash("L'aperçu n'a pas pu se charger (connexion ?).", true);
   } else if (d.type === "close") {
     closePreview();
   }
@@ -534,6 +566,10 @@ async function main() {
   el("preview-modal").addEventListener("click", (e) => {
     if (e.target === el("preview-modal")) closePreview();
   });
+  // Un rechargement de l'iframe invalide le "ready" reçu du document d'avant.
+  el("preview-frame").addEventListener("load", () => { previewReady = false; });
+  // L'aperçu du code n'est reconstruit que lorsqu'on déplie le bloc.
+  el("code-details").addEventListener("toggle", refreshCodePreview);
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape" && !el("preview-modal").hidden) closePreview();
   });
@@ -563,4 +599,12 @@ function resetSilently() {
   refreshCodePreview();
 }
 
-main();
+main().catch((err) => {
+  // Sans ça, une erreur après le chargement de TipTap laisserait la page
+  // à moitié câblée, sans rien à l'écran pour le dire.
+  console.error("[redacteur] démarrage interrompu :", err);
+  const box = el("load-error");
+  box.textContent = "L'outil n'a pas pu démarrer. Recharge la page ; "
+    + "si ça persiste, signale-le à Padhiver (détail dans la console du navigateur).";
+  box.hidden = false;
+});

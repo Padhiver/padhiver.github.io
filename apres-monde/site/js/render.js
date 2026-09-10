@@ -172,35 +172,69 @@ const EanaRender = (() => {
     "P", "BR", "STRONG", "EM", "B", "I", "U", "S", "A",
     "UL", "OL", "LI", "H3", "H4", "BLOCKQUOTE", "HR", "CODE",
   ]);
-  const ARTICLE_DROP = new Set(["SCRIPT", "STYLE", "IFRAME", "OBJECT", "EMBED", "LINK", "META"]);
+  // Retirées avec leur contenu, plutôt que déballées : exécutables, ou
+  // analysées selon des règles particulières (texte brut, espaces de noms
+  // étrangers) dont on ne veut pas avoir à démêler les subtilités.
+  const ARTICLE_DROP = new Set([
+    "SCRIPT", "STYLE", "IFRAME", "OBJECT", "EMBED", "LINK", "META",
+    "SVG", "MATH", "NOSCRIPT", "TEMPLATE",
+    "FORM", "BUTTON", "INPUT", "TEXTAREA", "SELECT",
+  ]);
+
+  const SAFE_HREF = /^(https?:|mailto:|\/|#)/i;
 
   function sanitizeArticleHtml(html) {
     const tpl = document.createElement("template");
     tpl.innerHTML = String(html || "");
-    (function clean(parent) {
-      [...parent.childNodes].forEach((node) => {
-        if (node.nodeType === 8) { node.remove(); return; }          // commentaire
-        if (node.nodeType !== 1) return;                              // texte : conservé
-        if (ARTICLE_DROP.has(node.tagName)) { node.remove(); return; }
-        if (!ARTICLE_TAGS.has(node.tagName)) {                        // balise inconnue : on la déballe
-          const frag = document.createDocumentFragment();
-          while (node.firstChild) frag.appendChild(node.firstChild);
-          node.replaceWith(frag);
-          clean(parent);
-          return;
+
+    function keepAttribute(tag, attr) {
+      return tag === "A" && attr.name.toLowerCase() === "href"
+        && SAFE_HREF.test(attr.value.trim());
+    }
+
+    // Parcours en profondeur, sans récursion sur la fratrie : déballer une
+    // balise inconnue remonte ses enfants à sa place et on reprend l'examen
+    // sur le premier d'entre eux. La pile ne suit donc que la profondeur de
+    // l'arbre, pas le nombre de nœuds.
+    function clean(parent) {
+      let node = parent.firstChild;
+      while (node) {
+        let next = node.nextSibling;
+
+        if (node.nodeType === 8) {                       // commentaire
+          node.remove();
+        } else if (node.nodeType === 1) {                // (le texte est conservé tel quel)
+          // tagName n'est mis en capitales que pour le HTML : en contenu
+          // étranger (SVG, MathML) il garde sa casse d'origine ("svg",
+          // "style"…). Sans cette normalisation, ces balises passeraient à
+          // travers les deux listes et seraient déballées au lieu d'être
+          // supprimées — leur contenu ressortirait dans la fiche.
+          const tag = node.tagName.toUpperCase();
+          if (ARTICLE_DROP.has(tag)) {
+            node.remove();
+          } else if (!ARTICLE_TAGS.has(tag)) {
+            const first = node.firstChild;
+            while (node.firstChild) parent.insertBefore(node.firstChild, node);
+            node.remove();
+            if (first) next = first;
+          } else {
+            [...node.attributes].forEach((attr) => {
+              if (!keepAttribute(tag, attr)) node.removeAttribute(attr.name);
+            });
+            // Nouvel onglet pour l'extérieur seulement : un lien interne
+            // (ancre, chemin du site) doit rester dans la page.
+            if (tag === "A" && /^https?:/i.test(node.getAttribute("href") || "")) {
+              node.setAttribute("rel", "noopener noreferrer");
+              node.setAttribute("target", "_blank");
+            }
+            clean(node);
+          }
         }
-        [...node.attributes].forEach((attr) => {
-          const ok = node.tagName === "A" && attr.name === "href"
-            && /^(https?:|mailto:|\/|#)/i.test(attr.value.trim());
-          if (!ok) node.removeAttribute(attr.name);
-        });
-        if (node.tagName === "A") {
-          node.setAttribute("rel", "noopener");
-          node.setAttribute("target", "_blank");
-        }
-        clean(node);
-      });
-    })(tpl.content);
+        node = next;
+      }
+    }
+
+    clean(tpl.content);
     return tpl.innerHTML.trim();
   }
 
