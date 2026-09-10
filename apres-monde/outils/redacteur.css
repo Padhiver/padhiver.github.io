@@ -317,6 +317,60 @@ summary { cursor: pointer; font-size: 0.85rem; color: var(--ink-soft); }
 
 footer { margin-top: 26px; font-size: 0.85rem; }
 
+/* ---------- Aperçu (iframe = rendu réel du codex) ---------- */
+
+.preview-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: rgba(30, 25, 18, 0.55);
+}
+.preview-modal[hidden] { display: none; }
+.preview-dialog {
+  display: flex;
+  flex-direction: column;
+  width: min(1180px, 100%);
+  height: min(90vh, 900px);
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 24px 60px -20px rgba(0, 0, 0, 0.5);
+}
+.preview-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--line);
+  background: var(--paper-3);
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+.preview-bar button {
+  flex: none;
+  width: 28px;
+  height: 28px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--paper);
+  color: var(--ink);
+  font-size: 14px;
+  cursor: pointer;
+}
+.preview-bar button:hover { border-color: var(--accent); color: var(--accent); }
+#preview-frame {
+  flex: 1;
+  width: 100%;
+  border: 0;
+  background: var(--paper);
+}
+
 @media (max-width: 620px) {
   .page-head { flex-wrap: wrap; }
   .page-caption { order: 3; flex-basis: 100%; }

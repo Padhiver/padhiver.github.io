@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<!-- Chargé dans une iframe par outils/redacteur.html. Réutilise le rendu et
+     le CSS du codex pour montrer la fiche en cours d'écriture exactement
+     comme elle s'affichera sur le site. "base" pointe vers site/ pour que
+     css/, js/, data/, images/ se résolvent comme sur les pages du codex. -->
+<base href="../site/">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aperçu de fiche — L'Après-Monde</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script>
+  // Même thème que le codex : servi depuis la même origine, donc le même
+  // localStorage. Posé avant le premier rendu pour éviter le flash.
+  try {
+    if (localStorage.getItem("eana_theme") === "dark") {
+      document.documentElement.setAttribute("data-theme", "dark");
+    }
+  } catch (e) { /* stockage indisponible */ }
+</script>
+<style>
+  /* L'iframe elle-même fait office de fenêtre : pas de fond assombri, le
+     panneau s'affiche directement sur le papier du codex. */
+  .backdrop { display: none; }
+  .article-overlay { padding: 34px 24px 64px; }
+  body { min-height: 100vh; }
+</style>
+</head>
+<body>
+<div id="mount"></div>
+
+<script src="js/i18n.js"></script>
+<script src="js/render.js"></script>
+<script>
+(() => {
+  const ORIGIN_OK = (o) => o === window.location.origin || o === "null";
+
+  let ready = false;
+  let categories = [];
+  let pageIndex = 0;
+  let currentFiche = null;
+
+  function toParent(msg) {
+    parent.postMessage(Object.assign({ source: "eana-apercu" }, msg), "*");
+  }
+
+  function renderFiche() {
+    if (!currentFiche) return;
+    const category = categories.find((c) => c.id === currentFiche.category) || null;
+    const pages = Array.isArray(currentFiche.pages) ? currentFiche.pages : [];
+    if (pageIndex >= pages.length) pageIndex = 0;
+
+    const mount = document.getElementById("mount");
+    mount.innerHTML = `<div class="article-overlay overlay-entering" id="article-overlay">${
+      EanaRender.renderArticleOverlay({
+        article: currentFiche,
+        category,
+        page: pageIndex,
+        related: [],
+        banner: null,
+        pages,
+        portrait: null,
+      })
+    }</div>`;
+
+    mount.querySelectorAll("[data-article-page]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        pageIndex = Number(btn.getAttribute("data-article-page")) || 0;
+        renderFiche();
+      });
+    });
+    mount.querySelectorAll("[data-close-overlay]").forEach((el) => {
+      el.addEventListener("click", (ev) => { ev.preventDefault(); toParent({ type: "close" }); });
+    });
+  }
+
+  async function init() {
+    await EanaI18n.init("data/strings.json");
+    categories = await fetch("data/categories.json").then((r) => r.json());
+
+    const labels = {};
+    categories.forEach((c) => { labels[c.id] = c.shortLabel || c.label; });
+    EanaRender.setCategoryLabels(labels);
+
+    const icons = await Promise.all(categories.map(async (c) => {
+      try { return [c.id, await fetch(`images/ui/icon-${c.icon}.svg`).then((r) => r.text())]; }
+      catch (e) { return [c.id, ""]; }
+    }));
+    EanaRender.setIcons(Object.fromEntries(icons));
+
+    ready = true;
+    toParent({ type: "ready" });
+    if (currentFiche) renderFiche();
+  }
+
+  window.addEventListener("message", (e) => {
+    if (!ORIGIN_OK(e.origin)) return;
+    const d = e.data;
+    if (!d || d.source !== "eana-redacteur") return;
+    if (d.type === "preview") {
+      currentFiche = d.fiche;
+      pageIndex = 0;
+      if (ready) renderFiche();
+    }
+  });
+
+  init();
+})();
+</script>
+</body>
+</html>

@@ -391,6 +391,53 @@ async function copyJson() {
   }
 }
 
+// ---------- Aperçu ----------
+// Une iframe (outils/apercu.html) charge le rendu et le CSS du codex et
+// affiche la fiche en cours exactement comme sur le site. On lui pousse les
+// données par postMessage ; elle répond "ready" puis "close".
+
+let previewReady = false;
+let pendingPreview = null;
+
+function openPreview() {
+  if (!anyContent()) {
+    flash("Rien à prévisualiser : le corps de la fiche est vide.", true);
+    return;
+  }
+  const fiche = buildFiche();
+  if (!fiche.title) fiche.title = "Sans titre";
+
+  el("preview-modal").hidden = false;
+  document.body.style.overflow = "hidden";
+
+  const frame = el("preview-frame");
+  if (!frame.getAttribute("src")) frame.setAttribute("src", "apercu.html");
+
+  const msg = { source: "eana-redacteur", type: "preview", fiche };
+  if (previewReady) frame.contentWindow.postMessage(msg, "*");
+  else pendingPreview = msg;
+}
+
+function closePreview() {
+  el("preview-modal").hidden = true;
+  document.body.style.overflow = "";
+}
+
+window.addEventListener("message", (e) => {
+  if (e.origin !== window.location.origin && e.origin !== "null") return;
+  const d = e.data;
+  if (!d || d.source !== "eana-apercu") return;
+  if (d.type === "ready") {
+    previewReady = true;
+    if (pendingPreview) {
+      el("preview-frame").contentWindow.postMessage(pendingPreview, "*");
+      pendingPreview = null;
+    }
+  } else if (d.type === "close") {
+    closePreview();
+  }
+});
+
 function resetAll() {
   if (!window.confirm("Tout effacer et repartir d'une fiche vierge ?")) return;
   elId.value = "";
@@ -479,9 +526,17 @@ async function main() {
   elCategory.addEventListener("change", () => { refreshCodePreview(); scheduleDraftSave(); });
 
   elBtnAddPage.addEventListener("click", () => addPage({ focus: true }));
+  el("btn-preview").addEventListener("click", openPreview);
   el("btn-download").addEventListener("click", downloadFiche);
   el("btn-copy").addEventListener("click", copyJson);
   el("btn-reset").addEventListener("click", resetAll);
+  el("preview-close").addEventListener("click", closePreview);
+  el("preview-modal").addEventListener("click", (e) => {
+    if (e.target === el("preview-modal")) closePreview();
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && !el("preview-modal").hidden) closePreview();
+  });
   el("draft-discard").addEventListener("click", () => {
     clearDraft();
     resetSilently();

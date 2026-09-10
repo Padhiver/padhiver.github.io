@@ -89,6 +89,7 @@
   <section>
     <h2>Transmettre</h2>
     <div class="export-row">
+      <button type="button" id="btn-preview">Prévisualiser</button>
       <button type="button" id="btn-download" class="primary">Télécharger la fiche</button>
       <button type="button" id="btn-copy">Copier le JSON</button>
       <button type="button" id="btn-reset" class="ghost">Tout effacer</button>
@@ -104,6 +105,16 @@
     <a href="index.html">← Retour aux outils</a>
   </footer>
 </main>
+
+<div class="preview-modal" id="preview-modal" hidden>
+  <div class="preview-dialog">
+    <div class="preview-bar">
+      <span>Aperçu — la fiche telle qu'elle s'affichera dans le codex</span>
+      <button type="button" id="preview-close" aria-label="Fermer l'aperçu">✕</button>
+    </div>
+    <iframe id="preview-frame" title="Aperçu de la fiche"></iframe>
+  </div>
+</div>
 
 <script type="module" src="redacteur.js"></script>
 </body>
