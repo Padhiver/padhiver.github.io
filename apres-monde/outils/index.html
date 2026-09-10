@@ -6,14 +6,16 @@
 <title>Outils — L'Après-Monde</title>
 <meta name="robots" content="noindex">
 <link rel="icon" href="data:,">
+<link rel="stylesheet" href="outils.css">
+<script>
+  // Thème posé avant le premier rendu, pour éviter le flash clair.
+  try {
+    if (localStorage.getItem("eana_theme") === "dark") {
+      document.documentElement.setAttribute("data-theme", "dark");
+    }
+  } catch (e) { /* stockage indisponible */ }
+</script>
 <style>
-  :root {
-    --ink: #2b2620;
-    --paper: #f3ede0;
-    --paper-2: #e9e0cd;
-    --line: #cabf9f;
-    --accent: #7a3b2e;
-  }
   * { box-sizing: border-box; }
   body {
     margin: 0;
@@ -24,9 +26,9 @@
   }
   main { max-width: 780px; margin: 0 auto; }
   h1 { font-size: 1.4rem; margin: 0 0 4px; }
-  .lede { margin: 0 0 24px; color: #5c5344; }
+  .lede { margin: 0 0 24px; color: var(--ink-soft); }
   .notice {
-    border: 1px solid #c9a35a; background: #fdf3da; color: #6b4c14;
+    border: 1px solid var(--notice-line); background: var(--notice-bg); color: var(--notice-ink);
     border-radius: 6px; padding: 10px 14px; font-size: 0.85rem; margin-bottom: 24px;
   }
   .tools { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
@@ -37,7 +39,7 @@
   }
   .tool:hover { border-color: var(--accent); transform: translateY(-2px); }
   .tool h2 { margin: 0 0 6px; font-size: 1.02rem; color: var(--accent); }
-  .tool p { margin: 0; font-size: 0.85rem; color: #5c5344; }
+  .tool p { margin: 0; font-size: 0.85rem; color: var(--ink-soft); }
   footer { margin-top: 28px; font-size: 0.85rem; }
   footer a { color: var(--accent); }
   [hidden] { display: none !important; }
@@ -87,5 +89,15 @@
     : "Cette page n'est pas servie par le serveur local : certains outils ne fonctionneront pas pleinement.";
 })();
 </script>
+<button id="theme-toggle" class="theme-toggle" type="button" title="Mode sombre" aria-label="Basculer entre mode clair et sombre">
+  <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z"/>
+  </svg>
+  <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true">
+    <circle cx="12" cy="12" r="4.2"/>
+    <path d="M12 2.5v2.6M12 18.9v2.6M4.2 4.2l1.9 1.9M17.9 17.9l1.9 1.9M2.5 12h2.6M18.9 12h2.6M4.2 19.8l1.9-1.9M17.9 6.1l1.9-1.9"/>
+  </svg>
+</button>
+<script src="outils.js"></script>
 </body>
 </html>

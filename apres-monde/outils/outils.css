@@ -1,0 +1,134 @@
+/* =========================================================
+   L'Après-Monde — palette commune des outils locaux.
+   Les pages d'outils ont leur propre habillage (sans-serif
+   sobre, pas le parchemin du codex), mais elles partagent
+   ces jetons de couleur et la bascule clair/sombre — même
+   clé de stockage que le site, donc une préférence choisie
+   sur le codex s'applique ici aussi.
+
+   editor.html et tiles.html n'utilisent PAS ce fichier :
+   elles chargent site/css/style.css et suivent déjà le
+   thème du codex.
+   ========================================================= */
+
+:root {
+  --ink: #2b2620;
+  --ink-soft: #5c5344;
+  --ink-faint: #8a7f68;
+
+  --paper: #f3ede0;
+  --paper-2: #e9e0cd;
+  --paper-3: #fbf6ea;
+  --field: #fffdf7;
+
+  --line: #cabf9f;
+
+  --accent: #7a3b2e;        /* cinabre */
+  --accent-hover: #8c4636;
+  --accent-2: #3c5a52;      /* bleu-vert */
+  --on-accent: #fdf6e8;     /* texte posé sur --accent */
+  --btn-active: #e4d7ba;
+
+  --ok: #3c5a52;
+  --error: #a4342a;
+
+  /* Encart d'information (jaune) */
+  --notice-bg: #fdf3da;
+  --notice-line: #c9a35a;
+  --notice-ink: #6b4c14;
+
+  /* Encart d'erreur (rouge) */
+  --alert-bg: #fbe9e7;
+  --alert-line: #a4342a;
+  --alert-ink: #7a241c;
+
+  /* Bloc de code */
+  --code-bg: #24211c;
+  --code-ink: #e7dfce;
+
+  /* Damier de transparence derrière les images */
+  --check-a: #dddddd;
+  --check-b: #eeeeee;
+
+  --shadow-soft: rgba(0, 0, 0, 0.25);
+  --shadow-strong: rgba(0, 0, 0, 0.5);
+  --backdrop: rgba(30, 25, 18, 0.55);
+}
+
+/* Parchemin de nuit — mêmes valeurs de fond que le codex, pour que les
+   outils et le site se ressemblent quand on passe de l'un à l'autre. */
+:root[data-theme="dark"] {
+  --ink: #e7dfcc;
+  --ink-soft: #aca394;
+  --ink-faint: #7d766a;
+
+  --paper: #16140f;
+  --paper-2: #1e1b15;
+  --paper-3: #26221a;
+  --field: #14120d;
+
+  --line: rgba(212, 193, 160, 0.24);
+
+  --accent: #d4715c;
+  --accent-hover: #e08670;
+  --accent-2: #7fb0b8;
+  --on-accent: #191510;
+  --btn-active: #3a3327;
+
+  --ok: #7fb0b8;
+  --error: #e2705f;
+
+  --notice-bg: #2b2416;
+  --notice-line: #6b5a2c;
+  --notice-ink: #d9c489;
+
+  --alert-bg: #2e1a17;
+  --alert-line: #7a3a30;
+  --alert-ink: #e8a598;
+
+  --code-bg: #100e0a;
+  --code-ink: #d9d1bf;
+
+  --check-a: #2a2620;
+  --check-b: #201d18;
+
+  --shadow-soft: rgba(0, 0, 0, 0.6);
+  --shadow-strong: rgba(0, 0, 0, 0.7);
+  --backdrop: rgba(8, 7, 5, 0.7);
+}
+
+/* Le temps de la bascule, on coupe les transitions : sinon la page se
+   recolore en cascade désordonnée (même parade que sur le site). */
+:root.theme-switching,
+:root.theme-switching *,
+:root.theme-switching *::before,
+:root.theme-switching *::after { transition: none !important; }
+
+/* ---------- Bouton de bascule ---------- */
+
+.theme-toggle {
+  position: fixed;
+  left: 18px;
+  bottom: 18px;
+  z-index: 90;
+  width: 38px;
+  height: 38px;
+  display: grid;
+  place-items: center;
+  background: var(--paper-2);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  color: var(--accent-2);
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s, color 0.2s;
+}
+.theme-toggle:hover {
+  background: var(--accent-2);
+  border-color: var(--accent-2);
+  color: var(--paper-2);
+}
+.theme-toggle svg { width: 17px; height: 17px; }
+/* En clair on propose la lune, en sombre le soleil. */
+.theme-toggle .icon-sun { display: none; }
+:root[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
+:root[data-theme="dark"] .theme-toggle .icon-sun { display: block; }

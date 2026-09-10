@@ -74,7 +74,8 @@ function cleanHtml(raw) {
 
 function flash(message, isError) {
   elExportState.textContent = message;
-  elExportState.style.color = isError ? "#a4342a" : "#3c5a52";
+  // Couleur portée par une classe, pas en dur : elle doit suivre le thème.
+  elExportState.classList.toggle("is-error", !!isError);
   if (!isError) {
     clearTimeout(flash._t);
     flash._t = setTimeout(() => { elExportState.textContent = ""; }, 4000);
@@ -443,7 +444,10 @@ function openPreview() {
 
   // Toujours mémoriser : si l'iframe se recharge, elle rejouera le message
   // à son prochain "ready" (voir l'écouteur "load" posé dans main()).
-  const msg = { source: "eana-redacteur", type: "preview", fiche };
+  // Le thème voyage avec la fiche : l'iframe ne le lit qu'à son chargement,
+  // or on peut basculer clair/sombre entre deux ouvertures de l'aperçu.
+  const theme = document.documentElement.getAttribute("data-theme") === "dark" ? "dark" : "light";
+  const msg = { source: "eana-redacteur", type: "preview", fiche, theme };
   pendingPreview = msg;
   if (previewReady) frame.contentWindow.postMessage(msg, "*");
 }

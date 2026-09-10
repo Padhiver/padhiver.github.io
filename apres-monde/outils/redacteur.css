@@ -7,20 +7,6 @@
    le rédacteur voie à peu près ce qu'il écrit.
    ========================================================= */
 
-:root {
-  --ink: #2b2620;
-  --ink-soft: #5c5344;
-  --paper: #f3ede0;
-  --paper-2: #e9e0cd;
-  --paper-3: #fbf6ea;
-  --line: #cabf9f;
-  --accent: #7a3b2e;      /* cinabre */
-  --accent-2: #3c5a52;    /* bleu-vert */
-  --ok: #3c5a52;
-  --error: #a4342a;
-  --btn-active: #e4d7ba;
-}
-
 * { box-sizing: border-box; }
 
 body {
@@ -40,15 +26,15 @@ h1 { font-size: 1.4rem; margin: 0 0 4px; }
 a { color: var(--accent); }
 
 .notice {
-  border: 1px solid #c9a35a;
-  background: #fdf3da;
-  color: #6b4c14;
+  border: 1px solid var(--notice-line);
+  background: var(--notice-bg);
+  color: var(--notice-ink);
   border-radius: 6px;
   padding: 10px 14px;
   font-size: 0.85rem;
   margin: 0 0 20px;
 }
-.notice.error { border-color: var(--error); background: #fbe9e7; color: #7a241c; }
+.notice.error { border-color: var(--alert-line); background: var(--alert-bg); color: var(--alert-ink); }
 .linklike {
   border: 0;
   background: none;
@@ -84,7 +70,7 @@ section > h2 {
   color: var(--ink-soft);
   margin-bottom: 5px;
 }
-.field .opt { color: #97907f; font-style: italic; }
+.field .opt { color: var(--ink-faint); font-style: italic; }
 .field input,
 .field select {
   width: 100%;
@@ -112,7 +98,7 @@ section > h2 {
   border: 1px solid var(--line);
   border-radius: 6px;
   background: var(--paper-3);
-  box-shadow: 0 2px 6px -3px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 6px -3px var(--shadow-soft);
 }
 .toolbar .sep { width: 1px; margin: 2px 4px; background: var(--line); }
 .toolbar button {
@@ -268,7 +254,7 @@ section > h2 {
 /* Placeholder (extension TipTap) : rendu quand l'éditeur est vide. */
 .ProseMirror p.is-editor-empty:first-child::before {
   content: attr(data-placeholder);
-  color: #a49c88;
+  color: var(--ink-faint);
   font-style: italic;
   float: left;
   height: 0;
@@ -293,20 +279,21 @@ section > h2 {
 .export-row button.primary {
   background: var(--accent);
   border-color: var(--accent);
-  color: #f7efe0;
+  color: var(--on-accent);
   font-weight: 600;
 }
-.export-row button.primary:hover { background: #8c4636; }
+.export-row button.primary:hover { background: var(--accent-hover); }
 .export-row button.ghost { color: var(--ink-soft); }
 .export-state { font-size: 0.85rem; color: var(--ok); }
+.export-state.is-error { color: var(--error); }
 
 details { margin-top: 14px; }
 summary { cursor: pointer; font-size: 0.85rem; color: var(--ink-soft); }
 #code-preview {
   margin: 10px 0 0;
   padding: 12px 14px;
-  background: #24211c;
-  color: #e7dfce;
+  background: var(--code-bg);
+  color: var(--code-ink);
   border-radius: 4px;
   font: 12px/1.5 "Cascadia Code", "Consolas", monospace;
   white-space: pre-wrap;
@@ -327,7 +314,7 @@ footer { margin-top: 26px; font-size: 0.85rem; }
   align-items: center;
   justify-content: center;
   padding: 24px;
-  background: rgba(30, 25, 18, 0.55);
+  background: var(--backdrop);
 }
 .preview-modal[hidden] { display: none; }
 .preview-dialog {
@@ -339,7 +326,7 @@ footer { margin-top: 26px; font-size: 0.85rem; }
   border: 1px solid var(--line);
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 24px 60px -20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 24px 60px -20px var(--shadow-strong);
 }
 .preview-bar {
   display: flex;

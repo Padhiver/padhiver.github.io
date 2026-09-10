@@ -9,7 +9,16 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="outils.css">
 <link rel="stylesheet" href="redacteur.css">
+<script>
+  // Thème posé avant le premier rendu, pour éviter le flash clair.
+  try {
+    if (localStorage.getItem("eana_theme") === "dark") {
+      document.documentElement.setAttribute("data-theme", "dark");
+    }
+  } catch (e) { /* stockage indisponible */ }
+</script>
 
 <!-- TipTap est distribué en modules ES : on le charge depuis esm.sh, qui
      résout tout l'arbre de dépendances (ProseMirror inclus) de façon
@@ -79,8 +88,11 @@
     <button type="button" id="btn-add-page" class="add-page">+ Ajouter une page</button>
     <p class="hint">
       Une fiche a le plus souvent une seule page. Les pages en plus servent
-      aux fiches à chapitres (« Généralités », « Après tel événement »…) :
-      chacune a son propre titre de chapitre.
+      dès qu'un sujet se découpe — soit en chapitres qui se suivent
+      (« Généralités », « Après tel événement »…), soit en éléments d'un
+      même ensemble : un panthéon avec une page par divinité, une maison
+      noble avec une page par membre, un ordre avec une page par rang.
+      Chaque page porte son propre titre, qui sert de chapitre dans la fiche.
       Tu peux coller du texte depuis ailleurs, seule la mise en forme
       reconnue est conservée.
     </p>
@@ -118,5 +130,15 @@
 </div>
 
 <script type="module" src="redacteur.js"></script>
+<button id="theme-toggle" class="theme-toggle" type="button" title="Mode sombre" aria-label="Basculer entre mode clair et sombre">
+  <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z"/>
+  </svg>
+  <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true">
+    <circle cx="12" cy="12" r="4.2"/>
+    <path d="M12 2.5v2.6M12 18.9v2.6M4.2 4.2l1.9 1.9M17.9 17.9l1.9 1.9M2.5 12h2.6M18.9 12h2.6M4.2 19.8l1.9-1.9M17.9 6.1l1.9-1.9"/>
+  </svg>
+</button>
+<script src="outils.js"></script>
 </body>
 </html>

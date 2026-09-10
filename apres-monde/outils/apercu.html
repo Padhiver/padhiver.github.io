@@ -111,6 +111,10 @@
     const d = e.data;
     if (!d || d.source !== "eana-redacteur") return;
     if (d.type === "preview") {
+      // Le parent fait autorité : il a pu basculer le thème depuis notre
+      // chargement (on ne relit pas localStorage à chaque ouverture).
+      if (d.theme === "dark") document.documentElement.setAttribute("data-theme", "dark");
+      else if (d.theme === "light") document.documentElement.removeAttribute("data-theme");
       currentFiche = d.fiche;
       pageIndex = 0;
       firstRender = true;
