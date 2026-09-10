@@ -1,6 +1,6 @@
 {
-  "id": "gobelins",
-  "title": "Les Gobelins",
+  "id": "gretchins",
+  "title": "Les Gretchins",
   "category": "creatures",
   "public": "OFF",
   "date": "2026-08-08",
@@ -23,7 +23,7 @@
     "gigas",
     "terres-mortes",
     "fangebrune",
-    "gobelins-inhabituels",
+    "gretchins-inhabituels",
     "marche-de-poklad"
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T12:56:00.500Z",
+  "generatedAt": "2026-09-10T13:40:35.583Z",
   "articles": [
     {
       "id": "apres-monde",
@@ -192,22 +192,12 @@
       "portrait": null
     },
     {
-      "id": "gouvernement-general-provincial",
-      "title": "Le gouvernement général provincial",
-      "category": "geographie",
-      "public": "ON",
-      "date": "2026-08-08",
-      "order": 20,
-      "image": null,
-      "portrait": null
-    },
-    {
       "id": "pantheisme-de-sainte-gweligore",
       "title": "Le panthéisme de sainte Gwéligore",
       "category": "geographie",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 21,
+      "order": 20,
       "image": null,
       "portrait": null
     },
@@ -217,7 +207,7 @@
       "category": "geographie",
       "public": "ON",
       "date": "2026-08-08",
-      "order": 22,
+      "order": 21,
       "image": null,
       "portrait": null
     },
