@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rédiger une fiche — L'Après-Monde</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="redacteur.css">
+
+<!-- TipTap est distribué en modules ES : on le charge depuis esm.sh, qui
+     résout tout l'arbre de dépendances (ProseMirror inclus) de façon
+     cohérente. L'import map ci-dessous fait correspondre les noms de
+     paquets courts aux URL esm.sh ; redacteur.js écrit alors des imports
+     normaux (`import { Editor } from "@tiptap/core"`).
+     Conséquence : la page a besoin d'Internet au premier chargement. -->
+<script type="importmap">
+{
+  "imports": {
+    "@tiptap/core": "https://esm.sh/@tiptap/core@2.11.5?target=es2020",
+    "@tiptap/starter-kit": "https://esm.sh/@tiptap/starter-kit@2.11.5?target=es2020",
+    "@tiptap/extension-link": "https://esm.sh/@tiptap/extension-link@2.11.5?target=es2020",
+    "@tiptap/extension-placeholder": "https://esm.sh/@tiptap/extension-placeholder@2.11.5?target=es2020"
+  }
+}
+</script>
+</head>
+<body>
+<main>
+  <h1>Rédiger une fiche</h1>
+  <p class="lede">
+    Écris le texte comme dans un traitement de texte : la mise en forme
+    (gras, listes, titres…) est gérée pour toi. Quand c'est prêt,
+    <strong>télécharge le fichier</strong> et transmets-le à Padhiver, qui
+    l'intègre au codex. Rien n'est publié depuis cette page.
+  </p>
+
+  <p class="notice error" id="load-error" hidden>
+    L'éditeur n'a pas pu se charger (l'outil a besoin d'une connexion
+    Internet la première fois qu'on l'ouvre). Vérifie ta connexion et
+    recharge la page.
+  </p>
+
+  <p class="notice" id="draft-notice" hidden>
+    Un brouillon enregistré le <span id="draft-when"></span> a été rechargé.
+    <button type="button" id="draft-discard" class="linklike">Repartir de zéro</button>
+  </p>
+
+  <section>
+    <h2>La fiche</h2>
+    <div class="meta-grid">
+      <div class="field">
+        <label for="f-title">Titre de la fiche</label>
+        <input type="text" id="f-title" autocomplete="off" placeholder="Ex. : Les Cristaux-mères">
+      </div>
+      <div class="field">
+        <label for="f-kicker">Chapô <span class="opt">(facultatif — une phrase d'accroche affichée sous le titre)</span></label>
+        <input type="text" id="f-kicker" autocomplete="off" placeholder="Ex. : Les monolithes divins qui tiennent le monde debout.">
+      </div>
+      <div class="field">
+        <label for="f-category">Registre suggéré <span class="opt">(facultatif — Padhiver ajustera au besoin)</span></label>
+        <select id="f-category">
+          <option value="monde">Monde</option>
+          <option value="geographie">Géographie</option>
+          <option value="personnages">Personnages</option>
+          <option value="creatures">Créatures</option>
+        </select>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Le texte</h2>
+    <div class="toolbar" id="toolbar" role="toolbar" aria-label="Mise en forme"></div>
+    <div class="editor-host">
+      <div id="editor"></div>
+    </div>
+    <p class="hint">
+      Tu peux coller du texte depuis ailleurs : seules les mises en forme
+      reconnues (gras, italique, listes, titres, citations, liens) sont
+      conservées, le reste est nettoyé.
+    </p>
+  </section>
+
+  <section>
+    <h2>Transmettre</h2>
+    <div class="export-row">
+      <button type="button" id="btn-download" class="primary">Télécharger la fiche</button>
+      <button type="button" id="btn-copy">Copier le HTML</button>
+      <button type="button" id="btn-reset" class="ghost">Tout effacer</button>
+      <span class="export-state" id="export-state" role="status"></span>
+    </div>
+    <details id="code-details">
+      <summary>Voir le code généré</summary>
+      <pre id="code-preview"></pre>
+    </details>
+  </section>
+
+  <footer>
+    <a href="index.html">← Retour aux outils</a>
+  </footer>
+</main>
+
+<script type="module" src="redacteur.js"></script>
+</body>
+</html>
