@@ -5,15 +5,14 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 58,
-  "source": "base",
   "pages": [
     {
-      "text": "Le fidèle bras droit de Benedikta au sein du corps d'espionnage valœdois.\n\nElle et lui se vouent une solide confiance mutuelle.",
+      "html": "<p>Le fidèle bras droit de Benedikta au sein du corps d&#39;espionnage valœdois.</p><p>Elle et lui se vouent une solide confiance mutuelle.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "Le fidèle bras droit de Benedikta au sein du corps d'espionnage valœdois.\n\nIl permet à sa supérieure de s'échapper alors elle a perdu son emprise sur les pouvoirs de Garuda à Fort-Norvent. C'est lors de cette fuite que son homme de confiance trouve la mort aux mains de brigands de grand chemin.",
+      "html": "<p>Le fidèle bras droit de Benedikta au sein du corps d&#39;espionnage valœdois.</p><p>Il permet à sa supérieure de s&#39;échapper alors elle a perdu son emprise sur les pouvoirs de Garuda à Fort-Norvent. C&#39;est lors de cette fuite que son homme de confiance trouve la mort aux mains de brigands de grand chemin.</p>",
       "caption": "Épilogue",
       "public": "OFF"
     }

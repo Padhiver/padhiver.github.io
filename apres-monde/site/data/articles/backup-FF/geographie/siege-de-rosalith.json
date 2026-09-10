@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 137,
-  "source": "base",
   "pages": [
     {
-      "text": "L'attaque du château de Rosalith par Hugo Kupka et sa garde privée, les Colosses de pierre, en 878.\n\nHugo Kupka tient Clive Rosfield, le successeur de Cid, pour responsable de la mort de sa bien-aimée Benedikta Harman. Il décide donc d'attaquer la ville natale de Clive afin de l'attirer à lui pour exercer sa vengeance. Rosalith tout entière est mise à feu et à sang, faisant de nombreuses victimes.",
+      "html": "<p>L&#39;attaque du château de Rosalith par Hugo Kupka et sa garde privée, les Colosses de pierre, en 878.</p><p>Hugo Kupka tient Clive Rosfield, le successeur de Cid, pour responsable de la mort de sa bien-aimée Benedikta Harman. Il décide donc d&#39;attaquer la ville natale de Clive afin de l&#39;attirer à lui pour exercer sa vengeance. Rosalith tout entière est mise à feu et à sang, faisant de nombreuses victimes.</p>",
       "caption": "",
       "public": "OFF"
     }

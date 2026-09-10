@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 119,
-  "source": "base",
   "pages": [
     {
-      "text": "La partie centrale des ruines souterraines qui se trouvent au cœur du fort Phénix, au nord-ouest de Rosalia.\n\nUne immense peinture murale surplombe son autel. La tradition rosalienne veut que l'Émissaire de Phénix y effectue un rite et reçoive l'augure martial avant de partir en guerre.",
+      "html": "<p>La partie centrale des ruines souterraines qui se trouvent au cœur du fort Phénix, au nord-ouest de Rosalia.</p><p>Une immense peinture murale surplombe son autel. La tradition rosalienne veut que l&#39;Émissaire de Phénix y effectue un rite et reçoive l&#39;augure martial avant de partir en guerre.</p>",
       "caption": "",
       "public": "OFF"
     }

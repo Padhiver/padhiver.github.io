@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 60,
-  "source": "base",
   "pages": [
     {
-      "text": "Une région située dans l'est du Saint-Empire de Sangbrèque, qui borde le détroit d'Aurtha.\n\nJadis terre fertile où s'étendaient à perte de vue des champs cultivés, elle était considérée comme le grenier de l'Empire. Mais depuis quelques années, la progression du Fléau noir sur le territoire sangbréquois a fortement réduit sa surface arable et poussé un grand nombre de ses habitants sur les chemins de l'exil. Cette situation locale a contribué à l'instabilité qui a touché la capitale impériale.",
+      "html": "<p>Une région située dans l&#39;est du Saint-Empire de Sangbrèque, qui borde le détroit d&#39;Aurtha.</p><p>Jadis terre fertile où s&#39;étendaient à perte de vue des champs cultivés, elle était considérée comme le grenier de l&#39;Empire. Mais depuis quelques années, la progression du Fléau noir sur le territoire sangbréquois a fortement réduit sa surface arable et poussé un grand nombre de ses habitants sur les chemins de l&#39;exil. Cette situation locale a contribué à l&#39;instabilité qui a touché la capitale impériale.</p>",
       "caption": "",
       "public": "OFF"
     }

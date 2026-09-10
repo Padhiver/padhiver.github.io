@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 79,
-  "source": "base",
   "pages": [
     {
-      "text": "Un port caché dans le flanc d'une falaise, en périphérie de Kanvěr.",
+      "html": "<p>Un port caché dans le flanc d&#39;une falaise, en périphérie de Kanvěr.</p>",
       "caption": "",
       "public": "OFF"
     }

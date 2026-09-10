@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 93,
-  "source": "base",
   "pages": [
     {
-      "text": "Un titre est décerné à un Gardien flamboyant particulièrement valeureux choisi par Phénix.\n\nChargé de la protection de l'Émissaire, il se voit béni par le Primordial de feu et reçoit une partie de ses pouvoirs exceptionnels.",
+      "html": "<p>Un titre est décerné à un Gardien flamboyant particulièrement valeureux choisi par Phénix.</p><p>Chargé de la protection de l&#39;Émissaire, il se voit béni par le Primordial de feu et reçoit une partie de ses pouvoirs exceptionnels.</p>",
       "caption": "La bénédiction de Phénix",
       "public": "OFF"
     }

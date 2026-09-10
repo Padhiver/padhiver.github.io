@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 30,
-  "source": "base",
   "pages": [
     {
-      "text": "La côte occidentale du Gris-Levant, en bordure de la mer de Naldia.\n\nComme elle offre un accès relativement aisé à Valœd par le sud, il arrivait autrefois que des intrus y débarquent pour s'infiltrer dans le royaume. Cependant, le Fléau noir a rendu la région tellement inhospitalière que même les criminels endurcis n'osent plus s'y aventurer. ",
+      "html": "<p>La côte occidentale du Gris-Levant, en bordure de la mer de Naldia.</p><p>Comme elle offre un accès relativement aisé à Valœd par le sud, il arrivait autrefois que des intrus y débarquent pour s&#39;infiltrer dans le royaume. Cependant, le Fléau noir a rendu la région tellement inhospitalière que même les criminels endurcis n&#39;osent plus s&#39;y aventurer.</p>",
       "caption": "",
       "public": "OFF"
     }

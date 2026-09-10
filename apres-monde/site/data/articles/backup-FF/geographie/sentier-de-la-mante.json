@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 131,
-  "source": "rising-tide",
   "pages": [
     {
-      "text": "Un chemin de montagne qui s'étend au-delà des falaises de l'oubli.\n\nC'est le chemin qu'empruntent les travailleurs de la tribu de l'Eau lorsqu'ils rentrent au village après un séjour à l'extérieur. Il traverse une vaste vallée à la végétation luxuriante, dans un secteur que tous croient engloutis par le Fléau noir. Le nom de « mante » fait référence à la vue du manteau de verdure qui recouvre le paysage vu de dessus.",
+      "html": "<p>Un chemin de montagne qui s&#39;étend au-delà des falaises de l&#39;oubli.</p><p>C&#39;est le chemin qu&#39;empruntent les travailleurs de la tribu de l&#39;Eau lorsqu&#39;ils rentrent au village après un séjour à l&#39;extérieur. Il traverse une vaste vallée à la végétation luxuriante, dans un secteur que tous croient engloutis par le Fléau noir. Le nom de « mante » fait référence à la vue du manteau de verdure qui recouvre le paysage vu de dessus.</p>",
       "caption": "",
       "public": "OFF"
     }

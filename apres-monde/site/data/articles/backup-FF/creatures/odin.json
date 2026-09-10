@@ -5,15 +5,14 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 48,
-  "source": "base",
   "pages": [
     {
-      "text": "Le Primordial des ténèbres qui ressemble à un chevalier montant un destrier noir de jais.\n\nSon Émissaire Barnabas Tharmr règne sur Valœd et a brandi l'épée d'Odin à de multiples reprises pour s'imposer sur le champ de bataille. Il lui suffirait d'un seul de ses « Zantetsuken » pour trancher le fil des jours de ses adversaires, quel que soit leur nombre.",
+      "html": "<p>Le Primordial des ténèbres qui ressemble à un chevalier montant un destrier noir de jais.</p><p>Son Émissaire Barnabas Tharmr règne sur Valœd et a brandi l&#39;épée d&#39;Odin à de multiples reprises pour s&#39;imposer sur le champ de bataille. Il lui suffirait d&#39;un seul de ses « Zantetsuken » pour trancher le fil des jours de ses adversaires, quel que soit leur nombre.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "Le Primordial des ténèbres qui a pour Émissaire Barnabas Tharmr, le roi de Valœd.\n\nLe sang du peuple ancestral des Ténèbres coulerait dans les veines de Barnabas, et on pourrait s'attendre à ce que d'autres personnes de cette ethnie l'aient précédé au rang d'Émissaire, mais étrangement, il n'en est fait mention dans aucun écrit.",
+      "html": "<p>Le Primordial des ténèbres qui a pour Émissaire Barnabas Tharmr, le roi de Valœd.</p><p>Le sang du peuple ancestral des Ténèbres coulerait dans les veines de Barnabas, et on pourrait s&#39;attendre à ce que d&#39;autres personnes de cette ethnie l&#39;aient précédé au rang d&#39;Émissaire, mais étrangement, il n&#39;en est fait mention dans aucun écrit.</p>",
       "caption": "Révélation",
       "public": "OFF"
     }

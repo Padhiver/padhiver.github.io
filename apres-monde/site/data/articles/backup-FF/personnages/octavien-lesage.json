@@ -5,20 +5,19 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 73,
-  "source": "base",
   "pages": [
     {
-      "text": "Le second enfant de l'Empereur de Sangbrèque.\n\nIl n'est que le demi-frère de Dion, car c'est sa nouvelle épouse, l'impératrice Annabella, qui lui a donné naissance. Cette dernière s'arrange toujours pour que son fils apparaisse dans les réunions où l'avenir du pays se décide.",
+      "html": "<p>Le second enfant de l&#39;Empereur de Sangbrèque.</p><p>Il n&#39;est que le demi-frère de Dion, car c&#39;est sa nouvelle épouse, l&#39;impératrice Annabella, qui lui a donné naissance. Cette dernière s&#39;arrange toujours pour que son fils apparaisse dans les réunions où l&#39;avenir du pays se décide.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "Le second enfant de Sylvestre Lesage, récemment couronné nouvel empereur de Sangbrèque.\n\nMalgré son jeune âge, il a joué un rôle de médiateur lors de la négociation de l'armistice avec la République dalmèque. Ce coup d'éclat a tant impressionné son père Sylvestre que ce dernier a abdiqué en sa faveur.",
+      "html": "<p>Le second enfant de Sylvestre Lesage, récemment couronné nouvel empereur de Sangbrèque.</p><p>Malgré son jeune âge, il a joué un rôle de médiateur lors de la négociation de l&#39;armistice avec la République dalmèque. Ce coup d&#39;éclat a tant impressionné son père Sylvestre que ce dernier a abdiqué en sa faveur.</p>",
       "caption": "Sacre en tant que saint empereur",
       "public": "OFF"
     },
     {
-      "text": "L'empereur de Sangbrèque depuis que son père Sylvestre a abdiqué en sa faveur.\n\nCeci suscite l'ire de Dion, le fils aîné, qui s'insurge contre cette décision et appelle à la rébellion, qualifiant la manœuvre de traîtrise. C'est au milieu de cette crise qu'Octavien provoque son aîné par des paroles ne ressemblant pas à celles d'un enfant de son âge, jusqu'à ce que Dion dirige sa lance contre lui, tuant accidentellement leur père. Lorsque l'enfant succombe finalement, son corps disparaît, prouvant qu'il n'était qu'un pantin d'Ultima.",
+      "html": "<p>L&#39;empereur de Sangbrèque depuis que son père Sylvestre a abdiqué en sa faveur.</p><p>Ceci suscite l&#39;ire de Dion, le fils aîné, qui s&#39;insurge contre cette décision et appelle à la rébellion, qualifiant la manœuvre de traîtrise. C&#39;est au milieu de cette crise qu&#39;Octavien provoque son aîné par des paroles ne ressemblant pas à celles d&#39;un enfant de son âge, jusqu&#39;à ce que Dion dirige sa lance contre lui, tuant accidentellement leur père. Lorsque l&#39;enfant succombe finalement, son corps disparaît, prouvant qu&#39;il n&#39;était qu&#39;un pantin d&#39;Ultima.</p>",
       "caption": "Épilogue",
       "public": "OFF"
     }

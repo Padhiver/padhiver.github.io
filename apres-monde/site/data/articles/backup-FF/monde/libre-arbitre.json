@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 34,
-  "source": "base",
   "pages": [
     {
-      "text": "Les volontés libres exprimées en fonction des convictions de chaque individu.\n\nCe terme peut également désigner la volonté de survivre ou de vivre dans l'opulence. Pour Ultima, c'est ce qui salit les hommes. Il considère ainsi les éthériques comme des créatures pures, débarrassées de leur libre arbitre. C'est la raison pour laquelle il souhaite procéder à une Expurgation qui transformera tous les êtres humains en éthériques et anéantira leurs volontés.",
+      "html": "<p>Les volontés libres exprimées en fonction des convictions de chaque individu.</p><p>Ce terme peut également désigner la volonté de survivre ou de vivre dans l&#39;opulence. Pour Ultima, c&#39;est ce qui salit les hommes. Il considère ainsi les éthériques comme des créatures pures, débarrassées de leur libre arbitre. C&#39;est la raison pour laquelle il souhaite procéder à une Expurgation qui transformera tous les êtres humains en éthériques et anéantira leurs volontés.</p>",
       "caption": "",
       "public": "OFF"
     }

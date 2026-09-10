@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 99,
-  "source": "base",
   "pages": [
     {
-      "text": "Le continent oriental de Valisthéa, sur lequel se trouve uniquement le royaume de Valœd.\n\nPlus petit que le Vert-Ponant, il est tapissé de montagnes et cerclé de côtes escarpées. À cette géographie inhospitalière viennent s'ajouter les Terres mortes qui engloutissent chaque jour un peu plus les rares étendues boisées, faisant du Gris-Levant une région hostile à la vie.",
+      "html": "<p>Le continent oriental de Valisthéa, sur lequel se trouve uniquement le royaume de Valœd.</p><p>Plus petit que le Vert-Ponant, il est tapissé de montagnes et cerclé de côtes escarpées. À cette géographie inhospitalière viennent s&#39;ajouter les Terres mortes qui engloutissent chaque jour un peu plus les rares étendues boisées, faisant du Gris-Levant une région hostile à la vie.</p>",
       "caption": "",
       "public": "OFF"
     }

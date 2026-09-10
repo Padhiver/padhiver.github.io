@@ -5,15 +5,14 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 26,
-  "source": "echoes-of-the-fallen",
   "pages": [
     {
-      "text": "Une arme magitech créée par les Célestes et surpassant toutes les autres.\n\nIl pourrait bien s'agir de celle qui est décrite dans les anciens textes comme « égalant les Primordiaux » et ayant pour but de tuer les dieux.",
+      "html": "<p>Une arme magitech créée par les Célestes et surpassant toutes les autres.</p><p>Il pourrait bien s&#39;agir de celle qui est décrite dans les anciens textes comme « égalant les Primordiaux » et ayant pour but de tuer les dieux.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "Une arme magitech créée par les Célestes et surpassant toutes les autres.\n\nLes Célestes, dans leur poursuite effrénée de puissance, ont créé ce Bio-Primordial afin d'obtenir le pouvoir de défier les dieux eux-mêmes. Le préfixe « Bio » laisse présager qu'ils ont exploré toutes sortes de possibilités pour créer des Primordiaux artificiels.",
+      "html": "<p>Une arme magitech créée par les Célestes et surpassant toutes les autres.</p><p>Les Célestes, dans leur poursuite effrénée de puissance, ont créé ce Bio-Primordial afin d&#39;obtenir le pouvoir de défier les dieux eux-mêmes. Le préfixe « Bio » laisse présager qu&#39;ils ont exploré toutes sortes de possibilités pour créer des Primordiaux artificiels.</p>",
       "caption": "Révélation",
       "public": "OFF"
     }

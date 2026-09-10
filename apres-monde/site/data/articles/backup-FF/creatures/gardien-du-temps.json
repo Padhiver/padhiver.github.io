@@ -5,15 +5,14 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 9,
-  "source": "rising-tide",
   "pages": [
     {
-      "text": "Un chevalier à la carrure imposante rencontré dans les profondeurs de la Cité suspendue.\n\nCe guerrier était vêtu d'une armure usée par le temps et combattait en maniant une multitude d'armes créées grâce à sa magie de glace. Il était capable d'arrêter le temps pendant un court instant tout en se déplaçant librement pour attaquer, un pouvoir qu'il a mis à profit contre Clive et ses compagnons lorsqu'ils se sont approchés de la source du sort Gel.",
+      "html": "<p>Un chevalier à la carrure imposante rencontré dans les profondeurs de la Cité suspendue.</p><p>Ce guerrier était vêtu d&#39;une armure usée par le temps et combattait en maniant une multitude d&#39;armes créées grâce à sa magie de glace. Il était capable d&#39;arrêter le temps pendant un court instant tout en se déplaçant librement pour attaquer, un pouvoir qu&#39;il a mis à profit contre Clive et ses compagnons lorsqu&#39;ils se sont approchés de la source du sort Gel.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "Un chevalier à la carrure imposante rencontré dans les profondeurs de la Cité suspendue.\n\nCe guerrier maîtrisait la magie de glace à l'instar de Shiva, et était même capable d'arrêter le temps. Son corps entièrement composé d'éther était profondément imprégné de sa volonté de protéger Ysay, la sorcière du Nord, faisant de lui un véritable chevalier servant. Il a protégé jusqu'au bout la source du sort Gel, mais a été vaincu par Clive et ses compagnons qui ont dispersé son éther aux quatre vents, mettant ainsi fin à sa longue veille.",
+      "html": "<p>Un chevalier à la carrure imposante rencontré dans les profondeurs de la Cité suspendue.</p><p>Ce guerrier maîtrisait la magie de glace à l&#39;instar de Shiva, et était même capable d&#39;arrêter le temps. Son corps entièrement composé d&#39;éther était profondément imprégné de sa volonté de protéger Ysay, la sorcière du Nord, faisant de lui un véritable chevalier servant. Il a protégé jusqu&#39;au bout la source du sort Gel, mais a été vaincu par Clive et ses compagnons qui ont dispersé son éther aux quatre vents, mettant ainsi fin à sa longue veille.</p>",
       "caption": "Un chevalier protecteur",
       "public": "OFF"
     }

@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-09-05",
   "order": null,
-  "source": "pangee",
   "pages": [
     {
-      "text": "Général impérial commandant la ville militaire de Légion Blanche, en Opharmos, en vertu d'un accord formel avec le Conseil provincial lui garantissant une indépendance totale vis-à-vis du pouvoir civil local. Cette autonomie exceptionnelle fait de lui l'une des figures militaires les plus puissantes de la province, échappant à tout contrôle politique ordinaire.\n\nSon commandement illustre la place particulière qu'occupent certaines places fortes frontalières dans l'équilibre des pouvoirs impériaux, où l'autorité militaire peut, dans des cas exceptionnels, s'affranchir presque entièrement de la tutelle civile habituelle.",
+      "html": "<p>Général impérial commandant la ville militaire de Légion Blanche, en Opharmos, en vertu d&#39;un accord formel avec le Conseil provincial lui garantissant une indépendance totale vis-à-vis du pouvoir civil local. Cette autonomie exceptionnelle fait de lui l&#39;une des figures militaires les plus puissantes de la province, échappant à tout contrôle politique ordinaire.</p><p>Son commandement illustre la place particulière qu&#39;occupent certaines places fortes frontalières dans l&#39;équilibre des pouvoirs impériaux, où l&#39;autorité militaire peut, dans des cas exceptionnels, s&#39;affranchir presque entièrement de la tutelle civile habituelle.</p>",
       "caption": "",
       "public": "OFF"
     }

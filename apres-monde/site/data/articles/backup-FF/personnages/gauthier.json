@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 26,
-  "source": "base",
   "pages": [
     {
-      "text": "Un allié qui s'occupe du Comptoir des quêtes au Repaire.\n\nIl était le Pourvoyeur d'une taverne d'Oriflamme et a été recueilli par le groupe de Cid alors qu'il était très affaibli. Otto l'a ensuite pris sous son aile pour qu'il le seconde dans sa tâche. En plus de rassembler les informations des différents partisans de Cid, il s'occupe aussi de plusieurs tâches administratives au sein du Repaire.",
+      "html": "<p>Un allié qui s&#39;occupe du Comptoir des quêtes au Repaire.</p><p>Il était le Pourvoyeur d&#39;une taverne d&#39;Oriflamme et a été recueilli par le groupe de Cid alors qu&#39;il était très affaibli. Otto l&#39;a ensuite pris sous son aile pour qu&#39;il le seconde dans sa tâche. En plus de rassembler les informations des différents partisans de Cid, il s&#39;occupe aussi de plusieurs tâches administratives au sein du Repaire.</p>",
       "caption": "",
       "public": "OFF"
     }

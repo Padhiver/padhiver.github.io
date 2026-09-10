@@ -650,6 +650,60 @@ a.site-title:hover { color: var(--cinabre); }
   color: var(--cinabre);
 }
 
+/* Corps de fiche en HTML mis en forme (champ pages[].html) : listes, titres
+   et citations ne se prêtent pas au découpage en colonnes mesuré d'overlay.js,
+   donc une seule colonne pleine largeur, hauteur naturelle. */
+.body-text--rich { columns: 1; column-rule: none; column-gap: 0; height: auto !important; }
+.body-text--rich > :first-child { margin-top: 0; }
+.body-text--rich p { margin: 1.05em 0 0; }
+/* Pas de lettrine : le premier paragraphe peut être n'importe où. */
+.body-text--rich p:first-of-type::first-letter {
+  font: inherit; float: none; margin: 0; color: inherit;
+}
+.body-text--rich h3,
+.body-text--rich h4 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--sea);
+  margin: 1.7em 0 0;
+}
+.body-text--rich h3 { font-size: 1.02rem; }
+.body-text--rich h4 { font-size: 0.9rem; letter-spacing: 0.1em; color: var(--ink); }
+.body-text--rich h3 + p,
+.body-text--rich h4 + p { margin-top: 0.5em; }
+.body-text--rich ul,
+.body-text--rich ol { margin: 1.05em 0 0; padding-left: 1.5em; }
+.body-text--rich ul { list-style: none; }
+.body-text--rich ul > li { position: relative; }
+.body-text--rich ul > li::before {
+  content: "\25C6";
+  position: absolute;
+  left: -1.4em;
+  top: 0.05em;
+  font-size: 0.7em;
+  color: var(--cinabre);
+}
+.body-text--rich li { margin-top: 0.45em; text-align: left; line-height: 1.7; }
+.body-text--rich li > p { margin: 0; }
+.body-text--rich blockquote {
+  margin: 1.3em 0 0;
+  padding-left: 1em;
+  border-left: 3px solid var(--cinabre);
+  color: var(--ink-2);
+  font-style: italic;
+}
+.body-text--rich blockquote p { margin: 0.4em 0 0; }
+.body-text--rich blockquote p:first-child { margin-top: 0; }
+.body-text--rich hr {
+  border: 0;
+  border-top: 1px solid var(--line);
+  width: 55%;
+  margin: 1.9em auto;
+}
+.body-text--rich a { color: var(--sea); text-decoration: underline; text-underline-offset: 2px; }
+
 /* Visuel de fiche — 9:10, avec pennon accroché au haut du cadre */
 .article-figure { margin: 0; }
 .portrait {

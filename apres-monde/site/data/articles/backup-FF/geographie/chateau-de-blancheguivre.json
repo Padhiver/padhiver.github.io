@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 80,
-  "source": "base",
   "pages": [
     {
-      "text": "Le château fort accolé à Chefdrac, le Cristal-mère de Sangbrèque.\n\nIl surplombe Oriflamme et rayonne de ses murs de pierre calcaire. Sa plus haute tour semble partir à la rencontre de la voûte céleste tel le pic d'une montagne dominant la capitale du Saint-Empire.",
+      "html": "<p>Le château fort accolé à Chefdrac, le Cristal-mère de Sangbrèque.</p><p>Il surplombe Oriflamme et rayonne de ses murs de pierre calcaire. Sa plus haute tour semble partir à la rencontre de la voûte céleste tel le pic d&#39;une montagne dominant la capitale du Saint-Empire.</p>",
       "caption": "",
       "public": "OFF"
     }

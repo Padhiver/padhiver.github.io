@@ -5,15 +5,14 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 45,
-  "source": "echoes-of-the-fallen",
   "pages": [
     {
-      "text": "Une voix mystérieuse qui résonne dans la Tour des Sages.\n\nElle semble diriger la tour elle-même et fait tout son possible pour éradiquer les intrus. Son ton monocorde laisse penser qu'il ne s'agit pas d'un être humain, mais d'une invention magitech mise au point par les Célestes.",
+      "html": "<p>Une voix mystérieuse qui résonne dans la Tour des Sages.</p><p>Elle semble diriger la tour elle-même et fait tout son possible pour éradiquer les intrus. Son ton monocorde laisse penser qu&#39;il ne s&#39;agit pas d&#39;un être humain, mais d&#39;une invention magitech mise au point par les Célestes.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "Une voix mystérieuse qui résonnait dans la Tour des Sages.\n\nLes Célestes l'avaient sûrement mise au point grâce à leur technologie magitech pour contrôler et défendre la tour. Ainsi, elle a utilisé l'arsenal à sa disposition pour tenter d'éliminer Clive et ses compagnons, avant de s'éteindre à jamais après la destruction du Cristal-mère artificiel.",
+      "html": "<p>Une voix mystérieuse qui résonnait dans la Tour des Sages.</p><p>Les Célestes l&#39;avaient sûrement mise au point grâce à leur technologie magitech pour contrôler et défendre la tour. Ainsi, elle a utilisé l&#39;arsenal à sa disposition pour tenter d&#39;éliminer Clive et ses compagnons, avant de s&#39;éteindre à jamais après la destruction du Cristal-mère artificiel.</p>",
       "caption": "Révélation",
       "public": "OFF"
     }

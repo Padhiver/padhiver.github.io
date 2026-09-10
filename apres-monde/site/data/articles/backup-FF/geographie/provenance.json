@@ -5,15 +5,14 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 110,
-  "source": "base",
   "pages": [
     {
-      "text": "Un vestige qui dormait dans les terres du Dominion du Cristal.\n\nUltima l'a activé lorsque l'étape finale de son plan s'est mise en marche. Le Provenance a alors déchiré la terre et s'est élevé dans les cieux. L'objet est comme recouvert d'une croûte noire, et a globalement la forme d'un Cristal-mère.",
+      "html": "<p>Un vestige qui dormait dans les terres du Dominion du Cristal.</p><p>Ultima l&#39;a activé lorsque l&#39;étape finale de son plan s&#39;est mise en marche. Le Provenance a alors déchiré la terre et s&#39;est élevé dans les cieux. L&#39;objet est comme recouvert d&#39;une croûte noire, et a globalement la forme d&#39;un Cristal-mère.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "Un vestige qui dormait dans les terres du Dominion du Cristal.\n\nIl s'agit en fait de l'ancien vaisseau mère des Ultimiens, qui leur a d'ailleurs servi à voyager jusqu'à Valisthéa. Il est resté en sommeil, le temps que le plan qu'Ultima réservait au monde atteigne sa phase finale.",
+      "html": "<p>Un vestige qui dormait dans les terres du Dominion du Cristal.</p><p>Il s&#39;agit en fait de l&#39;ancien vaisseau mère des Ultimiens, qui leur a d&#39;ailleurs servi à voyager jusqu&#39;à Valisthéa. Il est resté en sommeil, le temps que le plan qu&#39;Ultima réservait au monde atteigne sa phase finale.</p>",
       "caption": "Révélation",
       "public": "OFF"
     }

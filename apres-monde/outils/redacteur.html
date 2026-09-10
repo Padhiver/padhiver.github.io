@@ -57,14 +57,14 @@
         <input type="text" id="f-title" autocomplete="off" placeholder="Ex. : Les Cristaux-mères">
       </div>
       <div class="field">
-        <label for="f-kicker">Chapô <span class="opt">(facultatif — une phrase d'accroche affichée sous le titre)</span></label>
-        <input type="text" id="f-kicker" autocomplete="off" placeholder="Ex. : Les monolithes divins qui tiennent le monde debout.">
+        <label for="f-id">Identifiant <span class="opt">(nom du fichier — minuscules, sans accent ; proposé d'après le titre)</span></label>
+        <input type="text" id="f-id" autocomplete="off" spellcheck="false" placeholder="les-cristaux-meres">
       </div>
       <div class="field">
-        <label for="f-category">Registre suggéré <span class="opt">(facultatif — Padhiver ajustera au besoin)</span></label>
+        <label for="f-category">Registre <span class="opt">(Padhiver ajustera au besoin)</span></label>
         <select id="f-category">
-          <option value="monde">Monde</option>
-          <option value="geographie">Géographie</option>
+          <option value="monde">Monde et phénomènes</option>
+          <option value="geographie">Géographie et politique</option>
           <option value="personnages">Personnages</option>
           <option value="creatures">Créatures</option>
         </select>
@@ -75,13 +75,14 @@
   <section>
     <h2>Le texte</h2>
     <div class="toolbar" id="toolbar" role="toolbar" aria-label="Mise en forme"></div>
-    <div class="editor-host">
-      <div id="editor"></div>
-    </div>
+    <div id="pages"></div>
+    <button type="button" id="btn-add-page" class="add-page">+ Ajouter une page</button>
     <p class="hint">
-      Tu peux coller du texte depuis ailleurs : seules les mises en forme
-      reconnues (gras, italique, listes, titres, citations, liens) sont
-      conservées, le reste est nettoyé.
+      Une fiche a le plus souvent une seule page. Les pages en plus servent
+      aux fiches à chapitres (« Généralités », « Après tel événement »…) :
+      chacune a son propre titre de chapitre.
+      Tu peux coller du texte depuis ailleurs, seule la mise en forme
+      reconnue est conservée.
     </p>
   </section>
 
@@ -89,12 +90,12 @@
     <h2>Transmettre</h2>
     <div class="export-row">
       <button type="button" id="btn-download" class="primary">Télécharger la fiche</button>
-      <button type="button" id="btn-copy">Copier le HTML</button>
+      <button type="button" id="btn-copy">Copier le JSON</button>
       <button type="button" id="btn-reset" class="ghost">Tout effacer</button>
       <span class="export-state" id="export-state" role="status"></span>
     </div>
     <details id="code-details">
-      <summary>Voir le code généré</summary>
+      <summary>Voir le fichier généré</summary>
       <pre id="code-preview"></pre>
     </details>
   </section>

@@ -5,15 +5,14 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 120,
-  "source": "base",
   "pages": [
     {
-      "text": "L'accès au trône d'Octavien Lesage.\n\nSylvestre, l'empereur de Sangbrèque, abdique en faveur de son fils cadet Octavien, né de son mariage à Annabella, ancienne épouse de l'Archiduc Elwin de Rosalia. Sylvestre préfère manifestement Octavien à son fils aîné Dion, qui est mis au courant de la passation de pouvoir alors qu'il dirige l'armée sangbréquoise dans un camp militaire aux environs du Dominion du Cristal.",
+      "html": "<p>L&#39;accès au trône d&#39;Octavien Lesage.</p><p>Sylvestre, l&#39;empereur de Sangbrèque, abdique en faveur de son fils cadet Octavien, né de son mariage à Annabella, ancienne épouse de l&#39;Archiduc Elwin de Rosalia. Sylvestre préfère manifestement Octavien à son fils aîné Dion, qui est mis au courant de la passation de pouvoir alors qu&#39;il dirige l&#39;armée sangbréquoise dans un camp militaire aux environs du Dominion du Cristal.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "L'accès au trône d'Octavien Lesage.\n\nSylvestre, l'empereur de Sangbrèque, abdique en faveur de son fils cadet Octavien, né de son mariage à Annabella, ancienne épouse de l'Archiduc Elwin de Rosalia. La raison officielle est qu'Octavien aurait fait preuve de génie stratégique en négociant l'armistice entre Sangbrèque et la Dalméquie, méritant ainsi son accession immédiate au pouvoir. Le jeune âge du nouvel empereur permet d'en douter, tout comme le fait qu'une abdication aussi soudaine soit inédite. Quoi qu'il en soit, Sylvestre reste sourd aux protestations de son fils aîné Dion.",
+      "html": "<p>L&#39;accès au trône d&#39;Octavien Lesage.</p><p>Sylvestre, l&#39;empereur de Sangbrèque, abdique en faveur de son fils cadet Octavien, né de son mariage à Annabella, ancienne épouse de l&#39;Archiduc Elwin de Rosalia. La raison officielle est qu&#39;Octavien aurait fait preuve de génie stratégique en négociant l&#39;armistice entre Sangbrèque et la Dalméquie, méritant ainsi son accession immédiate au pouvoir. Le jeune âge du nouvel empereur permet d&#39;en douter, tout comme le fait qu&#39;une abdication aussi soudaine soit inédite. Quoi qu&#39;il en soit, Sylvestre reste sourd aux protestations de son fils aîné Dion.</p>",
       "caption": "Révélation",
       "public": "OFF"
     }

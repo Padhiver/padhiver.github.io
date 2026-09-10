@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 24,
-  "source": "base",
   "pages": [
     {
-      "text": "Une intervention chirurgicale destinée à retirer la marque des Pourvoyeurs.\n\nToute tentative d'ablation du tatouage est très risquée, car l'encre est composée d'un poison qui pourrait tuer le Pourvoyeur en cas d'échec. Heureusement, Tarja a fait appel à ses talents de médecin pour élaborer une technique qui a d'ores et déjà fait ses preuves. Il s'agit tout de même d'une opération minutieuse et extrêmement douloureuse, malgré les analgésiques. C'est la raison pour laquelle les patients doivent faire preuve d'une motivation hors normes. Ce sont en général des combattants du Repaire ayant besoin de sortir pour remplir des missions dangereuses à l'extérieur.",
+      "html": "<p>Une intervention chirurgicale destinée à retirer la marque des Pourvoyeurs.</p><p>Toute tentative d&#39;ablation du tatouage est très risquée, car l&#39;encre est composée d&#39;un poison qui pourrait tuer le Pourvoyeur en cas d&#39;échec. Heureusement, Tarja a fait appel à ses talents de médecin pour élaborer une technique qui a d&#39;ores et déjà fait ses preuves. Il s&#39;agit tout de même d&#39;une opération minutieuse et extrêmement douloureuse, malgré les analgésiques. C&#39;est la raison pour laquelle les patients doivent faire preuve d&#39;une motivation hors normes. Ce sont en général des combattants du Repaire ayant besoin de sortir pour remplir des missions dangereuses à l&#39;extérieur.</p>",
       "caption": "",
       "public": "OFF"
     }

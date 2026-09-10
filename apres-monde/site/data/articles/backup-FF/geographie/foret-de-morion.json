@@ -5,15 +5,14 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 40,
-  "source": "echoes-of-the-fallen",
   "pages": [
     {
-      "text": "Une forêt de Rosalia que le Fléau noir a étiolée au fil du temps.\n\nSa végétation autrefois luxuriante s'étendait de Lestange jusqu'aux régions du nord. Aujourd'hui, elle est surtout connue pour l'immense vestige des Célestes qui se dresse dans sa partie sud-ouest, la Tour des Sages.",
+      "html": "<p>Une forêt de Rosalia que le Fléau noir a étiolée au fil du temps.</p><p>Sa végétation autrefois luxuriante s&#39;étendait de Lestange jusqu&#39;aux régions du nord. Aujourd&#39;hui, elle est surtout connue pour l&#39;immense vestige des Célestes qui se dresse dans sa partie sud-ouest, la Tour des Sages.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "Une forêt de Rosalia que le Fléau noir a étiolée au fil du temps.\n\nSa végétation autrefois luxuriante s'étendait de Lestange jusqu'aux régions du nord. Au plus profond de ce domaine boisé se cachait une porte dérobée permettant de s'introduire dans la Tour des Sages.",
+      "html": "<p>Une forêt de Rosalia que le Fléau noir a étiolée au fil du temps.</p><p>Sa végétation autrefois luxuriante s&#39;étendait de Lestange jusqu&#39;aux régions du nord. Au plus profond de ce domaine boisé se cachait une porte dérobée permettant de s&#39;introduire dans la Tour des Sages.</p>",
       "caption": "L'entrée de la Tour des Sages",
       "public": "OFF"
     }

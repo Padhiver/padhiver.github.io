@@ -5,25 +5,24 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 60,
-  "source": "base",
   "pages": [
     {
-      "text": "Une partisane de Cid habitant à Francastel.\n\nElle apporte notamment son soutien en envoyant des rapports sur les mouvements de troupes sangbréquois qu'elle surveille de près. Quiconque voudrait franchir les postes de contrôle de la cité fortifiée pourrait grandement profiter de son aide.",
+      "html": "<p>Une partisane de Cid habitant à Francastel.</p><p>Elle apporte notamment son soutien en envoyant des rapports sur les mouvements de troupes sangbréquois qu&#39;elle surveille de près. Quiconque voudrait franchir les postes de contrôle de la cité fortifiée pourrait grandement profiter de son aide.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "La propriétaire de la Nuit galante, la maison close de Francastel, et une partisane de Cid.\n\nConnue également sous le nom de « Reine de la nuit », éduquée et gracieuse, elle travaillait elle-même en tant que prostituée de luxe. Elle est très appréciée par tous les habitants de la ville qui l'appellent tous « Madame Apolline » avec respect et admiration.",
+      "html": "<p>La propriétaire de la Nuit galante, la maison close de Francastel, et une partisane de Cid.</p><p>Connue également sous le nom de « Reine de la nuit », éduquée et gracieuse, elle travaillait elle-même en tant que prostituée de luxe. Elle est très appréciée par tous les habitants de la ville qui l&#39;appellent tous « Madame Apolline » avec respect et admiration.</p>",
       "caption": "La Nuit galante",
       "public": "OFF"
     },
     {
-      "text": "La propriétaire de la Nuit galante, la maison close de Francastel, et une partisane de Cid.\n\nLorsqu'elle travaillait en tant que prostituée de luxe au Dominion du Cristal sous le nom de Carla, elle s'était éprise d'un jeune Pourvoyeur. Une fois leur union découverte, ils se sont enfuis à Francastel. Après la mort de son amant, c'est la bonté des citoyens qui la sauve. Elle aspire à leur rendre un jour la pareille en se dévouant au bien de la cité.",
+      "html": "<p>La propriétaire de la Nuit galante, la maison close de Francastel, et une partisane de Cid.</p><p>Lorsqu&#39;elle travaillait en tant que prostituée de luxe au Dominion du Cristal sous le nom de Carla, elle s&#39;était éprise d&#39;un jeune Pourvoyeur. Une fois leur union découverte, ils se sont enfuis à Francastel. Après la mort de son amant, c&#39;est la bonté des citoyens qui la sauve. Elle aspire à leur rendre un jour la pareille en se dévouant au bien de la cité.</p>",
       "caption": "L'union sacrée pour Francastel",
       "public": "OFF"
     },
     {
-      "text": "La propriétaire de la Nuit galante, la maison close de Francastel, et une partisane de Cid.\n\nElle connaît depuis longtemps Šuhra, la chef de la tribu de l'Eau. Lorsque cette dernière a appris l'existence de Cid le Renégat, elle a souhaité prendre contact avec lui par le biais d'une lettre remise par l'entremise d'Apolline.\n\nLa bienveillante patronne a aussi établi une relation de confiance avec le hameau en lui envoyant du ravitaillement, et en proposant d'accueillir certains de ses membres cherchant un travail discret à l'extérieur.",
+      "html": "<p>La propriétaire de la Nuit galante, la maison close de Francastel, et une partisane de Cid.</p><p>Elle connaît depuis longtemps Šuhra, la chef de la tribu de l&#39;Eau. Lorsque cette dernière a appris l&#39;existence de Cid le Renégat, elle a souhaité prendre contact avec lui par le biais d&#39;une lettre remise par l&#39;entremise d&#39;Apolline.</p><p>La bienveillante patronne a aussi établi une relation de confiance avec le hameau en lui envoyant du ravitaillement, et en proposant d&#39;accueillir certains de ses membres cherchant un travail discret à l&#39;extérieur.</p>",
       "caption": "Liens avec la tribu de l'Eau",
       "public": "OFF"
     }

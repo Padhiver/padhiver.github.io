@@ -63,6 +63,9 @@ function readArticles() {
           if (pg && pg.public !== undefined && pg.public !== "ON" && pg.public !== "OFF") {
             throw new Error(`Fiche "${relFile}", page ${i + 1} : "public" doit valoir "ON" ou "OFF" (trouvé: ${JSON.stringify(pg.public)}).`);
           }
+          if (pg && typeof pg.html !== "string") {
+            throw new Error(`Fiche "${relFile}", page ${i + 1} : champ "html" (chaîne) manquant.`);
+          }
         });
       }
 

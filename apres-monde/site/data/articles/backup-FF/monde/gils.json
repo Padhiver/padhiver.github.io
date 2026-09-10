@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 71,
-  "source": "base",
   "pages": [
     {
-      "text": "La monnaie utilisée à Valisthéa.\n\nElle a été introduite il y a huit cents ans, lorsque les États valisthéens ont ratifié le Traité intercontinental visant à instaurer une monnaie unique. Elle doit son nom à Gilbert, un érudit considéré comme le saint patron des gens qui vivent du commerce. La guilde des marchands des villes libres de Kanvěr ayant participé à ce projet est ensuite devenue ce que l'on appelle aujourd'hui la congrégation du crédo de saint Gilbert.",
+      "html": "<p>La monnaie utilisée à Valisthéa.</p><p>Elle a été introduite il y a huit cents ans, lorsque les États valisthéens ont ratifié le Traité intercontinental visant à instaurer une monnaie unique. Elle doit son nom à Gilbert, un érudit considéré comme le saint patron des gens qui vivent du commerce. La guilde des marchands des villes libres de Kanvěr ayant participé à ce projet est ensuite devenue ce que l&#39;on appelle aujourd&#39;hui la congrégation du crédo de saint Gilbert.</p>",
       "caption": "",
       "public": "OFF"
     }

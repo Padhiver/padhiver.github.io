@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 8,
-  "source": "base",
   "pages": [
     {
-      "text": "Le fait d'utiliser le sort absolu de vie « Résurrection » afin de créer un monde véritablement idéal.\n\nPour Ultima, ce sort permettrait de ranimer les siens, avec qui il pourrait ensuite fusionner pour régner comme un dieu sur ce monde. À ses yeux, les humains ne sont guère que de vulgaires morceaux de viande dont l'unique raison d'être serait de lui offrir un jour un réceptacle. La création de son nouveau monde lui permettrait d'éradiquer les hommes.",
+      "html": "<p>Le fait d&#39;utiliser le sort absolu de vie « Résurrection » afin de créer un monde véritablement idéal.</p><p>Pour Ultima, ce sort permettrait de ranimer les siens, avec qui il pourrait ensuite fusionner pour régner comme un dieu sur ce monde. À ses yeux, les humains ne sont guère que de vulgaires morceaux de viande dont l&#39;unique raison d&#39;être serait de lui offrir un jour un réceptacle. La création de son nouveau monde lui permettrait d&#39;éradiquer les hommes.</p>",
       "caption": "",
       "public": "OFF"
     }

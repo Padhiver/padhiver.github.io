@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 46,
-  "source": "base",
   "pages": [
     {
-      "text": "Des arthropodes qui s'approchent doucement de leurs proies.\n\nLes veuves noires attaquent en projetant sur leurs victimes un liquide collant ou en utilisant leurs pattes pourvues de crochets. Elles peuvent ramper sur n'importe quelle surface, des rochers d'une falaise au plafond d'un bâtiment, si bien que de nombreuses personnes affirment en avoir vu apparaître devant elles comme si l'animal était tombé du ciel. Leur présence a été signalée à de nombreuses reprises dans différentes contrées de Valisthéa, mais elles se font plus rares dans les déserts et les régions tropicales.",
+      "html": "<p>Des arthropodes qui s&#39;approchent doucement de leurs proies.</p><p>Les veuves noires attaquent en projetant sur leurs victimes un liquide collant ou en utilisant leurs pattes pourvues de crochets. Elles peuvent ramper sur n&#39;importe quelle surface, des rochers d&#39;une falaise au plafond d&#39;un bâtiment, si bien que de nombreuses personnes affirment en avoir vu apparaître devant elles comme si l&#39;animal était tombé du ciel. Leur présence a été signalée à de nombreuses reprises dans différentes contrées de Valisthéa, mais elles se font plus rares dans les déserts et les régions tropicales.</p>",
       "caption": "",
       "public": "OFF"
     }

@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 87,
-  "source": "base",
   "pages": [
     {
-      "text": "Une région vallonnée qui s'étend dans le sud du Saint-Empire de Sangbrèque.\n\nLes habitants de La Nef déchue ont utilisé une de ses collines pour y installer leurs vignobles, tout juste au nord de la Grande Sylve.",
+      "html": "<p>Une région vallonnée qui s&#39;étend dans le sud du Saint-Empire de Sangbrèque.</p><p>Les habitants de La Nef déchue ont utilisé une de ses collines pour y installer leurs vignobles, tout juste au nord de la Grande Sylve.</p>",
       "caption": "",
       "public": "OFF"
     }

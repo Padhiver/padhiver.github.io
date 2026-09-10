@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 84,
-  "source": "base",
   "pages": [
     {
-      "text": "Des interventions militaires ciblant les Pourvoyeurs et ceux qui les cachent ou les protègent, ce qui est un crime passible de mort.\n\nIl arrive qu'un village entier soit massacré lors d'une purge, afin de faire de ses résidents un exemple. La politique des purges a été établie par le Synode. Ses membres sont postés dans tout Rosalia et y font régner la terreur en commettant ces atrocités.",
+      "html": "<p>Des interventions militaires ciblant les Pourvoyeurs et ceux qui les cachent ou les protègent, ce qui est un crime passible de mort.</p><p>Il arrive qu&#39;un village entier soit massacré lors d&#39;une purge, afin de faire de ses résidents un exemple. La politique des purges a été établie par le Synode. Ses membres sont postés dans tout Rosalia et y font régner la terreur en commettant ces atrocités.</p>",
       "caption": "",
       "public": "OFF"
     }

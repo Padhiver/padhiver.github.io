@@ -5,20 +5,19 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 64,
-  "source": "base",
   "pages": [
     {
-      "text": "Un ouvrage rédigé par Mors l'ancien, un historien valisthéen.\n\nSi cette œuvre majeure démontre l'érudition de son auteur concernant le passé de Valisthéa, sa créativité et son lyrisme furent cependant les cibles de vives critiques de la part de ses pairs. Les diverses polémiques poussèrent l'historien à disparaître en emportant avec lui son œuvre. Aujourd'hui encore, personne ne sait où l'homme se trouve exactement.",
+      "html": "<p>Un ouvrage rédigé par Mors l&#39;ancien, un historien valisthéen.</p><p>Si cette œuvre majeure démontre l&#39;érudition de son auteur concernant le passé de Valisthéa, sa créativité et son lyrisme furent cependant les cibles de vives critiques de la part de ses pairs. Les diverses polémiques poussèrent l&#39;historien à disparaître en emportant avec lui son œuvre. Aujourd&#39;hui encore, personne ne sait où l&#39;homme se trouve exactement.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "Un ouvrage rédigé par Mors l'ancien, un historien valisthéen.\n\nIl évoque et décrit le Cercle de Malius, une très ancienne religion valisthéenne, mais parle également d'Ultima. Tout le monde pensait l'œuvre perdue, disparue il y a bien longtemps avec son auteur, mais celle-ci fut retrouvée par des membres des Ailes ardentes et se trouve aujourd'hui entre les mains de Joshua.",
+      "html": "<p>Un ouvrage rédigé par Mors l&#39;ancien, un historien valisthéen.</p><p>Il évoque et décrit le Cercle de Malius, une très ancienne religion valisthéenne, mais parle également d&#39;Ultima. Tout le monde pensait l&#39;œuvre perdue, disparue il y a bien longtemps avec son auteur, mais celle-ci fut retrouvée par des membres des Ailes ardentes et se trouve aujourd&#39;hui entre les mains de Joshua.</p>",
       "caption": "Un exemplaire chez Joshua",
       "public": "OFF"
     },
     {
-      "text": "Un ouvrage rédigé par Mors l'ancien, un historien valisthéen.\n\nQuittant le jeune Harpocrate qu'il avait rencontré sur les continents extérieurs, Mors revint à Valisthéa. Il y passa les dernières années de sa vie, explorant les antiques ruines de chaque contrée dans le but de percer les mystères du Cercle de Malius et d'Ultima, prenant note de toutes les informations qu'il avait pu glaner à leur sujet.",
+      "html": "<p>Un ouvrage rédigé par Mors l&#39;ancien, un historien valisthéen.</p><p>Quittant le jeune Harpocrate qu&#39;il avait rencontré sur les continents extérieurs, Mors revint à Valisthéa. Il y passa les dernières années de sa vie, explorant les antiques ruines de chaque contrée dans le but de percer les mystères du Cercle de Malius et d&#39;Ultima, prenant note de toutes les informations qu&#39;il avait pu glaner à leur sujet.</p>",
       "caption": "Lien avec Harpocrate",
       "public": "OFF"
     }

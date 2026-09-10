@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 104,
-  "source": "base",
   "pages": [
     {
-      "text": "Le ministère traitant les affaires judiciaires du Saint-Empire de Sangbrèque.\n\nQuentin, qui y travaillait jadis, obéissait aux ordres du Ministre de la Justice d'alors, un homme dont il admirait la vertu et l'humanité. Il a pourtant découvert que son supérieur se livrait à des chasses aux marqués, et l'a dénoncé en public. Le ministre a réagi en faisant sournoisement assassiner la famille de Quentin, ce qui a poussé ce dernier à jurer vengeance.",
+      "html": "<p>Le ministère traitant les affaires judiciaires du Saint-Empire de Sangbrèque.</p><p>Quentin, qui y travaillait jadis, obéissait aux ordres du Ministre de la Justice d&#39;alors, un homme dont il admirait la vertu et l&#39;humanité. Il a pourtant découvert que son supérieur se livrait à des chasses aux marqués, et l&#39;a dénoncé en public. Le ministre a réagi en faisant sournoisement assassiner la famille de Quentin, ce qui a poussé ce dernier à jurer vengeance.</p>",
       "caption": "",
       "public": "OFF"
     }

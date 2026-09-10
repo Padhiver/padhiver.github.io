@@ -5,15 +5,14 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 40,
-  "source": "base",
   "pages": [
     {
-      "text": "Une vaste barrière magique créée par Odin.\n\nElle ne se contente pas de repousser les attaques extérieures, mais peut également désintégrer tout ce qui la touche. Elle bloque l'accès à la capitale Steinnhyrr.",
+      "html": "<p>Une vaste barrière magique créée par Odin.</p><p>Elle ne se contente pas de repousser les attaques extérieures, mais peut également désintégrer tout ce qui la touche. Elle bloque l&#39;accès à la capitale Steinnhyrr.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "Une vaste barrière magique créée par Odin.\n\nElle ne se contentait pas de repousser les attaques extérieures, mais pouvait également désintégrer tout ce qui la touche. Elle bloquait jadis l'accès à la capitale Steinnhyrr, mais a disparu avec la mort de Barnabas.",
+      "html": "<p>Une vaste barrière magique créée par Odin.</p><p>Elle ne se contentait pas de repousser les attaques extérieures, mais pouvait également désintégrer tout ce qui la touche. Elle bloquait jadis l&#39;accès à la capitale Steinnhyrr, mais a disparu avec la mort de Barnabas.</p>",
       "caption": "Disparition",
       "public": "OFF"
     }

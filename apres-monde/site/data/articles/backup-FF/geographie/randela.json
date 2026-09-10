@@ -5,15 +5,14 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 169,
-  "source": "base",
   "pages": [
     {
-      "text": "La capitale de la république de Dalméquie, au sud du Vert-Ponant.\n\nC'est avant tout un centre commercial de grande importance qui attire les marchands venus des quatre coins de Valisthéa. C'est une ville prospère réputée pour sa vie nocturne où les gens peuvent passer un moment agréable dans les rues illuminées. C'est aussi le siège du Conseil républicain chargé de gouverner la Dalméquie.",
+      "html": "<p>La capitale de la république de Dalméquie, au sud du Vert-Ponant.</p><p>C&#39;est avant tout un centre commercial de grande importance qui attire les marchands venus des quatre coins de Valisthéa. C&#39;est une ville prospère réputée pour sa vie nocturne où les gens peuvent passer un moment agréable dans les rues illuminées. C&#39;est aussi le siège du Conseil républicain chargé de gouverner la Dalméquie.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "La capitale de la république de Dalméquie, au sud du Vert-Ponant.\n\nC'est à la fois un centre commercial de grande importance qui attire les marchands et le siège du Conseil républicain chargé de gouverner la Dalméquie. En 878 du calendrier ponantin, lorsqu'Ultima provoque l'Expurgation, la ville est détruite par une attaque de l'armée valœdoise composée d'Orcs et de soldats éthériques.",
+      "html": "<p>La capitale de la république de Dalméquie, au sud du Vert-Ponant.</p><p>C&#39;est à la fois un centre commercial de grande importance qui attire les marchands et le siège du Conseil républicain chargé de gouverner la Dalméquie. En 878 du calendrier ponantin, lorsqu&#39;Ultima provoque l&#39;Expurgation, la ville est détruite par une attaque de l&#39;armée valœdoise composée d&#39;Orcs et de soldats éthériques.</p>",
       "caption": "Attaque éthérique",
       "public": "OFF"
     }

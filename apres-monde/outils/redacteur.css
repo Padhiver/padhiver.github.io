@@ -95,20 +95,24 @@ section > h2 {
   background: var(--paper-3);
   color: var(--ink);
 }
+#f-id { font-family: "Cascadia Code", "Consolas", monospace; }
 .field input:focus,
 .field select:focus { outline: 2px solid var(--accent-2); outline-offset: 1px; }
 
-/* ---------- Barre d'outils ---------- */
+/* ---------- Barre d'outils (partagée par toutes les pages) ---------- */
 
 .toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 5;
   display: flex;
   flex-wrap: wrap;
   gap: 4px;
   padding: 6px;
   border: 1px solid var(--line);
-  border-bottom: 0;
-  border-radius: 6px 6px 0 0;
+  border-radius: 6px;
   background: var(--paper-3);
+  box-shadow: 0 2px 6px -3px rgba(0, 0, 0, 0.25);
 }
 .toolbar .sep { width: 1px; margin: 2px 4px; background: var(--line); }
 .toolbar button {
@@ -134,16 +138,74 @@ section > h2 {
 .tb-i { font-style: italic; font-family: Georgia, serif; }
 .tb-h { font-family: Georgia, serif; }
 
-/* ---------- Surface d'édition (aperçu de fiche) ---------- */
+/* ---------- Pages ---------- */
 
-.editor-host {
+.page-panel {
+  margin-top: 14px;
   border: 1px solid var(--line);
-  border-radius: 0 0 6px 6px;
+  border-radius: 6px;
   background: var(--paper-3);
 }
+.page-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--line);
+}
+#pages.single .page-num { display: none; }
+.page-num {
+  flex: none;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.page-caption {
+  flex: 1;
+  font: inherit;
+  padding: 6px 8px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--paper);
+  color: var(--ink);
+}
+.page-caption:focus { outline: 2px solid var(--accent-2); outline-offset: 1px; }
+.page-ctl { flex: none; display: flex; gap: 4px; }
+.page-ctl button {
+  font: inherit;
+  height: 28px;
+  padding: 0 8px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--paper);
+  color: var(--ink-soft);
+  cursor: pointer;
+}
+.page-ctl button:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
+.page-ctl button:disabled { opacity: 0.35; cursor: default; }
+
+#pages.single .page-head { border-bottom: 0; padding-bottom: 0; }
+#pages.single .page-ctl { display: none; }
+
+.add-page {
+  margin-top: 12px;
+  font: inherit;
+  padding: 8px 14px;
+  border: 1px dashed var(--line);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--ink-soft);
+  cursor: pointer;
+}
+.add-page:hover { border-color: var(--accent); color: var(--accent); }
+
+/* ---------- Surface d'édition (aperçu de fiche) ---------- */
+
 .ProseMirror {
-  min-height: 340px;
-  padding: 26px 30px;
+  min-height: 240px;
+  padding: 24px 28px;
   outline: none;
   font-family: "Cormorant Garamond", Georgia, serif;
   font-size: 1.18rem;
@@ -213,7 +275,7 @@ section > h2 {
   pointer-events: none;
 }
 
-.hint { margin: 8px 2px 0; font-size: 0.8rem; color: var(--ink-soft); }
+.hint { margin: 10px 2px 0; font-size: 0.8rem; color: var(--ink-soft); }
 
 /* ---------- Export ---------- */
 
@@ -249,13 +311,15 @@ summary { cursor: pointer; font-size: 0.85rem; color: var(--ink-soft); }
   font: 12px/1.5 "Cascadia Code", "Consolas", monospace;
   white-space: pre-wrap;
   word-break: break-word;
-  max-height: 320px;
+  max-height: 360px;
   overflow: auto;
 }
 
 footer { margin-top: 26px; font-size: 0.85rem; }
 
-@media (max-width: 560px) {
-  .ProseMirror { padding: 20px 18px; font-size: 1.1rem; text-align: left; hyphens: none; }
+@media (max-width: 620px) {
+  .page-head { flex-wrap: wrap; }
+  .page-caption { order: 3; flex-basis: 100%; }
+  .ProseMirror { padding: 18px 16px; font-size: 1.1rem; text-align: left; hyphens: none; }
   .ProseMirror p, .ProseMirror blockquote { text-align: left; }
 }

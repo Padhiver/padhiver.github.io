@@ -5,15 +5,14 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 2,
-  "source": "base",
   "pages": [
     {
-      "text": "Le Primordial de la Lumière qui a pour Émissaire le prince Dion Lesage de Sangbrèque.\n\nBahamut est un dragon aux proportions gigantesques. À Sangbrèque, où le culte monothéiste de la déesse Gwéligore est la religion d'État, les dragons sont néanmoins considérés comme des créatures sacrées. C'est pourquoi Bahamut, le plus imposant et le plus puissant d'entre eux, est l'objet d'une fervente dévotion populaire.",
+      "html": "<p>Le Primordial de la Lumière qui a pour Émissaire le prince Dion Lesage de Sangbrèque.</p><p>Bahamut est un dragon aux proportions gigantesques. À Sangbrèque, où le culte monothéiste de la déesse Gwéligore est la religion d&#39;État, les dragons sont néanmoins considérés comme des créatures sacrées. C&#39;est pourquoi Bahamut, le plus imposant et le plus puissant d&#39;entre eux, est l&#39;objet d&#39;une fervente dévotion populaire.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "Le Primordial de la Lumière qui a pour Émissaire le prince Dion Lesage de Sangbrèque.\n\nBahamut est un dragon aux proportions gigantesques. On raconte qu'il y a plusieurs siècles, une ethnie du nom de « peuple de la Lumière » vivait dans la région d'Oriflamme. Les pouvoirs de Bahamut se révéleraient toujours parmi les descendants de ce groupe, qui sont nombreux au sein de la noblesse sangbréquoise.",
+      "html": "<p>Le Primordial de la Lumière qui a pour Émissaire le prince Dion Lesage de Sangbrèque.</p><p>Bahamut est un dragon aux proportions gigantesques. On raconte qu&#39;il y a plusieurs siècles, une ethnie du nom de « peuple de la Lumière » vivait dans la région d&#39;Oriflamme. Les pouvoirs de Bahamut se révéleraient toujours parmi les descendants de ce groupe, qui sont nombreux au sein de la noblesse sangbréquoise.</p>",
       "caption": "Révélation",
       "public": "OFF"
     }

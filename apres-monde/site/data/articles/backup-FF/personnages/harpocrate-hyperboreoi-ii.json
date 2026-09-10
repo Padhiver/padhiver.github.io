@@ -5,20 +5,19 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 30,
-  "source": "base",
   "pages": [
     {
-      "text": "Un chercheur en histoire et folklore qui s'est installé au Repaire.\n\nSon nom complet est Harpocrate Hyperbóreoi II mais tout le monde l'appelle « le Prof ». Après avoir quitté les continents extérieurs qui l'ont vu naître, il effectue dans sa jeunesse une longue exploration de Valisthéa. Charmé par tous ses mythes, il étudie les climats, traditions et croyances de toutes ses régions.",
+      "html": "<p>Un chercheur en histoire et folklore qui s&#39;est installé au Repaire.</p><p>Son nom complet est Harpocrate Hyperbóreoi II mais tout le monde l&#39;appelle « le Prof ». Après avoir quitté les continents extérieurs qui l&#39;ont vu naître, il effectue dans sa jeunesse une longue exploration de Valisthéa. Charmé par tous ses mythes, il étudie les climats, traditions et croyances de toutes ses régions.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "Un chercheur en histoire et folklore qui s'est installé au Repaire.\n\nIl est l'un des survivants de l'attaque de Hugo Kupka. Désormais, il s'occupe des jumeaux Teto et Kuro dans la bibliothèque du nouveau Repaire tout en dispensant son savoir sur Valisthéa.",
+      "html": "<p>Un chercheur en histoire et folklore qui s&#39;est installé au Repaire.</p><p>Il est l&#39;un des survivants de l&#39;attaque de Hugo Kupka. Désormais, il s&#39;occupe des jumeaux Teto et Kuro dans la bibliothèque du nouveau Repaire tout en dispensant son savoir sur Valisthéa.</p>",
       "caption": "Le maître des livres",
       "public": "OFF"
     },
     {
-      "text": "Un chercheur en histoire et folklore qui s'est installé au Repaire.\n\nIl a été jadis le précepteur du jeune prince Dion, à la cour du Saint-Empire de Sangbrèque. Retrouvant ce dernier au Repaire, il lui offre une magnifique fleur d'herbe aux dragons dans le but de le réconforter après la tragédie qu'il a connue, en espérant le voir revenir fier et victorieux de la bataille qu'il s'apprête à mener.",
+      "html": "<p>Un chercheur en histoire et folklore qui s&#39;est installé au Repaire.</p><p>Il a été jadis le précepteur du jeune prince Dion, à la cour du Saint-Empire de Sangbrèque. Retrouvant ce dernier au Repaire, il lui offre une magnifique fleur d&#39;herbe aux dragons dans le but de le réconforter après la tragédie qu&#39;il a connue, en espérant le voir revenir fier et victorieux de la bataille qu&#39;il s&#39;apprête à mener.</p>",
       "caption": "Sa relation avec Dion",
       "public": "OFF"
     }

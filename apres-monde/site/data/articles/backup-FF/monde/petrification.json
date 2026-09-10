@@ -5,10 +5,9 @@
   "public": "ON",
   "date": "2026-08-08",
   "order": 14,
-  "source": "base",
   "pages": [
     {
-      "text": "Un phénomène caractérisé par le changement en pierre du corps d'un Pourvoyeur ayant trop fait appel à la magie.\n\nIl est dû au fait que l'individu consume l'éther présent dans son corps. Utiliser un cristal permet donc de contourner ce problème. La pétrification, aussi appelée Mal cristallin, provoque d'intenses douleurs et peut devenir handicapante lorsque le mal s'étend, jusqu'à ce que l'individu succombe et tombe en poussière. Aucun traitement n'a encore été trouvé.",
+      "html": "<p>Un phénomène caractérisé par le changement en pierre du corps d&#39;un Pourvoyeur ayant trop fait appel à la magie.</p><p>Il est dû au fait que l&#39;individu consume l&#39;éther présent dans son corps. Utiliser un cristal permet donc de contourner ce problème. La pétrification, aussi appelée Mal cristallin, provoque d&#39;intenses douleurs et peut devenir handicapante lorsque le mal s&#39;étend, jusqu&#39;à ce que l&#39;individu succombe et tombe en poussière. Aucun traitement n&#39;a encore été trouvé.</p>",
       "caption": "",
       "public": "ON"
     }

@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 31,
-  "source": "base",
   "pages": [
     {
-      "text": "Une guerre vieille de plusieurs siècles qui opposa les Pourvoyeurs aux autres humains.\n\nLes « pourvoyeurs de bonheur » étaient à l'époque érigés en saints grâce à leur magie, mais les sphères dirigeantes voyant leur influence diminuer à vue d'œil les opprimèrent afin de conserver leur statut privilégié. Les Pourvoyeurs furent écrasés par la force du nombre et condamnés à une vie d'esclavage.",
+      "html": "<p>Une guerre vieille de plusieurs siècles qui opposa les Pourvoyeurs aux autres humains.</p><p>Les « pourvoyeurs de bonheur » étaient à l&#39;époque érigés en saints grâce à leur magie, mais les sphères dirigeantes voyant leur influence diminuer à vue d&#39;œil les opprimèrent afin de conserver leur statut privilégié. Les Pourvoyeurs furent écrasés par la force du nombre et condamnés à une vie d&#39;esclavage.</p>",
       "caption": "",
       "public": "OFF"
     }

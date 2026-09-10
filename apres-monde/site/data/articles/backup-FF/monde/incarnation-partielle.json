@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 99,
-  "source": "base",
   "pages": [
     {
-      "text": "Une capacité spéciale qu'ont les Émissaires à stopper à mi-chemin leur transformation en Primordial.\n\nIls bénéficient ainsi d'une partie de leur pouvoir sans pour autant s'épuiser en consommant trop d'éther. Les changements varient selon les personnes, mais ils sont souvent radicaux.",
+      "html": "<p>Une capacité spéciale qu&#39;ont les Émissaires à stopper à mi-chemin leur transformation en Primordial.</p><p>Ils bénéficient ainsi d&#39;une partie de leur pouvoir sans pour autant s&#39;épuiser en consommant trop d&#39;éther. Les changements varient selon les personnes, mais ils sont souvent radicaux.</p>",
       "caption": "",
       "public": "OFF"
     }

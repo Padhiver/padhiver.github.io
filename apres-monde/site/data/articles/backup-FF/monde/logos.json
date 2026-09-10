@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 101,
-  "source": "base",
   "pages": [
     {
-      "text": "Le nom utilisé par Ultima pour désigner Clive, alors qu'il résiste à des illusions et tente de conserver son libre arbitre dans la fissure interdimensionnelle.\n\nClive se transforme petit à petit en une entité semblable à Ultima, et non en « Mythos », le réceptacle tant attendu. Ultima le qualifie de « Lógos », ou dieu factice, laissant transparaître son inquiétude.",
+      "html": "<p>Le nom utilisé par Ultima pour désigner Clive, alors qu&#39;il résiste à des illusions et tente de conserver son libre arbitre dans la fissure interdimensionnelle.</p><p>Clive se transforme petit à petit en une entité semblable à Ultima, et non en « Mythos », le réceptacle tant attendu. Ultima le qualifie de « Lógos », ou dieu factice, laissant transparaître son inquiétude.</p>",
       "caption": "",
       "public": "OFF"
     }

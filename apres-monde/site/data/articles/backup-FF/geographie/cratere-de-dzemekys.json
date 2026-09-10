@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 88,
-  "source": "base",
   "pages": [
     {
-      "text": "Un large gouffre situé entre le Vert-Ponant et le Gris-Levant, à l'est de la république de Dalméquie.\n\nC'est une cavité qui semble fendre la terre et la mer en deux, la partie proche de la mer forme une cascade. Selon les légendes, c'est en ces terres qu'aurait eu lieu la célèbre tragédie de Dzemekys.",
+      "html": "<p>Un large gouffre situé entre le Vert-Ponant et le Gris-Levant, à l&#39;est de la république de Dalméquie.</p><p>C&#39;est une cavité qui semble fendre la terre et la mer en deux, la partie proche de la mer forme une cascade. Selon les légendes, c&#39;est en ces terres qu&#39;aurait eu lieu la célèbre tragédie de Dzemekys.</p>",
       "caption": "Généralités",
       "public": "OFF"
     }

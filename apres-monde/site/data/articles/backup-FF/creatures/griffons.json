@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 30,
-  "source": "base",
   "pages": [
     {
-      "text": "Des monstres bestiaux qui ressemblent au croisement entre un oiseau et un fauve.\n\nLeur maîtrise de la magie de vent leur octroie une incroyable agilité, grâce à laquelle ils peuvent réaliser d'impressionnants plongeons aériens et piqués de vitesse malgré leur corps imposant. Aussi rares que majestueux, les griffons, sauvages ou non, ne se laissent que rarement apercevoir.",
+      "html": "<p>Des monstres bestiaux qui ressemblent au croisement entre un oiseau et un fauve.</p><p>Leur maîtrise de la magie de vent leur octroie une incroyable agilité, grâce à laquelle ils peuvent réaliser d&#39;impressionnants plongeons aériens et piqués de vitesse malgré leur corps imposant. Aussi rares que majestueux, les griffons, sauvages ou non, ne se laissent que rarement apercevoir.</p>",
       "caption": "",
       "public": "OFF"
     }

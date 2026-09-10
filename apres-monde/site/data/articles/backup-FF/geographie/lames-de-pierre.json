@@ -5,15 +5,14 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 143,
-  "source": "base",
   "pages": [
     {
-      "text": "Un corps armé appartenant au Repaire reconstruit par Clive.\n\nIl a des alliés aux quatre coins de Valisthéa et répond aux ordres d'Otto. Ses membres se font retirer le tatouage qu'ils portaient autrefois à la joue, et ils partent en mission pour secourir des Pourvoyeurs ou enquêter sur des créatures dangereuses. L'ancien Repaire possédait déjà un corps armé similaire à celui-ci, mais ce n'est qu'au nouveau qu'il fut nommé « Lames de pierre ».",
+      "html": "<p>Un corps armé appartenant au Repaire reconstruit par Clive.</p><p>Il a des alliés aux quatre coins de Valisthéa et répond aux ordres d&#39;Otto. Ses membres se font retirer le tatouage qu&#39;ils portaient autrefois à la joue, et ils partent en mission pour secourir des Pourvoyeurs ou enquêter sur des créatures dangereuses. L&#39;ancien Repaire possédait déjà un corps armé similaire à celui-ci, mais ce n&#39;est qu&#39;au nouveau qu&#39;il fut nommé « Lames de pierre ».</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "Un corps armé appartenant au Repaire reconstruit par Clive.\n\nSeuls ceux qui réussissent l'examen d'aptitude parviennent à rejoindre ses rangs. C'est Otto qui donne les instructions tandis que Dorys, capitaine en titre, dirige les troupes sur le terrain avec l'aide de Cole, son adjoint. Les membres des Lames de pierre se font retirer le tatouage qu'ils portent à la joue et partent en mission à l'extérieur pour secourir des Pourvoyeurs ou enquêter sur des créatures dangereuses.",
+      "html": "<p>Un corps armé appartenant au Repaire reconstruit par Clive.</p><p>Seuls ceux qui réussissent l&#39;examen d&#39;aptitude parviennent à rejoindre ses rangs. C&#39;est Otto qui donne les instructions tandis que Dorys, capitaine en titre, dirige les troupes sur le terrain avec l&#39;aide de Cole, son adjoint. Les membres des Lames de pierre se font retirer le tatouage qu&#39;ils portent à la joue et partent en mission à l&#39;extérieur pour secourir des Pourvoyeurs ou enquêter sur des créatures dangereuses.</p>",
       "caption": "Examen d'aptitude",
       "public": "OFF"
     }

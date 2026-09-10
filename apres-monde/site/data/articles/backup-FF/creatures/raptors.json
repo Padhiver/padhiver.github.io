@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 38,
-  "source": "base",
   "pages": [
     {
-      "text": "Des créatures apparentées aux oiseaux mais incapables de voler.\n\nIls ont longtemps été assimilés aux dragons, car ils crachent du feu et leur corps est dépourvu de plumes. Il n'est pas rare d'en apercevoir dans les plaines sangbréquoises.",
+      "html": "<p>Des créatures apparentées aux oiseaux mais incapables de voler.</p><p>Ils ont longtemps été assimilés aux dragons, car ils crachent du feu et leur corps est dépourvu de plumes. Il n&#39;est pas rare d&#39;en apercevoir dans les plaines sangbréquoises.</p>",
       "caption": "",
       "public": "OFF"
     }

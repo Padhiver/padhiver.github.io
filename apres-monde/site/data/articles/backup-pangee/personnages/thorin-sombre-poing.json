@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-09-05",
   "order": null,
-  "source": "pangee",
   "pages": [
     {
-      "text": "Fondateur légendaire de la cité-État naine de Kar'Dhurim, aujourd'hui vénéré comme esprit tutélaire de la cité par le culte des Fondateurs. Premier Huolta'Kal (gardien de la Roche) de toute l'histoire naine, il dut auparavant survivre à des années d'isolement total en ermite au cœur de la montagne en tant que Huol'rek, épreuve dont il revint doté de pouvoirs considérables mais à jamais exclu de toute fonction politique — un renoncement dont s'inspirera, selon certains érudits, la Nomos Hekatea impériale elle-même.\n\nSes créations façonnent encore aujourd'hui la vie magique de tout l'Empire : l'Akadama, académie formant les magiciens capables de concevoir leurs propres sorts, les portes-miroirs reliant les cités naines entre elles, le rituel de l'apaisement (la Suppression) et les tuhotaika employés par l'Ordre rouge. Une dette personnelle le lie à Fronir Ciel-Doré, Fondateur de Kar'Berial, qui le guérit un jour d'une peste jugée incurable — un épisode fondateur de l'alliance durable entre les deux cités.",
+      "html": "<p>Fondateur légendaire de la cité-État naine de Kar&#39;Dhurim, aujourd&#39;hui vénéré comme esprit tutélaire de la cité par le culte des Fondateurs. Premier Huolta&#39;Kal (gardien de la Roche) de toute l&#39;histoire naine, il dut auparavant survivre à des années d&#39;isolement total en ermite au cœur de la montagne en tant que Huol&#39;rek, épreuve dont il revint doté de pouvoirs considérables mais à jamais exclu de toute fonction politique — un renoncement dont s&#39;inspirera, selon certains érudits, la Nomos Hekatea impériale elle-même.</p><p>Ses créations façonnent encore aujourd&#39;hui la vie magique de tout l&#39;Empire : l&#39;Akadama, académie formant les magiciens capables de concevoir leurs propres sorts, les portes-miroirs reliant les cités naines entre elles, le rituel de l&#39;apaisement (la Suppression) et les tuhotaika employés par l&#39;Ordre rouge. Une dette personnelle le lie à Fronir Ciel-Doré, Fondateur de Kar&#39;Berial, qui le guérit un jour d&#39;une peste jugée incurable — un épisode fondateur de l&#39;alliance durable entre les deux cités.</p>",
       "caption": "",
       "public": "OFF"
     }

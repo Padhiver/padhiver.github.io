@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 118,
-  "source": "base",
   "pages": [
     {
-      "text": "Le puissant royaume qui s'étendait autrefois sur le Gris-Levant.\n\nBarnabas Tharmr le mit à genoux en l'espace d'une seule nuit et règne désormais en maître sur tout le continent.",
+      "html": "<p>Le puissant royaume qui s&#39;étendait autrefois sur le Gris-Levant.</p><p>Barnabas Tharmr le mit à genoux en l&#39;espace d&#39;une seule nuit et règne désormais en maître sur tout le continent.</p>",
       "caption": "",
       "public": "OFF"
     }

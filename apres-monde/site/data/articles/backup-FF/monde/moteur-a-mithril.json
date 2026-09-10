@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 39,
-  "source": "base",
   "pages": [
     {
-      "text": "Un système de propulsion révolutionnaire installé sur l'Entreprise, le navire le plus rapide qui soit.\n\nIl utilise pour carburant un mélange de minerai de mithril et d'une fine poudre noire extraite dans les Terres mortes et raffinée. Ce combustible permet de développer une puissance motrice extraordinaire, mais nécessite d'être brûlé à des températures extrêmes. Ainsi, en bon soldat du feu, le moteur dispose de sa propre panoplie ignifuge, avec une « armure », un « casque » et un « bouclier ».",
+      "html": "<p>Un système de propulsion révolutionnaire installé sur l&#39;Entreprise, le navire le plus rapide qui soit.</p><p>Il utilise pour carburant un mélange de minerai de mithril et d&#39;une fine poudre noire extraite dans les Terres mortes et raffinée. Ce combustible permet de développer une puissance motrice extraordinaire, mais nécessite d&#39;être brûlé à des températures extrêmes. Ainsi, en bon soldat du feu, le moteur dispose de sa propre panoplie ignifuge, avec une « armure », un « casque » et un « bouclier ».</p>",
       "caption": "",
       "public": "OFF"
     }

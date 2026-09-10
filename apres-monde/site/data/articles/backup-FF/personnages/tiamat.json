@@ -5,15 +5,14 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 92,
-  "source": "base",
   "pages": [
     {
-      "text": "Un Pourvoyeur de l'armée impériale de Sangbrèque.\n\nIl est le capitaine de l'unité de Pourvoyeurs envoyée en secret assassiner l'Émissaire de Shiva au défilé de Nýsa, là où la république de Dalméquie affronte le Royaume de Fer. Tiamat est un nom d'emprunt utilisé lors des missions et sa véritable identité est inconnue, mais on raconte qu'il serait un enfant bâtard issu d'une famille noble.",
+      "html": "<p>Un Pourvoyeur de l&#39;armée impériale de Sangbrèque.</p><p>Il est le capitaine de l&#39;unité de Pourvoyeurs envoyée en secret assassiner l&#39;Émissaire de Shiva au défilé de Nýsa, là où la république de Dalméquie affronte le Royaume de Fer. Tiamat est un nom d&#39;emprunt utilisé lors des missions et sa véritable identité est inconnue, mais on raconte qu&#39;il serait un enfant bâtard issu d&#39;une famille noble.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "Un Pourvoyeur de l'armée impériale de Sangbrèque.\n\nIl était le capitaine de l'unité de Pourvoyeurs envoyée en secret assassiner l'Émissaire de Shiva au défilé de Nýsa, là où la république de Dalméquie devait affronter le Royaume de Fer. Au cours de la mission, un de ses subalternes, Wyverne, alias Clive Rosfield, se rebelle contre lui et finit par le tuer.",
+      "html": "<p>Un Pourvoyeur de l&#39;armée impériale de Sangbrèque.</p><p>Il était le capitaine de l&#39;unité de Pourvoyeurs envoyée en secret assassiner l&#39;Émissaire de Shiva au défilé de Nýsa, là où la république de Dalméquie devait affronter le Royaume de Fer. Au cours de la mission, un de ses subalternes, Wyverne, alias Clive Rosfield, se rebelle contre lui et finit par le tuer.</p>",
       "caption": "Épilogue",
       "public": "OFF"
     }

@@ -5,15 +5,14 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 83,
-  "source": "base",
   "pages": [
     {
-      "text": "La fille unique du Hiérophante doyen, aussi connu sous le nom du duc d'Oriflamme.\n\nLorsque celui-ci quitte le Dominion du Cristal avec sa famille, Sabine se retrouve à Francastel. De par ses origines nobles, elle est hautement éduquée et très intéressée par la politique. Elle semble toutefois remontée contre son père, qui n'accorde guère d'attention à l'opinion du peuple. Elle s'oppose ainsi au projet du duc de développer Francastel en nouvelle capitale militaire et propose à Apolline de coopérer pour le contrer.",
+      "html": "<p>La fille unique du Hiérophante doyen, aussi connu sous le nom du duc d&#39;Oriflamme.</p><p>Lorsque celui-ci quitte le Dominion du Cristal avec sa famille, Sabine se retrouve à Francastel. De par ses origines nobles, elle est hautement éduquée et très intéressée par la politique. Elle semble toutefois remontée contre son père, qui n&#39;accorde guère d&#39;attention à l&#39;opinion du peuple. Elle s&#39;oppose ainsi au projet du duc de développer Francastel en nouvelle capitale militaire et propose à Apolline de coopérer pour le contrer.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "La fille unique du Hiérophante doyen, aussi connu sous le nom du duc d'Oriflamme.\n\nS'opposant farouchement au projet de son père de faire de Francastel le nouveau centre de l'Empire de Sangbrèque, elle réussit à rallier beaucoup de citoyens à sa cause. Après s'être réconciliée avec son géniteur, elle jure d'œuvrer pour la paix de Francastel, dans le cadre d'une union entre habitants, militaires et nobles.",
+      "html": "<p>La fille unique du Hiérophante doyen, aussi connu sous le nom du duc d&#39;Oriflamme.</p><p>S&#39;opposant farouchement au projet de son père de faire de Francastel le nouveau centre de l&#39;Empire de Sangbrèque, elle réussit à rallier beaucoup de citoyens à sa cause. Après s&#39;être réconciliée avec son géniteur, elle jure d&#39;œuvrer pour la paix de Francastel, dans le cadre d&#39;une union entre habitants, militaires et nobles.</p>",
       "caption": "L'union sacrée pour Francastel",
       "public": "OFF"
     }

@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 96,
-  "source": "base",
   "pages": [
     {
-      "text": "Une clairière bordée d'arbres à l'est de Sangbrèque.\n\n<i>Faÿ</i> désigne un lieu où poussent les hêtres. La route qui traverse ce lieu-dit relativement proche de Francastel est moins fréquentée et ainsi moins bien entretenue que celle qui mène à Fort-Norvent. Des monstres sont présents dans la zone, et on raconte depuis les temps anciens que des dragons y nichent, d'où le nom de <i>dragonnière</i>.",
+      "html": "<p>Une clairière bordée d&#39;arbres à l&#39;est de Sangbrèque.</p><p>&lt;i&gt;Faÿ&lt;/i&gt; désigne un lieu où poussent les hêtres. La route qui traverse ce lieu-dit relativement proche de Francastel est moins fréquentée et ainsi moins bien entretenue que celle qui mène à Fort-Norvent. Des monstres sont présents dans la zone, et on raconte depuis les temps anciens que des dragons y nichent, d&#39;où le nom de &lt;i&gt;dragonnière&lt;/i&gt;.</p>",
       "caption": "",
       "public": "OFF"
     }

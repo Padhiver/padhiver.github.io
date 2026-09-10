@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 31,
-  "source": "base",
   "pages": [
     {
-      "text": "Un jeune orphelin qui a commis des vols pour le compte des Lapidaires.\n\nLui et les autres enfants autrefois livrés à eux-mêmes se trouvent aujourd'hui sous la protection d'Éloïse, qui leur offre un travail honnête et un salaire. Honza a promis à Goetz d'être son premier client lorsque celui-ci ouvrirait son échoppe.",
+      "html": "<p>Un jeune orphelin qui a commis des vols pour le compte des Lapidaires.</p><p>Lui et les autres enfants autrefois livrés à eux-mêmes se trouvent aujourd&#39;hui sous la protection d&#39;Éloïse, qui leur offre un travail honnête et un salaire. Honza a promis à Goetz d&#39;être son premier client lorsque celui-ci ouvrirait son échoppe.</p>",
       "caption": "",
       "public": "OFF"
     }

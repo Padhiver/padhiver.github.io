@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 20,
-  "source": "base",
   "pages": [
     {
-      "text": "Un sort puissant qu'Ultima souhaite utiliser pour faire revenir à la vie ses frères et sœurs disparus.\n\nLancer ce sort nécessite cependant d'investir le corps de Mythos, car seul ce réceptacle résisterait à l'utilisation d'un sort aussi dangereux. Cela consommera également les réserves d'éther absorbé depuis des temps immémoriaux par les Cristaux-mères disposés aux quatre coins du monde.",
+      "html": "<p>Un sort puissant qu&#39;Ultima souhaite utiliser pour faire revenir à la vie ses frères et sœurs disparus.</p><p>Lancer ce sort nécessite cependant d&#39;investir le corps de Mythos, car seul ce réceptacle résisterait à l&#39;utilisation d&#39;un sort aussi dangereux. Cela consommera également les réserves d&#39;éther absorbé depuis des temps immémoriaux par les Cristaux-mères disposés aux quatre coins du monde.</p>",
       "caption": "",
       "public": "OFF"
     }

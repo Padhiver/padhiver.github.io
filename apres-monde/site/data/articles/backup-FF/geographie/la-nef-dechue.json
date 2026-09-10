@@ -5,25 +5,24 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 55,
-  "source": "base",
   "pages": [
     {
-      "text": "Un village situé au nord-est de la Grande Sylve, une forêt du centre géographique de l'empire de Sangbrèque.\n\nJadis important relais pour le commerce de la région, la construction de nouvelles routes fit perdre à La Nef déchue tout rayonnement, au point que son nom finit par disparaître des cartes. Elle a été bâtie autour de vestiges d'un aéronef.",
+      "html": "<p>Un village situé au nord-est de la Grande Sylve, une forêt du centre géographique de l&#39;empire de Sangbrèque.</p><p>Jadis important relais pour le commerce de la région, la construction de nouvelles routes fit perdre à La Nef déchue tout rayonnement, au point que son nom finit par disparaître des cartes. Elle a été bâtie autour de vestiges d&#39;un aéronef.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "Un village situé dans le centre de l'empire de Sangbrèque.\n\nIl accueille la base de Quentin, un partisan de Cid, qui abrite des Pourvoyeurs dans ce hameau abandonné. Il y a fondé une communauté clandestine où tout le monde s'entraide, Pourvoyeurs ou non. L'exploitation vitivinicole à proximité permet la production d'un grand cru, appelé « Château Gaulton », qui représente une précieuse source de revenus.",
+      "html": "<p>Un village situé dans le centre de l&#39;empire de Sangbrèque.</p><p>Il accueille la base de Quentin, un partisan de Cid, qui abrite des Pourvoyeurs dans ce hameau abandonné. Il y a fondé une communauté clandestine où tout le monde s&#39;entraide, Pourvoyeurs ou non. L&#39;exploitation vitivinicole à proximité permet la production d&#39;un grand cru, appelé « Château Gaulton », qui représente une précieuse source de revenus.</p>",
       "caption": "Collectivité",
       "public": "OFF"
     },
     {
-      "text": "Un village situé dans le centre de l'empire de Sangbrèque.\n\nIl accueille la base de Quentin, un partisan de Cid, dont l'objectif est de se venger de l'ancien ministre des Affaires judiciaires du Saint-Empire de Sangbrèque. C'est d'ailleurs pour rassembler des gens adhérant à ses opinions qu'il a restauré ce village abandonné. C'est lorsqu'il a su que les Chevaliers noirs observaient son village que Quentin a décidé de mettre son plan à exécution.",
+      "html": "<p>Un village situé dans le centre de l&#39;empire de Sangbrèque.</p><p>Il accueille la base de Quentin, un partisan de Cid, dont l&#39;objectif est de se venger de l&#39;ancien ministre des Affaires judiciaires du Saint-Empire de Sangbrèque. C&#39;est d&#39;ailleurs pour rassembler des gens adhérant à ses opinions qu&#39;il a restauré ce village abandonné. C&#39;est lorsqu&#39;il a su que les Chevaliers noirs observaient son village que Quentin a décidé de mettre son plan à exécution.</p>",
       "caption": "Les affaires de Quentin",
       "public": "OFF"
     },
     {
-      "text": "Un village situé dans le centre de l'empire de Sangbrèque.\n\nIl accueillait la base de Quentin, un partisan de Cid, qui a obtenu ce qu'il voulait et réussi à se venger de son ennemi, mais au prix de nombreuses vies parmi ses camarades. De plus, le hameau a été englouti par l'éther stagnant et est devenu inhabitable. Cependant, l'exploitation vitivinicole et quelques proches de Quentin sont toujours là. Ce fut l'occasion pour lui de faire le point sur son avenir et de choisir de reconstruire son village.",
+      "html": "<p>Un village situé dans le centre de l&#39;empire de Sangbrèque.</p><p>Il accueillait la base de Quentin, un partisan de Cid, qui a obtenu ce qu&#39;il voulait et réussi à se venger de son ennemi, mais au prix de nombreuses vies parmi ses camarades. De plus, le hameau a été englouti par l&#39;éther stagnant et est devenu inhabitable. Cependant, l&#39;exploitation vitivinicole et quelques proches de Quentin sont toujours là. Ce fut l&#39;occasion pour lui de faire le point sur son avenir et de choisir de reconstruire son village.</p>",
       "caption": "Une nouvelle famille",
       "public": "OFF"
     }

@@ -5,20 +5,19 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 16,
-  "source": "base",
   "pages": [
     {
-      "text": "Une ville fortifiée au nord du Saint-Empire de Sangbrèque.\n\nElle sert de ligne de défense à Oriflamme, la capitale, et est divisée en deux par un grand rempart qui la traverse de bout en bout. Du côté intérieur du mur, on retrouve surtout des soldats et des nobles, ainsi que la taverne et la maison close que la garnison fréquente. À l'extérieur du rempart, un marché en plein air s'est établi où des marchands venus de tout Valisthéa vendent leurs biens et denrées sur les nombreux étals qui s'y trouvent.",
+      "html": "<p>Une ville fortifiée au nord du Saint-Empire de Sangbrèque.</p><p>Elle sert de ligne de défense à Oriflamme, la capitale, et est divisée en deux par un grand rempart qui la traverse de bout en bout. Du côté intérieur du mur, on retrouve surtout des soldats et des nobles, ainsi que la taverne et la maison close que la garnison fréquente. À l&#39;extérieur du rempart, un marché en plein air s&#39;est établi où des marchands venus de tout Valisthéa vendent leurs biens et denrées sur les nombreux étals qui s&#39;y trouvent.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "Une ville fortifiée au nord du Saint-Empire de Sangbrèque.\n\nCréée pour servir de rempart à Oriflamme, son activité s'est vue fortement réduite lorsque l'Empire a transféré sa capitale au Dominion du Cristal. De plus, la destruction de Chefdrac a provoqué un appauvrissement des champs de blé environnants, qui étaient jusqu'alors fertiles et prospères.",
+      "html": "<p>Une ville fortifiée au nord du Saint-Empire de Sangbrèque.</p><p>Créée pour servir de rempart à Oriflamme, son activité s&#39;est vue fortement réduite lorsque l&#39;Empire a transféré sa capitale au Dominion du Cristal. De plus, la destruction de Chefdrac a provoqué un appauvrissement des champs de blé environnants, qui étaient jusqu&#39;alors fertiles et prospères.</p>",
       "caption": "Destruction de Chefdrac",
       "public": "OFF"
     },
     {
-      "text": "Une ville fortifiée au nord du Saint-Empire de Sangbrèque.\n\nAprès l'Expurgation, la zone menant à Oriflamme ayant été submergée par l'éther stagnant, d'étranges créatures bleutées se sont mises à attaquer la ville. Les habitants étaient en conflit avec le projet de fortification du duc d'Oriflamme mais ils ont pu unir leurs forces avec les militaires pour venir à bout de la menace. Au final, Apolline et le duc ont trouvé un terrain d'entente pour redévelopper la ville.",
+      "html": "<p>Une ville fortifiée au nord du Saint-Empire de Sangbrèque.</p><p>Après l&#39;Expurgation, la zone menant à Oriflamme ayant été submergée par l&#39;éther stagnant, d&#39;étranges créatures bleutées se sont mises à attaquer la ville. Les habitants étaient en conflit avec le projet de fortification du duc d&#39;Oriflamme mais ils ont pu unir leurs forces avec les militaires pour venir à bout de la menace. Au final, Apolline et le duc ont trouvé un terrain d&#39;entente pour redévelopper la ville.</p>",
       "caption": "Réconciliation",
       "public": "OFF"
     }

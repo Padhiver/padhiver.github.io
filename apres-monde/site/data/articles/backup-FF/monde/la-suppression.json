@@ -5,10 +5,9 @@
   "public": "ON",
   "date": "2026-09-04",
   "order": 25,
-  "source": "blanc-septentrion",
   "pages": [
     {
-      "text": "Le châtiment de l'Empire Minéen pour les mages hors-la-loi, réputé pire que la mort.\n\nCe rituel, mis au point par les académies impériales et le plus souvent accompli sur le sol des cités-États naines, calcifie définitivement les canaux magiques de l'individu et le sépare à jamais du flux ésotérique. On dit qu'il éteint du même coup toute émotion et toute ambition : le condamné survit, mais vidé. Les nobles et patriciens dont le don magique est découvert peuvent l'accepter volontairement plutôt que de renoncer à leur titre.",
+      "html": "<p>Le châtiment de l&#39;Empire Minéen pour les mages hors-la-loi, réputé pire que la mort.</p><p>Ce rituel, mis au point par les académies impériales et le plus souvent accompli sur le sol des cités-États naines, calcifie définitivement les canaux magiques de l&#39;individu et le sépare à jamais du flux ésotérique. On dit qu&#39;il éteint du même coup toute émotion et toute ambition : le condamné survit, mais vidé. Les nobles et patriciens dont le don magique est découvert peuvent l&#39;accepter volontairement plutôt que de renoncer à leur titre.</p>",
       "caption": "",
       "public": "ON"
     }

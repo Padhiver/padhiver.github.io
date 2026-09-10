@@ -5,15 +5,14 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 168,
-  "source": "base",
   "pages": [
     {
-      "text": "Une ville portuaire située dans la partie ouest de Rosalia.\n\nPresque aussi développée que Rosalith, cette ville voyait défiler de nombreux bateaux marchands venus de tous les horizons et prospérait quand Elwin Rosfield était à la tête de l'archiduché, mais tout a changé quand Sangbrèque a pris le pouvoir. L'empire s'est emparé des bases militaires et du marché de la ville, et a privé les habitants de toute liberté.",
+      "html": "<p>Une ville portuaire située dans la partie ouest de Rosalia.</p><p>Presque aussi développée que Rosalith, cette ville voyait défiler de nombreux bateaux marchands venus de tous les horizons et prospérait quand Elwin Rosfield était à la tête de l&#39;archiduché, mais tout a changé quand Sangbrèque a pris le pouvoir. L&#39;empire s&#39;est emparé des bases militaires et du marché de la ville, et a privé les habitants de toute liberté.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "Une ville portuaire située dans la partie ouest de Rosalia.\n\nEntre la main de fer du gouvernement d'occupation et les brimades de l'armée en faction contre les réfugiés, Port-Yseut a vécu un long enfer. Fort heureusement, la dévastation du Dominion du Cristal a semé le chaos à Sangbrèque et poussé l'oppresseur à retirer ses troupes de la ville. C'est désormais une milice au service de Byron Rosfield qui y fait régner l'ordre et la justice pour tous, même les réfugiés les plus démunis. ",
+      "html": "<p>Une ville portuaire située dans la partie ouest de Rosalia.</p><p>Entre la main de fer du gouvernement d&#39;occupation et les brimades de l&#39;armée en faction contre les réfugiés, Port-Yseut a vécu un long enfer. Fort heureusement, la dévastation du Dominion du Cristal a semé le chaos à Sangbrèque et poussé l&#39;oppresseur à retirer ses troupes de la ville. C&#39;est désormais une milice au service de Byron Rosfield qui y fait régner l&#39;ordre et la justice pour tous, même les réfugiés les plus démunis.</p>",
       "caption": "Après le retrait des troupes",
       "public": "OFF"
     }

@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 53,
-  "source": "base",
   "pages": [
     {
-      "text": "Des enceintes infranchissables créées par un sort magique.\n\nSelon leur taille et leur puissance, il peut être difficile pour leurs créateurs de les maintenir pendant de longues périodes.",
+      "html": "<p>Des enceintes infranchissables créées par un sort magique.</p><p>Selon leur taille et leur puissance, il peut être difficile pour leurs créateurs de les maintenir pendant de longues périodes.</p>",
       "caption": "",
       "public": "OFF"
     }

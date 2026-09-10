@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-09-05",
   "order": null,
-  "source": "pangee",
   "pages": [
     {
-      "text": "Barrière mystique absolue encerclant Pangée, érigée par les dieux la nuit même de la chute des pierres du ciel pour enfermer le continent et l'isoler du reste de la cosmologie, en châtiment de l'hubris de l'Empire protéen. Aucune créature, aussi puissante soit-elle, n'est jamais parvenue à le franchir ou même à en atteindre la structure véritable ; il marque la limite ultime de toute carte connue et la frontière au-delà de laquelle aucun voyageur n'est jamais revenu.\n\nLa tradition savante veut que ce soit précisément cet enfermement forcé qui ait engendré, en retour, la multitude de mondes-miroirs aujourd'hui accessibles depuis Pangée par de rares failles instables — comme si l'énergie qui aurait dû permettre de quitter le monde s'était retournée pour créer d'innombrables reflets déformés de celui-ci. Un lien mystérieux et jamais éclairci est parfois évoqué par les érudits entre le Mur et des cataclysmes similaires survenus dans d'autres mondes lointains, sans qu'aucune preuve tangible n'ait jamais permis de le confirmer.",
+      "html": "<p>Barrière mystique absolue encerclant Pangée, érigée par les dieux la nuit même de la chute des pierres du ciel pour enfermer le continent et l&#39;isoler du reste de la cosmologie, en châtiment de l&#39;hubris de l&#39;Empire protéen. Aucune créature, aussi puissante soit-elle, n&#39;est jamais parvenue à le franchir ou même à en atteindre la structure véritable ; il marque la limite ultime de toute carte connue et la frontière au-delà de laquelle aucun voyageur n&#39;est jamais revenu.</p><p>La tradition savante veut que ce soit précisément cet enfermement forcé qui ait engendré, en retour, la multitude de mondes-miroirs aujourd&#39;hui accessibles depuis Pangée par de rares failles instables — comme si l&#39;énergie qui aurait dû permettre de quitter le monde s&#39;était retournée pour créer d&#39;innombrables reflets déformés de celui-ci. Un lien mystérieux et jamais éclairci est parfois évoqué par les érudits entre le Mur et des cataclysmes similaires survenus dans d&#39;autres mondes lointains, sans qu&#39;aucune preuve tangible n&#39;ait jamais permis de le confirmer.</p>",
       "caption": "",
       "public": "OFF"
     }

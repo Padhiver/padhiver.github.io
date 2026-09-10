@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 45,
-  "source": "base",
   "pages": [
     {
-      "text": "La guerre qui a marqué la fin de l'ère des Célestes.\n\nLors de celle-ci, une multitude d'armes dites « magitech » furent utilisées pour prendre le contrôle des Cristaux-mères. L'affrontement eut pour tragique résultat d'épuiser l'éther de Valisthéa et de donner naissance au Fléau noir. Par la suite, la technologie magitech commença à péricliter, et la civilisation des Célestes ne s'en releva jamais.",
+      "html": "<p>La guerre qui a marqué la fin de l&#39;ère des Célestes.</p><p>Lors de celle-ci, une multitude d&#39;armes dites « magitech » furent utilisées pour prendre le contrôle des Cristaux-mères. L&#39;affrontement eut pour tragique résultat d&#39;épuiser l&#39;éther de Valisthéa et de donner naissance au Fléau noir. Par la suite, la technologie magitech commença à péricliter, et la civilisation des Célestes ne s&#39;en releva jamais.</p>",
       "caption": "",
       "public": "OFF"
     }

@@ -5,20 +5,19 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 68,
-  "source": "base",
   "pages": [
     {
-      "text": "Un historien célèbre ayant étudié l'ancienne Valisthéa.\n\nIl a couché par écrit un nombre particulièrement important d'informations et connaissances sur les mythes et légendes valisthéens. Il s'est effacé du devant de la scène à un âge avancé, alors qu'il était visé par les critiques de ses pairs.",
+      "html": "<p>Un historien célèbre ayant étudié l&#39;ancienne Valisthéa.</p><p>Il a couché par écrit un nombre particulièrement important d&#39;informations et connaissances sur les mythes et légendes valisthéens. Il s&#39;est effacé du devant de la scène à un âge avancé, alors qu&#39;il était visé par les critiques de ses pairs.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "Un historien célèbre que Harpocrate considère comme son maître.\n\nIl a mené des recherches au sujet d'Ultima et du Cercle de Malius, mais ses pairs estimaient que ses théories étaient absurdes. Parmi ses importantes découvertes et observations, tout ce qui n'a pas été consigné dans ses <i>Écrits</i> est malheureusement tombé dans l'oubli.",
+      "html": "<p>Un historien célèbre que Harpocrate considère comme son maître.</p><p>Il a mené des recherches au sujet d&#39;Ultima et du Cercle de Malius, mais ses pairs estimaient que ses théories étaient absurdes. Parmi ses importantes découvertes et observations, tout ce qui n&#39;a pas été consigné dans ses &lt;i&gt;Écrits&lt;/i&gt; est malheureusement tombé dans l&#39;oubli.</p>",
       "caption": "Écrits de Mors",
       "public": "OFF"
     },
     {
-      "text": "Un historien célèbre.\n\nIl s'est installé dans un petit village des continents extérieurs alors qu'il avait déjà un certain âge, et il y a rencontré le jeune Harpocrate. Tous deux nouèrent une relation de maître et disciple, voire de grand-père et petit-fils. Puis un jour, il laissa un message enjoignant le jeune homme à approfondir sans cesse ses connaissances et disparut avec ses écrits.",
+      "html": "<p>Un historien célèbre.</p><p>Il s&#39;est installé dans un petit village des continents extérieurs alors qu&#39;il avait déjà un certain âge, et il y a rencontré le jeune Harpocrate. Tous deux nouèrent une relation de maître et disciple, voire de grand-père et petit-fils. Puis un jour, il laissa un message enjoignant le jeune homme à approfondir sans cesse ses connaissances et disparut avec ses écrits.</p>",
       "caption": "Lien avec Harpocrate",
       "public": "OFF"
     }

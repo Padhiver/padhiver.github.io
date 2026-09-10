@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 61,
-  "source": "base",
   "pages": [
     {
-      "text": "La forme que prend Ultima en réintégrant son corps déchu, celui d'Ifrit le Primordial ténébreux.\n\nDans la fissure interdimensionnelle, il s'attaque à Clive sous cette forme pour le faire plier en tant que Mythos.",
+      "html": "<p>La forme que prend Ultima en réintégrant son corps déchu, celui d&#39;Ifrit le Primordial ténébreux.</p><p>Dans la fissure interdimensionnelle, il s&#39;attaque à Clive sous cette forme pour le faire plier en tant que Mythos.</p>",
       "caption": "",
       "public": "OFF"
     }

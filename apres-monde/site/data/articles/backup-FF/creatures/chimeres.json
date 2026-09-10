@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 18,
-  "source": "base",
   "pages": [
     {
-      "text": "Des bêtes aux caractéristiques si hétérogènes qu'on les croirait faites des membres de plusieurs monstres différents.\n\nEn plus d'être féroces et intelligentes, elles peuvent manipuler différentes magies élémentaires. D'autre part, certaines chimères sont de véritables meneuses nées et sont accompagnées de toutes sortes de monstres à leurs ordres. D'une façon générale, ces créatures sont extrêmement rares, mais quelques personnes en ont apparemment aperçu en république de Dalméquie.",
+      "html": "<p>Des bêtes aux caractéristiques si hétérogènes qu&#39;on les croirait faites des membres de plusieurs monstres différents.</p><p>En plus d&#39;être féroces et intelligentes, elles peuvent manipuler différentes magies élémentaires. D&#39;autre part, certaines chimères sont de véritables meneuses nées et sont accompagnées de toutes sortes de monstres à leurs ordres. D&#39;une façon générale, ces créatures sont extrêmement rares, mais quelques personnes en ont apparemment aperçu en république de Dalméquie.</p>",
       "caption": "",
       "public": "OFF"
     }

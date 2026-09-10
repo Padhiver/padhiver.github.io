@@ -164,14 +164,67 @@ const EanaRender = (() => {
 
   // ---------- Fiche (overlay) ----------
 
-  // Les textes de fiche commencent souvent par une courte ligne d'accroche
-  // suivie d'une ligne vide : on la remonte en sous-titre.
-  function splitKicker(text) {
-    const blocks = String(text || "").split(/\n\s*\n/).map((b) => b.trim()).filter(Boolean);
-    if (blocks.length > 1 && blocks[0].length <= 120) {
-      return { kicker: blocks[0], body: blocks.slice(1) };
+  // Balises autorisées dans le corps HTML d'une fiche (champ pages[].html).
+  // Ce HTML vient de fichiers du dépôt — rédigés via outils/redacteur.html
+  // puis relus et commités par Padhiver — mais on le nettoie tout de même :
+  // liste blanche de balises, aucun attribut sauf un href sûr sur <a>.
+  const ARTICLE_TAGS = new Set([
+    "P", "BR", "STRONG", "EM", "B", "I", "U", "S", "A",
+    "UL", "OL", "LI", "H3", "H4", "BLOCKQUOTE", "HR", "CODE",
+  ]);
+  const ARTICLE_DROP = new Set(["SCRIPT", "STYLE", "IFRAME", "OBJECT", "EMBED", "LINK", "META"]);
+
+  function sanitizeArticleHtml(html) {
+    const tpl = document.createElement("template");
+    tpl.innerHTML = String(html || "");
+    (function clean(parent) {
+      [...parent.childNodes].forEach((node) => {
+        if (node.nodeType === 8) { node.remove(); return; }          // commentaire
+        if (node.nodeType !== 1) return;                              // texte : conservé
+        if (ARTICLE_DROP.has(node.tagName)) { node.remove(); return; }
+        if (!ARTICLE_TAGS.has(node.tagName)) {                        // balise inconnue : on la déballe
+          const frag = document.createDocumentFragment();
+          while (node.firstChild) frag.appendChild(node.firstChild);
+          node.replaceWith(frag);
+          clean(parent);
+          return;
+        }
+        [...node.attributes].forEach((attr) => {
+          const ok = node.tagName === "A" && attr.name === "href"
+            && /^(https?:|mailto:|\/|#)/i.test(attr.value.trim());
+          if (!ok) node.removeAttribute(attr.name);
+        });
+        if (node.tagName === "A") {
+          node.setAttribute("rel", "noopener");
+          node.setAttribute("target", "_blank");
+        }
+        clean(node);
+      });
+    })(tpl.content);
+    return tpl.innerHTML.trim();
+  }
+
+  // Corps d'une page : le HTML mis en forme du champ pages[].html, nettoyé.
+  function pageBodyHtml(pageData) {
+    return sanitizeArticleHtml(pageData.html || "");
+  }
+
+  // Accroche : si le corps s'ouvre sur un court paragraphe isolé, on le
+  // remonte en sous-titre (comportement historique, transposé au HTML).
+  function splitKicker(bodyHtml) {
+    const m = bodyHtml.match(/^\s*<p>([\s\S]*?)<\/p>\s*([\s\S]*)$/i);
+    if (m) {
+      const firstText = m[1].replace(/<[^>]+>/g, "").trim();
+      const rest = m[2].trim();
+      if (rest && firstText.length <= 120) return { kicker: m[1].trim(), body: rest };
     }
-    return { kicker: "", body: blocks };
+    return { kicker: "", body: bodyHtml };
+  }
+
+  // Corps structuré (listes, titres, citations…) : rendu en une seule colonne,
+  // le découpage en colonnes mesuré (overlay.js) ne s'y prête pas.
+  function isRichBody(html) {
+    return /<(ul|ol|h3|h4|blockquote|hr)\b/i.test(html);
   }
 
   // Contenu du panneau, sans son enveloppe. Isolé pour que app.js puisse
@@ -185,9 +238,10 @@ const EanaRender = (() => {
     const current = Math.min(page, Math.max(0, total - 1));
     const pageData = pages[current] || {};
 
-    const { kicker, body } = splitKicker(pageData.text);
-    const bodyHtml = body.length
-      ? body.map((p) => `<p>${escapeHtml(p)}</p>`).join("")
+    const { kicker, body } = splitKicker(pageBodyHtml(pageData));
+    const rich = isRichBody(body);
+    const bodyHtml = body
+      ? body
       : `<p class="empty-state">${escapeHtml(EanaI18n.t("article.emptyText"))}</p>`;
 
     const pennonHtml = banner
@@ -219,10 +273,10 @@ const EanaRender = (() => {
       <button class="article-close" data-close-overlay aria-label="${escapeHtml(EanaI18n.t("common.close"))}">${CLOSE_ICON}</button>
       <div class="article-breadcrumb">${escapeHtml(category ? category.label : "")}</div>
       <h2>${escapeHtml(article.title)}</h2>
-      ${kicker ? `<p class="article-kicker">${escapeHtml(kicker)}</p>` : ""}
+      ${kicker ? `<p class="article-kicker">${kicker}</p>` : ""}
       <div class="article-rule"></div>
       <div class="article-body">
-        <div class="body-text">${bodyHtml}</div>
+        <div class="body-text${rich ? " body-text--rich" : ""}">${bodyHtml}</div>
         <aside>
           <figure class="article-figure">
             <div class="portrait">

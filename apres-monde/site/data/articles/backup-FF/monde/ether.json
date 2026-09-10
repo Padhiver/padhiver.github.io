@@ -5,10 +5,9 @@
   "public": "ON",
   "date": "2026-08-08",
   "order": 90,
-  "source": "base",
   "pages": [
     {
-      "text": "La force vitale qui émane de la planète et qui est consommée lorsque de la magie est utilisée.\n\nLa quantité qui se consume varie en fonction du sort, mais les sorts puissants et ceux affectant une zone étendue demandent évidemment plus d'éther. Ainsi, un petit cristal de poche suffira à allumer un feu destiné à cuire des aliments, mais il faudra en utiliser un plus grand pour nourrir le feu d'une forge.",
+      "html": "<p>La force vitale qui émane de la planète et qui est consommée lorsque de la magie est utilisée.</p><p>La quantité qui se consume varie en fonction du sort, mais les sorts puissants et ceux affectant une zone étendue demandent évidemment plus d&#39;éther. Ainsi, un petit cristal de poche suffira à allumer un feu destiné à cuire des aliments, mais il faudra en utiliser un plus grand pour nourrir le feu d&#39;une forge.</p>",
       "caption": "",
       "public": "ON"
     }

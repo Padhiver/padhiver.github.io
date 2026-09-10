@@ -68,6 +68,12 @@ const EanaOverlay = (() => {
   // disponible, donnée par la colonne visuelle d'à côté (visuel + chapitres).
   function fillColumnsSequentially(container) {
     if (!container) return;
+    // Corps HTML structuré : rendu en une seule colonne par le CSS
+    // (.body-text--rich), on ne mesure rien.
+    if (container.classList.contains("body-text--rich")) {
+      container.style.height = "";
+      return;
+    }
     container.style.height = "";
     container.classList.remove("body-text--single");
 

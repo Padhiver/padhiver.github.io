@@ -5,15 +5,14 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 7,
-  "source": "base",
   "pages": [
     {
-      "text": "La forme combinée d'Ifrit et de Phénix.\n\nCette nouvelle puissance s'est manifestée sous la volonté unie de Clive et Joshua, en mauvaise posture lors de leur combat contre Bahamut au Dominion du Cristal. Cette entité ressemble à Ifrit portant les ailes de Phénix, et possède une grande puissance de combat.",
+      "html": "<p>La forme combinée d&#39;Ifrit et de Phénix.</p><p>Cette nouvelle puissance s&#39;est manifestée sous la volonté unie de Clive et Joshua, en mauvaise posture lors de leur combat contre Bahamut au Dominion du Cristal. Cette entité ressemble à Ifrit portant les ailes de Phénix, et possède une grande puissance de combat.</p>",
       "caption": "Après la fusion",
       "public": "OFF"
     },
     {
-      "text": "La forme combinée d'Ifrit et de Phénix, qui représente le réceptacle tel qu'Ultima le convoite.\n\nCette apparence est la forme finale d'Ifrit, tel qu'il était représenté sur la tapisserie sacrée maliusianiste. Il s'agit là de leur dieu en personne, et il possède un pouvoir sans pareil.",
+      "html": "<p>La forme combinée d&#39;Ifrit et de Phénix, qui représente le réceptacle tel qu&#39;Ultima le convoite.</p><p>Cette apparence est la forme finale d&#39;Ifrit, tel qu&#39;il était représenté sur la tapisserie sacrée maliusianiste. Il s&#39;agit là de leur dieu en personne, et il possède un pouvoir sans pareil.</p>",
       "caption": "Révélation",
       "public": "OFF"
     }

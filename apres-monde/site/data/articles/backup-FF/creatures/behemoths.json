@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 16,
-  "source": "base",
   "pages": [
     {
-      "text": "Des bêtes colossales dotées d'une incroyable force destructrice.\n\nOn dit des malheureux qui croisent leur route qu'ils sont paralysés par la peur de mourir, et de ceux qui cherchent à l'affronter qu'ils finiront dans son estomac. Les béhémoths ne vivent qu'au Gris-Levant. Il faut noter que le royaume de Valœd est parvenu à exploiter la puissance destructrice de ces terribles bêtes sur le champ de bataille.",
+      "html": "<p>Des bêtes colossales dotées d&#39;une incroyable force destructrice.</p><p>On dit des malheureux qui croisent leur route qu&#39;ils sont paralysés par la peur de mourir, et de ceux qui cherchent à l&#39;affronter qu&#39;ils finiront dans son estomac. Les béhémoths ne vivent qu&#39;au Gris-Levant. Il faut noter que le royaume de Valœd est parvenu à exploiter la puissance destructrice de ces terribles bêtes sur le champ de bataille.</p>",
       "caption": "",
       "public": "OFF"
     }

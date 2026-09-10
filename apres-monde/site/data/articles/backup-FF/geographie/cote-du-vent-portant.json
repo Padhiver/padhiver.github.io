@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 31,
-  "source": "rising-tide",
   "pages": [
     {
-      "text": "Littoral qui s'étend à l'est de Mysidia.\n\n\nCette côte offre une vue dégagée sur le cap de Nepto. On raconte que ses falaises escarpées auraient été sculptées par les coups de queue d'un puissant monstre marin il y a quatre-vingts ans.",
+      "html": "<p>Littoral qui s&#39;étend à l&#39;est de Mysidia.</p><p>Cette côte offre une vue dégagée sur le cap de Nepto. On raconte que ses falaises escarpées auraient été sculptées par les coups de queue d&#39;un puissant monstre marin il y a quatre-vingts ans.</p>",
       "caption": "",
       "public": "OFF"
     }

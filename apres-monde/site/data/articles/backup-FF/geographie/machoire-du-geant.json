@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 50,
-  "source": "base",
   "pages": [
     {
-      "text": "Une région montagneuse dans le sud-ouest de la république de Dalméquie.\n\nElle offre une vue dégagée du Cristal-mère de Crocdrac avec son grand espace désertique.",
+      "html": "<p>Une région montagneuse dans le sud-ouest de la république de Dalméquie.</p><p>Elle offre une vue dégagée du Cristal-mère de Crocdrac avec son grand espace désertique.</p>",
       "caption": "",
       "public": "OFF"
     }

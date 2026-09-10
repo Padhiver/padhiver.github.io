@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 24,
-  "source": "base",
   "pages": [
     {
-      "text": "Des créatures magiques visqueuses semblables à de la boue.\n\nÉtant extrêmement élastiques, elles multiplient les attaques en changeant librement la forme de leur corps. De plus, les entailles faites à l'épée disparaissent de leur corps instantanément. On peut en trouver dans toutes les régions de Valisthéa mais leur couleur peut différer selon le milieu.",
+      "html": "<p>Des créatures magiques visqueuses semblables à de la boue.</p><p>Étant extrêmement élastiques, elles multiplient les attaques en changeant librement la forme de leur corps. De plus, les entailles faites à l&#39;épée disparaissent de leur corps instantanément. On peut en trouver dans toutes les régions de Valisthéa mais leur couleur peut différer selon le milieu.</p>",
       "caption": "",
       "public": "OFF"
     }

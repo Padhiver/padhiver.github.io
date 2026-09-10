@@ -5,10 +5,9 @@
   "public": "ON",
   "date": "2026-08-08",
   "order": 48,
-  "source": "base",
   "pages": [
     {
-      "text": "Les faits et gestes de Pourvoyeurs sont sujets à certaines contraintes.\n\nIl leur est d'ordinaire interdit d'agir de leur propre chef, et ils doivent donc bénéficier d'une autorisation d'un maître pour accomplir leurs tâches. De la même manière, il leur est interdit de parler sans y avoir été invités, y compris lorsqu'ils s'adressent à d'autres Pourvoyeurs. Seuls ceux disposant d'une broche, un signe de confiance accordé par des personnes influentes, peuvent se déplacer et agir plus librement.",
+      "html": "<p>Les faits et gestes de Pourvoyeurs sont sujets à certaines contraintes.</p><p>Il leur est d&#39;ordinaire interdit d&#39;agir de leur propre chef, et ils doivent donc bénéficier d&#39;une autorisation d&#39;un maître pour accomplir leurs tâches. De la même manière, il leur est interdit de parler sans y avoir été invités, y compris lorsqu&#39;ils s&#39;adressent à d&#39;autres Pourvoyeurs. Seuls ceux disposant d&#39;une broche, un signe de confiance accordé par des personnes influentes, peuvent se déplacer et agir plus librement.</p>",
       "caption": "",
       "public": "ON"
     }

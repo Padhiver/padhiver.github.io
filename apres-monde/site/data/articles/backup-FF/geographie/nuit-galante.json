@@ -5,15 +5,14 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 57,
-  "source": "base",
   "pages": [
     {
-      "text": "Une maison close de luxe située à Francastel.\n\nBien que cet établissement soit principalement fréquenté par des soldats, la propriétaire, Madame Apolline, traite tous ses clients sur un pied d'égalité. Véritable oasis, la Nuit galante est appréciée par tous, soldats ou civils.",
+      "html": "<p>Une maison close de luxe située à Francastel.</p><p>Bien que cet établissement soit principalement fréquenté par des soldats, la propriétaire, Madame Apolline, traite tous ses clients sur un pied d&#39;égalité. Véritable oasis, la Nuit galante est appréciée par tous, soldats ou civils.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "Une maison close de luxe située à Francastel.\n\nPar principe, la propriétaire, Madame Apolline, ne refuse jamais de venir en aide aux personnes dans le besoin en les employant. Après l'assombrissement du ciel, elle a hébergé des réfugiés d'Oriflamme. Elle aide discrètement la tribu de l'Eau de Mysidia depuis longtemps, fournissant vivres et travail à ses membres.",
+      "html": "<p>Une maison close de luxe située à Francastel.</p><p>Par principe, la propriétaire, Madame Apolline, ne refuse jamais de venir en aide aux personnes dans le besoin en les employant. Après l&#39;assombrissement du ciel, elle a hébergé des réfugiés d&#39;Oriflamme. Elle aide discrètement la tribu de l&#39;Eau de Mysidia depuis longtemps, fournissant vivres et travail à ses membres.</p>",
       "caption": "Liens avec la tribu de l'Eau",
       "public": "OFF"
     }

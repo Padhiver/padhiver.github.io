@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 53,
-  "source": "base",
   "pages": [
     {
-      "text": "Une zone maritime qui s'étend de la rive ouest de la province impériale de Rosalia à l'est du Royaume de Fer.\n\nEntre les deux se trouve l'île Drustanus, sur laquelle se dresse le Cristal-mère de Souffledrac. La possession de ce dernier, enjeu majeur pour les Rosaliens comme pour les Ferrégiens, a poussé ceux-ci à faire de cette mer Frémissante le théâtre de batailles navales sans merci. Appelée <i>Muir Goileach</i> dans la langue locale, cette mer doit son surnom au fait que ses eaux semblent en ébullition à proximité de l'île Drustanus et de son volcan.",
+      "html": "<p>Une zone maritime qui s&#39;étend de la rive ouest de la province impériale de Rosalia à l&#39;est du Royaume de Fer.</p><p>Entre les deux se trouve l&#39;île Drustanus, sur laquelle se dresse le Cristal-mère de Souffledrac. La possession de ce dernier, enjeu majeur pour les Rosaliens comme pour les Ferrégiens, a poussé ceux-ci à faire de cette mer Frémissante le théâtre de batailles navales sans merci. Appelée &lt;i&gt;Muir Goileach&lt;/i&gt; dans la langue locale, cette mer doit son surnom au fait que ses eaux semblent en ébullition à proximité de l&#39;île Drustanus et de son volcan.</p>",
       "caption": "",
       "public": "OFF"
     }

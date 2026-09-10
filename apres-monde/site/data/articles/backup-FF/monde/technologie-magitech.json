@@ -5,15 +5,14 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 25,
-  "source": "base",
   "pages": [
     {
-      "text": "La technologie magique avancée qu'utilisaient les Célestes, notamment pour construire leurs aéronefs.\n\nElle a principalement servi à créer des armes vivantes artificielles que seuls d'exceptionnels mages surnommés les invocateurs étaient en mesure de contrôler. Ces êtres surnaturels à la puissance proche du divin partagent chacun une affinité avec un élément primaire, ce qui leur valut d'être baptisés « Primordiaux ».",
+      "html": "<p>La technologie magique avancée qu&#39;utilisaient les Célestes, notamment pour construire leurs aéronefs.</p><p>Elle a principalement servi à créer des armes vivantes artificielles que seuls d&#39;exceptionnels mages surnommés les invocateurs étaient en mesure de contrôler. Ces êtres surnaturels à la puissance proche du divin partagent chacun une affinité avec un élément primaire, ce qui leur valut d&#39;être baptisés « Primordiaux ».</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "La technologie magique avancée qu'utilisaient les Célestes.\n\nAvec la magie comme source d'énergie, les Célestes sont parvenus à créer des machines plus incroyables les unes que les autres, comme les aéronefs ou les armes magitech. Le temps a effacé toute trace de ce savoir, sauf à l'intérieur de la Tour des Sages, où restaient préservés un Cristal-mère artificiel et un « Bio-Primordial » en état de marche.",
+      "html": "<p>La technologie magique avancée qu&#39;utilisaient les Célestes.</p><p>Avec la magie comme source d&#39;énergie, les Célestes sont parvenus à créer des machines plus incroyables les unes que les autres, comme les aéronefs ou les armes magitech. Le temps a effacé toute trace de ce savoir, sauf à l&#39;intérieur de la Tour des Sages, où restaient préservés un Cristal-mère artificiel et un « Bio-Primordial » en état de marche.</p>",
       "caption": "La Tour des Sages",
       "public": "OFF"
     }

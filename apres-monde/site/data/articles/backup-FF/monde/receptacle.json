@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 47,
-  "source": "base",
   "pages": [
     {
-      "text": "Le nom que donne Ultima à Clive en plus de Mythos.\n\nIl ne cesse de répéter à ce dernier qu'il est son réceptacle.",
+      "html": "<p>Le nom que donne Ultima à Clive en plus de Mythos.</p><p>Il ne cesse de répéter à ce dernier qu&#39;il est son réceptacle.</p>",
       "caption": "",
       "public": "OFF"
     }

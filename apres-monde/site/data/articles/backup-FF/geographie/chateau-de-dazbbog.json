@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 81,
-  "source": "base",
   "pages": [
     {
-      "text": "Un château construit à l'intérieur du Cristal-mère de Crocdrac, au sud-ouest de la république de Dalméquie.",
+      "html": "<p>Un château construit à l&#39;intérieur du Cristal-mère de Crocdrac, au sud-ouest de la république de Dalméquie.</p>",
       "caption": "",
       "public": "OFF"
     }

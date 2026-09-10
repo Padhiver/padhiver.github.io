@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 85,
-  "source": "base",
   "pages": [
     {
-      "text": "La plus haute autorité législative et exécutive de la république de Dalméquie.\n\nComposé de sept membres, le Conseil décide des grandes orientations politiques et vote les lois importantes.",
+      "html": "<p>La plus haute autorité législative et exécutive de la république de Dalméquie.</p><p>Composé de sept membres, le Conseil décide des grandes orientations politiques et vote les lois importantes.</p>",
       "caption": "Généralités",
       "public": "OFF"
     }

@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 101,
-  "source": "base",
   "pages": [
     {
-      "text": "Un immense lac situé au cœur d'une région ravagée par le Fléau noir, au centre du Vert-Ponant.\n\nDes épaves d'aéronefs flottant çà et là à sa surface sont à l'origine de son surnom de cimetière des aéronefs. C'est là que Clive a décidé d'installer son nouveau Repaire. Éloigné des principales routes commerciales et englouti par le Fléau noir, ce lac dont même l'eau est contaminée a été oublié de tous, et plus personne n'ose s‘aventurer sur ses berges.",
+      "html": "<p>Un immense lac situé au cœur d&#39;une région ravagée par le Fléau noir, au centre du Vert-Ponant.</p><p>Des épaves d&#39;aéronefs flottant çà et là à sa surface sont à l&#39;origine de son surnom de cimetière des aéronefs. C&#39;est là que Clive a décidé d&#39;installer son nouveau Repaire. Éloigné des principales routes commerciales et englouti par le Fléau noir, ce lac dont même l&#39;eau est contaminée a été oublié de tous, et plus personne n&#39;ose s‘aventurer sur ses berges.</p>",
       "caption": "",
       "public": "OFF"
     }

@@ -5,20 +5,19 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 63,
-  "source": "echoes-of-the-fallen",
   "pages": [
     {
-      "text": "D'étranges cristaux bien plus opaques que les autres.\n\nIls fonctionnent comme les cristaux ordinaires, à ceci près qu'ils se brisent bien souvent dès la première utilisation. Ils sont apparus sur le marché noir peu de temps après l'assombrissement du ciel. Ces articles inhabituels ont intrigué Kharonne qui n'a pas réfléchi à deux fois avant de s'en procurer un échantillon.",
+      "html": "<p>D&#39;étranges cristaux bien plus opaques que les autres.</p><p>Ils fonctionnent comme les cristaux ordinaires, à ceci près qu&#39;ils se brisent bien souvent dès la première utilisation. Ils sont apparus sur le marché noir peu de temps après l&#39;assombrissement du ciel. Ces articles inhabituels ont intrigué Kharonne qui n&#39;a pas réfléchi à deux fois avant de s&#39;en procurer un échantillon.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "D'étranges cristaux bien plus opaques que les autres et qu'on trouve en abondance dans la Tour des Sages.\n\nFahmil et ses acolytes les minaient sur place et les rapportaient à leur village pour l'utilisation quotidienne des habitants. Mais la demande en cristal ayant considérablement augmenté après l'assombrissement du ciel, ils ont commencé à vendre leur surplus sur le marché noir pour profiter de cette manne. Ces cristaux semblent être liés au Cristal-mère artificiel de la Tour des Sages.",
+      "html": "<p>D&#39;étranges cristaux bien plus opaques que les autres et qu&#39;on trouve en abondance dans la Tour des Sages.</p><p>Fahmil et ses acolytes les minaient sur place et les rapportaient à leur village pour l&#39;utilisation quotidienne des habitants. Mais la demande en cristal ayant considérablement augmenté après l&#39;assombrissement du ciel, ils ont commencé à vendre leur surplus sur le marché noir pour profiter de cette manne. Ces cristaux semblent être liés au Cristal-mère artificiel de la Tour des Sages.</p>",
       "caption": "Le lien avec la Tour des Sages",
       "public": "OFF"
     },
     {
-      "text": "D'étranges cristaux imparfaits provenant de la Tour des Sages.\n\nIls semblent être des sous-produits issus d'expériences visant à créer un Cristal-mère. Leur production s'est accélérée avec l'assombrissement du ciel, mais ils se sont tous évaporés après la destruction du Cristal-mère artificiel qu'abritait la tour.",
+      "html": "<p>D&#39;étranges cristaux imparfaits provenant de la Tour des Sages.</p><p>Ils semblent être des sous-produits issus d&#39;expériences visant à créer un Cristal-mère. Leur production s&#39;est accélérée avec l&#39;assombrissement du ciel, mais ils se sont tous évaporés après la destruction du Cristal-mère artificiel qu&#39;abritait la tour.</p>",
       "caption": "La fin des cristaux voilés",
       "public": "OFF"
     }

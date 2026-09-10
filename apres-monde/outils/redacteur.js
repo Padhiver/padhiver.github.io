@@ -1,9 +1,14 @@
 /* =========================================================
    L'Après-Monde — Rédacteur de fiche.
-   Éditeur de texte enrichi (TipTap) pour rédiger le corps
-   d'une fiche sans connaître le HTML. Le rédacteur remplit,
-   télécharge un fichier .json, et le transmet à Padhiver qui
-   intègre la fiche au codex.
+   Éditeur de texte enrichi (TipTap) pour rédiger une fiche
+   sans connaître le HTML. Le rédacteur remplit, télécharge
+   un fichier .json, et le transmet à Padhiver qui l'intègre
+   au codex.
+
+   Le .json produit a EXACTEMENT la structure des fiches du
+   site (id, title, category, public, date, order, pages[],
+   related, relatedOff) ; chaque page est { html, caption,
+   public } — le corps est du HTML mis en forme.
 
    TipTap est chargé depuis esm.sh via l'import map de
    redacteur.html : la page a besoin d'Internet au premier
@@ -14,16 +19,24 @@ const DRAFT_KEY = "eana_redacteur_draft";
 
 const el = (id) => document.getElementById(id);
 
+const elId = el("f-id");
 const elTitle = el("f-title");
-const elKicker = el("f-kicker");
 const elCategory = el("f-category");
 const elToolbar = el("toolbar");
-const elHost = el("editor");
+const elPages = el("pages");
+const elBtnAddPage = el("btn-add-page");
 const elExportState = el("export-state");
 const elCodePreview = el("code-preview");
 const elDraftNotice = el("draft-notice");
 
-let editor = null;
+// Fabriques d'extensions TipTap, renseignées au démarrage.
+let mkEditor = null;
+
+// pages : [{ key, captionEl, editorHost, editor }]
+const pages = [];
+let pageSeq = 0;
+let activeEditor = null;
+let idDirty = false;
 
 // ---------- Utilitaires ----------
 
@@ -36,11 +49,14 @@ function slugify(s) {
   return base || "fiche";
 }
 
-// TipTap enveloppe le contenu d'une puce dans un <p> (<li><p>texte</p></li>).
-// Pour une puce d'une seule ligne — le seul cas que la barre d'outils permet
-// de produire — on retire ce <p> pour un HTML plus simple à relire. Les
-// puces à plusieurs blocs ou à sous-liste (après un </p> vient autre chose
-// que </li>) ne correspondent pas au motif et sont laissées intactes.
+function today() {
+  return new Date().toISOString().slice(0, 10);
+}
+
+// TipTap enveloppe le contenu d'une puce dans un <p> (<li><p>x</p></li>).
+// Pour une puce d'une seule ligne — seul cas que la barre d'outils permet —
+// on retire ce <p>. Les puces à plusieurs blocs / sous-liste ne collent pas
+// au motif et restent intactes.
 function unwrapSimpleListItems(html) {
   return html.replace(
     /<li>\s*<p>((?:(?!<\/p>|<(?:p|ul|ol|li|h[1-6]|blockquote)\b)[\s\S])*?)<\/p>\s*<\/li>/g,
@@ -48,34 +64,12 @@ function unwrapSimpleListItems(html) {
   );
 }
 
-// getHTML() de TipTap est déjà propre (schéma restreint) ; on retire les
-// paragraphes vides en tête / en queue et on simplifie les puces.
-function cleanBodyHtml() {
-  return unwrapSimpleListItems(editor.getHTML())
-    .replace(/^(?:<p><\/p>)+/, "")
-    .replace(/(?:<p><\/p>)+$/, "")
+// getHTML() de TipTap est déjà propre (schéma restreint) : on retire les
+// paragraphes vides (y compris au milieu) et on simplifie les puces.
+function cleanHtml(raw) {
+  return unwrapSimpleListItems(raw)
+    .replace(/<p><\/p>/g, "")
     .trim();
-}
-
-// Retour à la ligne avant chaque bloc — lisibilité de l'aperçu uniquement,
-// la valeur stockée dans le .json reste compacte.
-function prettyForPreview(html) {
-  return html.replace(/>(?=<(?:p|h3|h4|ul|ol|li|blockquote|hr)\b)/g, ">\n");
-}
-
-function isBodyEmpty() {
-  return editor.isEmpty || cleanBodyHtml() === "";
-}
-
-function buildFiche() {
-  return {
-    title: elTitle.value.trim(),
-    kicker: elKicker.value.trim(),
-    category: elCategory.value,
-    pages: [
-      { caption: "", html: cleanBodyHtml() },
-    ],
-  };
 }
 
 function flash(message, isError) {
@@ -85,6 +79,127 @@ function flash(message, isError) {
     clearTimeout(flash._t);
     flash._t = setTimeout(() => { elExportState.textContent = ""; }, 4000);
   }
+}
+
+// ---------- Construction de la fiche ----------
+
+function buildFiche() {
+  const id = slugify(elId.value || elTitle.value);
+  return {
+    id,
+    title: elTitle.value.trim(),
+    category: elCategory.value,
+    public: "ON",
+    date: today(),
+    order: null,
+    pages: pages.map((p) => ({
+      html: cleanHtml(p.editor.getHTML()),
+      caption: p.captionEl.value.trim(),
+      public: "ON",
+    })),
+    related: [],
+    relatedOff: [],
+  };
+}
+
+function anyContent() {
+  return pages.some((p) => !p.editor.isEmpty);
+}
+
+// ---------- Pages ----------
+
+function renumberPages() {
+  pages.forEach((p, i) => {
+    p.panel.querySelector(".page-num").textContent = "Page " + (i + 1);
+    p.panel.querySelector("[data-page-up]").disabled = i === 0;
+    p.panel.querySelector("[data-page-down]").disabled = i === pages.length - 1;
+    p.panel.querySelector("[data-page-del]").disabled = pages.length === 1;
+  });
+  elPages.classList.toggle("single", pages.length === 1);
+}
+
+function makePagePanel() {
+  const key = ++pageSeq;
+  const panel = document.createElement("div");
+  panel.className = "page-panel";
+  panel.dataset.pageKey = String(key);
+  panel.innerHTML = `
+    <div class="page-head">
+      <span class="page-num">Page</span>
+      <input type="text" class="page-caption" autocomplete="off"
+             placeholder="Titre de ce chapitre (facultatif — utile seulement s'il y a plusieurs pages)">
+      <span class="page-ctl">
+        <button type="button" data-page-up title="Monter">↑</button>
+        <button type="button" data-page-down title="Descendre">↓</button>
+        <button type="button" data-page-del title="Supprimer cette page">Supprimer</button>
+      </span>
+    </div>
+    <div class="page-editor"></div>`;
+
+  const captionEl = panel.querySelector(".page-caption");
+  const editorHost = panel.querySelector(".page-editor");
+  const editor = mkEditor(editorHost);
+
+  const entry = { key, panel, captionEl, editorHost, editor };
+
+  // Toute interaction (saisie, déplacement du curseur, focus) fait de cet
+  // éditeur la cible de la barre d'outils partagée.
+  editor.on("update", () => {
+    activeEditor = editor;
+    refreshToolbar();
+    refreshCodePreview();
+    scheduleDraftSave();
+  });
+  editor.on("selectionUpdate", () => { activeEditor = editor; refreshToolbar(); });
+  editor.on("focus", () => { activeEditor = editor; refreshToolbar(); });
+  captionEl.addEventListener("input", scheduleDraftSave);
+
+  panel.querySelector("[data-page-up]").addEventListener("click", () => movePage(entry, -1));
+  panel.querySelector("[data-page-down]").addEventListener("click", () => movePage(entry, 1));
+  panel.querySelector("[data-page-del]").addEventListener("click", () => removePage(entry));
+
+  return entry;
+}
+
+function addPage(opts = {}) {
+  const entry = makePagePanel();
+  pages.push(entry);
+  elPages.appendChild(entry.panel);
+  if (opts.caption) entry.captionEl.value = opts.caption;
+  if (opts.html) entry.editor.commands.setContent(opts.html, false);
+  renumberPages();
+  refreshCodePreview();
+  if (opts.focus) entry.editor.commands.focus("end");
+  return entry;
+}
+
+function removePage(entry) {
+  if (pages.length === 1) return;
+  if (!entry.editor.isEmpty &&
+      !window.confirm("Supprimer cette page et son contenu ?")) return;
+  const idx = pages.indexOf(entry);
+  entry.editor.destroy();
+  entry.panel.remove();
+  pages.splice(idx, 1);
+  if (activeEditor && !pages.some((p) => p.editor === activeEditor)) {
+    activeEditor = pages[Math.min(idx, pages.length - 1)].editor;
+  }
+  renumberPages();
+  refreshToolbar();
+  refreshCodePreview();
+  scheduleDraftSave();
+}
+
+function movePage(entry, dir) {
+  const idx = pages.indexOf(entry);
+  const to = idx + dir;
+  if (to < 0 || to >= pages.length) return;
+  pages.splice(idx, 1);
+  pages.splice(to, 0, entry);
+  pages.forEach((p) => elPages.appendChild(p.panel)); // appendChild déplace un nœud déjà présent
+  renumberPages();
+  refreshCodePreview();
+  scheduleDraftSave();
 }
 
 // ---------- Brouillon ----------
@@ -98,13 +213,13 @@ function scheduleDraftSave() {
 function saveDraft() {
   try {
     localStorage.setItem(DRAFT_KEY, JSON.stringify({
+      id: elId.value,
       title: elTitle.value,
-      kicker: elKicker.value,
       category: elCategory.value,
-      html: editor.getHTML(),
+      pages: pages.map((p) => ({ caption: p.captionEl.value, html: p.editor.getHTML() })),
       at: Date.now(),
     }));
-  } catch (e) { /* stockage indisponible : tant pis pour le brouillon */ }
+  } catch (e) { /* stockage indisponible */ }
 }
 
 function clearDraft() {
@@ -116,24 +231,25 @@ function readDraft() {
     const raw = localStorage.getItem(DRAFT_KEY);
     if (!raw) return null;
     const d = JSON.parse(raw);
-    const meaningful = (d.title && d.title.trim()) ||
-      (d.html && d.html.replace(/<[^>]*>/g, "").trim());
-    return meaningful ? d : null;
+    const hasText = (d.title && d.title.trim()) ||
+      (Array.isArray(d.pages) && d.pages.some((p) => p.html && p.html.replace(/<[^>]*>/g, "").trim()));
+    return hasText ? d : null;
   } catch (e) { return null; }
 }
 
 // ---------- Barre d'outils ----------
 
 function setLink() {
-  const prev = editor.getAttributes("link").href || "";
+  if (!activeEditor) return;
+  const prev = activeEditor.getAttributes("link").href || "";
   const url = window.prompt("Adresse du lien (laisser vide pour retirer) :", prev);
   if (url === null) return;
   const trimmed = url.trim();
   if (trimmed === "") {
-    editor.chain().focus().extendMarkRange("link").unsetLink().run();
+    activeEditor.chain().focus().extendMarkRange("link").unsetLink().run();
     return;
   }
-  editor.chain().focus().extendMarkRange("link").setLink({ href: trimmed }).run();
+  activeEditor.chain().focus().extendMarkRange("link").setLink({ href: trimmed }).run();
 }
 
 const TOOLBAR = [
@@ -183,6 +299,8 @@ const TOOLBAR = [
 ];
 
 function buildToolbar() {
+  // Empêche la perte de focus de l'éditeur quand on clique un bouton.
+  elToolbar.addEventListener("mousedown", (e) => e.preventDefault());
   for (const item of TOOLBAR) {
     if (item === "sep") {
       const s = document.createElement("span");
@@ -196,26 +314,32 @@ function buildToolbar() {
     b.title = item.title;
     b.setAttribute("aria-label", item.title);
     b.innerHTML = `<span class="lbl ${item.cls || ""}">${item.label}</span>`;
-    b.addEventListener("click", () => { item.run(editor); refreshToolbar(); });
+    b.addEventListener("click", () => {
+      if (!activeEditor) return;
+      item.run(activeEditor);
+      refreshToolbar();
+    });
     elToolbar.appendChild(b);
   }
 }
 
 function refreshToolbar() {
+  const e = activeEditor;
   for (const item of TOOLBAR) {
     if (item === "sep") continue;
     const b = elToolbar.querySelector(`button[data-key="${item.key}"]`);
     if (!b) continue;
-    if (item.active) b.classList.toggle("is-active", !!item.active(editor));
-    if (item.enabled) b.disabled = !item.enabled(editor);
+    if (!e) { b.disabled = true; b.classList.remove("is-active"); continue; }
+    if (item.active) b.classList.toggle("is-active", !!item.active(e));
+    if (item.enabled) b.disabled = !item.enabled(e);
+    else if (!item.active) b.disabled = false;
   }
 }
 
 // ---------- Aperçu du code ----------
 
 function refreshCodePreview() {
-  const html = cleanBodyHtml();
-  elCodePreview.textContent = html ? prettyForPreview(html) : "(vide)";
+  elCodePreview.textContent = JSON.stringify(buildFiche(), null, 2);
 }
 
 // ---------- Export ----------
@@ -226,9 +350,14 @@ function validate() {
     elTitle.focus();
     return false;
   }
-  if (isBodyEmpty()) {
+  if (!elId.value.trim()) {
+    flash("Il manque l'identifiant de la fiche.", true);
+    elId.focus();
+    return false;
+  }
+  if (!anyContent()) {
     flash("Le corps de la fiche est vide.", true);
-    editor.chain().focus().run();
+    if (pages[0]) pages[0].editor.commands.focus();
     return false;
   }
   return true;
@@ -237,7 +366,7 @@ function validate() {
 function downloadFiche() {
   if (!validate()) return;
   const fiche = buildFiche();
-  const name = slugify(fiche.title) + ".json";
+  const name = fiche.id + ".json";
   const blob = new Blob([JSON.stringify(fiche, null, 2) + "\n"], { type: "application/json" });
   const url = URL.createObjectURL(blob);
   const a = document.createElement("a");
@@ -250,32 +379,43 @@ function downloadFiche() {
   flash("Fichier « " + name + " » téléchargé.");
 }
 
-async function copyHtml() {
-  if (isBodyEmpty()) { flash("Rien à copier : le corps est vide.", true); return; }
-  const html = cleanBodyHtml();
+async function copyJson() {
+  if (!validate()) return;
+  const txt = JSON.stringify(buildFiche(), null, 2) + "\n";
   try {
-    await navigator.clipboard.writeText(html);
-    flash("HTML copié dans le presse-papier.");
+    await navigator.clipboard.writeText(txt);
+    flash("Fiche copiée dans le presse-papier.");
   } catch (e) {
-    // Repli : sélection manuelle via l'aperçu déplié.
     el("code-details").open = true;
-    refreshCodePreview();
     flash("Copie auto refusée par le navigateur — le code est affiché ci-dessous.", true);
   }
 }
 
 function resetAll() {
   if (!window.confirm("Tout effacer et repartir d'une fiche vierge ?")) return;
+  elId.value = "";
   elTitle.value = "";
-  elKicker.value = "";
   elCategory.selectedIndex = 0;
-  editor.commands.clearContent(true);
+  idDirty = false;
+  pages.slice().forEach((p) => { p.editor.destroy(); p.panel.remove(); });
+  pages.length = 0;
+  activeEditor = null;
+  addPage();
+  activeEditor = pages[0].editor;
   clearDraft();
   elDraftNotice.hidden = true;
   refreshToolbar();
   refreshCodePreview();
   flash("Fiche réinitialisée.");
   elTitle.focus();
+}
+
+// ---------- Identifiant ----------
+
+function syncIdFromTitle() {
+  if (idDirty) return;
+  elId.value = slugify(elTitle.value);
+  refreshCodePreview();
 }
 
 // ---------- Démarrage ----------
@@ -293,71 +433,79 @@ async function main() {
     return;
   }
 
-  const draft = readDraft();
-
-  editor = new Editor({
-    element: elHost,
+  mkEditor = (host) => new Editor({
+    element: host,
     extensions: [
-      StarterKit.configure({
-        heading: { levels: [3, 4] },
-        codeBlock: false,
-      }),
+      StarterKit.configure({ heading: { levels: [3, 4] }, codeBlock: false }),
       Link.configure({ openOnClick: false, autolink: true }),
-      Placeholder.configure({
-        placeholder: "Commence à écrire le corps de la fiche…",
-      }),
+      Placeholder.configure({ placeholder: "Écris le corps de la page ici…" }),
     ],
-    content: draft ? draft.html : "",
+    content: "",
     autofocus: false,
   });
 
-  editor.on("update", () => {
-    refreshToolbar();
-    refreshCodePreview();
-    scheduleDraftSave();
-  });
-  editor.on("selectionUpdate", refreshToolbar);
-
   buildToolbar();
+
+  const draft = readDraft();
+  if (draft && Array.isArray(draft.pages) && draft.pages.length) {
+    draft.pages.forEach((p) => addPage({ caption: p.caption, html: p.html }));
+  } else {
+    addPage();
+  }
+  activeEditor = pages[0].editor;
   refreshToolbar();
   refreshCodePreview();
 
-  // Restauration du brouillon
   if (draft) {
+    elId.value = draft.id || "";
     elTitle.value = draft.title || "";
-    elKicker.value = draft.kicker || "";
     if (draft.category) elCategory.value = draft.category;
+    idDirty = !!(draft.id && draft.id !== slugify(draft.title || ""));
     const when = new Date(draft.at || Date.now());
-    el("draft-when").textContent = when.toLocaleString("fr-FR", {
-      dateStyle: "short", timeStyle: "short",
-    });
+    el("draft-when").textContent = when.toLocaleString("fr-FR", { dateStyle: "short", timeStyle: "short" });
     elDraftNotice.hidden = false;
   }
 
-  [elTitle, elKicker, elCategory].forEach((f) => {
-    f.addEventListener("input", scheduleDraftSave);
+  elTitle.addEventListener("input", () => { syncIdFromTitle(); scheduleDraftSave(); });
+  elId.addEventListener("input", () => {
+    idDirty = elId.value.trim() !== "";
+    refreshCodePreview();
+    scheduleDraftSave();
   });
+  elId.addEventListener("blur", () => {
+    if (elId.value.trim()) { elId.value = slugify(elId.value); refreshCodePreview(); }
+    else { idDirty = false; syncIdFromTitle(); }
+  });
+  elCategory.addEventListener("change", () => { refreshCodePreview(); scheduleDraftSave(); });
 
+  elBtnAddPage.addEventListener("click", () => addPage({ focus: true }));
   el("btn-download").addEventListener("click", downloadFiche);
-  el("btn-copy").addEventListener("click", copyHtml);
+  el("btn-copy").addEventListener("click", copyJson);
   el("btn-reset").addEventListener("click", resetAll);
   el("draft-discard").addEventListener("click", () => {
     clearDraft();
-    editor.commands.clearContent(true);
-    elTitle.value = "";
-    elKicker.value = "";
-    elCategory.selectedIndex = 0;
-    elDraftNotice.hidden = true;
-    refreshToolbar();
-    refreshCodePreview();
+    resetSilently();
   });
 
   window.addEventListener("beforeunload", saveDraft);
 
-  // Accès à l'éditeur en préversion locale, pour les tests manuels.
   if (location.hostname === "localhost" || location.hostname === "127.0.0.1") {
-    window.__redacteur = { editor, buildFiche, cleanBodyHtml };
+    window.__redacteur = { pages, buildFiche, addPage };
   }
+}
+
+function resetSilently() {
+  elId.value = "";
+  elTitle.value = "";
+  elCategory.selectedIndex = 0;
+  idDirty = false;
+  pages.slice().forEach((p) => { p.editor.destroy(); p.panel.remove(); });
+  pages.length = 0;
+  addPage();
+  activeEditor = pages[0].editor;
+  elDraftNotice.hidden = true;
+  refreshToolbar();
+  refreshCodePreview();
 }
 
 main();

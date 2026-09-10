@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 54,
-  "source": "base",
   "pages": [
     {
-      "text": "Une organisation basée à Dalimil, dirigée par Konrád.\n\nSes membres, des gens costauds et de constitution solide, sont d'anciens mineurs qui travaillaient à Crocdrac. Cette milice a entre autres pour rôle d'améliorer les infrastructures défensives de Dalimil.",
+      "html": "<p>Une organisation basée à Dalimil, dirigée par Konrád.</p><p>Ses membres, des gens costauds et de constitution solide, sont d&#39;anciens mineurs qui travaillaient à Crocdrac. Cette milice a entre autres pour rôle d&#39;améliorer les infrastructures défensives de Dalimil.</p>",
       "caption": "",
       "public": "OFF"
     }

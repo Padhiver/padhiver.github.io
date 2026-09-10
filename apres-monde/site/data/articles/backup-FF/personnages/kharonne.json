@@ -5,20 +5,19 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 38,
-  "source": "base",
   "pages": [
     {
-      "text": "Une partisane de Cid et une marchande qui peut entrer et sortir du Repaire à sa guise.\n\nElle a embauché Goetz en tant qu'apprenti, et fait appel à lui pour le restockage et le transport des paquets. C'est une commerçante avec beaucoup d'expérience, qui peut obtenir n'importe quel produit, même le plus rare, moyennant finance. Son œil droit serait en fait une prothèse oculaire d'une valeur considérable.",
+      "html": "<p>Une partisane de Cid et une marchande qui peut entrer et sortir du Repaire à sa guise.</p><p>Elle a embauché Goetz en tant qu&#39;apprenti, et fait appel à lui pour le restockage et le transport des paquets. C&#39;est une commerçante avec beaucoup d&#39;expérience, qui peut obtenir n&#39;importe quel produit, même le plus rare, moyennant finance. Son œil droit serait en fait une prothèse oculaire d&#39;une valeur considérable.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "Une marchande itinérante qui tient une échoppe au sein du Repaire.\n\nElle travaille d'abord avec Cid, avant de devenir une alliée de Clive lorsqu'il prend sa succession. Aujourd'hui encore, elle soutient activement le Repaire, accompagnée de Goetz, son apprenti. D'ailleurs, s'il suscite parfois l'énervement chez elle, l'affection qu'elle a pour lui est évidente.",
+      "html": "<p>Une marchande itinérante qui tient une échoppe au sein du Repaire.</p><p>Elle travaille d&#39;abord avec Cid, avant de devenir une alliée de Clive lorsqu&#39;il prend sa succession. Aujourd&#39;hui encore, elle soutient activement le Repaire, accompagnée de Goetz, son apprenti. D&#39;ailleurs, s&#39;il suscite parfois l&#39;énervement chez elle, l&#39;affection qu&#39;elle a pour lui est évidente.</p>",
       "caption": "Sa relation avec Goetz",
       "public": "OFF"
     },
     {
-      "text": "Une marchande itinérante qui tient une échoppe au sein du Repaire.\n\nCette femme originaire des continents extérieurs s'est jadis enrichie en vendant des armes à quiconque pouvait la payer, sans tenir compte des relations amicales ou hostiles qu'elle pouvait entretenir, si bien qu'elle s'est faite de nombreux ennemis. Elle a ensuite été trahie par Bauguin, un marchand avec qui elle collaborait, ce qui lui a valu d'être blessée au visage et de perdre son œil droit. Sa rencontre avec Goetz est postérieure à ces faits. Il était encore enfant et subissait de mauvais traitements de la part de ses parents. Kharonne a ainsi choisi de le prendre avec elle en payant sa famille et d'en faire son apprenti.",
+      "html": "<p>Une marchande itinérante qui tient une échoppe au sein du Repaire.</p><p>Cette femme originaire des continents extérieurs s&#39;est jadis enrichie en vendant des armes à quiconque pouvait la payer, sans tenir compte des relations amicales ou hostiles qu&#39;elle pouvait entretenir, si bien qu&#39;elle s&#39;est faite de nombreux ennemis. Elle a ensuite été trahie par Bauguin, un marchand avec qui elle collaborait, ce qui lui a valu d&#39;être blessée au visage et de perdre son œil droit. Sa rencontre avec Goetz est postérieure à ces faits. Il était encore enfant et subissait de mauvais traitements de la part de ses parents. Kharonne a ainsi choisi de le prendre avec elle en payant sa famille et d&#39;en faire son apprenti.</p>",
       "caption": "Œil droit",
       "public": "OFF"
     }

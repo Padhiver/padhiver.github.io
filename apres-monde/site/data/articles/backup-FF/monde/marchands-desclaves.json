@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 75,
-  "source": "base",
   "pages": [
     {
-      "text": "Des marchands spécialisés dans la vente d'esclaves.\n\nIls sont actifs dans tout Valisthéa et vendent des Pourvoyeurs à leurs clients pour des sommes rondelettes. Certains s'approvisionnent également en capturant des individus n'ayant plus de maître, mais cette activité est vue comme de la contrebande, un crime sévèrement puni. L'ancienne propriétaire de Dorys se spécialisait dans ce commerce. Elle conservait cependant certains esclaves d'exception à qui elle enseignait les arts et les lettres, pour s'en servir d'outils personnels.",
+      "html": "<p>Des marchands spécialisés dans la vente d&#39;esclaves.</p><p>Ils sont actifs dans tout Valisthéa et vendent des Pourvoyeurs à leurs clients pour des sommes rondelettes. Certains s&#39;approvisionnent également en capturant des individus n&#39;ayant plus de maître, mais cette activité est vue comme de la contrebande, un crime sévèrement puni. L&#39;ancienne propriétaire de Dorys se spécialisait dans ce commerce. Elle conservait cependant certains esclaves d&#39;exception à qui elle enseignait les arts et les lettres, pour s&#39;en servir d&#39;outils personnels.</p>",
       "caption": "",
       "public": "OFF"
     }

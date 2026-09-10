@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 15,
-  "source": "base",
   "pages": [
     {
-      "text": "Un fort érigé dans le centre sud du Saint-Empire de Sangbrèque, dans un endroit stratégique tout juste au sud d'Oriflamme, la capitale impériale.\n\nL'édifice compte parmi les plus prééminents de l'Empire. Il comprend de petits quartiers résidentiels, une chapelle, des oubliettes, des réserves alimentaires et certaines particularités qui lui permettraient de résister à un siège.",
+      "html": "<p>Un fort érigé dans le centre sud du Saint-Empire de Sangbrèque, dans un endroit stratégique tout juste au sud d&#39;Oriflamme, la capitale impériale.</p><p>L&#39;édifice compte parmi les plus prééminents de l&#39;Empire. Il comprend de petits quartiers résidentiels, une chapelle, des oubliettes, des réserves alimentaires et certaines particularités qui lui permettraient de résister à un siège.</p>",
       "caption": "",
       "public": "OFF"
     }

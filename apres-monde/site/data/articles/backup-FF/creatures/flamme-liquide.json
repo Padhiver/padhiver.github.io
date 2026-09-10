@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 8,
-  "source": "base",
   "pages": [
     {
-      "text": "Une créature magique de flammes apparue dans le sanctuaire du cristal de Souffledrac.\n\nEntité de lave, elle a été créée par le mécanisme de défense du noyau du Cristal-mère, quand celui-ci a ressenti le danger. Elle peut manipuler la lave environnante à volonté et attaquer en prenant la forme de différentes bêtes.",
+      "html": "<p>Une créature magique de flammes apparue dans le sanctuaire du cristal de Souffledrac.</p><p>Entité de lave, elle a été créée par le mécanisme de défense du noyau du Cristal-mère, quand celui-ci a ressenti le danger. Elle peut manipuler la lave environnante à volonté et attaquer en prenant la forme de différentes bêtes.</p>",
       "caption": "",
       "public": "OFF"
     }

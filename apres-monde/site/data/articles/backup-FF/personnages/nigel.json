@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 71,
-  "source": "base",
   "pages": [
     {
-      "text": "Un chercheur en botanique au Repaire.\n\nIl étudie les effets des plantes médicinales et la façon de les cultiver, dans un Repaire où elles ont toujours tendance à manquer.",
+      "html": "<p>Un chercheur en botanique au Repaire.</p><p>Il étudie les effets des plantes médicinales et la façon de les cultiver, dans un Repaire où elles ont toujours tendance à manquer.</p>",
       "caption": "",
       "public": "OFF"
     }

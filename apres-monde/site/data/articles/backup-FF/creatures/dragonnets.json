@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 21,
-  "source": "base",
   "pages": [
     {
-      "text": "Des dragons de petite taille, mais qui conservent la même facilité à voler que leurs grands frères.\n\nLa sous-espèce des wyrms étant commune à Sangbrèque et relativement domptable, elle est bien souvent incorporée dans les bataillons de l'armée impériale.",
+      "html": "<p>Des dragons de petite taille, mais qui conservent la même facilité à voler que leurs grands frères.</p><p>La sous-espèce des wyrms étant commune à Sangbrèque et relativement domptable, elle est bien souvent incorporée dans les bataillons de l&#39;armée impériale.</p>",
       "caption": "",
       "public": "OFF"
     }

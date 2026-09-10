@@ -5,15 +5,14 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 78,
-  "source": "base",
   "pages": [
     {
-      "text": "Un soldat sangbréquois posté à Francastel.\n\nIl est épris de la Reine de la nuit, Apolline, et est toujours le premier au front pour protéger la ville en remotivant tous ses frères d'armes.",
+      "html": "<p>Un soldat sangbréquois posté à Francastel.</p><p>Il est épris de la Reine de la nuit, Apolline, et est toujours le premier au front pour protéger la ville en remotivant tous ses frères d&#39;armes.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "Un mercenaire qui protège Francastel.\n\nIl fait partie de la garnison sangbréquoise quand le projet d'aménagement de Fort-Norvent et de militarisation de Francastel par le duc d'Oriflamme lui fait craindre le pire pour sa ville de cœur. Il choisit alors de démissionner pour la défendre par ses propres moyens. Avec l'aide de Clive, il se bat jusqu'au bout pour Francastel et sa bien-aimée Apolline.",
+      "html": "<p>Un mercenaire qui protège Francastel.</p><p>Il fait partie de la garnison sangbréquoise quand le projet d&#39;aménagement de Fort-Norvent et de militarisation de Francastel par le duc d&#39;Oriflamme lui fait craindre le pire pour sa ville de cœur. Il choisit alors de démissionner pour la défendre par ses propres moyens. Avec l&#39;aide de Clive, il se bat jusqu&#39;au bout pour Francastel et sa bien-aimée Apolline.</p>",
       "caption": "L'union sacrée pour Francastel",
       "public": "OFF"
     }

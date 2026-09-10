@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 3,
-  "source": "base",
   "pages": [
     {
-      "text": "Un membre des Lames de pierre.\n\nGrâce à sa grande expérience en combat, il lui arrive souvent de diriger les opérations en tant que commandant. Il est également responsable de l'affectation des nouvelles recrues et de l'envoi de renforts sur le terrain, aux côtés de Cole, le capitaine adjoint. Bon ami de Blackthorne depuis l'époque de l'ancien Repaire, on les voit souvent prendre un verre ensemble.",
+      "html": "<p>Un membre des Lames de pierre.</p><p>Grâce à sa grande expérience en combat, il lui arrive souvent de diriger les opérations en tant que commandant. Il est également responsable de l&#39;affectation des nouvelles recrues et de l&#39;envoi de renforts sur le terrain, aux côtés de Cole, le capitaine adjoint. Bon ami de Blackthorne depuis l&#39;époque de l&#39;ancien Repaire, on les voit souvent prendre un verre ensemble.</p>",
       "caption": "",
       "public": "OFF"
     }

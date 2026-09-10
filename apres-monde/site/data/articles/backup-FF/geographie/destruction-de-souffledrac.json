@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 37,
-  "source": "base",
   "pages": [
     {
-      "text": "Les événements ayant entraîné la destruction du Cristal-mère ferrégien.\n\nEn l'an 878 du calendrier ponantin, le Cristal-mère qui se trouvait sous la domination du Royaume de Fer est détruit, ce qui provoque la dévastation de l'île Drustanus et du mont Leodlàdh. On raconte qu'Imreann, le grand prêtre de la foi cristodoxe, aurait alors péri et que le sanctuaire aurait été détruit par la même occasion.",
+      "html": "<p>Les événements ayant entraîné la destruction du Cristal-mère ferrégien.</p><p>En l&#39;an 878 du calendrier ponantin, le Cristal-mère qui se trouvait sous la domination du Royaume de Fer est détruit, ce qui provoque la dévastation de l&#39;île Drustanus et du mont Leodlàdh. On raconte qu&#39;Imreann, le grand prêtre de la foi cristodoxe, aurait alors péri et que le sanctuaire aurait été détruit par la même occasion.</p>",
       "caption": "",
       "public": "OFF"
     }

@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 26,
-  "source": "base",
   "pages": [
     {
-      "text": "Une citadelle érigée dans le défilé de Nýsa, dans la partie ouest de la république de Dalméquie.",
+      "html": "<p>Une citadelle érigée dans le défilé de Nýsa, dans la partie ouest de la république de Dalméquie.</p>",
       "caption": "",
       "public": "OFF"
     }

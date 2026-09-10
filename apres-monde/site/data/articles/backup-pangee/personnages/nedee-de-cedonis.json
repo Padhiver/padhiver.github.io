@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-09-05",
   "order": null,
-  "source": "pangee",
   "pages": [
     {
-      "text": "Patricienne impériale nommée gouverneure de Port-aux-bris (aussi appelée Khalaf), dans l'archipel semi-anarchique de la Brisure. Largement considérée, y compris par ses propres administrés, comme une gouvernante incapable, sinon un simple faire-valoir : sous son autorité nominale, la cité sombre chaque année un peu plus dans la corruption généralisée et le banditisme, sans qu'elle ne parvienne — ou ne cherche véritablement — à y remédier.\n\nSon incapacité à gouverner illustre les limites de l'autorité impériale sur l'archipel, où chaque île et chaque ville finit par appliquer ses propres règles faute d'un pouvoir central réellement en mesure de faire respecter la loi.",
+      "html": "<p>Patricienne impériale nommée gouverneure de Port-aux-bris (aussi appelée Khalaf), dans l&#39;archipel semi-anarchique de la Brisure. Largement considérée, y compris par ses propres administrés, comme une gouvernante incapable, sinon un simple faire-valoir : sous son autorité nominale, la cité sombre chaque année un peu plus dans la corruption généralisée et le banditisme, sans qu&#39;elle ne parvienne — ou ne cherche véritablement — à y remédier.</p><p>Son incapacité à gouverner illustre les limites de l&#39;autorité impériale sur l&#39;archipel, où chaque île et chaque ville finit par appliquer ses propres règles faute d&#39;un pouvoir central réellement en mesure de faire respecter la loi.</p>",
       "caption": "",
       "public": "OFF"
     }

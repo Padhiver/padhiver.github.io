@@ -5,25 +5,24 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 49,
-  "source": "base",
   "pages": [
     {
-      "text": "Des vaisseaux qui existaient à l'époque de la civilisation des Célestes, et que l'on dit avoir été capables de s'élever et de voler dans les airs.\n\nLe village de La Nef déchue a été construit autour de la carcasse de ce que l'on suppose être un de ces aéronefs tombés à terre.",
+      "html": "<p>Des vaisseaux qui existaient à l&#39;époque de la civilisation des Célestes, et que l&#39;on dit avoir été capables de s&#39;élever et de voler dans les airs.</p><p>Le village de La Nef déchue a été construit autour de la carcasse de ce que l&#39;on suppose être un de ces aéronefs tombés à terre.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "Des vaisseaux qui existaient à l'époque de la civilisation des Célestes, et que l'on dit avoir été capables de s'élever et de voler dans les airs.\n\nLe village de La Nef déchue a été construit autour de la carcasse de ce que l'on suppose être un de ces aéronefs tombés à terre. Le nouveau Repaire de Clive et de son groupe est lui aussi un ancien aéronef échoué au sol, au milieu du lac Bénou.",
+      "html": "<p>Des vaisseaux qui existaient à l&#39;époque de la civilisation des Célestes, et que l&#39;on dit avoir été capables de s&#39;élever et de voler dans les airs.</p><p>Le village de La Nef déchue a été construit autour de la carcasse de ce que l&#39;on suppose être un de ces aéronefs tombés à terre. Le nouveau Repaire de Clive et de son groupe est lui aussi un ancien aéronef échoué au sol, au milieu du lac Bénou.</p>",
       "caption": "Le nouveau Repaire",
       "public": "OFF"
     },
     {
-      "text": "Des vaisseaux qui existaient à l'époque de la civilisation des Célestes, et que l'on dit avoir été capables de s'élever et de voler dans les airs.\n\nLe village de La Nef déchue a été construit autour de la carcasse de ce que l'on suppose être un de ces aéronefs tombés à terre. Le nouveau Repaire de Clive et de son groupe est lui aussi un ancien aéronef échoué au milieu du lac Bénou, et que l'on appelle « l'Invincible ». Mid, l'inventeuse de génie, tente de s'inspirer de cette technologie pour recréer un vaisseau capable de voler.",
+      "html": "<p>Des vaisseaux qui existaient à l&#39;époque de la civilisation des Célestes, et que l&#39;on dit avoir été capables de s&#39;élever et de voler dans les airs.</p><p>Le village de La Nef déchue a été construit autour de la carcasse de ce que l&#39;on suppose être un de ces aéronefs tombés à terre. Le nouveau Repaire de Clive et de son groupe est lui aussi un ancien aéronef échoué au milieu du lac Bénou, et que l&#39;on appelle « l&#39;Invincible ». Mid, l&#39;inventeuse de génie, tente de s&#39;inspirer de cette technologie pour recréer un vaisseau capable de voler.</p>",
       "caption": "Révélation",
       "public": "OFF"
     },
     {
-      "text": "Des vaisseaux volants qui existaient du temps de la civilisation des Célestes.\n\nCapables de se déplacer dans les cieux, ils constituaient à l'époque le principal mode de transport. Ils devaient également apporter un grand soutien logistique et offensif en temps de guerre grâce à leur liberté de mouvement. Leur stationnement en grand nombre dans la Tour des Sages démontre, s'il en était encore besoin, la domination totale qu'exerçaient les Célestes sur le domaine des airs.",
+      "html": "<p>Des vaisseaux volants qui existaient du temps de la civilisation des Célestes.</p><p>Capables de se déplacer dans les cieux, ils constituaient à l&#39;époque le principal mode de transport. Ils devaient également apporter un grand soutien logistique et offensif en temps de guerre grâce à leur liberté de mouvement. Leur stationnement en grand nombre dans la Tour des Sages démontre, s&#39;il en était encore besoin, la domination totale qu&#39;exerçaient les Célestes sur le domaine des airs.</p>",
       "caption": "La domination du ciel",
       "public": "OFF"
     }

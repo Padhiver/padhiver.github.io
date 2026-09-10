@@ -5,20 +5,19 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 91,
-  "source": "base",
   "pages": [
     {
-      "text": "Un roulier du marché de Poklad, qui travaille dans le transport de diverses marchandises et met sa force physique au service de la Caravane écarlate.\n\nC'est le petit frère d'Éloïse, pour qui il ressent un profond respect.",
+      "html": "<p>Un roulier du marché de Poklad, qui travaille dans le transport de diverses marchandises et met sa force physique au service de la Caravane écarlate.</p><p>C&#39;est le petit frère d&#39;Éloïse, pour qui il ressent un profond respect.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "Un allié de Clive et un roulier du marché de Poklad, qui travaille dans le transport de marchandises.\n\nSa sœur Éloïse gère les affaires de la Caravane écarlate, tandis que Théodore se charge d'escorter les produits en cours de livraison. Il a déjà éliminé de nombreuses menaces, en éloignant les monstres et les bandits intéressés par ses convois. D'autre part, il éprouve une infinie reconnaissance pour sa sœur, qui a renoncé à tout pour sauver le malheureux Pourvoyeur qu'il était.",
+      "html": "<p>Un allié de Clive et un roulier du marché de Poklad, qui travaille dans le transport de marchandises.</p><p>Sa sœur Éloïse gère les affaires de la Caravane écarlate, tandis que Théodore se charge d&#39;escorter les produits en cours de livraison. Il a déjà éliminé de nombreuses menaces, en éloignant les monstres et les bandits intéressés par ses convois. D&#39;autre part, il éprouve une infinie reconnaissance pour sa sœur, qui a renoncé à tout pour sauver le malheureux Pourvoyeur qu&#39;il était.</p>",
       "caption": "Théodore et sa sœur",
       "public": "OFF"
     },
     {
-      "text": "Un allié de Clive et un roulier du marché de Poklad, qui travaillait dans le transport de marchandises.\n\nIl tentait d'aménager un village abandonné afin d'y accueillir des Pourvoyeurs, mais son immersion prolongée dans une nappe d'éther stagnant a fait de lui un monstre. Dans un dernier instant de lucidité, il met fin à ses jours tout en souhaitant le bonheur de sa sœur.",
+      "html": "<p>Un allié de Clive et un roulier du marché de Poklad, qui travaillait dans le transport de marchandises.</p><p>Il tentait d&#39;aménager un village abandonné afin d&#39;y accueillir des Pourvoyeurs, mais son immersion prolongée dans une nappe d&#39;éther stagnant a fait de lui un monstre. Dans un dernier instant de lucidité, il met fin à ses jours tout en souhaitant le bonheur de sa sœur.</p>",
       "caption": "Fratrie séparée",
       "public": "OFF"
     }

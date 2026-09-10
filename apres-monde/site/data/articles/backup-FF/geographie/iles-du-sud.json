@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 140,
-  "source": "base",
   "pages": [
     {
-      "text": "Une nation insulaire autrefois située dans un archipel au sud de Valisthéa.\n\nAvant que le Fléau noir ne ravage son territoire et ne détruise sa civilisation, elle entretenait des liens commerciaux avec la république de Dalméquie et Kanvěr. Elle était en outre connue pour sa pharmacopée aux préparations composées de plantes indigènes.",
+      "html": "<p>Une nation insulaire autrefois située dans un archipel au sud de Valisthéa.</p><p>Avant que le Fléau noir ne ravage son territoire et ne détruise sa civilisation, elle entretenait des liens commerciaux avec la république de Dalméquie et Kanvěr. Elle était en outre connue pour sa pharmacopée aux préparations composées de plantes indigènes.</p>",
       "caption": "",
       "public": "OFF"
     }

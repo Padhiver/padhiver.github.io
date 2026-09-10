@@ -5,20 +5,19 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 97,
-  "source": "base",
   "pages": [
     {
-      "text": "Un fort situé dans le nord-ouest de l'archiduché de Rosalia.\n\nIl avait été bâti dans le but de combattre les peuples septentrionaux mais depuis que la paix est revenue avec les Territoires du Nord, il a perdu sa fonction militaire. Il est aujourd'hui principalement utilisé pour des cérémonies car la tradition veut que l'Émissaire de Phénix se rende avant la bataille dans son Sacrarium, afin d'y effectuer le rite de l'Augure martial.",
+      "html": "<p>Un fort situé dans le nord-ouest de l&#39;archiduché de Rosalia.</p><p>Il avait été bâti dans le but de combattre les peuples septentrionaux mais depuis que la paix est revenue avec les Territoires du Nord, il a perdu sa fonction militaire. Il est aujourd&#39;hui principalement utilisé pour des cérémonies car la tradition veut que l&#39;Émissaire de Phénix se rende avant la bataille dans son Sacrarium, afin d&#39;y effectuer le rite de l&#39;Augure martial.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "Les restes d'un ancien fort situés dans le nord-ouest de la province impériale de Rosalia.\n\nIl a été détruit en l'an 860 du calendrier ponantin lors du combat entre deux Primordiaux de feu provoqué par une attaque sangbréquoise. Il s'en est trouvé réduit à un tas de gravats cendreux et a été laissé à l'abandon après l'annexion de Rosalia par le Saint-Empire de Sangbrèque.",
+      "html": "<p>Les restes d&#39;un ancien fort situés dans le nord-ouest de la province impériale de Rosalia.</p><p>Il a été détruit en l&#39;an 860 du calendrier ponantin lors du combat entre deux Primordiaux de feu provoqué par une attaque sangbréquoise. Il s&#39;en est trouvé réduit à un tas de gravats cendreux et a été laissé à l&#39;abandon après l&#39;annexion de Rosalia par le Saint-Empire de Sangbrèque.</p>",
       "caption": "L'attaque du fort Phénix",
       "public": "OFF"
     },
     {
-      "text": "Les restes d'un ancien fort situés dans le nord-ouest de la province impériale de Rosalia.\n\nDes ruines très anciennes dorment dans son sous-sol, là où se tenaient des cérémonies avant l'annexion par le Saint-Empire de Sangbrèque. La tradition voulait que l'Émissaire de Phénix se rende dans le Sacrarium, afin d'y effectuer le rite de l'Augure martial. Ce dernier est le seul autorisé à pénétrer ce sanctuaire.",
+      "html": "<p>Les restes d&#39;un ancien fort situés dans le nord-ouest de la province impériale de Rosalia.</p><p>Des ruines très anciennes dorment dans son sous-sol, là où se tenaient des cérémonies avant l&#39;annexion par le Saint-Empire de Sangbrèque. La tradition voulait que l&#39;Émissaire de Phénix se rende dans le Sacrarium, afin d&#39;y effectuer le rite de l&#39;Augure martial. Ce dernier est le seul autorisé à pénétrer ce sanctuaire.</p>",
       "caption": "Ruines souterraines",
       "public": "OFF"
     }

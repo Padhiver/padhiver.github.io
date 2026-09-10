@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 86,
-  "source": "base",
   "pages": [
     {
-      "text": "Un groupe de l'armée valœdoise spécialisé dans les missions d'infiltration, sous contrôle direct du roi lui-même.\n\nBenedikta Harman dirige cette troupe qui opère dans différents pays étrangers afin de mener à bien des objectifs allant du simple espionnage à l'assassinat.",
+      "html": "<p>Un groupe de l&#39;armée valœdoise spécialisé dans les missions d&#39;infiltration, sous contrôle direct du roi lui-même.</p><p>Benedikta Harman dirige cette troupe qui opère dans différents pays étrangers afin de mener à bien des objectifs allant du simple espionnage à l&#39;assassinat.</p>",
       "caption": "Généralités",
       "public": "OFF"
     }

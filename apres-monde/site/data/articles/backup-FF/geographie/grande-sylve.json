@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 44,
-  "source": "base",
   "pages": [
     {
-      "text": "Une immense forêt qui s'étend dans le sud-ouest du Saint-Empire de Sangbrèque.\n\nElle est habitée par une faune variée qui comprend même des monstres. De plus, son équilibre zoologique a changé ces dernières années sous l'influence du Fléau noir. De grands monstres, chassés de leur habitat naturel, ont migré dans la région, empêchant les habitants de s'approcher des lieux.",
+      "html": "<p>Une immense forêt qui s&#39;étend dans le sud-ouest du Saint-Empire de Sangbrèque.</p><p>Elle est habitée par une faune variée qui comprend même des monstres. De plus, son équilibre zoologique a changé ces dernières années sous l&#39;influence du Fléau noir. De grands monstres, chassés de leur habitat naturel, ont migré dans la région, empêchant les habitants de s&#39;approcher des lieux.</p>",
       "caption": "",
       "public": "OFF"
     }

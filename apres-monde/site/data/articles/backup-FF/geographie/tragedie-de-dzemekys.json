@@ -5,15 +5,14 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 71,
-  "source": "base",
   "pages": [
     {
-      "text": "Un événement qui est devenu une véritable légende contée à travers tout Valisthéa.\n\nEn des temps reculés, certaines personnes toujours plus avides et cupides auraient défié les dieux en combat. Confrontés à la colère divine, les humains auraient subi de lourdes pertes. L'événement aurait eu lieu près de Dzemekys, dans la république de Dalméquie, dont les alentours sont riches en mythes relatifs à cette histoire.",
+      "html": "<p>Un événement qui est devenu une véritable légende contée à travers tout Valisthéa.</p><p>En des temps reculés, certaines personnes toujours plus avides et cupides auraient défié les dieux en combat. Confrontés à la colère divine, les humains auraient subi de lourdes pertes. L&#39;événement aurait eu lieu près de Dzemekys, dans la république de Dalméquie, dont les alentours sont riches en mythes relatifs à cette histoire.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "Un événement historique de l'époque céleste.\n\nÀ l'époque des Célestes, des personnes disposant de la technologie magitech s'introduisirent dans le territoire divin de Dzemekys, en quête de puissance. Ultima détruisit alors toute la zone, y compris son Cristal-mère, ce qui ne laissa plus qu'un gigantesque cratère et une légende, qui devint celle de la tragédie de Dzemekys.",
+      "html": "<p>Un événement historique de l&#39;époque céleste.</p><p>À l&#39;époque des Célestes, des personnes disposant de la technologie magitech s&#39;introduisirent dans le territoire divin de Dzemekys, en quête de puissance. Ultima détruisit alors toute la zone, y compris son Cristal-mère, ce qui ne laissa plus qu&#39;un gigantesque cratère et une légende, qui devint celle de la tragédie de Dzemekys.</p>",
       "caption": "Révélation",
       "public": "OFF"
     }

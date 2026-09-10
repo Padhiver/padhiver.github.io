@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 76,
-  "source": "base",
   "pages": [
     {
-      "text": "Une localité proche de Port-Yseut, dans le sud-ouest de la province impériale de Rosalia.\n\nLieu de villégiature pour la noblesse de l'archiduché de Rosalia, le luxe et l'opulence y régnes.",
+      "html": "<p>Une localité proche de Port-Yseut, dans le sud-ouest de la province impériale de Rosalia.</p><p>Lieu de villégiature pour la noblesse de l&#39;archiduché de Rosalia, le luxe et l&#39;opulence y régnes.</p>",
       "caption": "Généralités",
       "public": "OFF"
     }

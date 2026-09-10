@@ -5,15 +5,14 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 102,
-  "source": "base",
   "pages": [
     {
-      "text": "Une machine qui joue de la musique.\n\nElle se trouve dans un petit coin du Repaire.",
+      "html": "<p>Une machine qui joue de la musique.</p><p>Elle se trouve dans un petit coin du Repaire.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "Une machine qui joue de la musique.\n\nElle se trouve dans un petit coin du Repaire. C'est la première création de Mid quand elle était encore très jeune, ce qui a stupéfié son père Cid. Celui-ci y avait caché la dernière pièce de l'Entreprise en laissant un indice pour la trouver dans une lettre.",
+      "html": "<p>Une machine qui joue de la musique.</p><p>Elle se trouve dans un petit coin du Repaire. C&#39;est la première création de Mid quand elle était encore très jeune, ce qui a stupéfié son père Cid. Celui-ci y avait caché la dernière pièce de l&#39;Entreprise en laissant un indice pour la trouver dans une lettre.</p>",
       "caption": "L'invention de Mid",
       "public": "OFF"
     }

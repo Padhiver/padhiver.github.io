@@ -5,15 +5,14 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 18,
-  "source": "base",
   "pages": [
     {
-      "text": "Une jeune femme originaire du village d'Eistla, à Valœd, qui attend un bébé.\n\nAlors que la population entière du village a disparu dans des circonstances étranges, Edda s'y retrouve seule, étant l'unique survivante.",
+      "html": "<p>Une jeune femme originaire du village d&#39;Eistla, à Valœd, qui attend un bébé.</p><p>Alors que la population entière du village a disparu dans des circonstances étranges, Edda s&#39;y retrouve seule, étant l&#39;unique survivante.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "Une jeune femme originaire du village d'Eistla, à Valœd, qui attend un bébé.\n\nElle est la seule à ne pas avoir perdu la raison, tandis que les autres habitants se sont sentis irrémédiablement attirés vers la Tour des songes, et y ont disparu. Une chance incroyable qui semble s'expliquer par la nature de l'enfant qu'elle porte en son ventre, un Pourvoyeur. Clive la secourt et lui offre une place au sein du Repaire.",
+      "html": "<p>Une jeune femme originaire du village d&#39;Eistla, à Valœd, qui attend un bébé.</p><p>Elle est la seule à ne pas avoir perdu la raison, tandis que les autres habitants se sont sentis irrémédiablement attirés vers la Tour des songes, et y ont disparu. Une chance incroyable qui semble s&#39;expliquer par la nature de l&#39;enfant qu&#39;elle porte en son ventre, un Pourvoyeur. Clive la secourt et lui offre une place au sein du Repaire.</p>",
       "caption": "Autres informations",
       "public": "OFF"
     }

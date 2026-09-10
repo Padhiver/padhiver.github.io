@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 144,
-  "source": "base",
   "pages": [
     {
-      "text": "Un groupe de bandits qui s'est établi à la combe de Lastny, en Dalméquie.\n\nLes Lapidaires exploitaient la misère des réfugiés du marché de Poklad pour les pousser à commettre des méfaits. C'est comme cela qu'ils revendaient au marché noir des biens volés par des enfants des rues et des orphelins.",
+      "html": "<p>Un groupe de bandits qui s&#39;est établi à la combe de Lastny, en Dalméquie.</p><p>Les Lapidaires exploitaient la misère des réfugiés du marché de Poklad pour les pousser à commettre des méfaits. C&#39;est comme cela qu&#39;ils revendaient au marché noir des biens volés par des enfants des rues et des orphelins.</p>",
       "caption": "",
       "public": "OFF"
     }

@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 17,
-  "source": "base",
   "pages": [
     {
-      "text": "Une loi immuable de ce monde.\n\nPour Ultima, qui estime être le dieu créateur de ce monde, il s'agit d'une façon de parler de lui-même.",
+      "html": "<p>Une loi immuable de ce monde.</p><p>Pour Ultima, qui estime être le dieu créateur de ce monde, il s&#39;agit d&#39;une façon de parler de lui-même.</p>",
       "caption": "",
       "public": "OFF"
     }

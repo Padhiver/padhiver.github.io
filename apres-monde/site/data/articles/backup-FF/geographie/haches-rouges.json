@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 135,
-  "source": "base",
   "pages": [
     {
-      "text": "Un groupe de mercenaires actifs au hameau de l'Auberge de Martha.\n\nIls disposent de quartiers dans le village, et leur mission consiste à chasser les bandits et à assurer la sécurité des habitants. Les Haches rouges protègent la zone et se substituent aux soldats de l'occupant sangbréquois, qui ne se soucie guère de la vie dans les hameaux rosaliens.",
+      "html": "<p>Un groupe de mercenaires actifs au hameau de l&#39;Auberge de Martha.</p><p>Ils disposent de quartiers dans le village, et leur mission consiste à chasser les bandits et à assurer la sécurité des habitants. Les Haches rouges protègent la zone et se substituent aux soldats de l&#39;occupant sangbréquois, qui ne se soucie guère de la vie dans les hameaux rosaliens.</p>",
       "caption": "",
       "public": "OFF"
     }

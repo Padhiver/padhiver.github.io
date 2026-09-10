@@ -5,20 +5,19 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 35,
-  "source": "base",
   "pages": [
     {
-      "text": "Des hommes-bêtes vivant au Gris-Levant.\n\nIl s'agit probablement de l'espèce la plus belliqueuse après les humains, et leur force combinée peut rivaliser avec celle d'une nation. Ils se disputent d'ailleurs depuis longtemps le Gris-Levant avec Valœd, à qui ils sont parvenus à arracher la partie orientale du continent. Leur nombre diminuant de jour en jour face à l'avancée du Fléau noir, ils se battent aujourd'hui pour leur survie.",
+      "html": "<p>Des hommes-bêtes vivant au Gris-Levant.</p><p>Il s&#39;agit probablement de l&#39;espèce la plus belliqueuse après les humains, et leur force combinée peut rivaliser avec celle d&#39;une nation. Ils se disputent d&#39;ailleurs depuis longtemps le Gris-Levant avec Valœd, à qui ils sont parvenus à arracher la partie orientale du continent. Leur nombre diminuant de jour en jour face à l&#39;avancée du Fléau noir, ils se battent aujourd&#39;hui pour leur survie.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "Des hommes-bêtes vivant au Gris-Levant.\n\nIl s'agit probablement de l'espèce la plus belliqueuse après les humains, et leur force combinée peut rivaliser avec celle d'une nation. D'après tous les écrits, les Orcs ne disposent pas de la technologie nécessaire à la traversée des mers et n'ont jamais été aperçus au Vert-Ponant. Toutefois, tout cela a récemment été remis en question suite à leur apparition aux côtés de Valœdois à Crocrac en Dalméquie.",
+      "html": "<p>Des hommes-bêtes vivant au Gris-Levant.</p><p>Il s&#39;agit probablement de l&#39;espèce la plus belliqueuse après les humains, et leur force combinée peut rivaliser avec celle d&#39;une nation. D&#39;après tous les écrits, les Orcs ne disposent pas de la technologie nécessaire à la traversée des mers et n&#39;ont jamais été aperçus au Vert-Ponant. Toutefois, tout cela a récemment été remis en question suite à leur apparition aux côtés de Valœdois à Crocrac en Dalméquie.</p>",
       "caption": "À Crocdrac",
       "public": "OFF"
     },
     {
-      "text": "Des hommes-bêtes vivant au Gris-Levant.\n\nIl s'agit probablement de l'espèce la plus belliqueuse après les humains, et leur force combinée peut rivaliser avec celle d'une nation. Barnabas, le roi de Valœd, les avait récemment asservis et leur avait ordonné d'agresser les autres pays pour semer le chaos. À sa mort, l'allégeance des Orcs s'est transmise à Ultima.",
+      "html": "<p>Des hommes-bêtes vivant au Gris-Levant.</p><p>Il s&#39;agit probablement de l&#39;espèce la plus belliqueuse après les humains, et leur force combinée peut rivaliser avec celle d&#39;une nation. Barnabas, le roi de Valœd, les avait récemment asservis et leur avait ordonné d&#39;agresser les autres pays pour semer le chaos. À sa mort, l&#39;allégeance des Orcs s&#39;est transmise à Ultima.</p>",
       "caption": "Après la mort de Barnabas",
       "public": "OFF"
     }

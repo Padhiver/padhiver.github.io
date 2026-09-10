@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 90,
-  "source": "base",
   "pages": [
     {
-      "text": "Un jeune garçon, habitant au Repaire.\n\nIl assiste Harpocrate dans son travail. On le trouve habituellement en compagnie de Kuro, sa sœur jumelle, en train de lire dans la bibliothèque du vieux chercheur. Contrairement à ses parents et à Kuro, il n'a pas hérité de pouvoirs magiques. Les jumeaux ont perdu leurs parents lors de la destruction du Repaire de Cid par Hugo Kupka.",
+      "html": "<p>Un jeune garçon, habitant au Repaire.</p><p>Il assiste Harpocrate dans son travail. On le trouve habituellement en compagnie de Kuro, sa sœur jumelle, en train de lire dans la bibliothèque du vieux chercheur. Contrairement à ses parents et à Kuro, il n&#39;a pas hérité de pouvoirs magiques. Les jumeaux ont perdu leurs parents lors de la destruction du Repaire de Cid par Hugo Kupka.</p>",
       "caption": "",
       "public": "OFF"
     }

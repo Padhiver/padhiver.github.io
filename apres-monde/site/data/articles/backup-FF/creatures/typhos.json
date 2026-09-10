@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 60,
-  "source": "base",
   "pages": [
     {
-      "text": "Un géant n'ayant plus que la moitié supérieure de son corps apparu d'une fissure spatio-temporelle au moment de la destruction du noyau du Cristal-mère de Chefdrac.\n\nHabité par l'esprit d'Ultima, il aspire Clive dans un monde astral et l'attaque sans relâche afin de tester le potentiel du héros.",
+      "html": "<p>Un géant n&#39;ayant plus que la moitié supérieure de son corps apparu d&#39;une fissure spatio-temporelle au moment de la destruction du noyau du Cristal-mère de Chefdrac.</p><p>Habité par l&#39;esprit d&#39;Ultima, il aspire Clive dans un monde astral et l&#39;attaque sans relâche afin de tester le potentiel du héros.</p>",
       "caption": "",
       "public": "OFF"
     }

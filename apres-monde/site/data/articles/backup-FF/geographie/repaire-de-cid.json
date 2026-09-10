@@ -5,20 +5,19 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 114,
-  "source": "base",
   "pages": [
     {
-      "text": "Un lieu situé au centre du Vert-Ponant, là où le Fléau noir a pourtant semé une désolation telle que pas un seul humain ne devrait pouvoir survivre.\n\nCe lieu de vie qui sert également de quartier général a été bâti par Cid et les siens en tirant parti de la protection contre les agressions extérieures offerte par les ruines de la civilisation des Célestes. Avec le temps, l'ingéniosité des uns et des autres a permis d'assurer un confort de vie minimal à ses habitants, d'anciens Pourvoyeurs secourus par Cid et son groupe. Chacun y est considéré comme l'égal de son voisin.",
+      "html": "<p>Un lieu situé au centre du Vert-Ponant, là où le Fléau noir a pourtant semé une désolation telle que pas un seul humain ne devrait pouvoir survivre.</p><p>Ce lieu de vie qui sert également de quartier général a été bâti par Cid et les siens en tirant parti de la protection contre les agressions extérieures offerte par les ruines de la civilisation des Célestes. Avec le temps, l&#39;ingéniosité des uns et des autres a permis d&#39;assurer un confort de vie minimal à ses habitants, d&#39;anciens Pourvoyeurs secourus par Cid et son groupe. Chacun y est considéré comme l&#39;égal de son voisin.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "Un lieu situé au centre du Vert-Ponant, là où le Fléau noir a semé la désolation.\n\nCe lieu de vie bâti par Cid et les siens leur sert également de quartier général. Des repas chauds et un lit douillet sont offerts à tous les Pourvoyeurs libérés qui y logent, mais ceci peut parfois être un peu déstabilisant pour un bon nombre de nouveaux arrivants, encore trop habitués à leur ancienne vie d'esclaves privés du droit de s'exprimer.",
+      "html": "<p>Un lieu situé au centre du Vert-Ponant, là où le Fléau noir a semé la désolation.</p><p>Ce lieu de vie bâti par Cid et les siens leur sert également de quartier général. Des repas chauds et un lit douillet sont offerts à tous les Pourvoyeurs libérés qui y logent, mais ceci peut parfois être un peu déstabilisant pour un bon nombre de nouveaux arrivants, encore trop habitués à leur ancienne vie d&#39;esclaves privés du droit de s&#39;exprimer.</p>",
       "caption": "Protection des Pourvoyeurs",
       "public": "OFF"
     },
     {
-      "text": "Un ancien lieu de vie au centre du Vert-Ponant, dans les Terres mortes, qui servait également de quartier général à Cid et ses partisans.\n\nC'est en l'an 873 du calendrier ponantin que Hugo Kupka, l'Émissaire de Titan, mena ses troupes à l'assaut du Repaire. Celui-ci fut détruit et nombre d'alliés de Cid et de Pourvoyeurs libérés perdirent la vie.",
+      "html": "<p>Un ancien lieu de vie au centre du Vert-Ponant, dans les Terres mortes, qui servait également de quartier général à Cid et ses partisans.</p><p>C&#39;est en l&#39;an 873 du calendrier ponantin que Hugo Kupka, l&#39;Émissaire de Titan, mena ses troupes à l&#39;assaut du Repaire. Celui-ci fut détruit et nombre d&#39;alliés de Cid et de Pourvoyeurs libérés perdirent la vie.</p>",
       "caption": "Attaque de Kupka",
       "public": "OFF"
     }

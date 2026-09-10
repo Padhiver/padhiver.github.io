@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 22,
-  "source": "base",
   "pages": [
     {
-      "text": "Une recrue récente des Lames de pierre.\n\nIl désire devenir éclaireur à l'instar de Gab qu'il admire. Son test d'aptitude n'est pas concluant, mais il est néanmoins accepté comme apprenti grâce à un potentiel indéniable.",
+      "html": "<p>Une recrue récente des Lames de pierre.</p><p>Il désire devenir éclaireur à l&#39;instar de Gab qu&#39;il admire. Son test d&#39;aptitude n&#39;est pas concluant, mais il est néanmoins accepté comme apprenti grâce à un potentiel indéniable.</p>",
       "caption": "Première apparition",
       "public": "OFF"
     }

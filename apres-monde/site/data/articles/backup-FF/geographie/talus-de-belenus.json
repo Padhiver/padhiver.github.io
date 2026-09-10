@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 150,
-  "source": "base",
   "pages": [
     {
-      "text": "Une région vallonnée dans la partie est du Saint-Empire de Sangbrèque.\n\nEn l'an 873 du calendrier ponantin, le royaume de Valœd s'est introduit en territoire sangbréquois, et c'est au talus de Belenus que les deux armées se sont affrontées.",
+      "html": "<p>Une région vallonnée dans la partie est du Saint-Empire de Sangbrèque.</p><p>En l&#39;an 873 du calendrier ponantin, le royaume de Valœd s&#39;est introduit en territoire sangbréquois, et c&#39;est au talus de Belenus que les deux armées se sont affrontées.</p>",
       "caption": "",
       "public": "OFF"
     }

@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 100,
-  "source": "base",
   "pages": [
     {
-      "text": "Un petit village situé dans le nord du Gris-Levant, près de Steinnhyrr, la capitale valœdoise.\n\nIl est aujourd'hui à l'abandon, et n'a de notable que la demeure d'un ancien ami de Harpocrate qui habitait tout au fond.",
+      "html": "<p>Un petit village situé dans le nord du Gris-Levant, près de Steinnhyrr, la capitale valœdoise.</p><p>Il est aujourd&#39;hui à l&#39;abandon, et n&#39;a de notable que la demeure d&#39;un ancien ami de Harpocrate qui habitait tout au fond.</p>",
       "caption": "",
       "public": "OFF"
     }

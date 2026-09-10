@@ -5,15 +5,14 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 138,
-  "source": "base",
   "pages": [
     {
-      "text": "Un conflit entre le Saint-Empire de Sangbrèque et la république de Dalméquie pour le contrôle du Dominion du Cristal, en 878.\n\nPour comprendre l'origine de cet affrontement, il faut revenir en 873, lorsque le Saint-Empire déplace d'autorité sa capitale au Dominion et en prend le contrôle au mépris du pacte de non-agression signé par toutes les nations de Valisthéa. La république de Dalméquie exprime alors son vif désaccord. La tension ne cesse ensuite de s'accroître, culminant par le siège du Dominion par les forces dalmèques.",
+      "html": "<p>Un conflit entre le Saint-Empire de Sangbrèque et la république de Dalméquie pour le contrôle du Dominion du Cristal, en 878.</p><p>Pour comprendre l&#39;origine de cet affrontement, il faut revenir en 873, lorsque le Saint-Empire déplace d&#39;autorité sa capitale au Dominion et en prend le contrôle au mépris du pacte de non-agression signé par toutes les nations de Valisthéa. La république de Dalméquie exprime alors son vif désaccord. La tension ne cesse ensuite de s&#39;accroître, culminant par le siège du Dominion par les forces dalmèques.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "Un conflit entre le Saint-Empire de Sangbrèque et la république de Dalméquie pour le contrôle du Dominion du Cristal, en 878.\n\nLes forces du Saint-Empire utilisent la position défensive supérieure du Dominion à leur avantage, mettant à mal l'armée républicaine, qui finit par demander un armistice avantageux pour l'Empire. D'après les autorités sangbréquoises, c'est au jeune prince Octavien Lesage, fils cadet de l'empereur Sylvestre, que l'on doit la négociation de l'armistice, ce qui lui vaut d'accéder immédiatement au trône.",
+      "html": "<p>Un conflit entre le Saint-Empire de Sangbrèque et la république de Dalméquie pour le contrôle du Dominion du Cristal, en 878.</p><p>Les forces du Saint-Empire utilisent la position défensive supérieure du Dominion à leur avantage, mettant à mal l&#39;armée républicaine, qui finit par demander un armistice avantageux pour l&#39;Empire. D&#39;après les autorités sangbréquoises, c&#39;est au jeune prince Octavien Lesage, fils cadet de l&#39;empereur Sylvestre, que l&#39;on doit la négociation de l&#39;armistice, ce qui lui vaut d&#39;accéder immédiatement au trône.</p>",
       "caption": "Armistice",
       "public": "OFF"
     }

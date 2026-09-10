@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 128,
-  "source": "base",
   "pages": [
     {
-      "text": "Des terres lointaines, séparées de Valisthéa par l'océan.\n\nMalgré quelques échanges commerciaux, on connaît encore assez mal la culture et les coutumes des peuples qui y vivent.",
+      "html": "<p>Des terres lointaines, séparées de Valisthéa par l&#39;océan.</p><p>Malgré quelques échanges commerciaux, on connaît encore assez mal la culture et les coutumes des peuples qui y vivent.</p>",
       "caption": "Généralités",
       "public": "OFF"
     }

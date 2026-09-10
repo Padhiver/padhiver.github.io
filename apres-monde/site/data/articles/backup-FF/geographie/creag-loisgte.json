@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 7,
-  "source": "base",
   "pages": [
     {
-      "text": "La capitale du Royaume de Fer, un archipel situé à l'ouest de Valisthéa.\n\nCreag Loisgte se trouve sur Iaranntolm, la principale île du pays, dans la mer Frémissante. L'endonyme « iaranni », que les Ferrégiens utilisent pour s'auto-désigner dans leur langue, provient du nom de l'île. Quant à la ville de Creag Loisgte, son nom signifie « roche brûlée ».",
+      "html": "<p>La capitale du Royaume de Fer, un archipel situé à l&#39;ouest de Valisthéa.</p><p>Creag Loisgte se trouve sur Iaranntolm, la principale île du pays, dans la mer Frémissante. L&#39;endonyme « iaranni », que les Ferrégiens utilisent pour s&#39;auto-désigner dans leur langue, provient du nom de l&#39;île. Quant à la ville de Creag Loisgte, son nom signifie « roche brûlée ».</p>",
       "caption": "",
       "public": "OFF"
     }

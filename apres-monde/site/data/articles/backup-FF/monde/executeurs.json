@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 69,
-  "source": "base",
   "pages": [
     {
-      "text": "Une coterie qui s'est arrogé le droit de sceller ou détruire tout livre qu'ils jugent trop dangereux pour l'humanité.\n\nIls s'imaginent ainsi protéger le peuple en effaçant toute version de l'Histoire déviant de celle qui domine. Ils étaient dernièrement à Garnakur dans le Gris-Levant afin de récupérer un exemplaire du <i>Tiers Regard</i>, un ouvrage révélant la vérité sur les Pourvoyeurs.",
+      "html": "<p>Une coterie qui s&#39;est arrogé le droit de sceller ou détruire tout livre qu&#39;ils jugent trop dangereux pour l&#39;humanité.</p><p>Ils s&#39;imaginent ainsi protéger le peuple en effaçant toute version de l&#39;Histoire déviant de celle qui domine. Ils étaient dernièrement à Garnakur dans le Gris-Levant afin de récupérer un exemplaire du &lt;i&gt;Tiers Regard&lt;/i&gt;, un ouvrage révélant la vérité sur les Pourvoyeurs.</p>",
       "caption": "",
       "public": "OFF"
     }

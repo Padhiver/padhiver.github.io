@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 40,
-  "source": "base",
   "pages": [
     {
-      "text": "Des arachnides dotés d'un aiguillon et d'une paire de pédipalpes préhensiles.\n\nIls immobilisent leur proie avec leurs énormes pinces, puis enfoncent leur dard afin d'injecter un puissant venin. Ce dernier n'a étonnamment que peu d'effet sur les humains, malgré la terrifiante posture d'attaque qui précède son injection. Ils préfèrent les régions chaudes, un trait que les marchands gardent à l'esprit lorsqu'ils traversent les déserts dalmèques ou passent près de volcans.",
+      "html": "<p>Des arachnides dotés d&#39;un aiguillon et d&#39;une paire de pédipalpes préhensiles.</p><p>Ils immobilisent leur proie avec leurs énormes pinces, puis enfoncent leur dard afin d&#39;injecter un puissant venin. Ce dernier n&#39;a étonnamment que peu d&#39;effet sur les humains, malgré la terrifiante posture d&#39;attaque qui précède son injection. Ils préfèrent les régions chaudes, un trait que les marchands gardent à l&#39;esprit lorsqu&#39;ils traversent les déserts dalmèques ou passent près de volcans.</p>",
       "caption": "",
       "public": "OFF"
     }

@@ -5,15 +5,14 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 21,
-  "source": "rising-tide",
   "pages": [
     {
-      "text": "Un dispositif servant à projeter le sort d'arrêt du temps, Gel.\n\nIl se trouve au cœur de ruines anciennes sur un plateau dans les hauteurs de Mysidia. Il est donc nécessaire de se rendre dans ces ruines, appelées Cité suspendue, pour manipuler le sort.",
+      "html": "<p>Un dispositif servant à projeter le sort d&#39;arrêt du temps, Gel.</p><p>Il se trouve au cœur de ruines anciennes sur un plateau dans les hauteurs de Mysidia. Il est donc nécessaire de se rendre dans ces ruines, appelées Cité suspendue, pour manipuler le sort.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "Un dispositif servant à projeter le sort d'arrêt du temps, Gel.\n\nIl se trouve au cœur de la Cité suspendue, dans les hauteurs de Mysidia. Le dispositif ressemble à une tour enchâssée de cristal. Pendant quatre-vingts ans, il a figé dans le temps Waleas et la Déferlante de Nepto, ainsi que la Cité suspendue elle-même.",
+      "html": "<p>Un dispositif servant à projeter le sort d&#39;arrêt du temps, Gel.</p><p>Il se trouve au cœur de la Cité suspendue, dans les hauteurs de Mysidia. Le dispositif ressemble à une tour enchâssée de cristal. Pendant quatre-vingts ans, il a figé dans le temps Waleas et la Déferlante de Nepto, ainsi que la Cité suspendue elle-même.</p>",
       "caption": "Révélation",
       "public": "OFF"
     }

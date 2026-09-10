@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 21,
-  "source": "rising-tide",
   "pages": [
     {
-      "text": "Une mer intérieure située entre le Saint-Empire de Sangbrèque et les anciens Territoires du Nord.\n\nEn raison de sa proximité avec la capitale impériale Oriflamme, la zone faisait jadis l'objet d'une surveillance rapprochée, et des tours de guet y avaient été installées. Avec la progression du Fléau noir, les tensions avec les Territoires du Nord se sont apaisées et les nations se sont désintéressées de la baie, qui est aujourd'hui peu fréquentée.",
+      "html": "<p>Une mer intérieure située entre le Saint-Empire de Sangbrèque et les anciens Territoires du Nord.</p><p>En raison de sa proximité avec la capitale impériale Oriflamme, la zone faisait jadis l&#39;objet d&#39;une surveillance rapprochée, et des tours de guet y avaient été installées. Avec la progression du Fléau noir, les tensions avec les Territoires du Nord se sont apaisées et les nations se sont désintéressées de la baie, qui est aujourd&#39;hui peu fréquentée.</p>",
       "caption": "Généralités",
       "public": "OFF"
     }

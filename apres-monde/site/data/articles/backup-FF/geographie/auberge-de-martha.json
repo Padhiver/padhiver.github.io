@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 75,
-  "source": "base",
   "pages": [
     {
-      "text": "Un hameau qui s'est développé autour d'une auberge, situé dans le sud-est de la province impériale de Rosalia.\n\nBâti en hauteur dans une zone marécageuse, le village se compose de l'auberge proprement dite, autour de laquelle ont été dressées quelques constructions, dont des baraquements et un marché.",
+      "html": "<p>Un hameau qui s&#39;est développé autour d&#39;une auberge, situé dans le sud-est de la province impériale de Rosalia.</p><p>Bâti en hauteur dans une zone marécageuse, le village se compose de l&#39;auberge proprement dite, autour de laquelle ont été dressées quelques constructions, dont des baraquements et un marché.</p>",
       "caption": "",
       "public": "OFF"
     }

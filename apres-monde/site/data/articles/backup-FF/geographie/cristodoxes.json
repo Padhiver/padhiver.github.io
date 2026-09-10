@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 129,
-  "source": "base",
   "pages": [
     {
-      "text": "Les croyants d'une religion du Royaume de Fer qui s'organise autour de prêtres et d'un grand prêtre.\n\nAyant élevé le Cristal-mère au rang de divinité, ils interdisent l'utilisation de la magie, et par extension de sa source, l'éther. Ainsi, leur dogme se montre particulièrement cruel envers les Pourvoyeurs qui en font naturellement usage.",
+      "html": "<p>Les croyants d&#39;une religion du Royaume de Fer qui s&#39;organise autour de prêtres et d&#39;un grand prêtre.</p><p>Ayant élevé le Cristal-mère au rang de divinité, ils interdisent l&#39;utilisation de la magie, et par extension de sa source, l&#39;éther. Ainsi, leur dogme se montre particulièrement cruel envers les Pourvoyeurs qui en font naturellement usage.</p>",
       "caption": "",
       "public": "OFF"
     }

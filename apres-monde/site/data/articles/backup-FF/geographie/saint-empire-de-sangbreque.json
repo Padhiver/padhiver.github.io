@@ -5,10 +5,9 @@
   "public": "ON",
   "date": "2026-08-08",
   "order": 121,
-  "source": "base",
   "pages": [
     {
-      "text": "Un empire situé au nord-est du Vert-Ponant et dont la capitale est Oriflamme.\n\nCette théocratie, qui est d'ailleurs la plus grande de tout Valisthéa, détient le Cristal-mère de Chefdrac. Le pays est dirigé par une Impératrice entourée de hiérophantes, et ses habitants vouent un culte à Gwéligore, leur déesse unique. Le Saint-Empire vit dans l'opulence grâce à l'éther diffusé par Chefdrac.",
+      "html": "<p>Un empire situé au nord-est du Vert-Ponant et dont la capitale est Oriflamme.</p><p>Cette théocratie, qui est d&#39;ailleurs la plus grande de tout Valisthéa, détient le Cristal-mère de Chefdrac. Le pays est dirigé par une Impératrice entourée de hiérophantes, et ses habitants vouent un culte à Gwéligore, leur déesse unique. Le Saint-Empire vit dans l&#39;opulence grâce à l&#39;éther diffusé par Chefdrac.</p>",
       "caption": "Généralités",
       "public": "ON"
     }

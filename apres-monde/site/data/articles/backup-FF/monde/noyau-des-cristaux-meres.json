@@ -5,15 +5,14 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 42,
-  "source": "base",
   "pages": [
     {
-      "text": "La partie d'un Cristal-mère abritant son essence la plus pure.\n\nS'il venait à être détruit, le cristal se briserait avec lui et disparaîtrait à jamais. Voilà pourquoi des sanctuaires ancestraux ont été bâtis autour de ces points faibles pour les protéger et permettre leur culte.",
+      "html": "<p>La partie d&#39;un Cristal-mère abritant son essence la plus pure.</p><p>S&#39;il venait à être détruit, le cristal se briserait avec lui et disparaîtrait à jamais. Voilà pourquoi des sanctuaires ancestraux ont été bâtis autour de ces points faibles pour les protéger et permettre leur culte.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "La partie d'un Cristal-mère abritant son essence la plus pure.\n\nS'il venait à être détruit, le cristal se briserait avec lui et disparaîtrait à jamais. Voilà pourquoi des sanctuaires ancestraux ont été bâtis autour de ces points faibles pour les protéger et permettre leur culte. Chacun d'eux possède son propre système de défense magique afin d'éliminer les intrus.",
+      "html": "<p>La partie d&#39;un Cristal-mère abritant son essence la plus pure.</p><p>S&#39;il venait à être détruit, le cristal se briserait avec lui et disparaîtrait à jamais. Voilà pourquoi des sanctuaires ancestraux ont été bâtis autour de ces points faibles pour les protéger et permettre leur culte. Chacun d&#39;eux possède son propre système de défense magique afin d&#39;éliminer les intrus.</p>",
       "caption": "Système de défense",
       "public": "OFF"
     }

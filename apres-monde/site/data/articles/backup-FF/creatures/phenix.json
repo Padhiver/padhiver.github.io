@@ -5,20 +5,19 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 52,
-  "source": "base",
   "pages": [
     {
-      "text": "Le Primordial du feu qui a pour Émissaire Joshua Rosfield.\n\nL'Oiseau de feu est révéré dans tout Rosalia, car la légende voudrait que cette entité magique se manifeste pour protéger le pays lorsqu'il est menacé.",
+      "html": "<p>Le Primordial du feu qui a pour Émissaire Joshua Rosfield.</p><p>L&#39;Oiseau de feu est révéré dans tout Rosalia, car la légende voudrait que cette entité magique se manifeste pour protéger le pays lorsqu&#39;il est menacé.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "Le Primordial du feu qui a pour Émissaire Joshua Rosfield.\n\nCette créature magique ne s'incarnerait qu'au sein du peuple du Feu, une ethnie ancestrale dont les Rosfield sont les descendants. En l'an 860, Phénix a brûlé de mille feux lors de l'attaque du fort qui porte son nom, mais personne ne l'a aperçu depuis.",
+      "html": "<p>Le Primordial du feu qui a pour Émissaire Joshua Rosfield.</p><p>Cette créature magique ne s&#39;incarnerait qu&#39;au sein du peuple du Feu, une ethnie ancestrale dont les Rosfield sont les descendants. En l&#39;an 860, Phénix a brûlé de mille feux lors de l&#39;attaque du fort qui porte son nom, mais personne ne l&#39;a aperçu depuis.</p>",
       "caption": "Révélation",
       "public": "OFF"
     },
     {
-      "text": "Le Primordial du feu qui a pour Émissaire Joshua Rosfield.\n\nPhénix a brûlé de mille feux lors de l'attaque du fort qui porte son nom, et personne ne l'avait aperçu depuis. Ce n'est qu'après dix-huit ans qu'il a réapparu au moment des événements qui ont bouleversé le Dominion du Cristal. Il peut soigner les blessures et régénérer la chair grâce à de puissants sorts de guérison comme « Feu résurrecteur ».",
+      "html": "<p>Le Primordial du feu qui a pour Émissaire Joshua Rosfield.</p><p>Phénix a brûlé de mille feux lors de l&#39;attaque du fort qui porte son nom, et personne ne l&#39;avait aperçu depuis. Ce n&#39;est qu&#39;après dix-huit ans qu&#39;il a réapparu au moment des événements qui ont bouleversé le Dominion du Cristal. Il peut soigner les blessures et régénérer la chair grâce à de puissants sorts de guérison comme « Feu résurrecteur ».</p>",
       "caption": "Addendum",
       "public": "OFF"
     }

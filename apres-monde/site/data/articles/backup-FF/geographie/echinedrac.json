@@ -5,15 +5,14 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 12,
-  "source": "base",
   "pages": [
     {
-      "text": "Un Cristal-mère qui appartient au royaume de Valœd.\n\nSa surface fait penser à de rugueuses falaises, et l'intérieur est accessible grâce à un pont reliant Échinedrac à Steinnhyrr, la capitale du royaume de Valœd. C'est le seul Cristal-mère encore intact au Gris-Levant, mais Valœd ne peut pas se permettre de le soumettre à une exploitation minière intensive. Le royaume dépend donc des importations.",
+      "html": "<p>Un Cristal-mère qui appartient au royaume de Valœd.</p><p>Sa surface fait penser à de rugueuses falaises, et l&#39;intérieur est accessible grâce à un pont reliant Échinedrac à Steinnhyrr, la capitale du royaume de Valœd. C&#39;est le seul Cristal-mère encore intact au Gris-Levant, mais Valœd ne peut pas se permettre de le soumettre à une exploitation minière intensive. Le royaume dépend donc des importations.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "Un Cristal-mère qui appartenait autrefois au royaume de Valœd.\n\nC'était le dernier Cristal-mère encore intact après la destruction de Caudrac, mais il disparaît lors d'une bataille qui oppose Clive à Ultima. Cet événement marque la fin de l'existence des Cristaux-mères dans tout Valisthéa.",
+      "html": "<p>Un Cristal-mère qui appartenait autrefois au royaume de Valœd.</p><p>C&#39;était le dernier Cristal-mère encore intact après la destruction de Caudrac, mais il disparaît lors d&#39;une bataille qui oppose Clive à Ultima. Cet événement marque la fin de l&#39;existence des Cristaux-mères dans tout Valisthéa.</p>",
       "caption": "Destruction d'Échinedrac",
       "public": "OFF"
     }

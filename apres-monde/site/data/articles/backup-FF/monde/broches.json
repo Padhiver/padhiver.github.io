@@ -5,10 +5,9 @@
   "public": "ON",
   "date": "2026-08-08",
   "order": 56,
-  "source": "base",
   "pages": [
     {
-      "text": "Des accessoires donnés par des personnes à certains de leurs sympathisants pour indiquer qu'ils sont dignes de confiance.\n\nCe sont en général des individus influents dans des villes ou des hameaux, qui se servent de ces broches en guise de signe de reconnaissance. Leur porteur peut parfois se voir confier des tâches difficiles, ou tout simplement se déplacer librement et sans maître s'il s'agit d'un Pourvoyeur.",
+      "html": "<p>Des accessoires donnés par des personnes à certains de leurs sympathisants pour indiquer qu&#39;ils sont dignes de confiance.</p><p>Ce sont en général des individus influents dans des villes ou des hameaux, qui se servent de ces broches en guise de signe de reconnaissance. Leur porteur peut parfois se voir confier des tâches difficiles, ou tout simplement se déplacer librement et sans maître s&#39;il s&#39;agit d&#39;un Pourvoyeur.</p>",
       "caption": "",
       "public": "ON"
     }

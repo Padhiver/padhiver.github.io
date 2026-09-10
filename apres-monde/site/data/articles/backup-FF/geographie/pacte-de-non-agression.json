@@ -5,10 +5,9 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 108,
-  "source": "base",
   "pages": [
     {
-      "text": "Un pacte signé par les nations valisthéennes dans le but de préserver le Dominion du Cristal de toute tentative d'invasion.\n\nL'importance stratégique et la position centrale de Caudrac, le Cristal-mère du Dominion, ont toujours attiré les convoitises des nations du Vert-Ponant comme du Gris-Levant. En le mettant hors d'atteinte, ce pacte équilibre donc la situation politique et militaire.",
+      "html": "<p>Un pacte signé par les nations valisthéennes dans le but de préserver le Dominion du Cristal de toute tentative d&#39;invasion.</p><p>L&#39;importance stratégique et la position centrale de Caudrac, le Cristal-mère du Dominion, ont toujours attiré les convoitises des nations du Vert-Ponant comme du Gris-Levant. En le mettant hors d&#39;atteinte, ce pacte équilibre donc la situation politique et militaire.</p>",
       "caption": "",
       "public": "OFF"
     }

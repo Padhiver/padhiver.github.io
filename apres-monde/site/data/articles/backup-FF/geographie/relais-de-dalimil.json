@@ -5,15 +5,14 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 113,
-  "source": "base",
   "pages": [
     {
-      "text": "Un village situé dans l'ouest de la république de Dalméquie.\n\nVéritable oasis au cœur du désert de Velkýroj, la bourgade abrite entre autres des étals proposant des marchandises variées, des endroits où se restaurer, ou encore des maisons closes. Étant proche de Crocdrac, l'endroit est également réputé pour ses thermes.",
+      "html": "<p>Un village situé dans l&#39;ouest de la république de Dalméquie.</p><p>Véritable oasis au cœur du désert de Velkýroj, la bourgade abrite entre autres des étals proposant des marchandises variées, des endroits où se restaurer, ou encore des maisons closes. Étant proche de Crocdrac, l&#39;endroit est également réputé pour ses thermes.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "Un village situé à l'ouest de la république de Dalméquie.\n\nLes visiteurs s'y faisaient rares après la chute de Crocdrac, à l'inverse des bandits qui pullulaient. Cependant, grâce à la coopération de Clive et Lubor, les villageois ont réussi à créer une milice d'autodéfense et une brigade de soutien afin de se débarrasser de ces brigands devenus éthériques. Maintenant chef du village, Lubor espère bien que la population se dirige vers un avenir radieux.",
+      "html": "<p>Un village situé à l&#39;ouest de la république de Dalméquie.</p><p>Les visiteurs s&#39;y faisaient rares après la chute de Crocdrac, à l&#39;inverse des bandits qui pullulaient. Cependant, grâce à la coopération de Clive et Lubor, les villageois ont réussi à créer une milice d&#39;autodéfense et une brigade de soutien afin de se débarrasser de ces brigands devenus éthériques. Maintenant chef du village, Lubor espère bien que la population se dirige vers un avenir radieux.</p>",
       "caption": "Dalimil sous la houlette de Lubor",
       "public": "OFF"
     }

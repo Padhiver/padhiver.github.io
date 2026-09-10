@@ -5,25 +5,24 @@
   "public": "OFF",
   "date": "2026-08-08",
   "order": 6,
-  "source": "base",
   "pages": [
     {
-      "text": "Une civilisation avancée qui était florissante dans un passé lointain.\n\nSes présumés vestiges se trouvent éparpillés aux quatre coins de Valisthéa. Ces structures ont été construites avec des matériaux d'une dureté inégalée qu'il est impossible de reproduire avec les techniques actuelles. Il arrive donc qu'elles servent de base pour la construction d'habitations au vu de leurs particularités.",
+      "html": "<p>Une civilisation avancée qui était florissante dans un passé lointain.</p><p>Ses présumés vestiges se trouvent éparpillés aux quatre coins de Valisthéa. Ces structures ont été construites avec des matériaux d&#39;une dureté inégalée qu&#39;il est impossible de reproduire avec les techniques actuelles. Il arrive donc qu&#39;elles servent de base pour la construction d&#39;habitations au vu de leurs particularités.</p>",
       "caption": "Généralités",
       "public": "OFF"
     },
     {
-      "text": "Une civilisation avancée qui était florissante dans un passé lointain.\n\nSes présumés vestiges se trouvent éparpillés aux quatre coins de Valisthéa et seraient des restes d'aéronefs qui volaient autrefois dans le ciel. Ces structures ont été construites avec des matériaux d'une dureté inégalée qu'il est impossible de reproduire avec les techniques actuelles. Elles sont cependant victimes du temps et leur vieillissement pourrait être la cause d'effondrements. C'est pour cette raison que des travaux de rénovation sont régulièrement effectués dans les habitations pour lesquelles elles servent de base.",
+      "html": "<p>Une civilisation avancée qui était florissante dans un passé lointain.</p><p>Ses présumés vestiges se trouvent éparpillés aux quatre coins de Valisthéa et seraient des restes d&#39;aéronefs qui volaient autrefois dans le ciel. Ces structures ont été construites avec des matériaux d&#39;une dureté inégalée qu&#39;il est impossible de reproduire avec les techniques actuelles. Elles sont cependant victimes du temps et leur vieillissement pourrait être la cause d&#39;effondrements. C&#39;est pour cette raison que des travaux de rénovation sont régulièrement effectués dans les habitations pour lesquelles elles servent de base.</p>",
       "caption": "Le vieillissement des ruines",
       "public": "OFF"
     },
     {
-      "text": "Une civilisation avancée qui était florissante il y a plusieurs millénaires.\n\nLes savants l'appellent la « civilisation magitech » car son peuple avait développé une technologie utilisant la magie comme force motrice. Grâce à leur ingénierie, ils étaient même parvenus à construire des aéronefs et des cités flottant dans le ciel, faisant fortement penser aux vestiges du peuple d'Ultima. Les humains désirant toujours plus de pouvoir, une guerre dévastatrice aboutissant sur la « tragédie de Dzemekys » a éclaté et causé la perte de cette civilisation.",
+      "html": "<p>Une civilisation avancée qui était florissante il y a plusieurs millénaires.</p><p>Les savants l&#39;appellent la « civilisation magitech » car son peuple avait développé une technologie utilisant la magie comme force motrice. Grâce à leur ingénierie, ils étaient même parvenus à construire des aéronefs et des cités flottant dans le ciel, faisant fortement penser aux vestiges du peuple d&#39;Ultima. Les humains désirant toujours plus de pouvoir, une guerre dévastatrice aboutissant sur la « tragédie de Dzemekys » a éclaté et causé la perte de cette civilisation.</p>",
       "caption": "Révélation",
       "public": "OFF"
     },
     {
-      "text": "Une civilisation avancée qui s'est épanouie grâce à l'ingéniosité humaine il y a plusieurs millénaires.\n\nLes humains de l'époque ont cherché à reproduire la technologie d'Ultima et ont ainsi donné naissance à leur propre technologie dite « magitech ». Elle leur a non seulement permis de construire des cités volantes, mais aussi des imitations de Cristaux-mères et de Primordiaux. C'est toutefois ce désir de se rapprocher du divin qui a fini par entraîner leur déclin. ",
+      "html": "<p>Une civilisation avancée qui s&#39;est épanouie grâce à l&#39;ingéniosité humaine il y a plusieurs millénaires.</p><p>Les humains de l&#39;époque ont cherché à reproduire la technologie d&#39;Ultima et ont ainsi donné naissance à leur propre technologie dite « magitech ». Elle leur a non seulement permis de construire des cités volantes, mais aussi des imitations de Cristaux-mères et de Primordiaux. C&#39;est toutefois ce désir de se rapprocher du divin qui a fini par entraîner leur déclin.</p>",
       "caption": "Défi au créateur",
       "public": "OFF"
     }
